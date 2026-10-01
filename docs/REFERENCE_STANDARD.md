@@ -47,7 +47,12 @@ Every reference entry must record:
 - confidence;
 - licensing/reuse note.
 
-Do not commit copyrighted source images unless redistribution is permitted. When in doubt, store the URL/metadata and local-only filename, not the media itself.
+The user explicitly instructed GitHub storage of self-captured CS2 study
+screenshots on 2026-10-01. Commit these reviewed images to reference/images/<area>/
+for the internal benchmark, alongside provenance/poses/hashes. Exclude unrelated
+desktop content. Keep third-party downloaded media as URL metadata unless its
+reuse is cleared. This instruction does not authorize extracted proprietary assets
+or public release of the faithful benchmark.
 
 ## Measurement discipline
 

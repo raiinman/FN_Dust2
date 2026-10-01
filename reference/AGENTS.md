@@ -6,7 +6,8 @@ Own reference provenance, area taxonomy, measurement inputs, and truth-map artif
 
 ## Ownership
 
-This folder contains reference metadata and derived measurement records. Avoid committing third-party media unless redistribution is permitted.
+This folder contains reference metadata, derived measurements and user-authorized
+self-captured CS2 study screenshots for the internal benchmark.
 
 - `SOURCE_REVISION.md` pins the installed benchmark and revision checks.
 - `REFERENCE_MANIFEST.csv` owns provenance; URL discovery alone is not view coverage.
@@ -22,15 +23,51 @@ This folder contains reference metadata and derived measurement records. Avoid c
 - `CAPTURE_CTSPAWN_DISCOVERY.json` records the first inspected world reference;
   missing pose prevents use as a locked comparison camera or numeric evidence.
 
+- `CAPTURE_CT_RECOVERY.json` records reviewed persistent-connection captures,
+  exact source poses and local-only hashes; coverage/FOV limitations remain explicit.
+
+- `CAPTURE_DISCOVERY_BATCH.json` records inspected A/B/Catwalk/overhead views,
+  poses, configured FOV and limitations.
+- `CAPTURE_ROUTE_BATCH.json` records reviewed route images and rejected camera
+  attempts; rejected poses are not usable coverage.
+- `CT_COLLISION_PLAN.svg` diagrams native collision chords, not whole-map bounds.
+- `SOURCE_CAMERAS.csv` registers raw source poses separately from Unreal QA
+  cameras; units and FOV uncertainty remain explicit.
+- `COVERAGE_MATRIX.csv` owns remaining per-area Gate 1 reference work.
+- `images/` contains GitHub-visible study screenshots, organized by named area.
+- `RAW_DIMENSIONS.csv` contains native collision chords, separate from the
+  canonical centimeter production register.
+- `RAW_SURFACE_PROBES.json` records repeated source-unit collision observations;
+  it is not centimeter calibration.
+
+- `TRACE_ORIGIN.md` and `TRACE_ORIGIN_DIAGNOSTIC.json` own the empirical
+  zero-roll cast_ray origin model, repeat evidence and remaining limitations.
+
+- `CAPTURE_GATE1_SURVEY.json` records reviewed Mid/CT Mid/B portal views and
+  rejects, including unresolved Top Mid/Suicide callout extent.
+- `ELEVATION_PROBES.json` owns offset-corrected floor/overhead probe reports.
+- `FLOOR_DATUMS.csv` and `FLOOR_DATUM_PLAN.svg` are reproducible native-unit
+  point evidence, not a continuous floor surface or full-map truth boundary.
+
 ## Local Contracts
 
+- `CAPTURE_PLAN_GATE1.json` defines native floor-relative camera requests.
+  `DIRECTIONAL_REVIEW_GATE1.json` records inspected per-view limits;
+  `CAPTURE_DIRECTIONAL_GATE1.json` joins reviewed frames to source poses/hashes.
+  Five source-axis views at one point do not certify whole-area coverage.
+- `WALK_PROBES.json` preserves collision-enabled route attempts separately from
+  topology acceptance. A blocked waypoint is an inspected attempt, not proof
+  that the map edge is absent. Only reviewed complete paths support walking.
 - Every reference must have provenance.
 - Every measurement must carry confidence.
 - Separate observed facts from inference.
 - Use named-area taxonomy from `docs/REFERENCE_STANDARD.md`.
 - Do not store ripped proprietary game assets.
-- Capture media stays outside Git unless reuse is cleared. Commit metadata,
-  hashes, camera poses and derived measurements instead.
+- User explicitly requested self-captured reference screenshots on GitHub. Store
+  reviewed images under images/<area>/ with pose, hash and provenance. Raw TGA,
+  console logs, loading screens and unrelated desktop screenshots stay outside Git.
+- This scoped storage instruction does not authorize extraction of game assets
+  or public benchmark release. Third-party downloaded media requires separate clearance.
 
 ## Work Guidance
 

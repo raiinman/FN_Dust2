@@ -50,12 +50,15 @@ The Unreal master should target:
 - detailed hero areas without visual noise that destroys combat readability;
 - high-resolution source materials where the camera can justify them.
 
-"Ultra 4K" is an appearance target, not a requirement that every texture be 4096².
+"Ultra 4K" is an appearance target, not a requirement that every texture be 4096Â².
 
 ## Copyright / publishing boundary
 
 - Do not commit ripped Counter-Strike assets.
-- Do not redistribute proprietary Valve content.
+- Do not redistribute extracted proprietary Valve content.
+- User-authorized self-captured study screenshots are stored for this internal
+  benchmark under reference/images/ with provenance; no public release clearance
+  is implied by screenshot storage.
 - Rebuild geometry and materials with original work or assets with appropriate licenses.
 - Use the faithful recreation as an internal benchmark unless publishing rights/compliance are separately cleared.
 - A later public island may need original visual identity even if this benchmark proves the production pipeline.

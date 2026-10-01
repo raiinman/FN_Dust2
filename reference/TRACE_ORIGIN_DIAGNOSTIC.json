@@ -1,0 +1,141 @@
+{
+  "timestamp_utc": "2026-10-01T10:39:47.755946+00:00",
+  "source_map": "de_dust2",
+  "source_build": "25640462",
+  "unit": "source_units",
+  "initial_pose": "setpos_exact 160.122742 2369.676270 -119.918701;setang_exact 45.000000 0.000000 0.000000",
+  "hypothesis": "trace_origin = getpos_xyz + 64 * camera_up; zero roll",
+  "observations": [
+    {
+      "pitch": 45,
+      "yaw": 0,
+      "repeat": 1,
+      "observed_pose": "setpos_exact 160.122742 2369.676270 -119.918701;setang_exact 45.000000 0.000000 0.000000",
+      "hit": [
+        252.24,
+        2369.68,
+        -121.52
+      ],
+      "implied_up_offset": 64.00444841450353,
+      "hypothesis_perpendicular_residual": 0.005805281353603982,
+      "hit_description": [
+        "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 156842"
+      ]
+    },
+    {
+      "pitch": 45,
+      "yaw": 0,
+      "repeat": 2,
+      "observed_pose": "setpos_exact 160.122742 2369.676270 -119.918701;setang_exact 45.000000 0.000000 0.000000",
+      "hit": [
+        252.24,
+        2369.68,
+        -121.52
+      ],
+      "implied_up_offset": 64.00444841450353,
+      "hypothesis_perpendicular_residual": 0.005805281353603982,
+      "hit_description": [
+        "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 156842"
+      ]
+    },
+    {
+      "pitch": -45,
+      "yaw": 0,
+      "repeat": 1,
+      "observed_pose": "setpos_exact 160.122742 2369.676270 -119.918701;setang_exact -45.000000 0.000000 0.000000",
+      "hit": [
+        236.59,
+        2369.68,
+        47.06
+      ],
+      "implied_up_offset": 64.00125512027967,
+      "hypothesis_perpendicular_residual": 0.003935508469780665,
+      "hit_description": [
+        "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+      ]
+    },
+    {
+      "pitch": -45,
+      "yaw": 0,
+      "repeat": 2,
+      "observed_pose": "setpos_exact 160.122742 2369.676270 -119.918701;setang_exact -45.000000 0.000000 0.000000",
+      "hit": [
+        236.59,
+        2369.68,
+        47.06
+      ],
+      "implied_up_offset": 64.00125512027967,
+      "hypothesis_perpendicular_residual": 0.003935508469780665,
+      "hit_description": [
+        "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+      ]
+    },
+    {
+      "pitch": 45,
+      "yaw": 90,
+      "repeat": 1,
+      "observed_pose": "setpos_exact 160.122742 2369.676270 -119.918701;setang_exact 45.000000 90.000000 0.000000",
+      "hit": [
+        160.12,
+        2461.22,
+        -120.95
+      ],
+      "implied_up_offset": 64.00195374177939,
+      "hypothesis_perpendicular_residual": 0.0033668488146482004,
+      "hit_description": [
+        "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 157018"
+      ]
+    },
+    {
+      "pitch": 45,
+      "yaw": 90,
+      "repeat": 2,
+      "observed_pose": "setpos_exact 160.122742 2369.676270 -119.918701;setang_exact 45.000000 90.000000 0.000000",
+      "hit": [
+        160.12,
+        2461.22,
+        -120.95
+      ],
+      "implied_up_offset": 64.00195374177939,
+      "hypothesis_perpendicular_residual": 0.0033668488146482004,
+      "hit_description": [
+        "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 157018"
+      ]
+    },
+    {
+      "pitch": -45,
+      "yaw": 90,
+      "repeat": 1,
+      "observed_pose": "setpos_exact 160.122742 2369.676270 -119.918701;setang_exact -45.000000 90.000000 0.000000",
+      "hit": [
+        160.12,
+        2451.95,
+        52.86
+      ],
+      "implied_up_offset": 63.99667872519192,
+      "hypothesis_perpendicular_residual": 0.004306904961846881,
+      "hit_description": [
+        "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+      ]
+    },
+    {
+      "pitch": -45,
+      "yaw": 90,
+      "repeat": 2,
+      "observed_pose": "setpos_exact 160.122742 2369.676270 -119.918701;setang_exact -45.000000 90.000000 0.000000",
+      "hit": [
+        160.12,
+        2451.95,
+        52.86
+      ],
+      "implied_up_offset": 63.99667872519192,
+      "hypothesis_perpendicular_residual": 0.004306904961846881,
+      "hit_description": [
+        "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+      ]
+    }
+  ],
+  "accepted_for_production": false,
+  "restored_pose": "setpos_exact 160.122742 2369.676270 -119.918701;setang_exact 45.000000 0.000000 0.000000",
+  "status": "complete; empirical zero-roll model only; physical scale unresolved"
+}
