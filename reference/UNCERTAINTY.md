@@ -29,9 +29,9 @@ source uncertainty. A +/-3% modeling tolerance does not validate an invented num
 
 Recovery walking review: Pit ramp, Upper Tunnels-to-B exit, Long Doors through
 both portals, B Doors and Long A-to-A Site passed both directions with collision on at reduced speed. Short upper landing-to-A Site and full Catwalk-to-Short stair flight now pass both directions too.
-Fifteen surveyed paths now pass both directions, including Mid/CT/Under A and
+Twenty surveyed paths now pass both directions, including Mid/CT/Under A and
 Tunnel Stairs. Failed plans remain preserved; remaining paths and all special traversals require
 verification. Walking observations do not establish physical scale;
 SCALE_CALIBRATION.json records the separate current-build rangefinder evidence.
 
-Pit recovery: four clean reviewed frames now show actual ramp/floor context. A collision walk passed in both directions between source(1400,350) and(1400,950), reduced speed80 and arrival20. Side Pit terrace-to-Pit edge is not yet tested. Opposing concrete retaining-wall faces at source y350/z-90 repeat exactly at x1272 and1592, yielding812.8cm. Ramp sample stationsy350/y700 rise309.6768cm across889cm horizontal; these are sample endpoints, not total ramp endpoints. Physical-scale evidence in SCALE_CALIBRATION.json supersedes the earlier unresolved lookup, while render/collision and coverage limitations remain.
+Pit recovery: four clean reviewed frames now show actual ramp/floor context. A collision walk passed in both directions between source(1400,350) and(1400,950), reduced speed80 and arrival20. Direct Side Pit-to-Pit ground attempt stopped at the parapet; a grounded approach/jump/drop succeeded once in private003, with repeat/reverse classification pending. Opposing concrete retaining-wall faces at source y350/z-90 repeat exactly at x1272 and1592, yielding812.8cm. Ramp sample stationsy350/y700 rise309.6768cm across889cm horizontal; these are sample endpoints, not total ramp endpoints. Physical-scale evidence in SCALE_CALIBRATION.json supersedes the earlier unresolved lookup, while render/collision and coverage limitations remain.

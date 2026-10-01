@@ -24,7 +24,7 @@ The latest repository commit pins this checkpoint; fetch/check main before resum
  feature measurements. Short has12 independently counted rendered risers and
  repeated center face rays; center run359.6132cm, sampled rise234.3912cm.
  SHORT_STAIR_FLIGHT/ANNOTATED retain individual spacing and limits.
-- 15 surveyed paths accepted both directions in WALK_PROBES, including Mid,
+- 20 surveyed paths accepted both directions in WALK_PROBES, including Mid,
  CT Spawn/Under A, Tunnel Stairs, Lower Tunnels-to-Mid and T Spawn-to-Outside Long.
  Reduced speed80 and arrival tolerance recorded. Failed plans are preserved.
  All four special jump/drop/boost connections remain unverified.
@@ -55,16 +55,20 @@ changing failed plans. Opening other tools interrupted an earlier walk.
 
 ## Active work / next action
 
-TSPAWN_TO_OUTSIDE_TUNNELS_RECOVERY_003.json is currently running privately under
-../reference_cache/crash_recovery_survey/. Inspect status, cleanup and actual
-last pose before resume. First plan hit the retaining wall at source(-1788,-660);
-second plan hit parked car at source(-1836,-900). Third plan bends around its
-north side at Y-750 before the western ramp at X-2050. It ends in the outside
-courtyard(-1700,600), not the old ledge station. Return route has not started.
-The east spawn/Outside Long path passed both directions. Latest camera pose and
-movement are in the active report; do not trust an older static pose.
+Twenty ground paths now pass both directions, including both spawn branches,
+Upper Tunnels entrance, Top Mid/Outside Long, Long Corner/Long A and the raised
+Side Pit north stair approach. SIDE_PIT_TO_PIT_GROUND_RECOVERY_001 stopped at
+the west parapet. SIDE_PIT_PARAPET_JUMP_001 started in collision and is invalid;
+002 landed before the lip; 003 used a continuous grounded approach, jumped over
+the lip and landed in Pit. Reverse and repeated special traversal remain pending.
+All three private command/pose reports are preserved; no E27 acceptance yet.
 
-1. Finish western spawn/T Ramp/Outside Tunnels and Upper entrance ground paths.
+Serial capture controller currently active: courtyard_mid_capture_plan.json,
+output ../reference_cache/crash_recovery_survey/courtyard_mid/. Inspect its
+survey_progress.json and every capture before reuse/registration. Do not issue
+another pose controller until it stops. Last pose is in its latest capture.
+
+1. Finish courtyard/Mid/CT directional survey and direct Pit traversal review.
 2. Fill remaining COVERAGE_MATRIX views and structural endpoints, room/cover
  spans, tunnel stairs and ramp profiles. D044 Short count/center rise/run now
  accepted; width interpolation and render/collision bounds remain separate.
