@@ -44,3 +44,19 @@ was pending have no verified execution.
 Raw logs and user screenshots remain outside Git; they contain unrelated
 desktop content and account/network identifiers. Only reviewed excerpts appear
 here. No game assets were extracted or committed.
+
+## Capture recovery checkpoint
+
+After relaunch, `FN_DUST2_RECONNECT` was verified and de_dust2 loaded again.
+`screenshot fn_dust2_initial` wrote relative files under the addon's screenshots
+directory. The inspected second image is 1280x720 and shows the Dust II loading
+screen. **Capture transport worked; usable area reference FAIL.** Metadata/hashes
+are recorded in `reference/CAPTURE_PREFLIGHT.json`; media remains local-only.
+
+The first `cs2_capture.py` integration attempt used an uppercase screenshot ID;
+it returned no screenshot reply. A subsequent pose-only attempt returned no
+pose. Host inspection then found CS2 running with MainWindowTitle `Error` and
+no live echo replies. The dialog text/cause is unverified. Do not assume it is
+the same absolute-path failure. Helper now emits lowercase names and uses
+longer observation windows, but neither change has been live-verified.
+Resolve the dialog before another test. No acceptance gate advanced.

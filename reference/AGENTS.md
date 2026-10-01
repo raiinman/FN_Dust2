@@ -17,6 +17,8 @@ This folder contains reference metadata and derived measurement records. Avoid c
 - `SURVEY_TASKS.csv` lists unresolved dimension work; it is not measurement evidence.
 - `COORDINATES.md` defines endpoint interpretation and pending calibration.
 - `UNCERTAINTY.md` lists blockers and their required resolution.
+- `CAPTURE_PREFLIGHT.json` records local-only capture hashes/pose and visual
+  rejection or acceptance for tooling; a loading screen is not area coverage.
 
 ## Local Contracts
 

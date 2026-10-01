@@ -15,6 +15,12 @@ Blender Python, Unreal automation, validation scripts, manifest processors, and 
   Usage and limitations are in its module docstring.
 - `test_cs2_console.py` verifies framing, fragmentation, replay and echo handling
   against a local synthetic server without launching or controlling CS2.
+- `cs2_capture.py` is a pending-integration capture helper: safe relative
+  screenshot basenames, live pose, local-only TGA/PNG and hashes. Its PNG preview
+  was visually checked against a real loading-screen capture; full capture
+  automation is not verified. Do not count a file as usable reference coverage
+  until its rendered area/direction is inspected. Stop on a missing reply or
+  error dialog rather than issuing more capture commands.
 - `reference_batch.py` derives reference metadata, normalized plan locators,
   survey tasks and the route summary from inspected HTML and TOPOLOGY.json.
   Its output remains provisional until current-build survey validation.

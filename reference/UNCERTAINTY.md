@@ -5,7 +5,7 @@ Baseline: CS2 build 25640462, 2026-10-01 UTC.
 
 | ID | Unknown | Present bound | Required resolution |
 | --- | --- | --- | --- |
-| U01 | Capture continuity | Exact live echo verified; de_dust2 loaded; fatal absolute screenshot path closed game | Relaunch existing addon, reverify echo/map/build, validate relative-path capture |
+| U01 | Capture continuity | Reconnect echo and relative lowercase screenshot succeeded; image is loading screen; new Error window blocks commands | Inspect dialog, resolve cause, verify world-visible capture and repeatability |
 | U02 | Critical lengths/widths | No defensible physical numeric bounds yet | Repeated endpoints or calibrated multiview survey |
 | U03 | Elevations/slopes/stairs | Qualitative relations only | Floor endpoints, stair counts and rise/run readings |
 | U04 | Map scale and axes | UE uses centimeters; source physical calibration unresolved | Document conversion and two independent scale anchors |

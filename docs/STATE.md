@@ -9,7 +9,7 @@ Phase 0 repository bootstrap is complete.
 ## Last durable checkpoint
 
 Phase 1 provisional reference checkpoint: current CS2 build `25640462` pinned;
-20 provenance records, 24 normalized public plan locators, 34 ordinary connection
+21 provenance records, 24 normalized public plan locators, 34 ordinary connection
 candidates and 4 special traversal candidates, and 53 unresolved survey tasks.
 Sources, coordinates, graph and uncertainty are recorded under `reference/`.
 No physical dimensions or local directional captures have been accepted.
@@ -25,14 +25,15 @@ Acquire named-area views and measurements for this exact CS2 build before geomet
 
 ## Immediate next actions
 
-1. Relaunch Workshop Tools, select existing `dust2_reference`, and click the
-   bottom-right Launch Tools. CS2 closed after a fatal screenshot-path error.
-2. Reverify exact live echo with `scripts/cs2_console.py`, then load de_dust2.
-3. Recheck installed build and live map identity. `version` is unknown in this
-   tools session. Validate `screenshot` with a relative path under Game/Content,
-   inspect output and copy local-only captures into the workspace. Never use an
-   absolute Windows path: that triggered the fatal error. This is the first
-   incomplete capture action.
+1. Inspect the new CS2 Error dialog: process 43088 was running with window title
+   Error and no live echo response. Dialog text/cause is not yet available.
+2. Resolve that error, then reverify echo/map/build. Reconnect and relative
+   lowercase `screenshot fn_dust2_initial` already succeeded before this error.
+3. Verify a world-visible capture. The saved 1280x720 image was visually
+   inspected and rejected as a loading screen. See CAPTURE_PREFLIGHT.json.
+   Helper scripts/cs2_capture.py has pending live integration; it sends relative
+   lowercase names, protects existing evidence and writes local-only media.
+   Never pass absolute Windows paths to the screenshot console command.
 4. Populate measured endpoints; record calibration/confidence.
 5. Validate route graph and create calibrated annotated truth map.
 6. Run Gate 1 review and commit evidence; begin Phase 2 only on a pass.
@@ -41,9 +42,9 @@ Acquire named-area views and measurements for this exact CS2 build before geomet
 
 - This session has no callable `node_repl`; required computer-use API is unavailable.
   No desktop input was performed.
-- Workshop Tools installed and game transport verified, but game is currently
-  closed. Screenshot capture and source physical calibration remain unverified.
-  Commands sent while the fatal dialog was pending have no verified execution.
+- Workshop Tools installed and game transport verified. A new Error dialog is
+  blocking commands; its cause is unverified. Relative capture generated a
+  loading screen, not accepted area coverage. Source physical scale unresolved.
 - Public references are provisional and do not provide directional coverage.
 - MEASUREMENTS.csv has no physical measurements yet; calibrated truth map and
   physical scale remain unresolved. No geometry has been authorized by Gate 1.
