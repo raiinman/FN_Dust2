@@ -94,6 +94,28 @@
       },
       "review": "Both-direction floor/wall corridor, corner turn and elevation above Mid are clear in combined views. Pole/wires are existing source geometry; wider plan replaces clipped roof-dominated attempt.",
       "remaining": "Full A Short upper branch still needs dedicated references. Local width samples do not certify entire platform/cover bounds."
+    },
+    {
+      "area": "Mid Doors",
+      "taxonomy_scope": "critical_subarea",
+      "parent_area": "Connectors",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_MIDDOORS_FORWARD_RECOVERY_001"
+        ],
+        "reverse": [
+          "QA_MIDDOORS_REVERSE_RECOVERY_002"
+        ],
+        "wall_read": [
+          "QA_MIDDOORS_SIDE_RECOVERY_001"
+        ],
+        "elevation": [
+          "QA_MIDDOORS_ELEVATION_RECOVERY_002"
+        ]
+      },
+      "review": "Complete ground portal faces, angled leaf/support read and unobstructed elevated threshold/header view. Initial close-leaf and lamp-obstructed cameras replaced.",
+      "remaining": "Full structural aperture/clearance and complete both-direction walking remain separate; does not certify all connectors."
     }
   ]
 }

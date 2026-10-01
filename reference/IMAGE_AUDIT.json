@@ -1,10 +1,10 @@
 {
   "review_date": "2026-10-01",
   "source_build": "25640462",
-  "registered_images": 109,
+  "registered_images": 113,
   "coverage_excluded": 8,
   "complete_areas": 2,
-  "complete_subareas": 2,
+  "complete_subareas": 3,
   "declared_view_sets": [
     {
       "area": "Long Doors",
@@ -97,6 +97,28 @@
       },
       "review": "Both-direction floor/wall corridor, corner turn and elevation above Mid are clear in combined views. Pole/wires are existing source geometry; wider plan replaces clipped roof-dominated attempt.",
       "remaining": "Full A Short upper branch still needs dedicated references. Local width samples do not certify entire platform/cover bounds."
+    },
+    {
+      "area": "Mid Doors",
+      "taxonomy_scope": "critical_subarea",
+      "parent_area": "Connectors",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_MIDDOORS_FORWARD_RECOVERY_001"
+        ],
+        "reverse": [
+          "QA_MIDDOORS_REVERSE_RECOVERY_002"
+        ],
+        "wall_read": [
+          "QA_MIDDOORS_SIDE_RECOVERY_001"
+        ],
+        "elevation": [
+          "QA_MIDDOORS_ELEVATION_RECOVERY_002"
+        ]
+      },
+      "review": "Complete ground portal faces, angled leaf/support read and unobstructed elevated threshold/header view. Initial close-leaf and lamp-obstructed cameras replaced.",
+      "remaining": "Full structural aperture/clearance and complete both-direction walking remain separate; does not certify all connectors."
     }
   ],
   "scope": "Image integrity and declared combined-view reviews; no metric or topology acceptance",
@@ -973,6 +995,38 @@
       "sha256": "94948428db9a35073efcd99c0453fdbaad7590140e7b01ff8672310f94715ac5",
       "coverage_status": "PARTIAL",
       "review": "Upper Catwalk floor, parapet and opposite facade read above lower Mid terrain steps. Lower steps continue outside both edges; not complete Mid stair count/extent evidence."
+    },
+    {
+      "id": "QA_MIDDOORS_FORWARD_RECOVERY_001",
+      "area": "Mid Doors",
+      "image": "reference/images/mid_doors/QA_MIDDOORS_FORWARD_RECOVERY_001.jpg",
+      "sha256": "4cc917f4c84ffb757564ab592ba45174b381b38ecf0ded431b4be1dc11042a33",
+      "coverage_status": "PARTIAL",
+      "review": "Complete portal frame and both door leaves, approach floor, Lower Tunnel arch context and right cover stack. Native gap is directly visible."
+    },
+    {
+      "id": "QA_MIDDOORS_REVERSE_RECOVERY_002",
+      "area": "Mid Doors",
+      "image": "reference/images/mid_doors/QA_MIDDOORS_REVERSE_RECOVERY_002.jpg",
+      "sha256": "6dcebfa7e1d915be2247e38264baebbd059672794bd95a73b37bdc5981b3136a",
+      "coverage_status": "PARTIAL",
+      "review": "Complete CT-side portal, door leaves, floor threshold and both bounding walls. Replacement for initial camera inside/against leaf."
+    },
+    {
+      "id": "QA_MIDDOORS_SIDE_RECOVERY_001",
+      "area": "Mid Doors",
+      "image": "reference/images/mid_doors/QA_MIDDOORS_SIDE_RECOVERY_001.jpg",
+      "sha256": "b275dec32a2cf39a1044dab782b49971564712ac1aead9c36850ce1f3b639045",
+      "coverage_status": "PARTIAL",
+      "review": "Both leaf structures and timber arch/frame, side wall/pillar and cover stack visible. This angle supplies wall/support geometry; ground forward supplies centered gap."
+    },
+    {
+      "id": "QA_MIDDOORS_ELEVATION_RECOVERY_002",
+      "area": "Mid Doors",
+      "image": "reference/images/mid_doors/QA_MIDDOORS_ELEVATION_RECOVERY_002.jpg",
+      "sha256": "06e3ea799877cc924cfd8bcd292b72be281a45a50fc773aaa5128af46d2a4dc4",
+      "coverage_status": "PARTIAL",
+      "review": "Both leaves, threshold floor and header/roof arrangement visible without lamp covering the doorway. Adjacent platform floor demonstrates Catwalk above Mid; roofs remain perspective context."
     }
   ]
 }

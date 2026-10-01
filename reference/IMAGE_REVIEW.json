@@ -1,6 +1,6 @@
 {
   "review_date": "2026-10-01",
-  "method": "Re-inspected original 24 JPEGs in four six-frame sheets, all 55 recovered frames in eleven five-frame sheets, and new native CT frame individually; hashes independently verified. Four new Pit frames inspected individually against poses. Six replacement Long Doors/approach frames inspected individually; six initial frames retained privately as rejects. Four B Doors replacements inspected individually, three rejected camera attempts preserved privately. Three B/A site additions inspected individually; initial B plan rejected for clipped rear extent. Five B/A site additions inspected individually; initial B plan rejected for clipped rear extent. Four Short stair views inspected individually; reverse nearest treads clipped, complete flight supported by forward/side views. Closer stair flight image inspected individually; numeric count remains separate from perspective review. Five Catwalk views inspected individually; initial roof-dominated plan rejected for clipped route extent.",
+  "method": "Re-inspected original 24 JPEGs in four six-frame sheets, all 55 recovered frames in eleven five-frame sheets, and new native CT frame individually; hashes independently verified. Four new Pit frames inspected individually against poses. Six replacement Long Doors/approach frames inspected individually; six initial frames retained privately as rejects. Four B Doors replacements inspected individually, three rejected camera attempts preserved privately. Three B/A site additions inspected individually; initial B plan rejected for clipped rear extent. Five B/A site additions inspected individually; initial B plan rejected for clipped rear extent. Four Short stair views inspected individually; reverse nearest treads clipped, complete flight supported by forward/side views. Closer stair flight image inspected individually; numeric count remains separate from perspective review. Five Catwalk views inspected individually; initial roof-dominated plan rejected for clipped route extent. Four Mid Doors views inspected individually; close-leaf reverse and lamp-obstructed elevation attempts rejected and replaced.",
   "capture_registers": [
     "CAPTURE_CT_RECOVERY.json",
     "CAPTURE_DISCOVERY_BATCH.json",
@@ -9,7 +9,7 @@
     "CAPTURE_DIRECTIONAL_GATE1.json",
     "CAPTURE_CRASH_RECOVERY.json"
   ],
-  "expected_image_count": 109,
+  "expected_image_count": 113,
   "coverage_exclusions": {
     "QA_CT_RECOVERY_WEST": "Crate blocks reverse passage; excluded as reverse route evidence.",
     "QA_CT_RECOVERY_SOUTH": "Debug ray overlay; clean side replacement exists in directional batch.",
@@ -20,5 +20,5 @@
     "QA_ASITE_G1_PX_001": "Central cover blocks site platform read.",
     "QA_ASITE_G1_NX_001": "Foreground cover blocks site extent."
   },
-  "limitations": "Individual images retain partial spatial/dimensional limits. AREA_VIEW_REVIEW.json accepts two combined critical-area view sets and two subarea sets (Short Stairs/Catwalk). Other critical-area reference sets remain incomplete. Old perspective overhead views do not certify surveyed footprint; B exterior original is low-eye."
+  "limitations": "Individual images retain stated spatial/dimensional limits. AREA_VIEW_REVIEW.json owns accepted combined critical-area/subarea view sets; all other required sets remain incomplete. Old perspective overhead views do not certify surveyed footprint; B exterior original is low-eye."
 }

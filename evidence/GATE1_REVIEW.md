@@ -1,76 +1,65 @@
 # Gate 1 review - 2026-10-01
 
-**FAIL. Phase 1 remains active; Phase 2 is prohibited.**
+**FAIL. Phase 1 remains active. Phase 2 production is prohibited.**
+Source: installed CS2 build25640462, de_dust2. GitHub main is durable authority.
 
 | Requirement | Evidence | Result |
 | --- | --- | --- |
-| Provenance and current revision | REFERENCE_MANIFEST.csv; build 25640462 | PASS for captured batch |
-| Every critical area forward/reverse/side/elevation coverage | 109 reviewed area images (eight excluded); four native radar crops and one HUD-name crop; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | FAIL: incomplete directional and area coverage |
-| Unambiguous validated topology | ROUTE_GRAPH.md; TOPOLOGY.json; WALK_PROBES.json | FAIL: eight surveyed paths pass both directions, including Short stairs/platform and Catwalk; remaining and special traversal incomplete |
-| Critical physical dimensions with confidence | Repeated native rays; 13 floor datums; ARCHITECTURAL_ENDPOINTS.json | FAIL: nineteen calibrated feature measurements; full critical-dimension register incomplete |
-| Calibrated annotated whole-map truth | RADAR_CALIBRATION.json; RADAR_PLAN.svg with physical grid and floor samples | FAIL: calibrated context plan exists; stylized architectural boundaries and overlapping elevation layers remain unverified |
-| Bounded remaining uncertainty | UNCERTAINTY.md; per-area coverage matrix | FAIL: critical architectural completeness and render/collision offsets remain unresolved |
+| Provenance and current revision | REFERENCE_MANIFEST.csv; native poses/hashes and build25640462 | PASS for reviewed captured batches |
+| Physical scale and coordinate convention | SCALE_CALIBRATION.json; COORDINATE_TRANSFORM.json | PASS for current-build factor2.54 and reversible UE=(2.54x,-2.54y,2.54z); Phase2 exporter/import validation pending |
+| Every critical area forward/reverse/side/elevation coverage | 113 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | FAIL: Long Doors/B Doors sets and Short Stairs/Catwalk/Mid Doors subareas accepted; other sets incomplete |
+| Unambiguous validated topology | ROUTE_GRAPH.md; TOPOLOGY.json; WALK_PROBES.json | FAIL: eight surveyed paths pass both directions; remaining ordinary routes and all four special traversals incomplete |
+| Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json | FAIL: 24 local calibrated feature measurements and 42 repeated stair floor samples; full critical register incomplete |
+| Calibrated annotated whole-map truth | RADAR_CALIBRATION.json; RADAR_PLAN.svg | FAIL: four native anchors, physical grid and floor labels; stylized architectural outlines and overlapping elevation layers unverified |
+| Bounded remaining uncertainty | UNCERTAINTY.md; SURVEY_TASKS.csv | FAIL: unresolved critical extents, full apertures/cover dimensions, stairs and render/collision bounds |
 
-Reviewed image metadata: CAPTURE_CT_RECOVERY.json, CAPTURE_DISCOVERY_BATCH.json,
-CAPTURE_ROUTE_BATCH.json CAPTURE_GATE1_SURVEY.json, CAPTURE_DIRECTIONAL_GATE1.json and CAPTURE_CRASH_RECOVERY.json. 109 JPEG study previews are
-committed under reference/images/ with SHA-256 provenance; local originals remain.
-SOURCE_CAMERAS.csv separates native poses from Unreal camera units.
-Rejected camera attempts preserve their poses/reasons; none counts
-as reference coverage. Native surface repetitions match at displayed precision.
-These repetitions measure repeatability, not absolute accuracy or clearance.
+## Reference review
 
-Trace offset model is now supported by eight repeated diagonal observations
-(TRACE_ORIGIN_DIAGNOSTIC.json). ELEVATION_PROBES.json records 13 converged
-and repeated floor datums, a same-XY CT column and one rejected below-floor
-probe. FLOOR_DATUM_PLAN.svg was rendered and visually reviewed. The CT overhead
-hull is not accepted as a whole-room ceiling.
+IMAGE_REVIEW.json and IMAGE_AUDIT.json verify all113 registered JPEG hashes and
+preserve eight excluded historical frames. Original24 and recovered55 images
+were re-inspected, with subsequent CT/Pit/door/site/Short/Catwalk additions
+inspected individually. Clipped, stale or obstructed attempts retain their
+poses/reasons privately or in capture registers and never grant coverage.
 
-Next: fill coverage gaps; retain the recorded Unreal coordinate convention;
-measure actual architectural endpoints; verify walks and special traversals;
-construct calibrated footprint/elevation layers; rerun this gate.
+CAPTURE_CT_RECOVERY, CAPTURE_DISCOVERY_BATCH, CAPTURE_ROUTE_BATCH,
+CAPTURE_GATE1_SURVEY, CAPTURE_DIRECTIONAL_GATE1 and CAPTURE_CRASH_RECOVERY JSON
+registers own source poses, original/derivative hashes and per-frame limitations.
+Combined-view acceptance does not erase individual limits or certify dimensions.
+SOURCE_CAMERAS.csv keeps native poses separate from Unreal QA cameras.
 
-DOX: root user preference and reference/scripting contracts updated; reference
-and master standards reconcile screenshot storage. Docs/evidence/QA AGENTS
-unchanged because ownership and acceptance criteria have not changed.
+Four inspected HUD radar crops have separate hash/crop provenance. One HUD name
+crop confirms Top of Mid at source(-450,300,5), not the entire Suicide boundary.
+No extracted proprietary game assets are used.
 
-Recovery review: IMAGE_AUDIT.json verifies all 109 area image hashes. IMAGE_REVIEW.json
-identifies eight excluded historical images. The original 24 and recovered 55,
-new CT/Pit, six Long Doors, four B Doors and five site replacement/addition frames
-were inspected. Clipped/obstructed initial frames stay private rejects.
-AREA_VIEW_REVIEW.json accepts required combined view sets for Long Doors and
-B Doors, plus Short Stairs as a subarea. This is reference-view acceptance,
-not metric/topology/whole-area geometry acceptance. Other required sets incomplete.
-WALK_PROBES.json preserves recovered and subsequent attempts; a blocked waypoint
-does not disprove an edge. See CRASH_RECOVERY_20261001.md for recovery instructions.
+## Metric and traversal review
 
-SCALE_CALIBRATION.json accepts physical conversion for this build from repeated
-inch readouts at two spatial/axis anchors. Nineteen calibrated measurements do not
-fill the route/opening/stair/cover register. Long cross-sections are local collision
-samples, not minimum leaf clearance or complete structural openings.
-RADAR_CALIBRATION.json preserves four inspected 250x250 native HUD crops, actual
-poses and hashes. Fit residuals are below .20 pixels; allow 2 pixels (~92 cm) for
-localization. RADAR_PLAN.svg was rendered and inspected with grid, heights and
-sample legend. This allowance does not certify stylized radar boundaries.
-No special traversal is accepted. Phase 2 remains prohibited.
+Two repeated spatial/axis rangefinder anchors establish engine inches; exact
+inch conversion is2.54cm. The calibration does not claim real-world architecture
+or exporter behavior. TRACE_ORIGIN_DIAGNOSTIC.json supports the rotating64-unit
+ray offset. Repeated endpoints bound output repeatability, not render accuracy.
 
-COORDINATE_TRANSFORM.json fixes the source-to-Unreal convention with two native
-right-axis observations, target documentation and inverse/scale checks. Exporter/
-editor round-trip is unverified and required in Phase 2. The local B vertical
-clearance is floor-to-first wood hull at one XY, not full structural opening height.
-One corrected overhead ray missed its nearby edge; the failed column was inspected,
-health echo verified and original pose restored before a new station was attempted.
+MEASUREMENTS.csv contains local Pit, Long/B/Mid portal, Short and Catwalk
+samples. Section widths are not minimum angled-leaf clearance. First wood
+ceiling hits do not independently establish complete structural opening height.
+Thirteen PHYSICAL_FLOOR_DATUMS and42 SHORT_STAIR_SAMPLES are point evidence,
+not continuous surfaces. The Short profile SVG was rendered and inspected;
+player hull standing height is not an architectural floor endpoint.
 
-Short checkpoint: four reviewed stair views supplement the original references.
-E32/E33/E34 have completed both-direction collision walks; reduced speed80 and
-arrival25, no teleports during the route. SHORT_STAIR_PROFILE.json preserves42 repeated floor columns and one inspected angle-mismatch rejection. Three stair/landing collision widths and sampled floor rise are accepted separately; count/run endpoints pending. The center-of-flight walk also passed both directions. Calibrated sample SVG rendered and inspected.
-Gate 1 remains FAIL; no Phase 2 production geometry has started.
+Accepted both-direction paths: PIT_LONG_RAMP, UPPER_B_BOTH, LONG_DOORS_BOTH,
+B_DOORS_BOTH, LONG_A_SITE_BOTH, SHORT_TOP_SITE_BOTH,
+CATWALK_SHORT_STAIRS_BOTH and TOPMID_CATWALK_BOTH. Collision enabled,
+start-only teleport, reduced speed and arrival tolerance recorded in each path.
+Failed/interrupted waypoint plans remain preserved. No special traversal accepted.
 
-Native HUD label crop QA_NATIVE_TOPMID_LABEL_001 confirms Top of Mid at the
-(-450,300,5) station. Full named-area boundary remains unresolved.
+RADAR_PLAN.svg was rendered and inspected. Four anchor residuals are below0.20
+pixels; a2-pixel (~92cm) localization allowance does not bound stylized walls.
+Native right-axis observations and inverse/length checks support target convention;
+editor/exporter round-trip is a Phase2 validation, not an accepted import.
 
-Catwalk checkpoint: five reviewed replacement/addition frames, one clipped
-plan rejection preserved privately. Combined Catwalk subarea view set accepted
-separately from A Short upper-branch gaps. E14 walked both directions, reverse
-path bends around barrels. Two repeated corridor widths accepted; Y650 ray
-across lower Mid excluded from width acceptance. Pose restore string mismatch
-was camera quantization (.000092 degrees); native readback/echo verified.
+## Required next evidence
+
+Finish directional sets, architectural endpoints/spans/cover and stair/ramp
+profiles, both-direction ordinary and special traversal, and surveyed footprint
+with elevation layers. Update uncertainty bounds and rerun this review.
+DOX owners remain root/reference/scripts/docs/evidence/QA. Acceptance criteria
+are unchanged; this review grants no exception or production advance.
