@@ -10,7 +10,7 @@ Phase 0 complete. User requested Phase 2 after Phase 1 passes, never before.
 Crash recovery: GitHub baseline 35eaa64212857d1890faaba6a3be03f2f229c61a;
 preserved old checkout work in 4c7df48 and merged baseline in ab4e484.
 See evidence/CRASH_RECOVERY_20261001.md and latest Git commit for checkpoint SHA.
-113 study JPEGs registered; original 24 and recovered 55 re-inspected, one
+122 study JPEGs registered; original 24 and recovered 55 re-inspected, one
 new CT exit view, four Pit, six Long Doors/approach, four B Doors and five site
 views, five Short stair views and five Catwalk and four Mid Doors views inspected.
 Four current-build native radar crops have separate calibration provenance.
@@ -19,10 +19,12 @@ Suicide boundary is unresolved. Catwalk walking passed both directions around en
 Mid Doors, Top Mid ground approach, CT Mid-to-CT Spawn and CT Spawn through
 Under A to Long now pass both directions. WALK_PROBES.json records twelve
 accepted surveyed paths; failed waypoint plans remain preserved.
-New Under A/A Short view survey is running in private under_a_short/; inspect
-survey_progress.json and each frame before resume/registration.
-Two critical-area combined view sets (Long Doors/B Doors) and Short Stairs, Catwalk and Mid Doors
-subareas accepted in AREA_VIEW_REVIEW.json; metric/other-area gaps remain.
+Nine new Under A/A Short references are reviewed and registered. Five subarea
+view sets are accepted, including Under A and the A Short upper branch.
+Lower-to-Upper stair walk is running in private
+LOWER_TO_UPPER_STAIRS_RECOVERY_001.json; inspect before resume.
+Two critical-area combined view sets (Long Doors/B Doors) and Short Stairs, Catwalk,
+Mid Doors, Under A and A Short subareas accepted in AREA_VIEW_REVIEW.json; metric/other-area gaps remain.
 Eight historical images excluded from coverage;
 all evidence remains preserved. IMAGE_REVIEW.json and IMAGE_AUDIT.json own this
 decision. Thirteen repeated floor datums are preserved as native evidence and converted separately. Engine physical conversion is accepted at 2.54 cm/source unit from two repeated spatial/axis anchors. WALK_PROBES.json
@@ -78,8 +80,7 @@ Native m_yaw/m_pitch were both0.022; temporarily0 during survey to prevent
 mouse drift. Restore and read back0.022 at closeout.
 CLI GitHub fetch works in this session; prior network-failure note is obsolete.
 
-Latest return walk ended near CT Spawn(160,2367,-119.90); capture poses now
-change serially in the active survey above. Center stair path ends near(320,1795,96.03). SHORT_STAIR_PROFILE.json preserves42 repeated floor columns and one angle-mismatch reject; its calibrated CSV/plot were inspected. Low stair width rays and lower/upper floor sample rise are accepted separately in MEASUREMENTS.csv. Center-of-flight walking repeated both directions; player hull Z is not architecture. Remaining tread count/run endpoints need review.
+Latest return walk ended near CT Spawn(160,2367,-119.90); current pose is in the active tunnel stair report above. Center stair path ends near(320,1795,96.03). SHORT_STAIR_PROFILE.json preserves42 repeated floor columns and one angle-mismatch reject; its calibrated CSV/plot were inspected. Low stair width rays and lower/upper floor sample rise are accepted separately in MEASUREMENTS.csv. Center-of-flight walking repeated both directions; player hull Z is not architecture. Remaining tread count/run endpoints need review.
 Pit lower/upper floor hits: (1400,350,-159.14) and (1400,700,-37.22).
 Do not use player foot position as architectural surface. Private fixture files
 are in crash_recovery_survey; Hammer has an unsaved agent-authored 128-unit cube,
