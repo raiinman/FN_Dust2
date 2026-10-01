@@ -34,4 +34,13 @@ The date above is the file's literal timestamp, with no assumed timezone.
 
 Read only the fields above from the installed manifest and `steam.inf`.
 Then run `py -3.11 scripts/cs2_console.py "version"` against a game launched with
-`-vconsole`. Keep raw capture media outside Git pending reuse clearance.
+`-tools -vconsole`. The CS2RemoteConsole implementation explicitly requires
+tools mode: https://github.com/theokyr/CS2RemoteConsole . Merely enabling the
+on-screen console or launching with `-vconsole` did not create a TCP listener in
+the installed build during the 2026-10-01 probe. Verify a reply rather than
+assuming availability. Keep raw capture media outside Git pending reuse clearance.
+
+Tools-mode preflight must also confirm the optional Workshop Tools component is
+installed. The 2026-10-01 launch failed with `assetsystem` module load error 126;
+the module and Hammer DLL were absent. Install through CS2 Properties > DLC,
+then recheck files and the loopback probe. Do not download replacement DLLs.

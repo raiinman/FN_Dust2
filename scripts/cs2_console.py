@@ -1,7 +1,7 @@
 """Loopback-only CS2 VConsole transport, standard library only.
 
 Usage: py -3.11 scripts/cs2_console.py "echo FN_DUST2_PROBE" --output PATH
-CS2 must already be running with -vconsole. Never launches a game, injects into
+CS2 must already be running with -tools -vconsole. Never launches a game, injects into
 processes, or reads game packages. Protocol: https://github.com/oxijoined/vconsole-python
 """
 from __future__ import annotations

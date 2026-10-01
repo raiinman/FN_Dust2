@@ -12,6 +12,11 @@ This folder contains reference metadata and derived measurement records. Avoid c
 - `REFERENCE_MANIFEST.csv` owns provenance; URL discovery alone is not view coverage.
 - `MEASUREMENTS.csv` owns numeric evidence; blank values remain unresolved.
 - `ROUTE_GRAPH.md` owns adjacency and traversal distinctions.
+- `TOPOLOGY.json` owns machine-readable provisional edges and special traversal.
+- `PLAN_LANDMARKS.csv` stores normalized public label locations, never metric corners.
+- `SURVEY_TASKS.csv` lists unresolved dimension work; it is not measurement evidence.
+- `COORDINATES.md` defines endpoint interpretation and pending calibration.
+- `UNCERTAINTY.md` lists blockers and their required resolution.
 
 ## Local Contracts
 

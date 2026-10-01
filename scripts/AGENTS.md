@@ -10,6 +10,9 @@ Blender Python, Unreal automation, validation scripts, manifest processors, and 
 
 - `cs2_console.py` sends commands to an already-running local CS2 VConsole at
   loopback only. Usage and limitations are in its module docstring.
+- `reference_batch.py` derives reference metadata, normalized plan locators,
+  survey tasks and the route summary from inspected HTML and TOPOLOGY.json.
+  Its output remains provisional until current-build survey validation.
 
 ## Local Contracts
 
