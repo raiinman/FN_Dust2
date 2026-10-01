@@ -13,7 +13,7 @@ live pose and five screenshot replies. All five images were visually inspected.
 Camera poses, hashes, source identity and limitations are recorded in
 reference/CAPTURE_CT_RECOVERY.json and evidence/CONSOLE_RECOVERY.md.
 Reference manifest now has five additional reviewed CT Spawn records.
-Eighteen reviewed screenshots are committed under reference/images/ at
+Twenty-four reviewed screenshots are committed under reference/images/ at
 the user's explicit request. Settled-pose ray survey recorded 12 observations;
 CT native collision chords are 480.28 and 528.31 source units. Physical scale
 is unresolved; these are not accepted centimeter dimensions. fov_cs_debug 90
@@ -23,7 +23,12 @@ overhead perspective of the current-build footprint. Roof occlusion prevents
 calling this a calibrated truth map. Metadata: CAPTURE_DISCOVERY_BATCH.json. The route batch adds T Spawn, Long A,
 Long Doors exterior, A Short, upper/lower tunnel exits and Side Pit/Long Corner
 stairs. Nine clipped/occluded discovery attempts are recorded as rejected.
-Coverage matrix and source camera register are populated. Gate review: FAIL
+The Gate 1 survey adds six reviewed Mid approach/CT Mid/B Doors views and
+two rejected clipped poses (CAPTURE_GATE1_SURVEY.json). Nine offset-corrected
+floor datums and a CT same-XY floor/overhead column are in ELEVATION_PROBES.json.
+CT column separation is 167.69 native units; overhead Wood hull meaning and
+physical conversion remain unresolved. FLOOR_DATUM_PLAN.svg is a reviewed
+point plot, not a whole-map truth boundary. Coverage matrix and source camera register are populated. Gate review: FAIL
 (evidence/GATE1_REVIEW.md); no acceptance criterion is bypassed.
 Eight repeated diagonal rays now support a zero-roll trace-origin model:
 getpos + 64 * camera_up, maximum perpendicular residual 0.005806 native units.
@@ -43,10 +48,10 @@ Complete current-build directional reference coverage and metric calibration.
    A second worker at ../work/cs2_live_20261001 (observed 42912) connected but
    returned no output. It remains open to avoid an untested socket shutdown.
    Do not start a third worker or close live sockets casually.
-2. Latest survey camera is at CT Spawn source pose
-   (160.122742,2369.676270,-119.918701), pitch 45, yaw 0.
-   Use reference/COVERAGE_MATRIX.csv for the remaining directional/elevation
-   work, especially Pit floor, Top Mid, CT Mid, B Doors and tunnel interiors.
+2. Latest survey camera is at B-side Doors source pose
+   (-1550,2200,40), pitch 0, yaw 0; settled pose/echo verified.
+   Use reference/COVERAGE_MATRIX.csv for remaining directional/elevation work,
+   especially Pit floor, Top Mid callout boundary, tunnel interiors and stairs.
    CT Spawn survey starts from raw source pose
    (160.122742,2369.676270,-119.918701). Camera eye/origin convention unresolved.
    +X view shows ramp/stairs; +Y barred arch; -X crate blocks reverse passage;
@@ -62,6 +67,9 @@ Complete current-build directional reference coverage and metric calibration.
    RAW_SURFACE_PROBES.json has repeated native hits. TRACE_ORIGIN.md gives
    the tested rotating offset model. Survey shared-XY floor/ceiling columns;
    the original vertical hits are not a collinear clearance measurement.
+   cs2_probe_column.py now converges/repeats shared-XY hits. Probe Z must be
+   above the target floor: Upper Tunnels z0 returned no hit; inspected z40
+   recovered floor z31.38. No blind retries or automatic socket reconnection.
 5. Validate route graph and create calibrated annotated truth map.
 6. Run Gate 1 review and commit evidence; begin Phase 2 only on PASS.
 
@@ -70,7 +78,8 @@ Complete current-build directional reference coverage and metric calibration.
 - No callable desktop-input API in this session. Screenshots supplied by user
   confirmed running game/tools without a visible error; scripted capture works.
 - Full directional coverage, effective FOV and metric calibration are incomplete.
-- MEASUREMENTS.csv has no accepted physical measurements.
+- MEASUREMENTS.csv has no accepted physical measurements; raw elevations and
+  four native dimensions are recorded separately.
 - Five current captures establish transport continuity, not that error 10038
   is permanently fixed. Stop on missing reply or error; inspect before retrying.
 - CLI GitHub network route fails; connector reads/writes are available.

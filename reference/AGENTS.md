@@ -43,6 +43,12 @@ self-captured CS2 study screenshots for the internal benchmark.
 - `TRACE_ORIGIN.md` and `TRACE_ORIGIN_DIAGNOSTIC.json` own the empirical
   zero-roll cast_ray origin model, repeat evidence and remaining limitations.
 
+- `CAPTURE_GATE1_SURVEY.json` records reviewed Mid/CT Mid/B portal views and
+  rejects, including unresolved Top Mid/Suicide callout extent.
+- `ELEVATION_PROBES.json` owns offset-corrected floor/overhead probe reports.
+- `FLOOR_DATUMS.csv` and `FLOOR_DATUM_PLAN.svg` are reproducible native-unit
+  point evidence, not a continuous floor surface or full-map truth boundary.
+
 ## Local Contracts
 
 - Every reference must have provenance.

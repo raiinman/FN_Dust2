@@ -77,3 +77,9 @@ QA_LOWTUN_DISCOVERY_002 and QA_MID_DISCOVERY_001. E24: outside Long Doors
 face appears in QA_OUTLONG_DISCOVERY_002. These images corroborate space
 relationships; they do not establish walkability or fully validate topology.
 Keep these evidence IDs if the public-reference summary is regenerated.
+
+Current-build Gate 1 survey also visually corroborates E16 (Mid Doors/CT Mid),
+E17 (CT Mid/B Doors), and E18 (B Doors/B Site); see
+CAPTURE_GATE1_SURVEY.json. Portal-face screenshots do not validate walking
+clearance or both traversal directions. Upper Mid approach images are not yet
+used to assert the exact Top Mid/Suicide callout boundary.

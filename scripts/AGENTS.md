@@ -56,6 +56,14 @@ Blender Python, Unreal automation, validation scripts, manifest processors, and 
   settled poses and repeated diagonal rays. It preserves every observation and
   verifies restoration; output stays raw source units, never centimeters.
 
+- `cs2_probe_column.py` accepts area/build/XY/Z and selected floor/ceiling
+  features. It corrects actual hit XY, repeats endpoints, verifies restoration
+  and stops on missing output. Use safe inspected interior Z; an origin below
+  the floor can return no hit. Inspect before changing Z or restoring after failure.
+- `build_elevation_register.py` derives FLOOR_DATUMS.csv and its SVG point plot
+  from reviewed ELEVATION_PROBES.json. It checks repeated endpoints and never
+  infers room boundaries or converts source units to centimeters.
+
 ## Local Contracts
 
 - Scripts must be deterministic where inputs are unchanged.

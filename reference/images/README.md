@@ -39,3 +39,14 @@ Route discovery batch: [metadata and rejected poses](../CAPTURE_ROUTE_BATCH.json
 | Lower Tunnels | [Image](lower_tunnels/QA_LOWTUN_DISCOVERY_002.jpg) | Forward arch toward Mid with overhead roof and cover; reverse stairs missing |
 | Long Corner / Side Pit | [Image](pit/QA_PIT_PLAN_DISCOVERY_001.jpg) | Overhead perspective stairs/raised terrace and road; Pit floor coverage unresolved |
 | Side Pit / Long Corner | [Image](pit/QA_SIDE_PIT_DISCOVERY_002.jpg) | Clean terrace and stair view; Pit floor remains missing |
+
+Gate 1 survey batch: [metadata](../CAPTURE_GATE1_SURVEY.json).
+
+| Area | Image | Use |
+| --- | --- | --- |
+| Upper Mid approach / Suicide connector | [Image](mid/QA_TOPMID_SURVEY_001.jpg) | Forward down Mid toward Mid Doors; callout extent unresolved; not full Top Mid coverage |
+| Upper Mid approach / Suicide connector | [Image](mid/QA_TOPMID_REVERSE_001.jpg) | Reverse narrow connector with overhead braces and stacked cover; callout extent unresolved |
+| CT Mid | [Image](ct_mid/QA_CTMID_SURVEY_001.jpg) | CT-side face of Mid Doors, sandy approach, side walls and B direction sign |
+| CT Mid / B Doors approach | [Image](ct_mid/QA_CTMID_BAPPROACH_001.jpg) | Forward uphill CT Mid approach toward B Doors; adjacent steps and walls |
+| B Doors | [Image](b_doors/QA_BDOORS_EXTERIOR_002.jpg) | CT-side B portal face and sloped approach; low camera emphasizes ground; doorway base partly foreground-occluded |
+| B Doors / B Site | [Image](b_doors/QA_BDOORS_INTERIOR_002.jpg) | B-side portal, both open leaves, threshold and flanking wall; reverse toward CT Mid |

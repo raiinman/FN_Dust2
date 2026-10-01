@@ -1,0 +1,724 @@
+{
+  "source_build": "25640462",
+  "unit": "source_units",
+  "physical_scale": "unresolved",
+  "reports": [
+    {
+      "timestamp_utc": "2026-10-01T10:44:28.669499+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "CT Spawn",
+      "unit": "source_units",
+      "target_xy": [
+        160.122742,
+        2369.67627
+      ],
+      "probe_player_z": -40.0,
+      "initial_pose": "setpos_exact 160.122742 2369.676270 -119.918701;setang_exact 45.000000 0.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 96.132492 2369.676270 -40.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            161.55,
+            2369.68,
+            -120.61
+          ],
+          "xy_error": 1.4272628739878528,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 156775"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 94.705231 2369.672607 -40.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            160.12,
+            2369.67,
+            -120.63
+          ],
+          "xy_error": 0.006843351810197712,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 156775"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 94.705231 2369.672607 -40.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            160.12,
+            2369.67,
+            -120.63
+          ],
+          "xy_error": 0.006843351810197712,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 156775"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 224.112991 2369.676270 -40.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            161.62,
+            2369.68,
+            47.06
+          ],
+          "xy_error": 1.49726264611926,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 222.615738 2369.672607 -40.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            160.13,
+            2369.67,
+            47.06
+          ],
+          "xy_error": 0.009591218066457068,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 222.615738 2369.672607 -40.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            160.13,
+            2369.67,
+            47.06
+          ],
+          "xy_error": 0.009591218066457068,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "endpoints": {
+        "floor": [
+          160.12,
+          2369.67,
+          -120.63
+        ],
+        "ceiling": [
+          160.13,
+          2369.67,
+          47.06
+        ]
+      },
+      "endpoint_xy_separation": 0.009999999999990905,
+      "native_vertical_separation": 167.69,
+      "restored_pose": "setpos_exact 160.122742 2369.676270 -119.918701;setang_exact 45.000000 0.000000 0.000000",
+      "status": "complete; collision column only; inspect surface semantics",
+      "id": "CT_COLUMN"
+    },
+    {
+      "timestamp_utc": "2026-10-01T10:49:10.447531+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "CT Mid",
+      "unit": "source_units",
+      "target_xy": [
+        -500.0,
+        2300.0
+      ],
+      "probe_player_z": -80.0,
+      "initial_pose": "setpos_exact -1550.000000 2200.000000 40.000000;setang_exact 0.000000 0.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -563.990234 2300.000000 -80.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -499.36,
+            2300.0,
+            -115.41
+          ],
+          "xy_error": 0.6399999999999864,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 111686"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -564.630249 2300.000000 -80.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -500.0,
+            2300.0,
+            -115.43
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 111686"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -564.630249 2300.000000 -80.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -500.0,
+            2300.0,
+            -115.43
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 111686"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "endpoints": {
+        "floor": [
+          -500.0,
+          2300.0,
+          -115.43
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1550.000000 2200.000000 40.000000;setang_exact 0.000000 0.000000 0.000000",
+      "status": "complete; collision column only; inspect surface semantics",
+      "id": "FLOOR_CTMID"
+    },
+    {
+      "timestamp_utc": "2026-10-01T10:49:25.799715+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Upper Mid approach / Suicide connector",
+      "unit": "source_units",
+      "target_xy": [
+        -450.0,
+        300.0
+      ],
+      "probe_player_z": 100.0,
+      "initial_pose": "setpos_exact -1550.000000 2200.000000 40.000000;setang_exact 0.000000 0.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -513.990234 300.000000 100.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -448.17,
+            300.0,
+            -3.85
+          ],
+          "xy_error": 1.829999999999984,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 61718"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -515.820251 300.000000 100.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -450.0,
+            300.0,
+            -3.87
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 61718"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -515.820251 300.000000 100.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -450.0,
+            300.0,
+            -3.87
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 61718"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "endpoints": {
+        "floor": [
+          -450.0,
+          300.0,
+          -3.87
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1550.000000 2200.000000 40.000000;setang_exact 0.000000 0.000000 0.000000",
+      "status": "complete; collision column only; inspect surface semantics",
+      "id": "FLOOR_MIDAPPROACH"
+    },
+    {
+      "timestamp_utc": "2026-10-01T10:49:41.214970+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Long A",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        1100.0
+      ],
+      "probe_player_z": 100.0,
+      "initial_pose": "setpos_exact -1550.000000 2200.000000 40.000000;setang_exact 0.000000 0.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1336.009766 1100.000000 100.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1401.93,
+            1100.0,
+            -9.42
+          ],
+          "xy_error": 1.9300000000000637,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 139113"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1334.079712 1100.000000 100.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1400.0,
+            1100.0,
+            -9.43
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 139113"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1334.079712 1100.000000 100.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1400.0,
+            1100.0,
+            -9.43
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 139113"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "endpoints": {
+        "floor": [
+          1400.0,
+          1100.0,
+          -9.43
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1550.000000 2200.000000 40.000000;setang_exact 0.000000 0.000000 0.000000",
+      "status": "complete; collision column only; inspect surface semantics",
+      "id": "FLOOR_LONGA"
+    },
+    {
+      "timestamp_utc": "2026-10-01T10:49:56.537454+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A Short",
+      "unit": "source_units",
+      "target_xy": [
+        300.0,
+        1700.0
+      ],
+      "probe_player_z": 100.0,
+      "initial_pose": "setpos_exact -1550.000000 2200.000000 40.000000;setang_exact 0.000000 0.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 236.009750 1700.000000 100.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            301.05,
+            1700.0,
+            40.99
+          ],
+          "xy_error": 1.0500000000000114,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 234.959747 1700.000000 100.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            300.0,
+            1700.0,
+            40.99
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 234.959747 1700.000000 100.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            300.0,
+            1700.0,
+            40.99
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "endpoints": {
+        "floor": [
+          300.0,
+          1700.0,
+          40.99
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1550.000000 2200.000000 40.000000;setang_exact 0.000000 0.000000 0.000000",
+      "status": "complete; collision column only; inspect surface semantics",
+      "id": "FLOOR_SHORT"
+    },
+    {
+      "timestamp_utc": "2026-10-01T10:52:06.200850+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Upper Tunnels",
+      "unit": "source_units",
+      "target_xy": [
+        -1950.0,
+        1200.0
+      ],
+      "probe_player_z": 40.0,
+      "initial_pose": "setpos_exact -2013.990234 1200.000000 0.000000;setang_exact 88.999908 0.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -2013.990234 1200.000000 40.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1949.83,
+            1200.0,
+            31.38
+          ],
+          "xy_error": 0.17000000000007276,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 91208"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -2014.160278 1200.000000 40.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1950.0,
+            1200.0,
+            31.38
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 91208"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -2014.160278 1200.000000 40.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1950.0,
+            1200.0,
+            31.38
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 91208"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "endpoints": {
+        "floor": [
+          -1950.0,
+          1200.0,
+          31.38
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -2013.990234 1200.000000 0.000000;setang_exact 88.999908 0.000000 0.000000",
+      "status": "complete; collision column only; inspect surface semantics",
+      "id": "FLOOR_UPPER"
+    },
+    {
+      "timestamp_utc": "2026-10-01T10:52:24.462695+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Lower Tunnels",
+      "unit": "source_units",
+      "target_xy": [
+        -1100.0,
+        1450.0
+      ],
+      "probe_player_z": -100.0,
+      "initial_pose": "setpos_exact -2013.990234 1200.000000 0.000000;setang_exact 88.999908 0.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1163.990234 1450.000000 -100.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1099.77,
+            1450.0,
+            -112.0
+          ],
+          "xy_error": 0.2300000000000182,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 101070"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1164.220215 1450.000000 -100.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1100.0,
+            1450.0,
+            -112.0
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 101070"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1164.220215 1450.000000 -100.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1100.0,
+            1450.0,
+            -112.0
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 101070"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "endpoints": {
+        "floor": [
+          -1100.0,
+          1450.0,
+          -112.0
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -2013.990234 1200.000000 0.000000;setang_exact 88.999908 0.000000 0.000000",
+      "status": "complete; collision column only; inspect surface semantics",
+      "id": "FLOOR_LOWER"
+    },
+    {
+      "timestamp_utc": "2026-10-01T10:52:42.701576+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Site",
+      "unit": "source_units",
+      "target_xy": [
+        -1800.0,
+        2500.0
+      ],
+      "probe_player_z": 160.0,
+      "initial_pose": "setpos_exact -2013.990234 1200.000000 0.000000;setang_exact 88.999908 0.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1863.990234 2500.000000 160.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1797.72,
+            2500.0,
+            30.67
+          ],
+          "xy_error": 2.2799999999999727,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 98722"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1866.270264 2500.000000 160.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1800.0,
+            2500.0,
+            30.74
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 98722"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1866.270264 2500.000000 160.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1800.0,
+            2500.0,
+            30.74
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 98722"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "endpoints": {
+        "floor": [
+          -1800.0,
+          2500.0,
+          30.74
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -2013.990234 1200.000000 0.000000;setang_exact 88.999908 0.000000 0.000000",
+      "status": "complete; collision column only; inspect surface semantics",
+      "id": "FLOOR_BSITE"
+    },
+    {
+      "timestamp_utc": "2026-10-01T10:53:00.853507+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Side Pit",
+      "unit": "source_units",
+      "target_xy": [
+        1700.0,
+        500.0
+      ],
+      "probe_player_z": 100.0,
+      "initial_pose": "setpos_exact -2013.990234 1200.000000 0.000000;setang_exact 88.999908 0.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1636.009766 500.000000 100.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1700.8,
+            500.0,
+            55.08
+          ],
+          "xy_error": 0.7999999999999545,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 87514"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1635.209717 500.000000 100.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1700.0,
+            500.0,
+            55.08
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 87514"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1635.209717 500.000000 100.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1700.0,
+            500.0,
+            55.08
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 87514"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "endpoints": {
+        "floor": [
+          1700.0,
+          500.0,
+          55.08
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -2013.990234 1200.000000 0.000000;setang_exact 88.999908 0.000000 0.000000",
+      "status": "complete; collision column only; inspect surface semantics",
+      "id": "FLOOR_SIDEPIT"
+    }
+  ],
+  "rejected_attempts": [
+    {
+      "timestamp_utc": "2026-10-01T10:50:11.961598+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Upper Tunnels",
+      "unit": "source_units",
+      "target_xy": [
+        -1950.0,
+        1200.0
+      ],
+      "probe_player_z": 0.0,
+      "initial_pose": "setpos_exact -1550.000000 2200.000000 40.000000;setang_exact 0.000000 0.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [],
+      "accepted_for_production": false,
+      "id": "FLOOR_UPPER_ATTEMPT_001",
+      "status": "rejected; no cast_ray reply at initial z0; connection independently reverified",
+      "review": "Raised probe z to40 in a new recorded attempt after inspecting transport and pose; recovered floor at31.38. Initial trace likely below floor, an inference."
+    }
+  ]
+}

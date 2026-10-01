@@ -5,14 +5,14 @@ Baseline: CS2 build 25640462, 2026-10-01 UTC.
 
 | ID | Unknown | Present bound | Required resolution |
 | --- | --- | --- | --- |
-| U01 | Capture continuity | Existing persistent worker verified; five pose-recorded captures inspected; one reverse view occluded and one side view has ray overlay | Complete relocated CT views and FOV recording; extend repeatable coverage to other areas |
+| U01 | Capture continuity | Existing persistent worker repeatedly verified; 24 reviewed pose-recorded captures; original CT reverse/side gaps remain | Complete relocated CT views and FOV recording; extend repeatable coverage to other areas |
 | U02 | Critical lengths/widths | CT Spawn native collision chords measured 480.28 and 528.31 source units; physical bounds unresolved | Repeated endpoints or calibrated multiview survey |
-| U03 | Elevations/slopes/stairs | Qualitative relations only | Floor endpoints, stair counts and rise/run readings |
+| U03 | Elevations/slopes/stairs | Nine repeated native floor datums; CT floor/overhead separation 167.69 native units; full stairs/slopes and physical scale unresolved | Floor endpoints, stair counts and rise/run readings |
 | U04 | Map scale and axes | UE uses centimeters; source physical calibration unresolved | Document conversion and two independent scale anchors |
-| U05 | Per-area directional coverage | Five pose-recorded CT Spawn views inspected; reverse occlusion and debug overlay remain; 18 current-build captures across main routes; matrix lists directional gaps | Complete pose-pinned forward/reverse/side/elevation views for all areas |
+| U05 | Per-area directional coverage | 24 current-build captures; both B portal faces and CT Mid views added; original CT occlusion/overlay and remaining directional gaps listed in matrix | Complete pose-pinned forward/reverse/side/elevation views for all areas |
 | U06 | Revision-sensitive traversal | Four special connections in TOPOLOGY.json unverified | Current-build jump/drop/boost tests; record each direction |
 | U07 | Source image revision | Web radars have no matching installed-build identity | Crosscheck against current local captures |
-| U08 | Current truth-map footprint | Annotation/adjacency only; no surveyed boundary or metric grid | Calibrated footprint and elevation layers |
+| U08 | Current truth-map footprint | Native-unit floor datum point plot has nine surveyed XY/Z samples; no surveyed full boundary or physical grid | Calibrated footprint and elevation layers |
 
 Production geometry cannot use an unbounded uncertainty as an estimated dimension.
 The implementation tolerance (+/-1% triangulated, +/-3% estimated) is distinct from
