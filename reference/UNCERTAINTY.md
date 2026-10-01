@@ -5,7 +5,7 @@ Baseline: CS2 build 25640462, 2026-10-01 UTC.
 
 | ID | Unknown | Present bound | Required resolution |
 | --- | --- | --- | --- |
-| U01 | Capture continuity | Short hashed name produced an inspected CT Spawn world image; no success reply; new Error title blocks commands | Inspect current dialog, resolve cause, verify repeated pose-pinned capture |
+| U01 | Capture continuity | Short hashed name produced CT Spawn world image; CS2 closed after fatal socket shutdown error 10038; persistent worker tested synthetically only | Relaunch game, verify one persistent connection and repeated pose-pinned captures |
 | U02 | Critical lengths/widths | No defensible physical numeric bounds yet | Repeated endpoints or calibrated multiview survey |
 | U03 | Elevations/slopes/stairs | Qualitative relations only | Floor endpoints, stair counts and rise/run readings |
 | U04 | Map scale and axes | UE uses centimeters; source physical calibration unresolved | Document conversion and two independent scale anchors |

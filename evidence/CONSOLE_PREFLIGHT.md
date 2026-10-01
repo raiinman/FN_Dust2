@@ -90,8 +90,28 @@ screenshot reply; the observed pose was not saved. Do not reconstruct the pose
 from memory or assign it to a permanent camera. Metadata and hashes are in
 `reference/CAPTURE_CTSPAWN_DISCOVERY.json`.
 
-Host inspection then found CS2 process 51724 with title Error. Current dialog
-text/cause is unknown; the existing TGA means the short name cannot simply be
-declared rejected. Stop commands until dialog inspection. Helper now saves
-local-only attempt JSON including pose before deciding screenshot success.
+Host inspection then found CS2 process 51724 with title Error. The subsequent
+user screenshot identifies the dialog as:
+
+```text
+FATAL ERROR: Cannot recover from failed socket shutdown. (error 10038)
+```
+
+Microsoft defines 10038 (WSAENOTSOCK) as an operation using an invalid socket
+handle: https://learn.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2 .
+The screenshot does not identify the affected subsystem or prove the trigger.
+Per-command console close/reconnect is a plausible trigger in our workflow;
+the existing TGA means this incident does not establish basename rejection.
+
+Mitigation: cs2_console.py now supports one persistent worker, idle traffic
+draining, serialized private file requests and partial-frame retention across
+commands. CLI/capture require this worker; there is no automatic reconnect.
+Two synthetic transport tests pass, including two commands on one socket with
+a split intervening header. Compilation passes. **Live mitigation UNVERIFIED**;
+host recheck found zero CS2 processes and no port-29000 listener, pending relaunch.
+Helper now saves local-only attempt JSON including pose before sending screenshot.
 Gate 1 remains FAIL; no physical dimensions have been accepted.
+
+DOX closeout: scripts/AGENTS.md updated for the persistent workflow. Root,
+docs, reference and evidence AGENTS are unchanged because ownership/hierarchy
+and gate criteria are unchanged; state, reproduction and uncertainty are current.

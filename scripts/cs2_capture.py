@@ -1,6 +1,6 @@
 """Capture one existing local CS2 camera; keep output outside the repository.
 
-Usage: py -3.11 scripts/cs2_capture.py ID --addon PATH --output PATH
+Usage: py -3.11 scripts/cs2_capture.py ID --addon PATH --output PATH --session QUEUE
 Optional --pose X Y Z PITCH YAW moves the survey camera (requires local cheats).
 Output: original TGA, PNG preview and JSON provenance/pose/hashes. No packages
 are read. Only relative screenshot basenames are sent to the game.
@@ -14,7 +14,7 @@ import re
 import shutil
 import struct
 import zlib
-from cs2_console import exchange
+from cs2_console import request_exchange
 
 
 def preview_tga(source, target):
@@ -49,7 +49,10 @@ def main():
     p.add_argument('--addon', type=Path, required=True)
     p.add_argument('--output', type=Path, required=True)
     p.add_argument('--pose', type=float, nargs=5)
+    p.add_argument('--session', type=Path, required=True)
     a = p.parse_args()
+    def exchange(command, seconds=3):
+        return request_exchange(a.session, command, seconds)
     if not re.fullmatch(r'[A-Za-z0-9_]{1,64}', a.id):
         p.error('ID must be a safe short basename')
     out = a.output.resolve()
@@ -70,12 +73,14 @@ def main():
     # Engine rejected QA_TSPAWN_DISCOVERY_001. Its precise filename restriction
     # is unknown; keep the resource name short and independent of metadata IDs.
     basename = 'd2_' + hashlib.sha256(a.id.encode('ascii')).hexdigest()[:10]
-    response = exchange('screenshot ' + basename, seconds=3)['received_prints']
     # Keep pose/attempt evidence even if a modal error prevents a success reply.
     # Raw responses stay outside Git and require privacy review before excerpts.
     attempt = dict(id=a.id, timestamp_utc=datetime.now(timezone.utc).isoformat(),
                    pose_command=pose[0], engine_capture_basename=basename,
-                   received_prints=response)
+                   status='pose recorded; screenshot pending')
+    (out / (a.id + '_attempt.json')).write_text(json.dumps(attempt, indent=2) + '\n')
+    response = exchange('screenshot ' + basename, seconds=3)['received_prints']
+    attempt.update(received_prints=response, status='screenshot command returned')
     (out / (a.id + '_attempt.json')).write_text(json.dumps(attempt, indent=2) + '\n')
     names = [re.search(r'Screenshot written to: (.+)', line) for line in response]
     names = [m.group(1).strip() for m in names if m]

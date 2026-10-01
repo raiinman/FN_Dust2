@@ -13,8 +13,17 @@ Blender Python, Unreal automation, validation scripts, manifest processors, and 
   `response_received` only indicates live output; `response_verified` requires
   an exact echo marker. Other command results require semantic inspection.
   Usage and limitations are in its module docstring.
+  Live use requires one persistent worker (`--serve` with a private directory
+  outside Git), with requests sent through `--session`. Keep it running until
+  the game exits. Do not use the test-only one-shot exchange against CS2:
+  per-command disconnect/reconnect is a suspected trigger for fatal error 10038.
+  The worker drains idle traffic, retains partial packets and never reconnects
+  automatically. Inspect status/request/response files after a failure; do not
+  blindly resubmit a command that may already have executed. A stale lock after
+  worker interruption requires checking the old process before removing it.
 - `test_cs2_console.py` verifies framing, fragmentation, replay and echo handling
   against a local synthetic server without launching or controlling CS2.
+  It also verifies two commands on one connection with a partial intervening frame.
 - `cs2_capture.py` is a pending-integration capture helper: safe relative
   short lowercase hashed screenshot basenames, live pose, local-only TGA/PNG
   and hashes. Descriptive IDs remain in metadata. Its PNG preview
@@ -24,6 +33,8 @@ Blender Python, Unreal automation, validation scripts, manifest processors, and 
   error dialog rather than issuing more capture commands.
   Preserve local-only attempt JSON before checking screenshot success so a
   failed capture reply does not discard the observed camera pose.
+  Record pose before sending screenshot, including when transport raises.
+  Capture requests require the persistent worker's `--session` directory.
 - `reference_batch.py` derives reference metadata, normalized plan locators,
   survey tasks and the route summary from inspected HTML and TOPOLOGY.json.
   Its output remains provisional until current-build survey validation.

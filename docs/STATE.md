@@ -27,12 +27,18 @@ Acquire named-area views and measurements for this exact CS2 build before geomet
 
 ## Immediate next actions
 
-1. Inspect the current Error dialog (process 51724). Its text/cause is unknown.
-   The short hashed basename produced a real CT Spawn TGA, but the helper got
-   no success reply. Do not assume another basename failure or retry blindly.
+1. Latest dialog was fatal socket shutdown error 10038 (invalid socket handle).
+   Per-command socket closure is a suspected trigger, not a proven root cause.
+   Persistent console worker is implemented and synthetic tests pass; live
+   recovery is pending. Host recheck found no CS2 process/listener. User must relaunch the
+   existing dust2_reference addon through Launch Tools. Do not send commands
+   into the blocked process or restart Phase 1.
 2. Resolve dialog and reverify echo/map/build. Restore engine_no_focus_sleep 20;
    0 was sent for testing. Background capture is preferred; foreground visibility
    is a troubleshooting variable, not a requirement for the user's desktop.
+   Start one cs2_console.py --serve worker using an outside-Git queue; all
+   requests/captures must use --session and keep that connection open until
+   the game exits. Do not return to per-command socket reconnects.
 3. Verify repeated pose-pinned world captures and complete named-area coverage.
    The first loading screen remains rejected; CT Spawn partial view is recorded.
    Helper scripts/cs2_capture.py has pending live integration; it sends relative
@@ -48,8 +54,9 @@ Acquire named-area views and measurements for this exact CS2 build before geomet
 
 - This session has no callable `node_repl`; required computer-use API is unavailable.
   No desktop input was performed.
-- Workshop Tools installed and transport verified. Current Error dialog blocks
-  commands; text pending. One real world capture exists, but repeatability and
+- Workshop Tools installed and transport verified. CS2 is now closed after
+  fatal socket shutdown error 10038. Persistent mitigation has not
+  been verified in live CS2. One real world capture exists, but repeatability and
   complete camera metadata are unresolved. Source physical scale unresolved.
 - Public references are provisional; local directional coverage remains partial.
 - MEASUREMENTS.csv has no physical measurements yet; calibrated truth map and

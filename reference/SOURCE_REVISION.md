@@ -35,7 +35,9 @@ The date above is the file's literal timestamp, with no assumed timezone.
 ## Reproduction
 
 Read only the fields above from the installed manifest and `steam.inf`.
-Then run `py -3.11 scripts/cs2_console.py "echo FN_DUST2_PROBE"` against a game launched with
+Start `py -3.11 scripts/cs2_console.py --serve OUTSIDE_REPO_QUEUE` once, then run
+`py -3.11 scripts/cs2_console.py "echo FN_DUST2_PROBE" --session OUTSIDE_REPO_QUEUE`
+against a game launched with
 `-tools -vconsole`. The CS2RemoteConsole implementation explicitly requires
 tools mode: https://github.com/theokyr/CS2RemoteConsole . Merely enabling the
 on-screen console or launching with `-vconsole` did not create a TCP listener in
@@ -50,3 +52,8 @@ for 32-bit packet lengths. See `evidence/CONSOLE_PREFLIGHT.md` for verified
 commands, rejected version command and the screenshot-path failure recovery.
 Do not treat a launcher TCP listener as successful game control, and do not
 download replacement DLLs.
+
+Keep the worker's connection open until the game exits. Repeated one-shot
+connections are a suspected trigger for the observed fatal socket shutdown
+error 10038; persistent live integration remains pending. The worker's private
+request/response logs stay outside Git and require privacy review.
