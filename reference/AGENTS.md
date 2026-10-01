@@ -22,6 +22,9 @@ This folder contains reference metadata and derived measurement records. Avoid c
 - `CAPTURE_CTSPAWN_DISCOVERY.json` records the first inspected world reference;
   missing pose prevents use as a locked comparison camera or numeric evidence.
 
+- `CAPTURE_CT_RECOVERY.json` records reviewed persistent-connection captures,
+  exact source poses and local-only hashes; coverage/FOV limitations remain explicit.
+
 ## Local Contracts
 
 - Every reference must have provenance.

@@ -5,7 +5,7 @@ Baseline: CS2 build 25640462, 2026-10-01 UTC.
 
 | ID | Unknown | Present bound | Required resolution |
 | --- | --- | --- | --- |
-| U01 | Capture continuity | Short hashed name produced CT Spawn world image; CS2 closed after fatal socket shutdown error 10038; persistent worker tested synthetically only | Relaunch game, verify one persistent connection and repeated pose-pinned captures |
+| U01 | Capture continuity | Existing persistent worker verified; five pose-recorded captures inspected; one reverse view occluded and one side view has ray overlay | Complete relocated CT views and FOV recording; extend repeatable coverage to other areas |
 | U02 | Critical lengths/widths | No defensible physical numeric bounds yet | Repeated endpoints or calibrated multiview survey |
 | U03 | Elevations/slopes/stairs | Qualitative relations only | Floor endpoints, stair counts and rise/run readings |
 | U04 | Map scale and axes | UE uses centimeters; source physical calibration unresolved | Document conversion and two independent scale anchors |

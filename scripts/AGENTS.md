@@ -13,6 +13,9 @@ Blender Python, Unreal automation, validation scripts, manifest processors, and 
   `response_received` only indicates live output; `response_verified` requires
   an exact echo marker. Other command results require semantic inspection.
   Usage and limitations are in its module docstring.
+  Before starting a worker, inspect existing queue/status files and TCP owners;
+  reuse a verified worker. A second socket can connect but return no output.
+  Never terminate a live extra socket casually after the observed shutdown failure.
   Live use requires one persistent worker (`--serve` with a private directory
   outside Git), with requests sent through `--session`. Keep it running until
   the game exits. Do not use the test-only one-shot exchange against CS2:
@@ -24,11 +27,12 @@ Blender Python, Unreal automation, validation scripts, manifest processors, and 
 - `test_cs2_console.py` verifies framing, fragmentation, replay and echo handling
   against a local synthetic server without launching or controlling CS2.
   It also verifies two commands on one connection with a partial intervening frame.
-- `cs2_capture.py` is a pending-integration capture helper: safe relative
+- `cs2_capture.py` is a live-tested capture helper: safe relative
   short lowercase hashed screenshot basenames, live pose, local-only TGA/PNG
   and hashes. Descriptive IDs remain in metadata. Its PNG preview
   was visually checked against a real loading-screen capture; full capture
-  automation is not verified. Do not count a file as usable reference coverage
+  automation has passed five sequential captures on the existing persistent
+  worker. Full named-area coverage and camera FOV calibration remain incomplete. Do not count a file as usable reference coverage
   until its rendered area/direction is inspected. Stop on a missing reply or
   error dialog rather than issuing more capture commands.
   Preserve local-only attempt JSON before checking screenshot success so a

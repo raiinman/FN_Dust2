@@ -55,5 +55,7 @@ download replacement DLLs.
 
 Keep the worker's connection open until the game exits. Repeated one-shot
 connections are a suspected trigger for the observed fatal socket shutdown
-error 10038; persistent live integration remains pending. The worker's private
+error 10038; persistent live capture verified on 2026-10-01. The worker's private
 request/response logs stay outside Git and require privacy review.
+Recheck confirmed build 25640462 and steam.inf identity unchanged during recovery.
+Reuse an existing verified worker before starting another; see evidence/CONSOLE_RECOVERY.md.
