@@ -13,14 +13,18 @@ live pose and five screenshot replies. All five images were visually inspected.
 Camera poses, hashes, source identity and limitations are recorded in
 reference/CAPTURE_CT_RECOVERY.json and evidence/CONSOLE_RECOVERY.md.
 Reference manifest now has five additional reviewed CT Spawn records.
-Nine reviewed screenshots are committed under reference/images/ at
+Eighteen reviewed screenshots are committed under reference/images/ at
 the user's explicit request. Settled-pose ray survey recorded 12 observations;
 CT native collision chords are 480.28 and 528.31 source units. Physical scale
 is unresolved; these are not accepted centimeter dimensions. fov_cs_debug 90
 was set/read back after the original five captures. Four more captures show
 A Site toward Long, B Site toward tunnels, Catwalk toward Mid Doors and an
 overhead perspective of the current-build footprint. Roof occlusion prevents
-calling this a calibrated truth map. Metadata: CAPTURE_DISCOVERY_BATCH.json.
+calling this a calibrated truth map. Metadata: CAPTURE_DISCOVERY_BATCH.json. The route batch adds T Spawn, Long A,
+Long Doors exterior, A Short, upper/lower tunnel exits and Side Pit/Long Corner
+stairs. Nine clipped/occluded discovery attempts are recorded as rejected.
+Coverage matrix and source camera register are populated. Gate review: FAIL
+(evidence/GATE1_REVIEW.md); no acceptance criterion is bypassed.
 See newest Git commit for checkpoint SHA.
 
 ## Current objective
@@ -35,8 +39,10 @@ Complete current-build directional reference coverage and metric calibration.
    A second worker at ../work/cs2_live_20261001 (observed 42912) connected but
    returned no output. It remains open to avoid an untested socket shutdown.
    Do not start a third worker or close live sockets casually.
-2. Latest survey camera is at source pose (-300,1000,100), yaw 90, on Catwalk.
-   Continue directional coverage for A/B/Mid/Catwalk and remaining areas.
+2. Latest survey camera is at source pose (1700,500,100), pitch 20, yaw 90,
+   on Side Pit terrace.
+   Use reference/COVERAGE_MATRIX.csv for the remaining directional/elevation
+   work, especially Pit floor, Top Mid, CT Mid, B Doors and tunnel interiors.
    CT Spawn survey starts from raw source pose
    (160.122742,2369.676270,-119.918701). Camera eye/origin convention unresolved.
    +X view shows ramp/stairs; +Y barred arch; -X crate blocks reverse passage;

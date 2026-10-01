@@ -27,3 +27,11 @@ deriving architectural endpoints. Rendered and collision surfaces may differ.
 
 Source anchors must include an engine-native reading and an independent crosscheck.
 Record what is assumed rather than calling an arbitrary physical scale confirmed.
+
+## Current native observations
+
+Source +X / yaw 0 and +Y / yaw 90 were observed with settled-pose collision rays.
+Native camera poses are in SOURCE_CAMERAS.csv; do not load them as centimeters
+in Unreal. CT_COLLISION_PLAN.svg shows measured collision chords only.
+Vertical probe endpoints have unexpected lateral offsets relative to the player
+origin; eye/trace-origin behavior must be understood before room-height acceptance.

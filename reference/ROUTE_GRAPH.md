@@ -46,7 +46,7 @@ Nodes describe area relationships; they are not polygon outlines or route length
 | E33 | Short Stairs | A Short | walk | both | stairs up | D033 |
 | E34 | A Short | A Site | walk | both | platform survey | D034 |
 
-## Special traversal — independent validation required
+## Special traversal â€” independent validation required
 
 | ID | From | To | Mode | Uncertainty | Survey task |
 | --- | --- | --- | --- | --- | --- |
@@ -68,3 +68,12 @@ Nodes describe area relationships; they are not polygon outlines or route length
 ## Remaining uncertainty
 
 See UNCERTAINTY.md and SURVEY_TASKS.csv. No numeric width/elevation is yet accepted.
+
+## Current-build visual corroboration
+
+E05/E06: upper tunnel exit and B-side mouth appear in QA_UPTUN_DISCOVERY_002
+and QA_B_DISCOVERY_001. E09: lower-tunnel/Mid arch appears in
+QA_LOWTUN_DISCOVERY_002 and QA_MID_DISCOVERY_001. E24: outside Long Doors
+face appears in QA_OUTLONG_DISCOVERY_002. These images corroborate space
+relationships; they do not establish walkability or fully validate topology.
+Keep these evidence IDs if the public-reference summary is regenerated.

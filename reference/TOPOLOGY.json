@@ -1,53 +1,398 @@
 {
   "status": "provisional; requires current-build traversal validation",
-  "source_ids": ["PLAN_CSDB", "PLAN_CALLER"],
+  "source_ids": [
+    "PLAN_CSDB",
+    "PLAN_CALLER"
+  ],
   "nodes": [
-    "T Spawn", "T Ramp", "Outside Tunnels", "Upper Tunnels", "Tunnel Stairs",
-    "Lower Tunnels", "B Tunnel Exit", "B Site", "B Doors", "B Window",
-    "CT Mid", "Mid Doors", "Mid", "Top Mid", "Suicide", "Outside Long",
-    "Long Doors", "Long Corner", "Side Pit", "Pit", "Long A", "A Cross",
-    "A Ramp", "A Site", "Catwalk", "Short Stairs", "A Short", "CT Spawn", "Under A"
+    "T Spawn",
+    "T Ramp",
+    "Outside Tunnels",
+    "Upper Tunnels",
+    "Tunnel Stairs",
+    "Lower Tunnels",
+    "B Tunnel Exit",
+    "B Site",
+    "B Doors",
+    "B Window",
+    "CT Mid",
+    "Mid Doors",
+    "Mid",
+    "Top Mid",
+    "Suicide",
+    "Outside Long",
+    "Long Doors",
+    "Long Corner",
+    "Side Pit",
+    "Pit",
+    "Long A",
+    "A Cross",
+    "A Ramp",
+    "A Site",
+    "Catwalk",
+    "Short Stairs",
+    "A Short",
+    "CT Spawn",
+    "Under A"
   ],
   "edges": [
-    {"id":"E01","from":"T Spawn","to":"Outside Long","mode":"walk","direction":"both","elevation":"survey","measurement":"D001"},
-    {"id":"E02","from":"T Spawn","to":"T Ramp","mode":"walk","direction":"both","elevation":"ramp down toward tunnels","measurement":"D002"},
-    {"id":"E03","from":"T Ramp","to":"Outside Tunnels","mode":"walk","direction":"both","elevation":"survey","measurement":"D003"},
-    {"id":"E04","from":"Outside Tunnels","to":"Upper Tunnels","mode":"walk","direction":"both","elevation":"entrance survey","measurement":"D004"},
-    {"id":"E05","from":"Upper Tunnels","to":"B Tunnel Exit","mode":"walk","direction":"both","elevation":"survey","measurement":"D005"},
-    {"id":"E06","from":"B Tunnel Exit","to":"B Site","mode":"walk","direction":"both","elevation":"survey","measurement":"D006"},
-    {"id":"E07","from":"Upper Tunnels","to":"Tunnel Stairs","mode":"walk","direction":"both","elevation":"stairs down toward lower","measurement":"D007"},
-    {"id":"E08","from":"Tunnel Stairs","to":"Lower Tunnels","mode":"walk","direction":"both","elevation":"lower floor","measurement":"D008"},
-    {"id":"E09","from":"Lower Tunnels","to":"Mid","mode":"walk","direction":"both","elevation":"arch survey","measurement":"D009"},
-    {"id":"E10","from":"Outside Long","to":"Top Mid","mode":"walk","direction":"both","elevation":"survey","measurement":"D010"},
-    {"id":"E11","from":"T Spawn","to":"Suicide","mode":"drop; reverse uncertain","direction":"forward","elevation":"drop","measurement":"D011"},
-    {"id":"E12","from":"Suicide","to":"Top Mid","mode":"walk","direction":"both","elevation":"survey","measurement":"D012"},
-    {"id":"E13","from":"Top Mid","to":"Mid","mode":"walk","direction":"both","elevation":"mid descends toward doors","measurement":"D013"},
-    {"id":"E14","from":"Top Mid","to":"Catwalk","mode":"walk","direction":"both","elevation":"survey","measurement":"D014"},
-    {"id":"E15","from":"Mid","to":"Mid Doors","mode":"walk","direction":"both","elevation":"survey","measurement":"D015"},
-    {"id":"E16","from":"Mid Doors","to":"CT Mid","mode":"walk","direction":"both","elevation":"survey","measurement":"D016"},
-    {"id":"E17","from":"CT Mid","to":"B Doors","mode":"walk","direction":"both","elevation":"survey","measurement":"D017"},
-    {"id":"E18","from":"B Doors","to":"B Site","mode":"walk","direction":"both","elevation":"survey","measurement":"D018"},
-    {"id":"E19","from":"CT Mid","to":"B Window","mode":"climb/jump","direction":"both pending validation","elevation":"raised aperture","measurement":"D019"},
-    {"id":"E20","from":"B Window","to":"B Site","mode":"climb/drop","direction":"both pending validation","elevation":"drop into site","measurement":"D020"},
-    {"id":"E21","from":"CT Mid","to":"CT Spawn","mode":"walk","direction":"both","elevation":"survey","measurement":"D021"},
-    {"id":"E22","from":"CT Spawn","to":"Under A","mode":"walk","direction":"both","elevation":"below A platform","measurement":"D022"},
-    {"id":"E23","from":"Under A","to":"A Cross","mode":"walk","direction":"both","elevation":"survey","measurement":"D023"},
-    {"id":"E24","from":"Outside Long","to":"Long Doors","mode":"walk","direction":"both","elevation":"survey","measurement":"D024"},
-    {"id":"E25","from":"Long Doors","to":"Long Corner","mode":"walk","direction":"both","elevation":"two portals with intervening room","measurement":"D025"},
-    {"id":"E26","from":"Long Corner","to":"Side Pit","mode":"walk","direction":"both","elevation":"survey","measurement":"D026"},
-    {"id":"E27","from":"Side Pit","to":"Pit","mode":"walk","direction":"both","elevation":"down into pit","measurement":"D027"},
-    {"id":"E28","from":"Long Corner","to":"Long A","mode":"walk","direction":"both","elevation":"survey","measurement":"D028"},
-    {"id":"E29","from":"Long A","to":"A Cross","mode":"walk","direction":"both","elevation":"survey","measurement":"D029"},
-    {"id":"E30","from":"A Cross","to":"A Ramp","mode":"walk","direction":"both","elevation":"rises toward A","measurement":"D030"},
-    {"id":"E31","from":"A Ramp","to":"A Site","mode":"walk","direction":"both","elevation":"raised platform","measurement":"D031"},
-    {"id":"E32","from":"Catwalk","to":"Short Stairs","mode":"walk","direction":"both","elevation":"above mid","measurement":"D032"},
-    {"id":"E33","from":"Short Stairs","to":"A Short","mode":"walk","direction":"both","elevation":"stairs up","measurement":"D033"},
-    {"id":"E34","from":"A Short","to":"A Site","mode":"walk","direction":"both","elevation":"platform survey","measurement":"D034"}
+    {
+      "id": "E01",
+      "from": "T Spawn",
+      "to": "Outside Long",
+      "mode": "walk",
+      "direction": "both",
+      "elevation": "survey",
+      "measurement": "D001"
+    },
+    {
+      "id": "E02",
+      "from": "T Spawn",
+      "to": "T Ramp",
+      "mode": "walk",
+      "direction": "both",
+      "elevation": "ramp down toward tunnels",
+      "measurement": "D002"
+    },
+    {
+      "id": "E03",
+      "from": "T Ramp",
+      "to": "Outside Tunnels",
+      "mode": "walk",
+      "direction": "both",
+      "elevation": "survey",
+      "measurement": "D003"
+    },
+    {
+      "id": "E04",
+      "from": "Outside Tunnels",
+      "to": "Upper Tunnels",
+      "mode": "walk",
+      "direction": "both",
+      "elevation": "entrance survey",
+      "measurement": "D004"
+    },
+    {
+      "id": "E05",
+      "from": "Upper Tunnels",
+      "to": "B Tunnel Exit",
+      "mode": "walk",
+      "direction": "both",
+      "elevation": "survey",
+      "measurement": "D005",
+      "visual_evidence_ids": [
+        "QA_UPTUN_DISCOVERY_002"
+      ],
+      "validation": "current-build visual corroboration only; walking/collision/elevation validation pending"
+    },
+    {
+      "id": "E06",
+      "from": "B Tunnel Exit",
+      "to": "B Site",
+      "mode": "walk",
+      "direction": "both",
+      "elevation": "survey",
+      "measurement": "D006",
+      "visual_evidence_ids": [
+        "QA_UPTUN_DISCOVERY_002",
+        "QA_B_DISCOVERY_001"
+      ],
+      "validation": "current-build visual corroboration only; walking/collision/elevation validation pending"
+    },
+    {
+      "id": "E07",
+      "from": "Upper Tunnels",
+      "to": "Tunnel Stairs",
+      "mode": "walk",
+      "direction": "both",
+      "elevation": "stairs down toward lower",
+      "measurement": "D007"
+    },
+    {
+      "id": "E08",
+      "from": "Tunnel Stairs",
+      "to": "Lower Tunnels",
+      "mode": "walk",
+      "direction": "both",
+      "elevation": "lower floor",
+      "measurement": "D008"
+    },
+    {
+      "id": "E09",
+      "from": "Lower Tunnels",
+      "to": "Mid",
+      "mode": "walk",
+      "direction": "both",
+      "elevation": "arch survey",
+      "measurement": "D009",
+      "visual_evidence_ids": [
+        "QA_LOWTUN_DISCOVERY_002",
+        "QA_MID_DISCOVERY_001"
+      ],
+      "validation": "current-build visual corroboration only; walking/collision/elevation validation pending"
+    },
+    {
+      "id": "E10",
+      "from": "Outside Long",
+      "to": "Top Mid",
+      "mode": "walk",
+      "direction": "both",
+      "elevation": "survey",
+      "measurement": "D010"
+    },
+    {
+      "id": "E11",
+      "from": "T Spawn",
+      "to": "Suicide",
+      "mode": "drop; reverse uncertain",
+      "direction": "forward",
+      "elevation": "drop",
+      "measurement": "D011"
+    },
+    {
+      "id": "E12",
+      "from": "Suicide",
+      "to": "Top Mid",
+      "mode": "walk",
+      "direction": "both",
+      "elevation": "survey",
+      "measurement": "D012"
+    },
+    {
+      "id": "E13",
+      "from": "Top Mid",
+      "to": "Mid",
+      "mode": "walk",
+      "direction": "both",
+      "elevation": "mid descends toward doors",
+      "measurement": "D013"
+    },
+    {
+      "id": "E14",
+      "from": "Top Mid",
+      "to": "Catwalk",
+      "mode": "walk",
+      "direction": "both",
+      "elevation": "survey",
+      "measurement": "D014"
+    },
+    {
+      "id": "E15",
+      "from": "Mid",
+      "to": "Mid Doors",
+      "mode": "walk",
+      "direction": "both",
+      "elevation": "survey",
+      "measurement": "D015"
+    },
+    {
+      "id": "E16",
+      "from": "Mid Doors",
+      "to": "CT Mid",
+      "mode": "walk",
+      "direction": "both",
+      "elevation": "survey",
+      "measurement": "D016"
+    },
+    {
+      "id": "E17",
+      "from": "CT Mid",
+      "to": "B Doors",
+      "mode": "walk",
+      "direction": "both",
+      "elevation": "survey",
+      "measurement": "D017"
+    },
+    {
+      "id": "E18",
+      "from": "B Doors",
+      "to": "B Site",
+      "mode": "walk",
+      "direction": "both",
+      "elevation": "survey",
+      "measurement": "D018"
+    },
+    {
+      "id": "E19",
+      "from": "CT Mid",
+      "to": "B Window",
+      "mode": "climb/jump",
+      "direction": "both pending validation",
+      "elevation": "raised aperture",
+      "measurement": "D019"
+    },
+    {
+      "id": "E20",
+      "from": "B Window",
+      "to": "B Site",
+      "mode": "climb/drop",
+      "direction": "both pending validation",
+      "elevation": "drop into site",
+      "measurement": "D020"
+    },
+    {
+      "id": "E21",
+      "from": "CT Mid",
+      "to": "CT Spawn",
+      "mode": "walk",
+      "direction": "both",
+      "elevation": "survey",
+      "measurement": "D021"
+    },
+    {
+      "id": "E22",
+      "from": "CT Spawn",
+      "to": "Under A",
+      "mode": "walk",
+      "direction": "both",
+      "elevation": "below A platform",
+      "measurement": "D022"
+    },
+    {
+      "id": "E23",
+      "from": "Under A",
+      "to": "A Cross",
+      "mode": "walk",
+      "direction": "both",
+      "elevation": "survey",
+      "measurement": "D023"
+    },
+    {
+      "id": "E24",
+      "from": "Outside Long",
+      "to": "Long Doors",
+      "mode": "walk",
+      "direction": "both",
+      "elevation": "survey",
+      "measurement": "D024",
+      "visual_evidence_ids": [
+        "QA_OUTLONG_DISCOVERY_002"
+      ],
+      "validation": "current-build visual corroboration only; walking/collision/elevation validation pending"
+    },
+    {
+      "id": "E25",
+      "from": "Long Doors",
+      "to": "Long Corner",
+      "mode": "walk",
+      "direction": "both",
+      "elevation": "two portals with intervening room",
+      "measurement": "D025"
+    },
+    {
+      "id": "E26",
+      "from": "Long Corner",
+      "to": "Side Pit",
+      "mode": "walk",
+      "direction": "both",
+      "elevation": "survey",
+      "measurement": "D026"
+    },
+    {
+      "id": "E27",
+      "from": "Side Pit",
+      "to": "Pit",
+      "mode": "walk",
+      "direction": "both",
+      "elevation": "down into pit",
+      "measurement": "D027"
+    },
+    {
+      "id": "E28",
+      "from": "Long Corner",
+      "to": "Long A",
+      "mode": "walk",
+      "direction": "both",
+      "elevation": "survey",
+      "measurement": "D028"
+    },
+    {
+      "id": "E29",
+      "from": "Long A",
+      "to": "A Cross",
+      "mode": "walk",
+      "direction": "both",
+      "elevation": "survey",
+      "measurement": "D029"
+    },
+    {
+      "id": "E30",
+      "from": "A Cross",
+      "to": "A Ramp",
+      "mode": "walk",
+      "direction": "both",
+      "elevation": "rises toward A",
+      "measurement": "D030"
+    },
+    {
+      "id": "E31",
+      "from": "A Ramp",
+      "to": "A Site",
+      "mode": "walk",
+      "direction": "both",
+      "elevation": "raised platform",
+      "measurement": "D031"
+    },
+    {
+      "id": "E32",
+      "from": "Catwalk",
+      "to": "Short Stairs",
+      "mode": "walk",
+      "direction": "both",
+      "elevation": "above mid",
+      "measurement": "D032"
+    },
+    {
+      "id": "E33",
+      "from": "Short Stairs",
+      "to": "A Short",
+      "mode": "walk",
+      "direction": "both",
+      "elevation": "stairs up",
+      "measurement": "D033"
+    },
+    {
+      "id": "E34",
+      "from": "A Short",
+      "to": "A Site",
+      "mode": "walk",
+      "direction": "both",
+      "elevation": "platform survey",
+      "measurement": "D034"
+    }
   ],
   "special_connections": [
-    {"id":"S01","from":"Mid","to":"Catwalk","mode":"Xbox climb/jump","status":"unverified current build","measurement":"D035"},
-    {"id":"S02","from":"A Short","to":"CT Spawn","mode":"drop","status":"landing and reverse traversal unverified","measurement":"D036"},
-    {"id":"S03","from":"CT Spawn","to":"A Short","mode":"crate climb/boost","status":"revision-sensitive; do not infer from pre-2024 imagery","measurement":"D037"},
-    {"id":"S04","from":"Under A","to":"A Site","mode":"elevator boost","status":"requires independent traversal proof","measurement":"D038"}
+    {
+      "id": "S01",
+      "from": "Mid",
+      "to": "Catwalk",
+      "mode": "Xbox climb/jump",
+      "status": "unverified current build",
+      "measurement": "D035"
+    },
+    {
+      "id": "S02",
+      "from": "A Short",
+      "to": "CT Spawn",
+      "mode": "drop",
+      "status": "landing and reverse traversal unverified",
+      "measurement": "D036"
+    },
+    {
+      "id": "S03",
+      "from": "CT Spawn",
+      "to": "A Short",
+      "mode": "crate climb/boost",
+      "status": "revision-sensitive; do not infer from pre-2024 imagery",
+      "measurement": "D037"
+    },
+    {
+      "id": "S04",
+      "from": "Under A",
+      "to": "A Site",
+      "mode": "elevator boost",
+      "status": "requires independent traversal proof",
+      "measurement": "D038"
+    }
   ]
 }

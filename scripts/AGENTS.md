@@ -43,7 +43,9 @@ Blender Python, Unreal automation, validation scripts, manifest processors, and 
   Capture requests require the persistent worker's `--session` directory.
 - `reference_batch.py` derives reference metadata, normalized plan locators,
   survey tasks and the route summary from inspected HTML and TOPOLOGY.json.
-  Its output remains provisional until current-build survey validation.
+  Its output remains provisional until current-build survey validation. Preserve
+  current-build visual_evidence_ids in TOPOLOGY.json and route-graph evidence
+  notes when regenerating the provisional public-source summary.
 
 - `cs2_probe_surfaces.py` repeats six cardinal/vertical rays twice, saves every
   completed observation, and restores orientation through the existing worker.

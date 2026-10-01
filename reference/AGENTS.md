@@ -28,6 +28,12 @@ self-captured CS2 study screenshots for the internal benchmark.
 
 - `CAPTURE_DISCOVERY_BATCH.json` records inspected A/B/Catwalk/overhead views,
   poses, configured FOV and limitations.
+- `CAPTURE_ROUTE_BATCH.json` records reviewed route images and rejected camera
+  attempts; rejected poses are not usable coverage.
+- `CT_COLLISION_PLAN.svg` diagrams native collision chords, not whole-map bounds.
+- `SOURCE_CAMERAS.csv` registers raw source poses separately from Unreal QA
+  cameras; units and FOV uncertainty remain explicit.
+- `COVERAGE_MATRIX.csv` owns remaining per-area Gate 1 reference work.
 - `images/` contains GitHub-visible study screenshots, organized by named area.
 - `RAW_DIMENSIONS.csv` contains native collision chords, separate from the
   canonical centimeter production register.
