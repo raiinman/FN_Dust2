@@ -1,7 +1,7 @@
 {
   "review_date": "2026-10-01",
   "source_build": "25640462",
-  "registered_images": 99,
+  "registered_images": 103,
   "coverage_excluded": 8,
   "complete_areas": 0,
   "gate_1": "FAIL",
@@ -797,6 +797,38 @@
       "sha256": "151fb1ce4bce765d50916841cef38c0c3db52f2aba2042c6fd7ec7d6a0e0da99",
       "coverage_status": "PARTIAL",
       "review": "Clear side floor, stair flight and street perimeter wall read; clipped cover at right edge is not cover-dimension evidence."
+    },
+    {
+      "id": "QA_SHORTSTAIRS_FORWARD_RECOVERY_001",
+      "area": "Short Stairs",
+      "image": "reference/images/short/QA_SHORTSTAIRS_FORWARD_RECOVERY_001.jpg",
+      "sha256": "836ec80d173a13ae526b4167bdfafb1966f0a44970512e21a0f9642500554d5b",
+      "coverage_status": "PARTIAL",
+      "review": "Complete visible stair flight from lower approach, both bounding walls and upper landing sightline. Configured upward pitch preserves flight; structural dimensions require separate endpoints."
+    },
+    {
+      "id": "QA_SHORTSTAIRS_REVERSE_RECOVERY_001",
+      "area": "Short Stairs",
+      "image": "reference/images/short/QA_SHORTSTAIRS_REVERSE_RECOVERY_001.jpg",
+      "sha256": "c0dd504cafb465b9f18f01c395713a6aea2707087c0af60b4c951235a1ea7a48",
+      "coverage_status": "PARTIAL",
+      "review": "Upper landing toward lower Catwalk approach; lower landing and side walls visible. Nearest treads reach lower frame; use forward/side for complete flight."
+    },
+    {
+      "id": "QA_SHORTSTAIRS_SIDE_RECOVERY_001",
+      "area": "Short Stairs",
+      "image": "reference/images/short/QA_SHORTSTAIRS_SIDE_RECOVERY_001.jpg",
+      "sha256": "9ef7b4d2b3cf2d447a71d0d9559f058e854f67835c2cd189cc9ebbd2c46daac0",
+      "coverage_status": "PARTIAL",
+      "review": "Unoccluded oblique full stair flight and parapet, lower/upper landing context. Rendered step count awaits metric profile crosscheck."
+    },
+    {
+      "id": "QA_SHORTSTAIRS_PLAN_RECOVERY_001",
+      "area": "Short Stairs",
+      "image": "reference/images/short/QA_SHORTSTAIRS_PLAN_RECOVERY_001.jpg",
+      "sha256": "68361176db030999a2d76a37c801489ba0dd7d1996e7ec80c4ccf2f4ca92b492",
+      "coverage_status": "PARTIAL",
+      "review": "High perspective of whole flight, adjacent walls and both approach platforms; wire and lamp overlap limited floor patches. Perspective only, not orthographic metric evidence."
     }
   ]
 }

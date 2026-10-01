@@ -33,7 +33,7 @@ DOX: root user preference and reference/scripting contracts updated; reference
 and master standards reconcile screenshot storage. Docs/evidence/QA AGENTS
 unchanged because ownership and acceptance criteria have not changed.
 
-Recovery review: IMAGE_AUDIT.json verifies all 99 area image hashes. IMAGE_REVIEW.json
+Recovery review: IMAGE_AUDIT.json verifies all 103 area image hashes. IMAGE_REVIEW.json
 identifies eight excluded historical images. The original 24 and recovered 55,
 new CT/Pit, six Long Doors, four B Doors and five site replacement/addition frames
 were inspected. Clipped/obstructed initial frames stay private rejects.
@@ -57,3 +57,8 @@ editor round-trip is unverified and required in Phase 2. The local B vertical
 clearance is floor-to-first wood hull at one XY, not full structural opening height.
 One corrected overhead ray missed its nearby edge; the failed column was inspected,
 health echo verified and original pose restored before a new station was attempted.
+
+Short checkpoint: four reviewed stair views supplement the original references.
+E32/E33/E34 have completed both-direction collision walks; reduced speed80 and
+arrival25, no teleports during the route. Stair profile survey is still in progress.
+Gate 1 remains FAIL; no Phase 2 production geometry has started.

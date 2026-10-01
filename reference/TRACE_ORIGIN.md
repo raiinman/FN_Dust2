@@ -26,5 +26,6 @@ so offset follows camera up and ray direction still has a lateral component.
 Floor and ceiling samples therefore occurred at different XY coordinates.
 Do not subtract their elevations as a same-column clearance. Position new
 probes using this model, record actual hit XY, and crosscheck rendered versus
-collision surfaces. Physical units, Unreal axis transform, effective FOV and
-full map calibration remain unresolved. No centimeter dimension is accepted.
+collision surfaces. This historical diagnostic establishes the trace offset only. Current physical
+conversion and target convention are recorded separately in SCALE_CALIBRATION.json
+and COORDINATE_TRANSFORM.json; effective FOV and full map footprint remain unresolved.

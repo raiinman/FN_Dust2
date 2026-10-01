@@ -102,3 +102,8 @@ the reverse path bends around the angled leaf. E29/E30/E31 pass Long A through
 the cross/ramp to A Site in both directions using the outer street around site
 cover. WALK_PROBES.json owns reduced-speed paths and failed plans. These do
 not accept complete B courtyard, Under A, or special traversal.
+
+E32/E33 pass the full lower Catwalk approach-to-Short upper landing stair route
+in both directions. E34 passes Short upper landing-to-A Site in both directions.
+Speed80/arrival25; start-only teleport. Earlier wall/parapet-blocked plans remain
+preserved. These paths do not certify tread dimensions or special traversal.
