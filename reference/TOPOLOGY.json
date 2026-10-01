@@ -212,7 +212,8 @@
         "QA_CTMID_BAPPROACH_001",
         "QA_BDOORS_EXTERIOR_002"
       ],
-      "validation": "visual relation only; walking, collision and elevation remain pending"
+      "validation": "Completed collision walk both directions; speed80; arrival25/20; opening dimensions still pending.",
+      "walking_evidence": "WALK_PROBES.json/B_DOORS_BOTH"
     },
     {
       "id": "E18",
@@ -225,7 +226,8 @@
       "visual_evidence_ids": [
         "QA_BDOORS_INTERIOR_002"
       ],
-      "validation": "visual relation only; walking, collision and elevation remain pending"
+      "validation": "Completed collision walk both directions; speed80; arrival25/20; opening dimensions still pending.",
+      "walking_evidence": "WALK_PROBES.json/B_DOORS_BOTH"
     },
     {
       "id": "E19",
@@ -331,7 +333,9 @@
       "mode": "walk",
       "direction": "both",
       "elevation": "survey",
-      "measurement": "D029"
+      "measurement": "D029",
+      "walking_evidence": "WALK_PROBES.json/LONG_A_SITE_BOTH",
+      "validation": "Completed collision walk both directions; speed80; arrival25; endpoint dimensions pending."
     },
     {
       "id": "E30",
@@ -340,7 +344,9 @@
       "mode": "walk",
       "direction": "both",
       "elevation": "rises toward A",
-      "measurement": "D030"
+      "measurement": "D030",
+      "walking_evidence": "WALK_PROBES.json/LONG_A_SITE_BOTH",
+      "validation": "Completed collision walk both directions; speed80; arrival25; endpoint dimensions pending."
     },
     {
       "id": "E31",
@@ -349,7 +355,9 @@
       "mode": "walk",
       "direction": "both",
       "elevation": "raised platform",
-      "measurement": "D031"
+      "measurement": "D031",
+      "walking_evidence": "WALK_PROBES.json/LONG_A_SITE_BOTH",
+      "validation": "Completed collision walk both directions; speed80; arrival25; endpoint dimensions pending."
     },
     {
       "id": "E32",

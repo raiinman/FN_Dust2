@@ -57,13 +57,15 @@ def build(root):
     for report in endpoint_reports[1:]:
         for section in report.get('accepted_sections', []):
             observations = [o for o in report['observations'] if o['station_id'] == section['station_id']]
-            positive = [o for o in observations if o['yaw'] == 0]
-            negative = [o for o in observations if o['yaw'] == 180]
+            axis = section.get('axis',0)
+            assert axis in (0,1)
+            positive = [o for o in observations if o['yaw'] == (0 if axis == 0 else 90)]
+            negative = [o for o in observations if o['yaw'] == (180 if axis == 0 else -90)]
             assert len(positive) == len(negative) == 2
             assert positive[0]['hit'] == positive[1]['hit']
             assert negative[0]['hit'] == negative[1]['hit']
-            assert positive[0]['hit'][1:] == negative[0]['hit'][1:]
-            assert positive[0]['hit'][0] > negative[0]['hit'][0]
+            assert all(positive[0]['hit'][i] == negative[0]['hit'][i] for i in range(3) if i != axis)
+            assert positive[0]['hit'][axis] > negative[0]['hit'][axis]
             measurements.append(dict(id=section['id'],area=report['area'],
                 feature=section['feature'],
                 value=round(math.dist(positive[0]['hit'],negative[0]['hit'])*factor,4),unit='cm',
@@ -72,6 +74,19 @@ def build(root):
                 confidence=section['confidence'],
                 tolerance='.0508 cm output rounding; render/collision offset not independently bounded',
                 notes=section['notes']))
+        for column in report.get('accepted_columns', []):
+            floor,overhead = [report['endpoints'][name] for name in ('floor','ceiling')]
+            assert floor[:2] == overhead[:2] and overhead[2] > floor[2]
+            for feature,endpoint in [('floor',floor),('ceiling',overhead)]:
+                samples = [o for o in report['observations'] if o['feature'] == feature]
+                assert len(samples) >= 2 and samples[-1]['hit'] == samples[-2]['hit'] == endpoint
+                assert samples[-1]['xy_error'] <= .02
+            measurements.append(dict(id=column['id'],area=report['area'],feature=column['feature'],
+                value=round((overhead[2]-floor[2])*factor,4),unit='cm',
+                method='repeated corrected same-XY floor/first-overhead endpoints; SCALE_CALIBRATION',
+                source_id='ARCHITECTURAL_ENDPOINTS/'+report['id'],confidence=column['confidence'],
+                tolerance='.0508 cm output rounding; component interpretation bounded to first collision hull',
+                notes=column['notes']))
     with (ref / 'MEASUREMENTS.csv').open('w', newline='') as f:
         w = csv.DictWriter(f,fieldnames=measurements[0].keys())
         w.writeheader(); w.writerows(measurements)

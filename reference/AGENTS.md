@@ -51,6 +51,10 @@ self-captured CS2 study screenshots for the internal benchmark.
 
 ## Local Contracts
 
+- `COORDINATE_TRANSFORM.json` owns the reversible source-to-Unreal convention,
+  native right-axis evidence and target documentation. Mathematical convention
+  acceptance is separate from Blender/exporter/Unreal import validation.
+
 - `RADAR_CALIBRATION.json` owns current-build screenshot crop provenance,
   four native-pose/pixel anchors and transform uncertainty. `RADAR_PLAN.svg`
   overlays physical grid and sampled elevations on the native HUD plan.

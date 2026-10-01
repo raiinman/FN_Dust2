@@ -8,8 +8,15 @@ Do not rename raw source units as centimeters or adopt an unverified conversion.
 
 Survey origin: preserve CS2's source world origin (0,0,0). A later local modeling
 origin must be an explicit, reversible translation; no recentering by guesswork.
-Physical conversion is now measured for build25640462: 1 source unit = 1 engine inch = 2.54 cm. See SCALE_CALIBRATION.json. Source-to-Unreal axis transform still requires explicit orientation validation.
-Blender will use meters with factor0.0254 after the complete transform is validated.
+Physical conversion is measured for build 25640462: 1 source unit = 1 engine
+inch = 2.54 cm. See SCALE_CALIBRATION.json. COORDINATE_TRANSFORM.json fixes
+the reversible convention: Unreal cm = (2.54*x, -2.54*y, 2.54*z), origin unchanged.
+Two native +right tests at yaw0 decreased source Y; Epic documents Unreal +Y
+as right. Source +X/yaw0 and +Y/yaw90 were tested separately with native rays.
+Mathematical scale, axis sign and inverse checks pass. This accepts the convention,
+not an exporter or editor import. Phase 2 must verify that conversion happens
+exactly once, with correct triangle winding, normals and imported orientation.
+Blender uses meters with factor .0254, retaining source axes before export.
 
 ## Endpoint evidence
 

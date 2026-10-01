@@ -110,4 +110,4 @@ Every production script should document expected inputs, outputs, and a basic ve
 
 None.
 
-- build_physical_register.py derives reviewed centimeter samples from SCALE_CALIBRATION, architectural endpoints and native floor datums. Never silently overwrite future manually accepted measurement rows; extend the reviewed source evidence first.
+- build_physical_register.py derives reviewed centimeter samples from SCALE_CALIBRATION, architectural endpoints and native floor datums. Reviewed sections may use native X or Y; reviewed columns require repeated same-XY floor/first-overhead endpoints. Local clearance is not full-opening acceptance. Never silently overwrite future manually accepted measurement rows; extend the reviewed source evidence first.

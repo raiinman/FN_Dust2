@@ -55,7 +55,7 @@ Gate 1 survey batch: [metadata](../CAPTURE_GATE1_SURVEY.json).
 
 Crash-recovery additions: [reviewed CT/Pit/Long images and camera metadata](../CAPTURE_CRASH_RECOVERY.json).
 Eight historical frames are excluded in [image review](../IMAGE_REVIEW.json).
-All 90 area JPEG hashes are checked by [image audit](../IMAGE_AUDIT.json).
+All 99 area JPEG hashes are checked by [image audit](../IMAGE_AUDIT.json).
 Four native HUD crops have [separate pose/hash calibration](../RADAR_CALIBRATION.json)
 and a [physical grid and elevation overlay](../RADAR_PLAN.svg); stylized radar
 edges are not accepted architectural measurements.

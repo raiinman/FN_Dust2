@@ -5,14 +5,14 @@
 | Requirement | Evidence | Result |
 | --- | --- | --- |
 | Provenance and current revision | REFERENCE_MANIFEST.csv; build 25640462 | PASS for captured batch |
-| Every critical area forward/reverse/side/elevation coverage | 90 reviewed area images (eight excluded); four native radar crops separately reviewed; COVERAGE_MATRIX.csv | FAIL: incomplete directional and area coverage |
-| Unambiguous validated topology | ROUTE_GRAPH.md; TOPOLOGY.json; WALK_PROBES.json | FAIL: Pit ramp, Upper Tunnels-to-B exit and Long Doors paths pass both directions; remaining and special traversal incomplete |
-| Critical physical dimensions with confidence | Repeated native rays; 13 floor datums; ARCHITECTURAL_ENDPOINTS.json | FAIL: eleven calibrated feature measurements; full critical-dimension register incomplete |
+| Every critical area forward/reverse/side/elevation coverage | 99 reviewed area images (eight excluded); four native radar crops separately reviewed; COVERAGE_MATRIX.csv | FAIL: incomplete directional and area coverage |
+| Unambiguous validated topology | ROUTE_GRAPH.md; TOPOLOGY.json; WALK_PROBES.json | FAIL: Pit ramp, Upper Tunnels-to-B exit, Long Doors, B Doors and Long A-to-A Site paths pass both directions; remaining and special traversal incomplete |
+| Critical physical dimensions with confidence | Repeated native rays; 13 floor datums; ARCHITECTURAL_ENDPOINTS.json | FAIL: thirteen calibrated feature measurements; full critical-dimension register incomplete |
 | Calibrated annotated whole-map truth | RADAR_CALIBRATION.json; RADAR_PLAN.svg with physical grid and floor samples | FAIL: calibrated context plan exists; stylized architectural boundaries and overlapping elevation layers remain unverified |
 | Bounded remaining uncertainty | UNCERTAINTY.md; per-area coverage matrix | FAIL: critical architectural completeness and render/collision offsets remain unresolved |
 
 Reviewed image metadata: CAPTURE_CT_RECOVERY.json, CAPTURE_DISCOVERY_BATCH.json,
-CAPTURE_ROUTE_BATCH.json CAPTURE_GATE1_SURVEY.json, CAPTURE_DIRECTIONAL_GATE1.json and CAPTURE_CRASH_RECOVERY.json. Ninety JPEG study previews are
+CAPTURE_ROUTE_BATCH.json CAPTURE_GATE1_SURVEY.json, CAPTURE_DIRECTIONAL_GATE1.json and CAPTURE_CRASH_RECOVERY.json. Ninety-nine JPEG study previews are
 committed under reference/images/ with SHA-256 provenance; local originals remain.
 SOURCE_CAMERAS.csv separates native poses from Unreal camera units.
 Eleven rejected route-camera attempts preserve their poses/reasons; none counts
@@ -33,15 +33,16 @@ DOX: root user preference and reference/scripting contracts updated; reference
 and master standards reconcile screenshot storage. Docs/evidence/QA AGENTS
 unchanged because ownership and acceptance criteria have not changed.
 
-Recovery review: IMAGE_AUDIT.json verifies all 90 area image hashes. IMAGE_REVIEW.json
+Recovery review: IMAGE_AUDIT.json verifies all 99 area image hashes. IMAGE_REVIEW.json
 identifies eight excluded historical images. The original 24 and recovered 55,
-new CT/Pit and six Long Doors replacement frames were inspected. Six initial
-Long Doors frames remain private rejects. No complete area certification.
+new CT/Pit, six Long Doors, four B Doors and five site replacement/addition frames
+were inspected. Clipped/obstructed initial frames stay private rejects.
+No complete area certification.
 WALK_PROBES.json preserves recovered and subsequent attempts; a blocked waypoint
 does not disprove an edge. See CRASH_RECOVERY_20261001.md for recovery instructions.
 
 SCALE_CALIBRATION.json accepts physical conversion for this build from repeated
-inch readouts at two spatial/axis anchors. Eleven calibrated measurements do not
+inch readouts at two spatial/axis anchors. Thirteen calibrated measurements do not
 fill the route/opening/stair/cover register. Long cross-sections are local collision
 samples, not minimum leaf clearance or complete structural openings.
 RADAR_CALIBRATION.json preserves four inspected 250x250 native HUD crops, actual
@@ -49,3 +50,10 @@ poses and hashes. Fit residuals are below .20 pixels; allow 2 pixels (~92 cm) fo
 localization. RADAR_PLAN.svg was rendered and inspected with grid, heights and
 sample legend. This allowance does not certify stylized radar boundaries.
 No special traversal is accepted. Phase 2 remains prohibited.
+
+COORDINATE_TRANSFORM.json fixes the source-to-Unreal convention with two native
+right-axis observations, target documentation and inverse/scale checks. Exporter/
+editor round-trip is unverified and required in Phase 2. The local B vertical
+clearance is floor-to-first wood hull at one XY, not full structural opening height.
+One corrected overhead ray missed its nearby edge; the failed column was inspected,
+health echo verified and original pose restored before a new station was attempted.

@@ -1,7 +1,7 @@
 {
   "review_date": "2026-10-01",
   "source_build": "25640462",
-  "registered_images": 90,
+  "registered_images": 99,
   "coverage_excluded": 8,
   "complete_areas": 0,
   "gate_1": "FAIL",
@@ -725,6 +725,78 @@
       "sha256": "46c9e51f2a91491daf74fa934a32ebc63551cca112c68b842753d0253802ae26",
       "coverage_status": "PARTIAL",
       "review": "Inner portal exterior reverse with arch, threshold, barrel and corner approach visible; facade continues above frame."
+    },
+    {
+      "id": "QA_BDOORS_FORWARD_RECOVERY_001",
+      "area": "B Doors",
+      "image": "reference/images/b_doors/QA_BDOORS_FORWARD_RECOVERY_001.jpg",
+      "sha256": "e92c97014ee7e05fb95aadf01ac6add53f5f90a9f62638ee30f18279d1c69b03",
+      "coverage_status": "PARTIAL",
+      "review": "Full portal frame, leaves and threshold at standing eye; route gap clear."
+    },
+    {
+      "id": "QA_BDOORS_REVERSE_RECOVERY_001",
+      "area": "B Doors",
+      "image": "reference/images/b_doors/QA_BDOORS_REVERSE_RECOVERY_001.jpg",
+      "sha256": "1d604f947201577d495d6125fb3c8d53101cf9a735238df3b9a26b0510341ce3",
+      "coverage_status": "PARTIAL",
+      "review": "Full B-side portal frame, leaves and threshold; interior approach and return gap visible."
+    },
+    {
+      "id": "QA_BDOORS_SIDE_RECOVERY_002",
+      "area": "B Doors",
+      "image": "reference/images/b_doors/QA_BDOORS_SIDE_RECOVERY_002.jpg",
+      "sha256": "fc7a3bf3ef6a2040fe0ce74e5a536ccc1680fa30326ae93f7d95ef999e2863b3",
+      "coverage_status": "PARTIAL",
+      "review": "Clear approach walls, uphill street profile and neighboring steps; distant doorway base partly hidden by grade, so use forward view for threshold."
+    },
+    {
+      "id": "QA_BDOORS_ELEVATION_RECOVERY_003",
+      "area": "B Doors",
+      "image": "reference/images/b_doors/QA_BDOORS_ELEVATION_RECOVERY_003.jpg",
+      "sha256": "33192e4942e9aa0b69282c998d5e5fda5cd1adb6dc84d15cf828d2ba737132c8",
+      "coverage_status": "PARTIAL",
+      "review": "Raised oblique view shows full portal, threshold, approach grade, cover and steps; perspective only."
+    },
+    {
+      "id": "QA_BSITE_REVERSE_RECOVERY_001",
+      "area": "B Site",
+      "image": "reference/images/b_site/QA_BSITE_REVERSE_RECOVERY_001.jpg",
+      "sha256": "6c72be35f32f9b6155474ad70cd785fa545874775c45c0819c6e5be97c116bfb",
+      "coverage_status": "PARTIAL",
+      "review": "Unoccluded tunnel mouth and steps from B courtyard; car/cover and adjoining wall context visible."
+    },
+    {
+      "id": "QA_ASITE_PLAN_RECOVERY_001",
+      "area": "A Site",
+      "image": "reference/images/a_site/QA_ASITE_PLAN_RECOVERY_001.jpg",
+      "sha256": "e044e9d18f580e62872260c1cf0c31506be187bcfadceea5e9099602c4f007e0",
+      "coverage_status": "PARTIAL",
+      "review": "Site platform, cover cluster, surrounding paths, stair branch and overhang arrangement visible. Perspective only; Under A is partly roof-occluded and needs its own layer."
+    },
+    {
+      "id": "QA_ASITE_REVERSE_RECOVERY_001",
+      "area": "A Site",
+      "image": "reference/images/a_site/QA_ASITE_REVERSE_RECOVERY_001.jpg",
+      "sha256": "9addf7d22fae69e4e85da71ca11e9b2ff2a6f0c822dc400275d9d9c715278fda",
+      "coverage_status": "PARTIAL",
+      "review": "Site floor, cover cluster, street perimeter and Long sightline visible; cover geometry is recorded, not assumed empty floor."
+    },
+    {
+      "id": "QA_BSITE_PLAN_RECOVERY_002",
+      "area": "B Site",
+      "image": "reference/images/b_site/QA_BSITE_PLAN_RECOVERY_002.jpg",
+      "sha256": "a930e95ac571f2b7a1bfc0709999e996957758626e046e89690f1c4dd2adb7d1",
+      "coverage_status": "PARTIAL",
+      "review": "Full central B courtyard, raised rear platform, cover and portal placement visible; tunnel transition continues below frame and has separate ground references. Perspective only."
+    },
+    {
+      "id": "QA_ASITE_SIDE_RECOVERY_001",
+      "area": "A Site",
+      "image": "reference/images/a_site/QA_ASITE_SIDE_RECOVERY_001.jpg",
+      "sha256": "151fb1ce4bce765d50916841cef38c0c3db52f2aba2042c6fd7ec7d6a0e0da99",
+      "coverage_status": "PARTIAL",
+      "review": "Clear side floor, stair flight and street perimeter wall read; clipped cover at right edge is not cover-dimension evidence."
     }
   ]
 }

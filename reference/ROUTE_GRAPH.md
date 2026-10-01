@@ -96,3 +96,9 @@ chamber in both directions. Those tests used speed 80 and arrival radius 25.
 The initial 15-unit Long endpoint tolerance caused oscillation; attempt 004 is
 preserved as a controller failure, superseded by completed 005. No special
 traversal is accepted. Scale is calibrated; the critical metric register is incomplete.
+
+E17/E18 pass B-side approach through B Doors to CT Mid in both directions;
+the reverse path bends around the angled leaf. E29/E30/E31 pass Long A through
+the cross/ramp to A Site in both directions using the outer street around site
+cover. WALK_PROBES.json owns reduced-speed paths and failed plans. These do
+not accept complete B courtyard, Under A, or special traversal.

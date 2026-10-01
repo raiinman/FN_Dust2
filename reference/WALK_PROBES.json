@@ -3206,9 +3206,1593 @@
         "limitations": "reduced speed; waypoint arrival tolerance; not special traversal or metric calibration",
         "restored_speed": 320.0
       }
+    },
+    {
+      "private_filename": "B_DOORS_B_TO_CT_RECOVERY_002.json",
+      "report": {
+        "id": "B_DOORS_B_TO_CT_RECOVERY_002",
+        "source_build": "25640462",
+        "source_map": "de_dust2",
+        "timestamp_utc": "2026-10-01T19:34:52.178839+00:00",
+        "unit": "source_units",
+        "config": {
+          "id": "B_DOORS_B_TO_CT_RECOVERY_002",
+          "arrival_radius": 25,
+          "maxspeed": 80,
+          "start": [
+            -1550,
+            2200,
+            10
+          ],
+          "build": "25640462",
+          "waypoints": [
+            [
+              -1450,
+              2200
+            ],
+            [
+              -1400,
+              2190
+            ],
+            [
+              -1300,
+              2190
+            ],
+            [
+              -1200,
+              2190
+            ],
+            [
+              -1050,
+              2200
+            ],
+            [
+              -800,
+              2250
+            ],
+            [
+              -500,
+              2300
+            ]
+          ]
+        },
+        "teleports_during_route": 0,
+        "observations": [
+          {
+            "waypoint": 1,
+            "step": 1,
+            "before_pose": "setpos_exact -1550.000000 2200.000000 -1.857544;setang_exact 0.000000 0.000000 0.000000",
+            "after_pose": "setpos_exact -1494.127441 2200.000000 -0.280396;setang_exact 0.000000 0.000000 0.000000",
+            "requested_yaw": 0.0,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.87255899999991
+          },
+          {
+            "waypoint": 1,
+            "step": 2,
+            "before_pose": "setpos_exact -1494.127441 2200.000000 -0.280396;setang_exact 0.000000 0.000000 0.000000",
+            "after_pose": "setpos_exact -1449.503784 2200.000000 0.051506;setang_exact 0.000000 0.000000 0.000000",
+            "requested_yaw": 0.0,
+            "requested_hold_seconds": 0.22659301250000113,
+            "progress_toward_target": 43.631225000000086
+          },
+          {
+            "waypoint": 2,
+            "step": 1,
+            "before_pose": "setpos_exact -1449.503784 2200.000000 0.051506;setang_exact 0.000000 0.000000 0.000000",
+            "after_pose": "setpos_exact -1406.983765 2191.412598 0.177451;setang_exact 0.000000 -11.420288 0.000000",
+            "requested_yaw": -11.42033619635206,
+            "requested_hold_seconds": 0.3062963634358193,
+            "progress_toward_target": 43.37851387158669
+          },
+          {
+            "waypoint": 3,
+            "step": 1,
+            "before_pose": "setpos_exact -1406.983765 2191.412598 0.177451;setang_exact 0.000000 -11.420288 0.000000",
+            "after_pose": "setpos_exact -1349.861328 2190.669434 2.070495;setang_exact 0.000000 -0.756348 0.000000",
+            "requested_yaw": -0.7564811402741048,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.12726878252766
+          },
+          {
+            "waypoint": 3,
+            "step": 2,
+            "before_pose": "setpos_exact -1349.861328 2190.669434 2.070495;setang_exact 0.000000 -0.756348 0.000000",
+            "after_pose": "setpos_exact -1311.177856 2191.198486 2.338849;setang_exact 0.000000 -0.769043 0.000000",
+            "requested_yaw": -0.7692021059718925,
+            "requested_hold_seconds": 0.2983227709977913,
+            "progress_toward_target": 38.62389864820047
+          },
+          {
+            "waypoint": 4,
+            "step": 1,
+            "before_pose": "setpos_exact -1311.177856 2191.198486 2.338849;setang_exact 0.000000 -0.769043 0.000000",
+            "after_pose": "setpos_exact -1281.718628 2221.114014 3.592144;setang_exact 0.000000 -0.617645 0.000000",
+            "requested_yaw": -0.6176187630466651,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 23.742814978379783
+          },
+          {
+            "waypoint": 4,
+            "step": 2,
+            "before_pose": "setpos_exact -1281.718628 2221.114014 3.592144;setang_exact 0.000000 -0.617645 0.000000",
+            "after_pose": "setpos_exact -1228.316406 2200.770996 3.731587;setang_exact 0.000000 -20.844147 0.000000",
+            "requested_yaw": -20.844114783846585,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.14573847356573
+          },
+          {
+            "waypoint": 4,
+            "step": 3,
+            "before_pose": "setpos_exact -1228.316406 2200.770996 3.731587;setang_exact 0.000000 -20.844147 0.000000",
+            "after_pose": "setpos_exact -1198.278442 2189.329346 3.590649;setang_exact 0.000000 -20.825958 0.000000",
+            "requested_yaw": -20.825816400682815,
+            "requested_hold_seconds": 0.05369702673873478,
+            "progress_toward_target": 28.448185690049957
+          },
+          {
+            "waypoint": 5,
+            "step": 1,
+            "before_pose": "setpos_exact -1198.278442 2189.329346 3.590649;setang_exact 0.000000 -20.825958 0.000000",
+            "after_pose": "setpos_exact -1141.291992 2193.421143 0.475226;setang_exact 0.000000 4.116089 0.000000",
+            "requested_yaw": 4.116116237818865,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.13316156907459
+          },
+          {
+            "waypoint": 5,
+            "step": 2,
+            "before_pose": "setpos_exact -1141.291992 2193.421143 0.475226;setang_exact 0.000000 4.116089 0.000000",
+            "after_pose": "setpos_exact -1085.542603 2197.447021 -8.858276;setang_exact 0.000000 4.121933 0.000000",
+            "requested_yaw": 4.121832016902701,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.89456045960877
+          },
+          {
+            "waypoint": 5,
+            "step": 3,
+            "before_pose": "setpos_exact -1085.542603 2197.447021 -8.858276;setang_exact 0.000000 4.121933 0.000000",
+            "after_pose": "setpos_exact -1054.750732 2199.643799 -19.460327;setang_exact 0.000000 4.108551 0.000000",
+            "requested_yaw": 4.108425485747265,
+            "requested_hold_seconds": 0.1204271702867894,
+            "progress_toward_target": 30.870106695597908
+          },
+          {
+            "waypoint": 6,
+            "step": 1,
+            "before_pose": "setpos_exact -1054.750732 2199.643799 -19.460327;setang_exact 0.000000 4.108551 0.000000",
+            "after_pose": "setpos_exact -999.931641 2210.505371 -45.019348;setang_exact 0.000000 11.181335 0.000000",
+            "requested_yaw": 11.181429135197835,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.88475358282443
+          },
+          {
+            "waypoint": 6,
+            "step": 2,
+            "before_pose": "setpos_exact -999.931641 2210.505371 -45.019348;setang_exact 0.000000 11.181335 0.000000",
+            "after_pose": "setpos_exact -945.109070 2221.347412 -66.671448;setang_exact 0.000000 11.174469 0.000000",
+            "requested_yaw": 11.17437861002027,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.88438012279826
+          },
+          {
+            "waypoint": 6,
+            "step": 3,
+            "before_pose": "setpos_exact -945.109070 2221.347412 -66.671448;setang_exact 0.000000 11.174469 0.000000",
+            "after_pose": "setpos_exact -890.286438 2232.188965 -81.579224;setang_exact 0.000000 11.169662 0.000000",
+            "requested_yaw": 11.16968381933198,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.88434332275703
+          },
+          {
+            "waypoint": 6,
+            "step": 4,
+            "before_pose": "setpos_exact -890.286438 2232.188965 -81.579224;setang_exact 0.000000 11.169662 0.000000",
+            "after_pose": "setpos_exact -834.235229 2243.229980 -96.898865;setang_exact 0.000000 11.159698 0.000000",
+            "requested_yaw": 11.159592505942603,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.12828865035651
+          },
+          {
+            "waypoint": 6,
+            "step": 5,
+            "before_pose": "setpos_exact -834.235229 2243.229980 -96.898865;setang_exact 0.000000 11.159698 0.000000",
+            "after_pose": "setpos_exact -805.166199 2248.991211 -102.976807;setang_exact 0.000000 11.185791 0.000000",
+            "requested_yaw": 11.185927374983871,
+            "requested_hold_seconds": 0.11122744846489635,
+            "progress_toward_target": 29.634426566695474
+          },
+          {
+            "waypoint": 7,
+            "step": 1,
+            "before_pose": "setpos_exact -805.166199 2248.991211 -102.976807;setang_exact 0.000000 11.185791 0.000000",
+            "after_pose": "setpos_exact -748.804565 2258.403564 -111.868591;setang_exact 0.000000 9.489441 0.000000",
+            "requested_yaw": 9.489311872560373,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.14215684664262
+          },
+          {
+            "waypoint": 7,
+            "step": 2,
+            "before_pose": "setpos_exact -748.804565 2258.403564 -111.868591;setang_exact 0.000000 9.489441 0.000000",
+            "after_pose": "setpos_exact -693.675964 2267.610107 -115.454468;setang_exact 0.000000 9.491150 0.000000",
+            "requested_yaw": 9.49122546859439,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.89206521216869
+          },
+          {
+            "waypoint": 7,
+            "step": 3,
+            "before_pose": "setpos_exact -693.675964 2267.610107 -115.454468;setang_exact 0.000000 9.491150 0.000000",
+            "after_pose": "setpos_exact -638.561646 2276.837158 -118.928772;setang_exact 0.000000 9.494247 0.000000",
+            "requested_yaw": 9.49414422653844,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.88135991868316
+          },
+          {
+            "waypoint": 7,
+            "step": 4,
+            "before_pose": "setpos_exact -638.561646 2276.837158 -118.928772;setang_exact 0.000000 9.494247 0.000000",
+            "after_pose": "setpos_exact -583.433044 2286.043701 -117.594177;setang_exact 0.000000 9.490128 0.000000",
+            "requested_yaw": 9.49017486738938,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.89206615081507
+          },
+          {
+            "waypoint": 7,
+            "step": 5,
+            "before_pose": "setpos_exact -583.433044 2286.043701 -117.594177;setang_exact 0.000000 9.490128 0.000000",
+            "after_pose": "setpos_exact -528.318726 2295.270996 -113.769104;setang_exact 0.000000 9.496307 0.000000",
+            "requested_yaw": 9.49625619291382,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.88139974193767
+          },
+          {
+            "waypoint": 7,
+            "step": 6,
+            "before_pose": "setpos_exact -528.318726 2295.270996 -113.769104;setang_exact 0.000000 9.496307 0.000000",
+            "after_pose": "setpos_exact -499.082764 2300.143311 -112.083862;setang_exact 0.000000 9.480515 0.000000",
+            "requested_yaw": 9.48046419861458,
+            "requested_hold_seconds": 0.05,
+            "progress_toward_target": 27.782500053990354
+          }
+        ],
+        "status": "completed collision walk",
+        "collision_mode_reply": "noclip OFF",
+        "settled_start_pose": "setpos_exact -1550.000000 2200.000000 -1.857544;setang_exact 0.000000 0.000000 0.000000",
+        "final_pose": "setpos_exact -499.082764 2300.143311 -112.083862;setang_exact 0.000000 9.480515 0.000000",
+        "limitations": "reduced speed; waypoint arrival tolerance; not special traversal or metric calibration",
+        "restored_speed": 320.0
+      }
+    },
+    {
+      "private_filename": "B_DOORS_CT_TO_B_RECOVERY_001.json",
+      "report": {
+        "id": "B_DOORS_CT_TO_B_RECOVERY_001",
+        "source_build": "25640462",
+        "source_map": "de_dust2",
+        "timestamp_utc": "2026-10-01T19:36:37.644176+00:00",
+        "unit": "source_units",
+        "config": {
+          "build": "25640462",
+          "start": [
+            -500,
+            2300,
+            -105
+          ],
+          "waypoints": [
+            [
+              -800,
+              2250
+            ],
+            [
+              -1050,
+              2200
+            ],
+            [
+              -1200,
+              2190
+            ],
+            [
+              -1300,
+              2190
+            ],
+            [
+              -1400,
+              2190
+            ],
+            [
+              -1450,
+              2200
+            ],
+            [
+              -1550,
+              2200
+            ]
+          ],
+          "id": "B_DOORS_CT_TO_B_RECOVERY_001",
+          "arrival_radius": 25,
+          "maxspeed": 80
+        },
+        "teleports_during_route": 0,
+        "observations": [
+          {
+            "waypoint": 1,
+            "step": 1,
+            "before_pose": "setpos_exact -500.000000 2300.000000 -112.120972;setang_exact 0.000000 0.000000 0.000000",
+            "after_pose": "setpos_exact -555.134949 2290.839600 -115.552917;setang_exact 0.000000 -170.537689 0.000000",
+            "requested_yaw": -170.53767779197437,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.89073754698532
+          },
+          {
+            "waypoint": 1,
+            "step": 2,
+            "before_pose": "setpos_exact -555.134949 2290.839600 -115.552917;setang_exact 0.000000 -170.537689 0.000000",
+            "after_pose": "setpos_exact -611.500916 2281.474365 -118.748962;setang_exact 0.000000 -170.531158 0.000000",
+            "requested_yaw": -170.5311306836179,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.138675610862066
+          },
+          {
+            "waypoint": 1,
+            "step": 3,
+            "before_pose": "setpos_exact -611.500916 2281.474365 -118.748962;setang_exact 0.000000 -170.531158 0.000000",
+            "after_pose": "setpos_exact -667.864746 2272.085205 -117.476257;setang_exact 0.000000 -170.520508 0.000000",
+            "requested_yaw": -170.52056962780503,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.14050209209023
+          },
+          {
+            "waypoint": 1,
+            "step": 4,
+            "before_pose": "setpos_exact -667.864746 2272.085205 -117.476257;setang_exact 0.000000 -170.520508 0.000000",
+            "after_pose": "setpos_exact -722.993347 2262.878662 -113.529053;setang_exact 0.000000 -170.511246 0.000000",
+            "requested_yaw": -170.51124274112317,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.89206547656589
+          },
+          {
+            "waypoint": 1,
+            "step": 5,
+            "before_pose": "setpos_exact -722.993347 2262.878662 -113.529053;setang_exact 0.000000 -170.511246 0.000000",
+            "after_pose": "setpos_exact -778.107727 2253.651367 -108.410400;setang_exact 0.000000 -170.505753 0.000000",
+            "requested_yaw": -170.5056688161555,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.881459530764204
+          },
+          {
+            "waypoint": 2,
+            "step": 1,
+            "before_pose": "setpos_exact -778.107727 2253.651367 -108.410400;setang_exact 0.000000 -170.505753 0.000000",
+            "after_pose": "setpos_exact -832.930359 2242.830078 -97.290527;setang_exact 0.000000 -168.837555 0.000000",
+            "requested_yaw": -168.83746892562198,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.880419301877936
+          },
+          {
+            "waypoint": 2,
+            "step": 2,
+            "before_pose": "setpos_exact -832.930359 2242.830078 -97.290527;setang_exact 0.000000 -168.837555 0.000000",
+            "after_pose": "setpos_exact -888.979309 2231.767090 -81.987976;setang_exact 0.000000 -168.838226 0.000000",
+            "requested_yaw": -168.8383245797268,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.13032889211493
+          },
+          {
+            "waypoint": 2,
+            "step": 3,
+            "before_pose": "setpos_exact -888.979309 2231.767090 -81.987976;setang_exact 0.000000 -168.838226 0.000000",
+            "after_pose": "setpos_exact -943.801941 2220.946289 -67.055786;setang_exact 0.000000 -168.839600 0.000000",
+            "requested_yaw": -168.83967824259818,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.88032458820204
+          },
+          {
+            "waypoint": 2,
+            "step": 4,
+            "before_pose": "setpos_exact -943.801941 2220.946289 -67.055786;setang_exact 0.000000 -168.839600 0.000000",
+            "after_pose": "setpos_exact -999.853149 2209.905029 -45.054871;setang_exact 0.000000 -168.842346 0.000000",
+            "requested_yaw": -168.84231435475868,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.128337378164325
+          },
+          {
+            "waypoint": 2,
+            "step": 5,
+            "before_pose": "setpos_exact -999.853149 2209.905029 -45.054871;setang_exact 0.000000 -168.842346 0.000000",
+            "after_pose": "setpos_exact -1042.412598 2201.487061 -24.159851;setang_exact 0.000000 -168.826904 0.000000",
+            "requested_yaw": -168.8267355746082,
+            "requested_hold_seconds": 0.3139464307439826,
+            "progress_toward_target": 43.38396048468689
+          },
+          {
+            "waypoint": 3,
+            "step": 1,
+            "before_pose": "setpos_exact -1042.412598 2201.487061 -24.159851;setang_exact 0.000000 -168.826904 0.000000",
+            "after_pose": "setpos_exact -1098.158081 2197.412598 -5.766541;setang_exact 0.000000 -175.831024 0.000000",
+            "requested_yaw": -175.83089693338582,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.89418518640876
+          },
+          {
+            "waypoint": 3,
+            "step": 2,
+            "before_pose": "setpos_exact -1098.158081 2197.412598 -5.766541;setang_exact 0.000000 -175.831024 0.000000",
+            "after_pose": "setpos_exact -1153.903564 2193.338135 1.320754;setang_exact 0.000000 -175.837219 0.000000",
+            "requested_yaw": -175.83704860747252,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.89418116216342
+          },
+          {
+            "waypoint": 3,
+            "step": 3,
+            "before_pose": "setpos_exact -1153.903564 2193.338135 1.320754;setang_exact 0.000000 -175.837219 0.000000",
+            "after_pose": "setpos_exact -1197.185059 2190.191650 3.525408;setang_exact 0.000000 -175.858154 0.000000",
+            "requested_yaw": -175.85807972956326,
+            "requested_hold_seconds": 0.2527143213210364,
+            "progress_toward_target": 43.39568818234828
+          },
+          {
+            "waypoint": 4,
+            "step": 1,
+            "before_pose": "setpos_exact -1197.185059 2190.191650 3.525408;setang_exact 0.000000 -175.858154 0.000000",
+            "after_pose": "setpos_exact -1253.057617 2190.069336 4.104421;setang_exact 0.000000 -179.893219 0.000000",
+            "requested_yaw": -179.89319914674834,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.87268541423509
+          },
+          {
+            "waypoint": 4,
+            "step": 2,
+            "before_pose": "setpos_exact -1253.057617 2190.069336 4.104421;setang_exact 0.000000 -179.893219 0.000000",
+            "after_pose": "setpos_exact -1257.968750 2190.061279 4.104731;setang_exact 0.000000 -179.915543 0.000000",
+            "requested_yaw": -179.9153716316591,
+            "requested_hold_seconds": 0.26178042757699077,
+            "progress_toward_target": 4.911139535659984
+          },
+          {
+            "waypoint": 4,
+            "step": 3,
+            "before_pose": "setpos_exact -1257.968750 2190.061279 4.104731;setang_exact 0.000000 -179.915543 0.000000",
+            "after_pose": "setpos_exact -1257.968750 2190.061279 4.104731;setang_exact 0.000000 -179.916565 0.000000",
+            "requested_yaw": -179.9164663057815,
+            "requested_hold_seconds": 0.20039118338124096,
+            "progress_toward_target": 0.0
+          },
+          {
+            "waypoint": 4,
+            "step": 4,
+            "before_pose": "setpos_exact -1257.968750 2190.061279 4.104731;setang_exact 0.000000 -179.916565 0.000000",
+            "after_pose": "setpos_exact -1257.968750 2190.061279 4.104731;setang_exact 0.000000 -179.916565 0.000000",
+            "requested_yaw": -179.9164663057815,
+            "requested_hold_seconds": 0.20039118338124096,
+            "progress_toward_target": 0.0
+          },
+          {
+            "waypoint": 4,
+            "step": 5,
+            "before_pose": "setpos_exact -1257.968750 2190.061279 4.104731;setang_exact 0.000000 -179.916565 0.000000",
+            "after_pose": "setpos_exact -1257.968750 2190.061279 4.104731;setang_exact 0.000000 -179.916565 0.000000",
+            "requested_yaw": -179.9164663057815,
+            "requested_hold_seconds": 0.20039118338124096,
+            "progress_toward_target": 0.0
+          }
+        ],
+        "status": "blocked; path requires inspection",
+        "collision_mode_reply": "noclip OFF",
+        "settled_start_pose": "setpos_exact -500.000000 2300.000000 -112.120972;setang_exact 0.000000 0.000000 0.000000",
+        "restored_speed": 320.0
+      }
+    },
+    {
+      "private_filename": "B_DOORS_CT_TO_B_RECOVERY_002.json",
+      "report": {
+        "id": "B_DOORS_CT_TO_B_RECOVERY_002",
+        "source_build": "25640462",
+        "source_map": "de_dust2",
+        "timestamp_utc": "2026-10-01T19:38:43.903133+00:00",
+        "unit": "source_units",
+        "config": {
+          "build": "25640462",
+          "start": [
+            -500,
+            2300,
+            -105
+          ],
+          "maxspeed": 80,
+          "arrival_radius": 20,
+          "waypoints": [
+            [
+              -800,
+              2250
+            ],
+            [
+              -1050,
+              2200
+            ],
+            [
+              -1200,
+              2200
+            ],
+            [
+              -1230,
+              2235
+            ],
+            [
+              -1280,
+              2235
+            ],
+            [
+              -1320,
+              2200
+            ],
+            [
+              -1400,
+              2190
+            ],
+            [
+              -1450,
+              2200
+            ],
+            [
+              -1550,
+              2200
+            ]
+          ],
+          "id": "B_DOORS_CT_TO_B_RECOVERY_002"
+        },
+        "teleports_during_route": 0,
+        "observations": [
+          {
+            "waypoint": 1,
+            "step": 1,
+            "before_pose": "setpos_exact -500.000000 2300.000000 -112.120972;setang_exact 0.000000 0.000000 0.000000",
+            "after_pose": "setpos_exact -555.134949 2290.839600 -115.552917;setang_exact 0.000000 -170.537689 0.000000",
+            "requested_yaw": -170.53767779197437,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.89073754698532
+          },
+          {
+            "waypoint": 1,
+            "step": 2,
+            "before_pose": "setpos_exact -555.134949 2290.839600 -115.552917;setang_exact 0.000000 -170.537689 0.000000",
+            "after_pose": "setpos_exact -610.267761 2281.679199 -118.713623;setang_exact 0.000000 -170.531158 0.000000",
+            "requested_yaw": -170.5311306836179,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.88862476614892
+          },
+          {
+            "waypoint": 1,
+            "step": 3,
+            "before_pose": "setpos_exact -610.267761 2281.679199 -118.713623;setang_exact 0.000000 -170.531158 0.000000",
+            "after_pose": "setpos_exact -666.631592 2272.290039 -117.583862;setang_exact 0.000000 -170.520859 0.000000",
+            "requested_yaw": -170.52088407084455,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.14050326385464
+          },
+          {
+            "waypoint": 1,
+            "step": 4,
+            "before_pose": "setpos_exact -666.631592 2272.290039 -117.583862;setang_exact 0.000000 -170.520859 0.000000",
+            "after_pose": "setpos_exact -722.993225 2262.877930 -113.529175;setang_exact 0.000000 -170.511932 0.000000",
+            "requested_yaw": -170.51177621574595,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.142115560569366
+          },
+          {
+            "waypoint": 1,
+            "step": 5,
+            "before_pose": "setpos_exact -722.993225 2262.877930 -113.529175;setang_exact 0.000000 -170.511932 0.000000",
+            "after_pose": "setpos_exact -779.340393 2253.444336 -108.137207;setang_exact 0.000000 -170.506104 0.000000",
+            "requested_yaw": -170.50621340017526,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.131389186951594
+          },
+          {
+            "waypoint": 1,
+            "step": 6,
+            "before_pose": "setpos_exact -779.340393 2253.444336 -108.137207;setang_exact 0.000000 -170.506104 0.000000",
+            "after_pose": "setpos_exact -809.810120 2248.380615 -102.135437;setang_exact 0.000000 -170.534943 0.000000",
+            "requested_yaw": -170.53479550822684,
+            "requested_hold_seconds": 0.05,
+            "progress_toward_target": 11.001876215634049
+          },
+          {
+            "waypoint": 2,
+            "step": 1,
+            "before_pose": "setpos_exact -809.810120 2248.380615 -102.135437;setang_exact 0.000000 -170.534943 0.000000",
+            "after_pose": "setpos_exact -864.585754 2237.367920 -88.757812;setang_exact 0.000000 -168.611633 0.000000",
+            "requested_yaw": -168.61149838870043,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.87171918301922
+          },
+          {
+            "waypoint": 2,
+            "step": 2,
+            "before_pose": "setpos_exact -864.585754 2237.367920 -88.757812;setang_exact 0.000000 -168.611633 0.000000",
+            "after_pose": "setpos_exact -920.586792 2226.108887 -73.188599;setang_exact 0.000000 -168.605469 0.000000",
+            "requested_yaw": -168.6053895978255,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.12163387862253
+          },
+          {
+            "waypoint": 2,
+            "step": 3,
+            "before_pose": "setpos_exact -920.586792 2226.108887 -73.188599;setang_exact 0.000000 -168.605469 0.000000",
+            "after_pose": "setpos_exact -975.360535 2215.072998 -56.654541;setang_exact 0.000000 -168.593781 0.000000",
+            "requested_yaw": -168.59378575854822,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.874443283952644
+          },
+          {
+            "waypoint": 2,
+            "step": 4,
+            "before_pose": "setpos_exact -975.360535 2215.072998 -56.654541;setang_exact 0.000000 -168.593781 0.000000",
+            "after_pose": "setpos_exact -1031.359375 2203.788574 -29.192200;setang_exact 0.000000 -168.583145 0.000000",
+            "requested_yaw": -168.5830043033068,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.124478570408606
+          },
+          {
+            "waypoint": 3,
+            "step": 1,
+            "before_pose": "setpos_exact -1031.359375 2203.788574 -29.192200;setang_exact 0.000000 -168.583145 0.000000",
+            "after_pose": "setpos_exact -1087.227539 2202.558594 -8.609314;setang_exact 0.000000 -178.712891 0.000000",
+            "requested_yaw": -178.71304560301942,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.88169339298078
+          },
+          {
+            "waypoint": 3,
+            "step": 2,
+            "before_pose": "setpos_exact -1087.227539 2202.558594 -8.609314;setang_exact 0.000000 -178.712891 0.000000",
+            "after_pose": "setpos_exact -1141.845947 2201.356201 0.284819;setang_exact 0.000000 -178.700180 0.000000",
+            "requested_yaw": -178.70029003005274,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 54.63161737743196
+          },
+          {
+            "waypoint": 3,
+            "step": 3,
+            "before_pose": "setpos_exact -1141.845947 2201.356201 0.284819;setang_exact 0.000000 -178.700180 0.000000",
+            "after_pose": "setpos_exact -1198.963867 2200.032471 3.257135;setang_exact 0.000000 -178.664124 0.000000",
+            "requested_yaw": -178.6640568074183,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.133223045809366
+          },
+          {
+            "waypoint": 4,
+            "step": 1,
+            "before_pose": "setpos_exact -1198.963867 2200.032471 3.257135;setang_exact 0.000000 -178.664124 0.000000",
+            "after_pose": "setpos_exact -1228.596069 2233.407227 3.502119;setang_exact 0.000000 131.591156 0.000000",
+            "requested_yaw": 131.59130153257814,
+            "requested_hold_seconds": 0.25942942740648967,
+            "progress_toward_target": 44.63116129447866
+          },
+          {
+            "waypoint": 5,
+            "step": 1,
+            "before_pose": "setpos_exact -1228.596069 2233.407227 3.502119;setang_exact 0.000000 131.591156 0.000000",
+            "after_pose": "setpos_exact -1271.951416 2234.754150 3.212007;setang_exact 0.000000 178.225372 0.000000",
+            "requested_yaw": 178.22523336687507,
+            "requested_hold_seconds": 0.3178575182440186,
+            "progress_toward_target": 43.37626349918015
+          },
+          {
+            "waypoint": 6,
+            "step": 1,
+            "before_pose": "setpos_exact -1271.951416 2234.754150 3.212007;setang_exact 0.000000 178.225372 0.000000",
+            "after_pose": "setpos_exact -1318.224121 2201.271240 2.355421;setang_exact 0.000000 -144.121399 0.000000",
+            "requested_yaw": -144.1213073383492,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.116244171726805
+          },
+          {
+            "waypoint": 7,
+            "step": 1,
+            "before_pose": "setpos_exact -1318.224121 2201.271240 2.355421;setang_exact 0.000000 -144.121399 0.000000",
+            "after_pose": "setpos_exact -1367.559204 2185.119141 2.057571;setang_exact 0.000000 -172.152328 0.000000",
+            "requested_yaw": -172.1523190070918,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 49.74307234131508
+          },
+          {
+            "waypoint": 7,
+            "step": 2,
+            "before_pose": "setpos_exact -1367.559204 2185.119141 2.057571;setang_exact 0.000000 -172.152328 0.000000",
+            "after_pose": "setpos_exact -1398.086426 2189.706055 0.867054;setang_exact 0.000000 171.443726 0.000000",
+            "requested_yaw": 171.4437763751212,
+            "requested_hold_seconds": 0.08507393191874213,
+            "progress_toward_target": 30.8698956701977
+          },
+          {
+            "waypoint": 8,
+            "step": 1,
+            "before_pose": "setpos_exact -1398.086426 2189.706055 0.867054;setang_exact 0.000000 171.443726 0.000000",
+            "after_pose": "setpos_exact -1452.890259 2200.585938 0.045667;setang_exact 0.000000 168.784332 0.000000",
+            "requested_yaw": 168.78430335371294,
+            "requested_hold_seconds": 0.33655409703171796,
+            "progress_toward_target": 49.975273604519096
+          },
+          {
+            "waypoint": 9,
+            "step": 1,
+            "before_pose": "setpos_exact -1452.890259 2200.585938 0.045667;setang_exact 0.000000 168.784332 0.000000",
+            "after_pose": "setpos_exact -1510.012695 2200.235596 -0.540894;setang_exact 0.000000 -179.654266 0.000000",
+            "requested_yaw": -179.65429454645445,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.123509659263334
+          },
+          {
+            "waypoint": 9,
+            "step": 2,
+            "before_pose": "setpos_exact -1510.012695 2200.235596 -0.540894;setang_exact 0.000000 -179.654266 0.000000",
+            "after_pose": "setpos_exact -1553.386475 2199.968750 -1.959961;setang_exact 0.000000 -179.662506 0.000000",
+            "requested_yaw": -179.66243035681762,
+            "requested_hold_seconds": 0.17484998790859885,
+            "progress_toward_target": 36.601379850062685
+          }
+        ],
+        "status": "completed collision walk",
+        "collision_mode_reply": "noclip OFF",
+        "settled_start_pose": "setpos_exact -500.000000 2300.000000 -112.120972;setang_exact 0.000000 0.000000 0.000000",
+        "final_pose": "setpos_exact -1553.386475 2199.968750 -1.959961;setang_exact 0.000000 -179.662506 0.000000",
+        "limitations": "reduced speed; waypoint arrival tolerance; not special traversal or metric calibration",
+        "restored_speed": 320.0
+      }
+    },
+    {
+      "private_filename": "LONG_A_TO_A_SITE_RECOVERY_003.json",
+      "report": {
+        "id": "LONG_A_TO_A_SITE_RECOVERY_003",
+        "source_build": "25640462",
+        "source_map": "de_dust2",
+        "timestamp_utc": "2026-10-01T20:04:47.746163+00:00",
+        "unit": "source_units",
+        "config": {
+          "id": "LONG_A_TO_A_SITE_RECOVERY_003",
+          "build": "25640462",
+          "waypoints": [
+            [
+              1400,
+              1500
+            ],
+            [
+              1400,
+              1900
+            ],
+            [
+              1400,
+              2200
+            ],
+            [
+              1420,
+              2500
+            ],
+            [
+              1450,
+              2750
+            ],
+            [
+              1200,
+              2800
+            ],
+            [
+              950,
+              2750
+            ]
+          ],
+          "maxspeed": 80,
+          "start": [
+            1400,
+            1100,
+            10
+          ],
+          "arrival_radius": 25
+        },
+        "teleports_during_route": 0,
+        "observations": [
+          {
+            "waypoint": 1,
+            "step": 1,
+            "before_pose": "setpos_exact 1400.000000 1100.000000 -8.950806;setang_exact 0.000000 0.000000 0.000000",
+            "after_pose": "setpos_exact 1400.012573 1155.872559 -9.661255;setang_exact 0.000000 90.000000 0.000000",
+            "requested_yaw": 90.0,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.872558770317085
+          },
+          {
+            "waypoint": 1,
+            "step": 2,
+            "before_pose": "setpos_exact 1400.012573 1155.872559 -9.661255;setang_exact 0.000000 90.000000 0.000000",
+            "after_pose": "setpos_exact 1400.000000 1211.745117 -10.306885;setang_exact 0.000000 90.002075 0.000000",
+            "requested_yaw": 90.00209335190883,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.87255822968285
+          },
+          {
+            "waypoint": 1,
+            "step": 3,
+            "before_pose": "setpos_exact 1400.000000 1211.745117 -10.306885;setang_exact 0.000000 90.002075 0.000000",
+            "after_pose": "setpos_exact 1400.012329 1266.367798 -10.621338;setang_exact 0.000000 90.000000 0.000000",
+            "requested_yaw": 90.0,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 54.622680674693356
+          },
+          {
+            "waypoint": 1,
+            "step": 4,
+            "before_pose": "setpos_exact 1400.012329 1266.367798 -10.621338;setang_exact 0.000000 90.000000 0.000000",
+            "after_pose": "setpos_exact 1399.999512 1323.490234 -11.237488;setang_exact 0.000000 90.003082 0.000000",
+            "requested_yaw": 90.0030235543684,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.12243632463222
+          },
+          {
+            "waypoint": 1,
+            "step": 5,
+            "before_pose": "setpos_exact 1399.999512 1323.490234 -11.237488;setang_exact 0.000000 90.003082 0.000000",
+            "after_pose": "setpos_exact 1400.012085 1379.362793 -9.917725;setang_exact 0.000000 90.000000 0.000000",
+            "requested_yaw": 89.99984159323856,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.87255839535865
+          },
+          {
+            "waypoint": 1,
+            "step": 6,
+            "before_pose": "setpos_exact 1400.012085 1379.362793 -9.917725;setang_exact 0.000000 90.000000 0.000000",
+            "after_pose": "setpos_exact 1399.999512 1435.235352 -8.106262;setang_exact 0.000000 90.005829 0.000000",
+            "requested_yaw": 90.00573968438364,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.87255960347723
+          },
+          {
+            "waypoint": 1,
+            "step": 7,
+            "before_pose": "setpos_exact 1399.999512 1435.235352 -8.106262;setang_exact 0.000000 90.005829 0.000000",
+            "after_pose": "setpos_exact 1400.011841 1489.858032 -7.165771;setang_exact 0.000000 89.999664 0.000000",
+            "requested_yaw": 89.99956827773701,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 54.62267308950999
+          },
+          {
+            "waypoint": 2,
+            "step": 1,
+            "before_pose": "setpos_exact 1400.011841 1489.858032 -7.165771;setang_exact 0.000000 89.999664 0.000000",
+            "after_pose": "setpos_exact 1399.999023 1546.980469 -6.631165;setang_exact 0.000000 90.001709 0.000000",
+            "requested_yaw": 90.0016541572869,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.12243716957579
+          },
+          {
+            "waypoint": 2,
+            "step": 2,
+            "before_pose": "setpos_exact 1399.999023 1546.980469 -6.631165;setang_exact 0.000000 90.001709 0.000000",
+            "after_pose": "setpos_exact 1400.011841 1604.102905 -6.564941;setang_exact 0.000000 90.000000 0.000000",
+            "requested_yaw": 89.99984143093607,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.1224357644295
+          },
+          {
+            "waypoint": 2,
+            "step": 3,
+            "before_pose": "setpos_exact 1400.011841 1604.102905 -6.564941;setang_exact 0.000000 90.000000 0.000000",
+            "after_pose": "setpos_exact 1399.999268 1659.975464 -6.998779;setang_exact 0.000000 90.002411 0.000000",
+            "requested_yaw": 90.00229282185029,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.87255923580631
+          },
+          {
+            "waypoint": 2,
+            "step": 4,
+            "before_pose": "setpos_exact 1399.999268 1659.975464 -6.998779;setang_exact 0.000000 90.002411 0.000000",
+            "after_pose": "setpos_exact 1400.011841 1715.848022 -7.993103;setang_exact 0.000000 89.999664 0.000000",
+            "requested_yaw": 89.99982526573616,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.87255762042693
+          },
+          {
+            "waypoint": 2,
+            "step": 5,
+            "before_pose": "setpos_exact 1400.011841 1715.848022 -7.993103;setang_exact 0.000000 89.999664 0.000000",
+            "after_pose": "setpos_exact 1399.999268 1771.720581 -7.798035;setang_exact 0.000000 90.003784 0.000000",
+            "requested_yaw": 90.00368412727167,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.87255937860067
+          },
+          {
+            "waypoint": 2,
+            "step": 6,
+            "before_pose": "setpos_exact 1399.999268 1771.720581 -7.798035;setang_exact 0.000000 90.003784 0.000000",
+            "after_pose": "setpos_exact 1400.011841 1827.593140 -8.088135;setang_exact 0.000000 89.999664 0.000000",
+            "requested_yaw": 89.99967305347243,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.87255803388403
+          },
+          {
+            "waypoint": 2,
+            "step": 7,
+            "before_pose": "setpos_exact 1400.011841 1827.593140 -8.088135;setang_exact 0.000000 89.999664 0.000000",
+            "after_pose": "setpos_exact 1399.999023 1884.715576 -8.523865;setang_exact 0.000000 90.009277 0.000000",
+            "requested_yaw": 90.00936982102478,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.12243693697895
+          },
+          {
+            "waypoint": 3,
+            "step": 1,
+            "before_pose": "setpos_exact 1399.999023 1884.715576 -8.523865;setang_exact 0.000000 90.009277 0.000000",
+            "after_pose": "setpos_exact 1400.011597 1940.588135 -8.376953;setang_exact 0.000000 89.999664 0.000000",
+            "requested_yaw": 89.99982245245144,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.87255874229186
+          },
+          {
+            "waypoint": 3,
+            "step": 2,
+            "before_pose": "setpos_exact 1400.011597 1940.588135 -8.376953;setang_exact 0.000000 89.999664 0.000000",
+            "after_pose": "setpos_exact 1399.998779 1997.710571 -8.408997;setang_exact 0.000000 90.002411 0.000000",
+            "requested_yaw": 90.00256140618151,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.12243625553697
+          },
+          {
+            "waypoint": 3,
+            "step": 3,
+            "before_pose": "setpos_exact 1399.998779 1997.710571 -8.408997;setang_exact 0.000000 90.002411 0.000000",
+            "after_pose": "setpos_exact 1400.011597 2054.833008 -8.521973;setang_exact 0.000000 89.999664 0.000000",
+            "requested_yaw": 89.9996541680545,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.12243654045838
+          },
+          {
+            "waypoint": 3,
+            "step": 4,
+            "before_pose": "setpos_exact 1400.011597 2054.833008 -8.521973;setang_exact 0.000000 89.999664 0.000000",
+            "after_pose": "setpos_exact 1399.998779 2111.959961 -7.389099;setang_exact 0.000000 90.004456 0.000000",
+            "requested_yaw": 90.00457720549583,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.12695345475966
+          },
+          {
+            "waypoint": 3,
+            "step": 5,
+            "before_pose": "setpos_exact 1399.998779 2111.959961 -7.389099;setang_exact 0.000000 90.004456 0.000000",
+            "after_pose": "setpos_exact 1400.011353 2167.836914 -6.182434;setang_exact 0.000000 89.999329 0.000000",
+            "requested_yaw": 89.9992053826012,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.87695100476285
+          },
+          {
+            "waypoint": 3,
+            "step": 6,
+            "before_pose": "setpos_exact 1400.011353 2167.836914 -6.182434;setang_exact 0.000000 89.999329 0.000000",
+            "after_pose": "setpos_exact 1400.003662 2198.713867 -5.807861;setang_exact 0.000000 90.020264 0.000000",
+            "requested_yaw": 90.0202243950659,
+            "requested_hold_seconds": 0.07703860004629959,
+            "progress_toward_target": 30.87694979031741
+          },
+          {
+            "waypoint": 4,
+            "step": 1,
+            "before_pose": "setpos_exact 1400.003662 2198.713867 -5.807861;setang_exact 0.000000 90.020264 0.000000",
+            "after_pose": "setpos_exact 1403.698608 2254.458740 -0.513428;setang_exact 0.000000 86.202850 0.000000",
+            "requested_yaw": 86.20285232302794,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.86719487450907
+          },
+          {
+            "waypoint": 4,
+            "step": 2,
+            "before_pose": "setpos_exact 1403.698608 2254.458740 -0.513428;setang_exact 0.000000 86.202850 0.000000",
+            "after_pose": "setpos_exact 1407.393555 2310.203613 7.227543;setang_exact 0.000000 86.201813 0.000000",
+            "requested_yaw": 86.20172857851553,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.86719479051854
+          },
+          {
+            "waypoint": 4,
+            "step": 3,
+            "before_pose": "setpos_exact 1407.393555 2310.203613 7.227543;setang_exact 0.000000 86.201813 0.000000",
+            "after_pose": "setpos_exact 1411.088501 2365.948486 17.160131;setang_exact 0.000000 86.200104 0.000000",
+            "requested_yaw": 86.19994503321674,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.86719438657494
+          },
+          {
+            "waypoint": 4,
+            "step": 4,
+            "before_pose": "setpos_exact 1411.088501 2365.948486 17.160131;setang_exact 0.000000 86.200104 0.000000",
+            "after_pose": "setpos_exact 1414.866333 2422.940674 30.872150;setang_exact 0.000000 86.196655 0.000000",
+            "requested_yaw": 86.19667771883718,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.1172592280043
+          },
+          {
+            "waypoint": 4,
+            "step": 5,
+            "before_pose": "setpos_exact 1414.866333 2422.940674 30.872150;setang_exact 0.000000 86.196655 0.000000",
+            "after_pose": "setpos_exact 1418.561401 2478.685547 45.418858;setang_exact 0.000000 86.188416 0.000000",
+            "requested_yaw": 86.1886058727615,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.867192010732026
+          },
+          {
+            "waypoint": 5,
+            "step": 1,
+            "before_pose": "setpos_exact 1418.561401 2478.685547 45.418858;setang_exact 0.000000 86.188416 0.000000",
+            "after_pose": "setpos_exact 1424.986450 2534.170898 58.227795;setang_exact 0.000000 83.390350 0.000000",
+            "requested_yaw": 83.39032142387602,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.85611342599944
+          },
+          {
+            "waypoint": 5,
+            "step": 2,
+            "before_pose": "setpos_exact 1424.986450 2534.170898 58.227795;setang_exact 0.000000 83.390350 0.000000",
+            "after_pose": "setpos_exact 1431.555298 2590.897705 71.293251;setang_exact 0.000000 83.389313 0.000000",
+            "requested_yaw": 83.38918886423201,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.105869713650975
+          },
+          {
+            "waypoint": 5,
+            "step": 3,
+            "before_pose": "setpos_exact 1431.555298 2590.897705 71.293251;setang_exact 0.000000 83.389313 0.000000",
+            "after_pose": "setpos_exact 1437.980347 2646.383057 84.001358;setang_exact 0.000000 83.387268 0.000000",
+            "requested_yaw": 83.38722920222978,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.85611389255995
+          },
+          {
+            "waypoint": 5,
+            "step": 4,
+            "before_pose": "setpos_exact 1437.980347 2646.383057 84.001358;setang_exact 0.000000 83.387268 0.000000",
+            "after_pose": "setpos_exact 1444.430420 2701.867676 96.479729;setang_exact 0.000000 83.383148 0.000000",
+            "requested_yaw": 83.3832142996,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.85826690954096
+          },
+          {
+            "waypoint": 5,
+            "step": 5,
+            "before_pose": "setpos_exact 1444.430420 2701.867676 96.479729;setang_exact 0.000000 83.383148 0.000000",
+            "after_pose": "setpos_exact 1449.561279 2746.186035 104.664932;setang_exact 0.000000 83.399292 0.000000",
+            "requested_yaw": 83.39943604597072,
+            "requested_hold_seconds": 0.2806686432955461,
+            "progress_toward_target": 44.61437631336952
+          },
+          {
+            "waypoint": 6,
+            "step": 1,
+            "before_pose": "setpos_exact 1449.561279 2746.186035 104.664932;setang_exact 0.000000 83.399292 0.000000",
+            "after_pose": "setpos_exact 1393.702148 2758.201416 108.141907;setang_exact 0.000000 167.831268 0.000000",
+            "requested_yaw": 167.83138883644804,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.13677280149369
+          },
+          {
+            "waypoint": 6,
+            "step": 2,
+            "before_pose": "setpos_exact 1393.702148 2758.201416 108.141907;setang_exact 0.000000 167.831268 0.000000",
+            "after_pose": "setpos_exact 1337.843018 2770.216797 116.455978;setang_exact 0.000000 167.823029 0.000000",
+            "requested_yaw": 167.82297682767106,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.13676409145279
+          },
+          {
+            "waypoint": 6,
+            "step": 3,
+            "before_pose": "setpos_exact 1337.843018 2770.216797 116.455978;setang_exact 0.000000 167.823029 0.000000",
+            "after_pose": "setpos_exact 1283.205811 2781.991455 127.031250;setang_exact 0.000000 167.807587 0.000000",
+            "requested_yaw": 167.80774854155524,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.89155105035414
+          },
+          {
+            "waypoint": 6,
+            "step": 4,
+            "before_pose": "setpos_exact 1283.205811 2781.991455 127.031250;setang_exact 0.000000 167.807587 0.000000",
+            "after_pose": "setpos_exact 1227.365723 2794.101318 127.031250;setang_exact 0.000000 167.787659 0.000000",
+            "requested_yaw": 167.78762514942454,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.13810034227441
+          },
+          {
+            "waypoint": 6,
+            "step": 5,
+            "before_pose": "setpos_exact 1227.365723 2794.101318 127.031250;setang_exact 0.000000 167.787659 0.000000",
+            "after_pose": "setpos_exact 1197.166992 2800.594971 127.031250;setang_exact 0.000000 167.836060 0.000000",
+            "requested_yaw": 167.8360020562511,
+            "requested_hold_seconds": 0.05,
+            "progress_toward_target": 25.09942593854951
+          },
+          {
+            "waypoint": 7,
+            "step": 1,
+            "before_pose": "setpos_exact 1197.166992 2800.594971 127.031250;setang_exact 0.000000 167.836060 0.000000",
+            "after_pose": "setpos_exact 1142.435791 2789.369385 127.031250;setang_exact 0.000000 -168.431396 0.000000",
+            "requested_yaw": -168.43139523531286,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.87054268562346
+          },
+          {
+            "waypoint": 7,
+            "step": 2,
+            "before_pose": "setpos_exact 1142.435791 2789.369385 127.031250;setang_exact 0.000000 -168.431396 0.000000",
+            "after_pose": "setpos_exact 1086.479980 2777.915527 120.024353;setang_exact 0.000000 -168.437576 0.000000",
+            "requested_yaw": -168.437720518072,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.11605375299624
+          },
+          {
+            "waypoint": 7,
+            "step": 3,
+            "before_pose": "setpos_exact 1086.479980 2777.915527 120.024353;setang_exact 0.000000 -168.437576 0.000000",
+            "after_pose": "setpos_exact 1051.062744 2768.885986 114.311798;setang_exact 0.000000 -168.440323 0.000000",
+            "requested_yaw": -168.44020468190195,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 36.49339118928452
+          },
+          {
+            "waypoint": 7,
+            "step": 4,
+            "before_pose": "setpos_exact 1051.062744 2768.885986 114.311798;setang_exact 0.000000 -168.440323 0.000000",
+            "after_pose": "setpos_exact 1051.062744 2765.488281 112.162231;setang_exact 0.000000 -169.415009 0.000000",
+            "requested_yaw": -169.41500492013893,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 0.5695723605542611
+          },
+          {
+            "waypoint": 7,
+            "step": 5,
+            "before_pose": "setpos_exact 1051.062744 2765.488281 112.162231;setang_exact 0.000000 -169.415009 0.000000",
+            "after_pose": "setpos_exact 1025.317017 2759.902832 108.628571;setang_exact 0.000000 -171.286804 0.000000",
+            "requested_yaw": -171.28697791818118,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 26.277427858390652
+          },
+          {
+            "waypoint": 7,
+            "step": 6,
+            "before_pose": "setpos_exact 1025.317017 2759.902832 108.628571;setang_exact 0.000000 -171.286804 0.000000",
+            "after_pose": "setpos_exact 968.663086 2752.432861 98.699577;setang_exact 0.000000 -172.509735 0.000000",
+            "requested_yaw": -172.5096025940267,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.14426143513074
+          }
+        ],
+        "status": "completed collision walk",
+        "collision_mode_reply": "noclip OFF",
+        "settled_start_pose": "setpos_exact 1400.000000 1100.000000 -8.950806;setang_exact 0.000000 0.000000 0.000000",
+        "final_pose": "setpos_exact 968.663086 2752.432861 98.699577;setang_exact 0.000000 -172.509735 0.000000",
+        "limitations": "reduced speed; waypoint arrival tolerance; not special traversal or metric calibration",
+        "restored_speed": 320.0
+      }
+    },
+    {
+      "private_filename": "A_SITE_TO_LONG_A_RECOVERY_001.json",
+      "report": {
+        "id": "A_SITE_TO_LONG_A_RECOVERY_001",
+        "source_build": "25640462",
+        "source_map": "de_dust2",
+        "timestamp_utc": "2026-10-01T20:10:22.484545+00:00",
+        "unit": "source_units",
+        "config": {
+          "arrival_radius": 25,
+          "waypoints": [
+            [
+              1200,
+              2800
+            ],
+            [
+              1450,
+              2750
+            ],
+            [
+              1420,
+              2500
+            ],
+            [
+              1400,
+              2200
+            ],
+            [
+              1400,
+              1900
+            ],
+            [
+              1400,
+              1500
+            ],
+            [
+              1400,
+              1100
+            ]
+          ],
+          "start": [
+            950,
+            2750,
+            110
+          ],
+          "build": "25640462",
+          "maxspeed": 80,
+          "id": "A_SITE_TO_LONG_A_RECOVERY_001"
+        },
+        "teleports_during_route": 0,
+        "observations": [
+          {
+            "waypoint": 1,
+            "step": 1,
+            "before_pose": "setpos_exact 950.000000 2750.000000 98.658859;setang_exact 0.000000 0.000000 0.000000",
+            "after_pose": "setpos_exact 1004.796936 2760.965088 109.300598;setang_exact 0.000000 11.310089 0.000000",
+            "requested_yaw": 11.309932474020213,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.88324713019338
+          },
+          {
+            "waypoint": 1,
+            "step": 2,
+            "before_pose": "setpos_exact 1004.796936 2760.965088 109.300598;setang_exact 0.000000 11.310089 0.000000",
+            "after_pose": "setpos_exact 1060.323486 2764.161133 111.322601;setang_exact 0.000000 11.308365 0.000000",
+            "requested_yaw": 11.308323530100685,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 54.866643425110254
+          },
+          {
+            "waypoint": 1,
+            "step": 3,
+            "before_pose": "setpos_exact 1060.323486 2764.161133 111.322601;setang_exact 0.000000 11.308365 0.000000",
+            "after_pose": "setpos_exact 1114.435669 2778.025635 120.094017;setang_exact 0.000000 14.390717 0.000000",
+            "requested_yaw": 14.39077655500386,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.86011242972015
+          },
+          {
+            "waypoint": 1,
+            "step": 4,
+            "before_pose": "setpos_exact 1114.435669 2778.025635 120.094017;setang_exact 0.000000 14.390717 0.000000",
+            "after_pose": "setpos_exact 1167.338135 2791.601074 127.031250;setang_exact 0.000000 14.403412 0.000000",
+            "requested_yaw": 14.403253314899548,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 54.61651001199143
+          },
+          {
+            "waypoint": 1,
+            "step": 5,
+            "before_pose": "setpos_exact 1167.338135 2791.601074 127.031250;setang_exact 0.000000 14.403412 0.000000",
+            "after_pose": "setpos_exact 1198.455688 2799.597900 127.031250;setang_exact 0.000000 14.420929 0.000000",
+            "requested_yaw": 14.421037568352983,
+            "requested_hold_seconds": 0.09655578353280037,
+            "progress_toward_target": 32.12866070137955
+          },
+          {
+            "waypoint": 2,
+            "step": 1,
+            "before_pose": "setpos_exact 1198.455688 2799.597900 127.031250;setang_exact 0.000000 14.420929 0.000000",
+            "after_pose": "setpos_exact 1253.282593 2788.798828 127.031250;setang_exact 0.000000 -11.154205 0.000000",
+            "requested_yaw": -11.154136412831788,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.88031236017042
+          },
+          {
+            "waypoint": 2,
+            "step": 2,
+            "before_pose": "setpos_exact 1253.282593 2788.798828 127.031250;setang_exact 0.000000 -11.154205 0.000000",
+            "after_pose": "setpos_exact 1308.109497 2777.999268 118.940239;setang_exact 0.000000 -11.157303 0.000000",
+            "requested_yaw": -11.15731755413332,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.88040475942887
+          },
+          {
+            "waypoint": 2,
+            "step": 3,
+            "before_pose": "setpos_exact 1308.109497 2777.999268 118.940239;setang_exact 0.000000 -11.157303 0.000000",
+            "after_pose": "setpos_exact 1362.932129 2767.177979 109.374886;setang_exact 0.000000 -11.162796 0.000000",
+            "requested_yaw": -11.162767182066215,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.880419286455705
+          },
+          {
+            "waypoint": 2,
+            "step": 4,
+            "before_pose": "setpos_exact 1362.932129 2767.177979 109.374886;setang_exact 0.000000 -11.162796 0.000000",
+            "after_pose": "setpos_exact 1416.528442 2756.599121 107.343582;setang_exact 0.000000 -11.160736 0.000000",
+            "requested_yaw": -11.16078260584345,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 54.63036655854796
+          },
+          {
+            "waypoint": 2,
+            "step": 5,
+            "before_pose": "setpos_exact 1416.528442 2756.599121 107.343582;setang_exact 0.000000 -11.160736 0.000000",
+            "after_pose": "setpos_exact 1448.052979 2750.387695 105.276299;setang_exact 0.000000 -11.153183 0.000000",
+            "requested_yaw": -11.153169342605185,
+            "requested_hold_seconds": 0.10144855949311254,
+            "progress_toward_target": 32.1306396392017
+          },
+          {
+            "waypoint": 3,
+            "step": 1,
+            "before_pose": "setpos_exact 1448.052979 2750.387695 105.276299;setang_exact 0.000000 -11.153183 0.000000",
+            "after_pose": "setpos_exact 1441.862305 2694.856689 95.053398;setang_exact 0.000000 -96.392670 0.000000",
+            "requested_yaw": -96.39265516055848,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.875002092435494
+          },
+          {
+            "waypoint": 3,
+            "step": 2,
+            "before_pose": "setpos_exact 1441.862305 2694.856689 95.053398;setang_exact 0.000000 -96.392670 0.000000",
+            "after_pose": "setpos_exact 1435.649536 2639.325684 82.457985;setang_exact 0.000000 -96.401596 0.000000",
+            "requested_yaw": -96.4016335234605,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.87746044208154
+          },
+          {
+            "waypoint": 3,
+            "step": 3,
+            "before_pose": "setpos_exact 1435.649536 2639.325684 82.457985;setang_exact 0.000000 -96.401596 0.000000",
+            "after_pose": "setpos_exact 1429.296875 2582.552246 69.429932;setang_exact 0.000000 -96.408806 0.000000",
+            "requested_yaw": -96.40879515583494,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.12773912857699
+          },
+          {
+            "waypoint": 3,
+            "step": 4,
+            "before_pose": "setpos_exact 1429.296875 2582.552246 69.429932;setang_exact 0.000000 -96.408806 0.000000",
+            "after_pose": "setpos_exact 1423.040405 2527.044434 56.704315;setang_exact 0.000000 -96.425629 0.000000",
+            "requested_yaw": -96.42546726824915,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.85929220486598
+          },
+          {
+            "waypoint": 3,
+            "step": 5,
+            "before_pose": "setpos_exact 1423.040405 2527.044434 56.704315;setang_exact 0.000000 -96.425629 0.000000",
+            "after_pose": "setpos_exact 1419.593262 2496.362549 49.631470;setang_exact 0.000000 -96.414299 0.000000",
+            "requested_yaw": -96.41440619877862,
+            "requested_hold_seconds": 0.05,
+            "progress_toward_target": 23.554681481530924
+          },
+          {
+            "waypoint": 4,
+            "step": 1,
+            "before_pose": "setpos_exact 1419.593262 2496.362549 49.631470;setang_exact 0.000000 -96.414299 0.000000",
+            "after_pose": "setpos_exact 1415.898315 2440.617676 35.487045;setang_exact 0.000000 -93.782387 0.000000",
+            "requested_yaw": -93.78246140518046,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.86719420272158
+          },
+          {
+            "waypoint": 4,
+            "step": 2,
+            "before_pose": "setpos_exact 1415.898315 2440.617676 35.487045;setang_exact 0.000000 -93.782387 0.000000",
+            "after_pose": "setpos_exact 1412.120850 2383.625488 21.478731;setang_exact 0.000000 -93.780327 0.000000",
+            "requested_yaw": -93.7802054556469,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.117235161081254
+          },
+          {
+            "waypoint": 4,
+            "step": 3,
+            "before_pose": "setpos_exact 1412.120850 2383.625488 21.478731;setang_exact 0.000000 -93.780327 0.000000",
+            "after_pose": "setpos_exact 1408.426270 2327.880615 10.013453;setang_exact 0.000000 -93.776550 0.000000",
+            "requested_yaw": -93.7765320535609,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.86716806806581
+          },
+          {
+            "waypoint": 4,
+            "step": 4,
+            "before_pose": "setpos_exact 1408.426270 2327.880615 10.013453;setang_exact 0.000000 -93.776550 0.000000",
+            "after_pose": "setpos_exact 1404.814575 2273.383057 1.730106;setang_exact 0.000000 -93.770027 0.000000",
+            "requested_yaw": -93.76986622098994,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 54.61709824788802
+          },
+          {
+            "waypoint": 4,
+            "step": 5,
+            "before_pose": "setpos_exact 1404.814575 2273.383057 1.730106;setang_exact 0.000000 -93.770027 0.000000",
+            "after_pose": "setpos_exact 1401.142456 2217.638184 -5.522888;setang_exact 0.000000 -93.753891 0.000000",
+            "requested_yaw": -93.75372805210735,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.86568195827196
+          },
+          {
+            "waypoint": 5,
+            "step": 1,
+            "before_pose": "setpos_exact 1401.142456 2217.638184 -5.522888;setang_exact 0.000000 -93.753891 0.000000",
+            "after_pose": "setpos_exact 1400.938354 2161.770020 -6.302063;setang_exact 0.000000 -90.205994 0.000000",
+            "requested_yaw": -90.20607605796629,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.86853671112482
+          },
+          {
+            "waypoint": 5,
+            "step": 2,
+            "before_pose": "setpos_exact 1400.938354 2161.770020 -6.302063;setang_exact 0.000000 -90.205994 0.000000",
+            "after_pose": "setpos_exact 1400.734253 2105.901855 -7.652100;setang_exact 0.000000 -90.205307 0.000000",
+            "requested_yaw": -90.2053844577316,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.86853764871404
+          },
+          {
+            "waypoint": 5,
+            "step": 3,
+            "before_pose": "setpos_exact 1400.734253 2105.901855 -7.652100;setang_exact 0.000000 -90.205307 0.000000",
+            "after_pose": "setpos_exact 1400.530640 2050.033691 -8.530090;setang_exact 0.000000 -90.204277 0.000000",
+            "requested_yaw": -90.20431782738818,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.868534799061536
+          },
+          {
+            "waypoint": 5,
+            "step": 4,
+            "before_pose": "setpos_exact 1400.530640 2050.033691 -8.530090;setang_exact 0.000000 -90.204277 0.000000",
+            "after_pose": "setpos_exact 1400.322388 1992.911255 -8.426270;setang_exact 0.000000 -90.202560 0.000000",
+            "requested_yaw": -90.20264318945306,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.12281506521761
+          },
+          {
+            "waypoint": 5,
+            "step": 5,
+            "before_pose": "setpos_exact 1400.322388 1992.911255 -8.426270;setang_exact 0.000000 -90.202560 0.000000",
+            "after_pose": "setpos_exact 1400.114746 1935.788818 -8.445435;setang_exact 0.000000 -90.198784 0.000000",
+            "requested_yaw": -90.19880688981061,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.12281236844607
+          },
+          {
+            "waypoint": 5,
+            "step": 6,
+            "before_pose": "setpos_exact 1400.114746 1935.788818 -8.445435;setang_exact 0.000000 -90.198784 0.000000",
+            "after_pose": "setpos_exact 1400.029419 1906.163696 -8.593506;setang_exact 0.000000 -90.183678 0.000000",
+            "requested_yaw": -90.1837009254767,
+            "requested_hold_seconds": 0.12236252435832862,
+            "progress_toward_target": 29.62523574138864
+          },
+          {
+            "waypoint": 6,
+            "step": 1,
+            "before_pose": "setpos_exact 1400.029419 1906.163696 -8.593506;setang_exact 0.000000 -90.183678 0.000000",
+            "after_pose": "setpos_exact 1400.016846 1850.291138 -8.242920;setang_exact 0.000000 -90.004120 0.000000",
+            "requested_yaw": -90.00415001279323,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.87255866035548
+          },
+          {
+            "waypoint": 6,
+            "step": 2,
+            "before_pose": "setpos_exact 1400.016846 1850.291138 -8.242920;setang_exact 0.000000 -90.004120 0.000000",
+            "after_pose": "setpos_exact 1400.004272 1794.418579 -7.817444;setang_exact 0.000000 -90.002747 0.000000",
+            "requested_yaw": -90.00275543568257,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.872559374080936
+          },
+          {
+            "waypoint": 6,
+            "step": 3,
+            "before_pose": "setpos_exact 1400.004272 1794.418579 -7.817444;setang_exact 0.000000 -90.002747 0.000000",
+            "after_pose": "setpos_exact 1400.017334 1736.046265 -7.943176;setang_exact 0.000000 -90.000687 0.000000",
+            "requested_yaw": -90.00083135911765,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 58.37231339453419
+          },
+          {
+            "waypoint": 6,
+            "step": 4,
+            "before_pose": "setpos_exact 1400.017334 1736.046265 -7.943176;setang_exact 0.000000 -90.000687 0.000000",
+            "after_pose": "setpos_exact 1400.004761 1680.173706 -7.364136;setang_exact 0.000000 -90.004120 0.000000",
+            "requested_yaw": -90.00420750161113,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.87255957355541
+          },
+          {
+            "waypoint": 6,
+            "step": 5,
+            "before_pose": "setpos_exact 1400.004761 1680.173706 -7.364136;setang_exact 0.000000 -90.004120 0.000000",
+            "after_pose": "setpos_exact 1399.992188 1624.301147 -6.605103;setang_exact 0.000000 -90.001373 0.000000",
+            "requested_yaw": -90.0015140122954,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.87255881742185
+          },
+          {
+            "waypoint": 6,
+            "step": 6,
+            "before_pose": "setpos_exact 1399.992188 1624.301147 -6.605103;setang_exact 0.000000 -90.001373 0.000000",
+            "after_pose": "setpos_exact 1400.005249 1565.928833 -6.631226;setang_exact 0.000000 -89.996567 0.000000",
+            "requested_yaw": -89.99639911103178,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 58.37231403652919
+          },
+          {
+            "waypoint": 6,
+            "step": 7,
+            "before_pose": "setpos_exact 1400.005249 1565.928833 -6.631226;setang_exact 0.000000 -89.996567 0.000000",
+            "after_pose": "setpos_exact 1399.992676 1510.056274 -6.936157;setang_exact 0.000000 -90.004463 0.000000",
+            "requested_yaw": -90.00456166949037,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.87255654191255
+          },
+          {
+            "waypoint": 7,
+            "step": 1,
+            "before_pose": "setpos_exact 1399.992676 1510.056274 -6.936157;setang_exact 0.000000 -90.004463 0.000000",
+            "after_pose": "setpos_exact 1400.005249 1454.183716 -7.773132;setang_exact 0.000000 -89.998970 0.000000",
+            "requested_yaw": -89.9989766421935,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.8725580265118
+          },
+          {
+            "waypoint": 7,
+            "step": 2,
+            "before_pose": "setpos_exact 1400.005249 1454.183716 -7.773132;setang_exact 0.000000 -89.998970 0.000000",
+            "after_pose": "setpos_exact 1400.017822 1398.311157 -9.126038;setang_exact 0.000000 -90.000687 0.000000",
+            "requested_yaw": -90.00084912302023,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.872558506525195
+          },
+          {
+            "waypoint": 7,
+            "step": 3,
+            "before_pose": "setpos_exact 1400.017822 1398.311157 -9.126038;setang_exact 0.000000 -90.000687 0.000000",
+            "after_pose": "setpos_exact 1400.005249 1342.438599 -11.025696;setang_exact 0.000000 -90.003433 0.000000",
+            "requested_yaw": -90.00342302108825,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.87255847554715
+          },
+          {
+            "waypoint": 7,
+            "step": 4,
+            "before_pose": "setpos_exact 1400.005249 1342.438599 -11.025696;setang_exact 0.000000 -90.003433 0.000000",
+            "after_pose": "setpos_exact 1399.992432 1285.316162 -10.779297;setang_exact 0.000000 -90.001373 0.000000",
+            "requested_yaw": -90.0012405019162,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.122436902290445
+          },
+          {
+            "waypoint": 7,
+            "step": 5,
+            "before_pose": "setpos_exact 1399.992432 1285.316162 -10.779297;setang_exact 0.000000 -90.001373 0.000000",
+            "after_pose": "setpos_exact 1400.005249 1228.193726 -10.489563;setang_exact 0.000000 -89.997597 0.000000",
+            "requested_yaw": -89.99766013684703,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.122436047069925
+          },
+          {
+            "waypoint": 7,
+            "step": 6,
+            "before_pose": "setpos_exact 1400.005249 1228.193726 -10.489563;setang_exact 0.000000 -89.997597 0.000000",
+            "after_pose": "setpos_exact 1399.992432 1171.071289 -9.720154;setang_exact 0.000000 -90.002403 0.000000",
+            "requested_yaw": -90.00234602391149,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.12243670452452
+          },
+          {
+            "waypoint": 7,
+            "step": 7,
+            "before_pose": "setpos_exact 1399.992432 1171.071289 -9.720154;setang_exact 0.000000 -90.002403 0.000000",
+            "after_pose": "setpos_exact 1400.005005 1115.198730 -9.268555;setang_exact 0.000000 -89.993820 0.000000",
+            "requested_yaw": -89.99389888007074,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.87255857885494
+          }
+        ],
+        "status": "completed collision walk",
+        "collision_mode_reply": "noclip OFF",
+        "settled_start_pose": "setpos_exact 950.000000 2750.000000 98.658859;setang_exact 0.000000 0.000000 0.000000",
+        "final_pose": "setpos_exact 1400.005005 1115.198730 -9.268555;setang_exact 0.000000 -89.993820 0.000000",
+        "limitations": "reduced speed; waypoint arrival tolerance; not special traversal or metric calibration",
+        "restored_speed": 320.0
+      }
     }
   ],
-  "acceptance": "Pit ramp, Upper Tunnels-to-B exit path, and Outside Long through both Long Doors portals to Long Corner passed in both directions with collision enabled. Failed plans and interrupted attempts preserved. Remaining routes and special traversal require verification. Scale calibration is separate.",
+  "acceptance": "Pit ramp, Upper Tunnels-to-B exit, Long Doors, B Doors and Long A-to-A Site paths passed both directions with collision enabled. Failed plans preserved. Remaining routes and special traversal require verification.",
   "accepted_paths": [
     {
       "id": "PIT_LONG_RAMP",
@@ -3244,6 +4828,33 @@
         "E06"
       ],
       "limits": "Collision enabled, start-only teleport, speed80, arrival radius25 source units; tunnel passage and B-side exit path only, not entire B courtyard."
+    },
+    {
+      "id": "B_DOORS_BOTH",
+      "from": "B-side door approach",
+      "to": "CT Mid",
+      "direction": "both",
+      "forward_report": "B_DOORS_B_TO_CT_RECOVERY_002",
+      "reverse_report": "B_DOORS_CT_TO_B_RECOVERY_002",
+      "edges": [
+        "E17",
+        "E18"
+      ],
+      "limits": "Collision enabled; no route teleports; speed80; forward arrival25, reverse20 source units. Reverse requires weaving around leaf. Covers B-side threshold approach through portal to CT Mid, not full B courtyard."
+    },
+    {
+      "id": "LONG_A_SITE_BOTH",
+      "from": "Long A surveyed station",
+      "to": "A Site rear platform",
+      "direction": "both",
+      "forward_report": "LONG_A_TO_A_SITE_RECOVERY_003",
+      "reverse_report": "A_SITE_TO_LONG_A_RECOVERY_001",
+      "edges": [
+        "E29",
+        "E30",
+        "E31"
+      ],
+      "limits": "Collision enabled, speed80, arrival25; start-only teleport. Path uses outer street around site cover stack; earlier crate-blocked plans retained. Does not validate Under A or special boost/drop connections."
     }
   ]
 }

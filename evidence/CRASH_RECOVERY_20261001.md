@@ -68,3 +68,18 @@ about 92 cm, for localization. RADAR_PLAN.svg adds physical grid and 13 floor
 heights and was rendered/inspected. Radar silhouettes remain unsurveyed;
 small openings and overlapping elevation layers still need direct evidence.
 Restore temporary background-render setting at closeout. No production geometry.
+
+## B Doors and site checkpoint
+
+Four reviewed B Doors views and five A/B site views extend the area register
+to 99 JPEGs; all hashes pass. Obstructed/inside-prop and clipped initial captures
+remain private rejects. B Doors and Long A-to-A Site paths passed both directions;
+the latter goes around the cover stack that blocked earlier plans. No route
+teleports; speed 80; arrival tolerance 25 or 20 as recorded.
+The physical register now contains thirteen bounded collision features, including
+one B leaf/wall section and one floor-to-first wood hull point clearance.
+They are not complete structural-opening or minimum-passage dimensions.
+A failed B overhead correction was inspected at open sky, exact live health
+echo returned, then original pose was restored/read back before a new station.
+COORDINATE_TRANSFORM.json fixes a reversible target convention after two native
+right-axis tests and target-documentation checks; exporter/editor validation remains.

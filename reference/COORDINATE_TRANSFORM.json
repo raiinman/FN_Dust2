@@ -1,0 +1,155 @@
+{
+  "status": "ACCEPTED coordinate convention; mathematical and native-axis sign checks; exporter/editor round-trip pending Phase 2",
+  "source_origin": [
+    0,
+    0,
+    0
+  ],
+  "target_origin": [
+    0,
+    0,
+    0
+  ],
+  "source_unit": "engine inches for pinned build; SCALE_CALIBRATION.json",
+  "target_unit": "cm",
+  "source_to_unreal_matrix": [
+    [
+      2.54,
+      0,
+      0
+    ],
+    [
+      0,
+      -2.54,
+      0
+    ],
+    [
+      0,
+      0,
+      2.54
+    ]
+  ],
+  "inverse": "source=(ue_x/2.54,-ue_y/2.54,ue_z/2.54)",
+  "source_to_blender_meters": "(.0254*x,.0254*y,.0254*z); retain source axes; exporter must apply documented handedness conversion exactly once",
+  "determinant": -16.387064000000002,
+  "zero_roll_camera_convention": "UE yaw=-source yaw; UE pitch=-source pitch. Verify imported basis vectors/camera before using fixed-camera QA; nonzero roll is unvalidated.",
+  "basis_evidence": {
+    "right_at_yaw_zero": {
+      "id": "SOURCE_RIGHT_AXIS_001",
+      "source_build": "25640462",
+      "observations": [
+        {
+          "repeat": 1,
+          "before": "setpos_exact 1400.000000 1100.000000 0.000000;setang_exact 0.000000 0.000000 0.000000",
+          "after": "setpos_exact 1400.000000 778.538147 0.000000;setang_exact 0.000000 0.000000 0.000000",
+          "command": "+right then -right",
+          "yaw": 0,
+          "collision_mode": "noclip; axis sign only, not distance or walking evidence",
+          "conclusion": "View-right motion at yaw0 decreases source Y"
+        },
+        {
+          "repeat": 2,
+          "before": "setpos_exact 1400.000000 1100.000000 0.000000;setang_exact 0.000000 0.000000 0.000000",
+          "after": "setpos_exact 1400.000000 776.909546 0.000000;setang_exact 0.000000 0.000000 0.000000",
+          "command": "+right then -right",
+          "yaw": 0,
+          "collision_mode": "noclip; axis sign only, not distance or walking evidence",
+          "conclusion": "View-right motion at yaw0 decreases source Y"
+        }
+      ],
+      "original_pose": "setpos_exact 1400.000000 423.333771 0.000000;setang_exact 0.000000 0.000000 0.000000",
+      "restored_pose": "setpos_exact 1400.000000 423.333771 0.000000;setang_exact 0.000000 0.000000 0.000000"
+    },
+    "forward": "Repeated settled rays: source yaw0 is +X; yaw90 is +Y; TRACE_ORIGIN_DIAGNOSTIC.json and SCALE_CALIBRATION.json",
+    "up": "Native floor/ceiling columns in ELEVATION_PROBES.json establish increasing Z upward"
+  },
+  "target_sources": [
+    {
+      "title": "Epic Coordinate System and Spaces",
+      "url": "https://dev.epicgames.com/documentation/unreal-engine/coordinate-system-and-spaces-in-unreal-engine",
+      "retrieved": "2026-10-01",
+      "fact": "Editor uses left-handed Z-up axes; +X forward, +Y right, +Z up"
+    },
+    {
+      "title": "Epic Units of Measurement",
+      "url": "https://dev.epicgames.com/documentation/unreal-engine/units-of-measurement-in-unreal-engine",
+      "retrieved": "2026-10-01",
+      "fact": "Default length unit centimeters"
+    }
+  ],
+  "checks": [
+    {
+      "source": [
+        0,
+        0,
+        0
+      ],
+      "unreal_cm": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "source": [
+        1,
+        0,
+        0
+      ],
+      "unreal_cm": [
+        2.54,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "source": [
+        0,
+        1,
+        0
+      ],
+      "unreal_cm": [
+        0.0,
+        -2.54,
+        0.0
+      ]
+    },
+    {
+      "source": [
+        0,
+        0,
+        1
+      ],
+      "unreal_cm": [
+        0.0,
+        0.0,
+        2.54
+      ]
+    },
+    {
+      "source": [
+        1400,
+        350,
+        -159.14
+      ],
+      "unreal_cm": [
+        3556.0,
+        -889.0,
+        -404.2156
+      ]
+    },
+    {
+      "source": [
+        -1950,
+        1200,
+        31.38
+      ],
+      "unreal_cm": [
+        -4953.0,
+        -3048.0,
+        79.7052
+      ]
+    }
+  ],
+  "limits": "Preserves scale, heights and adjacency while changing handedness. Geometry exporter must reverse winding/transform normals consistently or use its known conversion, not apply both. No mesh, camera, Unreal or UEFN production acceptance; renderer/import validation belongs to later gate. UEFN Verse coordinate conventions require a separate Phase 6/7 adapter."
+}
