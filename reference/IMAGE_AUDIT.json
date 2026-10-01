@@ -1,0 +1,650 @@
+{
+  "review_date": "2026-10-01",
+  "source_build": "25640462",
+  "registered_images": 80,
+  "coverage_excluded": 8,
+  "complete_areas": 0,
+  "gate_1": "FAIL",
+  "images": [
+    {
+      "id": "QA_CT_RECOVERY_20261001_001",
+      "area": "CT Spawn",
+      "image": "reference/images/ct_spawn/QA_CT_RECOVERY_20261001_001.jpg",
+      "sha256": "c4e642091e1d5e899e9d7e15eb58acbc1bb9f207cd7b162e7a79c9ac869c052c",
+      "coverage_status": "PARTIAL",
+      "review": "World capture; ramp and stair opening, ceiling and floor visible; off-axis discovery view."
+    },
+    {
+      "id": "QA_CT_RECOVERY_EAST",
+      "area": "CT Spawn",
+      "image": "reference/images/ct_spawn/QA_CT_RECOVERY_EAST.jpg",
+      "sha256": "331c5ec408c154771a18be87e1351c7ff18dbf9f867cbb4df1f93b36a3733b56",
+      "coverage_status": "PARTIAL",
+      "review": "Source +X facing; ramp and stair opening visible; unobstructed floor and roof."
+    },
+    {
+      "id": "QA_CT_RECOVERY_NORTH",
+      "area": "CT Spawn",
+      "image": "reference/images/ct_spawn/QA_CT_RECOVERY_NORTH.jpg",
+      "sha256": "5de83cac91c94c21714013e32c45fbe015890290505fe6758e65837c4a8d0282",
+      "coverage_status": "PARTIAL",
+      "review": "Source +Y facing; barred rear arch and adjacent wall visible."
+    },
+    {
+      "id": "QA_CT_RECOVERY_WEST",
+      "area": "CT Spawn",
+      "image": "reference/images/ct_spawn/QA_CT_RECOVERY_WEST.jpg",
+      "sha256": "490faa23c00676791c1a07800dac6a6697e17010ce48a7e4654ace96da17f7e3",
+      "coverage_status": "EXCLUDED",
+      "review": "Crate blocks reverse passage; excluded as reverse route evidence."
+    },
+    {
+      "id": "QA_CT_RECOVERY_SOUTH",
+      "area": "CT Spawn",
+      "image": "reference/images/ct_spawn/QA_CT_RECOVERY_SOUTH.jpg",
+      "sha256": "d9e9589acb6485ce01efc90b2cd748165d63c06bf55004986e045588f13805ef",
+      "coverage_status": "EXCLUDED",
+      "review": "Debug ray overlay; clean side replacement exists in directional batch."
+    },
+    {
+      "id": "QA_PLAN_DISCOVERY_001",
+      "area": "all",
+      "image": "reference/images/overview/QA_PLAN_DISCOVERY_001.jpg",
+      "sha256": "b645ff8645edafd4b79f1b739bef0063b7cab339007d74d6410c2adf7a570b8b",
+      "coverage_status": "PARTIAL",
+      "review": "Overhead perspective footprint; roofs occlude passages; not an orthographic or calibrated truth map"
+    },
+    {
+      "id": "QA_A_DISCOVERY_001",
+      "area": "A Site",
+      "image": "reference/images/a_site/QA_A_DISCOVERY_001.jpg",
+      "sha256": "b4e25aa6a209af9007696beb49f8b6e424ef8b7e26d8103655ba78c13bf34348",
+      "coverage_status": "PARTIAL",
+      "review": "Elevated view toward Long A; facade and street sightline; site bounds not fully covered"
+    },
+    {
+      "id": "QA_B_DISCOVERY_001",
+      "area": "B Site",
+      "image": "reference/images/b_site/QA_B_DISCOVERY_001.jpg",
+      "sha256": "bcbd37b5731a17c5616acd0e2cebe508e8bcecec118ac1dd589741378995b333",
+      "coverage_status": "PARTIAL",
+      "review": "Elevated forward view toward B Tunnel Exit; arch, stairs and cover visible"
+    },
+    {
+      "id": "QA_MID_DISCOVERY_001",
+      "area": "Catwalk / Mid",
+      "image": "reference/images/catwalk/QA_MID_DISCOVERY_001.jpg",
+      "sha256": "8f46e8c57cddf229851ad7f7a196a834ae68601ebb5e0a1a97b4e4081b4608a4",
+      "coverage_status": "PARTIAL",
+      "review": "Elevated Catwalk view toward Mid Doors and lower-tunnel arch; not Mid floor camera"
+    },
+    {
+      "id": "QA_TSPAWN_DISCOVERY_001",
+      "area": "T Spawn",
+      "image": "reference/images/t_spawn/QA_TSPAWN_DISCOVERY_001.jpg",
+      "sha256": "806036091cb5175131c5c31c4ea3e00010e30ce47f4d4c447b77d73e7168c731",
+      "coverage_status": "PARTIAL",
+      "review": "Side/facade and branch-signage view; forward/reverse coverage incomplete"
+    },
+    {
+      "id": "QA_LONG_DISCOVERY_001",
+      "area": "Long A",
+      "image": "reference/images/long_a/QA_LONG_DISCOVERY_001.jpg",
+      "sha256": "b55c30c28c5ac5f463755279743d91aeb2b56d974f7bba7f515107b3c1f7540f",
+      "coverage_status": "PARTIAL",
+      "review": "Elevated forward street sightline toward A; reverse/elevation gaps remain"
+    },
+    {
+      "id": "QA_OUTLONG_DISCOVERY_002",
+      "area": "Outside Long / Long Doors",
+      "image": "reference/images/outside_long/QA_OUTLONG_DISCOVERY_002.jpg",
+      "sha256": "1d9d33c94e2e3c87dc38985185d211cee8b6124a60f899bcf5afbf9f434ecdc9",
+      "coverage_status": "PARTIAL",
+      "review": "Outside face of Long Doors arch and open leaf; interior chamber not covered"
+    },
+    {
+      "id": "QA_SHORT_DISCOVERY_002",
+      "area": "A Short",
+      "image": "reference/images/short/QA_SHORT_DISCOVERY_002.jpg",
+      "sha256": "cff5440da49dfbe17a36d624c4992d3d73fed896888a9d19075c30b66972c5d2",
+      "coverage_status": "PARTIAL",
+      "review": "Side-wall facade read; not forward traversal"
+    },
+    {
+      "id": "QA_SHORT_DISCOVERY_003",
+      "area": "A Short",
+      "image": "reference/images/short/QA_SHORT_DISCOVERY_003.jpg",
+      "sha256": "1d0848661ff5c619964ae44328a83a4a8b0f182ce492634ac5ccd8ba5baafa9f",
+      "coverage_status": "PARTIAL",
+      "review": "Forward raised route toward A Site; reverse and stair views missing"
+    },
+    {
+      "id": "QA_UPTUN_DISCOVERY_002",
+      "area": "Upper Tunnels / B Tunnel Exit",
+      "image": "reference/images/upper_tunnels/QA_UPTUN_DISCOVERY_002.jpg",
+      "sha256": "cdc592ab4ed81746d6f070c390159cdaa07de37c2eeb40de520f68e6a26c9468",
+      "coverage_status": "PARTIAL",
+      "review": "Forward tunnel exit view toward B; round chamber and stair branch incomplete"
+    },
+    {
+      "id": "QA_LOWTUN_DISCOVERY_002",
+      "area": "Lower Tunnels",
+      "image": "reference/images/lower_tunnels/QA_LOWTUN_DISCOVERY_002.jpg",
+      "sha256": "4e00f09c00b31bf47494e31eb83905e99281558d103b1d52e032507a1b3d2414",
+      "coverage_status": "PARTIAL",
+      "review": "Forward arch toward Mid with overhead roof and cover; reverse stairs missing"
+    },
+    {
+      "id": "QA_PIT_PLAN_DISCOVERY_001",
+      "area": "Long Corner / Side Pit",
+      "image": "reference/images/pit/QA_PIT_PLAN_DISCOVERY_001.jpg",
+      "sha256": "f2ee20d80442ee6044564f8ef5ca5f8045ca3495401ce463e9779fc968550bab",
+      "coverage_status": "PARTIAL",
+      "review": "Overhead perspective stairs/raised terrace and road; Pit floor coverage unresolved"
+    },
+    {
+      "id": "QA_SIDE_PIT_DISCOVERY_002",
+      "area": "Side Pit / Long Corner",
+      "image": "reference/images/pit/QA_SIDE_PIT_DISCOVERY_002.jpg",
+      "sha256": "e62f402fbe6dc167d027dee868d03f7db63de6c1cacc5b08e1e2f6a97efd8117",
+      "coverage_status": "PARTIAL",
+      "review": "Clean elevated terrace/stair read toward Long Corner; Pit floor not covered"
+    },
+    {
+      "id": "QA_TOPMID_SURVEY_001",
+      "area": "Upper Mid approach / Suicide connector",
+      "image": "reference/images/mid/QA_TOPMID_SURVEY_001.jpg",
+      "sha256": "a7004501428beff254bd1fea9d4c4c149592d86354a73c13ff3a2d462746cc48",
+      "coverage_status": "PARTIAL",
+      "review": "Forward down Mid toward Mid Doors; callout extent unresolved; not full Top Mid coverage"
+    },
+    {
+      "id": "QA_TOPMID_REVERSE_001",
+      "area": "Upper Mid approach / Suicide connector",
+      "image": "reference/images/mid/QA_TOPMID_REVERSE_001.jpg",
+      "sha256": "fe9abceafc4a359be91d792ac1e3e89bc7852264cc473d45f361c78eeeb12d7a",
+      "coverage_status": "PARTIAL",
+      "review": "Reverse narrow connector with overhead braces and stacked cover; callout extent unresolved"
+    },
+    {
+      "id": "QA_CTMID_SURVEY_001",
+      "area": "CT Mid",
+      "image": "reference/images/ct_mid/QA_CTMID_SURVEY_001.jpg",
+      "sha256": "ca82f6f8dcfaa97414a7f0f7b36a250dd6a5aec91b4fcefc6ee47ca28a3162fc",
+      "coverage_status": "PARTIAL",
+      "review": "CT-side face of Mid Doors, sandy approach, side walls and B direction sign"
+    },
+    {
+      "id": "QA_CTMID_BAPPROACH_001",
+      "area": "CT Mid / B Doors approach",
+      "image": "reference/images/ct_mid/QA_CTMID_BAPPROACH_001.jpg",
+      "sha256": "4d19af03bf9f6f4533b1f89cecc33c850b782c0a79599aa29ff0a0012c25cbb6",
+      "coverage_status": "PARTIAL",
+      "review": "Forward uphill CT Mid approach toward B Doors; adjacent steps and walls"
+    },
+    {
+      "id": "QA_BDOORS_EXTERIOR_002",
+      "area": "B Doors",
+      "image": "reference/images/b_doors/QA_BDOORS_EXTERIOR_002.jpg",
+      "sha256": "723f2e52f8c60be299ef6bdf06d03bff22f6381bea52e394c2a3ea53a1f69d40",
+      "coverage_status": "PARTIAL",
+      "review": "CT-side B portal face and sloped approach; low camera emphasizes ground; doorway base partly foreground-occluded"
+    },
+    {
+      "id": "QA_BDOORS_INTERIOR_002",
+      "area": "B Doors / B Site",
+      "image": "reference/images/b_doors/QA_BDOORS_INTERIOR_002.jpg",
+      "sha256": "bf6f29df9fa0df8ecf4ed3f372a938aa08325bb0cc13dedef9abf27bccdf3f5a",
+      "coverage_status": "PARTIAL",
+      "review": "B-side portal, both open leaves, threshold and flanking wall; reverse toward CT Mid"
+    },
+    {
+      "id": "QA_CTSPAWN_G1_PY_001",
+      "area": "CT Spawn",
+      "image": "reference/images/ct_spawn/QA_CTSPAWN_G1_PY_001.jpg",
+      "sha256": "0f731335337da2cab4e109ceb589cd6a609ba6babdcee885de3b06e30c79f3f9",
+      "coverage_status": "PARTIAL",
+      "review": "Barred rear arch and covered walls"
+    },
+    {
+      "id": "QA_CTSPAWN_G1_NY_001",
+      "area": "CT Spawn",
+      "image": "reference/images/ct_spawn/QA_CTSPAWN_G1_NY_001.jpg",
+      "sha256": "7535d0dcfad3fb75031eb676ebeaa225a44c143688a14b36039a24733f87dba5",
+      "coverage_status": "PARTIAL",
+      "review": "Clean side wall and direction signs"
+    },
+    {
+      "id": "QA_CTSPAWN_G1_PX_001",
+      "area": "CT Spawn",
+      "image": "reference/images/ct_spawn/QA_CTSPAWN_G1_PX_001.jpg",
+      "sha256": "76b636f80c58962251720e46ec6c1bf24ef528199b81d1de6693344990968670",
+      "coverage_status": "PARTIAL",
+      "review": "Ramp/stair exit and roof span"
+    },
+    {
+      "id": "QA_CTSPAWN_G1_NX_001",
+      "area": "CT Spawn",
+      "image": "reference/images/ct_spawn/QA_CTSPAWN_G1_NX_001.jpg",
+      "sha256": "0f3cca9a684a63b2cbcc1fe73404528026b4eb6f12e467cc5d50a739a5b0af09",
+      "coverage_status": "EXCLUDED",
+      "review": "Crate blocks requested reverse passage."
+    },
+    {
+      "id": "QA_CTSPAWN_G1_DOWN_001",
+      "area": "CT Spawn",
+      "image": "reference/images/ct_spawn/QA_CTSPAWN_G1_DOWN_001.jpg",
+      "sha256": "a92bc8472a5e76a45b592f6b6a4cf2bcc22af13380b30e0111ead14ebc57383b",
+      "coverage_status": "PARTIAL",
+      "review": "Ground and wall base; no debug overlay"
+    },
+    {
+      "id": "QA_CTMID_G1_PY_001",
+      "area": "CT Mid",
+      "image": "reference/images/ct_mid/QA_CTMID_G1_PY_001.jpg",
+      "sha256": "8e5dd788a60b575adbd440ebe0e2c71bd8267f66f2c9574fa1be06b586b5673d",
+      "coverage_status": "PARTIAL",
+      "review": "Truck/crates and B Window wall"
+    },
+    {
+      "id": "QA_CTMID_G1_NY_001",
+      "area": "CT Mid",
+      "image": "reference/images/ct_mid/QA_CTMID_G1_NY_001.jpg",
+      "sha256": "5f41106690df210687900ab7e7d037722f369c3cf0bec1ce57fcfaa9a25301ca",
+      "coverage_status": "PARTIAL",
+      "review": "Mid Doors approach and flanking walls"
+    },
+    {
+      "id": "QA_CTMID_G1_PX_001",
+      "area": "CT Mid",
+      "image": "reference/images/ct_mid/QA_CTMID_G1_PX_001.jpg",
+      "sha256": "2f155fdbd3029c08dcc1ba606c42d5a1fe626c71ef8db29f5e8975be7f7c02cb",
+      "coverage_status": "PARTIAL",
+      "review": "Covered CT Spawn entrance"
+    },
+    {
+      "id": "QA_CTMID_G1_NX_001",
+      "area": "CT Mid",
+      "image": "reference/images/ct_mid/QA_CTMID_G1_NX_001.jpg",
+      "sha256": "96c42abbed2044801caa5614ebd1c555d0a27b0ca7aa9bc9687f6e62648c50ee",
+      "coverage_status": "PARTIAL",
+      "review": "B Doors uphill approach and stairs"
+    },
+    {
+      "id": "QA_CTMID_G1_DOWN_001",
+      "area": "CT Mid",
+      "image": "reference/images/ct_mid/QA_CTMID_G1_DOWN_001.jpg",
+      "sha256": "21491b81ba618e1c2aa5bfcca2e43808a2069886eeb2b601e0e42cccd415cdf1",
+      "coverage_status": "PARTIAL",
+      "review": "Ground surface below truck; incomplete continuous slope"
+    },
+    {
+      "id": "QA_TOPMID_G1_PY_001",
+      "area": "Upper Mid approach / Suicide connector",
+      "image": "reference/images/mid/QA_TOPMID_G1_PY_001.jpg",
+      "sha256": "5f7d0fe4e7ade4fb18131cbec9f3d4d968fc6c9dbc807ab54e54cfedb1a48051",
+      "coverage_status": "PARTIAL",
+      "review": "Forward Mid street and doors sightline"
+    },
+    {
+      "id": "QA_TOPMID_G1_NY_001",
+      "area": "Upper Mid approach / Suicide connector",
+      "image": "reference/images/mid/QA_TOPMID_G1_NY_001.jpg",
+      "sha256": "c01c1cae189105dddd95c3b209fb7c7d97d41679ceb0647ad93013b45a09c334",
+      "coverage_status": "PARTIAL",
+      "review": "Narrow reverse connector with overhead braces"
+    },
+    {
+      "id": "QA_TOPMID_G1_PX_001",
+      "area": "Upper Mid approach / Suicide connector",
+      "image": "reference/images/mid/QA_TOPMID_G1_PX_001.jpg",
+      "sha256": "757ef774c375b43236c5ee33300097217ce85450902de9079149e778333660ea",
+      "coverage_status": "PARTIAL",
+      "review": "Side facade and branch into courtyard"
+    },
+    {
+      "id": "QA_TOPMID_G1_NX_001",
+      "area": "Upper Mid approach / Suicide connector",
+      "image": "reference/images/mid/QA_TOPMID_G1_NX_001.jpg",
+      "sha256": "f40b64f19d5fd67564a94f6fb33e36832432c42a8567dfb3816deaf290784c05",
+      "coverage_status": "PARTIAL",
+      "review": "Shopfront wall read"
+    },
+    {
+      "id": "QA_TOPMID_G1_DOWN_001",
+      "area": "Upper Mid approach / Suicide connector",
+      "image": "reference/images/mid/QA_TOPMID_G1_DOWN_001.jpg",
+      "sha256": "4ef42274af5007815b88d4506ad8d27d8f5660f6599dd2f878416fb4cf033543",
+      "coverage_status": "PARTIAL",
+      "review": "Street paving and curb; exact Top Mid/Suicide boundary unresolved"
+    },
+    {
+      "id": "QA_LONGA_G1_PY_001",
+      "area": "Long A",
+      "image": "reference/images/long_a/QA_LONGA_G1_PY_001.jpg",
+      "sha256": "40b17adf937bac9a4aa9f242c5c736d9357f471ad9bf90ed75ffa3759376e4b2",
+      "coverage_status": "PARTIAL",
+      "review": "Forward long street toward A"
+    },
+    {
+      "id": "QA_LONGA_G1_NY_001",
+      "area": "Long A",
+      "image": "reference/images/long_a/QA_LONGA_G1_NY_001.jpg",
+      "sha256": "f863559a63524982abf05af2b0f8b1b1df2b514fff452ef8d29927b1ac47cee0",
+      "coverage_status": "PARTIAL",
+      "review": "Reverse Long Corner and Pit approach"
+    },
+    {
+      "id": "QA_LONGA_G1_PX_001",
+      "area": "Long A",
+      "image": "reference/images/long_a/QA_LONGA_G1_PX_001.jpg",
+      "sha256": "bff3e65b0d95afc138e455377fb9904a7bd75336e92496332071e6e673107375",
+      "coverage_status": "PARTIAL",
+      "review": "Cafe facade and sidewalk"
+    },
+    {
+      "id": "QA_LONGA_G1_NX_001",
+      "area": "Long A",
+      "image": "reference/images/long_a/QA_LONGA_G1_NX_001.jpg",
+      "sha256": "c2376e4bf4a083534cf93d26f6a6fa2ff3760d3156e66a4ed3e244b8db86de56",
+      "coverage_status": "PARTIAL",
+      "review": "Long Doors side of corner and blue cover"
+    },
+    {
+      "id": "QA_LONGA_G1_DOWN_001",
+      "area": "Long A",
+      "image": "reference/images/long_a/QA_LONGA_G1_DOWN_001.jpg",
+      "sha256": "bebd482a9b88aae2c76645088037fa56a2f51249df1afda1f49774a32be06ee6",
+      "coverage_status": "PARTIAL",
+      "review": "Street/curb surface; no metric slope established"
+    },
+    {
+      "id": "QA_SHORT_G1_PY_001",
+      "area": "A Short",
+      "image": "reference/images/short/QA_SHORT_G1_PY_001.jpg",
+      "sha256": "685f38bf1db358bf1ae844c4db6742f0213caa5746c32e78f0bd2d78b3dbd734",
+      "coverage_status": "PARTIAL",
+      "review": "Stair flight toward A approach"
+    },
+    {
+      "id": "QA_SHORT_G1_NY_001",
+      "area": "A Short",
+      "image": "reference/images/short/QA_SHORT_G1_NY_001.jpg",
+      "sha256": "fc90d0407d5831b811387e3b33f7b5516680eb20ce5860fb363be54c439125e5",
+      "coverage_status": "PARTIAL",
+      "review": "Reverse stairs and stacked cover"
+    },
+    {
+      "id": "QA_SHORT_G1_PX_001",
+      "area": "A Short",
+      "image": "reference/images/short/QA_SHORT_G1_PX_001.jpg",
+      "sha256": "e3890de80118a10c6f3221241506340c2bb787942e025d90a611bb6b5a82bf56",
+      "coverage_status": "PARTIAL",
+      "review": "Wall/stair side and barred facade"
+    },
+    {
+      "id": "QA_SHORT_G1_NX_001",
+      "area": "A Short",
+      "image": "reference/images/short/QA_SHORT_G1_NX_001.jpg",
+      "sha256": "79495566189cc84ac0b8042c6208b4c7eaac392981f175a2131b0af65f78534d",
+      "coverage_status": "EXCLUDED",
+      "review": "Close wall blocks requested route read."
+    },
+    {
+      "id": "QA_SHORT_G1_DOWN_001",
+      "area": "A Short",
+      "image": "reference/images/short/QA_SHORT_G1_DOWN_001.jpg",
+      "sha256": "3924eeb12329056816cdb41bbacff017985d7dd135c53d4a50e175ce3300cf00",
+      "coverage_status": "PARTIAL",
+      "review": "Stair detail; rise/run/count not measured"
+    },
+    {
+      "id": "QA_UPTUN_G1_PY_001",
+      "area": "Upper Tunnels",
+      "image": "reference/images/upper_tunnels/QA_UPTUN_G1_PY_001.jpg",
+      "sha256": "ebd51368106f292022105df84ebe3320a7a412402224bf948ba34828c89604c9",
+      "coverage_status": "PARTIAL",
+      "review": "B-facing corridor and exit mouth"
+    },
+    {
+      "id": "QA_UPTUN_G1_NY_001",
+      "area": "Upper Tunnels",
+      "image": "reference/images/upper_tunnels/QA_UPTUN_G1_NY_001.jpg",
+      "sha256": "7da8f356377ededcf7dbda478ba00950de54a4abd9202ed85c48e89b47b91dc7",
+      "coverage_status": "PARTIAL",
+      "review": "Chamber wall; no reverse route in this direction"
+    },
+    {
+      "id": "QA_UPTUN_G1_PX_001",
+      "area": "Upper Tunnels",
+      "image": "reference/images/upper_tunnels/QA_UPTUN_G1_PX_001.jpg",
+      "sha256": "09b603156677e3fae565d33cf1780c48d296595fec82a4c61e485cd17e44cc6c",
+      "coverage_status": "PARTIAL",
+      "review": "Opposite arched corridor with timber roof"
+    },
+    {
+      "id": "QA_UPTUN_G1_NX_001",
+      "area": "Upper Tunnels",
+      "image": "reference/images/upper_tunnels/QA_UPTUN_G1_NX_001.jpg",
+      "sha256": "606863c0eef4a3d28f8d53f034d486a7fb8e5ea04cad56848d8471a74b6a9cee",
+      "coverage_status": "PARTIAL",
+      "review": "Chamber wall and stacked cover"
+    },
+    {
+      "id": "QA_UPTUN_G1_DOWN_001",
+      "area": "Upper Tunnels",
+      "image": "reference/images/upper_tunnels/QA_UPTUN_G1_DOWN_001.jpg",
+      "sha256": "0c49ef6bc9620b9191c1088c2105abc2ef25c5cf67e28377d2adc90fb4c40071",
+      "coverage_status": "PARTIAL",
+      "review": "Paving and exit corridor; tunnel chamber extent incomplete"
+    },
+    {
+      "id": "QA_LOWTUN_G1_PY_001",
+      "area": "Lower Tunnels",
+      "image": "reference/images/lower_tunnels/QA_LOWTUN_G1_PY_001.jpg",
+      "sha256": "09ba8839135c350d6ff0529359c751b3afede9a9ab5662e36e4cf9c6c3f3e636",
+      "coverage_status": "PARTIAL",
+      "review": "Wall above nearby crates"
+    },
+    {
+      "id": "QA_LOWTUN_G1_NY_001",
+      "area": "Lower Tunnels",
+      "image": "reference/images/lower_tunnels/QA_LOWTUN_G1_NY_001.jpg",
+      "sha256": "0afef16bb825afe4f063a214f92d37b2798c3621890d523421c3607664439818",
+      "coverage_status": "PARTIAL",
+      "review": "Stair entrance and handrail toward Upper"
+    },
+    {
+      "id": "QA_LOWTUN_G1_PX_001",
+      "area": "Lower Tunnels",
+      "image": "reference/images/lower_tunnels/QA_LOWTUN_G1_PX_001.jpg",
+      "sha256": "aad2c6194412be9655f2d12c44fb68506a29a4efd0a24aaf705bcc9754f59720",
+      "coverage_status": "PARTIAL",
+      "review": "Mid-facing corridor and portal"
+    },
+    {
+      "id": "QA_LOWTUN_G1_NX_001",
+      "area": "Lower Tunnels",
+      "image": "reference/images/lower_tunnels/QA_LOWTUN_G1_NX_001.jpg",
+      "sha256": "68040fddfb75e4ad83ffed665a1b188e4c4ff0382c92991422a69f05ce9c560d",
+      "coverage_status": "PARTIAL",
+      "review": "Side wall and crate edge"
+    },
+    {
+      "id": "QA_LOWTUN_G1_DOWN_001",
+      "area": "Lower Tunnels",
+      "image": "reference/images/lower_tunnels/QA_LOWTUN_G1_DOWN_001.jpg",
+      "sha256": "a066dc13df5832912a23da1ba222eff161d036706259ccbe86b787b0c7c63446",
+      "coverage_status": "EXCLUDED",
+      "review": "Crate top occludes the floor sample; cannot represent tunnel floor."
+    },
+    {
+      "id": "QA_BSITE_G1_PY_001",
+      "area": "B Site",
+      "image": "reference/images/b_site/QA_BSITE_G1_PY_001.jpg",
+      "sha256": "2c197457c6e96e17601f820ded9764007b2e9d05528865619d5d6f7df57bc887",
+      "coverage_status": "PARTIAL",
+      "review": "Rear site wall and B sign; cover"
+    },
+    {
+      "id": "QA_BSITE_G1_NY_001",
+      "area": "B Site",
+      "image": "reference/images/b_site/QA_BSITE_G1_NY_001.jpg",
+      "sha256": "58f5902115d1cfd67b596694e9122f531ffd0e6c154bbc1dda35160ecc36eb87",
+      "coverage_status": "EXCLUDED",
+      "review": "Foreground cover blocks tunnel exit; relocate for reverse route."
+    },
+    {
+      "id": "QA_BSITE_G1_PX_001",
+      "area": "B Site",
+      "image": "reference/images/b_site/QA_BSITE_G1_PX_001.jpg",
+      "sha256": "15a96d1419620e738308e7dc5c41ece9c874f190858e9ef8ca0d0b208a755889",
+      "coverage_status": "PARTIAL",
+      "review": "Site cover and B Door-facing wall"
+    },
+    {
+      "id": "QA_BSITE_G1_NX_001",
+      "area": "B Site",
+      "image": "reference/images/b_site/QA_BSITE_G1_NX_001.jpg",
+      "sha256": "aaa709661f549574ab87072334bd1e2c19cd8c8117e9143a371e275ee918fdf0",
+      "coverage_status": "PARTIAL",
+      "review": "Rear wall and raised terrace cover"
+    },
+    {
+      "id": "QA_BSITE_G1_DOWN_001",
+      "area": "B Site",
+      "image": "reference/images/b_site/QA_BSITE_G1_DOWN_001.jpg",
+      "sha256": "7255298610b8360a6018cc3e4ff6e3eb92447a752331793baee0e1aa1a7c43f1",
+      "coverage_status": "PARTIAL",
+      "review": "Gravel terrace and timber boundary; not whole site floor"
+    },
+    {
+      "id": "QA_SIDEPIT_G1_PY_001",
+      "area": "Side Pit",
+      "image": "reference/images/side_pit/QA_SIDEPIT_G1_PY_001.jpg",
+      "sha256": "30146a81e93be0abd5f0acd5b7ae05a235281e51ef3db838dd2295469da2a446",
+      "coverage_status": "PARTIAL",
+      "review": "Long-facing terrace and street"
+    },
+    {
+      "id": "QA_SIDEPIT_G1_NY_001",
+      "area": "Side Pit",
+      "image": "reference/images/side_pit/QA_SIDEPIT_G1_NY_001.jpg",
+      "sha256": "e4cdca9296110338f51ffe12d6769402f31873200257ded7a98246d44cccc778",
+      "coverage_status": "PARTIAL",
+      "review": "Dead-end terrace wall"
+    },
+    {
+      "id": "QA_SIDEPIT_G1_PX_001",
+      "area": "Side Pit",
+      "image": "reference/images/side_pit/QA_SIDEPIT_G1_PX_001.jpg",
+      "sha256": "2afbbb2fd3720df6c76b4f736958dfd5de023e60b65c5bd731b5bcfd69c099dd",
+      "coverage_status": "PARTIAL",
+      "review": "Side facade wall"
+    },
+    {
+      "id": "QA_SIDEPIT_G1_NX_001",
+      "area": "Side Pit",
+      "image": "reference/images/side_pit/QA_SIDEPIT_G1_NX_001.jpg",
+      "sha256": "874dc99874f6fe1105b0c8b767417f51b3c3a07aa5fa003baedfb74fd92fc33b",
+      "coverage_status": "PARTIAL",
+      "review": "Terrace stair descent and Long Doors sightline"
+    },
+    {
+      "id": "QA_SIDEPIT_G1_DOWN_001",
+      "area": "Side Pit",
+      "image": "reference/images/side_pit/QA_SIDEPIT_G1_DOWN_001.jpg",
+      "sha256": "f1a83b2572bfb22d2bca4eee0ea87b67a5872fec4d2d9b960aed6590475de8f0",
+      "coverage_status": "PARTIAL",
+      "review": "Terrace floor and parapet; actual Pit floor remains uncaptured"
+    },
+    {
+      "id": "QA_TSPAWN_G1_PY_001",
+      "area": "T Spawn",
+      "image": "reference/images/t_spawn/QA_TSPAWN_G1_PY_001.jpg",
+      "sha256": "fa2d9bf289eabb7172094ce5746b438be14b197a206fa666f97974f54aea3d00",
+      "coverage_status": "PARTIAL",
+      "review": "Tunnel/Mid branch signage and parapet"
+    },
+    {
+      "id": "QA_TSPAWN_G1_NY_001",
+      "area": "T Spawn",
+      "image": "reference/images/t_spawn/QA_TSPAWN_G1_NY_001.jpg",
+      "sha256": "94b879e56f8813ff3922b8cfa8d4a9fcba1355dc0ae9b871c9f4fc87b1f83451",
+      "coverage_status": "PARTIAL",
+      "review": "Shopfront railing wall"
+    },
+    {
+      "id": "QA_TSPAWN_G1_PX_001",
+      "area": "T Spawn",
+      "image": "reference/images/t_spawn/QA_TSPAWN_G1_PX_001.jpg",
+      "sha256": "223c752db1646379d3b0f2582e7657c93073d920da6b2525452e30fcbb17cec9",
+      "coverage_status": "PARTIAL",
+      "review": "Downhill street toward Outside Long"
+    },
+    {
+      "id": "QA_TSPAWN_G1_NX_001",
+      "area": "T Spawn",
+      "image": "reference/images/t_spawn/QA_TSPAWN_G1_NX_001.jpg",
+      "sha256": "466c59adfef338af758d9b50562ca41d9ecea1f9b614d4060ff59ec3ef9c399d",
+      "coverage_status": "PARTIAL",
+      "review": "Reverse street toward tunnel branch"
+    },
+    {
+      "id": "QA_TSPAWN_G1_DOWN_001",
+      "area": "T Spawn",
+      "image": "reference/images/t_spawn/QA_TSPAWN_G1_DOWN_001.jpg",
+      "sha256": "c9554c89460f1fa115e6ca21ee9c967eb4d748708df9bb9705d6f025ce14a482",
+      "coverage_status": "PARTIAL",
+      "review": "Street grade and curb; no measured slope"
+    },
+    {
+      "id": "QA_ASITE_G1_PY_001",
+      "area": "A Site approach",
+      "image": "reference/images/a_site/QA_ASITE_G1_PY_001.jpg",
+      "sha256": "6039fcd05b574df2f9f146f21ef06aca6dc6505570ddc74685cb9461ec8725d2",
+      "coverage_status": "PARTIAL",
+      "review": "A platform edge stairs and rear facade"
+    },
+    {
+      "id": "QA_ASITE_G1_NY_001",
+      "area": "A Site approach",
+      "image": "reference/images/a_site/QA_ASITE_G1_NY_001.jpg",
+      "sha256": "329cc3279f43d993ad7aa098313e00aaae7c32c069882c532df0fc3851042245",
+      "coverage_status": "PARTIAL",
+      "review": "Long street sightline and parapet"
+    },
+    {
+      "id": "QA_ASITE_G1_PX_001",
+      "area": "A Site approach",
+      "image": "reference/images/a_site/QA_ASITE_G1_PX_001.jpg",
+      "sha256": "0c7dd719def04ecd7d02e636931c336f2a997ec620617e1461397b6772b596b5",
+      "coverage_status": "EXCLUDED",
+      "review": "Central cover blocks site platform read."
+    },
+    {
+      "id": "QA_ASITE_G1_NX_001",
+      "area": "A Site approach",
+      "image": "reference/images/a_site/QA_ASITE_G1_NX_001.jpg",
+      "sha256": "bd9a730c1983f410eaf8e6caf8c1ad1676bb335ce26af3216012bdf478d6591b",
+      "coverage_status": "EXCLUDED",
+      "review": "Foreground cover blocks site extent."
+    },
+    {
+      "id": "QA_ASITE_G1_DOWN_001",
+      "area": "A Site approach",
+      "image": "reference/images/a_site/QA_ASITE_G1_DOWN_001.jpg",
+      "sha256": "41d53460dfc046e1ce2ade9209b09c030e6961a8f1c3169c77a9152e70e7d822",
+      "coverage_status": "PARTIAL",
+      "review": "Platform paving and stair edge; whole-site extent incomplete"
+    },
+    {
+      "id": "QA_CT_REVERSE_RECOVERY_003",
+      "area": "CT Spawn",
+      "image": "reference/images/ct_spawn/QA_CT_REVERSE_RECOVERY_003.jpg",
+      "sha256": "c930215906e7e9fb5d08ff97c777ab8c43b35f9036a029764318622b53e71a4d",
+      "coverage_status": "PARTIAL",
+      "review": "Relocated west-facing CT exit to CT Mid and B Doors. Passage visible; crates remain at right edge. Partial route reference, not full room extent."
+    }
+  ]
+}

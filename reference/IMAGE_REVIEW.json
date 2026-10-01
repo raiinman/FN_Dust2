@@ -1,0 +1,24 @@
+{
+  "review_date": "2026-10-01",
+  "method": "Re-inspected original 24 JPEGs in four six-frame sheets, all 55 recovered frames in eleven five-frame sheets, and new native CT frame individually; hashes independently verified.",
+  "capture_registers": [
+    "CAPTURE_CT_RECOVERY.json",
+    "CAPTURE_DISCOVERY_BATCH.json",
+    "CAPTURE_ROUTE_BATCH.json",
+    "CAPTURE_GATE1_SURVEY.json",
+    "CAPTURE_DIRECTIONAL_GATE1.json",
+    "CAPTURE_CRASH_RECOVERY.json"
+  ],
+  "expected_image_count": 80,
+  "coverage_exclusions": {
+    "QA_CT_RECOVERY_WEST": "Crate blocks reverse passage; excluded as reverse route evidence.",
+    "QA_CT_RECOVERY_SOUTH": "Debug ray overlay; clean side replacement exists in directional batch.",
+    "QA_CTSPAWN_G1_NX_001": "Crate blocks requested reverse passage.",
+    "QA_SHORT_G1_NX_001": "Close wall blocks requested route read.",
+    "QA_LOWTUN_G1_DOWN_001": "Crate top occludes the floor sample; cannot represent tunnel floor.",
+    "QA_BSITE_G1_NY_001": "Foreground cover blocks tunnel exit; relocate for reverse route.",
+    "QA_ASITE_G1_PX_001": "Central cover blocks site platform read.",
+    "QA_ASITE_G1_NX_001": "Foreground cover blocks site extent."
+  },
+  "limitations": "All non-excluded images are partial study references. No full area certification. Old overhead views are perspective and roof-occluded; not truth-map evidence. B exterior original is low eye and does not establish standing clearance."
+}

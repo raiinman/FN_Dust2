@@ -1,17 +1,17 @@
 area,current_build_evidence,remaining_work,gate_coverage
-T Spawn,QA_TSPAWN_DISCOVERY_001,forward/reverse routes and elevation,FAIL
-Outside Long,QA_OUTLONG_DISCOVERY_002,reverse view and clearances,FAIL
-Long Doors,QA_OUTLONG_DISCOVERY_002,interior chamber; both portals; widths/heights,FAIL
-Pit,QA_PIT_PLAN_DISCOVERY_001; QA_SIDE_PIT_DISCOVERY_002; FLOOR_SIDEPIT (terrace only),Pit floor; entry/reverse views; actual elevation,FAIL
-Long A,QA_LONG_DISCOVERY_001; QA_A_DISCOVERY_001; FLOOR_LONGA,ground camera; side walls; street spans/slopes,FAIL
-A Site,QA_A_DISCOVERY_001; QA_SHORT_DISCOVERY_003,full site footprint; cover; reverse and floor survey,FAIL
-Short / Catwalk,QA_MID_DISCOVERY_001; QA_SHORT_DISCOVERY_002; QA_SHORT_DISCOVERY_003; FLOOR_SHORT,reverse routes; stair count/rise/run,FAIL
-Top Mid,QA_TOPMID_SURVEY_001; QA_TOPMID_REVERSE_001 (approach only),resolve Top Mid versus Suicide callout footprint; courtyard forward/reverse/side and dimensions,FAIL
-Mid,QA_MID_DISCOVERY_001; QA_LOWTUN_DISCOVERY_002; QA_TOPMID_SURVEY_001; QA_CTMID_SURVEY_001,ground traversal; widths; continuous elevations; scale,FAIL
-CT Mid,QA_CTMID_SURVEY_001; QA_CTMID_BAPPROACH_001; FLOOR_CTMID,side/reverse toward CT Spawn; widths; continuous slope; physical scale,FAIL
-CT Spawn,five QA_CT_RECOVERY records; CT_COLUMN,unoccluded reverse; effective FOV; physical scale; overhead hull interpretation,FAIL
-B Doors,QA_BDOORS_EXTERIOR_002; QA_BDOORS_INTERIOR_002; QA_CTMID_BAPPROACH_001,full threshold at standing eye; jamb/leaf clearances; height; traversability,FAIL
-B Site,QA_B_DISCOVERY_001; QA_UPTUN_DISCOVERY_002; QA_BDOORS_INTERIOR_002; FLOOR_BSITE,reverse exits; doors/window; cover; floor dimensions,FAIL
-Upper Tunnels,QA_UPTUN_DISCOVERY_002; FLOOR_UPPER,round chamber; stair branch; reverse; spans,FAIL
-Lower Tunnels,QA_LOWTUN_DISCOVERY_002; FLOOR_LOWER,reverse stair connection; floor/span survey,FAIL
-Connectors,QA_SIDE_PIT_DISCOVERY_002,remaining walking/jump/drop/boost validation,FAIL
+T Spawn,QA_TSPAWN_DISCOVERY_001; QA_TSPAWN_G1_PY_001; QA_TSPAWN_G1_NY_001; QA_TSPAWN_G1_PX_001; QA_TSPAWN_G1_NX_001; QA_TSPAWN_G1_DOWN_001,forward/reverse routes and elevation,FAIL
+Outside Long,QA_OUTLONG_DISCOVERY_002; no recovered full-area evidence,reverse view and clearances,FAIL
+Long Doors,QA_OUTLONG_DISCOVERY_002; no recovered full-area evidence,interior chamber; both portals; widths/heights,FAIL
+Pit,QA_PIT_PLAN_DISCOVERY_001; QA_SIDE_PIT_DISCOVERY_002; FLOOR_SIDEPIT (terrace only); no recovered full-area evidence,Pit floor; entry/reverse views; actual elevation,FAIL
+Long A,QA_LONG_DISCOVERY_001; QA_A_DISCOVERY_001; FLOOR_LONGA; QA_LONGA_G1_PY_001; QA_LONGA_G1_NY_001; QA_LONGA_G1_PX_001; QA_LONGA_G1_NX_001; QA_LONGA_G1_DOWN_001,ground camera; side walls; street spans/slopes,FAIL
+A Site,QA_A_DISCOVERY_001; QA_SHORT_DISCOVERY_003; QA_ASITE_G1_PY_001; QA_ASITE_G1_NY_001; QA_ASITE_G1_DOWN_001,full site footprint; cover; reverse and floor survey,FAIL
+Short / Catwalk,QA_MID_DISCOVERY_001; QA_SHORT_DISCOVERY_002; QA_SHORT_DISCOVERY_003; FLOOR_SHORT; QA_SHORT_G1_PY_001; QA_SHORT_G1_NY_001; QA_SHORT_G1_PX_001; QA_SHORT_G1_DOWN_001,reverse routes; stair count/rise/run,FAIL
+Top Mid,QA_TOPMID_SURVEY_001; QA_TOPMID_REVERSE_001 (approach only); QA_TOPMID_G1_PY_001; QA_TOPMID_G1_NY_001; QA_TOPMID_G1_PX_001; QA_TOPMID_G1_NX_001; QA_TOPMID_G1_DOWN_001,resolve Top Mid versus Suicide callout footprint; courtyard forward/reverse/side and dimensions,FAIL
+Mid,QA_MID_DISCOVERY_001; QA_LOWTUN_DISCOVERY_002; QA_TOPMID_SURVEY_001; QA_CTMID_SURVEY_001; no recovered full-area evidence,ground traversal; widths; continuous elevations; scale,FAIL
+CT Mid,QA_CTMID_SURVEY_001; QA_CTMID_BAPPROACH_001; FLOOR_CTMID; QA_CTMID_G1_PY_001; QA_CTMID_G1_NY_001; QA_CTMID_G1_PX_001; QA_CTMID_G1_NX_001; QA_CTMID_G1_DOWN_001,side/reverse toward CT Spawn; widths; continuous slope; physical scale,FAIL
+CT Spawn,five QA_CT_RECOVERY records; CT_COLUMN; QA_CTSPAWN_G1_PY_001; QA_CTSPAWN_G1_NY_001; QA_CTSPAWN_G1_PX_001; QA_CTSPAWN_G1_DOWN_001; QA_CT_REVERSE_RECOVERY_003,full area extent; physical scale; overhead hull interpretation,FAIL
+B Doors,QA_BDOORS_EXTERIOR_002; QA_BDOORS_INTERIOR_002; QA_CTMID_BAPPROACH_001; no recovered full-area evidence,full threshold at standing eye; jamb/leaf clearances; height; traversability,FAIL
+B Site,QA_B_DISCOVERY_001; QA_UPTUN_DISCOVERY_002; QA_BDOORS_INTERIOR_002; FLOOR_BSITE; QA_BSITE_G1_PY_001; QA_BSITE_G1_PX_001; QA_BSITE_G1_NX_001; QA_BSITE_G1_DOWN_001,reverse exits; doors/window; cover; floor dimensions,FAIL
+Upper Tunnels,QA_UPTUN_DISCOVERY_002; FLOOR_UPPER; QA_UPTUN_G1_PY_001; QA_UPTUN_G1_NY_001; QA_UPTUN_G1_PX_001; QA_UPTUN_G1_NX_001; QA_UPTUN_G1_DOWN_001,round chamber; stair branch; reverse; spans,FAIL
+Lower Tunnels,QA_LOWTUN_DISCOVERY_002; FLOOR_LOWER; QA_LOWTUN_G1_PY_001; QA_LOWTUN_G1_NY_001; QA_LOWTUN_G1_PX_001; QA_LOWTUN_G1_NX_001,reverse stair connection; floor/span survey,FAIL
+Connectors,QA_SIDE_PIT_DISCOVERY_002; no recovered full-area evidence,remaining walking/jump/drop/boost validation,FAIL

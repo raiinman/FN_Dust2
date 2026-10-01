@@ -51,6 +51,9 @@ self-captured CS2 study screenshots for the internal benchmark.
 
 ## Local Contracts
 
+- `IMAGE_REVIEW.json` owns explicit visual exclusions; `IMAGE_AUDIT.json` independently checks all registered JPEG hashes. Excluded frames remain preserved and never count toward coverage.
+- `CAPTURE_CRASH_RECOVERY.json` preserves the new CT exit view and a stale-frame rejection. Inspect rendered area against pose after foreground changes.
+
 - `CAPTURE_PLAN_GATE1.json` defines native floor-relative camera requests.
   `DIRECTIONAL_REVIEW_GATE1.json` records inspected per-view limits;
   `CAPTURE_DIRECTIONAL_GATE1.json` joins reviewed frames to source poses/hashes.

@@ -1,0 +1,58 @@
+{
+  "source_build": "25640462",
+  "captures": [
+    {
+      "id": "QA_CT_REVERSE_RECOVERY_003",
+      "timestamp_utc": "2026-10-01T18:15:34.117379+00:00",
+      "engine_capture_basename": "d2_84698b6414",
+      "pose_command": "setpos_exact -80.000000 2200.000000 -108.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -80.0,
+        2200.0,
+        -108.0,
+        0.0,
+        180.0
+      ],
+      "tga_sha256": "887be5446a8b8a2f34f3b3708311f6bbda8730730c8de42c05bd956456df1385",
+      "png_sha256": "c0e1df7534add42ee46d5ec239aa6f4b2a0fbb1a1e709b3c4046d88f5ef25108",
+      "status": "captured; requires visual area/direction review",
+      "area": "CT Spawn",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "review": "Relocated west-facing CT exit to CT Mid and B Doors. Passage visible; crates remain at right edge. Partial route reference, not full room extent.",
+      "repository_image_path": "reference/images/ct_spawn/QA_CT_REVERSE_RECOVERY_003.jpg",
+      "fov_cs_debug_parameter": 90,
+      "physical_scale": "unresolved",
+      "jpeg_sha256": "c930215906e7e9fb5d08ff97c777ab8c43b35f9036a029764318622b53e71a4d"
+    }
+  ],
+  "rejected_attempts": [
+    {
+      "id": "QA_CT_REVERSE_RECOVERY_002",
+      "timestamp_utc": "2026-10-01T18:13:44.193607+00:00",
+      "engine_capture_basename": "d2_36560b5d43",
+      "pose_command": "setpos_exact -80.000000 2200.000000 -108.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -80.0,
+        2200.0,
+        -108.0,
+        0.0,
+        180.0
+      ],
+      "tga_sha256": "5803cbaf45208656492ea8ce379f82951e91c159f44ca4b8b99d5f8a08f4bf63",
+      "png_sha256": "ae8d4209b682d08caaaf10ac81f644ff28664fb039eaf0464308d2c364ac88c3",
+      "status": "REJECTED",
+      "review": "Image shows stale T Spawn framebuffer with HUD/bots despite logged CT pose; excluded from all coverage and measurement.",
+      "area": "CT Spawn requested; T Spawn rendered"
+    }
+  ],
+  "gate_1": "FAIL",
+  "transport": "exact FN_DUST2_SINGLE_OWNER_PROBE_C echo verified; Valve VConsole disconnected through Devices menu; one persistent worker retained",
+  "capture_rule": "Inspect frame against pose after any focus change; console pose alone does not prove rendered camera. Preserve failed attempts and use new IDs."
+}
