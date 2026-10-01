@@ -1,0 +1,75 @@
+{
+  "review_date": "2026-10-01",
+  "source_build": "25640462",
+  "scope": "Review of combined reference view sets, separate from dimensions/topology/whole-map acceptance. Each individual image retains its stated limits.",
+  "sets": [
+    {
+      "area": "Long Doors",
+      "taxonomy_scope": "critical_area",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_LONGDOORS_FORWARD_RECOVERY_002",
+          "QA_OUTLONG_FORWARD_RECOVERY_002"
+        ],
+        "reverse": [
+          "QA_LONGDOORS_REVERSE_RECOVERY_002",
+          "QA_LONGCORNER_REVERSE_RECOVERY_002"
+        ],
+        "wall_read": [
+          "QA_LONGDOORS_SIDE_RECOVERY_002"
+        ],
+        "elevation": [
+          "QA_LONGDOORS_ELEVATION_RECOVERY_002"
+        ]
+      },
+      "review": "Combined ground views show both portal faces and intervening chamber; side frame reads chamber support/wall and elevation frame reads floor and portal arrangement. Cropped side portal is supplied by ground forward/reverse frames.",
+      "remaining": "Structural opening endpoint/height, chamber length, leaf-clearance measurements remain Gate1 blockers."
+    },
+    {
+      "area": "B Doors",
+      "taxonomy_scope": "critical_area",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_BDOORS_FORWARD_RECOVERY_001"
+        ],
+        "reverse": [
+          "QA_BDOORS_REVERSE_RECOVERY_001"
+        ],
+        "wall_read": [
+          "QA_BDOORS_SIDE_RECOVERY_002"
+        ],
+        "elevation": [
+          "QA_BDOORS_ELEVATION_RECOVERY_003"
+        ]
+      },
+      "review": "Both standing-eye portal faces are clear; side approach supplies wall/slope/steps, elevation frame supplies portal threshold and full gap. Distant threshold occlusion in side view is supplied by elevation frame.",
+      "remaining": "Full structural opening and minimum leaf clearance are unresolved; B Window and B courtyard are separate areas."
+    },
+    {
+      "area": "Short Stairs",
+      "taxonomy_scope": "critical_subarea",
+      "parent_area": "Short / Catwalk",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_SHORTSTAIRS_FORWARD_RECOVERY_001",
+          "QA_SHORTSTAIRS_TREAD_COUNT_RECOVERY_001"
+        ],
+        "reverse": [
+          "QA_SHORTSTAIRS_REVERSE_RECOVERY_001"
+        ],
+        "wall_read": [
+          "QA_SHORTSTAIRS_SIDE_RECOVERY_001"
+        ],
+        "elevation": [
+          "QA_SHORTSTAIRS_PLAN_RECOVERY_001",
+          "QA_SHORTSTAIRS_SIDE_RECOVERY_001"
+        ]
+      },
+      "review": "Complete flight/side parapet is unobstructed in forward/side views. Reverse shows lower landing; nearest treads clipped there are supplied by forward/side. High perspective shows both approach platforms and walls.",
+      "remaining": "This certifies the stair reference set only. Catwalk/Mid approach coverage and stair run/count interpretation are separate unresolved tasks."
+    }
+  ]
+}

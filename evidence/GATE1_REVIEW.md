@@ -37,7 +37,9 @@ Recovery review: IMAGE_AUDIT.json verifies all 104 area image hashes. IMAGE_REVI
 identifies eight excluded historical images. The original 24 and recovered 55,
 new CT/Pit, six Long Doors, four B Doors and five site replacement/addition frames
 were inspected. Clipped/obstructed initial frames stay private rejects.
-No complete area certification.
+AREA_VIEW_REVIEW.json accepts required combined view sets for Long Doors and
+B Doors, plus Short Stairs as a subarea. This is reference-view acceptance,
+not metric/topology/whole-area geometry acceptance. Other required sets incomplete.
 WALK_PROBES.json preserves recovered and subsequent attempts; a blocked waypoint
 does not disprove an edge. See CRASH_RECOVERY_20261001.md for recovery instructions.
 
@@ -62,3 +64,6 @@ Short checkpoint: four reviewed stair views supplement the original references.
 E32/E33/E34 have completed both-direction collision walks; reduced speed80 and
 arrival25, no teleports during the route. SHORT_STAIR_PROFILE.json preserves42 repeated floor columns and one inspected angle-mismatch rejection. Three stair/landing collision widths and sampled floor rise are accepted separately; count/run endpoints pending. The center-of-flight walk also passed both directions. Calibrated sample SVG rendered and inspected.
 Gate 1 remains FAIL; no Phase 2 production geometry has started.
+
+Native HUD label crop QA_NATIVE_TOPMID_LABEL_001 confirms Top of Mid at the
+(-450,300,5) station. Full named-area boundary remains unresolved.

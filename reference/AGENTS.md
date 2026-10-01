@@ -34,6 +34,11 @@ self-captured CS2 study screenshots for the internal benchmark.
 - `SOURCE_CAMERAS.csv` registers raw source poses separately from Unreal QA
   cameras; units and FOV uncertainty remain explicit.
 - `COVERAGE_MATRIX.csv` owns remaining per-area Gate 1 reference work.
+  Its reference_view_status is separate from overall gate_coverage; dimensions
+  and traversal may remain FAIL after a combined view set is accepted.
+- `AREA_VIEW_REVIEW.json` owns inspected combined required-view sets, with
+  critical-area versus subarea scope, exact image IDs and per-view limitations.
+  A subarea set never certifies its entire parent area.
 - `images/` contains GitHub-visible study screenshots, organized by named area.
 - `RAW_DIMENSIONS.csv` contains native collision chords, separate from the
   canonical centimeter production register.
@@ -52,6 +57,9 @@ self-captured CS2 study screenshots for the internal benchmark.
 - `SHORT_STAIR_PROFILE.json` owns repeated floor samples and rejected attempts.
   `SHORT_STAIR_SAMPLES.csv` and `SHORT_STAIR_PROFILE.svg` derive calibrated point
   evidence; player hull standing height and uniform stair geometry stay separate.
+
+- `NATIVE_AREA_LABELS.json` owns exact-pose HUD area-name crops and hashes.
+  A confirmed name at one point never defines the entire named-area footprint.
 
 ## Local Contracts
 

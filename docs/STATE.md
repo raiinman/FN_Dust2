@@ -14,6 +14,11 @@ See evidence/CRASH_RECOVERY_20261001.md and latest Git commit for checkpoint SHA
 new CT exit view, four Pit, six Long Doors/approach, four B Doors and five site
 views and five Short stair views inspected.
 Four current-build native radar crops have separate calibration provenance.
+One native HUD crop confirms Top of Mid at exact source(-450,300,5); the full
+Suicide boundary is unresolved. Reverse Catwalk walking currently running,
+private report UPPER_MID_TO_CATWALK_RECOVERY_002.json; inspect before resume.
+Two critical-area combined view sets (Long Doors/B Doors) and Short Stairs
+subarea accepted in AREA_VIEW_REVIEW.json; metric/other-area gaps remain.
 Eight historical images excluded from coverage;
 all evidence remains preserved. IMAGE_REVIEW.json and IMAGE_AUDIT.json own this
 decision. Thirteen repeated floor datums are preserved as native evidence and converted separately. Engine physical conversion is accepted at 2.54 cm/source unit from two repeated spatial/axis anchors. WALK_PROBES.json
@@ -74,4 +79,4 @@ Pit lower/upper floor hits: (1400,350,-159.14) and (1400,700,-37.22).
 Do not use player foot position as architectural surface. Private fixture files
 are in crash_recovery_survey; Hammer has an unsaved agent-authored 128-unit cube,
 no production or source map. Opening tools interrupted one walk; finish route
-runs before switching tools. Checkpoint e8d15e6 contains Short walking/images and is pushed to main. Short metric/profile work is the next checkpoint.
+runs before switching tools. Checkpoint5545b05 contains Short metric/profile and center walks, pushed to main. Combined-view review and Catwalk walking are the next checkpoint.

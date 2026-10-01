@@ -1,0 +1,39 @@
+{
+  "source_build": "25640462",
+  "source_map": "de_dust2",
+  "review_date": "2026-10-01",
+  "scope": "Point area-name observations; no footprint boundary inference",
+  "captures": [
+    {
+      "id": "QA_NATIVE_TOPMID_LABEL_001",
+      "timestamp_utc": "2026-10-01T21:12:20.277748+00:00",
+      "engine_capture_basename": "d2_db2dded98c",
+      "pose_command": "setpos_exact -450.000000 300.000000 5.000000;setang_exact 0.000000 90.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -450.0,
+        300.0,
+        5.0,
+        0.0,
+        90.0
+      ],
+      "tga_sha256": "ac1e02f001330f6ba69b6bf633c28f6f5aff05a64857e743bd27e897e6f4f2df",
+      "png_sha256": "672bf94c09f642a028a85a4f8b401c28519b35fef0e405461106940a85fcf3ad",
+      "status": "inspected exact-pose native area label",
+      "native_area_label": "Top of Mid",
+      "review": "Native HUD text visibly reads Top of Mid at exact source(-450,300,5), yaw90. Station identity only; no area polygon or nearby Suicide boundary inferred.",
+      "repository_crop": "reference/images/area_labels/QA_NATIVE_TOPMID_LABEL_001.png",
+      "crop_pixels": [
+        20,
+        190,
+        180,
+        50
+      ],
+      "crop_sha256": "89ca6257dd58c0f9777564abbe65b03285fdfb631a6aaac082989efa4c653d4a",
+      "source_build": "25640462",
+      "source_map": "de_dust2"
+    }
+  ]
+}

@@ -81,6 +81,9 @@ Blender Python, Unreal automation, validation scripts, manifest processors, and 
   and verifies pose restoration; raw chords never imply full room dimensions.
 
 - `audit_reference_images.py` verifies all registered JPEG hashes against capture metadata and records explicit visual exclusions. It never grants area completion.
+  AREA_VIEW_REVIEW.json supplies explicit combined-view decisions; the audit
+  validates referenced IDs, build and exclusions, reporting critical areas and
+  subareas separately. It does not infer acceptance from image count.
 
 - `cs2_capture_survey.py` runs CAPTURE_PLAN_GATE1.json serially through the
   verified worker. Only matching successful private metadata permits resume;

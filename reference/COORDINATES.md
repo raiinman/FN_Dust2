@@ -66,3 +66,7 @@ current-build HUD marker centers. Source +X is screen right; source +Y is screen
 up. RADAR_PLAN.svg overlays a physical grid and the repeated floor samples.
 Residuals are below 0.20 pixels, but allow 2 pixels (about 92 cm) for localization.
 This does not bound stylized radar outlines against rendered/collision surfaces.
+
+Native name check: NATIVE_AREA_LABELS.json confirms `Top of Mid` at source
+(-450,300,5), the earlier Upper Mid approach survey station. This resolves the
+station name, not the full Top Mid/Suicide boundary polygon.
