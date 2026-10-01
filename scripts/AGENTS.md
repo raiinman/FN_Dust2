@@ -52,6 +52,10 @@ Blender Python, Unreal automation, validation scripts, manifest processors, and 
   Output is raw collision evidence in source units. Surface interpretation and
   physical-scale calibration must be reviewed before production use.
 
+- `cs2_trace_origin.py` tests the rotating 64-unit camera-up offset using
+  settled poses and repeated diagonal rays. It preserves every observation and
+  verifies restoration; output stays raw source units, never centimeters.
+
 ## Local Contracts
 
 - Scripts must be deterministic where inputs are unchanged.

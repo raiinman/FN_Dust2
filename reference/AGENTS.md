@@ -40,6 +40,9 @@ self-captured CS2 study screenshots for the internal benchmark.
 - `RAW_SURFACE_PROBES.json` records repeated source-unit collision observations;
   it is not centimeter calibration.
 
+- `TRACE_ORIGIN.md` and `TRACE_ORIGIN_DIAGNOSTIC.json` own the empirical
+  zero-roll cast_ray origin model, repeat evidence and remaining limitations.
+
 ## Local Contracts
 
 - Every reference must have provenance.

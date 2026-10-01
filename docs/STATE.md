@@ -25,6 +25,10 @@ Long Doors exterior, A Short, upper/lower tunnel exits and Side Pit/Long Corner
 stairs. Nine clipped/occluded discovery attempts are recorded as rejected.
 Coverage matrix and source camera register are populated. Gate review: FAIL
 (evidence/GATE1_REVIEW.md); no acceptance criterion is bypassed.
+Eight repeated diagonal rays now support a zero-roll trace-origin model:
+getpos + 64 * camera_up, maximum perpendicular residual 0.005806 native units.
+See reference/TRACE_ORIGIN.md and TRACE_ORIGIN_DIAGNOSTIC.json. This explains
+lateral vertical-probe offsets; physical conversion remains unresolved.
 See newest Git commit for checkpoint SHA.
 
 ## Current objective
@@ -39,8 +43,8 @@ Complete current-build directional reference coverage and metric calibration.
    A second worker at ../work/cs2_live_20261001 (observed 42912) connected but
    returned no output. It remains open to avoid an untested socket shutdown.
    Do not start a third worker or close live sockets casually.
-2. Latest survey camera is at source pose (1700,500,100), pitch 20, yaw 90,
-   on Side Pit terrace.
+2. Latest survey camera is at CT Spawn source pose
+   (160.122742,2369.676270,-119.918701), pitch 45, yaw 0.
    Use reference/COVERAGE_MATRIX.csv for the remaining directional/elevation
    work, especially Pit floor, Top Mid, CT Mid, B Doors and tunnel interiors.
    CT Spawn survey starts from raw source pose
@@ -55,8 +59,9 @@ Complete current-build directional reference coverage and metric calibration.
    engine_no_focus_sleep 20 was restored and verified.
 4. Survey repeated collision endpoints and record physical/axis calibration.
    Player origin is not a wall endpoint. Do not infer centimeters from source units.
-   RAW_SURFACE_PROBES.json has repeated native hits; vertical rays have lateral
-   offsets and cannot yet be used as a collinear floor/ceiling measurement.
+   RAW_SURFACE_PROBES.json has repeated native hits. TRACE_ORIGIN.md gives
+   the tested rotating offset model. Survey shared-XY floor/ceiling columns;
+   the original vertical hits are not a collinear clearance measurement.
 5. Validate route graph and create calibrated annotated truth map.
 6. Run Gate 1 review and commit evidence; begin Phase 2 only on PASS.
 

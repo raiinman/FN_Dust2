@@ -33,5 +33,7 @@ Record what is assumed rather than calling an arbitrary physical scale confirmed
 Source +X / yaw 0 and +Y / yaw 90 were observed with settled-pose collision rays.
 Native camera poses are in SOURCE_CAMERAS.csv; do not load them as centimeters
 in Unreal. CT_COLLISION_PLAN.svg shows measured collision chords only.
-Vertical probe endpoints have unexpected lateral offsets relative to the player
-origin; eye/trace-origin behavior must be understood before room-height acceptance.
+TRACE_ORIGIN.md and TRACE_ORIGIN_DIAGNOSTIC.json empirically explain lateral
+probe offsets: cast_ray uses getpos + 64 * camera_up for tested zero-roll angles.
+This is not physical calibration. Floor/ceiling hits must share a surveyed XY
+column before their difference can be interpreted as clearance.
