@@ -43,7 +43,9 @@
       "mode": "walk",
       "direction": "both",
       "elevation": "survey",
-      "measurement": "D001"
+      "measurement": "D001",
+      "walking_evidence": "WALK_PROBES.json/TSPAWN_OUTSIDE_LONG_BOTH",
+      "validation": "Completed collision walk both directions; speed80/arrival25; spans pending."
     },
     {
       "id": "E02",
@@ -135,7 +137,8 @@
         "QA_LOWTUN_DISCOVERY_002",
         "QA_MID_DISCOVERY_001"
       ],
-      "validation": "current-build visual corroboration only; walking/collision/elevation validation pending"
+      "validation": "Completed collision walk both directions; speed80/arrival25; architecture pending.",
+      "walking_evidence": "WALK_PROBES.json/LOWER_MID_BOTH"
     },
     {
       "id": "E10",

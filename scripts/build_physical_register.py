@@ -107,6 +107,28 @@ def build(root):
                 source_id='SHORT_STAIR_PROFILE/'+interval['from_report']+';'+interval['to_report'],
                 confidence='confirmed sampled collision elevation difference',
                 tolerance='.0508 cm output rounding; sample stations explicit', notes=interval['notes']))
+        if 'accepted_flight' in profile:
+            from build_stair_profile import flight_rows
+            flight=flight_rows(profile,factor)
+            for row in flight:
+                for dimension in ('rise','run'):
+                    measurements.append(dict(id=f'SHORT_RISER_{row["riser"]}_{dimension.upper()}',
+                        area='Short Stairs',feature=f'Center collision section riser {row["riser"]} {dimension}',
+                        value=row[dimension+'_cm'],unit='cm',
+                        method='repeated riser-face rays and center floor columns; SCALE_CALIBRATION',
+                        source_id='SHORT_STAIR_PROFILE/SHORT_CENTER_FLIGHT_001',
+                        confidence=row['confidence'],
+                        tolerance='.0508 cm output rounding; sampled center section; render offset unbounded',
+                        notes=row['limits']))
+            for dimension in ('rise','run'):
+                measurements.append(dict(id='SHORT_FLIGHT_'+dimension.upper(),area='Short Stairs',
+                    feature='Complete sampled center collision flight '+dimension,
+                    value=round(sum(row[dimension+'_cm'] for row in flight),4),unit='cm',
+                    method='outer repeated face/floor endpoints; SCALE_CALIBRATION',
+                    source_id='SHORT_STAIR_PROFILE/SHORT_CENTER_FLIGHT_001',
+                    confidence='confirmed repeated collision section',
+                    tolerance='.0508 cm outer endpoint rounding; render offset unbounded',
+                    notes=profile['accepted_flight']['limits']))
     with (ref / 'MEASUREMENTS.csv').open('w', newline='') as f:
         w = csv.DictWriter(f,fieldnames=measurements[0].keys())
         w.writeheader(); w.writerows(measurements)

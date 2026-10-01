@@ -1,9 +1,9 @@
 {
   "review_date": "2026-10-01",
   "source_build": "25640462",
-  "registered_images": 122,
+  "registered_images": 137,
   "coverage_excluded": 8,
-  "complete_areas": 2,
+  "complete_areas": 6,
   "complete_subareas": 5,
   "declared_view_sets": [
     {
@@ -164,6 +164,110 @@
       },
       "review": "Combined standing and elevated views show architectural floor/cover/wall arrangement and adjoining transition; individual clipping/ceiling limits supplied by complementary views.",
       "remaining": "Architectural spans, opening heights and cover dimensions remain incomplete; special traversal unverified."
+    },
+    {
+      "area": "Upper Tunnels",
+      "taxonomy_scope": "critical_area",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_UPTUN_FORWARD_RECOVERY_001",
+          "QA_UPTUN_ENTRANCE_RECOVERY_003",
+          "QA_UPTUN_G1_PY_001"
+        ],
+        "reverse": [
+          "QA_UPTUN_REVERSE_RECOVERY_003",
+          "QA_UPTUN_REVERSE_RECOVERY_001"
+        ],
+        "wall_read": [
+          "QA_UPTUN_SIDE_RECOVERY_001",
+          "QA_UPTUN_CHAMBER_DISCOVERY_RECOVERY_001"
+        ],
+        "elevation": [
+          "QA_UPTUN_ELEVATION_RECOVERY_001",
+          "QA_TUNSTAIRS_REVERSE_RECOVERY_001"
+        ]
+      },
+      "review": "Combined views cover pillared chamber, B branch, east stair branch and south entry corridor. Individual near-pier/crown clipping is supplied by complementary views; no circular chamber shape inferred.",
+      "remaining": "Chamber spans, cover, full tunnel openings and stair physical profile pending."
+    },
+    {
+      "area": "Lower Tunnels",
+      "taxonomy_scope": "critical_area",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_LOWTUN_FORWARD_RECOVERY_001"
+        ],
+        "reverse": [
+          "QA_LOWTUN_REVERSE_RECOVERY_003"
+        ],
+        "wall_read": [
+          "QA_LOWTUN_SIDE_RECOVERY_002"
+        ],
+        "elevation": [
+          "QA_LOWTUN_ELEVATION_RECOVERY_001",
+          "QA_TUNSTAIRS_FORWARD_RECOVERY_001"
+        ]
+      },
+      "review": "Combined interior/exterior arch, hall and landing views cover both directions, walls and stair elevation relationship. Exterior cover remains real occlusion; near stacked cover has complementary forward/reverse coverage.",
+      "remaining": "Room/cover spans, structural arch dimensions and full stair profile pending."
+    },
+    {
+      "area": "T Spawn",
+      "taxonomy_scope": "critical_area",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_TSPAWN_G1_PX_001"
+        ],
+        "reverse": [
+          "QA_TSPAWN_G1_NX_001"
+        ],
+        "wall_read": [
+          "QA_TSPAWN_G1_PY_001",
+          "QA_TSPAWN_G1_NY_001"
+        ],
+        "elevation": [
+          "QA_TSPAWN_ELEVATION_RECOVERY_003",
+          "QA_TSPAWN_G1_DOWN_001"
+        ]
+      },
+      "review": "Existing ground views show the spawn street in both directions and opposing facades; new wide high view supplies bordering floor/roof and approach arrangement. High-view edge continuations have ground PX/NX coverage; adjoining Suicide and T Ramp need separate traversal/metric proof.",
+      "remaining": "Spawn spans, route clearance and adjoining ramps/drop dimensions pending."
+    },
+    {
+      "area": "Short / Catwalk",
+      "taxonomy_scope": "critical_area",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_CATWALK_FORWARD_RECOVERY_001",
+          "QA_SHORTSTAIRS_FORWARD_RECOVERY_001",
+          "QA_SHORTSTAIRS_TREAD_COUNT_RECOVERY_001",
+          "QA_ASHORT_FORWARD_RECOVERY_001"
+        ],
+        "reverse": [
+          "QA_CATWALK_REVERSE_RECOVERY_001",
+          "QA_SHORTSTAIRS_REVERSE_RECOVERY_001",
+          "QA_ASHORT_REVERSE_RECOVERY_001"
+        ],
+        "wall_read": [
+          "QA_CATWALK_SIDE_RECOVERY_001",
+          "QA_CATWALK_FORWARD_RECOVERY_001",
+          "QA_SHORTSTAIRS_SIDE_RECOVERY_001",
+          "QA_ASHORT_SIDE_RECOVERY_002"
+        ],
+        "elevation": [
+          "QA_CATWALK_ELEVATION_RECOVERY_001",
+          "QA_CATWALK_PLAN_RECOVERY_002",
+          "QA_SHORTSTAIRS_PLAN_RECOVERY_001",
+          "QA_SHORTSTAIRS_SIDE_RECOVERY_001",
+          "QA_ASHORT_ELEVATION_RECOVERY_001"
+        ]
+      },
+      "review": "Combined accepted Catwalk, Short Stairs and A Short upper-branch sets cover the entire named route chain. Individual frame limits remain in component reviews; both-direction ground paths are separately recorded.",
+      "remaining": "Critical cover/platform spans and complete stair endpoint profile remain separate metric work."
     }
   ],
   "scope": "Image integrity and declared combined-view reviews; no metric or topology acceptance",
@@ -1144,6 +1248,126 @@
       "sha256": "b4ba2504351dadce4c2c00abdcf3146fb6e8e7abcb95fae222a70f9e6a575756",
       "coverage_status": "PARTIAL",
       "review": "Upper Short platform outline and cover placement above CT arch/ramp; wire crossing retained, perspective only."
+    },
+    {
+      "id": "QA_UPTUN_FORWARD_RECOVERY_001",
+      "area": "Upper Tunnels",
+      "image": "reference/images/upper_tunnels/QA_UPTUN_FORWARD_RECOVERY_001.jpg",
+      "sha256": "9106e65dd435b1c31ba59795d0bbc2398317dad3e7fd5b252f3b206388aefd41",
+      "coverage_status": "PARTIAL",
+      "review": "Main pillared chamber and full B-branch arch; foreground right pier clipped, supplied by side/elevation."
+    },
+    {
+      "id": "QA_UPTUN_REVERSE_RECOVERY_001",
+      "area": "Upper Tunnels",
+      "image": "reference/images/upper_tunnels/QA_UPTUN_REVERSE_RECOVERY_001.jpg",
+      "sha256": "cdba478c817afd4211b08b8631a7930370af79ea574204eac4adf938aa41713c",
+      "coverage_status": "PARTIAL",
+      "review": "South entrance arch and wall/pier floor arrangement; near pier partly occludes entrance, supplied by reverse003."
+    },
+    {
+      "id": "QA_UPTUN_SIDE_RECOVERY_001",
+      "area": "Upper Tunnels",
+      "image": "reference/images/upper_tunnels/QA_UPTUN_SIDE_RECOVERY_001.jpg",
+      "sha256": "26de87db29bdeb06bb206a761a2d5173ff42808abcfd4ccf6996d1b28ac52988",
+      "coverage_status": "PARTIAL",
+      "review": "West chamber wall, barred doorway, floor and stacked cover visible; full cover dimensions unmeasured."
+    },
+    {
+      "id": "QA_UPTUN_ELEVATION_RECOVERY_001",
+      "area": "Upper Tunnels",
+      "image": "reference/images/upper_tunnels/QA_UPTUN_ELEVATION_RECOVERY_001.jpg",
+      "sha256": "6b6bd90214152e1440d54ebe8f5ede8ce3014e345ff84f2d3aa178acb3e11999",
+      "coverage_status": "PARTIAL",
+      "review": "Chamber floor, cover and wall/pier heights; foreground pier and near floor clipped, supplied by ground views. Perspective only."
+    },
+    {
+      "id": "QA_UPTUN_CHAMBER_DISCOVERY_RECOVERY_001",
+      "area": "Upper Tunnels",
+      "image": "reference/images/upper_tunnels/QA_UPTUN_CHAMBER_DISCOVERY_RECOVERY_001.jpg",
+      "sha256": "54397dcd9ba069cb65f789e15f20b5fa7d32ca98ed8be947185b2c0ec46e8fda",
+      "coverage_status": "PARTIAL",
+      "review": "East passage and descending stair approach with handrail; not the entire chamber."
+    },
+    {
+      "id": "QA_TUNSTAIRS_FORWARD_RECOVERY_001",
+      "area": "Tunnel Stairs",
+      "image": "reference/images/tunnel_stairs/QA_TUNSTAIRS_FORWARD_RECOVERY_001.jpg",
+      "sha256": "0bbd51af0059f4d31b1b6de0bc92ea1045887bb093a2a3f064f03d8038162e47",
+      "coverage_status": "PARTIAL",
+      "review": "Lower flight, arch, handrail and curved landing; upper flight supplied by reverse frame."
+    },
+    {
+      "id": "QA_TUNSTAIRS_REVERSE_RECOVERY_001",
+      "area": "Tunnel Stairs",
+      "image": "reference/images/tunnel_stairs/QA_TUNSTAIRS_REVERSE_RECOVERY_001.jpg",
+      "sha256": "851627cc4cd97591eda6d06d7a1420ad687875a75e8af86bf6a8383342e1c7f3",
+      "coverage_status": "PARTIAL",
+      "review": "Upper treads and descending curved flight; lower arch supplied by forward frame. Near top tread clipped, not count evidence."
+    },
+    {
+      "id": "QA_LOWTUN_FORWARD_RECOVERY_001",
+      "area": "Lower Tunnels",
+      "image": "reference/images/lower_tunnels/QA_LOWTUN_FORWARD_RECOVERY_001.jpg",
+      "sha256": "97d36d6bb12e8fe276b7e9d540bb2210486ebeda3c751923512927c1ba66f416",
+      "coverage_status": "PARTIAL",
+      "review": "Full interior exit arch, hall floor, ceiling and cover stack; exterior Xbox partly blocks beyond arch and remains real cover."
+    },
+    {
+      "id": "QA_LOWTUN_SIDE_RECOVERY_002",
+      "area": "Lower Tunnels",
+      "image": "reference/images/lower_tunnels/QA_LOWTUN_SIDE_RECOVERY_002.jpg",
+      "sha256": "53fefd42b491d2037ea61ba713d8a71969bcaa04da120e66c7540efe81495ef5",
+      "coverage_status": "PARTIAL",
+      "review": "North wall, piers, rear floor and low crate; left stacked cover clipped, supplied by forward/reverse."
+    },
+    {
+      "id": "QA_LOWTUN_ELEVATION_RECOVERY_001",
+      "area": "Lower Tunnels",
+      "image": "reference/images/lower_tunnels/QA_LOWTUN_ELEVATION_RECOVERY_001.jpg",
+      "sha256": "e6687d80c9d91766f6a95b8cb16b19849d67f5e1d148d3c2958ae5dcca83f148",
+      "coverage_status": "PARTIAL",
+      "review": "Lower landing floor, low cover and stair/arch arrangement; upper flight clipped and supplied separately."
+    },
+    {
+      "id": "QA_LOWTUN_REVERSE_RECOVERY_003",
+      "area": "Lower Tunnels",
+      "image": "reference/images/lower_tunnels/QA_LOWTUN_REVERSE_RECOVERY_003.jpg",
+      "sha256": "45a501530b551cf80f7213806a1275029c23e60767f2e60c4d68a774573ce754",
+      "coverage_status": "PARTIAL",
+      "review": "Full exterior arch face/crown and interior hallway floor, cover and roof. Adjacent Mid leaf at right retained."
+    },
+    {
+      "id": "QA_UPTUN_ENTRANCE_RECOVERY_003",
+      "area": "Upper Tunnels",
+      "image": "reference/images/upper_tunnels/QA_UPTUN_ENTRANCE_RECOVERY_003.jpg",
+      "sha256": "0d55f35a4a3e7d6f800104c7abe1d0ee2a01e97679dc50b8647088dd2b199479",
+      "coverage_status": "PARTIAL",
+      "review": "South entry corridor and chamber beyond; near arch crown clips frame top, supplied by interior reverse003. Not full opening proportions."
+    },
+    {
+      "id": "QA_UPTUN_REVERSE_RECOVERY_003",
+      "area": "Upper Tunnels",
+      "image": "reference/images/upper_tunnels/QA_UPTUN_REVERSE_RECOVERY_003.jpg",
+      "sha256": "619a104219f150e9bfe939f10eb24d52143f20c3fe1cbba59501aa451fe32f29",
+      "coverage_status": "PARTIAL",
+      "review": "Inside south entry passage, full far exterior arch, roof/floor and outside approach visible; foreground pier clipped, supplied by chamber views."
+    },
+    {
+      "id": "QA_TSPAWN_ELEVATION_RECOVERY_003",
+      "area": "T Spawn",
+      "image": "reference/images/t_spawn/QA_TSPAWN_ELEVATION_RECOVERY_003.jpg",
+      "sha256": "7a95954c7b463ac358a48218355f19c087bfc36b9ff425dc5d4eeb9a082e68d1",
+      "coverage_status": "PARTIAL",
+      "review": "Spawn street, bordering building/floor strips and both approach relationships; far street ends reach frame edges and have ground PX/NX references. Perspective, no inferred metrics."
+    },
+    {
+      "id": "QA_SHORTSTAIRS_FULL_COUNT_RECOVERY_001",
+      "area": "Short Stairs",
+      "image": "reference/images/short/QA_SHORTSTAIRS_FULL_COUNT_RECOVERY_001.jpg",
+      "sha256": "ec3ffcffce4b3925902e727bda01695d54aee2ea9c507dd7e07b66d24731d237",
+      "coverage_status": "PARTIAL",
+      "review": "Complete lower floor, twelve visually counted risers and upper landing edge. Count corroborates twelve elevated collision levels; individual exact tread edges/rise/run measured separately."
     }
   ]
 }

@@ -68,7 +68,10 @@ Blender Python, Unreal automation, validation scripts, manifest processors, and 
   may correct a point label while the original report area remains preserved.
 
 - `build_stair_profile.py` validates repeated point rays and derives the Short
-  sample CSV and SVG using Python/matplotlib. It does not infer tread boundaries.
+  sample CSV and SVG using Python/matplotlib. Explicit accepted_flight validates
+  repeated face rays and center floor columns, deriving the flight CSV. Optional
+  rendered_riser_review produces a hash-checked native image annotation. No
+  inferred tread boundaries or uniform spacing.
 
 ## Local Contracts
 
@@ -123,4 +126,4 @@ Every production script should document expected inputs, outputs, and a basic ve
 
 None.
 
-- build_physical_register.py derives reviewed centimeter samples from SCALE_CALIBRATION, architectural endpoints and native floor datums. Reviewed sections may use native X or Y; reviewed columns require repeated same-XY floor/first-overhead endpoints. Local clearance is not full-opening acceptance. Never silently overwrite future manually accepted measurement rows; extend the reviewed source evidence first. Accepted Short floor point-pair rises come from SHORT_STAIR_PROFILE.json and require repeated corrected endpoints.
+- build_physical_register.py derives reviewed centimeter samples from SCALE_CALIBRATION, architectural endpoints and native floor datums. Reviewed sections may use native X or Y; reviewed columns require repeated same-XY floor/first-overhead endpoints. Local clearance is not full-opening acceptance. Never silently overwrite future manually accepted measurement rows; extend the reviewed source evidence first. Accepted Short floor point-pair rises come from SHORT_STAIR_PROFILE.json and require repeated corrected endpoints. Explicit accepted_flight adds individual center-section rise/run and full-flight outer endpoint values through shared flight_rows validation.

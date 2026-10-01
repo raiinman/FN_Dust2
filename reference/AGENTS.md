@@ -58,7 +58,10 @@ self-captured CS2 study screenshots for the internal benchmark.
 
 - `SHORT_STAIR_PROFILE.json` owns repeated floor samples and rejected attempts.
   `SHORT_STAIR_SAMPLES.csv` and `SHORT_STAIR_PROFILE.svg` derive calibrated point
-  evidence; player hull standing height and uniform stair geometry stay separate.
+  evidence. Explicit accepted_flight and repeated horizontal face rays produce
+  SHORT_STAIR_FLIGHT.csv; SHORT_STAIR_ANNOTATED.svg marks the hash-pinned native
+  count image. Player hull height, source collision section and rendered surface
+  accuracy stay separate; never impose uniform dimensions.
 
 - `NATIVE_AREA_LABELS.json` owns exact-pose HUD area-name crops and hashes.
   A confirmed name at one point never defines the entire named-area footprint.

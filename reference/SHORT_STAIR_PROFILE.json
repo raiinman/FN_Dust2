@@ -4,7 +4,7 @@
   "source_map": "de_dust2",
   "unit": "source_units",
   "area": "Short Stairs",
-  "review": "Completed columns repeat at corrected target XY. Concrete/rock hulls yield twelve elevated sampled levels; lower/upper landing meshes vary slightly. The first walks at source X380 followed the parapet edge: player hull can stand on a higher nearby feature than a point ray, so standing Z is not floor evidence. Floor samples are not a uniform stair reconstruction.",
+  "review": "Completed columns repeat at corrected target XY. Concrete/rock hulls yield twelve elevated sampled levels; lower/upper landing meshes vary slightly. The first walks at source X380 followed the parapet edge: player hull can stand on a higher nearby feature than a point ray, so standing Z is not floor evidence. Floor samples are not a uniform stair reconstruction. Complete image now confirms12 rendered risers. Center floor/riser face sequence and reverse upper-tread endpoint measured separately; groups have different run/rise offsets, so do not impose uniform spacing.",
   "reports": [
     {
       "timestamp_utc": "2026-10-01T20:45:42.347838+00:00",
@@ -3225,6 +3225,870 @@
       "native_vertical_separation": null,
       "restored_pose": "setpos_exact 380.000000 1570.000000 4.000000;setang_exact 0.000000 90.000000 0.000000",
       "id": "SHORT_CENTER_Y1808_001"
+    },
+    {
+      "timestamp_utc": "2026-10-01T22:31:45.653885+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Short Stairs",
+      "unit": "source_units",
+      "target_xy": [
+        320.0,
+        1650.3
+      ],
+      "probe_player_z": 180.0,
+      "initial_pose": "setpos_exact -600.000000 -900.000000 1800.000000;setang_exact 88.999908 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 256.009735 1650.300049 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            323.1,
+            1650.3,
+            3.73
+          ],
+          "xy_error": 3.1000000000000227,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 134971"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 252.909744 1650.300049 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            320.0,
+            1650.3,
+            3.75
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 134963"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 252.909744 1650.300049 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            320.0,
+            1650.3,
+            3.75
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 134963"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          320.0,
+          1650.3,
+          3.75
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -600.000000 -900.000000 1800.000000;setang_exact 88.999908 90.000000 0.000000",
+      "id": "SHORT_CENTER_TREAD_Y1650p3_001"
+    },
+    {
+      "timestamp_utc": "2026-10-01T22:31:54.261856+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Short Stairs",
+      "unit": "source_units",
+      "target_xy": [
+        320.0,
+        1668.0
+      ],
+      "probe_player_z": 180.0,
+      "initial_pose": "setpos_exact -600.000000 -900.000000 1800.000000;setang_exact 88.999908 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 256.009735 1668.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            322.85,
+            1668.0,
+            18.09
+          ],
+          "xy_error": 2.8500000000000227,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 253.159744 1668.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            320.0,
+            1668.0,
+            18.09
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 253.159744 1668.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            320.0,
+            1668.0,
+            18.09
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          320.0,
+          1668.0,
+          18.09
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -600.000000 -900.000000 1800.000000;setang_exact 88.999908 90.000000 0.000000",
+      "id": "SHORT_CENTER_TREAD_Y1668_001"
+    },
+    {
+      "timestamp_utc": "2026-10-01T22:32:02.859950+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Short Stairs",
+      "unit": "source_units",
+      "target_xy": [
+        320.0,
+        1680.0
+      ],
+      "probe_player_z": 180.0,
+      "initial_pose": "setpos_exact -600.000000 -900.000000 1800.000000;setang_exact 88.999908 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 256.009735 1680.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            322.71,
+            1680.0,
+            26.09
+          ],
+          "xy_error": 2.7099999999999795,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 253.299744 1680.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            320.0,
+            1680.0,
+            26.09
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 253.299744 1680.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            320.0,
+            1680.0,
+            26.09
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          320.0,
+          1680.0,
+          26.09
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -600.000000 -900.000000 1800.000000;setang_exact 88.999908 90.000000 0.000000",
+      "id": "SHORT_CENTER_TREAD_Y1680_001"
+    },
+    {
+      "timestamp_utc": "2026-10-01T22:32:11.386836+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Short Stairs",
+      "unit": "source_units",
+      "target_xy": [
+        320.0,
+        1692.0
+      ],
+      "probe_player_z": 180.0,
+      "initial_pose": "setpos_exact -600.000000 -900.000000 1800.000000;setang_exact 88.999908 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 256.009735 1692.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            322.57,
+            1692.0,
+            34.09
+          ],
+          "xy_error": 2.569999999999993,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 253.439743 1692.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            320.0,
+            1692.0,
+            34.09
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 253.439743 1692.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            320.0,
+            1692.0,
+            34.09
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          320.0,
+          1692.0,
+          34.09
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -600.000000 -900.000000 1800.000000;setang_exact 88.999908 90.000000 0.000000",
+      "id": "SHORT_CENTER_TREAD_Y1692_001"
+    },
+    {
+      "timestamp_utc": "2026-10-01T22:32:19.978098+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Short Stairs",
+      "unit": "source_units",
+      "target_xy": [
+        320.0,
+        1704.0
+      ],
+      "probe_player_z": 180.0,
+      "initial_pose": "setpos_exact -600.000000 -900.000000 1800.000000;setang_exact 88.999908 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 256.009735 1704.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            322.45,
+            1704.0,
+            40.99
+          ],
+          "xy_error": 2.4499999999999886,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 253.559753 1704.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            320.0,
+            1704.0,
+            40.99
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 253.559753 1704.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            320.0,
+            1704.0,
+            40.99
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          320.0,
+          1704.0,
+          40.99
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -600.000000 -900.000000 1800.000000;setang_exact 88.999908 90.000000 0.000000",
+      "id": "SHORT_CENTER_TREAD_Y1704_001"
+    },
+    {
+      "timestamp_utc": "2026-10-01T22:32:28.575059+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Short Stairs",
+      "unit": "source_units",
+      "target_xy": [
+        320.0,
+        1716.0
+      ],
+      "probe_player_z": 180.0,
+      "initial_pose": "setpos_exact -600.000000 -900.000000 1800.000000;setang_exact 88.999908 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 256.009735 1716.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            322.31,
+            1716.0,
+            48.99
+          ],
+          "xy_error": 2.3100000000000023,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 253.699753 1716.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            320.0,
+            1716.0,
+            48.99
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 253.699753 1716.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            320.0,
+            1716.0,
+            48.99
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          320.0,
+          1716.0,
+          48.99
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -600.000000 -900.000000 1800.000000;setang_exact 88.999908 90.000000 0.000000",
+      "id": "SHORT_CENTER_TREAD_Y1716_001"
+    },
+    {
+      "timestamp_utc": "2026-10-01T22:32:37.274519+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Short Stairs",
+      "unit": "source_units",
+      "target_xy": [
+        320.0,
+        1728.0
+      ],
+      "probe_player_z": 180.0,
+      "initial_pose": "setpos_exact -600.000000 -900.000000 1800.000000;setang_exact 88.999908 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 256.009735 1728.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            322.17,
+            1728.0,
+            56.99
+          ],
+          "xy_error": 2.170000000000016,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 253.839752 1728.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            320.0,
+            1728.0,
+            56.99
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 253.839752 1728.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            320.0,
+            1728.0,
+            56.99
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          320.0,
+          1728.0,
+          56.99
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -600.000000 -900.000000 1800.000000;setang_exact 88.999908 90.000000 0.000000",
+      "id": "SHORT_CENTER_TREAD_Y1728_001"
+    },
+    {
+      "timestamp_utc": "2026-10-01T22:32:45.666443+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Short Stairs",
+      "unit": "source_units",
+      "target_xy": [
+        320.0,
+        1740.0
+      ],
+      "probe_player_z": 180.0,
+      "initial_pose": "setpos_exact -600.000000 -900.000000 1800.000000;setang_exact 88.999908 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 256.009735 1740.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            322.03,
+            1740.0,
+            64.99
+          ],
+          "xy_error": 2.0299999999999727,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 253.979752 1740.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            320.0,
+            1740.0,
+            64.99
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 253.979752 1740.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            320.0,
+            1740.0,
+            64.99
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          320.0,
+          1740.0,
+          64.99
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -600.000000 -900.000000 1800.000000;setang_exact 88.999908 90.000000 0.000000",
+      "id": "SHORT_CENTER_TREAD_Y1740_001"
+    },
+    {
+      "timestamp_utc": "2026-10-01T22:32:54.365949+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Short Stairs",
+      "unit": "source_units",
+      "target_xy": [
+        320.0,
+        1752.0
+      ],
+      "probe_player_z": 180.0,
+      "initial_pose": "setpos_exact -600.000000 -900.000000 1800.000000;setang_exact 88.999908 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 256.009735 1752.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            321.9,
+            1752.0,
+            72.03
+          ],
+          "xy_error": 1.8999999999999773,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 254.109741 1752.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            320.0,
+            1752.0,
+            72.03
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 254.109741 1752.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            320.0,
+            1752.0,
+            72.03
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          320.0,
+          1752.0,
+          72.03
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -600.000000 -900.000000 1800.000000;setang_exact 88.999908 90.000000 0.000000",
+      "id": "SHORT_CENTER_TREAD_Y1752_001"
+    },
+    {
+      "timestamp_utc": "2026-10-01T22:33:02.863217+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Short Stairs",
+      "unit": "source_units",
+      "target_xy": [
+        320.0,
+        1764.0
+      ],
+      "probe_player_z": 180.0,
+      "initial_pose": "setpos_exact -600.000000 -900.000000 1800.000000;setang_exact 88.999908 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 256.009735 1764.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            321.76,
+            1764.0,
+            80.03
+          ],
+          "xy_error": 1.759999999999991,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 254.249741 1764.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            320.0,
+            1764.0,
+            80.03
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 254.249741 1764.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            320.0,
+            1764.0,
+            80.03
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          320.0,
+          1764.0,
+          80.03
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -600.000000 -900.000000 1800.000000;setang_exact 88.999908 90.000000 0.000000",
+      "id": "SHORT_CENTER_TREAD_Y1764_001"
+    },
+    {
+      "timestamp_utc": "2026-10-01T22:33:11.362599+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Short Stairs",
+      "unit": "source_units",
+      "target_xy": [
+        320.0,
+        1776.0
+      ],
+      "probe_player_z": 180.0,
+      "initial_pose": "setpos_exact -600.000000 -900.000000 1800.000000;setang_exact 88.999908 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 256.009735 1776.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            321.62,
+            1776.0,
+            88.03
+          ],
+          "xy_error": 1.6200000000000045,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 254.389740 1776.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            320.0,
+            1776.0,
+            88.03
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 254.389740 1776.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            320.0,
+            1776.0,
+            88.03
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          320.0,
+          1776.0,
+          88.03
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -600.000000 -900.000000 1800.000000;setang_exact 88.999908 90.000000 0.000000",
+      "id": "SHORT_CENTER_TREAD_Y1776_001"
+    },
+    {
+      "timestamp_utc": "2026-10-01T22:33:19.765401+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Short Stairs",
+      "unit": "source_units",
+      "target_xy": [
+        320.0,
+        1788.0
+      ],
+      "probe_player_z": 180.0,
+      "initial_pose": "setpos_exact -600.000000 -900.000000 1800.000000;setang_exact 88.999908 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 256.009735 1788.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            321.49,
+            1788.0,
+            96.03
+          ],
+          "xy_error": 1.490000000000009,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 254.519745 1788.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            320.0,
+            1788.0,
+            96.03
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 254.519745 1788.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            320.0,
+            1788.0,
+            96.03
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          320.0,
+          1788.0,
+          96.03
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -600.000000 -900.000000 1800.000000;setang_exact 88.999908 90.000000 0.000000",
+      "id": "SHORT_CENTER_TREAD_Y1788_001"
     }
   ],
   "rejected_attempts": [
@@ -3272,5 +4136,789 @@
       "feature": "Floor elevation difference between lower/upper landing samples at source X320 Y1648/Y1808",
       "notes": "Repeated sand/concrete mesh floor samples. Does not assume uniform step heights; sampled rise, not every rendered riser. Nearby hull tread is slightly higher than the upper landing mesh."
     }
-  ]
+  ],
+  "rendered_riser_review": {
+    "count": 12,
+    "image_id": "QA_SHORTSTAIRS_FULL_COUNT_RECOVERY_001",
+    "image_path": "reference/images/short/QA_SHORTSTAIRS_FULL_COUNT_RECOVERY_001.jpg",
+    "jpeg_sha256": "ec3ffcffce4b3925902e727bda01695d54aee2ea9c507dd7e07b66d24731d237",
+    "method": "Visual count in complete native frame; private cropped two-times preview corroborated twelve distinct riser faces; twelve elevated collision levels independently recorded.",
+    "labels": [
+      {
+        "number": 1,
+        "x": 650,
+        "y": 592.5
+      },
+      {
+        "number": 2,
+        "x": 650,
+        "y": 559.5
+      },
+      {
+        "number": 3,
+        "x": 650,
+        "y": 528
+      },
+      {
+        "number": 4,
+        "x": 650,
+        "y": 498.5
+      },
+      {
+        "number": 5,
+        "x": 650,
+        "y": 473.5
+      },
+      {
+        "number": 6,
+        "x": 650,
+        "y": 453.5
+      },
+      {
+        "number": 7,
+        "x": 650,
+        "y": 432.75
+      },
+      {
+        "number": 8,
+        "x": 650,
+        "y": 414.5
+      },
+      {
+        "number": 9,
+        "x": 650,
+        "y": 398
+      },
+      {
+        "number": 10,
+        "x": 650,
+        "y": 383.5
+      },
+      {
+        "number": 11,
+        "x": 650,
+        "y": 369.75
+      },
+      {
+        "number": 12,
+        "x": 650,
+        "y": 356
+      }
+    ],
+    "limits": "Discrete visible riser count only; does not certify uniform rise/run or exact rendered/collision offset."
+  },
+  "riser_endpoint_report": {
+    "id": "SHORT_RISER_FACES_001",
+    "source_build": "25640462",
+    "area": "Short Stairs",
+    "source_map": "de_dust2",
+    "timestamp_utc": "2026-10-01T22:28:53.680256+00:00",
+    "unit": "source_units",
+    "config": {
+      "id": "SHORT_RISER_FACES_001",
+      "build": "25640462",
+      "area": "Short Stairs",
+      "stations": [
+        {
+          "id": "NEXT_RISER_1",
+          "pose": [
+            320,
+            1648,
+            -56.26
+          ],
+          "yaws": [
+            90
+          ]
+        },
+        {
+          "id": "NEXT_RISER_2",
+          "pose": [
+            320,
+            1656,
+            -49.91
+          ],
+          "yaws": [
+            90
+          ]
+        },
+        {
+          "id": "NEXT_RISER_3",
+          "pose": [
+            320,
+            1664,
+            -41.91
+          ],
+          "yaws": [
+            90
+          ]
+        },
+        {
+          "id": "NEXT_RISER_4",
+          "pose": [
+            320,
+            1680,
+            -33.91
+          ],
+          "yaws": [
+            90
+          ]
+        },
+        {
+          "id": "NEXT_RISER_5",
+          "pose": [
+            320,
+            1688,
+            -25.909999999999997
+          ],
+          "yaws": [
+            90
+          ]
+        },
+        {
+          "id": "NEXT_RISER_6",
+          "pose": [
+            320,
+            1704,
+            -19.009999999999998
+          ],
+          "yaws": [
+            90
+          ]
+        },
+        {
+          "id": "NEXT_RISER_7",
+          "pose": [
+            320,
+            1712,
+            -11.009999999999998
+          ],
+          "yaws": [
+            90
+          ]
+        },
+        {
+          "id": "NEXT_RISER_8",
+          "pose": [
+            320,
+            1728,
+            -3.009999999999998
+          ],
+          "yaws": [
+            90
+          ]
+        },
+        {
+          "id": "NEXT_RISER_9",
+          "pose": [
+            320,
+            1736,
+            4.989999999999995
+          ],
+          "yaws": [
+            90
+          ]
+        },
+        {
+          "id": "NEXT_RISER_10",
+          "pose": [
+            320,
+            1752,
+            12.030000000000001
+          ],
+          "yaws": [
+            90
+          ]
+        },
+        {
+          "id": "NEXT_RISER_11",
+          "pose": [
+            320,
+            1760,
+            20.03
+          ],
+          "yaws": [
+            90
+          ]
+        },
+        {
+          "id": "NEXT_RISER_12",
+          "pose": [
+            320,
+            1776,
+            28.03
+          ],
+          "yaws": [
+            90
+          ]
+        },
+        {
+          "id": "UPPER_TREAD_END",
+          "pose": [
+            320,
+            1808,
+            31.599999999999994
+          ],
+          "yaws": [
+            -90
+          ]
+        }
+      ]
+    },
+    "observations": [
+      {
+        "station_id": "NEXT_RISER_1",
+        "yaw": 90,
+        "repeat": 1,
+        "pose": "setpos_exact 320.000000 1648.000000 -56.260010;setang_exact 0.000000 90.000000 0.000000",
+        "eye_origin": [
+          320,
+          1648,
+          7.740000000000002
+        ],
+        "hit": [
+          320.0,
+          1650.45,
+          7.74
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE:   2.45 inches (  0.20 feet)"
+      },
+      {
+        "station_id": "NEXT_RISER_1",
+        "yaw": 90,
+        "repeat": 2,
+        "pose": "setpos_exact 320.000000 1648.000000 -56.260010;setang_exact 0.000000 90.000000 0.000000",
+        "eye_origin": [
+          320,
+          1648,
+          7.740000000000002
+        ],
+        "hit": [
+          320.0,
+          1650.45,
+          7.74
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE:   2.45 inches (  0.20 feet)"
+      },
+      {
+        "station_id": "NEXT_RISER_2",
+        "yaw": 90,
+        "repeat": 1,
+        "pose": "setpos_exact 320.000000 1656.000000 -49.909973;setang_exact 0.000000 90.000000 0.000000",
+        "eye_origin": [
+          320,
+          1656,
+          14.090000000000003
+        ],
+        "hit": [
+          320.0,
+          1662.45,
+          14.09
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE:   6.45 inches (  0.54 feet)"
+      },
+      {
+        "station_id": "NEXT_RISER_2",
+        "yaw": 90,
+        "repeat": 2,
+        "pose": "setpos_exact 320.000000 1656.000000 -49.909973;setang_exact 0.000000 90.000000 0.000000",
+        "eye_origin": [
+          320,
+          1656,
+          14.090000000000003
+        ],
+        "hit": [
+          320.0,
+          1662.45,
+          14.09
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE:   6.45 inches (  0.54 feet)"
+      },
+      {
+        "station_id": "NEXT_RISER_3",
+        "yaw": 90,
+        "repeat": 1,
+        "pose": "setpos_exact 320.000000 1664.000000 -41.909973;setang_exact 0.000000 90.000000 0.000000",
+        "eye_origin": [
+          320,
+          1664,
+          22.090000000000003
+        ],
+        "hit": [
+          320.0,
+          1674.45,
+          22.09
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE:  10.45 inches (  0.87 feet)"
+      },
+      {
+        "station_id": "NEXT_RISER_3",
+        "yaw": 90,
+        "repeat": 2,
+        "pose": "setpos_exact 320.000000 1664.000000 -41.909973;setang_exact 0.000000 90.000000 0.000000",
+        "eye_origin": [
+          320,
+          1664,
+          22.090000000000003
+        ],
+        "hit": [
+          320.0,
+          1674.45,
+          22.09
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE:  10.45 inches (  0.87 feet)"
+      },
+      {
+        "station_id": "NEXT_RISER_4",
+        "yaw": 90,
+        "repeat": 1,
+        "pose": "setpos_exact 320.000000 1680.000000 -33.909973;setang_exact 0.000000 90.000000 0.000000",
+        "eye_origin": [
+          320,
+          1680,
+          30.090000000000003
+        ],
+        "hit": [
+          320.0,
+          1686.45,
+          30.09
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE:   6.45 inches (  0.54 feet)"
+      },
+      {
+        "station_id": "NEXT_RISER_4",
+        "yaw": 90,
+        "repeat": 2,
+        "pose": "setpos_exact 320.000000 1680.000000 -33.909973;setang_exact 0.000000 90.000000 0.000000",
+        "eye_origin": [
+          320,
+          1680,
+          30.090000000000003
+        ],
+        "hit": [
+          320.0,
+          1686.45,
+          30.09
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE:   6.45 inches (  0.54 feet)"
+      },
+      {
+        "station_id": "NEXT_RISER_5",
+        "yaw": 90,
+        "repeat": 1,
+        "pose": "setpos_exact 320.000000 1688.000000 -25.909973;setang_exact 0.000000 90.000000 0.000000",
+        "eye_origin": [
+          320,
+          1688,
+          38.09
+        ],
+        "hit": [
+          320.0,
+          1697.59,
+          38.09
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE:   9.59 inches (  0.80 feet)"
+      },
+      {
+        "station_id": "NEXT_RISER_5",
+        "yaw": 90,
+        "repeat": 2,
+        "pose": "setpos_exact 320.000000 1688.000000 -25.909973;setang_exact 0.000000 90.000000 0.000000",
+        "eye_origin": [
+          320,
+          1688,
+          38.09
+        ],
+        "hit": [
+          320.0,
+          1697.59,
+          38.09
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE:   9.59 inches (  0.80 feet)"
+      },
+      {
+        "station_id": "NEXT_RISER_6",
+        "yaw": 90,
+        "repeat": 1,
+        "pose": "setpos_exact 320.000000 1704.000000 -19.010010;setang_exact 0.000000 90.000000 0.000000",
+        "eye_origin": [
+          320,
+          1704,
+          44.99
+        ],
+        "hit": [
+          320.0,
+          1709.59,
+          44.99
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE:   5.59 inches (  0.47 feet)"
+      },
+      {
+        "station_id": "NEXT_RISER_6",
+        "yaw": 90,
+        "repeat": 2,
+        "pose": "setpos_exact 320.000000 1704.000000 -19.010010;setang_exact 0.000000 90.000000 0.000000",
+        "eye_origin": [
+          320,
+          1704,
+          44.99
+        ],
+        "hit": [
+          320.0,
+          1709.59,
+          44.99
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE:   5.59 inches (  0.47 feet)"
+      },
+      {
+        "station_id": "NEXT_RISER_7",
+        "yaw": 90,
+        "repeat": 1,
+        "pose": "setpos_exact 320.000000 1712.000000 -11.010010;setang_exact 0.000000 90.000000 0.000000",
+        "eye_origin": [
+          320,
+          1712,
+          52.99
+        ],
+        "hit": [
+          320.0,
+          1721.59,
+          52.99
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE:   9.59 inches (  0.80 feet)"
+      },
+      {
+        "station_id": "NEXT_RISER_7",
+        "yaw": 90,
+        "repeat": 2,
+        "pose": "setpos_exact 320.000000 1712.000000 -11.010010;setang_exact 0.000000 90.000000 0.000000",
+        "eye_origin": [
+          320,
+          1712,
+          52.99
+        ],
+        "hit": [
+          320.0,
+          1721.59,
+          52.99
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE:   9.59 inches (  0.80 feet)"
+      },
+      {
+        "station_id": "NEXT_RISER_8",
+        "yaw": 90,
+        "repeat": 1,
+        "pose": "setpos_exact 320.000000 1728.000000 -3.010010;setang_exact 0.000000 90.000000 0.000000",
+        "eye_origin": [
+          320,
+          1728,
+          60.99
+        ],
+        "hit": [
+          320.0,
+          1733.59,
+          60.99
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE:   5.59 inches (  0.47 feet)"
+      },
+      {
+        "station_id": "NEXT_RISER_8",
+        "yaw": 90,
+        "repeat": 2,
+        "pose": "setpos_exact 320.000000 1728.000000 -3.010010;setang_exact 0.000000 90.000000 0.000000",
+        "eye_origin": [
+          320,
+          1728,
+          60.99
+        ],
+        "hit": [
+          320.0,
+          1733.59,
+          60.99
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE:   5.59 inches (  0.47 feet)"
+      },
+      {
+        "station_id": "NEXT_RISER_9",
+        "yaw": 90,
+        "repeat": 1,
+        "pose": "setpos_exact 320.000000 1736.000000 4.990000;setang_exact 0.000000 90.000000 0.000000",
+        "eye_origin": [
+          320,
+          1736,
+          68.99
+        ],
+        "hit": [
+          320.0,
+          1743.97,
+          68.99
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE:   7.97 inches (  0.66 feet)"
+      },
+      {
+        "station_id": "NEXT_RISER_9",
+        "yaw": 90,
+        "repeat": 2,
+        "pose": "setpos_exact 320.000000 1736.000000 4.990000;setang_exact 0.000000 90.000000 0.000000",
+        "eye_origin": [
+          320,
+          1736,
+          68.99
+        ],
+        "hit": [
+          320.0,
+          1743.97,
+          68.99
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE:   7.97 inches (  0.66 feet)"
+      },
+      {
+        "station_id": "NEXT_RISER_10",
+        "yaw": 90,
+        "repeat": 1,
+        "pose": "setpos_exact 320.000000 1752.000000 12.030000;setang_exact 0.000000 90.000000 0.000000",
+        "eye_origin": [
+          320,
+          1752,
+          76.03
+        ],
+        "hit": [
+          320.0,
+          1755.97,
+          76.03
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE:   3.97 inches (  0.33 feet)"
+      },
+      {
+        "station_id": "NEXT_RISER_10",
+        "yaw": 90,
+        "repeat": 2,
+        "pose": "setpos_exact 320.000000 1752.000000 12.030000;setang_exact 0.000000 90.000000 0.000000",
+        "eye_origin": [
+          320,
+          1752,
+          76.03
+        ],
+        "hit": [
+          320.0,
+          1755.97,
+          76.03
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE:   3.97 inches (  0.33 feet)"
+      },
+      {
+        "station_id": "NEXT_RISER_11",
+        "yaw": 90,
+        "repeat": 1,
+        "pose": "setpos_exact 320.000000 1760.000000 20.030001;setang_exact 0.000000 90.000000 0.000000",
+        "eye_origin": [
+          320,
+          1760,
+          84.03
+        ],
+        "hit": [
+          320.0,
+          1767.97,
+          84.03
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE:   7.97 inches (  0.66 feet)"
+      },
+      {
+        "station_id": "NEXT_RISER_11",
+        "yaw": 90,
+        "repeat": 2,
+        "pose": "setpos_exact 320.000000 1760.000000 20.030001;setang_exact 0.000000 90.000000 0.000000",
+        "eye_origin": [
+          320,
+          1760,
+          84.03
+        ],
+        "hit": [
+          320.0,
+          1767.97,
+          84.03
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE:   7.97 inches (  0.66 feet)"
+      },
+      {
+        "station_id": "NEXT_RISER_12",
+        "yaw": 90,
+        "repeat": 1,
+        "pose": "setpos_exact 320.000000 1776.000000 28.030001;setang_exact 0.000000 90.000000 0.000000",
+        "eye_origin": [
+          320,
+          1776,
+          92.03
+        ],
+        "hit": [
+          320.0,
+          1779.97,
+          92.03
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE:   3.97 inches (  0.33 feet)"
+      },
+      {
+        "station_id": "NEXT_RISER_12",
+        "yaw": 90,
+        "repeat": 2,
+        "pose": "setpos_exact 320.000000 1776.000000 28.030001;setang_exact 0.000000 90.000000 0.000000",
+        "eye_origin": [
+          320,
+          1776,
+          92.03
+        ],
+        "hit": [
+          320.0,
+          1779.97,
+          92.03
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE:   3.97 inches (  0.33 feet)"
+      },
+      {
+        "station_id": "UPPER_TREAD_END",
+        "yaw": -90,
+        "repeat": 1,
+        "pose": "setpos_exact 320.000000 1808.000000 31.600000;setang_exact 0.000000 -90.000000 0.000000",
+        "eye_origin": [
+          320,
+          1808,
+          95.6
+        ],
+        "hit": [
+          320.0,
+          1792.03,
+          95.6
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE:  15.97 inches (  1.33 feet)"
+      },
+      {
+        "station_id": "UPPER_TREAD_END",
+        "yaw": -90,
+        "repeat": 2,
+        "pose": "setpos_exact 320.000000 1808.000000 31.600000;setang_exact 0.000000 -90.000000 0.000000",
+        "eye_origin": [
+          320,
+          1808,
+          95.6
+        ],
+        "hit": [
+          320.0,
+          1792.03,
+          95.6
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE:  15.97 inches (  1.33 feet)"
+      }
+    ],
+    "status": "complete; architectural interpretation pending",
+    "original_pose": "setpos_exact -600.000000 -900.000000 1800.000000;setang_exact 88.999908 90.000000 0.000000",
+    "restored_pose": "setpos_exact -600.000000 -900.000000 1800.000000;setang_exact 88.999908 90.000000 0.000000",
+    "restore_numeric_errors": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "accepted_flight": {
+    "id": "SHORT_CENTER_FLIGHT_001",
+    "source_x": 320,
+    "endpoint_report": "SHORT_RISER_FACES_001",
+    "floor_column_ids": [
+      "SHORT_CENTER_TREAD_Y1650p3_001",
+      "SHORT_CENTER_Y1654_001",
+      "SHORT_CENTER_TREAD_Y1668_001",
+      "SHORT_CENTER_TREAD_Y1680_001",
+      "SHORT_CENTER_TREAD_Y1692_001",
+      "SHORT_CENTER_TREAD_Y1704_001",
+      "SHORT_CENTER_TREAD_Y1716_001",
+      "SHORT_CENTER_TREAD_Y1728_001",
+      "SHORT_CENTER_TREAD_Y1740_001",
+      "SHORT_CENTER_TREAD_Y1752_001",
+      "SHORT_CENTER_TREAD_Y1764_001",
+      "SHORT_CENTER_TREAD_Y1776_001",
+      "SHORT_CENTER_TREAD_Y1788_001"
+    ],
+    "count": 12,
+    "review": "Twelve sequential repeated concrete-hull riser faces, thirteen lower/tread floor point levels at center X320 and a repeated reverse upper-tread end. Native rangefinder corroborates ray lengths; rendered count independently matches12.",
+    "limits": "Measured collision center section, not uniform stair dimensions or exact render/collision offset. First bottom height uses floor point0.15 native units south of first face; upper landing declines slightly beyond last tread."
+  }
 }

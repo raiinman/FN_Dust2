@@ -161,6 +161,110 @@
       },
       "review": "Combined standing and elevated views show architectural floor/cover/wall arrangement and adjoining transition; individual clipping/ceiling limits supplied by complementary views.",
       "remaining": "Architectural spans, opening heights and cover dimensions remain incomplete; special traversal unverified."
+    },
+    {
+      "area": "Upper Tunnels",
+      "taxonomy_scope": "critical_area",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_UPTUN_FORWARD_RECOVERY_001",
+          "QA_UPTUN_ENTRANCE_RECOVERY_003",
+          "QA_UPTUN_G1_PY_001"
+        ],
+        "reverse": [
+          "QA_UPTUN_REVERSE_RECOVERY_003",
+          "QA_UPTUN_REVERSE_RECOVERY_001"
+        ],
+        "wall_read": [
+          "QA_UPTUN_SIDE_RECOVERY_001",
+          "QA_UPTUN_CHAMBER_DISCOVERY_RECOVERY_001"
+        ],
+        "elevation": [
+          "QA_UPTUN_ELEVATION_RECOVERY_001",
+          "QA_TUNSTAIRS_REVERSE_RECOVERY_001"
+        ]
+      },
+      "review": "Combined views cover pillared chamber, B branch, east stair branch and south entry corridor. Individual near-pier/crown clipping is supplied by complementary views; no circular chamber shape inferred.",
+      "remaining": "Chamber spans, cover, full tunnel openings and stair physical profile pending."
+    },
+    {
+      "area": "Lower Tunnels",
+      "taxonomy_scope": "critical_area",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_LOWTUN_FORWARD_RECOVERY_001"
+        ],
+        "reverse": [
+          "QA_LOWTUN_REVERSE_RECOVERY_003"
+        ],
+        "wall_read": [
+          "QA_LOWTUN_SIDE_RECOVERY_002"
+        ],
+        "elevation": [
+          "QA_LOWTUN_ELEVATION_RECOVERY_001",
+          "QA_TUNSTAIRS_FORWARD_RECOVERY_001"
+        ]
+      },
+      "review": "Combined interior/exterior arch, hall and landing views cover both directions, walls and stair elevation relationship. Exterior cover remains real occlusion; near stacked cover has complementary forward/reverse coverage.",
+      "remaining": "Room/cover spans, structural arch dimensions and full stair profile pending."
+    },
+    {
+      "area": "T Spawn",
+      "taxonomy_scope": "critical_area",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_TSPAWN_G1_PX_001"
+        ],
+        "reverse": [
+          "QA_TSPAWN_G1_NX_001"
+        ],
+        "wall_read": [
+          "QA_TSPAWN_G1_PY_001",
+          "QA_TSPAWN_G1_NY_001"
+        ],
+        "elevation": [
+          "QA_TSPAWN_ELEVATION_RECOVERY_003",
+          "QA_TSPAWN_G1_DOWN_001"
+        ]
+      },
+      "review": "Existing ground views show the spawn street in both directions and opposing facades; new wide high view supplies bordering floor/roof and approach arrangement. High-view edge continuations have ground PX/NX coverage; adjoining Suicide and T Ramp need separate traversal/metric proof.",
+      "remaining": "Spawn spans, route clearance and adjoining ramps/drop dimensions pending."
+    },
+    {
+      "area": "Short / Catwalk",
+      "taxonomy_scope": "critical_area",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_CATWALK_FORWARD_RECOVERY_001",
+          "QA_SHORTSTAIRS_FORWARD_RECOVERY_001",
+          "QA_SHORTSTAIRS_TREAD_COUNT_RECOVERY_001",
+          "QA_ASHORT_FORWARD_RECOVERY_001"
+        ],
+        "reverse": [
+          "QA_CATWALK_REVERSE_RECOVERY_001",
+          "QA_SHORTSTAIRS_REVERSE_RECOVERY_001",
+          "QA_ASHORT_REVERSE_RECOVERY_001"
+        ],
+        "wall_read": [
+          "QA_CATWALK_SIDE_RECOVERY_001",
+          "QA_CATWALK_FORWARD_RECOVERY_001",
+          "QA_SHORTSTAIRS_SIDE_RECOVERY_001",
+          "QA_ASHORT_SIDE_RECOVERY_002"
+        ],
+        "elevation": [
+          "QA_CATWALK_ELEVATION_RECOVERY_001",
+          "QA_CATWALK_PLAN_RECOVERY_002",
+          "QA_SHORTSTAIRS_PLAN_RECOVERY_001",
+          "QA_SHORTSTAIRS_SIDE_RECOVERY_001",
+          "QA_ASHORT_ELEVATION_RECOVERY_001"
+        ]
+      },
+      "review": "Combined accepted Catwalk, Short Stairs and A Short upper-branch sets cover the entire named route chain. Individual frame limits remain in component reviews; both-direction ground paths are separately recorded.",
+      "remaining": "Critical cover/platform spans and complete stair endpoint profile remain separate metric work."
     }
   ]
 }
