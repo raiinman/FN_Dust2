@@ -17,12 +17,14 @@ Four current-build native radar crops have separate calibration provenance.
 One native HUD crop confirms Top of Mid at exact source(-450,300,5); the full
 Suicide boundary is unresolved. Catwalk walking passed both directions around entrance barrels.
 Mid Doors, Top Mid ground approach, CT Mid-to-CT Spawn and CT Spawn through
-Under A to Long now pass both directions. WALK_PROBES.json records twelve
+Under A to Long now pass both directions. WALK_PROBES.json records thirteen
 accepted surveyed paths; failed waypoint plans remain preserved.
 Nine new Under A/A Short references are reviewed and registered. Five subarea
 view sets are accepted, including Under A and the A Short upper branch.
-Lower-to-Upper stair walk is running in private
-LOWER_TO_UPPER_STAIRS_RECOVERY_001.json; inspect before resume.
+Tunnel Stairs pass both directions in TUNNEL_STAIRS_BOTH. Lower Tunnels-to-Mid
+walk correction is running in private LOWER_TUNNEL_TO_MID_RECOVERY_002.json
+and then MID_TO_LOWER_TUNNEL_RECOVERY_002.json; inspect before resume.
+The first plan turned across the exit wall too early and is preserved.
 Two critical-area combined view sets (Long Doors/B Doors) and Short Stairs, Catwalk,
 Mid Doors, Under A and A Short subareas accepted in AREA_VIEW_REVIEW.json; metric/other-area gaps remain.
 Eight historical images excluded from coverage;
@@ -85,5 +87,5 @@ Pit lower/upper floor hits: (1400,350,-159.14) and (1400,700,-37.22).
 Do not use player foot position as architectural surface. Private fixture files
 are in crash_recovery_survey; Hammer has an unsaved agent-authored 128-unit cube,
 no production or source map. Opening tools interrupted one walk; finish route
-runs before switching tools. Checkpoint5545b05 contains Short metric/profile and center walks, pushed to main. Checkpoint3407edf pins combined view review and native Top Mid name. Checkpoint aebeb1e contains Catwalk images/widths/walking. Mid Doors references and sections are checkpoint9cd4342. Twelve walking paths
+runs before switching tools. Checkpoint5545b05 contains Short metric/profile and center walks, pushed to main. Checkpoint3407edf pins combined view review and native Top Mid name. Checkpoint aebeb1e contains Catwalk images/widths/walking. Mid Doors references and sections are checkpoint9cd4342. Thirteen walking paths
 are accepted in this checkpoint; next evidence is Under A/A Short views.

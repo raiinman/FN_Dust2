@@ -8,7 +8,7 @@ Source: installed CS2 build25640462, de_dust2. GitHub main is durable authority.
 | Provenance and current revision | REFERENCE_MANIFEST.csv; native poses/hashes and build25640462 | PASS for reviewed captured batches |
 | Physical scale and coordinate convention | SCALE_CALIBRATION.json; COORDINATE_TRANSFORM.json | PASS for current-build factor2.54 and reversible UE=(2.54x,-2.54y,2.54z); Phase2 exporter/import validation pending |
 | Every critical area forward/reverse/side/elevation coverage | 122 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | FAIL: Long Doors/B Doors sets and Short Stairs/Catwalk/Mid Doors/Under A/A Short subareas accepted; other sets incomplete |
-| Unambiguous validated topology | ROUTE_GRAPH.md; TOPOLOGY.json; WALK_PROBES.json | FAIL: twelve surveyed paths pass both directions; remaining ordinary routes and all four special traversals incomplete |
+| Unambiguous validated topology | ROUTE_GRAPH.md; TOPOLOGY.json; WALK_PROBES.json | FAIL: thirteen surveyed paths pass both directions; remaining ordinary routes and all four special traversals incomplete |
 | Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json | FAIL: 24 local calibrated feature measurements and 42 repeated stair floor samples; full critical register incomplete |
 | Calibrated annotated whole-map truth | RADAR_CALIBRATION.json; RADAR_PLAN.svg | FAIL: four native anchors, physical grid and floor labels; stylized architectural outlines and overlapping elevation layers unverified |
 | Bounded remaining uncertainty | UNCERTAINTY.md; SURVEY_TASKS.csv | FAIL: unresolved critical extents, full apertures/cover dimensions, stairs and render/collision bounds |
@@ -48,7 +48,7 @@ player hull standing height is not an architectural floor endpoint.
 Accepted both-direction paths: PIT_LONG_RAMP, UPPER_B_BOTH, LONG_DOORS_BOTH,
 B_DOORS_BOTH, LONG_A_SITE_BOTH, SHORT_TOP_SITE_BOTH,
 CATWALK_SHORT_STAIRS_BOTH, TOPMID_CATWALK_BOTH, MID_DOORS_BOTH,
-TOPMID_MID_BOTH, CTMID_CTSPAWN_BOTH and CTSPAWN_UNDERA_LONG_BOTH. Collision enabled,
+TOPMID_MID_BOTH, CTMID_CTSPAWN_BOTH, CTSPAWN_UNDERA_LONG_BOTH and TUNNEL_STAIRS_BOTH. Collision enabled,
 start-only teleport, reduced speed and arrival tolerance recorded in each path.
 Failed/interrupted waypoint plans remain preserved. No special traversal accepted.
 

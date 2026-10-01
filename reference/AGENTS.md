@@ -51,6 +51,8 @@ self-captured CS2 study screenshots for the internal benchmark.
 - `CAPTURE_GATE1_SURVEY.json` records reviewed Mid/CT Mid/B portal views and
   rejects, including unresolved Top Mid/Suicide callout extent.
 - `ELEVATION_PROBES.json` owns offset-corrected floor/overhead probe reports.
+  Optional reviewed_area corrects surveyed point identity with cited evidence;
+  retain the original capture-era area field.
 - `FLOOR_DATUMS.csv` and `FLOOR_DATUM_PLAN.svg` are reproducible native-unit
   point evidence, not a continuous floor surface or full-map truth boundary.
 

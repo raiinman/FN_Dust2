@@ -18,7 +18,7 @@ def build(root):
         observations=[o for o in report['observations'] if o['feature']=='floor']
         assert observations[-1]['hit']==observations[-2]['hit']==hit
         assert observations[-1]['xy_error']<=.02
-        rows.append(dict(id=report['id'],area=report['area'],source_x=hit[0],source_y=hit[1],
+        rows.append(dict(id=report['id'],area=report.get('reviewed_area',report['area']),source_x=hit[0],source_y=hit[1],
             source_z=hit[2],unit='source_units',confidence='confirmed native collision hit',
             output_rounding='.01 per coordinate',target_xy_error=observations[-1]['xy_error'],
             source_build=report['source_build'],surface=observations[-1]['hit_description'][0],

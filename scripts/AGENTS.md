@@ -64,7 +64,8 @@ Blender Python, Unreal automation, validation scripts, manifest processors, and 
   the floor can return no hit. Inspect before changing Z or restoring after failure.
 - `build_elevation_register.py` derives FLOOR_DATUMS.csv and its SVG point plot
   from reviewed ELEVATION_PROBES.json. It checks repeated endpoints and never
-  infers room boundaries or converts source units to centimeters.
+  infers room boundaries or converts source units to centimeters. Reviewed_area
+  may correct a point label while the original report area remains preserved.
 
 - `build_stair_profile.py` validates repeated point rays and derives the Short
   sample CSV and SVG using Python/matplotlib. It does not infer tread boundaries.
@@ -74,6 +75,8 @@ Blender Python, Unreal automation, validation scripts, manifest processors, and 
 - `build_radar_plan.py` rebuilds the current-build HUD context plan from
   hash-pinned screenshot crops and RADAR_CALIBRATION.json. Its grid and floor
   labels are calibrated; stylized radar outlines are not measured wall endpoints.
+  Orange trajectories derive only accepted collision walks in WALK_PROBES;
+  they describe player paths, never architectural bounds.
 
 - `cs2_probe_endpoints.py` repeats configured horizontal rays with exact echo,
   settled pose, endpoint and native rangefinder checks. Keep its output private
