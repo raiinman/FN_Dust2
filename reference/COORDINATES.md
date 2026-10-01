@@ -8,8 +8,8 @@ Do not rename raw source units as centimeters or adopt an unverified conversion.
 
 Survey origin: preserve CS2's source world origin (0,0,0). A later local modeling
 origin must be an explicit, reversible translation; no recentering by guesswork.
-Physical conversion is now measured for build 25640462: 1 source unit = 1 engine inch = 2.54 cm. See SCALE_CALIBRATION.json. Source-to-Unreal axis transform still requires explicit orientation validation.
-Blender will use meters with factor 0.0254 after the complete transform is validated.
+Physical conversion is now measured for build25640462: 1 source unit = 1 engine inch = 2.54 cm. See SCALE_CALIBRATION.json. Source-to-Unreal axis transform still requires explicit orientation validation.
+Blender will use meters with factor0.0254 after the complete transform is validated.
 
 ## Endpoint evidence
 
@@ -56,4 +56,4 @@ Physical-scale lookup remains unresolved: Valve Developer Community Unit_scales
 was unavailable (403), and retrieved older Source/Half-Life documentation is
 not sufficient to calibrate this CS2 build. Do not adopt its conversions silently.
 
-Current-build calibration supersedes the earlier failed documentation lookup: repeated Long A +X and CT Spawn +Y anchors compare native ray lengths 211 and 189.88373 with rangefinder inch readouts 211.00 and 189.88. Differences fit .01 output rounding. These are independent spatial anchors with a separate distance readout, not independent engine implementations. NIST SP1038 defines 1 inch=2.54 cm exactly. The native 128-unit fixture exported with Hammer's Centimeters option retained 128-valued vertices and UnitScaleFactor 1; that export merely tags numeric units and cannot replace measured physical conversion. No fixture is production geometry.
+Current-build calibration supersedes the earlier failed documentation lookup: repeated Long A +X and CT Spawn +Y anchors compare native ray lengths211 and189.88373 with rangefinder inch readouts211.00 and189.88. Differences fit .01 output rounding. These are independent spatial anchors with a separate distance readout, not independent engine implementations. NIST SP1038 defines1inch=2.54cm exactly. The native128-unit fixture exported with Hammer's Centimeters option retained128-valued vertices and UnitScaleFactor1; that export merely tags numeric units and cannot replace measured physical conversion. No fixture is production geometry.

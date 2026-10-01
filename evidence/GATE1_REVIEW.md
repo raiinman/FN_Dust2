@@ -12,7 +12,7 @@
 | Bounded remaining uncertainty | UNCERTAINTY.md; per-area coverage matrix | FAIL: critical architectural completeness and render/collision offsets remain unresolved |
 
 Reviewed image metadata: CAPTURE_CT_RECOVERY.json, CAPTURE_DISCOVERY_BATCH.json,
-CAPTURE_ROUTE_BATCH.json CAPTURE_GATE 1_SURVEY.json, CAPTURE_DIRECTIONAL_GATE 1.json and CAPTURE_CRASH_RECOVERY.json. Eighty-four JPEG study previews are
+CAPTURE_ROUTE_BATCH.json CAPTURE_GATE1_SURVEY.json, CAPTURE_DIRECTIONAL_GATE1.json and CAPTURE_CRASH_RECOVERY.json. Eighty-four JPEG study previews are
 committed under reference/images/ with SHA-256 provenance; local originals remain.
 SOURCE_CAMERAS.csv separates native poses from Unreal camera units.
 Eleven rejected route-camera attempts preserve their poses/reasons; none counts
