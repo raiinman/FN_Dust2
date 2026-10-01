@@ -21,8 +21,8 @@ Acquire named-area views and measurements for this exact CS2 build before geomet
 
 ## Immediate next actions
 
-1. Install the optional Counter-Strike 2 Workshop Tools component via Steam's
-   CS2 Properties > DLC. Verify its files exist before tools-mode launch.
+1. Launch the game/tools from the Workshop addon launcher. The user completed
+   the download; `assetsystem.dll` now exists. Only `csgocfg.exe` is running.
 2. Verify `py -3.11 scripts/cs2_console.py "echo FN_DUST2_PROBE"` against CS2
    launched with `-tools -vconsole`. This is the first incomplete survey action.
 3. Verify `version` and local session/map identity, then acquire area views.
@@ -34,10 +34,11 @@ Acquire named-area views and measurements for this exact CS2 build before geomet
 
 - This session has no callable `node_repl`; required computer-use API is unavailable.
   No desktop input was performed.
-- User rebooted and launched CS2 with verified `-vconsole`. The running game had
-  no TCP listener on port 29000, confirmed from the connected desktop process.
-  Probe timed out. Adding `-tools` produced a fatal assetsystem load error 126.
-  `assetsystem.dll` and `hammer.dll` are absent; Workshop Tools must be installed.
+- Workshop launcher `csgocfg.exe` owns TCP port 29000, but probes for
+  `echo FN_DUST2_PROBE` and `version` received no PRNT replies. No `cs2.exe`
+  process was present during this check. A launcher listener is not a verified
+  game connection. `assetsystem.dll` is installed; `hammer.dll` was not found
+  at the previously checked game/bin/win64 path (not proof of incomplete DLC).
 - Public references are provisional and do not provide directional coverage.
 - MEASUREMENTS.csv has no physical measurements yet; calibrated truth map and
   physical scale remain unresolved. No geometry has been authorized by Gate 1.

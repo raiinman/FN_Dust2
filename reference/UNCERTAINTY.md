@@ -5,7 +5,7 @@ Baseline: CS2 build 25640462, 2026-10-01 UTC.
 
 | ID | Unknown | Present bound | Required resolution |
 | --- | --- | --- | --- |
-| U01 | Capture connection | `-vconsole` alone exposed no TCP listener; tools mode untested | Verify echoed marker and in-session version |
+| U01 | Capture connection | Workshop launcher listens on 29000 but returns no probe/version replies; game process not running | Launch game/tools, verify echoed marker and in-session version |
 | U02 | Critical lengths/widths | No defensible physical numeric bounds yet | Repeated endpoints or calibrated multiview survey |
 | U03 | Elevations/slopes/stairs | Qualitative relations only | Floor endpoints, stair counts and rise/run readings |
 | U04 | Map scale and axes | UE uses centimeters; source physical calibration unresolved | Document conversion and two independent scale anchors |

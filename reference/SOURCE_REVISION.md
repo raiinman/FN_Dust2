@@ -40,7 +40,10 @@ on-screen console or launching with `-vconsole` did not create a TCP listener in
 the installed build during the 2026-10-01 probe. Verify a reply rather than
 assuming availability. Keep raw capture media outside Git pending reuse clearance.
 
-Tools-mode preflight must also confirm the optional Workshop Tools component is
-installed. The 2026-10-01 launch failed with `assetsystem` module load error 126;
-the module and Hammer DLL were absent. Install through CS2 Properties > DLC,
-then recheck files and the loopback probe. Do not download replacement DLLs.
+Install the optional Workshop Tools component through CS2 Properties > DLC.
+After the user completed the download on 2026-10-01, `assetsystem.dll` exists.
+The Workshop addon launcher (`csgocfg.exe`) listens on port 29000 but returned
+no PRNT replies to echo/version probes while no game process was running.
+Launch the game/tools from the addon launcher before verifying the transport.
+Do not treat a launcher TCP listener as successful game control, and do not
+download replacement DLLs.
