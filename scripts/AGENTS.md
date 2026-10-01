@@ -58,11 +58,16 @@ Blender Python, Unreal automation, validation scripts, manifest processors, and 
 
 - `cs2_probe_column.py` accepts area/build/XY/Z and selected floor/ceiling
   features. It corrects actual hit XY, repeats endpoints, verifies restoration
-  and stops on missing output. Use safe inspected interior Z; an origin below
+  and stops on missing output. Every command requires an exact live echo.
+  Pose mismatches are saved with requested/observed values before stopping.
+  Use safe inspected interior Z; an origin below
   the floor can return no hit. Inspect before changing Z or restoring after failure.
 - `build_elevation_register.py` derives FLOOR_DATUMS.csv and its SVG point plot
   from reviewed ELEVATION_PROBES.json. It checks repeated endpoints and never
   infers room boundaries or converts source units to centimeters.
+
+- `build_stair_profile.py` validates repeated point rays and derives the Short
+  sample CSV and SVG using Python/matplotlib. It does not infer tread boundaries.
 
 ## Local Contracts
 
@@ -110,4 +115,4 @@ Every production script should document expected inputs, outputs, and a basic ve
 
 None.
 
-- build_physical_register.py derives reviewed centimeter samples from SCALE_CALIBRATION, architectural endpoints and native floor datums. Reviewed sections may use native X or Y; reviewed columns require repeated same-XY floor/first-overhead endpoints. Local clearance is not full-opening acceptance. Never silently overwrite future manually accepted measurement rows; extend the reviewed source evidence first.
+- build_physical_register.py derives reviewed centimeter samples from SCALE_CALIBRATION, architectural endpoints and native floor datums. Reviewed sections may use native X or Y; reviewed columns require repeated same-XY floor/first-overhead endpoints. Local clearance is not full-opening acceptance. Never silently overwrite future manually accepted measurement rows; extend the reviewed source evidence first. Accepted Short floor point-pair rises come from SHORT_STAIR_PROFILE.json and require repeated corrected endpoints.

@@ -648,6 +648,33 @@
       "jpeg_sha256": "68361176db030999a2d76a37c801489ba0dd7d1996e7ec80c4ccf2f4ca92b492",
       "fov_cs_debug_parameter": 90,
       "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_SHORTSTAIRS_TREAD_COUNT_RECOVERY_001",
+      "timestamp_utc": "2026-10-01T20:57:01.256129+00:00",
+      "engine_capture_basename": "d2_fb19ecc27f",
+      "pose_command": "setpos_exact 380.000000 1570.000000 4.000000;setang_exact 0.000000 90.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        380.0,
+        1570.0,
+        4.0,
+        0.0,
+        90.0
+      ],
+      "tga_sha256": "98a4a59919ada1a077aaed265e7afb9e9dd39d5d02b53713366096a483b73132",
+      "png_sha256": "df338ce4b9f9da9f8ea9b0243d84546cb42943fde0b202781af973a2893184dd",
+      "status": "visually inspected; usable forward stair reference",
+      "area": "Short Stairs",
+      "review": "Closer unobstructed full rendered stair flight with both walls/parapet and upper landing. Supports visual tread review; no numeric step count is assigned from perspective alone.",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "repository_image_path": "reference/images/short/QA_SHORTSTAIRS_TREAD_COUNT_RECOVERY_001.jpg",
+      "jpeg_sha256": "c79802679d942c2465f974ffd2644524edd8bf28a7ba8e21381ef3502a3424cc",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
     }
   ],
   "rejected_attempts": [

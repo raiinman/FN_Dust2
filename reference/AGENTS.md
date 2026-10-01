@@ -49,6 +49,10 @@ self-captured CS2 study screenshots for the internal benchmark.
 - `FLOOR_DATUMS.csv` and `FLOOR_DATUM_PLAN.svg` are reproducible native-unit
   point evidence, not a continuous floor surface or full-map truth boundary.
 
+- `SHORT_STAIR_PROFILE.json` owns repeated floor samples and rejected attempts.
+  `SHORT_STAIR_SAMPLES.csv` and `SHORT_STAIR_PROFILE.svg` derive calibrated point
+  evidence; player hull standing height and uniform stair geometry stay separate.
+
 ## Local Contracts
 
 - `COORDINATE_TRANSFORM.json` owns the reversible source-to-Unreal convention,

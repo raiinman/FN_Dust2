@@ -87,6 +87,26 @@ def build(root):
                 source_id='ARCHITECTURAL_ENDPOINTS/'+report['id'],confidence=column['confidence'],
                 tolerance='.0508 cm output rounding; component interpretation bounded to first collision hull',
                 notes=column['notes']))
+    profile_path = ref / 'SHORT_STAIR_PROFILE.json'
+    if profile_path.exists():
+        profile = json.loads(profile_path.read_text())
+        reports = {r['id']: r for r in profile['reports']}
+        for interval in profile.get('accepted_intervals', []):
+            points = []
+            for key in ('from_report', 'to_report'):
+                report = reports[interval[key]]
+                endpoint = report['endpoints']['floor']
+                samples = [o for o in report['observations'] if o['feature'] == 'floor']
+                assert samples[-1]['hit'] == samples[-2]['hit'] == endpoint
+                assert samples[-1]['xy_error'] <= .02
+                points.append(endpoint)
+            assert points[1][2] > points[0][2]
+            measurements.append(dict(id=interval['id'], area=profile['area'],
+                feature=interval['feature'], value=round((points[1][2]-points[0][2])*factor,4),
+                unit='cm', method='repeated corrected floor point pair; SCALE_CALIBRATION',
+                source_id='SHORT_STAIR_PROFILE/'+interval['from_report']+';'+interval['to_report'],
+                confidence='confirmed sampled collision elevation difference',
+                tolerance='.0508 cm output rounding; sample stations explicit', notes=interval['notes']))
     with (ref / 'MEASUREMENTS.csv').open('w', newline='') as f:
         w = csv.DictWriter(f,fieldnames=measurements[0].keys())
         w.writeheader(); w.writerows(measurements)

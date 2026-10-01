@@ -5934,6 +5934,238 @@
         "limitations": "reduced speed; waypoint arrival tolerance; not special traversal or metric calibration",
         "restored_speed": 320.0
       }
+    },
+    {
+      "private_filename": "SHORT_CENTER_TO_CATWALK_RECOVERY_002.json",
+      "report": {
+        "id": "SHORT_CENTER_TO_CATWALK_RECOVERY_002",
+        "source_build": "25640462",
+        "source_map": "de_dust2",
+        "timestamp_utc": "2026-10-01T21:01:09.552683+00:00",
+        "unit": "source_units",
+        "config": {
+          "id": "SHORT_CENTER_TO_CATWALK_RECOVERY_002",
+          "build": "25640462",
+          "start": [
+            320,
+            1800,
+            100
+          ],
+          "waypoints": [
+            [
+              320,
+              1700
+            ],
+            [
+              320,
+              1500
+            ],
+            [
+              250,
+              1400
+            ]
+          ],
+          "maxspeed": 80,
+          "arrival_radius": 25
+        },
+        "teleports_during_route": 0,
+        "observations": [
+          {
+            "waypoint": 1,
+            "step": 1,
+            "before_pose": "setpos_exact 320.000000 1800.000000 96.031250;setang_exact 0.000000 0.000000 0.000000",
+            "after_pose": "setpos_exact 320.012787 1741.627686 82.269112;setang_exact 0.000000 -90.000000 0.000000",
+            "requested_yaw": -90.0,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 58.372312036074256
+          },
+          {
+            "waypoint": 1,
+            "step": 2,
+            "before_pose": "setpos_exact 320.012787 1741.627686 82.269112;setang_exact 0.000000 -90.000000 0.000000",
+            "after_pose": "setpos_exact 320.002197 1695.754150 54.039253;setang_exact 0.000000 -90.017509 0.000000",
+            "requested_yaw": -90.01759985192525,
+            "requested_hold_seconds": 0.19534609954907178,
+            "progress_toward_target": 37.38183739551084
+          },
+          {
+            "waypoint": 2,
+            "step": 1,
+            "before_pose": "setpos_exact 320.002197 1695.754150 54.039253;setang_exact 0.000000 -90.017509 0.000000",
+            "after_pose": "setpos_exact 320.014740 1638.631714 18.886980;setang_exact 0.000000 -90.000687 0.000000",
+            "requested_yaw": -90.00064304551186,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.12243522871427
+          },
+          {
+            "waypoint": 2,
+            "step": 2,
+            "before_pose": "setpos_exact 320.014740 1638.631714 18.886980;setang_exact 0.000000 -90.000687 0.000000",
+            "after_pose": "setpos_exact 320.002350 1582.759155 3.510376;setang_exact 0.000000 -90.006180 0.000000",
+            "requested_yaw": -90.00609196671147,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.87255975024961
+          },
+          {
+            "waypoint": 2,
+            "step": 3,
+            "before_pose": "setpos_exact 320.002350 1582.759155 3.510376;setang_exact 0.000000 -90.006180 0.000000",
+            "after_pose": "setpos_exact 319.989532 1524.386841 2.388059;setang_exact 0.000000 -90.001717 0.000000",
+            "requested_yaw": -90.0016269509013,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 58.3723117866815
+          },
+          {
+            "waypoint": 3,
+            "step": 1,
+            "before_pose": "setpos_exact 319.989532 1524.386841 2.388059;setang_exact 0.000000 -90.001717 0.000000",
+            "after_pose": "setpos_exact 291.968079 1474.596558 0.614940;setang_exact 0.000000 -119.365425 0.000000",
+            "requested_yaw": -119.36542790221597,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.13382596306957
+          },
+          {
+            "waypoint": 3,
+            "step": 2,
+            "before_pose": "setpos_exact 291.968079 1474.596558 0.614940;setang_exact 0.000000 -119.365425 0.000000",
+            "after_pose": "setpos_exact 264.559692 1425.895508 0.032624;setang_exact 0.000000 -119.361992 0.000000",
+            "requested_yaw": -119.36213815734193,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.88391330446974
+          },
+          {
+            "waypoint": 3,
+            "step": 3,
+            "before_pose": "setpos_exact 264.559692 1425.895508 0.032624;setang_exact 0.000000 -119.361992 0.000000",
+            "after_pose": "setpos_exact 249.427811 1398.970337 0.098672;setang_exact 0.000000 -119.346886 0.000000",
+            "requested_yaw": -119.34677483132745,
+            "requested_hold_seconds": 0.05,
+            "progress_toward_target": 28.529977533938812
+          }
+        ],
+        "status": "completed collision walk",
+        "collision_mode_reply": "noclip OFF",
+        "settled_start_pose": "setpos_exact 320.000000 1800.000000 96.031250;setang_exact 0.000000 0.000000 0.000000",
+        "final_pose": "setpos_exact 249.427811 1398.970337 0.098672;setang_exact 0.000000 -119.346886 0.000000",
+        "limitations": "reduced speed; waypoint arrival tolerance; not special traversal or metric calibration",
+        "restored_speed": 320.0
+      }
+    },
+    {
+      "private_filename": "CATWALK_TO_SHORT_CENTER_RECOVERY_002.json",
+      "report": {
+        "id": "CATWALK_TO_SHORT_CENTER_RECOVERY_002",
+        "source_build": "25640462",
+        "source_map": "de_dust2",
+        "timestamp_utc": "2026-10-01T21:01:35.437472+00:00",
+        "unit": "source_units",
+        "config": {
+          "id": "CATWALK_TO_SHORT_CENTER_RECOVERY_002",
+          "build": "25640462",
+          "start": [
+            250,
+            1400,
+            5
+          ],
+          "waypoints": [
+            [
+              320,
+              1500
+            ],
+            [
+              320,
+              1700
+            ],
+            [
+              320,
+              1800
+            ]
+          ],
+          "maxspeed": 80,
+          "arrival_radius": 25
+        },
+        "teleports_during_route": 0,
+        "observations": [
+          {
+            "waypoint": 1,
+            "step": 1,
+            "before_pose": "setpos_exact 250.000000 1400.000000 0.095904;setang_exact 0.000000 0.000000 0.000000",
+            "after_pose": "setpos_exact 282.778625 1446.816406 -0.018871;setang_exact 0.000000 55.007858 0.000000",
+            "requested_yaw": 55.00797980144134,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.15080107309234
+          },
+          {
+            "waypoint": 1,
+            "step": 2,
+            "before_pose": "setpos_exact 282.778625 1446.816406 -0.018871;setang_exact 0.000000 55.007858 0.000000",
+            "after_pose": "setpos_exact 314.840210 1492.608765 1.377411;setang_exact 0.000000 55.013000 0.000000",
+            "requested_yaw": 55.013143167854274,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.90066679594145
+          },
+          {
+            "waypoint": 2,
+            "step": 1,
+            "before_pose": "setpos_exact 314.840210 1492.608765 1.377411;setang_exact 0.000000 55.013000 0.000000",
+            "after_pose": "setpos_exact 316.208740 1548.472534 3.169041;setang_exact 0.000000 88.574860 0.000000",
+            "requested_yaw": 88.57480372944205,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.88052378763538
+          },
+          {
+            "waypoint": 2,
+            "step": 2,
+            "before_pose": "setpos_exact 316.208740 1548.472534 3.169041;setang_exact 0.000000 88.574860 0.000000",
+            "after_pose": "setpos_exact 317.607941 1605.585938 3.687266;setang_exact 0.000000 88.566620 0.000000",
+            "requested_yaw": 88.56674244283867,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.13052823393092
+          },
+          {
+            "waypoint": 2,
+            "step": 3,
+            "before_pose": "setpos_exact 317.607941 1605.585938 3.687266;setang_exact 0.000000 88.566620 0.000000",
+            "after_pose": "setpos_exact 318.999908 1661.449707 32.928818;setang_exact 0.000000 88.548767 0.000000",
+            "requested_yaw": 88.54867412701893,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 55.88109626888598
+          },
+          {
+            "waypoint": 2,
+            "step": 4,
+            "before_pose": "setpos_exact 318.999908 1661.449707 32.928818;setang_exact 0.000000 88.548767 0.000000",
+            "after_pose": "setpos_exact 320.142212 1704.817139 59.616470;setang_exact 0.000000 88.514099 0.000000",
+            "requested_yaw": 88.51393603942248,
+            "requested_hold_seconds": 0.1570407909338291,
+            "progress_toward_target": 33.74402553433027
+          },
+          {
+            "waypoint": 3,
+            "step": 1,
+            "before_pose": "setpos_exact 320.142212 1704.817139 59.616470;setang_exact 0.000000 88.514099 0.000000",
+            "after_pose": "setpos_exact 320.036682 1763.189453 95.537888;setang_exact 0.000000 90.085480 0.000000",
+            "requested_yaw": 90.0856051315063,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 58.3724019619365
+          },
+          {
+            "waypoint": 3,
+            "step": 2,
+            "before_pose": "setpos_exact 320.036682 1763.189453 95.537888;setang_exact 0.000000 90.085480 0.000000",
+            "after_pose": "setpos_exact 320.013580 1795.314331 96.031250;setang_exact 0.000000 90.057007 0.000000",
+            "requested_yaw": 90.05709567663877,
+            "requested_hold_seconds": 0.1351320659618307,
+            "progress_toward_target": 32.124876598218364
+          }
+        ],
+        "status": "completed collision walk",
+        "collision_mode_reply": "noclip OFF",
+        "settled_start_pose": "setpos_exact 250.000000 1400.000000 0.095904;setang_exact 0.000000 0.000000 0.000000",
+        "final_pose": "setpos_exact 320.013580 1795.314331 96.031250;setang_exact 0.000000 90.057007 0.000000",
+        "limitations": "reduced speed; waypoint arrival tolerance; not special traversal or metric calibration",
+        "restored_speed": 320.0
+      }
     }
   ],
   "acceptance": "Seven surveyed paths passed both directions with collision enabled, including Catwalk/Short stairs and Short upper landing/A Site. Failed plans preserved. Remaining routes and special traversal require verification.",
@@ -6017,13 +6249,17 @@
       "from": "Catwalk lower stair approach",
       "to": "Short upper landing",
       "direction": "both",
-      "forward_report": "CATWALK_TO_SHORT_TOP_RECOVERY_001",
-      "reverse_report": "SHORT_TOP_TO_CATWALK_RECOVERY_001",
+      "forward_report": "CATWALK_TO_SHORT_CENTER_RECOVERY_002",
+      "reverse_report": "SHORT_CENTER_TO_CATWALK_RECOVERY_002",
       "edges": [
         "E32",
         "E33"
       ],
-      "limits": "Collision enabled, speed80, arrival25; start-only teleport. Full stair route and upper platform recorded separately. Walking telemetry does not establish architectural tread geometry or default-speed timing."
+      "limits": "Middle-of-flight collision path repeated both directions at source X320; earlier X380 path near parapet edge preserved. Speed80/arrival25, start-only teleport. Player hull standing Z is not floor or tread evidence.",
+      "earlier_verified_reports": [
+        "CATWALK_TO_SHORT_TOP_RECOVERY_001",
+        "SHORT_TOP_TO_CATWALK_RECOVERY_001"
+      ]
     }
   ]
 }

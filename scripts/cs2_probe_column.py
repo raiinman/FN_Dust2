@@ -18,8 +18,14 @@ NUMBER = r'-?\d+(?:\.\d+)?'
 def survey(a):
     if a.output.exists():
         raise FileExistsError(a.output)
-    def send(command,seconds=1):
-        return request_exchange(a.session,command,seconds)['received_prints']
+    serial=0
+    def send(command,seconds=.35):
+        nonlocal serial
+        serial+=1;marker=f'FN_COLUMN_{serial}'
+        lines=request_exchange(a.session,command+'; echo '+marker,seconds)['received_prints']
+        if not any(line.strip()==marker for line in lines):
+            raise RuntimeError('Missing exact live echo; inspect before another command')
+        return lines
     def pose():
         line=next((s.strip() for s in send('getpos_exact') if s.startswith('setpos_exact ')),None)
         if line is None:
@@ -30,7 +36,8 @@ def survey(a):
         source_build=a.build,source_map='de_dust2',area=a.area,unit='source_units',
         target_xy=a.xy,probe_player_z=a.z,initial_pose=initial,
         model='getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md',
-        xy_tolerance=.02,observations=[],accepted_for_production=False)
+        xy_tolerance=.02,observations=[],accepted_for_production=False,
+        status='in progress')
     def save():
         a.output.parent.mkdir(parents=True,exist_ok=True)
         a.output.write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8',newline='\n')
@@ -44,8 +51,13 @@ def survey(a):
             send(f'setpos_exact {x} {y} {a.z}; setang_exact {pitch} 0 0')
             observed,v=pose()
             if max(abs(v[i]-[x,y,a.z,pitch,0,0][i]) for i in range(6))>.01:
+                report.update(status='incomplete; inspect before another command',
+                    failure=dict(feature=feature,iteration=iteration+1,
+                        expected_pose=[x,y,a.z,pitch,0,0],observed_pose=observed,
+                        reason='Pose mismatch'))
+                save()
                 raise RuntimeError('Pose mismatch; stop')
-            lines=send('cast_ray',2)
+            lines=send('cast_ray',.6)
             hits=[re.search(r'Hit position: ('+NUMBER+r'), ('+NUMBER+r'), ('+NUMBER+r')',s) for s in lines]
             hits=[h for h in hits if h]
             if len(hits)!=1:

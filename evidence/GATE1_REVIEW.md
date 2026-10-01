@@ -33,7 +33,7 @@ DOX: root user preference and reference/scripting contracts updated; reference
 and master standards reconcile screenshot storage. Docs/evidence/QA AGENTS
 unchanged because ownership and acceptance criteria have not changed.
 
-Recovery review: IMAGE_AUDIT.json verifies all 103 area image hashes. IMAGE_REVIEW.json
+Recovery review: IMAGE_AUDIT.json verifies all 104 area image hashes. IMAGE_REVIEW.json
 identifies eight excluded historical images. The original 24 and recovered 55,
 new CT/Pit, six Long Doors, four B Doors and five site replacement/addition frames
 were inspected. Clipped/obstructed initial frames stay private rejects.
@@ -42,7 +42,7 @@ WALK_PROBES.json preserves recovered and subsequent attempts; a blocked waypoint
 does not disprove an edge. See CRASH_RECOVERY_20261001.md for recovery instructions.
 
 SCALE_CALIBRATION.json accepts physical conversion for this build from repeated
-inch readouts at two spatial/axis anchors. Thirteen calibrated measurements do not
+inch readouts at two spatial/axis anchors. Seventeen calibrated measurements do not
 fill the route/opening/stair/cover register. Long cross-sections are local collision
 samples, not minimum leaf clearance or complete structural openings.
 RADAR_CALIBRATION.json preserves four inspected 250x250 native HUD crops, actual
@@ -60,5 +60,5 @@ health echo verified and original pose restored before a new station was attempt
 
 Short checkpoint: four reviewed stair views supplement the original references.
 E32/E33/E34 have completed both-direction collision walks; reduced speed80 and
-arrival25, no teleports during the route. Stair profile survey is still in progress.
+arrival25, no teleports during the route. SHORT_STAIR_PROFILE.json preserves42 repeated floor columns and one inspected angle-mismatch rejection. Three stair/landing collision widths and sampled floor rise are accepted separately; count/run endpoints pending. The center-of-flight walk also passed both directions. Calibrated sample SVG rendered and inspected.
 Gate 1 remains FAIL; no Phase 2 production geometry has started.

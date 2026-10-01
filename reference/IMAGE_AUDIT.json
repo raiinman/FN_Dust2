@@ -1,7 +1,7 @@
 {
   "review_date": "2026-10-01",
   "source_build": "25640462",
-  "registered_images": 103,
+  "registered_images": 104,
   "coverage_excluded": 8,
   "complete_areas": 0,
   "gate_1": "FAIL",
@@ -829,6 +829,14 @@
       "sha256": "68361176db030999a2d76a37c801489ba0dd7d1996e7ec80c4ccf2f4ca92b492",
       "coverage_status": "PARTIAL",
       "review": "High perspective of whole flight, adjacent walls and both approach platforms; wire and lamp overlap limited floor patches. Perspective only, not orthographic metric evidence."
+    },
+    {
+      "id": "QA_SHORTSTAIRS_TREAD_COUNT_RECOVERY_001",
+      "area": "Short Stairs",
+      "image": "reference/images/short/QA_SHORTSTAIRS_TREAD_COUNT_RECOVERY_001.jpg",
+      "sha256": "c79802679d942c2465f974ffd2644524edd8bf28a7ba8e21381ef3502a3424cc",
+      "coverage_status": "PARTIAL",
+      "review": "Closer unobstructed full rendered stair flight with both walls/parapet and upper landing. Supports visual tread review; no numeric step count is assigned from perspective alone."
     }
   ]
 }

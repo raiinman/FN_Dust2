@@ -10,15 +10,15 @@ Phase 0 complete. User requested Phase 2 after Phase 1 passes, never before.
 Crash recovery: GitHub baseline 35eaa64212857d1890faaba6a3be03f2f229c61a;
 preserved old checkout work in 4c7df48 and merged baseline in ab4e484.
 See evidence/CRASH_RECOVERY_20261001.md and latest Git commit for checkpoint SHA.
-103 study JPEGs registered; original 24 and recovered 55 re-inspected, one
+104 study JPEGs registered; original 24 and recovered 55 re-inspected, one
 new CT exit view, four Pit, six Long Doors/approach, four B Doors and five site
-views and four Short stair views inspected.
+views and five Short stair views inspected.
 Four current-build native radar crops have separate calibration provenance.
 Eight historical images excluded from coverage;
 all evidence remains preserved. IMAGE_REVIEW.json and IMAGE_AUDIT.json own this
 decision. Thirteen repeated floor datums are preserved as native evidence and converted separately. Engine physical conversion is accepted at 2.54 cm/source unit from two repeated spatial/axis anchors. WALK_PROBES.json
 preserves completed Pit ramp, Upper Tunnels-to-B exit, Long Doors, B Doors and Long A-to-A Site
-paths in both directions, plus Short upper landing-to-A Site and the full Catwalk-to-Short stair route. Earlier blocked/interrupted plans remain preserved. Thirteen calibrated
+paths in both directions, plus Short upper landing-to-A Site and the full Catwalk-to-Short stair route. Earlier blocked/interrupted plans remain preserved. Seventeen calibrated
 collision-feature measurements are accepted; they do not fill the full register.
 
 ## Working checkout and recovery
@@ -59,17 +59,19 @@ reuse. Do not start duplicates or trust old PIDs/status alone.
 
 ## Current limitations
 
-Thirteen accepted calibrated collision-feature measurements; full critical dimensions
+Seventeen accepted calibrated collision-feature measurements; full critical dimensions
 and render/collision bounds remain incomplete. FOV90 configured for new frames.
 RADAR_PLAN.svg has a calibrated physical grid and 13 sampled floor elevations;
 stylized plan edges and unresolved overlapping elevation layers prevent truth-map acceptance.
 Gate 1 review must include recovered image audit and walking attempts.
 engine_no_focus_sleep is temporarily 0; restore and read back 20 at closeout.
+Native m_yaw/m_pitch were both0.022; temporarily0 during survey to prevent
+mouse drift. Restore and read back0.022 at closeout.
 CLI GitHub fetch works in this session; prior network-failure note is obsolete.
 
-Latest registered walk ends near native(380,1804,103.03), Short upper landing. Thirteen Short floor-profile columns are running serially; private outputs are in ../reference_cache/crash_recovery_survey/short. Inspect each completed report before continuing; do not duplicate existing IDs.
+Latest registered walk ends near native(320,1795,96.03), middle of Short upper landing. SHORT_STAIR_PROFILE.json preserves42 repeated floor columns and one angle-mismatch reject; its calibrated CSV/plot were inspected. Low stair width rays and lower/upper floor sample rise are accepted separately in MEASUREMENTS.csv. Center-of-flight walking repeated both directions; player hull Z is not architecture. Remaining tread count/run endpoints need review.
 Pit lower/upper floor hits: (1400,350,-159.14) and (1400,700,-37.22).
 Do not use player foot position as architectural surface. Private fixture files
 are in crash_recovery_survey; Hammer has an unsaved agent-authored 128-unit cube,
 no production or source map. Opening tools interrupted one walk; finish route
-runs before switching tools. Checkpoint e453c7f contains B Doors, site views and target convention. Subsequent Short walking/images are the next checkpoint.
+runs before switching tools. Checkpoint e8d15e6 contains Short walking/images and is pushed to main. Short metric/profile work is the next checkpoint.
