@@ -1,0 +1,1437 @@
+{
+  "review_date": "2026-10-01",
+  "source_build": "25640462",
+  "scope": "Reviewed repeated connector surface points, distinguishing floor/cover/lip; no continuous surface inferred.",
+  "reports": [
+    {
+      "timestamp_utc": "2026-10-01T23:27:29.646920+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Pit / Side Pit",
+      "unit": "source_units",
+      "target_xy": [
+        1605.0,
+        500.0
+      ],
+      "probe_player_z": 180.0,
+      "initial_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1541.009766 500.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1606.8,
+            500.0,
+            78.15
+          ],
+          "xy_error": 1.7999999999999545,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1539.209717 500.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1604.99,
+            500.0,
+            78.64
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1539.209717 500.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1604.99,
+            500.0,
+            78.64
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1604.99,
+          500.0,
+          78.64
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "id": "PIT_LIP_X1605_Y500_001",
+      "surface_semantics": "West Side Pit parapet/lip top at sampled X1605/Y500; rock hull. Ground/side references show solid retaining wall, with direct jump/drop separately observed."
+    },
+    {
+      "timestamp_utc": "2026-10-01T23:27:38.357257+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Pit",
+      "unit": "source_units",
+      "target_xy": [
+        1550.0,
+        500.0
+      ],
+      "probe_player_z": 100.0,
+      "initial_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1486.009766 500.000000 100.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1553.51,
+            500.0,
+            -100.13
+          ],
+          "xy_error": 3.509999999999991,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1482.499756 500.000000 100.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1550.0,
+            500.0,
+            -100.13
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1482.499756 500.000000 100.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1550.0,
+            500.0,
+            -100.13
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1550.0,
+          500.0,
+          -100.13
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "id": "PIT_ADJACENT_X1550_Y500_001",
+      "surface_semantics": "Pit east-side lower sloped floor sample at X1550/Y500; not exact player-foot contact or total Pit depth."
+    },
+    {
+      "timestamp_utc": "2026-10-01T23:27:47.063018+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Side Pit",
+      "unit": "source_units",
+      "target_xy": [
+        1700.0,
+        500.0
+      ],
+      "probe_player_z": 180.0,
+      "initial_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1636.009766 500.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1702.2,
+            500.0,
+            55.08
+          ],
+          "xy_error": 2.2000000000000455,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 87514"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1633.809692 500.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1700.0,
+            500.0,
+            55.08
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 87514"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1633.809692 500.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1700.0,
+            500.0,
+            55.08
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 87514"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1700.0,
+          500.0,
+          55.08
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "id": "SIDE_PIT_X1700_Y500_001",
+      "surface_semantics": "Raised Side Pit terrace floor sample, independent repeat of historical datum."
+    },
+    {
+      "timestamp_utc": "2026-10-01T23:27:55.766040+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Window",
+      "unit": "source_units",
+      "target_xy": [
+        -1550.0,
+        2670.0
+      ],
+      "probe_player_z": 400.0,
+      "initial_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1613.990234 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1543.09,
+            2670.0,
+            5.12
+          ],
+          "xy_error": 6.910000000000082,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119351"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1620.900269 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1550.0,
+            2670.0,
+            5.09
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119352"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1620.900269 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1550.0,
+            2670.0,
+            5.09
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119352"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1550.0,
+          2670.0,
+          5.09
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "id": "BWINDOW_Xm1550_Y2670_001",
+      "surface_semantics": "First downward collision at explicit X/Y2670 across B Window approach. Low samples are courtyard floor; abrupt raised samples are rubble/raised connector surface. Not a continuous walkable strip or complete sill/climb interpretation."
+    },
+    {
+      "timestamp_utc": "2026-10-01T23:28:04.460423+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Window",
+      "unit": "source_units",
+      "target_xy": [
+        -1520.0,
+        2670.0
+      ],
+      "probe_player_z": 400.0,
+      "initial_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1583.990234 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1513.11,
+            2670.0,
+            6.17
+          ],
+          "xy_error": 6.8900000000001,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119356"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1590.880249 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1519.99,
+            2670.0,
+            5.86
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119356"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1590.880249 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1519.99,
+            2670.0,
+            5.86
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119356"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1519.99,
+          2670.0,
+          5.86
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "id": "BWINDOW_Xm1520_Y2670_001",
+      "surface_semantics": "First downward collision at explicit X/Y2670 across B Window approach. Low samples are courtyard floor; abrupt raised samples are rubble/raised connector surface. Not a continuous walkable strip or complete sill/climb interpretation."
+    },
+    {
+      "timestamp_utc": "2026-10-01T23:28:13.067181+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Window",
+      "unit": "source_units",
+      "target_xy": [
+        -1490.0,
+        2670.0
+      ],
+      "probe_player_z": 400.0,
+      "initial_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1553.990234 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1483.1,
+            2670.0,
+            5.64
+          ],
+          "xy_error": 6.900000000000091,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119411"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1560.890259 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1490.0,
+            2670.0,
+            5.94
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119412"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1560.890259 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1490.0,
+            2670.0,
+            5.94
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119412"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1490.0,
+          2670.0,
+          5.94
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "id": "BWINDOW_Xm1490_Y2670_001",
+      "surface_semantics": "First downward collision at explicit X/Y2670 across B Window approach. Low samples are courtyard floor; abrupt raised samples are rubble/raised connector surface. Not a continuous walkable strip or complete sill/climb interpretation."
+    },
+    {
+      "timestamp_utc": "2026-10-01T23:28:21.770363+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Window",
+      "unit": "source_units",
+      "target_xy": [
+        -1460.0,
+        2670.0
+      ],
+      "probe_player_z": 400.0,
+      "initial_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1523.990234 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1453.17,
+            2670.0,
+            9.88
+          ],
+          "xy_error": 6.829999999999927,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119417"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1530.820312 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1459.97,
+            2670.0,
+            7.98
+          ],
+          "xy_error": 0.029999999999972715,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119419"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1530.850220 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1460.0,
+            2670.0,
+            7.97
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119419"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 4,
+          "observed_pose": "setpos_exact -1530.850220 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1460.0,
+            2670.0,
+            7.97
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119419"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1460.0,
+          2670.0,
+          7.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "id": "BWINDOW_Xm1460_Y2670_001",
+      "surface_semantics": "First downward collision at explicit X/Y2670 across B Window approach. Low samples are courtyard floor; abrupt raised samples are rubble/raised connector surface. Not a continuous walkable strip or complete sill/climb interpretation."
+    },
+    {
+      "timestamp_utc": "2026-10-01T23:28:32.625707+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Window",
+      "unit": "source_units",
+      "target_xy": [
+        -1430.0,
+        2670.0
+      ],
+      "probe_player_z": 400.0,
+      "initial_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1493.990234 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1423.21,
+            2670.0,
+            12.21
+          ],
+          "xy_error": 6.789999999999964,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119418"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1500.780273 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1430.0,
+            2670.0,
+            11.92
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119420"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1500.780273 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1430.0,
+            2670.0,
+            11.92
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119420"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1430.0,
+          2670.0,
+          11.92
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "id": "BWINDOW_Xm1430_Y2670_001",
+      "surface_semantics": "First downward collision at explicit X/Y2670 across B Window approach. Low samples are courtyard floor; abrupt raised samples are rubble/raised connector surface. Not a continuous walkable strip or complete sill/climb interpretation."
+    },
+    {
+      "timestamp_utc": "2026-10-01T23:28:41.232048+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Window",
+      "unit": "source_units",
+      "target_xy": [
+        -1400.0,
+        2670.0
+      ],
+      "probe_player_z": 400.0,
+      "initial_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1463.990234 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1395.18,
+            2670.0,
+            124.81
+          ],
+          "xy_error": 4.819999999999936,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1468.810303 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1400.0,
+            2670.0,
+            124.85
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1468.810303 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1400.0,
+            2670.0,
+            124.85
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1400.0,
+          2670.0,
+          124.85
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "id": "BWINDOW_Xm1400_Y2670_001",
+      "surface_semantics": "First downward collision at explicit X/Y2670 across B Window approach. Low samples are courtyard floor; abrupt raised samples are rubble/raised connector surface. Not a continuous walkable strip or complete sill/climb interpretation."
+    },
+    {
+      "timestamp_utc": "2026-10-01T23:28:49.932655+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Window",
+      "unit": "source_units",
+      "target_xy": [
+        -1370.0,
+        2670.0
+      ],
+      "probe_player_z": 400.0,
+      "initial_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1433.990234 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1365.17,
+            2670.0,
+            124.58
+          ],
+          "xy_error": 4.829999999999927,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1438.820312 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1370.0,
+            2670.0,
+            124.62
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1438.820312 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1370.0,
+            2670.0,
+            124.62
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1370.0,
+          2670.0,
+          124.62
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "id": "BWINDOW_Xm1370_Y2670_001",
+      "surface_semantics": "First downward collision at explicit X/Y2670 across B Window approach. Low samples are courtyard floor; abrupt raised samples are rubble/raised connector surface. Not a continuous walkable strip or complete sill/climb interpretation."
+    },
+    {
+      "timestamp_utc": "2026-10-01T23:28:58.634252+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Window",
+      "unit": "source_units",
+      "target_xy": [
+        -1340.0,
+        2670.0
+      ],
+      "probe_player_z": 400.0,
+      "initial_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1403.990234 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1335.23,
+            2670.0,
+            127.88
+          ],
+          "xy_error": 4.769999999999982,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Mesh, face: 121266"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1408.760254 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1340.0,
+            2670.0,
+            127.85
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Mesh, face: 121266"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1408.760254 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1340.0,
+            2670.0,
+            127.85
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Mesh, face: 121266"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1340.0,
+          2670.0,
+          127.85
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "id": "BWINDOW_Xm1340_Y2670_001",
+      "surface_semantics": "First downward collision at explicit X/Y2670 across B Window approach. Low samples are courtyard floor; abrupt raised samples are rubble/raised connector surface. Not a continuous walkable strip or complete sill/climb interpretation."
+    },
+    {
+      "timestamp_utc": "2026-10-01T23:29:07.035967+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Window",
+      "unit": "source_units",
+      "target_xy": [
+        -1310.0,
+        2670.0
+      ],
+      "probe_player_z": 400.0,
+      "initial_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1373.990234 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1305.23,
+            2670.0,
+            127.84
+          ],
+          "xy_error": 4.769999999999982,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Mesh, face: 121278"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1378.760254 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1310.0,
+            2670.0,
+            127.97
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Mesh, face: 121278"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1378.760254 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1310.0,
+            2670.0,
+            127.97
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Mesh, face: 121278"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1310.0,
+          2670.0,
+          127.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "id": "BWINDOW_Xm1310_Y2670_001",
+      "surface_semantics": "First downward collision at explicit X/Y2670 across B Window approach. Low samples are courtyard floor; abrupt raised samples are rubble/raised connector surface. Not a continuous walkable strip or complete sill/climb interpretation."
+    },
+    {
+      "timestamp_utc": "2026-10-01T23:29:15.434842+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Window",
+      "unit": "source_units",
+      "target_xy": [
+        -1280.0,
+        2670.0
+      ],
+      "probe_player_z": 400.0,
+      "initial_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1343.990234 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1275.16,
+            2670.0,
+            123.85
+          ],
+          "xy_error": 4.839999999999918,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1348.830200 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1280.0,
+            2670.0,
+            123.9
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1348.830200 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1280.0,
+            2670.0,
+            123.9
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1280.0,
+          2670.0,
+          123.9
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "id": "BWINDOW_Xm1280_Y2670_001",
+      "surface_semantics": "First downward collision at explicit X/Y2670 across B Window approach. Low samples are courtyard floor; abrupt raised samples are rubble/raised connector surface. Not a continuous walkable strip or complete sill/climb interpretation."
+    },
+    {
+      "timestamp_utc": "2026-10-01T23:29:24.035572+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Window",
+      "unit": "source_units",
+      "target_xy": [
+        -1250.0,
+        2670.0
+      ],
+      "probe_player_z": 400.0,
+      "initial_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1313.990234 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1244.97,
+            2670.0,
+            112.95
+          ],
+          "xy_error": 5.029999999999973,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1319.020264 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1250.0,
+            2670.0,
+            112.97
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1319.020264 2670.000000 400.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1250.0,
+            2670.0,
+            112.97
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1250.0,
+          2670.0,
+          112.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "id": "BWINDOW_Xm1250_Y2670_001",
+      "surface_semantics": "First downward collision at explicit X/Y2670 across B Window approach. Low samples are courtyard floor; abrupt raised samples are rubble/raised connector surface. Not a continuous walkable strip or complete sill/climb interpretation."
+    },
+    {
+      "timestamp_utc": "2026-10-01T23:29:32.638137+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Suicide",
+      "unit": "source_units",
+      "target_xy": [
+        -450.0,
+        -500.0
+      ],
+      "probe_player_z": 140.0,
+      "initial_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -513.990234 -500.000000 140.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -447.55,
+            -500.0,
+            0.53
+          ],
+          "xy_error": 2.4499999999999886,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 55527"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -516.440247 -500.000000 140.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -450.0,
+            -500.0,
+            0.55
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 55527"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -516.440247 -500.000000 140.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -450.0,
+            -500.0,
+            0.55
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 55527"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -450.0,
+          -500.0,
+          0.55
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "id": "SUICIDE_Ym500_001",
+      "surface_semantics": "Narrow Suicide-candidate corridor floor point at X-450; concrete collision. Name boundary unconfirmed; cover/overhead and spawn-side drop require separate evidence."
+    },
+    {
+      "timestamp_utc": "2026-10-01T23:29:41.339899+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Suicide",
+      "unit": "source_units",
+      "target_xy": [
+        -450.0,
+        -350.0
+      ],
+      "probe_player_z": 140.0,
+      "initial_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -513.990234 -350.000000 140.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -447.54,
+            -350.0,
+            0.33
+          ],
+          "xy_error": 2.4599999999999795,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 60178"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -516.450256 -350.000000 140.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -450.0,
+            -350.0,
+            0.34
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 60178"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -516.450256 -350.000000 140.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -450.0,
+            -350.0,
+            0.34
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 60178"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -450.0,
+          -350.0,
+          0.34
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "id": "SUICIDE_Ym350_001",
+      "surface_semantics": "Narrow Suicide-candidate corridor floor point at X-450; concrete collision. Name boundary unconfirmed; cover/overhead and spawn-side drop require separate evidence."
+    },
+    {
+      "timestamp_utc": "2026-10-01T23:29:50.041609+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Suicide",
+      "unit": "source_units",
+      "target_xy": [
+        -450.0,
+        -200.0
+      ],
+      "probe_player_z": 140.0,
+      "initial_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -513.990234 -200.000000 140.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -447.53,
+            -200.0,
+            -0.43
+          ],
+          "xy_error": 2.4700000000000273,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 60179"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -516.460266 -200.000000 140.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -450.0,
+            -200.0,
+            -0.45
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 60179"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -516.460266 -200.000000 140.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -450.0,
+            -200.0,
+            -0.45
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 60179"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -450.0,
+          -200.0,
+          -0.45
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "id": "SUICIDE_Ym200_001",
+      "surface_semantics": "Narrow Suicide-candidate corridor floor point at X-450; concrete collision. Name boundary unconfirmed; cover/overhead and spawn-side drop require separate evidence."
+    },
+    {
+      "timestamp_utc": "2026-10-01T23:29:58.638549+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Suicide",
+      "unit": "source_units",
+      "target_xy": [
+        -450.0,
+        -50.0
+      ],
+      "probe_player_z": 140.0,
+      "initial_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -513.990234 -50.000000 140.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -447.51,
+            -50.0,
+            -1.35
+          ],
+          "xy_error": 2.490000000000009,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 61406"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -516.480225 -50.000000 140.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -450.01,
+            -50.0,
+            -1.16
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 61406"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -516.480225 -50.000000 140.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -450.01,
+            -50.0,
+            -1.16
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 61406"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -450.01,
+          -50.0,
+          -1.16
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "id": "SUICIDE_Ym50_001",
+      "surface_semantics": "Narrow Suicide-candidate corridor floor point at X-450; concrete collision. Name boundary unconfirmed; cover/overhead and spawn-side drop require separate evidence."
+    },
+    {
+      "timestamp_utc": "2026-10-01T23:30:07.228199+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Suicide",
+      "unit": "source_units",
+      "target_xy": [
+        -450.0,
+        100.0
+      ],
+      "probe_player_z": 140.0,
+      "initial_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -513.990234 100.000000 140.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -447.5,
+            100.0,
+            -2.06
+          ],
+          "xy_error": 2.5,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 61694"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -516.490234 100.000000 140.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -450.0,
+            100.0,
+            -2.05
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 61694"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -516.490234 100.000000 140.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -450.0,
+            100.0,
+            -2.05
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 61694"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -450.0,
+          100.0,
+          -2.05
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -420.000000 -50.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "id": "SUICIDE_Y100_001",
+      "surface_semantics": "Narrow Suicide-candidate corridor floor point at X-450; concrete collision. Name boundary unconfirmed; cover/overhead and spawn-side drop require separate evidence."
+    }
+  ],
+  "accepted_pairs": [
+    {
+      "id": "PIT_SAMPLE_TO_LIP_RISE",
+      "area": "Pit / Side Pit",
+      "from_report": "PIT_ADJACENT_X1550_Y500_001",
+      "to_report": "PIT_LIP_X1605_Y500_001",
+      "dimension": "rise",
+      "feature": "Local Pit floor sample to Side Pit parapet top rise",
+      "notes": "Explicit local point pair at Y500; not total area depth or minimum lip height along all edges. Two forward jumps passed, one reverse jump blocked; no universal reverse/boost impossibility inferred."
+    },
+    {
+      "id": "SIDE_PIT_SAMPLE_TO_LIP_RISE",
+      "area": "Pit / Side Pit",
+      "from_report": "SIDE_PIT_X1700_Y500_001",
+      "to_report": "PIT_LIP_X1605_Y500_001",
+      "dimension": "rise",
+      "feature": "Side Pit terrace floor sample to west parapet top rise",
+      "notes": "Explicit local point pair at Y500; not total area depth or minimum lip height along all edges. Two forward jumps passed, one reverse jump blocked; no universal reverse/boost impossibility inferred."
+    },
+    {
+      "id": "PIT_SAMPLE_TO_TERRACE_RISE",
+      "area": "Pit / Side Pit",
+      "from_report": "PIT_ADJACENT_X1550_Y500_001",
+      "to_report": "SIDE_PIT_X1700_Y500_001",
+      "dimension": "rise",
+      "feature": "Local Pit and raised Side Pit floor sample difference",
+      "notes": "Explicit local point pair at Y500; not total area depth or minimum lip height along all edges. Two forward jumps passed, one reverse jump blocked; no universal reverse/boost impossibility inferred."
+    }
+  ]
+}

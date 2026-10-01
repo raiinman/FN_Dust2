@@ -11,20 +11,20 @@ old dirty checkout preserved in4c7df48, baseline merged inab4e484. See
 [evidence/CRASH_RECOVERY_20261001.md](../evidence/CRASH_RECOVERY_20261001.md).
 The latest repository commit pins this checkpoint; fetch/check main before resume.
 
-- 161 reviewed study JPEGs, eight historical coverage exclusions preserved.
+- 172 reviewed study JPEGs, eight historical coverage exclusions preserved.
  Original24 and recovered55 re-inspected; all additions inspected individually.
  IMAGE_REVIEW/IMAGE_AUDIT/CAPTURE_CRASH_RECOVERY own hashes and rejection reasons.
 - 15 critical-area required-view sets accepted in AREA_VIEW_REVIEW; only
- Connectors remains incomplete. Five component subarea sets remain separately
+ Connectors remains incomplete. Seven component subarea sets remain separately
  recorded. View acceptance does not certify structural metric or traversal.
 - 2.54cm/native unit accepted from two repeated spatial/axis rangefinder anchors.
  UE=(2.54x,-2.54y,2.54z), inverse/length checks and native right-axis evidence pass.
  Exporter/editor round-trip is a Phase 2 check; no import accepted yet.
-- 13 repeated floor datums,54 repeated Short floor samples and50 calibrated
+- 13 repeated floor datums,54 repeated Short floor samples and53 calibrated
  feature measurements. Short has12 independently counted rendered risers and
  repeated center face rays; center run359.6132cm, sampled rise234.3912cm.
  SHORT_STAIR_FLIGHT/ANNOTATED retain individual spacing and limits.
-- 20 surveyed paths accepted both directions in WALK_PROBES, including Mid,
+- 21 surveyed paths accepted both directions in WALK_PROBES, including Mid,
  CT Spawn/Under A, Tunnel Stairs, Lower Tunnels-to-Mid and T Spawn-to-Outside Long.
  Reduced speed80 and arrival tolerance recorded. Failed plans are preserved.
  All four special jump/drop/boost connections remain unverified.
@@ -55,18 +55,28 @@ changing failed plans. Opening other tools interrupted an earlier walk.
 
 ## Active work / next action
 
-Twenty ground paths pass both directions. Direct Side Pit-to-Pit jump/drop
+Twenty-one ground paths pass both directions. Direct Side Pit-to-Pit jump/drop
 passed twice from continuous grounded approach (private003/004), stable landing;
 reverse001 jump did not clear wall. Invalid initial start001 and short002 attempt
 preserved. TRAVERSAL_PROBES.json accepts observed forward E27 jump/drop; reverse physical
 classification still pending. All four S01-S04 special connections remain unverified.
 
-Courtyard/Mid and CT/Pit/site surveys finished:24 reviewed additions registered
-across those batches, three obstructed/misdirected attempts rejected. Window/Pit/
-Suicide survey also finished privately; every frame inspected, registration pending.
-No controller currently active. Latest pose is Pit-to-Side-Pit jump001 landing.
+Connector additions: eleven reviewed Window/Pit/Suicide images registered;
+two close-wall/misdirected attempts rejected. Seven subarea view sets accepted.
+CONNECTOR_SURFACE_PROFILES retains19 repeated points: Pit lip/adjacent floor,
+B Window strip and Suicide-candidate floor. Three local Pit point-pair rises
+added to physical register. No interpolation or global reverse impossibility.
 
-1. Register remaining connector views, resolve Pit reverse bounds, Suicide and
+Suicide-candidate corridor-to-Top Mid ground path passes both directions via
+east lane X-400; straight001 hit crate. Spawn approach001 hit parapet; current
+TSPAWN_SUICIDE_JUMP_DROP_001 passed a grounded jump/drop to stable low floor.
+TRAVERSAL_PROBES records observed forward E11, repeat/reverse still pending.
+
+Active serial capture: outer_xbox_crate_plan.json, private outer_xbox_crate/.
+It captures western outer connector, Xbox and CT crate views. Inspect every
+frame and survey_progress before resume. B window climb has not yet started.
+
+1. Finish remaining connector views, resolve Pit reverse classification, Suicide and
  B Window, then test all four special jump/drop/boost connections.
 2. Fill remaining COVERAGE_MATRIX views and structural endpoints, room/cover
  spans, tunnel stairs and ramp profiles. D044 Short count/center rise/run now

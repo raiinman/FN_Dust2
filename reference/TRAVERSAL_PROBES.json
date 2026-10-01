@@ -1030,6 +1030,301 @@
         "cleanup": "movement released; noclip ON verified"
       },
       "review": "Reverse jump did not cross. Settled Pit start(1400,500,-102.334); approach reaches1552.591/-92.749; jump reaches1571.937/-37.703 then stable1571.972/-93.136. This failed attempt alone does not prove all reverse possibilities absent."
+    },
+    {
+      "private_filename": "TSPAWN_SUICIDE_JUMP_DROP_001.json",
+      "report": {
+        "id": "TSPAWN_SUICIDE_JUMP_DROP_001",
+        "source_build": "25640462",
+        "source_map": "de_dust2",
+        "unit": "source_units",
+        "config": {
+          "expected_start": {
+            "xy_radius": 5,
+            "z_max": 125,
+            "z_min": 100
+          },
+          "start": [
+            -450,
+            -900,
+            120,
+            0,
+            90
+          ],
+          "build": "25640462",
+          "id": "TSPAWN_SUICIDE_JUMP_DROP_001",
+          "actions": [
+            {
+              "label": "ground approach to spawn parapet",
+              "seconds": 1.0,
+              "command": "+forward"
+            },
+            {
+              "label": "jump from grounded approach",
+              "seconds": 0.1,
+              "command": "+jump"
+            },
+            {
+              "label": "jump released",
+              "seconds": 0.1,
+              "command": "-jump"
+            },
+            {
+              "label": "continue into low corridor",
+              "seconds": 1,
+              "command": "+forward"
+            },
+            {
+              "label": "settle after spawn drop",
+              "seconds": 1,
+              "command": "-forward"
+            }
+          ]
+        },
+        "timestamp_utc": "2026-10-01T23:37:55.395521+00:00",
+        "teleports_during_route": 0,
+        "commands": [
+          {
+            "command": "-forward; -back; -left; -right; -jump; -duck; noclip 1",
+            "requested_hold_seconds": 0.3,
+            "sent_utc": "2026-10-01T23:37:55.395521+00:00",
+            "returned_utc": "2026-10-01T23:37:55.902101+00:00",
+            "received_prints": [
+              "FN_TRAV_1\n"
+            ]
+          },
+          {
+            "command": "sv_gravity; sv_jump_impulse; sv_maxspeed",
+            "requested_hold_seconds": 0.3,
+            "sent_utc": "2026-10-01T23:37:55.903101+00:00",
+            "returned_utc": "2026-10-01T23:37:56.413323+00:00",
+            "received_prints": [
+              "sv_gravity = 800\n",
+              "sv_jump_impulse = 301.99338\n",
+              "sv_maxspeed = 320\n",
+              "FN_TRAV_2\n"
+            ]
+          },
+          {
+            "command": "setpos_exact -450 -900 120; setang_exact 0 90 0",
+            "requested_hold_seconds": 0.3,
+            "sent_utc": "2026-10-01T23:37:56.414323+00:00",
+            "returned_utc": "2026-10-01T23:37:56.923888+00:00",
+            "received_prints": [
+              "FN_TRAV_3\n"
+            ]
+          },
+          {
+            "command": "noclip 0",
+            "requested_hold_seconds": 0.7,
+            "sent_utc": "2026-10-01T23:37:56.925391+00:00",
+            "returned_utc": "2026-10-01T23:37:57.833976+00:00",
+            "received_prints": [
+              "FN_TRAV_4\n",
+              "noclip OFF\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-01T23:37:57.835484+00:00",
+            "returned_utc": "2026-10-01T23:37:58.246450+00:00",
+            "received_prints": [
+              "setpos_exact -450.000000 -900.000000 102.383545;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_5\n"
+            ]
+          },
+          {
+            "command": "+forward",
+            "requested_hold_seconds": 1.0,
+            "sent_utc": "2026-10-01T23:37:58.248451+00:00",
+            "returned_utc": "2026-10-01T23:37:59.559422+00:00",
+            "received_prints": [
+              "FN_TRAV_6\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-01T23:37:59.560422+00:00",
+            "returned_utc": "2026-10-01T23:37:59.869705+00:00",
+            "received_prints": [
+              "setpos_exact -449.848022 -660.031250 116.660172;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_7\n"
+            ]
+          },
+          {
+            "command": "+jump",
+            "requested_hold_seconds": 0.1,
+            "sent_utc": "2026-10-01T23:37:59.871705+00:00",
+            "returned_utc": "2026-10-01T23:38:00.180594+00:00",
+            "received_prints": [
+              "FN_TRAV_8\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-01T23:38:00.181595+00:00",
+            "returned_utc": "2026-10-01T23:38:00.593748+00:00",
+            "received_prints": [
+              "setpos_exact -449.842865 -654.848328 172.126953;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_9\n"
+            ]
+          },
+          {
+            "command": "-jump",
+            "requested_hold_seconds": 0.1,
+            "sent_utc": "2026-10-01T23:38:00.594748+00:00",
+            "returned_utc": "2026-10-01T23:38:00.900381+00:00",
+            "received_prints": [
+              "FN_TRAV_10\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-01T23:38:00.901382+00:00",
+            "returned_utc": "2026-10-01T23:38:01.311793+00:00",
+            "received_prints": [
+              "setpos_exact -449.831726 -565.182922 148.117188;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_11\n"
+            ]
+          },
+          {
+            "command": "+forward",
+            "requested_hold_seconds": 1,
+            "sent_utc": "2026-10-01T23:38:01.312793+00:00",
+            "returned_utc": "2026-10-01T23:38:02.625496+00:00",
+            "received_prints": [
+              "FN_TRAV_12\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-01T23:38:02.626503+00:00",
+            "returned_utc": "2026-10-01T23:38:02.936727+00:00",
+            "received_prints": [
+              "setpos_exact -449.290039 -196.689102 -0.104866;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_13\n"
+            ]
+          },
+          {
+            "command": "-forward",
+            "requested_hold_seconds": 1,
+            "sent_utc": "2026-10-01T23:38:02.938728+00:00",
+            "returned_utc": "2026-10-01T23:38:04.248761+00:00",
+            "received_prints": [
+              "FN_TRAV_14\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-01T23:38:04.249763+00:00",
+            "returned_utc": "2026-10-01T23:38:04.660650+00:00",
+            "received_prints": [
+              "setpos_exact -449.285461 -190.031250 -0.181213;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_15\n"
+            ]
+          },
+          {
+            "command": "-forward; -back; -left; -right; -jump; -duck",
+            "requested_hold_seconds": 0.3,
+            "sent_utc": "2026-10-01T23:38:04.662651+00:00",
+            "returned_utc": "2026-10-01T23:38:05.168751+00:00",
+            "received_prints": [
+              "FN_TRAV_16\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-01T23:38:05.169752+00:00",
+            "returned_utc": "2026-10-01T23:38:05.479875+00:00",
+            "received_prints": [
+              "setpos_exact -449.285461 -190.031250 -0.181213;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_17\n"
+            ]
+          },
+          {
+            "command": "-forward",
+            "requested_hold_seconds": 1,
+            "sent_utc": "2026-10-01T23:38:05.480876+00:00",
+            "returned_utc": "2026-10-01T23:38:06.791181+00:00",
+            "received_prints": [
+              "FN_TRAV_18\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-01T23:38:06.792182+00:00",
+            "returned_utc": "2026-10-01T23:38:07.203505+00:00",
+            "received_prints": [
+              "setpos_exact -449.285461 -190.031250 -0.181213;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_19\n"
+            ]
+          },
+          {
+            "command": "-forward; -back; -left; -right; -jump; -duck; noclip 1",
+            "requested_hold_seconds": 0.3,
+            "sent_utc": "2026-10-01T23:38:07.206008+00:00",
+            "returned_utc": "2026-10-01T23:38:07.717441+00:00",
+            "received_prints": [
+              "FN_TRAV_20\n",
+              "noclip ON\n"
+            ]
+          }
+        ],
+        "observations": [
+          {
+            "label": "settled start",
+            "timestamp_utc": "2026-10-01T23:37:58.247450+00:00",
+            "pose": "setpos_exact -450.000000 -900.000000 102.383545;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "ground approach to spawn parapet",
+            "timestamp_utc": "2026-10-01T23:37:59.870705+00:00",
+            "pose": "setpos_exact -449.848022 -660.031250 116.660172;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "jump from grounded approach",
+            "timestamp_utc": "2026-10-01T23:38:00.594748+00:00",
+            "pose": "setpos_exact -449.842865 -654.848328 172.126953;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "jump released",
+            "timestamp_utc": "2026-10-01T23:38:01.312793+00:00",
+            "pose": "setpos_exact -449.831726 -565.182922 148.117188;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "continue into low corridor",
+            "timestamp_utc": "2026-10-01T23:38:02.937728+00:00",
+            "pose": "setpos_exact -449.290039 -196.689102 -0.104866;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "settle after spawn drop",
+            "timestamp_utc": "2026-10-01T23:38:04.661650+00:00",
+            "pose": "setpos_exact -449.285461 -190.031250 -0.181213;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "landing check 1",
+            "timestamp_utc": "2026-10-01T23:38:05.480876+00:00",
+            "pose": "setpos_exact -449.285461 -190.031250 -0.181213;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "landing check 2",
+            "timestamp_utc": "2026-10-01T23:38:07.204505+00:00",
+            "pose": "setpos_exact -449.285461 -190.031250 -0.181213;setang_exact 0.000000 90.000000 0.000000"
+          }
+        ],
+        "status": "completed attempt; landing and traversal require review",
+        "collision_mode_reply": "noclip OFF",
+        "cleanup": "movement released; noclip ON verified"
+      },
+      "review": "Accepted observed forward: grounded spawn(-450,-900,102.384), continuous approach toY-660Z116.660, jump Z172.127, crosses toY-565Z148.117 then drops to stable(-449.285,-190.031,-0.181). Cover stops further north travel; separate E12 east-lane ground path verified. No mid-route teleport."
     }
   ],
   "accepted_directions": [
@@ -1043,6 +1338,17 @@
       ],
       "status": "accepted observed forward jump/drop",
       "limits": "Solo current-build local session, sv_gravity800, sv_jump_impulse301.99338, sv_maxspeed320. Not default-speed travel time. Reverse tested once without crossing; physical lip/floor bounds pending."
+    },
+    {
+      "id": "TSPAWN_SUICIDE_JUMP_DROP",
+      "edge": "E11",
+      "direction": "T Spawn to Suicide-candidate corridor",
+      "reports": [
+        "TSPAWN_SUICIDE_JUMP_DROP_001"
+      ],
+      "status": "accepted observed forward jump/drop",
+      "limits": "Current-build solo local defaults; one pass; repeat/reverse pending. Not ordinary walking; ground attempt stopped at parapet."
     }
   ]
 }
+

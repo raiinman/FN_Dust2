@@ -161,10 +161,12 @@
       "id": "E11",
       "from": "T Spawn",
       "to": "Suicide",
-      "mode": "drop; reverse uncertain",
+      "mode": "jump/drop; reverse unverified",
       "direction": "forward",
       "elevation": "drop",
-      "measurement": "D011"
+      "measurement": "D011",
+      "traversal_evidence": "TRAVERSAL_PROBES.json/TSPAWN_SUICIDE_JUMP_DROP",
+      "validation": "Observed grounded approach/jump/drop into low corridor with stable landing; direct ground approach stopped at parapet. Repeat/reverse bounds pending."
     },
     {
       "id": "E12",
@@ -173,7 +175,9 @@
       "mode": "walk",
       "direction": "both",
       "elevation": "survey",
-      "measurement": "D012"
+      "measurement": "D012",
+      "walking_evidence": "WALK_PROBES.json/SUICIDE_TOPMID_BOTH",
+      "validation": "Completed ground path both directions via east lane around cover; speed80/arrival20; full bounds/name identity pending."
     },
     {
       "id": "E13",

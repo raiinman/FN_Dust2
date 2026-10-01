@@ -1,10 +1,10 @@
 {
   "review_date": "2026-10-01",
   "source_build": "25640462",
-  "registered_images": 161,
+  "registered_images": 172,
   "coverage_excluded": 8,
   "complete_areas": 15,
-  "complete_subareas": 5,
+  "complete_subareas": 7,
   "declared_view_sets": [
     {
       "area": "Long Doors",
@@ -469,6 +469,53 @@
       },
       "review": "Combined individually inspected views cover directions, wall/floor arrangement and elevation relationships. Roof-covered floors supplied by ground views; tall cover has complementary plan/side context. B Window and special boosts remain separate connector work. Per-frame limitations retained; no numeric extent acceptance.",
       "remaining": "Full architectural floor/cover/aperture endpoints and slopes require measurements and render/collision bounds. Special traversal remains separate."
+    },
+    {
+      "area": "B Window",
+      "parent_area": "Connectors",
+      "taxonomy_scope": "critical_subarea",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_BWINDOW_INSIDE_RECOVERY_003"
+        ],
+        "reverse": [
+          "QA_BWINDOW_OUTSIDE_RECOVERY_002"
+        ],
+        "wall_read": [
+          "QA_BWINDOW_SIDE_RECOVERY_001"
+        ],
+        "elevation": [
+          "QA_BWINDOW_ELEVATION_RECOVERY_001"
+        ]
+      },
+      "review": "Combined inspected target views cover opening/corridor directions, wall/cover and elevation relationships. Adjacent cover and roof remain real occlusions with complementary ground views. Suicide names/extents remain provisional until native HUD confirmation; view acceptance concerns the inspected narrow corridor, not the entire parent connector taxonomy.",
+      "remaining": "Full aperture/cover/height and per-direction traversal measurements pending; no parent Connector acceptance."
+    },
+    {
+      "area": "Suicide",
+      "parent_area": "Connectors",
+      "taxonomy_scope": "critical_subarea",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_SUICIDE_FORWARD_RECOVERY_001"
+        ],
+        "reverse": [
+          "QA_SUICIDE_TOPMID_RECOVERY_001",
+          "QA_SUICIDE_SPAWN_RECOVERY_002"
+        ],
+        "wall_read": [
+          "QA_SUICIDE_FORWARD_RECOVERY_001",
+          "QA_SUICIDE_TOPMID_RECOVERY_001"
+        ],
+        "elevation": [
+          "QA_SUICIDE_ELEVATION_RECOVERY_001",
+          "QA_SUICIDE_SPAWN_RECOVERY_002"
+        ]
+      },
+      "review": "Combined inspected target views cover opening/corridor directions, wall/cover and elevation relationships. Adjacent cover and roof remain real occlusions with complementary ground views. Suicide names/extents remain provisional until native HUD confirmation; view acceptance concerns the inspected narrow corridor, not the entire parent connector taxonomy.",
+      "remaining": "Full aperture/cover/height and per-direction traversal measurements pending; no parent Connector acceptance."
     }
   ],
   "scope": "Image integrity and declared combined-view reviews; no metric or topology acceptance",
@@ -1761,6 +1808,94 @@
       "sha256": "5719a872701fe6db60daeb37aba8b2c22e335d8b2218d69df5dcc1332badd664",
       "coverage_status": "PARTIAL",
       "review": "B rear-platform perspective across full courtyard, with tunnel arch, B Doors, site/cover and stairs relationship. Near lamp/outer rear wall clip at left; courtyard remains unobstructed and complementary plan supplies rear-floor arrangement."
+    },
+    {
+      "id": "QA_BWINDOW_INSIDE_RECOVERY_002",
+      "area": "B Window",
+      "image": "reference/images/b_window/QA_BWINDOW_INSIDE_RECOVERY_002.jpg",
+      "sha256": "464cb9ab43d3b3783c49cafb28f0a6d588354ca0f02ba59ba4da1c07c82e4f1f",
+      "coverage_status": "PARTIAL",
+      "review": "Both broken aperture banks and gap visible above stepped cover. Foreground right wall screens adjacent approach, not the aperture; replacement003 requested for full approach."
+    },
+    {
+      "id": "QA_BWINDOW_OUTSIDE_RECOVERY_002",
+      "area": "B Window",
+      "image": "reference/images/b_window/QA_BWINDOW_OUTSIDE_RECOVERY_002.jpg",
+      "sha256": "8765e98dedd39bdbc93152e9b279e085724e8464a9f64c32286667765dd7546a",
+      "coverage_status": "PARTIAL",
+      "review": "Full exterior broken opening and rubble climb stack, with B doorway context left. Near cover clips below image; sill/climb dimensions unresolved."
+    },
+    {
+      "id": "QA_PIT_BOTTOM_RECOVERY_001",
+      "area": "Pit",
+      "image": "reference/images/pit/QA_PIT_BOTTOM_RECOVERY_001.jpg",
+      "sha256": "eacd34716f789afb1c444f2421a9589d7d5563e324dd32a411ee71cd3489b9a6",
+      "coverage_status": "PARTIAL",
+      "review": "Bottom closed wooden gate, full enclosing walls and curbed floor from higher ramp station. Does not make gate traversable."
+    },
+    {
+      "id": "QA_PIT_COVERED_RECOVERY_001",
+      "area": "Pit",
+      "image": "reference/images/pit/QA_PIT_COVERED_RECOVERY_001.jpg",
+      "sha256": "296a145bfcc3d069934a552d8a09c72a6603235e875e2a88632f5fd28b6053b9",
+      "coverage_status": "PARTIAL",
+      "review": "Roof underside, curbs and ramp join from inside covered bottom. Roof edge at top is real architecture; complementary reverse shows far floor/gate."
+    },
+    {
+      "id": "QA_SUICIDE_TOPMID_RECOVERY_001",
+      "area": "Suicide",
+      "image": "reference/images/suicide/QA_SUICIDE_TOPMID_RECOVERY_001.jpg",
+      "sha256": "0942e9c382658bcf57484de2d853195564be43c72c52abad4c13b58584cce0e3",
+      "coverage_status": "PARTIAL",
+      "review": "Narrow corridor southward from Top Mid side, with cover stack, overhead beams and far low exit. Name/extents and traversal still require verification."
+    },
+    {
+      "id": "QA_SUICIDE_ELEVATION_RECOVERY_001",
+      "area": "Suicide",
+      "image": "reference/images/suicide/QA_SUICIDE_ELEVATION_RECOVERY_001.jpg",
+      "sha256": "41e5eb506e80e5629b468ee5cf81b5ee95f1b9afff895ea5d722704bc5181898",
+      "coverage_status": "PARTIAL",
+      "review": "High plan of narrow corridor, overhead beam sequence, low adjoining exit and cover arrangement. Spawn-side route remains distinct and partially roof-occluded."
+    },
+    {
+      "id": "QA_BWINDOW_INSIDE_RECOVERY_003",
+      "area": "B Window",
+      "image": "reference/images/b_window/QA_BWINDOW_INSIDE_RECOVERY_003.jpg",
+      "sha256": "960fba8c0bd1bcd32b1ed39d84ca37291fa77298ee4c7e3962ca8dfbac03d129",
+      "coverage_status": "PARTIAL",
+      "review": "Complete broken aperture and inside approach visible, with timber-backed rock climb stack. Nearby B leaf clipped at right is outside aperture subject; complementary site/B Doors set supplies it."
+    },
+    {
+      "id": "QA_BWINDOW_SIDE_RECOVERY_001",
+      "area": "B Window",
+      "image": "reference/images/b_window/QA_BWINDOW_SIDE_RECOVERY_001.jpg",
+      "sha256": "932061fa41f1d24c5c49d21d46d21bb8a38f2092185387e1578ab93ed3e301f0",
+      "coverage_status": "PARTIAL",
+      "review": "Broken opening, stepped stone approach, supporting timber and adjoining B wall. Full stack height/side arrangement visible; no numeric dimensions inferred."
+    },
+    {
+      "id": "QA_BWINDOW_ELEVATION_RECOVERY_001",
+      "area": "B Window",
+      "image": "reference/images/b_window/QA_BWINDOW_ELEVATION_RECOVERY_001.jpg",
+      "sha256": "30b54234e0cf2a5fb5630fc590cfbd95f5a8075e2fbb2b0f7b2aa7a317c13a0d",
+      "coverage_status": "PARTIAL",
+      "review": "Window gap, inside platform/cover and outside rubble/stair approach shown from high oblique. Adjoining tower roof blocks part of approach, supplied by interior/exterior ground views."
+    },
+    {
+      "id": "QA_SUICIDE_SPAWN_RECOVERY_002",
+      "area": "Suicide",
+      "image": "reference/images/suicide/QA_SUICIDE_SPAWN_RECOVERY_002.jpg",
+      "sha256": "fc002f22f062c5747f062e914956ced9072eac2af41504bd2d9527f3659a3b2b",
+      "coverage_status": "PARTIAL",
+      "review": "Spawn-side parapet gap, low corridor entrance and street level relationship visible. Near facade/curb continues beyond frame, supplied by T Spawn set; no reverse traversal accepted."
+    },
+    {
+      "id": "QA_SUICIDE_FORWARD_RECOVERY_001",
+      "area": "Suicide",
+      "image": "reference/images/suicide/QA_SUICIDE_FORWARD_RECOVERY_001.jpg",
+      "sha256": "b8ca5dd366cf14fbaf76496cd0df49edbd67e40c8a2cef4b16939ca0244acc65",
+      "coverage_status": "PARTIAL",
+      "review": "Narrow northward floor route around west-side cover stack toward Top Mid, with overhead timber sequence and opposite wall. Near crate edge clipped; complementary reverse/elevation supplies its arrangement, not dimensions."
     }
   ]
 }

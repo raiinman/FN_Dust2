@@ -129,6 +129,22 @@ def build(root):
                     confidence='confirmed repeated collision section',
                     tolerance='.0508 cm outer endpoint rounding; render offset unbounded',
                     notes=profile['accepted_flight']['limits']))
+    connector_path = ref / 'CONNECTOR_SURFACE_PROFILES.json'
+    if connector_path.exists():
+        from build_connector_profile import points
+        profile = json.loads(connector_path.read_text())
+        point_by_id = points(profile)
+        for pair in profile.get('accepted_pairs', []):
+            assert pair['dimension'] in ('rise','horizontal_interval')
+            first, last = [point_by_id[pair[k]] for k in ('from_report','to_report')]
+            value = last[2]-first[2] if pair['dimension']=='rise' else math.dist(first[:2],last[:2])
+            assert value > 0
+            measurements.append(dict(id=pair['id'],area=pair['area'],feature=pair['feature'],
+                value=round(value*factor,4),unit='cm',
+                method='two reviewed repeated corrected collision points; SCALE_CALIBRATION',
+                source_id='CONNECTOR_SURFACE_PROFILES/'+pair['from_report']+';'+pair['to_report'],
+                confidence='confirmed sampled collision point-pair difference',
+                tolerance='.0508 cm output rounding; samples explicit; render offset unbounded',notes=pair['notes']))
     with (ref / 'MEASUREMENTS.csv').open('w', newline='') as f:
         w = csv.DictWriter(f,fieldnames=measurements[0].keys())
         w.writeheader(); w.writerows(measurements)

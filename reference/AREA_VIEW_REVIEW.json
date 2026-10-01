@@ -466,6 +466,53 @@
       },
       "review": "Combined individually inspected views cover directions, wall/floor arrangement and elevation relationships. Roof-covered floors supplied by ground views; tall cover has complementary plan/side context. B Window and special boosts remain separate connector work. Per-frame limitations retained; no numeric extent acceptance.",
       "remaining": "Full architectural floor/cover/aperture endpoints and slopes require measurements and render/collision bounds. Special traversal remains separate."
+    },
+    {
+      "area": "B Window",
+      "parent_area": "Connectors",
+      "taxonomy_scope": "critical_subarea",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_BWINDOW_INSIDE_RECOVERY_003"
+        ],
+        "reverse": [
+          "QA_BWINDOW_OUTSIDE_RECOVERY_002"
+        ],
+        "wall_read": [
+          "QA_BWINDOW_SIDE_RECOVERY_001"
+        ],
+        "elevation": [
+          "QA_BWINDOW_ELEVATION_RECOVERY_001"
+        ]
+      },
+      "review": "Combined inspected target views cover opening/corridor directions, wall/cover and elevation relationships. Adjacent cover and roof remain real occlusions with complementary ground views. Suicide names/extents remain provisional until native HUD confirmation; view acceptance concerns the inspected narrow corridor, not the entire parent connector taxonomy.",
+      "remaining": "Full aperture/cover/height and per-direction traversal measurements pending; no parent Connector acceptance."
+    },
+    {
+      "area": "Suicide",
+      "parent_area": "Connectors",
+      "taxonomy_scope": "critical_subarea",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_SUICIDE_FORWARD_RECOVERY_001"
+        ],
+        "reverse": [
+          "QA_SUICIDE_TOPMID_RECOVERY_001",
+          "QA_SUICIDE_SPAWN_RECOVERY_002"
+        ],
+        "wall_read": [
+          "QA_SUICIDE_FORWARD_RECOVERY_001",
+          "QA_SUICIDE_TOPMID_RECOVERY_001"
+        ],
+        "elevation": [
+          "QA_SUICIDE_ELEVATION_RECOVERY_001",
+          "QA_SUICIDE_SPAWN_RECOVERY_002"
+        ]
+      },
+      "review": "Combined inspected target views cover opening/corridor directions, wall/cover and elevation relationships. Adjacent cover and roof remain real occlusions with complementary ground views. Suicide names/extents remain provisional until native HUD confirmation; view acceptance concerns the inspected narrow corridor, not the entire parent connector taxonomy.",
+      "remaining": "Full aperture/cover/height and per-direction traversal measurements pending; no parent Connector acceptance."
     }
   ]
 }

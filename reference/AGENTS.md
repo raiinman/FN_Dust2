@@ -91,6 +91,10 @@ self-captured CS2 study screenshots for the internal benchmark.
   settled starts and explicit per-direction review. Accepted launch/crossing/
   landing evidence never certifies a reverse route or boost; failed attempts
   remain separate from proofs of physical impossibility.
+- `CONNECTOR_SURFACE_PROFILES.json` preserves repeated floor-ray reports with
+  reviewed surface semantics, including lip/cover tops. Its accepted_pairs
+  define explicit sampled rise/interval measurements; the reproducible
+  CONNECTOR_SURFACE_SAMPLES.csv never infers a continuous walkable surface.
 - Every reference must have provenance.
 - Every measurement must carry confidence.
 - Separate observed facts from inference.

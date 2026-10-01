@@ -108,6 +108,10 @@ Blender Python, Unreal automation, validation scripts, manifest processors, and 
   is connectivity evidence, never default-speed timing or special traversal.
   Inspect blocked routes before changing the waypoint plan; preserve attempts.
 - Scripts must be deterministic where inputs are unchanged.
+- `build_connector_profile.py` validates repeated corrected floor-ray points
+  and mandatory reviewed surface semantics before producing calibrated samples.
+  The physical register consumes only explicit accepted_pairs; distinguish
+  rise from horizontal interval. No interpolation or full-clearance inference.
 - `cs2_traverse.py` records configured collision jump/drop attempts with a
   reviewed settled-start region, movement-only actions, exact replies and
   timestamped poses. Start is the only teleport. It always releases movement
