@@ -167,7 +167,9 @@
       "mode": "walk",
       "direction": "both",
       "elevation": "mid descends toward doors",
-      "measurement": "D013"
+      "measurement": "D013",
+      "walking_evidence": "WALK_PROBES.json/TOPMID_MID_BOTH",
+      "validation": "Completed collision walk both directions; reduced speed80; arrival25 or20 through angled portal; no Xbox/special traversal acceptance."
     },
     {
       "id": "E14",
@@ -187,7 +189,9 @@
       "mode": "walk",
       "direction": "both",
       "elevation": "survey",
-      "measurement": "D015"
+      "measurement": "D015",
+      "walking_evidence": "WALK_PROBES.json/MID_DOORS_BOTH",
+      "validation": "Completed collision walk both directions; reduced speed80; arrival25 or20 through angled portal; no Xbox/special traversal acceptance."
     },
     {
       "id": "E16",
@@ -200,7 +204,8 @@
       "visual_evidence_ids": [
         "QA_CTMID_SURVEY_001"
       ],
-      "validation": "visual relation only; walking, collision and elevation remain pending"
+      "validation": "Completed collision walk both directions; reduced speed80; arrival25 or20 through angled portal; no Xbox/special traversal acceptance.",
+      "walking_evidence": "WALK_PROBES.json/MID_DOORS_BOTH"
     },
     {
       "id": "E17",
@@ -256,7 +261,9 @@
       "mode": "walk",
       "direction": "both",
       "elevation": "survey",
-      "measurement": "D021"
+      "measurement": "D021",
+      "walking_evidence": "WALK_PROBES.json/CTMID_CTSPAWN_BOTH",
+      "validation": "Completed collision walk both directions; speed80; arrival25; southern route avoids covered crate. Structural extents pending."
     },
     {
       "id": "E22",
@@ -265,7 +272,9 @@
       "mode": "walk",
       "direction": "both",
       "elevation": "below A platform",
-      "measurement": "D022"
+      "measurement": "D022",
+      "walking_evidence": "WALK_PROBES.json/CTSPAWN_UNDERA_LONG_BOTH",
+      "validation": "Completed collision walk both directions; speed80; arrival25; southern CT arch and Under A ramp. Architecture/elevator boost pending."
     },
     {
       "id": "E23",
@@ -274,7 +283,9 @@
       "mode": "walk",
       "direction": "both",
       "elevation": "survey",
-      "measurement": "D023"
+      "measurement": "D023",
+      "walking_evidence": "WALK_PROBES.json/CTSPAWN_UNDERA_LONG_BOTH",
+      "validation": "Completed collision walk both directions; speed80; arrival25; southern CT arch and Under A ramp. Architecture/elevator boost pending."
     },
     {
       "id": "E24",
