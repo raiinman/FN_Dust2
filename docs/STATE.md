@@ -11,11 +11,11 @@ old dirty checkout preserved in4c7df48, baseline merged inab4e484. See
 [evidence/CRASH_RECOVERY_20261001.md](../evidence/CRASH_RECOVERY_20261001.md).
 The latest repository commit pins this checkpoint; fetch/check main before resume.
 
-- 172 reviewed study JPEGs, eight historical coverage exclusions preserved.
+- 187 reviewed study JPEGs, eight historical coverage exclusions preserved.
  Original24 and recovered55 re-inspected; all additions inspected individually.
  IMAGE_REVIEW/IMAGE_AUDIT/CAPTURE_CRASH_RECOVERY own hashes and rejection reasons.
 - 15 critical-area required-view sets accepted in AREA_VIEW_REVIEW; only
- Connectors remains incomplete. Seven component subarea sets remain separately
+ Connectors remains incomplete. Eleven component subarea sets remain separately
  recorded. View acceptance does not certify structural metric or traversal.
 - 2.54cm/native unit accepted from two repeated spatial/axis rangefinder anchors.
  UE=(2.54x,-2.54y,2.54z), inverse/length checks and native right-axis evidence pass.
@@ -62,7 +62,7 @@ preserved. TRAVERSAL_PROBES.json accepts observed forward E27 jump/drop; reverse
 classification still pending. All four S01-S04 special connections remain unverified.
 
 Connector additions: eleven reviewed Window/Pit/Suicide images registered;
-two close-wall/misdirected attempts rejected. Seven subarea view sets accepted.
+two close-wall/misdirected attempts rejected. Eleven subarea view sets accepted.
 CONNECTOR_SURFACE_PROFILES retains19 repeated points: Pit lip/adjacent floor,
 B Window strip and Suicide-candidate floor. Three local Pit point-pair rises
 added to physical register. No interpolation or global reverse impossibility.
@@ -72,9 +72,13 @@ east lane X-400; straight001 hit crate. Spawn approach001 hit parapet; current
 TSPAWN_SUICIDE_JUMP_DROP_001 passed a grounded jump/drop to stable low floor.
 TRAVERSAL_PROBES records observed forward E11, repeat/reverse still pending.
 
-Active serial capture: outer_xbox_crate_plan.json, private outer_xbox_crate/.
-It captures western outer connector, Xbox and CT crate views. Inspect every
-frame and survey_progress before resume. B window climb has not yet started.
+No survey capture controller remains active. Outer connector and Xbox/CT crate
+replacement batches completed and were individually inspected. Fifteen additions
+registered, seven new clipped/misdirected target attempts rejected and preserved;
+four additional subarea sets accepted. Parent Connector taxonomy review remains.
+B_WINDOW_INTERIOR_CLIMB_001 walked to the first rock but stopped atY2565.94;
+configured B_WINDOW_CLIMB_JUMP_001 is the next live attempt. Check its private JSON
+and live process before continuing. No simultaneous pose controllers.
 
 1. Finish remaining connector views, resolve Pit reverse classification, Suicide and
  B Window, then test all four special jump/drop/boost connections.

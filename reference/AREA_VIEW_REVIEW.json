@@ -513,6 +513,94 @@
       },
       "review": "Combined inspected target views cover opening/corridor directions, wall/cover and elevation relationships. Adjacent cover and roof remain real occlusions with complementary ground views. Suicide names/extents remain provisional until native HUD confirmation; view acceptance concerns the inspected narrow corridor, not the entire parent connector taxonomy.",
       "remaining": "Full aperture/cover/height and per-direction traversal measurements pending; no parent Connector acceptance."
+    },
+    {
+      "area": "T Ramp",
+      "parent_area": "Connectors",
+      "taxonomy_scope": "critical_subarea",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_TRAMP_FORWARD_RECOVERY_001"
+        ],
+        "reverse": [
+          "QA_TRAMP_REVERSE_RECOVERY_001"
+        ],
+        "wall_read": [
+          "QA_TRAMP_SIDE_RECOVERY_001"
+        ],
+        "elevation": [
+          "QA_TRAMP_ELEVATION_RECOVERY_001"
+        ]
+      },
+      "review": "Combined individually inspected views cover route directions, side arrangement and elevation. Elevated reverse views show cover tops and approach; ground sides supply bases and faces. Individual occlusion limits retained.",
+      "remaining": "Structural dimensions and special traversal remain separate; no parent Connector acceptance."
+    },
+    {
+      "area": "Outside Tunnels",
+      "parent_area": "Connectors",
+      "taxonomy_scope": "critical_subarea",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_OUTTUN_FORWARD_RECOVERY_002"
+        ],
+        "reverse": [
+          "QA_OUTTUN_REVERSE_RECOVERY_001"
+        ],
+        "wall_read": [
+          "QA_OUTTUN_SIDE_RECOVERY_001"
+        ],
+        "elevation": [
+          "QA_OUTTUN_ELEVATION_RECOVERY_001"
+        ]
+      },
+      "review": "Combined individually inspected views cover route directions, side arrangement and elevation. Elevated reverse views show cover tops and approach; ground sides supply bases and faces. Individual occlusion limits retained.",
+      "remaining": "Structural dimensions and special traversal remain separate; no parent Connector acceptance."
+    },
+    {
+      "area": "Xbox",
+      "parent_area": "Connectors",
+      "taxonomy_scope": "critical_subarea",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_XBOX_FORWARD_RECOVERY_002"
+        ],
+        "reverse": [
+          "QA_XBOX_REVERSE_RECOVERY_002"
+        ],
+        "wall_read": [
+          "QA_XBOX_SIDE_RECOVERY_001"
+        ],
+        "elevation": [
+          "QA_XBOX_ELEVATION_RECOVERY_002"
+        ]
+      },
+      "review": "Combined individually inspected views cover route directions, side arrangement and elevation. Elevated reverse views show cover tops and approach; ground sides supply bases and faces. Individual occlusion limits retained.",
+      "remaining": "Structural dimensions and special traversal remain separate; no parent Connector acceptance."
+    },
+    {
+      "area": "CT crate climb",
+      "parent_area": "Connectors",
+      "taxonomy_scope": "critical_subarea",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_UNDERA_SIDE_RECOVERY_001"
+        ],
+        "reverse": [
+          "QA_CTCRATES_REVERSE_RECOVERY_003"
+        ],
+        "wall_read": [
+          "QA_CTCRATES_SIDE_RECOVERY_001"
+        ],
+        "elevation": [
+          "QA_CTCRATES_ELEVATION_RECOVERY_001"
+        ]
+      },
+      "review": "Combined individually inspected views cover route directions, side arrangement and elevation. Elevated reverse views show cover tops and approach; ground sides supply bases and faces. Individual occlusion limits retained.",
+      "remaining": "Structural dimensions and special traversal remain separate; no parent Connector acceptance."
     }
   ]
 }

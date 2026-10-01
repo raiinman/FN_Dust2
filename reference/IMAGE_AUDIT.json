@@ -1,10 +1,10 @@
 {
   "review_date": "2026-10-01",
   "source_build": "25640462",
-  "registered_images": 172,
+  "registered_images": 187,
   "coverage_excluded": 8,
   "complete_areas": 15,
-  "complete_subareas": 7,
+  "complete_subareas": 11,
   "declared_view_sets": [
     {
       "area": "Long Doors",
@@ -516,6 +516,94 @@
       },
       "review": "Combined inspected target views cover opening/corridor directions, wall/cover and elevation relationships. Adjacent cover and roof remain real occlusions with complementary ground views. Suicide names/extents remain provisional until native HUD confirmation; view acceptance concerns the inspected narrow corridor, not the entire parent connector taxonomy.",
       "remaining": "Full aperture/cover/height and per-direction traversal measurements pending; no parent Connector acceptance."
+    },
+    {
+      "area": "T Ramp",
+      "parent_area": "Connectors",
+      "taxonomy_scope": "critical_subarea",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_TRAMP_FORWARD_RECOVERY_001"
+        ],
+        "reverse": [
+          "QA_TRAMP_REVERSE_RECOVERY_001"
+        ],
+        "wall_read": [
+          "QA_TRAMP_SIDE_RECOVERY_001"
+        ],
+        "elevation": [
+          "QA_TRAMP_ELEVATION_RECOVERY_001"
+        ]
+      },
+      "review": "Combined individually inspected views cover route directions, side arrangement and elevation. Elevated reverse views show cover tops and approach; ground sides supply bases and faces. Individual occlusion limits retained.",
+      "remaining": "Structural dimensions and special traversal remain separate; no parent Connector acceptance."
+    },
+    {
+      "area": "Outside Tunnels",
+      "parent_area": "Connectors",
+      "taxonomy_scope": "critical_subarea",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_OUTTUN_FORWARD_RECOVERY_002"
+        ],
+        "reverse": [
+          "QA_OUTTUN_REVERSE_RECOVERY_001"
+        ],
+        "wall_read": [
+          "QA_OUTTUN_SIDE_RECOVERY_001"
+        ],
+        "elevation": [
+          "QA_OUTTUN_ELEVATION_RECOVERY_001"
+        ]
+      },
+      "review": "Combined individually inspected views cover route directions, side arrangement and elevation. Elevated reverse views show cover tops and approach; ground sides supply bases and faces. Individual occlusion limits retained.",
+      "remaining": "Structural dimensions and special traversal remain separate; no parent Connector acceptance."
+    },
+    {
+      "area": "Xbox",
+      "parent_area": "Connectors",
+      "taxonomy_scope": "critical_subarea",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_XBOX_FORWARD_RECOVERY_002"
+        ],
+        "reverse": [
+          "QA_XBOX_REVERSE_RECOVERY_002"
+        ],
+        "wall_read": [
+          "QA_XBOX_SIDE_RECOVERY_001"
+        ],
+        "elevation": [
+          "QA_XBOX_ELEVATION_RECOVERY_002"
+        ]
+      },
+      "review": "Combined individually inspected views cover route directions, side arrangement and elevation. Elevated reverse views show cover tops and approach; ground sides supply bases and faces. Individual occlusion limits retained.",
+      "remaining": "Structural dimensions and special traversal remain separate; no parent Connector acceptance."
+    },
+    {
+      "area": "CT crate climb",
+      "parent_area": "Connectors",
+      "taxonomy_scope": "critical_subarea",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_UNDERA_SIDE_RECOVERY_001"
+        ],
+        "reverse": [
+          "QA_CTCRATES_REVERSE_RECOVERY_003"
+        ],
+        "wall_read": [
+          "QA_CTCRATES_SIDE_RECOVERY_001"
+        ],
+        "elevation": [
+          "QA_CTCRATES_ELEVATION_RECOVERY_001"
+        ]
+      },
+      "review": "Combined individually inspected views cover route directions, side arrangement and elevation. Elevated reverse views show cover tops and approach; ground sides supply bases and faces. Individual occlusion limits retained.",
+      "remaining": "Structural dimensions and special traversal remain separate; no parent Connector acceptance."
     }
   ],
   "scope": "Image integrity and declared combined-view reviews; no metric or topology acceptance",
@@ -1896,6 +1984,126 @@
       "sha256": "b8ca5dd366cf14fbaf76496cd0df49edbd67e40c8a2cef4b16939ca0244acc65",
       "coverage_status": "PARTIAL",
       "review": "Narrow northward floor route around west-side cover stack toward Top Mid, with overhead timber sequence and opposite wall. Near crate edge clipped; complementary reverse/elevation supplies its arrangement, not dimensions."
+    },
+    {
+      "id": "QA_OUTTUN_ELEVATION_RECOVERY_001",
+      "area": "Outside Tunnels",
+      "image": "reference/images/outside_tunnels/QA_OUTTUN_ELEVATION_RECOVERY_001.jpg",
+      "sha256": "df6231829395b194795b442fc523f80f1214d0f69b5a40248c597e74cfa2a850",
+      "coverage_status": "PARTIAL",
+      "review": "Entrance, courtyard and step/recess arrangement; complete arch supplied by forward002."
+    },
+    {
+      "id": "QA_OUTTUN_FORWARD_RECOVERY_002",
+      "area": "Outside Tunnels",
+      "image": "reference/images/outside_tunnels/QA_OUTTUN_FORWARD_RECOVERY_002.jpg",
+      "sha256": "e5a7c59c35d62f8c8c050682ed14bb6515199671ee3435fa22f307fe9350ac32",
+      "coverage_status": "PARTIAL",
+      "review": "Complete outer Upper arch, threshold and entry flight; upper facade roof outside subject clips frame."
+    },
+    {
+      "id": "QA_OUTTUN_REVERSE_RECOVERY_001",
+      "area": "Outside Tunnels",
+      "image": "reference/images/outside_tunnels/QA_OUTTUN_REVERSE_RECOVERY_001.jpg",
+      "sha256": "cdffc43e5663880ca43fa63ca14d77f7469facce48a9a37612fb453e4aed1a12",
+      "coverage_status": "PARTIAL",
+      "review": "Entrance toward courtyard and western ramp; near right wall obscures floor edge, supplied by side and plan."
+    },
+    {
+      "id": "QA_OUTTUN_SIDE_RECOVERY_001",
+      "area": "Outside Tunnels",
+      "image": "reference/images/outside_tunnels/QA_OUTTUN_SIDE_RECOVERY_001.jpg",
+      "sha256": "20fe30c5f4909e3087ae8f410434d056eb9f2a35637aa837163fcd15670b7df7",
+      "coverage_status": "PARTIAL",
+      "review": "Western courtyard facade, curbs and entrance step rim; wall continuation beyond frame supplied by plan."
+    },
+    {
+      "id": "QA_TRAMP_ELEVATION_RECOVERY_001",
+      "area": "T Ramp",
+      "image": "reference/images/t_ramp/QA_TRAMP_ELEVATION_RECOVERY_001.jpg",
+      "sha256": "89f78f42cde43e827771dd1067252e01aa279e0b8f50a28a97ab28b059fc53d2",
+      "coverage_status": "PARTIAL",
+      "review": "High view of courtyard, western ramp and side stairs; spawn street edge supplied by ground views."
+    },
+    {
+      "id": "QA_TRAMP_FORWARD_RECOVERY_001",
+      "area": "T Ramp",
+      "image": "reference/images/t_ramp/QA_TRAMP_FORWARD_RECOVERY_001.jpg",
+      "sha256": "8e138168af47d098774a02a2937e68675e63564c03b6856a16af98a8932a1259",
+      "coverage_status": "PARTIAL",
+      "review": "Western ramp forward to courtyard and Upper facade; foreground western wall clips near edge, complemented by reverse and plan."
+    },
+    {
+      "id": "QA_TRAMP_REVERSE_RECOVERY_001",
+      "area": "T Ramp",
+      "image": "reference/images/t_ramp/QA_TRAMP_REVERSE_RECOVERY_001.jpg",
+      "sha256": "b5cf84e70038f3426f7701b27b2caa2ff38515e1dce3da6bcb27efcb1d44c1d7",
+      "coverage_status": "PARTIAL",
+      "review": "Full western ramp, parallel stairs and spawn street join; complementary forward supplies courtyard destination."
+    },
+    {
+      "id": "QA_TRAMP_SIDE_RECOVERY_001",
+      "area": "T Ramp",
+      "image": "reference/images/t_ramp/QA_TRAMP_SIDE_RECOVERY_001.jpg",
+      "sha256": "fbdc1b3e7e1a242b203c7f350d46dff903d211b427a8c00e4c1f25fe9354f43d",
+      "coverage_status": "PARTIAL",
+      "review": "Courtyard retaining wall, curbs and ramp side; stair edge supplied by reverse."
+    },
+    {
+      "id": "QA_XBOX_SIDE_RECOVERY_001",
+      "area": "Xbox",
+      "image": "reference/images/xbox/QA_XBOX_SIDE_RECOVERY_001.jpg",
+      "sha256": "fec4186c38e236d2999093489a50dbbdd371eb33473cc04d68cd11a4d4149622",
+      "coverage_status": "PARTIAL",
+      "review": "Complete wooden crate cover and base, Catwalk parapet behind; no inferred dimensions."
+    },
+    {
+      "id": "QA_CTCRATES_ELEVATION_RECOVERY_001",
+      "area": "CT crate climb",
+      "image": "reference/images/ct_crates/QA_CTCRATES_ELEVATION_RECOVERY_001.jpg",
+      "sha256": "df84e3bf4b836d65109ff935aaa65a22f2a8018b0de2c05e5d11e7fa2e07220d",
+      "coverage_status": "PARTIAL",
+      "review": "Crate tops and footprint below Short platform; bases occluded from above, supplied by ground side view."
+    },
+    {
+      "id": "QA_CTCRATES_SIDE_RECOVERY_001",
+      "area": "CT crate climb",
+      "image": "reference/images/ct_crates/QA_CTCRATES_SIDE_RECOVERY_001.jpg",
+      "sha256": "d4582d23e2818a47892549431f8c808ab7bb230e1d64844d31aa27584e78fcc6",
+      "coverage_status": "PARTIAL",
+      "review": "Complete stepped crate stack, ground bases and tops beside CT arch and Short lip."
+    },
+    {
+      "id": "QA_XBOX_ELEVATION_RECOVERY_002",
+      "area": "Xbox",
+      "image": "reference/images/xbox/QA_XBOX_ELEVATION_RECOVERY_002.jpg",
+      "sha256": "34af1377b2ce7419f1b1395c88b3682905311889314c8e79d3cf116ed99a83f1",
+      "coverage_status": "PARTIAL",
+      "review": "Complete crate top footprint, Catwalk lip, steps and ground arrangement; ground views supply side/base."
+    },
+    {
+      "id": "QA_XBOX_FORWARD_RECOVERY_002",
+      "area": "Xbox",
+      "image": "reference/images/xbox/QA_XBOX_FORWARD_RECOVERY_002.jpg",
+      "sha256": "b74c39e7cf6e0a1e12a8c8ba0b5608dfbc16b7f73ab009c373301a145c462481",
+      "coverage_status": "PARTIAL",
+      "review": "Complete crate stack/base, adjacent steps and Catwalk wall; lamp pole occludes narrow strip supplied by side."
+    },
+    {
+      "id": "QA_XBOX_REVERSE_RECOVERY_002",
+      "area": "Xbox",
+      "image": "reference/images/xbox/QA_XBOX_REVERSE_RECOVERY_002.jpg",
+      "sha256": "e5e5e4b23fbfb4ce427a8f96e99e006300907ef26e637d20f076d64f603a41e0",
+      "coverage_status": "PARTIAL",
+      "review": "Reverse elevated approach from Catwalk showing crate top below parapet; base occluded by wall, supplied by forward and side."
+    },
+    {
+      "id": "QA_CTCRATES_REVERSE_RECOVERY_003",
+      "area": "CT crate climb",
+      "image": "reference/images/ct_crates/QA_CTCRATES_REVERSE_RECOVERY_003.jpg",
+      "sha256": "ea1650c4d8de851f863c629c816a80f35d190b6c220e98714fac554a143e00fb",
+      "coverage_status": "PARTIAL",
+      "review": "Full arrangement of stepped crate tops below Short lip seen from reverse platform approach; lower faces occluded from above, supplied by side ground view. No traversal or dimension inferred."
     }
   ]
 }
