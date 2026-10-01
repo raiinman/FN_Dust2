@@ -6,7 +6,8 @@ Own reference provenance, area taxonomy, measurement inputs, and truth-map artif
 
 ## Ownership
 
-This folder contains reference metadata and derived measurement records. Avoid committing third-party media unless redistribution is permitted.
+This folder contains reference metadata, derived measurements and user-authorized
+self-captured CS2 study screenshots for the internal benchmark.
 
 - `SOURCE_REVISION.md` pins the installed benchmark and revision checks.
 - `REFERENCE_MANIFEST.csv` owns provenance; URL discovery alone is not view coverage.
@@ -25,6 +26,14 @@ This folder contains reference metadata and derived measurement records. Avoid c
 - `CAPTURE_CT_RECOVERY.json` records reviewed persistent-connection captures,
   exact source poses and local-only hashes; coverage/FOV limitations remain explicit.
 
+- `CAPTURE_DISCOVERY_BATCH.json` records inspected A/B/Catwalk/overhead views,
+  poses, configured FOV and limitations.
+- `images/` contains GitHub-visible study screenshots, organized by named area.
+- `RAW_DIMENSIONS.csv` contains native collision chords, separate from the
+  canonical centimeter production register.
+- `RAW_SURFACE_PROBES.json` records repeated source-unit collision observations;
+  it is not centimeter calibration.
+
 ## Local Contracts
 
 - Every reference must have provenance.
@@ -32,8 +41,11 @@ This folder contains reference metadata and derived measurement records. Avoid c
 - Separate observed facts from inference.
 - Use named-area taxonomy from `docs/REFERENCE_STANDARD.md`.
 - Do not store ripped proprietary game assets.
-- Capture media stays outside Git unless reuse is cleared. Commit metadata,
-  hashes, camera poses and derived measurements instead.
+- User explicitly requested self-captured reference screenshots on GitHub. Store
+  reviewed images under images/<area>/ with pose, hash and provenance. Raw TGA,
+  console logs, loading screens and unrelated desktop screenshots stay outside Git.
+- This scoped storage instruction does not authorize extraction of game assets
+  or public benchmark release. Third-party downloaded media requires separate clearance.
 
 ## Work Guidance
 

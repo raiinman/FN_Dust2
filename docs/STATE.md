@@ -13,7 +13,14 @@ live pose and five screenshot replies. All five images were visually inspected.
 Camera poses, hashes, source identity and limitations are recorded in
 reference/CAPTURE_CT_RECOVERY.json and evidence/CONSOLE_RECOVERY.md.
 Reference manifest now has five additional reviewed CT Spawn records.
-No physical dimensions accepted; calibrated truth map remains incomplete.
+Nine reviewed screenshots are committed under reference/images/ at
+the user's explicit request. Settled-pose ray survey recorded 12 observations;
+CT native collision chords are 480.28 and 528.31 source units. Physical scale
+is unresolved; these are not accepted centimeter dimensions. fov_cs_debug 90
+was set/read back after the original five captures. Four more captures show
+A Site toward Long, B Site toward tunnels, Catwalk toward Mid Doors and an
+overhead perspective of the current-build footprint. Roof occlusion prevents
+calling this a calibrated truth map. Metadata: CAPTURE_DISCOVERY_BATCH.json.
 See newest Git commit for checkpoint SHA.
 
 ## Current objective
@@ -28,17 +35,22 @@ Complete current-build directional reference coverage and metric calibration.
    A second worker at ../work/cs2_live_20261001 (observed 42912) connected but
    returned no output. It remains open to avoid an untested socket shutdown.
    Do not start a third worker or close live sockets casually.
-2. Continue CT Spawn survey from raw source pose
-   (160.122742,2369.676270,-119.918701). FOV and eye/origin convention unresolved.
+2. Latest survey camera is at source pose (-300,1000,100), yaw 90, on Catwalk.
+   Continue directional coverage for A/B/Mid/Catwalk and remaining areas.
+   CT Spawn survey starts from raw source pose
+   (160.122742,2369.676270,-119.918701). Camera eye/origin convention unresolved.
    +X view shows ramp/stairs; +Y barred arch; -X crate blocks reverse passage;
    -Y view contains ray debug annotation. Relocate for unobstructed reverse
    and elevation views; obtain clean side capture. Heading labels are source
    axes, not a calibrated geographic compass.
 3. Expand named-area views with short relative screenshot basenames using
    scripts/cs2_capture.py --session. Inspect every image before counting coverage.
-   Keep media outside Git. engine_no_focus_sleep 20 was restored and verified.
+   Commit reviewed study images with provenance; raw TGA/logs stay outside Git.
+   engine_no_focus_sleep 20 was restored and verified.
 4. Survey repeated collision endpoints and record physical/axis calibration.
    Player origin is not a wall endpoint. Do not infer centimeters from source units.
+   RAW_SURFACE_PROBES.json has repeated native hits; vertical rays have lateral
+   offsets and cannot yet be used as a collinear floor/ceiling measurement.
 5. Validate route graph and create calibrated annotated truth map.
 6. Run Gate 1 review and commit evidence; begin Phase 2 only on PASS.
 
@@ -46,7 +58,7 @@ Complete current-build directional reference coverage and metric calibration.
 
 - No callable desktop-input API in this session. Screenshots supplied by user
   confirmed running game/tools without a visible error; scripted capture works.
-- Full directional coverage, camera FOV and metric calibration are incomplete.
+- Full directional coverage, effective FOV and metric calibration are incomplete.
 - MEASUREMENTS.csv has no accepted physical measurements.
 - Five current captures establish transport continuity, not that error 10038
   is permanently fixed. Stop on missing reply or error; inspect before retrying.

@@ -105,16 +105,20 @@ Default section order:
 ## User Preferences
 
 - Optimize for reliable execution, visual evidence, and low ambiguity.
+- Commit self-captured CS2 reference screenshots with provenance to this internal
+  benchmark, as explicitly instructed by the user on 2026-10-01. Exclude unrelated
+  desktop windows and extracted game assets. Screenshot storage is not rights
+  clearance for public distribution of the benchmark.
 - Do not substitute "looks good" for a measurable gate.
 - When a tool times out or reports low compute, resume from durable state instead of restarting the whole phase.
 
 ## Child DOX Index
 
-- `docs/AGENTS.md` — specifications, phases, state, QA standards, and handoffs.
-- `reference/AGENTS.md` — reference acquisition, provenance, and measurement records.
-- `blender/AGENTS.md` — deterministic master geometry and Blender-side production.
-- `unreal/AGENTS.md` — Unreal Engine visual-master production.
-- `uefn/AGENTS.md` — UEFN conversion, gameplay compatibility, and optimization.
-- `qa/AGENTS.md` — fixed-camera manifests and visual/metric QA.
-- `scripts/AGENTS.md` — automation and reproducibility tooling.
-- `evidence/AGENTS.md` — gate evidence packages and acceptance records.
+- `docs/AGENTS.md` â€” specifications, phases, state, QA standards, and handoffs.
+- `reference/AGENTS.md` â€” reference acquisition, provenance, and measurement records.
+- `blender/AGENTS.md` â€” deterministic master geometry and Blender-side production.
+- `unreal/AGENTS.md` â€” Unreal Engine visual-master production.
+- `uefn/AGENTS.md` â€” UEFN conversion, gameplay compatibility, and optimization.
+- `qa/AGENTS.md` â€” fixed-camera manifests and visual/metric QA.
+- `scripts/AGENTS.md` â€” automation and reproducibility tooling.
+- `evidence/AGENTS.md` â€” gate evidence packages and acceptance records.

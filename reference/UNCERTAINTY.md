@@ -6,10 +6,10 @@ Baseline: CS2 build 25640462, 2026-10-01 UTC.
 | ID | Unknown | Present bound | Required resolution |
 | --- | --- | --- | --- |
 | U01 | Capture continuity | Existing persistent worker verified; five pose-recorded captures inspected; one reverse view occluded and one side view has ray overlay | Complete relocated CT views and FOV recording; extend repeatable coverage to other areas |
-| U02 | Critical lengths/widths | No defensible physical numeric bounds yet | Repeated endpoints or calibrated multiview survey |
+| U02 | Critical lengths/widths | CT Spawn native collision chords measured 480.28 and 528.31 source units; physical bounds unresolved | Repeated endpoints or calibrated multiview survey |
 | U03 | Elevations/slopes/stairs | Qualitative relations only | Floor endpoints, stair counts and rise/run readings |
 | U04 | Map scale and axes | UE uses centimeters; source physical calibration unresolved | Document conversion and two independent scale anchors |
-| U05 | Per-area directional coverage | One partial CT Spawn world view with HUD/bot occlusion and missing pose; other areas absent | Complete pose-pinned forward/reverse/side/elevation views for all areas |
+| U05 | Per-area directional coverage | Five pose-recorded CT Spawn views inspected; reverse occlusion and debug overlay remain; A/B/Catwalk and overhead discovery views added; other areas incomplete | Complete pose-pinned forward/reverse/side/elevation views for all areas |
 | U06 | Revision-sensitive traversal | Four special connections in TOPOLOGY.json unverified | Current-build jump/drop/boost tests; record each direction |
 | U07 | Source image revision | Web radars have no matching installed-build identity | Crosscheck against current local captures |
 | U08 | Current truth-map footprint | Annotation/adjacency only; no surveyed boundary or metric grid | Calibrated footprint and elevation layers |

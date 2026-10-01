@@ -29,7 +29,9 @@ Blender Python, Unreal automation, validation scripts, manifest processors, and 
   It also verifies two commands on one connection with a partial intervening frame.
 - `cs2_capture.py` is a live-tested capture helper: safe relative
   short lowercase hashed screenshot basenames, live pose, local-only TGA/PNG
-  and hashes. Descriptive IDs remain in metadata. Its PNG preview
+  and hashes. Raw media is staged outside Git; reviewed study-image derivatives
+  are committed under reference/images/ per the user instruction.
+  Descriptive IDs remain in metadata. Its PNG preview
   was visually checked against a real loading-screen capture; full capture
   automation has passed five sequential captures on the existing persistent
   worker. Full named-area coverage and camera FOV calibration remain incomplete. Do not count a file as usable reference coverage
@@ -42,6 +44,11 @@ Blender Python, Unreal automation, validation scripts, manifest processors, and 
 - `reference_batch.py` derives reference metadata, normalized plan locators,
   survey tasks and the route summary from inspected HTML and TOPOLOGY.json.
   Its output remains provisional until current-build survey validation.
+
+- `cs2_probe_surfaces.py` repeats six cardinal/vertical rays twice, saves every
+  completed observation, and restores orientation through the existing worker.
+  Output is raw collision evidence in source units. Surface interpretation and
+  physical-scale calibration must be reviewed before production use.
 
 ## Local Contracts
 
