@@ -10,20 +10,21 @@ Phase 0 complete. User requested Phase 2 after Phase 1 passes, never before.
 Crash recovery: GitHub baseline 35eaa64212857d1890faaba6a3be03f2f229c61a;
 preserved old checkout work in 4c7df48 and merged baseline in ab4e484.
 See evidence/CRASH_RECOVERY_20261001.md and latest Git commit for checkpoint SHA.
-104 study JPEGs registered; original 24 and recovered 55 re-inspected, one
+109 study JPEGs registered; original 24 and recovered 55 re-inspected, one
 new CT exit view, four Pit, six Long Doors/approach, four B Doors and five site
-views and five Short stair views inspected.
+views, five Short stair views and five Catwalk views inspected.
 Four current-build native radar crops have separate calibration provenance.
 One native HUD crop confirms Top of Mid at exact source(-450,300,5); the full
-Suicide boundary is unresolved. Reverse Catwalk walking currently running,
-private report UPPER_MID_TO_CATWALK_RECOVERY_002.json; inspect before resume.
-Two critical-area combined view sets (Long Doors/B Doors) and Short Stairs
-subarea accepted in AREA_VIEW_REVIEW.json; metric/other-area gaps remain.
+Suicide boundary is unresolved. Catwalk walking passed both directions around entrance barrels.
+Top Mid-to-CT Spawn route currently running in private report
+TOPMID_TO_CTSPAWN_RECOVERY_002.json; inspect before resume.
+Two critical-area combined view sets (Long Doors/B Doors) and Short Stairs and Catwalk
+subareas accepted in AREA_VIEW_REVIEW.json; metric/other-area gaps remain.
 Eight historical images excluded from coverage;
 all evidence remains preserved. IMAGE_REVIEW.json and IMAGE_AUDIT.json own this
 decision. Thirteen repeated floor datums are preserved as native evidence and converted separately. Engine physical conversion is accepted at 2.54 cm/source unit from two repeated spatial/axis anchors. WALK_PROBES.json
 preserves completed Pit ramp, Upper Tunnels-to-B exit, Long Doors, B Doors and Long A-to-A Site
-paths in both directions, plus Short upper landing-to-A Site and the full Catwalk-to-Short stair route. Earlier blocked/interrupted plans remain preserved. Seventeen calibrated
+paths in both directions, plus Short upper landing-to-A Site and the full Catwalk-to-Short stair route. Earlier blocked/interrupted plans remain preserved. Nineteen calibrated
 collision-feature measurements are accepted; they do not fill the full register.
 
 ## Working checkout and recovery
@@ -64,7 +65,7 @@ reuse. Do not start duplicates or trust old PIDs/status alone.
 
 ## Current limitations
 
-Seventeen accepted calibrated collision-feature measurements; full critical dimensions
+Nineteen accepted calibrated collision-feature measurements; full critical dimensions
 and render/collision bounds remain incomplete. FOV90 configured for new frames.
 RADAR_PLAN.svg has a calibrated physical grid and 13 sampled floor elevations;
 stylized plan edges and unresolved overlapping elevation layers prevent truth-map acceptance.
@@ -79,4 +80,4 @@ Pit lower/upper floor hits: (1400,350,-159.14) and (1400,700,-37.22).
 Do not use player foot position as architectural surface. Private fixture files
 are in crash_recovery_survey; Hammer has an unsaved agent-authored 128-unit cube,
 no production or source map. Opening tools interrupted one walk; finish route
-runs before switching tools. Checkpoint5545b05 contains Short metric/profile and center walks, pushed to main. Combined-view review and Catwalk walking are the next checkpoint.
+runs before switching tools. Checkpoint5545b05 contains Short metric/profile and center walks, pushed to main. Checkpoint3407edf pins combined view review and native Top Mid name. Catwalk images/widths/walking are the next checkpoint.

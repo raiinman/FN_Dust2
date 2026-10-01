@@ -2556,6 +2556,321 @@
           "notes": "Local eye-level cross-section; does not imply uniform flight width. Corresponding walls/parapet visible in reviewed stair views. Player width clearance is separately supported by walking."
         }
       ]
+    },
+    {
+      "id": "CATWALK_WALL_SECTIONS_001",
+      "source_build": "25640462",
+      "area": "Catwalk",
+      "source_map": "de_dust2",
+      "timestamp_utc": "2026-10-01T21:19:10.434513+00:00",
+      "unit": "source_units",
+      "config": {
+        "id": "CATWALK_WALL_SECTIONS_001",
+        "build": "25640462",
+        "area": "Catwalk",
+        "stations": [
+          {
+            "id": "Y650",
+            "pose": [
+              -180,
+              650,
+              -40
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "Y900",
+            "pose": [
+              -180,
+              900,
+              -40
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "Y1200",
+            "pose": [
+              -180,
+              1200,
+              -40
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          }
+        ]
+      },
+      "observations": [
+        {
+          "station_id": "Y650",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -180.000000 650.000000 -40.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -180,
+            650,
+            24
+          ],
+          "hit": [
+            -128.0,
+            650.0,
+            24.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 69242"
+          ],
+          "rangefinder_reply": "DISTANCE:  52.00 inches (  4.33 feet)"
+        },
+        {
+          "station_id": "Y650",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -180.000000 650.000000 -40.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -180,
+            650,
+            24
+          ],
+          "hit": [
+            -128.0,
+            650.0,
+            24.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 69242"
+          ],
+          "rangefinder_reply": "DISTANCE:  52.00 inches (  4.33 feet)"
+        },
+        {
+          "station_id": "Y650",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -180.000000 650.000000 -40.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -180,
+            650,
+            24
+          ],
+          "hit": [
+            -541.85,
+            650.0,
+            24.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 361.85 inches ( 30.15 feet)"
+        },
+        {
+          "station_id": "Y650",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -180.000000 650.000000 -40.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -180,
+            650,
+            24
+          ],
+          "hit": [
+            -541.85,
+            650.0,
+            24.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 361.85 inches ( 30.15 feet)"
+        },
+        {
+          "station_id": "Y900",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -180.000000 900.000000 -40.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -180,
+            900,
+            24
+          ],
+          "hit": [
+            -128.0,
+            900.0,
+            24.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 69662"
+          ],
+          "rangefinder_reply": "DISTANCE:  52.00 inches (  4.33 feet)"
+        },
+        {
+          "station_id": "Y900",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -180.000000 900.000000 -40.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -180,
+            900,
+            24
+          ],
+          "hit": [
+            -128.0,
+            900.0,
+            24.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 69662"
+          ],
+          "rangefinder_reply": "DISTANCE:  52.00 inches (  4.33 feet)"
+        },
+        {
+          "station_id": "Y900",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -180.000000 900.000000 -40.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -180,
+            900,
+            24
+          ],
+          "hit": [
+            -230.46,
+            900.0,
+            24.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  50.46 inches (  4.20 feet)"
+        },
+        {
+          "station_id": "Y900",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -180.000000 900.000000 -40.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -180,
+            900,
+            24
+          ],
+          "hit": [
+            -230.46,
+            900.0,
+            24.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  50.46 inches (  4.20 feet)"
+        },
+        {
+          "station_id": "Y1200",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -180.000000 1200.000000 -40.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -180,
+            1200,
+            24
+          ],
+          "hit": [
+            -123.27,
+            1200.0,
+            24.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop solidmetal, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  56.73 inches (  4.73 feet)"
+        },
+        {
+          "station_id": "Y1200",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -180.000000 1200.000000 -40.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -180,
+            1200,
+            24
+          ],
+          "hit": [
+            -123.27,
+            1200.0,
+            24.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop solidmetal, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  56.73 inches (  4.73 feet)"
+        },
+        {
+          "station_id": "Y1200",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -180.000000 1200.000000 -40.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -180,
+            1200,
+            24
+          ],
+          "hit": [
+            -230.54,
+            1200.0,
+            24.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  50.54 inches (  4.21 feet)"
+        },
+        {
+          "station_id": "Y1200",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -180.000000 1200.000000 -40.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -180,
+            1200,
+            24
+          ],
+          "hit": [
+            -230.54,
+            1200.0,
+            24.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  50.54 inches (  4.21 feet)"
+        }
+      ],
+      "status": "complete; architectural interpretation pending",
+      "original_pose": "setpos_exact -350.000000 1000.000000 1100.000000;setang_exact 89.000000 90.000000 0.000000",
+      "restored_pose": "setpos_exact -350.000000 1000.000000 1100.000000;setang_exact 88.999908 90.000000 0.000000",
+      "restore_error": "Restored pose differs",
+      "review": "Y900/Y1200 rays repeatedly bound the local upper corridor with wall/parapet or metal grille. Y650 west ray reaches distant Wood_Panel across lower Mid and is not accepted as corridor width. Restore_error was exact-string comparison of89 versus88.999908 pitch; position/yaw unchanged, native getpos/echo FN_CATWALK_ENDPOINT_RESTORE_CHECK_001 manually confirmed within .01 degrees. Raw error retained.",
+      "restoration_review": "verified within .000092 degrees; no spatial displacement",
+      "accepted_sections": [
+        {
+          "id": "CATWALK_SECTION_900",
+          "station_id": "Y900",
+          "feature": "Corridor opposing collision faces at source Y900 Z24",
+          "confidence": "confirmed repeated local collision width",
+          "notes": "Facade/grille-to-parapet cross-section at low ray height. Ground forward/reverse views corroborate the narrow upper lane; not overall Mid street width."
+        },
+        {
+          "id": "CATWALK_SECTION_1200",
+          "station_id": "Y1200",
+          "feature": "Corridor opposing collision faces at source Y1200 Z24",
+          "confidence": "confirmed repeated local collision width",
+          "notes": "Facade/grille-to-parapet cross-section at low ray height. Ground forward/reverse views corroborate the narrow upper lane; not overall Mid street width."
+        }
+      ]
     }
   ]
 }

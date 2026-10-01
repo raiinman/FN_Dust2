@@ -78,7 +78,9 @@ Blender Python, Unreal automation, validation scripts, manifest processors, and 
 - `cs2_probe_endpoints.py` repeats configured horizontal rays with exact echo,
   settled pose, endpoint and native rangefinder checks. Keep its output private
   until surface interpretation and privacy review. It preserves partial work
-  and verifies pose restoration; raw chords never imply full room dimensions.
+  and verifies pose restoration numerically within .01 native unit/degrees
+  (modulo yaw), accommodating camera quantization. Raw chords never imply full
+  room dimensions.
 
 - `audit_reference_images.py` verifies all registered JPEG hashes against capture metadata and records explicit visual exclusions. It never grants area completion.
   AREA_VIEW_REVIEW.json supplies explicit combined-view decisions; the audit

@@ -74,7 +74,12 @@ def probe(a):
             send(original)
             restored = pose()
             report['restored_pose'] = restored
-            if restored != original:
+            before_values = [float(v) for v in re.findall(NUMBER, original)]
+            after_values = [float(v) for v in re.findall(NUMBER, restored)]
+            errors = [abs(a-b) for a,b in zip(before_values, after_values)]
+            errors[4] = abs((after_values[4]-before_values[4]+180)%360-180)
+            report['restore_numeric_errors'] = errors
+            if len(errors) != 6 or max(errors) > .01:
                 raise RuntimeError('Restored pose differs')
         except Exception as error:
             report['restore_error'] = str(error)

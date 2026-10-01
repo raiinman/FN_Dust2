@@ -1,10 +1,10 @@
 {
   "review_date": "2026-10-01",
   "source_build": "25640462",
-  "registered_images": 104,
+  "registered_images": 109,
   "coverage_excluded": 8,
   "complete_areas": 2,
-  "complete_subareas": 1,
+  "complete_subareas": 2,
   "declared_view_sets": [
     {
       "area": "Long Doors",
@@ -73,6 +73,30 @@
       },
       "review": "Complete flight/side parapet is unobstructed in forward/side views. Reverse shows lower landing; nearest treads clipped there are supplied by forward/side. High perspective shows both approach platforms and walls.",
       "remaining": "This certifies the stair reference set only. Catwalk/Mid approach coverage and stair run/count interpretation are separate unresolved tasks."
+    },
+    {
+      "area": "Catwalk",
+      "taxonomy_scope": "critical_subarea",
+      "parent_area": "Short / Catwalk",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_CATWALK_FORWARD_RECOVERY_001"
+        ],
+        "reverse": [
+          "QA_CATWALK_REVERSE_RECOVERY_001"
+        ],
+        "wall_read": [
+          "QA_CATWALK_SIDE_RECOVERY_001",
+          "QA_CATWALK_FORWARD_RECOVERY_001"
+        ],
+        "elevation": [
+          "QA_CATWALK_ELEVATION_RECOVERY_001",
+          "QA_CATWALK_PLAN_RECOVERY_002"
+        ]
+      },
+      "review": "Both-direction floor/wall corridor, corner turn and elevation above Mid are clear in combined views. Pole/wires are existing source geometry; wider plan replaces clipped roof-dominated attempt.",
+      "remaining": "Full A Short upper branch still needs dedicated references. Local width samples do not certify entire platform/cover bounds."
     }
   ],
   "scope": "Image integrity and declared combined-view reviews; no metric or topology acceptance",
@@ -909,6 +933,46 @@
       "sha256": "c79802679d942c2465f974ffd2644524edd8bf28a7ba8e21381ef3502a3424cc",
       "coverage_status": "PARTIAL",
       "review": "Closer unobstructed full rendered stair flight with both walls/parapet and upper landing. Supports visual tread review; no numeric step count is assigned from perspective alone."
+    },
+    {
+      "id": "QA_CATWALK_FORWARD_RECOVERY_001",
+      "area": "Catwalk",
+      "image": "reference/images/catwalk/QA_CATWALK_FORWARD_RECOVERY_001.jpg",
+      "sha256": "1f4b8058f4178bafb24b5e5afdd90f26bc9eb2c61b4571782d4536ca9d0dfc2c",
+      "coverage_status": "PARTIAL",
+      "review": "Unobstructed narrow walking strip and both parapet/facade walls toward far corner. Pole is an actual local sightline obstacle, not removed from evidence."
+    },
+    {
+      "id": "QA_CATWALK_REVERSE_RECOVERY_001",
+      "area": "Catwalk",
+      "image": "reference/images/catwalk/QA_CATWALK_REVERSE_RECOVERY_001.jpg",
+      "sha256": "49f0239c6288067c0b25bd025cbdb6f149f43c34de71325f837d2369bf7cc9d2",
+      "coverage_status": "PARTIAL",
+      "review": "Full corridor floor and bounding walls toward entrance barrels and Top Mid opening. Demonstrates upper Catwalk distinct from lower Mid."
+    },
+    {
+      "id": "QA_CATWALK_SIDE_RECOVERY_001",
+      "area": "Catwalk",
+      "image": "reference/images/catwalk/QA_CATWALK_SIDE_RECOVERY_001.jpg",
+      "sha256": "c4870aa4736cf6357051f2407bb94528cb35aca6622d9688240f50965adbaa9b",
+      "coverage_status": "PARTIAL",
+      "review": "Lower Short approach corner, both facade walls and parapet; Lower Tunnel arch visible across the lower Mid lane. Ground spatial relationship, not proof of a direct walking edge."
+    },
+    {
+      "id": "QA_CATWALK_PLAN_RECOVERY_002",
+      "area": "Catwalk",
+      "image": "reference/images/catwalk/QA_CATWALK_PLAN_RECOVERY_002.jpg",
+      "sha256": "678bac2c3f0b6a35d3819cb7a34d62151285c16dec14a2fdab2dbfdd77c6d066",
+      "coverage_status": "PARTIAL",
+      "review": "Whole narrow Catwalk strip, corner turn and adjoining lower Mid floor are in frame. Adjacent roofs and wires retained; perspective only, architectural widths measured independently."
+    },
+    {
+      "id": "QA_CATWALK_ELEVATION_RECOVERY_001",
+      "area": "Catwalk",
+      "image": "reference/images/catwalk/QA_CATWALK_ELEVATION_RECOVERY_001.jpg",
+      "sha256": "94948428db9a35073efcd99c0453fdbaad7590140e7b01ff8672310f94715ac5",
+      "coverage_status": "PARTIAL",
+      "review": "Upper Catwalk floor, parapet and opposite facade read above lower Mid terrain steps. Lower steps continue outside both edges; not complete Mid stair count/extent evidence."
     }
   ]
 }

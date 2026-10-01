@@ -70,6 +70,30 @@
       },
       "review": "Complete flight/side parapet is unobstructed in forward/side views. Reverse shows lower landing; nearest treads clipped there are supplied by forward/side. High perspective shows both approach platforms and walls.",
       "remaining": "This certifies the stair reference set only. Catwalk/Mid approach coverage and stair run/count interpretation are separate unresolved tasks."
+    },
+    {
+      "area": "Catwalk",
+      "taxonomy_scope": "critical_subarea",
+      "parent_area": "Short / Catwalk",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_CATWALK_FORWARD_RECOVERY_001"
+        ],
+        "reverse": [
+          "QA_CATWALK_REVERSE_RECOVERY_001"
+        ],
+        "wall_read": [
+          "QA_CATWALK_SIDE_RECOVERY_001",
+          "QA_CATWALK_FORWARD_RECOVERY_001"
+        ],
+        "elevation": [
+          "QA_CATWALK_ELEVATION_RECOVERY_001",
+          "QA_CATWALK_PLAN_RECOVERY_002"
+        ]
+      },
+      "review": "Both-direction floor/wall corridor, corner turn and elevation above Mid are clear in combined views. Pole/wires are existing source geometry; wider plan replaces clipped roof-dominated attempt.",
+      "remaining": "Full A Short upper branch still needs dedicated references. Local width samples do not certify entire platform/cover bounds."
     }
   ]
 }

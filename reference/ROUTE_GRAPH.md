@@ -107,3 +107,8 @@ E32/E33 pass the full lower Catwalk approach-to-Short upper landing stair route
 in both directions. E34 passes Short upper landing-to-A Site in both directions.
 Speed80/arrival25; start-only teleport. Earlier wall/parapet-blocked plans remain
 preserved. These paths do not certify tread dimensions or special traversal.
+
+E14 now passes Top of Mid-to-Catwalk lower Short approach both directions.
+Entrance barrels require a bend in the reverse path; wall/parapet-blocked
+plans preserved. Speed80, forward arrival20/reverse25. Mid/Xbox jump remains
+separate unverified traversal.
