@@ -8,6 +8,11 @@ Own reference provenance, area taxonomy, measurement inputs, and truth-map artif
 
 This folder contains reference metadata and derived measurement records. Avoid committing third-party media unless redistribution is permitted.
 
+- `SOURCE_REVISION.md` pins the installed benchmark and revision checks.
+- `REFERENCE_MANIFEST.csv` owns provenance; URL discovery alone is not view coverage.
+- `MEASUREMENTS.csv` owns numeric evidence; blank values remain unresolved.
+- `ROUTE_GRAPH.md` owns adjacency and traversal distinctions.
+
 ## Local Contracts
 
 - Every reference must have provenance.
@@ -15,6 +20,8 @@ This folder contains reference metadata and derived measurement records. Avoid c
 - Separate observed facts from inference.
 - Use named-area taxonomy from `docs/REFERENCE_STANDARD.md`.
 - Do not store ripped proprietary game assets.
+- Capture media stays outside Git unless reuse is cleared. Commit metadata,
+  hashes, camera poses and derived measurements instead.
 
 ## Work Guidance
 

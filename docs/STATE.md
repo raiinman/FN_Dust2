@@ -2,41 +2,37 @@
 
 ## Active phase
 
-**Phase 1 — Reference + Metric Truth**
+**Phase 1 - Reference + Metric Truth. Gate 1 has not passed.**
 
 Phase 0 repository bootstrap is complete.
 
 ## Last durable checkpoint
 
-Repository initialized with:
-- DOX hierarchy;
-- master specification;
-- gated production plan;
-- reference/geometry/art/Unreal/UEFN/QA standards;
-- timeout recovery rules;
-- reference and camera manifest templates;
-- GPT-6.1 Sol handoff.
+Phase 1 source-baseline checkpoint: current CS2 selected, installed build
+`25640462` identified in `reference/SOURCE_REVISION.md`, loopback console probe
+implemented in `scripts/cs2_console.py`. See newest Git commit for checkpoint SHA.
 
 ## Current objective
 
-Build the reference and measurement truth set before creating production geometry.
+Acquire named-area views and measurements for this exact CS2 build before geometry.
 
 ## Immediate next actions
 
-1. Populate `reference/REFERENCE_MANIFEST.csv`.
-2. Populate `reference/MEASUREMENTS.csv`.
-3. Complete `reference/ROUTE_GRAPH.md`.
-4. Produce an annotated top-down truth map.
-5. Separate confirmed, triangulated, and estimated dimensions.
-6. Run Gate 1 review.
-7. Only after Gate 1 passes, begin deterministic Blender blockout.
+1. Verify `py -3.11 scripts/cs2_console.py "echo FN_DUST2_PROBE"` against CS2
+   launched with `-vconsole`. This is the first incomplete action.
+2. Verify `version` and local session/map identity, then acquire area views.
+3. Populate manifests and measured endpoints; record calibration/confidence.
+4. Complete route graph, annotated plan and uncertainty ledger.
+5. Run Gate 1 review and commit evidence; begin Phase 2 only on a pass.
 
 ## Current blockers
 
-- No reference dataset has been committed yet.
-- No measurement register has been committed yet.
-- No annotated top-down truth map has been committed yet.
-- No geometry has been authorized by Gate 1.
+- This session has no callable `node_repl`; required computer-use API is unavailable.
+  No desktop input was performed.
+- Automatic game relaunch was rejected by the execution sandbox. User was asked
+  to close CS2, set Steam launch option `-vconsole`, and relaunch.
+- Reference/measurement registers, annotated truth map and scale calibration
+  are incomplete. No geometry has been authorized by Gate 1.
 
 ## Prohibited right now
 
