@@ -22,6 +22,8 @@ Blender Python, Unreal automation, validation scripts, manifest processors, and 
   automation is not verified. Do not count a file as usable reference coverage
   until its rendered area/direction is inspected. Stop on a missing reply or
   error dialog rather than issuing more capture commands.
+  Preserve local-only attempt JSON before checking screenshot success so a
+  failed capture reply does not discard the observed camera pose.
 - `reference_batch.py` derives reference metadata, normalized plan locators,
   survey tasks and the route summary from inspected HTML and TOPOLOGY.json.
   Its output remains provisional until current-build survey validation.

@@ -58,7 +58,7 @@ def main():
         p.error('Reference media must remain outside Git')
     out.mkdir(parents=True, exist_ok=True)
     target = out / (a.id + '.tga')
-    if target.exists() or (out / (a.id + '.json')).exists():
+    if target.exists() or (out / (a.id + '.json')).exists() or (out / (a.id + '_attempt.json')).exists():
         raise FileExistsError('Use a new ID; existing evidence must not be overwritten')
     if a.pose:
         x, y, z, pitch, yaw = a.pose
@@ -71,6 +71,12 @@ def main():
     # is unknown; keep the resource name short and independent of metadata IDs.
     basename = 'd2_' + hashlib.sha256(a.id.encode('ascii')).hexdigest()[:10]
     response = exchange('screenshot ' + basename, seconds=3)['received_prints']
+    # Keep pose/attempt evidence even if a modal error prevents a success reply.
+    # Raw responses stay outside Git and require privacy review before excerpts.
+    attempt = dict(id=a.id, timestamp_utc=datetime.now(timezone.utc).isoformat(),
+                   pose_command=pose[0], engine_capture_basename=basename,
+                   received_prints=response)
+    (out / (a.id + '_attempt.json')).write_text(json.dumps(attempt, indent=2) + '\n')
     names = [re.search(r'Screenshot written to: (.+)', line) for line in response]
     names = [m.group(1).strip() for m in names if m]
     if len(names) != 1:

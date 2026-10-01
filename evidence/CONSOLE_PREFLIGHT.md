@@ -72,3 +72,26 @@ verify loading completed and test once. Stop if another error appears.
 No acceptance gate advanced. Root/docs/reference/evidence owning AGENTS remain
 unchanged for this fix because ownership and hierarchy did not change; the
 scripts contract documents the naming change.
+
+## First world image checkpoint
+
+The next relaunch returned exact `FN_DUST2_RESUME` and loaded de_dust2.
+The runtime documents `fps_max_tools` as a separate frame limit when another
+window has focus (default 120), and `engine_no_focus_sleep` default 20.
+`engine_no_focus_sleep 0` was sent for testing; verification is incomplete.
+Restore 20 after recovery. Keeping the game in front is a troubleshooting
+variable, not an established project requirement.
+
+The short hashed basename `d2_ffc37569b2` produced a TGA. Its converted preview
+was inspected: real CT Spawn, CT Start sign, ceiling beams, crates and exit
+toward CT Mid, with HUD and a bot obscuring part of the scene. This is a partial
+geometry reference, not complete area coverage. The helper aborted on no
+screenshot reply; the observed pose was not saved. Do not reconstruct the pose
+from memory or assign it to a permanent camera. Metadata and hashes are in
+`reference/CAPTURE_CTSPAWN_DISCOVERY.json`.
+
+Host inspection then found CS2 process 51724 with title Error. Current dialog
+text/cause is unknown; the existing TGA means the short name cannot simply be
+declared rejected. Stop commands until dialog inspection. Helper now saves
+local-only attempt JSON including pose before deciding screenshot success.
+Gate 1 remains FAIL; no physical dimensions have been accepted.

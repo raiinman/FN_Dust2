@@ -9,10 +9,12 @@ Phase 0 repository bootstrap is complete.
 ## Last durable checkpoint
 
 Phase 1 provisional reference checkpoint: current CS2 build `25640462` pinned;
-21 provenance records, 24 normalized public plan locators, 34 ordinary connection
+22 provenance records, 24 normalized public plan locators, 34 ordinary connection
 candidates and 4 special traversal candidates, and 53 unresolved survey tasks.
 Sources, coordinates, graph and uncertainty are recorded under `reference/`.
-No physical dimensions or local directional captures have been accepted.
+No physical dimensions accepted. One partial CT Spawn world image is inspected
+and recorded in CAPTURE_CTSPAWN_DISCOVERY.json; HUD/bot occlusion and missing
+pose prevent complete coverage or locked-camera acceptance.
 See newest Git commit for checkpoint SHA.
 
 Console preflight now verifies exact live echo, de_dust2 load and source-unit
@@ -25,17 +27,18 @@ Acquire named-area views and measurements for this exact CS2 build before geomet
 
 ## Immediate next actions
 
-1. Dismiss the fatal screenshot error and relaunch existing dust2_reference
-   with Launch Tools. User screenshot confirms the rejected resource basename
-   QA_TSPAWN_DISCOVERY_001; exact filename restriction is not established.
-2. Reverify echo/map/build. Reconnect and relative
-   lowercase `screenshot fn_dust2_initial` already succeeded before this error.
-3. Verify a world-visible capture. The saved 1280x720 image was visually
-   inspected and rejected as a loading screen. See CAPTURE_PREFLIGHT.json.
+1. Inspect the current Error dialog (process 51724). Its text/cause is unknown.
+   The short hashed basename produced a real CT Spawn TGA, but the helper got
+   no success reply. Do not assume another basename failure or retry blindly.
+2. Resolve dialog and reverify echo/map/build. Restore engine_no_focus_sleep 20;
+   0 was sent for testing. Background capture is preferred; foreground visibility
+   is a troubleshooting variable, not a requirement for the user's desktop.
+3. Verify repeated pose-pinned world captures and complete named-area coverage.
+   The first loading screen remains rejected; CT Spawn partial view is recorded.
    Helper scripts/cs2_capture.py has pending live integration; it sends relative
    short lowercase hashed names, protects existing evidence and writes local-only
-   media. Keep the game window visible and verify loading has finished before
-   accepting the next reference image.
+   media plus attempt JSON. Verify rendered content rather than assuming that
+   a live pose or map-load response proves the expected image.
    Never pass absolute Windows paths to the screenshot console command.
 4. Populate measured endpoints; record calibration/confidence.
 5. Validate route graph and create calibrated annotated truth map.
@@ -45,11 +48,10 @@ Acquire named-area views and measurements for this exact CS2 build before geomet
 
 - This session has no callable `node_repl`; required computer-use API is unavailable.
   No desktop input was performed.
-- Workshop Tools installed and game transport verified. A fatal screenshot
-  error rejected QA_TSPAWN_DISCOVERY_001. Short hashed names need live validation.
-  Relative capture generated a
-  loading screen, not accepted area coverage. Source physical scale unresolved.
-- Public references are provisional and do not provide directional coverage.
+- Workshop Tools installed and transport verified. Current Error dialog blocks
+  commands; text pending. One real world capture exists, but repeatability and
+  complete camera metadata are unresolved. Source physical scale unresolved.
+- Public references are provisional; local directional coverage remains partial.
 - MEASUREMENTS.csv has no physical measurements yet; calibrated truth map and
   physical scale remain unresolved. No geometry has been authorized by Gate 1.
 

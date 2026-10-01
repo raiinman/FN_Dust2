@@ -19,6 +19,8 @@ This folder contains reference metadata and derived measurement records. Avoid c
 - `UNCERTAINTY.md` lists blockers and their required resolution.
 - `CAPTURE_PREFLIGHT.json` records local-only capture hashes/pose and visual
   rejection or acceptance for tooling; a loading screen is not area coverage.
+- `CAPTURE_CTSPAWN_DISCOVERY.json` records the first inspected world reference;
+  missing pose prevents use as a locked comparison camera or numeric evidence.
 
 ## Local Contracts
 
