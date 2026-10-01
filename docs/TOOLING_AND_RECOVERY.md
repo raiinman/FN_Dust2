@@ -11,6 +11,10 @@ Preferred pattern:
 - UEFN/Verse only in the UEFN/gameplay phases;
 - RELAY may be used as an observability/control layer when available, but this project must not stall if RELAY is temporarily unavailable.
 
+## Git LFS
+
+This repository tracks large production binaries through `.gitattributes`. Before committing Unreal/UEFN maps or assets, Blender files, FBX/GLB, EXR/TIFF/PSD, verify Git LFS is installed and active in the working clone. Do not bypass LFS by force-adding oversized binaries.
+
 ## Power tools
 
 Do not waste long agent runs on repetitive cursor work that can be scripted.
