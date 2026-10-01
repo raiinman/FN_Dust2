@@ -1,0 +1,1048 @@
+{
+  "review_date": "2026-10-01",
+  "source_build": "25640462",
+  "scope": "Observed collision-enabled jump/drop directions; separate from physical aperture proof and whole topology acceptance.",
+  "attempts": [
+    {
+      "private_filename": "SIDE_PIT_PARAPET_JUMP_001.json",
+      "report": {
+        "id": "SIDE_PIT_PARAPET_JUMP_001",
+        "source_build": "25640462",
+        "timestamp_utc": "2026-10-01T23:07:28.307445+00:00",
+        "teleports_during_route": 0,
+        "unit": "source_units",
+        "commands": [
+          {
+            "command": "-forward; -back; -left; -right; -jump; noclip 1",
+            "requested_hold_seconds": 0.3,
+            "received_prints": [
+              "FN_PITJUMP_1\n"
+            ]
+          },
+          {
+            "command": "sv_gravity; sv_jump_impulse; sv_maxspeed",
+            "requested_hold_seconds": 0.3,
+            "received_prints": [
+              "sv_gravity = 800\n",
+              "sv_jump_impulse = 301.99338\n",
+              "sv_maxspeed = 320\n",
+              "FN_PITJUMP_2\n"
+            ]
+          },
+          {
+            "command": "setpos_exact 1636 500 56.553; setang_exact 0 180 0",
+            "requested_hold_seconds": 0.3,
+            "received_prints": [
+              "FN_PITJUMP_3\n"
+            ]
+          },
+          {
+            "command": "noclip 0",
+            "requested_hold_seconds": 0.7,
+            "received_prints": [
+              "FN_PITJUMP_4\n",
+              "noclip OFF\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "received_prints": [
+              "setpos_exact 1571.000000 500.000000 -92.749084;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_PITJUMP_5\n"
+            ]
+          },
+          {
+            "command": "+forward; +jump",
+            "requested_hold_seconds": 0.1,
+            "received_prints": [
+              "FN_PITJUMP_6\n"
+            ]
+          },
+          {
+            "command": "getpos_exact; -jump",
+            "requested_hold_seconds": 0.1,
+            "received_prints": [
+              "setpos_exact 1560.628906 500.005219 -37.175781;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_PITJUMP_7\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.1,
+            "received_prints": [
+              "setpos_exact 1549.554688 500.010986 -84.578125;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_PITJUMP_8\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.1,
+            "received_prints": [
+              "setpos_exact 1499.800659 484.789429 -108.747498;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_PITJUMP_9\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.1,
+            "received_prints": [
+              "setpos_exact 1414.970093 482.154480 -109.085831;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_PITJUMP_10\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.1,
+            "received_prints": [
+              "setpos_exact 1328.723145 481.774933 -102.622818;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_PITJUMP_11\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.1,
+            "received_prints": [
+              "setpos_exact 1292.031250 481.740295 -99.548706;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_PITJUMP_12\n"
+            ]
+          },
+          {
+            "command": "-forward",
+            "requested_hold_seconds": 0.15,
+            "received_prints": [
+              "FN_PITJUMP_13\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 1,
+            "received_prints": [
+              "setpos_exact 1292.031250 481.740295 -99.548706;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_PITJUMP_14\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "received_prints": [
+              "setpos_exact 1292.031250 481.740295 -99.548706;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_PITJUMP_15\n"
+            ]
+          },
+          {
+            "command": "-forward; -back; -left; -right; -jump; noclip 1",
+            "requested_hold_seconds": 0.3,
+            "received_prints": [
+              "FN_PITJUMP_16\n",
+              "noclip ON\n"
+            ]
+          }
+        ],
+        "status": "completed scripted jump attempt; inspect telemetry and landing",
+        "cleanup": "movement released; noclip restored"
+      },
+      "review": "Rejected launch: requested start intersected wall; collision settling pushed X1636 to1571 and Z56.553 to-92.749 before jump. No terrace crossing evidence."
+    },
+    {
+      "private_filename": "SIDE_PIT_PARAPET_JUMP_002.json",
+      "report": {
+        "id": "SIDE_PIT_PARAPET_JUMP_002",
+        "source_build": "25640462",
+        "timestamp_utc": "2026-10-01T23:08:03.167325+00:00",
+        "teleports_during_route": 0,
+        "unit": "source_units",
+        "commands": [
+          {
+            "command": "-forward; -back; -left; -right; -jump; noclip 1",
+            "requested_hold_seconds": 0.3,
+            "received_prints": [
+              "FN_PITJUMP_1\n"
+            ]
+          },
+          {
+            "command": "sv_gravity; sv_jump_impulse; sv_maxspeed",
+            "requested_hold_seconds": 0.3,
+            "received_prints": [
+              "sv_gravity = 800\n",
+              "sv_jump_impulse = 301.99338\n",
+              "sv_maxspeed = 320\n",
+              "FN_PITJUMP_2\n"
+            ]
+          },
+          {
+            "command": "setpos_exact 1700 500 65; setang_exact 0 180 0",
+            "requested_hold_seconds": 0.3,
+            "received_prints": [
+              "FN_PITJUMP_3\n"
+            ]
+          },
+          {
+            "command": "noclip 0",
+            "requested_hold_seconds": 0.7,
+            "received_prints": [
+              "FN_PITJUMP_4\n",
+              "noclip OFF\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "received_prints": [
+              "setpos_exact 1700.000000 500.000000 55.309834;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_PITJUMP_5\n"
+            ]
+          },
+          {
+            "command": "+forward; +jump",
+            "requested_hold_seconds": 0.1,
+            "received_prints": [
+              "FN_PITJUMP_6\n"
+            ]
+          },
+          {
+            "command": "getpos_exact; -jump",
+            "requested_hold_seconds": 0.1,
+            "received_prints": [
+              "setpos_exact 1689.394531 500.005341 111.013672;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_PITJUMP_7\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.1,
+            "received_prints": [
+              "setpos_exact 1678.320312 500.011108 61.273438;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_PITJUMP_8\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.1,
+            "received_prints": [
+              "setpos_exact 1636.031250 499.620209 56.549438;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_PITJUMP_9\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.1,
+            "received_prints": [
+              "setpos_exact 1636.031250 499.620209 56.549438;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_PITJUMP_10\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.1,
+            "received_prints": [
+              "setpos_exact 1636.031250 499.620209 56.549438;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_PITJUMP_11\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.1,
+            "received_prints": [
+              "setpos_exact 1636.031250 499.620209 56.549438;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_PITJUMP_12\n"
+            ]
+          },
+          {
+            "command": "-forward",
+            "requested_hold_seconds": 0.15,
+            "received_prints": [
+              "FN_PITJUMP_13\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 1,
+            "received_prints": [
+              "setpos_exact 1636.031250 499.620209 56.549438;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_PITJUMP_14\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "received_prints": [
+              "setpos_exact 1636.031250 499.620209 56.549438;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_PITJUMP_15\n"
+            ]
+          },
+          {
+            "command": "-forward; -back; -left; -right; -jump; noclip 1",
+            "requested_hold_seconds": 0.3,
+            "received_prints": [
+              "FN_PITJUMP_16\n",
+              "noclip ON\n"
+            ]
+          }
+        ],
+        "status": "completed scripted jump attempt; inspect telemetry and landing",
+        "cleanup": "movement released; noclip restored"
+      },
+      "review": "Valid terrace start; launch too far from lip, returned to terrace then blocked. Not traversal acceptance."
+    },
+    {
+      "private_filename": "SIDE_PIT_PARAPET_JUMP_003.json",
+      "report": {
+        "id": "SIDE_PIT_PARAPET_JUMP_003",
+        "source_build": "25640462",
+        "timestamp_utc": "2026-10-01T23:08:53.044157+00:00",
+        "teleports_during_route": 0,
+        "unit": "source_units",
+        "commands": [
+          {
+            "command": "-forward; -back; -left; -right; -jump; noclip 1",
+            "requested_hold_seconds": 0.3,
+            "received_prints": [
+              "FN_PITJUMP_1\n"
+            ]
+          },
+          {
+            "command": "sv_gravity; sv_jump_impulse; sv_maxspeed",
+            "requested_hold_seconds": 0.3,
+            "received_prints": [
+              "sv_gravity = 800\n",
+              "sv_jump_impulse = 301.99338\n",
+              "sv_maxspeed = 320\n",
+              "FN_PITJUMP_2\n"
+            ]
+          },
+          {
+            "command": "setpos_exact 1700 500 65; setang_exact 0 180 0",
+            "requested_hold_seconds": 0.3,
+            "received_prints": [
+              "FN_PITJUMP_3\n"
+            ]
+          },
+          {
+            "command": "noclip 0",
+            "requested_hold_seconds": 0.7,
+            "received_prints": [
+              "FN_PITJUMP_4\n",
+              "noclip OFF\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "received_prints": [
+              "setpos_exact 1700.000000 500.000000 55.309834;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_PITJUMP_5\n"
+            ]
+          },
+          {
+            "command": "+forward",
+            "requested_hold_seconds": 0.5,
+            "received_prints": [
+              "FN_PITJUMP_6\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "received_prints": [
+              "setpos_exact 1636.031250 500.006348 56.552959;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_PITJUMP_7\n"
+            ]
+          },
+          {
+            "command": "+jump",
+            "requested_hold_seconds": 0.1,
+            "received_prints": [
+              "FN_PITJUMP_8\n"
+            ]
+          },
+          {
+            "command": "getpos_exact; -jump",
+            "requested_hold_seconds": 0.1,
+            "received_prints": [
+              "setpos_exact 1628.337646 500.011658 112.214844;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_PITJUMP_9\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.1,
+            "received_prints": [
+              "setpos_exact 1616.760376 500.017059 80.031250;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_PITJUMP_10\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.1,
+            "received_prints": [
+              "setpos_exact 1554.662842 500.022675 77.458984;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_PITJUMP_11\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.1,
+            "received_prints": [
+              "setpos_exact 1479.357056 500.028168 5.484375;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_PITJUMP_12\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.1,
+            "received_prints": [
+              "setpos_exact 1413.126099 491.842773 -105.492920;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_PITJUMP_13\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.1,
+            "received_prints": [
+              "setpos_exact 1345.087402 485.069763 -106.901901;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_PITJUMP_14\n"
+            ]
+          },
+          {
+            "command": "-forward",
+            "requested_hold_seconds": 0.15,
+            "received_prints": [
+              "FN_PITJUMP_15\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 1,
+            "received_prints": [
+              "setpos_exact 1292.031250 484.245789 -98.615723;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_PITJUMP_16\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "received_prints": [
+              "setpos_exact 1292.031250 484.245789 -98.615723;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_PITJUMP_17\n"
+            ]
+          },
+          {
+            "command": "-forward; -back; -left; -right; -jump; noclip 1",
+            "requested_hold_seconds": 0.3,
+            "received_prints": [
+              "FN_PITJUMP_18\n",
+              "noclip ON\n"
+            ]
+          }
+        ],
+        "status": "completed scripted jump attempt; inspect telemetry and landing",
+        "cleanup": "movement released; noclip restored"
+      },
+      "review": "Accepted forward observation: continuous ground approach X1700 to1636 at Z56.553, jump Z112.215, crosses X1616/1554 then falls into Pit, stable final(1292.031,484.246,-98.616). No mid-route teleports."
+    },
+    {
+      "private_filename": "SIDE_PIT_PARAPET_JUMP_004.json",
+      "report": {
+        "id": "SIDE_PIT_PARAPET_JUMP_004",
+        "source_build": "25640462",
+        "source_map": "de_dust2",
+        "unit": "source_units",
+        "config": {
+          "expected_start": {
+            "xy_radius": 5,
+            "z_max": 58,
+            "z_min": 54
+          },
+          "start": [
+            1700,
+            500,
+            65,
+            0,
+            180
+          ],
+          "build": "25640462",
+          "id": "SIDE_PIT_PARAPET_JUMP_004",
+          "actions": [
+            {
+              "label": "ground approach to parapet",
+              "seconds": 0.5,
+              "command": "+forward"
+            },
+            {
+              "label": "jump from grounded approach",
+              "seconds": 0.1,
+              "command": "+jump"
+            },
+            {
+              "label": "jump released",
+              "seconds": 0.1,
+              "command": "-jump"
+            },
+            {
+              "label": "continue over parapet",
+              "seconds": 0.5,
+              "command": "+forward"
+            },
+            {
+              "label": "settle in Pit",
+              "seconds": 1,
+              "command": "-forward"
+            }
+          ]
+        },
+        "timestamp_utc": "2026-10-01T23:19:18.238140+00:00",
+        "teleports_during_route": 0,
+        "commands": [
+          {
+            "command": "-forward; -back; -left; -right; -jump; -duck; noclip 1",
+            "requested_hold_seconds": 0.3,
+            "sent_utc": "2026-10-01T23:19:18.238140+00:00",
+            "returned_utc": "2026-10-01T23:19:18.648619+00:00",
+            "received_prints": [
+              "FN_TRAV_1\n"
+            ]
+          },
+          {
+            "command": "sv_gravity; sv_jump_impulse; sv_maxspeed",
+            "requested_hold_seconds": 0.3,
+            "sent_utc": "2026-10-01T23:19:18.649621+00:00",
+            "returned_utc": "2026-10-01T23:19:19.263058+00:00",
+            "received_prints": [
+              "sv_gravity = 800\n",
+              "sv_jump_impulse = 301.99338\n",
+              "sv_maxspeed = 320\n",
+              "FN_TRAV_2\n"
+            ]
+          },
+          {
+            "command": "setpos_exact 1700 500 65; setang_exact 0 180 0",
+            "requested_hold_seconds": 0.3,
+            "sent_utc": "2026-10-01T23:19:19.264059+00:00",
+            "returned_utc": "2026-10-01T23:19:19.775758+00:00",
+            "received_prints": [
+              "FN_TRAV_3\n"
+            ]
+          },
+          {
+            "command": "noclip 0",
+            "requested_hold_seconds": 0.7,
+            "sent_utc": "2026-10-01T23:19:19.776769+00:00",
+            "returned_utc": "2026-10-01T23:19:20.690106+00:00",
+            "received_prints": [
+              "FN_TRAV_4\n",
+              "noclip OFF\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-01T23:19:20.691106+00:00",
+            "returned_utc": "2026-10-01T23:19:21.102351+00:00",
+            "received_prints": [
+              "setpos_exact 1700.000000 500.000000 55.309834;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_TRAV_5\n"
+            ]
+          },
+          {
+            "command": "+forward",
+            "requested_hold_seconds": 0.5,
+            "sent_utc": "2026-10-01T23:19:21.104351+00:00",
+            "returned_utc": "2026-10-01T23:19:21.918176+00:00",
+            "received_prints": [
+              "FN_TRAV_6\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-01T23:19:21.918176+00:00",
+            "returned_utc": "2026-10-01T23:19:22.228793+00:00",
+            "received_prints": [
+              "setpos_exact 1636.031250 500.006348 56.552959;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_TRAV_7\n"
+            ]
+          },
+          {
+            "command": "+jump",
+            "requested_hold_seconds": 0.1,
+            "sent_utc": "2026-10-01T23:19:22.230795+00:00",
+            "returned_utc": "2026-10-01T23:19:22.641056+00:00",
+            "received_prints": [
+              "FN_TRAV_8\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-01T23:19:22.642056+00:00",
+            "returned_utc": "2026-10-01T23:19:22.952236+00:00",
+            "received_prints": [
+              "setpos_exact 1628.747803 500.011444 111.955078;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_TRAV_9\n"
+            ]
+          },
+          {
+            "command": "-jump",
+            "requested_hold_seconds": 0.1,
+            "sent_utc": "2026-10-01T23:19:22.953237+00:00",
+            "returned_utc": "2026-10-01T23:19:23.364145+00:00",
+            "received_prints": [
+              "FN_TRAV_10\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-01T23:19:23.364145+00:00",
+            "returned_utc": "2026-10-01T23:19:23.673743+00:00",
+            "received_prints": [
+              "setpos_exact 1552.989380 500.022797 76.919922;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_TRAV_11\n"
+            ]
+          },
+          {
+            "command": "+forward",
+            "requested_hold_seconds": 0.5,
+            "sent_utc": "2026-10-01T23:19:23.676246+00:00",
+            "returned_utc": "2026-10-01T23:19:24.589210+00:00",
+            "received_prints": [
+              "FN_TRAV_12\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-01T23:19:24.590210+00:00",
+            "returned_utc": "2026-10-01T23:19:24.899733+00:00",
+            "received_prints": [
+              "setpos_exact 1310.270020 484.426239 -98.548508;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_TRAV_13\n"
+            ]
+          },
+          {
+            "command": "-forward",
+            "requested_hold_seconds": 1,
+            "sent_utc": "2026-10-01T23:19:24.901734+00:00",
+            "returned_utc": "2026-10-01T23:19:26.217951+00:00",
+            "received_prints": [
+              "FN_TRAV_14\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-01T23:19:26.217951+00:00",
+            "returned_utc": "2026-10-01T23:19:26.528995+00:00",
+            "received_prints": [
+              "setpos_exact 1292.031250 484.245789 -98.615723;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_TRAV_15\n"
+            ]
+          },
+          {
+            "command": "-forward; -back; -left; -right; -jump; -duck",
+            "requested_hold_seconds": 0.3,
+            "sent_utc": "2026-10-01T23:19:26.529996+00:00",
+            "returned_utc": "2026-10-01T23:19:27.043373+00:00",
+            "received_prints": [
+              "FN_TRAV_16\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-01T23:19:27.044373+00:00",
+            "returned_utc": "2026-10-01T23:19:27.453539+00:00",
+            "received_prints": [
+              "setpos_exact 1292.031250 484.245789 -98.615723;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_TRAV_17\n"
+            ]
+          },
+          {
+            "command": "-forward",
+            "requested_hold_seconds": 1,
+            "sent_utc": "2026-10-01T23:19:27.455550+00:00",
+            "returned_utc": "2026-10-01T23:19:28.770878+00:00",
+            "received_prints": [
+              "FN_TRAV_18\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-01T23:19:28.771878+00:00",
+            "returned_utc": "2026-10-01T23:19:29.082586+00:00",
+            "received_prints": [
+              "setpos_exact 1292.031250 484.245789 -98.615723;setang_exact 0.000000 -180.000000 0.000000\n",
+              "FN_TRAV_19\n"
+            ]
+          },
+          {
+            "command": "-forward; -back; -left; -right; -jump; -duck; noclip 1",
+            "requested_hold_seconds": 0.3,
+            "sent_utc": "2026-10-01T23:19:29.085586+00:00",
+            "returned_utc": "2026-10-01T23:19:29.597468+00:00",
+            "received_prints": [
+              "FN_TRAV_20\n",
+              "noclip ON\n"
+            ]
+          }
+        ],
+        "observations": [
+          {
+            "label": "settled start",
+            "timestamp_utc": "2026-10-01T23:19:21.103350+00:00",
+            "pose": "setpos_exact 1700.000000 500.000000 55.309834;setang_exact 0.000000 -180.000000 0.000000"
+          },
+          {
+            "label": "ground approach to parapet",
+            "timestamp_utc": "2026-10-01T23:19:22.229794+00:00",
+            "pose": "setpos_exact 1636.031250 500.006348 56.552959;setang_exact 0.000000 -180.000000 0.000000"
+          },
+          {
+            "label": "jump from grounded approach",
+            "timestamp_utc": "2026-10-01T23:19:22.953237+00:00",
+            "pose": "setpos_exact 1628.747803 500.011444 111.955078;setang_exact 0.000000 -180.000000 0.000000"
+          },
+          {
+            "label": "jump released",
+            "timestamp_utc": "2026-10-01T23:19:23.675743+00:00",
+            "pose": "setpos_exact 1552.989380 500.022797 76.919922;setang_exact 0.000000 -180.000000 0.000000"
+          },
+          {
+            "label": "continue over parapet",
+            "timestamp_utc": "2026-10-01T23:19:24.900733+00:00",
+            "pose": "setpos_exact 1310.270020 484.426239 -98.548508;setang_exact 0.000000 -180.000000 0.000000"
+          },
+          {
+            "label": "settle in Pit",
+            "timestamp_utc": "2026-10-01T23:19:26.529996+00:00",
+            "pose": "setpos_exact 1292.031250 484.245789 -98.615723;setang_exact 0.000000 -180.000000 0.000000"
+          },
+          {
+            "label": "landing check 1",
+            "timestamp_utc": "2026-10-01T23:19:27.455550+00:00",
+            "pose": "setpos_exact 1292.031250 484.245789 -98.615723;setang_exact 0.000000 -180.000000 0.000000"
+          },
+          {
+            "label": "landing check 2",
+            "timestamp_utc": "2026-10-01T23:19:29.083586+00:00",
+            "pose": "setpos_exact 1292.031250 484.245789 -98.615723;setang_exact 0.000000 -180.000000 0.000000"
+          }
+        ],
+        "status": "completed attempt; landing and traversal require review",
+        "collision_mode_reply": "noclip OFF",
+        "cleanup": "movement released; noclip ON verified"
+      },
+      "review": "Accepted independent repeat: reviewed settled start, continuous approach/jump crosses to X1552.989 Z76.920, stable same Pit landing. Noclip OFF and cleanup ON verified."
+    },
+    {
+      "private_filename": "PIT_TO_SIDE_PIT_JUMP_001.json",
+      "report": {
+        "id": "PIT_TO_SIDE_PIT_JUMP_001",
+        "source_build": "25640462",
+        "source_map": "de_dust2",
+        "unit": "source_units",
+        "config": {
+          "expected_start": {
+            "z_max": -95,
+            "xy_radius": 5,
+            "z_min": -115
+          },
+          "start": [
+            1400,
+            500,
+            -90,
+            0,
+            0
+          ],
+          "build": "25640462",
+          "id": "PIT_TO_SIDE_PIT_JUMP_001",
+          "actions": [
+            {
+              "label": "ground approach to parapet",
+              "seconds": 0.5,
+              "command": "+forward"
+            },
+            {
+              "label": "jump from grounded approach",
+              "seconds": 0.1,
+              "command": "+jump"
+            },
+            {
+              "label": "jump released",
+              "seconds": 0.1,
+              "command": "-jump"
+            },
+            {
+              "label": "continue over parapet",
+              "seconds": 0.5,
+              "command": "+forward"
+            },
+            {
+              "label": "settle in Pit",
+              "seconds": 1,
+              "command": "-forward"
+            }
+          ]
+        },
+        "timestamp_utc": "2026-10-01T23:20:25.721552+00:00",
+        "teleports_during_route": 0,
+        "commands": [
+          {
+            "command": "-forward; -back; -left; -right; -jump; -duck; noclip 1",
+            "requested_hold_seconds": 0.3,
+            "sent_utc": "2026-10-01T23:20:25.721552+00:00",
+            "returned_utc": "2026-10-01T23:20:26.127848+00:00",
+            "received_prints": [
+              "FN_TRAV_1\n"
+            ]
+          },
+          {
+            "command": "sv_gravity; sv_jump_impulse; sv_maxspeed",
+            "requested_hold_seconds": 0.3,
+            "sent_utc": "2026-10-01T23:20:26.128849+00:00",
+            "returned_utc": "2026-10-01T23:20:26.635538+00:00",
+            "received_prints": [
+              "sv_gravity = 800\n",
+              "sv_jump_impulse = 301.99338\n",
+              "sv_maxspeed = 320\n",
+              "FN_TRAV_2\n"
+            ]
+          },
+          {
+            "command": "setpos_exact 1400 500 -90; setang_exact 0 0 0",
+            "requested_hold_seconds": 0.3,
+            "sent_utc": "2026-10-01T23:20:26.636040+00:00",
+            "returned_utc": "2026-10-01T23:20:27.248604+00:00",
+            "received_prints": [
+              "FN_TRAV_3\n"
+            ]
+          },
+          {
+            "command": "noclip 0",
+            "requested_hold_seconds": 0.7,
+            "sent_utc": "2026-10-01T23:20:27.249605+00:00",
+            "returned_utc": "2026-10-01T23:20:28.158534+00:00",
+            "received_prints": [
+              "FN_TRAV_4\n",
+              "noclip OFF\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-01T23:20:28.159535+00:00",
+            "returned_utc": "2026-10-01T23:20:28.570753+00:00",
+            "received_prints": [
+              "setpos_exact 1400.000000 500.000000 -102.334106;setang_exact 0.000000 0.000000 0.000000\n",
+              "FN_TRAV_5\n"
+            ]
+          },
+          {
+            "command": "+forward",
+            "requested_hold_seconds": 0.5,
+            "sent_utc": "2026-10-01T23:20:28.571753+00:00",
+            "returned_utc": "2026-10-01T23:20:29.380129+00:00",
+            "received_prints": [
+              "FN_TRAV_6\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-01T23:20:29.381129+00:00",
+            "returned_utc": "2026-10-01T23:20:29.690182+00:00",
+            "received_prints": [
+              "setpos_exact 1552.590820 500.000000 -92.749084;setang_exact 0.000000 0.000000 0.000000\n",
+              "FN_TRAV_7\n"
+            ]
+          },
+          {
+            "command": "+jump",
+            "requested_hold_seconds": 0.1,
+            "sent_utc": "2026-10-01T23:20:29.692181+00:00",
+            "returned_utc": "2026-10-01T23:20:30.098307+00:00",
+            "received_prints": [
+              "FN_TRAV_8\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-01T23:20:30.098307+00:00",
+            "returned_utc": "2026-10-01T23:20:30.408037+00:00",
+            "received_prints": [
+              "setpos_exact 1571.937134 500.000000 -37.703125;setang_exact 0.000000 0.000000 0.000000\n",
+              "FN_TRAV_9\n"
+            ]
+          },
+          {
+            "command": "-jump",
+            "requested_hold_seconds": 0.1,
+            "sent_utc": "2026-10-01T23:20:30.410038+00:00",
+            "returned_utc": "2026-10-01T23:20:30.715672+00:00",
+            "received_prints": [
+              "FN_TRAV_10\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-01T23:20:30.716682+00:00",
+            "returned_utc": "2026-10-01T23:20:31.126693+00:00",
+            "received_prints": [
+              "setpos_exact 1571.972290 500.000000 -93.135742;setang_exact 0.000000 0.000000 0.000000\n",
+              "FN_TRAV_11\n"
+            ]
+          },
+          {
+            "command": "+forward",
+            "requested_hold_seconds": 0.5,
+            "sent_utc": "2026-10-01T23:20:31.128694+00:00",
+            "returned_utc": "2026-10-01T23:20:31.937154+00:00",
+            "received_prints": [
+              "FN_TRAV_12\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-01T23:20:31.937154+00:00",
+            "returned_utc": "2026-10-01T23:20:32.348071+00:00",
+            "received_prints": [
+              "setpos_exact 1571.972290 500.000000 -93.135742;setang_exact 0.000000 0.000000 0.000000\n",
+              "FN_TRAV_13\n"
+            ]
+          },
+          {
+            "command": "-forward",
+            "requested_hold_seconds": 1,
+            "sent_utc": "2026-10-01T23:20:32.350071+00:00",
+            "returned_utc": "2026-10-01T23:20:33.560459+00:00",
+            "received_prints": [
+              "FN_TRAV_14\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-01T23:20:33.561459+00:00",
+            "returned_utc": "2026-10-01T23:20:33.973840+00:00",
+            "received_prints": [
+              "setpos_exact 1571.972290 500.000000 -93.135742;setang_exact 0.000000 0.000000 0.000000\n",
+              "FN_TRAV_15\n"
+            ]
+          },
+          {
+            "command": "-forward; -back; -left; -right; -jump; -duck",
+            "requested_hold_seconds": 0.3,
+            "sent_utc": "2026-10-01T23:20:33.974841+00:00",
+            "returned_utc": "2026-10-01T23:20:34.481942+00:00",
+            "received_prints": [
+              "FN_TRAV_16\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-01T23:20:34.482943+00:00",
+            "returned_utc": "2026-10-01T23:20:34.791856+00:00",
+            "received_prints": [
+              "setpos_exact 1571.972290 500.000000 -93.135742;setang_exact 0.000000 0.000000 0.000000\n",
+              "FN_TRAV_17\n"
+            ]
+          },
+          {
+            "command": "-forward",
+            "requested_hold_seconds": 1,
+            "sent_utc": "2026-10-01T23:20:34.793856+00:00",
+            "returned_utc": "2026-10-01T23:20:36.105014+00:00",
+            "received_prints": [
+              "FN_TRAV_18\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-01T23:20:36.106014+00:00",
+            "returned_utc": "2026-10-01T23:20:36.414951+00:00",
+            "received_prints": [
+              "setpos_exact 1571.972290 500.000000 -93.135742;setang_exact 0.000000 0.000000 0.000000\n",
+              "FN_TRAV_19\n"
+            ]
+          },
+          {
+            "command": "-forward; -back; -left; -right; -jump; -duck; noclip 1",
+            "requested_hold_seconds": 0.3,
+            "sent_utc": "2026-10-01T23:20:36.417455+00:00",
+            "returned_utc": "2026-10-01T23:20:36.924040+00:00",
+            "received_prints": [
+              "FN_TRAV_20\n",
+              "noclip ON\n"
+            ]
+          }
+        ],
+        "observations": [
+          {
+            "label": "settled start",
+            "timestamp_utc": "2026-10-01T23:20:28.570753+00:00",
+            "pose": "setpos_exact 1400.000000 500.000000 -102.334106;setang_exact 0.000000 0.000000 0.000000"
+          },
+          {
+            "label": "ground approach to parapet",
+            "timestamp_utc": "2026-10-01T23:20:29.691181+00:00",
+            "pose": "setpos_exact 1552.590820 500.000000 -92.749084;setang_exact 0.000000 0.000000 0.000000"
+          },
+          {
+            "label": "jump from grounded approach",
+            "timestamp_utc": "2026-10-01T23:20:30.409037+00:00",
+            "pose": "setpos_exact 1571.937134 500.000000 -37.703125;setang_exact 0.000000 0.000000 0.000000"
+          },
+          {
+            "label": "jump released",
+            "timestamp_utc": "2026-10-01T23:20:31.127694+00:00",
+            "pose": "setpos_exact 1571.972290 500.000000 -93.135742;setang_exact 0.000000 0.000000 0.000000"
+          },
+          {
+            "label": "continue over parapet",
+            "timestamp_utc": "2026-10-01T23:20:32.349071+00:00",
+            "pose": "setpos_exact 1571.972290 500.000000 -93.135742;setang_exact 0.000000 0.000000 0.000000"
+          },
+          {
+            "label": "settle in Pit",
+            "timestamp_utc": "2026-10-01T23:20:33.974841+00:00",
+            "pose": "setpos_exact 1571.972290 500.000000 -93.135742;setang_exact 0.000000 0.000000 0.000000"
+          },
+          {
+            "label": "landing check 1",
+            "timestamp_utc": "2026-10-01T23:20:34.792857+00:00",
+            "pose": "setpos_exact 1571.972290 500.000000 -93.135742;setang_exact 0.000000 0.000000 0.000000"
+          },
+          {
+            "label": "landing check 2",
+            "timestamp_utc": "2026-10-01T23:20:36.416454+00:00",
+            "pose": "setpos_exact 1571.972290 500.000000 -93.135742;setang_exact 0.000000 0.000000 0.000000"
+          }
+        ],
+        "status": "completed attempt; landing and traversal require review",
+        "collision_mode_reply": "noclip OFF",
+        "cleanup": "movement released; noclip ON verified"
+      },
+      "review": "Reverse jump did not cross. Settled Pit start(1400,500,-102.334); approach reaches1552.591/-92.749; jump reaches1571.937/-37.703 then stable1571.972/-93.136. This failed attempt alone does not prove all reverse possibilities absent."
+    }
+  ],
+  "accepted_directions": [
+    {
+      "id": "SIDE_PIT_TO_PIT_JUMP_DROP",
+      "edge": "E27",
+      "direction": "Side Pit to Pit",
+      "reports": [
+        "SIDE_PIT_PARAPET_JUMP_003",
+        "SIDE_PIT_PARAPET_JUMP_004"
+      ],
+      "status": "accepted observed forward jump/drop",
+      "limits": "Solo current-build local session, sv_gravity800, sv_jump_impulse301.99338, sv_maxspeed320. Not default-speed travel time. Reverse tested once without crossing; physical lip/floor bounds pending."
+    }
+  ]
+}

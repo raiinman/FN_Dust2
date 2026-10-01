@@ -342,10 +342,12 @@
       "id": "E27",
       "from": "Side Pit",
       "to": "Pit",
-      "mode": "walk",
-      "direction": "both",
+      "mode": "direct jump/drop; reverse classification pending",
+      "direction": "forward observed; reverse unverified",
       "elevation": "down into pit",
-      "measurement": "D027"
+      "measurement": "D027",
+      "traversal_evidence": "TRAVERSAL_PROBES.json/SIDE_PIT_TO_PIT_JUMP_DROP",
+      "validation": "Two collision-enabled forward approach/jump/drop observations with stable Pit landing. Direct ground attempt and one reverse jump blocked; physical impossibility of reverse not yet accepted."
     },
     {
       "id": "E28",

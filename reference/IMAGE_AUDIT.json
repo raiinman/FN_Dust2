@@ -1,9 +1,9 @@
 {
   "review_date": "2026-10-01",
   "source_build": "25640462",
-  "registered_images": 137,
+  "registered_images": 161,
   "coverage_excluded": 8,
-  "complete_areas": 6,
+  "complete_areas": 15,
   "complete_subareas": 5,
   "declared_view_sets": [
     {
@@ -268,6 +268,207 @@
       },
       "review": "Combined accepted Catwalk, Short Stairs and A Short upper-branch sets cover the entire named route chain. Individual frame limits remain in component reviews; both-direction ground paths are separately recorded.",
       "remaining": "Critical cover/platform spans and complete stair endpoint profile remain separate metric work."
+    },
+    {
+      "area": "Outside Long",
+      "taxonomy_scope": "critical_area",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_OUTLONG_FORWARD_RECOVERY_002"
+        ],
+        "reverse": [
+          "QA_OUTLONG_REVERSE_RECOVERY_001"
+        ],
+        "wall_read": [
+          "QA_OUTLONG_SIDE_RECOVERY_001",
+          "QA_OUTLONG_REVERSE_RECOVERY_001"
+        ],
+        "elevation": [
+          "QA_OUTLONG_ELEVATION_RECOVERY_001"
+        ]
+      },
+      "review": "Combined individually inspected ground and high views cover forward/reverse, walls, floor arrangement and elevation relationships. Real cover and edge continuations have complementary coverage. High roof/backface artifacts are excluded from architectural roof interpretation; per-frame limits remain in capture register.",
+      "remaining": "Full architectural spans, slopes/stairs, cover and boundary uncertainty require separate numeric evidence. Suicide and Xbox special traversal are not accepted by visual context."
+    },
+    {
+      "area": "Top Mid",
+      "taxonomy_scope": "critical_area",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_TOPMID_G1_PY_001"
+        ],
+        "reverse": [
+          "QA_TOPMID_REVERSE_RECOVERY_002"
+        ],
+        "wall_read": [
+          "QA_TOPMID_SIDE_RECOVERY_001"
+        ],
+        "elevation": [
+          "QA_TOPMID_ELEVATION_RECOVERY_001"
+        ]
+      },
+      "review": "Combined individually inspected ground and high views cover forward/reverse, walls, floor arrangement and elevation relationships. Real cover and edge continuations have complementary coverage. High roof/backface artifacts are excluded from architectural roof interpretation; per-frame limits remain in capture register.",
+      "remaining": "Full architectural spans, slopes/stairs, cover and boundary uncertainty require separate numeric evidence. Suicide and Xbox special traversal are not accepted by visual context."
+    },
+    {
+      "area": "Mid",
+      "taxonomy_scope": "critical_area",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_MID_FORWARD_RECOVERY_001",
+          "QA_MIDDOORS_FORWARD_RECOVERY_001"
+        ],
+        "reverse": [
+          "QA_MID_REVERSE_RECOVERY_001"
+        ],
+        "wall_read": [
+          "QA_MID_SIDE_RECOVERY_001"
+        ],
+        "elevation": [
+          "QA_MID_ELEVATION_RECOVERY_001"
+        ]
+      },
+      "review": "Combined individually inspected ground and high views cover forward/reverse, walls, floor arrangement and elevation relationships. Real cover and edge continuations have complementary coverage. High roof/backface artifacts are excluded from architectural roof interpretation; per-frame limits remain in capture register.",
+      "remaining": "Full architectural spans, slopes/stairs, cover and boundary uncertainty require separate numeric evidence. Suicide and Xbox special traversal are not accepted by visual context."
+    },
+    {
+      "area": "CT Mid",
+      "taxonomy_scope": "critical_area",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_CTMID_FORWARD_RECOVERY_001"
+        ],
+        "reverse": [
+          "QA_CTMID_REVERSE_RECOVERY_001"
+        ],
+        "wall_read": [
+          "QA_CTMID_SIDE_RECOVERY_001"
+        ],
+        "elevation": [
+          "QA_CTMID_ELEVATION_RECOVERY_001"
+        ]
+      },
+      "review": "Combined individually inspected ground and high views cover forward/reverse, walls, floor arrangement and elevation relationships. Real cover and edge continuations have complementary coverage. High roof/backface artifacts are excluded from architectural roof interpretation; per-frame limits remain in capture register.",
+      "remaining": "Full architectural spans, slopes/stairs, cover and boundary uncertainty require separate numeric evidence. Suicide and Xbox special traversal are not accepted by visual context."
+    },
+    {
+      "area": "CT Spawn",
+      "taxonomy_scope": "critical_area",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_CTSPAWN_G1_PX_001"
+        ],
+        "reverse": [
+          "QA_CT_REVERSE_RECOVERY_003",
+          "QA_CTSPAWN_G1_PY_001"
+        ],
+        "wall_read": [
+          "QA_CTSPAWN_SIDE_RECOVERY_001",
+          "QA_CTSPAWN_G1_NY_001"
+        ],
+        "elevation": [
+          "QA_CTSPAWN_ELEVATION_RECOVERY_002"
+        ]
+      },
+      "review": "Combined individually inspected views cover directions, wall/floor arrangement and elevation relationships. Roof-covered floors supplied by ground views; tall cover has complementary plan/side context. B Window and special boosts remain separate connector work. Per-frame limitations retained; no numeric extent acceptance.",
+      "remaining": "Full architectural floor/cover/aperture endpoints and slopes require measurements and render/collision bounds. Special traversal remains separate."
+    },
+    {
+      "area": "Pit",
+      "taxonomy_scope": "critical_area",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_PIT_FORWARD_RECOVERY_001",
+          "QA_PIT_FLOOR_RECOVERY_001"
+        ],
+        "reverse": [
+          "QA_PIT_REVERSE_RECOVERY_001"
+        ],
+        "wall_read": [
+          "QA_PIT_SIDE_RECOVERY_001",
+          "QA_SIDEPIT_G1_NX_001"
+        ],
+        "elevation": [
+          "QA_PIT_ELEVATION_RECOVERY_002",
+          "QA_SIDEPIT_STAIRS_RECOVERY_001"
+        ]
+      },
+      "review": "Combined individually inspected views cover directions, wall/floor arrangement and elevation relationships. Roof-covered floors supplied by ground views; tall cover has complementary plan/side context. B Window and special boosts remain separate connector work. Per-frame limitations retained; no numeric extent acceptance.",
+      "remaining": "Full architectural floor/cover/aperture endpoints and slopes require measurements and render/collision bounds. Special traversal remains separate."
+    },
+    {
+      "area": "Long A",
+      "taxonomy_scope": "critical_area",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_LONGA_G1_PY_001"
+        ],
+        "reverse": [
+          "QA_LONGA_G1_NY_001"
+        ],
+        "wall_read": [
+          "QA_LONGA_SIDE_RECOVERY_001"
+        ],
+        "elevation": [
+          "QA_LONGA_ELEVATION_RECOVERY_001"
+        ]
+      },
+      "review": "Combined individually inspected views cover directions, wall/floor arrangement and elevation relationships. Roof-covered floors supplied by ground views; tall cover has complementary plan/side context. B Window and special boosts remain separate connector work. Per-frame limitations retained; no numeric extent acceptance.",
+      "remaining": "Full architectural floor/cover/aperture endpoints and slopes require measurements and render/collision bounds. Special traversal remains separate."
+    },
+    {
+      "area": "A Site",
+      "taxonomy_scope": "critical_area",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_ASITE_FLOOR_RECOVERY_001"
+        ],
+        "reverse": [
+          "QA_ASITE_REVERSE_RECOVERY_001"
+        ],
+        "wall_read": [
+          "QA_ASITE_SIDE_RECOVERY_001",
+          "QA_ASITE_FLOOR_RECOVERY_001"
+        ],
+        "elevation": [
+          "QA_ASITE_ELEVATION_RECOVERY_002",
+          "QA_UNDERA_ELEVATION_RECOVERY_002"
+        ]
+      },
+      "review": "Combined individually inspected views cover directions, wall/floor arrangement and elevation relationships. Roof-covered floors supplied by ground views; tall cover has complementary plan/side context. B Window and special boosts remain separate connector work. Per-frame limitations retained; no numeric extent acceptance.",
+      "remaining": "Full architectural floor/cover/aperture endpoints and slopes require measurements and render/collision bounds. Special traversal remains separate."
+    },
+    {
+      "area": "B Site",
+      "taxonomy_scope": "critical_area",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_BSITE_G1_PY_001",
+          "QA_BSITE_REAR_RECOVERY_001"
+        ],
+        "reverse": [
+          "QA_BSITE_REVERSE_RECOVERY_001"
+        ],
+        "wall_read": [
+          "QA_BSITE_G1_PX_001",
+          "QA_BSITE_G1_NX_001"
+        ],
+        "elevation": [
+          "QA_BSITE_PLAN_RECOVERY_002",
+          "QA_BSITE_REAR_RECOVERY_001"
+        ]
+      },
+      "review": "Combined individually inspected views cover directions, wall/floor arrangement and elevation relationships. Roof-covered floors supplied by ground views; tall cover has complementary plan/side context. B Window and special boosts remain separate connector work. Per-frame limitations retained; no numeric extent acceptance.",
+      "remaining": "Full architectural floor/cover/aperture endpoints and slopes require measurements and render/collision bounds. Special traversal remains separate."
     }
   ],
   "scope": "Image integrity and declared combined-view reviews; no metric or topology acceptance",
@@ -1368,6 +1569,198 @@
       "sha256": "ec3ffcffce4b3925902e727bda01695d54aee2ea9c507dd7e07b66d24731d237",
       "coverage_status": "PARTIAL",
       "review": "Complete lower floor, twelve visually counted risers and upper landing edge. Count corroborates twelve elevated collision levels; individual exact tread edges/rise/run measured separately."
+    },
+    {
+      "id": "QA_OUTLONG_REVERSE_RECOVERY_001",
+      "area": "Outside Long",
+      "image": "reference/images/outside_long/QA_OUTLONG_REVERSE_RECOVERY_001.jpg",
+      "sha256": "78ebd4f3d43f8f598a09d4745134ed1eaf919a2004f54ec496465893216421f4",
+      "coverage_status": "PARTIAL",
+      "review": "Reverse courtyard from Long portal approach; bordering shop block and spawn ramp visible. Near sides continue beyond frame, supplied by elevation/forward."
+    },
+    {
+      "id": "QA_OUTLONG_SIDE_RECOVERY_001",
+      "area": "Outside Long",
+      "image": "reference/images/outside_long/QA_OUTLONG_SIDE_RECOVERY_001.jpg",
+      "sha256": "e9245ccadc9b63d309c104b291ffc81198208e872b8308f4dd74ed2258c5c30e",
+      "coverage_status": "PARTIAL",
+      "review": "Top Mid-side courtyard passage and opposing facades; near facade clipped at left, supplied by reverse/elevation."
+    },
+    {
+      "id": "QA_OUTLONG_ELEVATION_RECOVERY_001",
+      "area": "Outside Long",
+      "image": "reference/images/outside_long/QA_OUTLONG_ELEVATION_RECOVERY_001.jpg",
+      "sha256": "184b4319334851185a26a144172e26025129459d7c571363b893aaeda8347849",
+      "coverage_status": "PARTIAL",
+      "review": "High courtyard floor, central roof block, parked car and Long Doors approach arrangement. Outer branch continuations clipped; ground views supply them. Roof/backface culling above portal excludes roof geometry use."
+    },
+    {
+      "id": "QA_MID_FORWARD_RECOVERY_001",
+      "area": "Mid",
+      "image": "reference/images/mid/QA_MID_FORWARD_RECOVERY_001.jpg",
+      "sha256": "303c7ef94ab9122e6d8bdef0c537f1628f6d9789addab63fb29efb99d13cb86a",
+      "coverage_status": "PARTIAL",
+      "review": "Mid downhill lane, parallel stairs, Catwalk retaining wall and Mid portal context. Xbox cover partly occludes portal, supplied by accepted Mid Doors set."
+    },
+    {
+      "id": "QA_MID_REVERSE_RECOVERY_001",
+      "area": "Mid",
+      "image": "reference/images/mid/QA_MID_REVERSE_RECOVERY_001.jpg",
+      "sha256": "2e226d6057e2b69b3779218cae37c90785046451a1cfd9f9c4ad6750c6f98328",
+      "coverage_status": "PARTIAL",
+      "review": "Mid uphill slope, full parallel stair flight and Top Mid exit relationship. Does not define stair dimensions."
+    },
+    {
+      "id": "QA_MID_SIDE_RECOVERY_001",
+      "area": "Mid",
+      "image": "reference/images/mid/QA_MID_SIDE_RECOVERY_001.jpg",
+      "sha256": "5e3a160a1e992d268a0602f2ca148936f4fc6675360fae95798b22474efc13bb",
+      "coverage_status": "PARTIAL",
+      "review": "Side retaining-wall, stair faces and upper Catwalk facade. Near/outer stairs clipped; forward/reverse supply complete flight."
+    },
+    {
+      "id": "QA_MID_ELEVATION_RECOVERY_001",
+      "area": "Mid",
+      "image": "reference/images/mid/QA_MID_ELEVATION_RECOVERY_001.jpg",
+      "sha256": "fcb52e8cf27758bf590becad638a2c40081c91cbd0de5e4e4f3bf4d469590259",
+      "coverage_status": "PARTIAL",
+      "review": "Mid floor/stair flight and upper Catwalk layer in high plan; street endpoints clip at image edges and are supplied by ground and portal views. Not a surveyed boundary."
+    },
+    {
+      "id": "QA_TOPMID_REVERSE_RECOVERY_002",
+      "area": "Top Mid",
+      "image": "reference/images/mid/QA_TOPMID_REVERSE_RECOVERY_002.jpg",
+      "sha256": "ffc80efec183841be3c1f74b19ca9ce1ff298dde6514c73ed5eda9d82da22f0a",
+      "coverage_status": "PARTIAL",
+      "review": "Top Mid reverse toward narrow south Suicide corridor and cover stack, with facade/overhead-beam context. Far route behind cover still requires traversal and measurements."
+    },
+    {
+      "id": "QA_TOPMID_SIDE_RECOVERY_001",
+      "area": "Top Mid",
+      "image": "reference/images/mid/QA_TOPMID_SIDE_RECOVERY_001.jpg",
+      "sha256": "903ec7c2113c2625578c38e0bfecb2b706264507a450eac6bcc356fc5a61a695",
+      "coverage_status": "PARTIAL",
+      "review": "Top Mid courtyard, cover stack, barrels, downhill Mid and Catwalk branch context. Near barrel clipped at right; existing forward/elevation cover it."
+    },
+    {
+      "id": "QA_TOPMID_ELEVATION_RECOVERY_001",
+      "area": "Top Mid",
+      "image": "reference/images/mid/QA_TOPMID_ELEVATION_RECOVERY_001.jpg",
+      "sha256": "9eeac2d68786da7c5541a63f65d02f4207ef3d0c670fc1a9ffd37aea387f1f79",
+      "coverage_status": "PARTIAL",
+      "review": "Top Mid paved courtyard and upper/lower branching arrangement. Mid continuation and south corridor clip at edges; paired ground views cover them."
+    },
+    {
+      "id": "QA_CTMID_FORWARD_RECOVERY_001",
+      "area": "CT Mid",
+      "image": "reference/images/ct_mid/QA_CTMID_FORWARD_RECOVERY_001.jpg",
+      "sha256": "8bf1b4cdcbe7ff28b35c0f0e5fb02586d03fc709b498da8cf51d121d9f342691",
+      "coverage_status": "PARTIAL",
+      "review": "CT Mid east approach toward CT Spawn arch, with truck, west-side retaining wall and floor slope context. Real cover partially screens arch-side floor."
+    },
+    {
+      "id": "QA_CTMID_REVERSE_RECOVERY_001",
+      "area": "CT Mid",
+      "image": "reference/images/ct_mid/QA_CTMID_REVERSE_RECOVERY_001.jpg",
+      "sha256": "219d89fcabcd879364b233eaaf1547995751dd985154a73be95efd0de8af7d97",
+      "coverage_status": "PARTIAL",
+      "review": "CT Mid reverse westward toward B Doors and approach slope, with opposing wall and truck-side cover. Near facade clipped; paired side/elevation views supply it."
+    },
+    {
+      "id": "QA_CTMID_SIDE_RECOVERY_001",
+      "area": "CT Mid",
+      "image": "reference/images/ct_mid/QA_CTMID_SIDE_RECOVERY_001.jpg",
+      "sha256": "b9c5ee9dc1bf1fbbb61968f5e86fa03f51273f35529aae3ce1cf63ff7fae81e7",
+      "coverage_status": "PARTIAL",
+      "review": "CT Mid south-side wall, Mid Doors and raised B Doors approaches visible together; floor levels are perspective context, not numeric evidence."
+    },
+    {
+      "id": "QA_CTMID_ELEVATION_RECOVERY_001",
+      "area": "CT Mid",
+      "image": "reference/images/ct_mid/QA_CTMID_ELEVATION_RECOVERY_001.jpg",
+      "sha256": "845bebd32260543ddb0017dfdd95eea817f51b968cca18c1e6042bac99df92e3",
+      "coverage_status": "PARTIAL",
+      "review": "CT Mid court, truck/stacked rubble, B-side slope and CT-arch-side cover arrangement. Near/outer endpoints clipped, supplied by ground views; above-roof backface culling excludes exterior roof interpretation."
+    },
+    {
+      "id": "QA_CTSPAWN_ELEVATION_RECOVERY_002",
+      "area": "CT Spawn",
+      "image": "reference/images/ct_spawn/QA_CTSPAWN_ELEVATION_RECOVERY_002.jpg",
+      "sha256": "82ffa0d8f7d41a339880c0465f86b126ee10ae0ed845861b1225becd8e546fcf",
+      "coverage_status": "PARTIAL",
+      "review": "High interior oblique floor/ceiling and southern exit wall, with central cover correctly rendered. Eastern floor screened by real crate; complementary side/exit views cover it."
+    },
+    {
+      "id": "QA_CTSPAWN_SIDE_RECOVERY_001",
+      "area": "CT Spawn",
+      "image": "reference/images/ct_spawn/QA_CTSPAWN_SIDE_RECOVERY_001.jpg",
+      "sha256": "9fcec368384e70b5eadbe1d3902f7b31e1301d46a825c96ecb74e63fee53fd19",
+      "coverage_status": "PARTIAL",
+      "review": "Interior floor, timber ceiling and southern wall with CT exit corridor behind central crate; paired exit views supply the actual aperture. No roof penetration."
+    },
+    {
+      "id": "QA_PIT_FLOOR_RECOVERY_001",
+      "area": "Pit",
+      "image": "reference/images/pit/QA_PIT_FLOOR_RECOVERY_001.jpg",
+      "sha256": "d10bb967a077385934a83496795a7ef72cb82cf3e933971e2aa83f7edc74cda1",
+      "coverage_status": "PARTIAL",
+      "review": "Pit ramp looking up to Long street, with both curbs/walls visible. Covered bottom behind camera has reverse reference; this is not a full bottom-floor image."
+    },
+    {
+      "id": "QA_PIT_ELEVATION_RECOVERY_002",
+      "area": "Pit",
+      "image": "reference/images/pit/QA_PIT_ELEVATION_RECOVERY_002.jpg",
+      "sha256": "d3bdaeee403a0de324195896294b481ac180a6713c4f399e8988cf47374afd96",
+      "coverage_status": "PARTIAL",
+      "review": "High Pit ramp, north street join and raised Side Pit/stair relationship. Covered bottom floor hidden by roof, supplied by ground reverse images; edge continuations supplied by ground views."
+    },
+    {
+      "id": "QA_SIDEPIT_STAIRS_RECOVERY_001",
+      "area": "Side Pit",
+      "image": "reference/images/side_pit/QA_SIDEPIT_STAIRS_RECOVERY_001.jpg",
+      "sha256": "b99672ba20c3b68a8c05ba4ffdf3f8e143f0cd54e1f641d31b786e15beed6d69",
+      "coverage_status": "PARTIAL",
+      "review": "Full raised Side Pit stair flight, landing and west parapet, from Long street. Near ground edge outside frame; entire riser chain and top/bottom transition visible."
+    },
+    {
+      "id": "QA_LONGA_ELEVATION_RECOVERY_001",
+      "area": "Long A",
+      "image": "reference/images/long_a/QA_LONGA_ELEVATION_RECOVERY_001.jpg",
+      "sha256": "5c1a5f84baf9f22210406650dd2c2127e4ee570e4786c2e6f2c94ff26a1c8026",
+      "coverage_status": "PARTIAL",
+      "review": "Long street plan with Pit/Side Pit, Long-to-A and crossing/site arrangement. Exterior roof backface artifact at right excluded; sampled street endpoints supplied by ground views."
+    },
+    {
+      "id": "QA_LONGA_SIDE_RECOVERY_001",
+      "area": "Long A",
+      "image": "reference/images/long_a/QA_LONGA_SIDE_RECOVERY_001.jpg",
+      "sha256": "f971ef57bb7e2b57a56b8c7c9b06f53ebefc355f843a550531dec70e0c07b708",
+      "coverage_status": "PARTIAL",
+      "review": "Long street opposing facade and pavement/curb relationship, with parked car and shop elevations. Outer facade continues beyond frame and has forward/reverse context."
+    },
+    {
+      "id": "QA_ASITE_FLOOR_RECOVERY_001",
+      "area": "A Site",
+      "image": "reference/images/a_site/QA_ASITE_FLOOR_RECOVERY_001.jpg",
+      "sha256": "d50e003567d0bc33aebd8568bcc8ed72cb23d927d55c157328efd75b917ea20f",
+      "coverage_status": "PARTIAL",
+      "review": "A Site floor and cover layout from north/east side, with southwest boundary and site access. Near tall crates clip at right; complementary plan/side/ground views supply complete cover arrangement."
+    },
+    {
+      "id": "QA_ASITE_ELEVATION_RECOVERY_002",
+      "area": "A Site",
+      "image": "reference/images/a_site/QA_ASITE_ELEVATION_RECOVERY_002.jpg",
+      "sha256": "a0e47ce2b5ec21568179178376b6cde923e42c9cdb9da8f41bf67adb7c9baa7b",
+      "coverage_status": "PARTIAL",
+      "review": "A Site raised platform, bordering ramps, cover arrangement and adjacent Under A roof context. Roof occludes lower passage, supplied by separate Under A set; not a numeric boundary."
+    },
+    {
+      "id": "QA_BSITE_REAR_RECOVERY_001",
+      "area": "B Site",
+      "image": "reference/images/b_site/QA_BSITE_REAR_RECOVERY_001.jpg",
+      "sha256": "5719a872701fe6db60daeb37aba8b2c22e335d8b2218d69df5dcc1332badd664",
+      "coverage_status": "PARTIAL",
+      "review": "B rear-platform perspective across full courtyard, with tunnel arch, B Doors, site/cover and stairs relationship. Near lamp/outer rear wall clip at left; courtyard remains unobstructed and complementary plan supplies rear-floor arrangement."
     }
   ]
 }

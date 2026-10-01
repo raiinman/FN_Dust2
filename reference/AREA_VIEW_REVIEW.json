@@ -265,6 +265,207 @@
       },
       "review": "Combined accepted Catwalk, Short Stairs and A Short upper-branch sets cover the entire named route chain. Individual frame limits remain in component reviews; both-direction ground paths are separately recorded.",
       "remaining": "Critical cover/platform spans and complete stair endpoint profile remain separate metric work."
+    },
+    {
+      "area": "Outside Long",
+      "taxonomy_scope": "critical_area",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_OUTLONG_FORWARD_RECOVERY_002"
+        ],
+        "reverse": [
+          "QA_OUTLONG_REVERSE_RECOVERY_001"
+        ],
+        "wall_read": [
+          "QA_OUTLONG_SIDE_RECOVERY_001",
+          "QA_OUTLONG_REVERSE_RECOVERY_001"
+        ],
+        "elevation": [
+          "QA_OUTLONG_ELEVATION_RECOVERY_001"
+        ]
+      },
+      "review": "Combined individually inspected ground and high views cover forward/reverse, walls, floor arrangement and elevation relationships. Real cover and edge continuations have complementary coverage. High roof/backface artifacts are excluded from architectural roof interpretation; per-frame limits remain in capture register.",
+      "remaining": "Full architectural spans, slopes/stairs, cover and boundary uncertainty require separate numeric evidence. Suicide and Xbox special traversal are not accepted by visual context."
+    },
+    {
+      "area": "Top Mid",
+      "taxonomy_scope": "critical_area",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_TOPMID_G1_PY_001"
+        ],
+        "reverse": [
+          "QA_TOPMID_REVERSE_RECOVERY_002"
+        ],
+        "wall_read": [
+          "QA_TOPMID_SIDE_RECOVERY_001"
+        ],
+        "elevation": [
+          "QA_TOPMID_ELEVATION_RECOVERY_001"
+        ]
+      },
+      "review": "Combined individually inspected ground and high views cover forward/reverse, walls, floor arrangement and elevation relationships. Real cover and edge continuations have complementary coverage. High roof/backface artifacts are excluded from architectural roof interpretation; per-frame limits remain in capture register.",
+      "remaining": "Full architectural spans, slopes/stairs, cover and boundary uncertainty require separate numeric evidence. Suicide and Xbox special traversal are not accepted by visual context."
+    },
+    {
+      "area": "Mid",
+      "taxonomy_scope": "critical_area",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_MID_FORWARD_RECOVERY_001",
+          "QA_MIDDOORS_FORWARD_RECOVERY_001"
+        ],
+        "reverse": [
+          "QA_MID_REVERSE_RECOVERY_001"
+        ],
+        "wall_read": [
+          "QA_MID_SIDE_RECOVERY_001"
+        ],
+        "elevation": [
+          "QA_MID_ELEVATION_RECOVERY_001"
+        ]
+      },
+      "review": "Combined individually inspected ground and high views cover forward/reverse, walls, floor arrangement and elevation relationships. Real cover and edge continuations have complementary coverage. High roof/backface artifacts are excluded from architectural roof interpretation; per-frame limits remain in capture register.",
+      "remaining": "Full architectural spans, slopes/stairs, cover and boundary uncertainty require separate numeric evidence. Suicide and Xbox special traversal are not accepted by visual context."
+    },
+    {
+      "area": "CT Mid",
+      "taxonomy_scope": "critical_area",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_CTMID_FORWARD_RECOVERY_001"
+        ],
+        "reverse": [
+          "QA_CTMID_REVERSE_RECOVERY_001"
+        ],
+        "wall_read": [
+          "QA_CTMID_SIDE_RECOVERY_001"
+        ],
+        "elevation": [
+          "QA_CTMID_ELEVATION_RECOVERY_001"
+        ]
+      },
+      "review": "Combined individually inspected ground and high views cover forward/reverse, walls, floor arrangement and elevation relationships. Real cover and edge continuations have complementary coverage. High roof/backface artifacts are excluded from architectural roof interpretation; per-frame limits remain in capture register.",
+      "remaining": "Full architectural spans, slopes/stairs, cover and boundary uncertainty require separate numeric evidence. Suicide and Xbox special traversal are not accepted by visual context."
+    },
+    {
+      "area": "CT Spawn",
+      "taxonomy_scope": "critical_area",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_CTSPAWN_G1_PX_001"
+        ],
+        "reverse": [
+          "QA_CT_REVERSE_RECOVERY_003",
+          "QA_CTSPAWN_G1_PY_001"
+        ],
+        "wall_read": [
+          "QA_CTSPAWN_SIDE_RECOVERY_001",
+          "QA_CTSPAWN_G1_NY_001"
+        ],
+        "elevation": [
+          "QA_CTSPAWN_ELEVATION_RECOVERY_002"
+        ]
+      },
+      "review": "Combined individually inspected views cover directions, wall/floor arrangement and elevation relationships. Roof-covered floors supplied by ground views; tall cover has complementary plan/side context. B Window and special boosts remain separate connector work. Per-frame limitations retained; no numeric extent acceptance.",
+      "remaining": "Full architectural floor/cover/aperture endpoints and slopes require measurements and render/collision bounds. Special traversal remains separate."
+    },
+    {
+      "area": "Pit",
+      "taxonomy_scope": "critical_area",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_PIT_FORWARD_RECOVERY_001",
+          "QA_PIT_FLOOR_RECOVERY_001"
+        ],
+        "reverse": [
+          "QA_PIT_REVERSE_RECOVERY_001"
+        ],
+        "wall_read": [
+          "QA_PIT_SIDE_RECOVERY_001",
+          "QA_SIDEPIT_G1_NX_001"
+        ],
+        "elevation": [
+          "QA_PIT_ELEVATION_RECOVERY_002",
+          "QA_SIDEPIT_STAIRS_RECOVERY_001"
+        ]
+      },
+      "review": "Combined individually inspected views cover directions, wall/floor arrangement and elevation relationships. Roof-covered floors supplied by ground views; tall cover has complementary plan/side context. B Window and special boosts remain separate connector work. Per-frame limitations retained; no numeric extent acceptance.",
+      "remaining": "Full architectural floor/cover/aperture endpoints and slopes require measurements and render/collision bounds. Special traversal remains separate."
+    },
+    {
+      "area": "Long A",
+      "taxonomy_scope": "critical_area",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_LONGA_G1_PY_001"
+        ],
+        "reverse": [
+          "QA_LONGA_G1_NY_001"
+        ],
+        "wall_read": [
+          "QA_LONGA_SIDE_RECOVERY_001"
+        ],
+        "elevation": [
+          "QA_LONGA_ELEVATION_RECOVERY_001"
+        ]
+      },
+      "review": "Combined individually inspected views cover directions, wall/floor arrangement and elevation relationships. Roof-covered floors supplied by ground views; tall cover has complementary plan/side context. B Window and special boosts remain separate connector work. Per-frame limitations retained; no numeric extent acceptance.",
+      "remaining": "Full architectural floor/cover/aperture endpoints and slopes require measurements and render/collision bounds. Special traversal remains separate."
+    },
+    {
+      "area": "A Site",
+      "taxonomy_scope": "critical_area",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_ASITE_FLOOR_RECOVERY_001"
+        ],
+        "reverse": [
+          "QA_ASITE_REVERSE_RECOVERY_001"
+        ],
+        "wall_read": [
+          "QA_ASITE_SIDE_RECOVERY_001",
+          "QA_ASITE_FLOOR_RECOVERY_001"
+        ],
+        "elevation": [
+          "QA_ASITE_ELEVATION_RECOVERY_002",
+          "QA_UNDERA_ELEVATION_RECOVERY_002"
+        ]
+      },
+      "review": "Combined individually inspected views cover directions, wall/floor arrangement and elevation relationships. Roof-covered floors supplied by ground views; tall cover has complementary plan/side context. B Window and special boosts remain separate connector work. Per-frame limitations retained; no numeric extent acceptance.",
+      "remaining": "Full architectural floor/cover/aperture endpoints and slopes require measurements and render/collision bounds. Special traversal remains separate."
+    },
+    {
+      "area": "B Site",
+      "taxonomy_scope": "critical_area",
+      "status": "accepted required views",
+      "views": {
+        "forward": [
+          "QA_BSITE_G1_PY_001",
+          "QA_BSITE_REAR_RECOVERY_001"
+        ],
+        "reverse": [
+          "QA_BSITE_REVERSE_RECOVERY_001"
+        ],
+        "wall_read": [
+          "QA_BSITE_G1_PX_001",
+          "QA_BSITE_G1_NX_001"
+        ],
+        "elevation": [
+          "QA_BSITE_PLAN_RECOVERY_002",
+          "QA_BSITE_REAR_RECOVERY_001"
+        ]
+      },
+      "review": "Combined individually inspected views cover directions, wall/floor arrangement and elevation relationships. Roof-covered floors supplied by ground views; tall cover has complementary plan/side context. B Window and special boosts remain separate connector work. Per-frame limitations retained; no numeric extent acceptance.",
+      "remaining": "Full architectural floor/cover/aperture endpoints and slopes require measurements and render/collision bounds. Special traversal remains separate."
     }
   ]
 }

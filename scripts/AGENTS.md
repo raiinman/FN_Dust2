@@ -108,6 +108,12 @@ Blender Python, Unreal automation, validation scripts, manifest processors, and 
   is connectivity evidence, never default-speed timing or special traversal.
   Inspect blocked routes before changing the waypoint plan; preserve attempts.
 - Scripts must be deterministic where inputs are unchanged.
+- `cs2_traverse.py` records configured collision jump/drop attempts with a
+  reviewed settled-start region, movement-only actions, exact replies and
+  timestamped poses. Start is the only teleport. It always releases movement
+  and verifies noclip cleanup; preserve failed start checks. Completed attempt
+  status is not topology acceptance. Review direction, launch, crossing and
+  stable landing; failed individual jumps do not prove a connection absent.
 - Keep configuration/data separate from hard-coded editor coordinates when practical.
 - A script that changes production geometry must leave inspectable inputs and outputs.
 - Do not embed credentials or licensed/proprietary source content.

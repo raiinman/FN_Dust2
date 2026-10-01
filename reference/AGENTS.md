@@ -87,6 +87,10 @@ self-captured CS2 study screenshots for the internal benchmark.
 - `WALK_PROBES.json` preserves collision-enabled route attempts separately from
   topology acceptance. A blocked waypoint is an inspected attempt, not proof
   that the map edge is absent. Only reviewed complete paths support walking.
+- `TRAVERSAL_PROBES.json` preserves configured jump/drop attempts, invalid
+  settled starts and explicit per-direction review. Accepted launch/crossing/
+  landing evidence never certifies a reverse route or boost; failed attempts
+  remain separate from proofs of physical impossibility.
 - Every reference must have provenance.
 - Every measurement must carry confidence.
 - Separate observed facts from inference.

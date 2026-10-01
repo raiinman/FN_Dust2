@@ -11,12 +11,12 @@ old dirty checkout preserved in4c7df48, baseline merged inab4e484. See
 [evidence/CRASH_RECOVERY_20261001.md](../evidence/CRASH_RECOVERY_20261001.md).
 The latest repository commit pins this checkpoint; fetch/check main before resume.
 
-- 137 reviewed study JPEGs, eight historical coverage exclusions preserved.
+- 161 reviewed study JPEGs, eight historical coverage exclusions preserved.
  Original24 and recovered55 re-inspected; all additions inspected individually.
  IMAGE_REVIEW/IMAGE_AUDIT/CAPTURE_CRASH_RECOVERY own hashes and rejection reasons.
-- 6 critical-area required-view sets accepted: Long Doors, B Doors, T Spawn,
- Upper Tunnels, Lower Tunnels and Short / Catwalk. Five component subarea sets
- remain separately recorded. Other areas still need complete views.
+- 15 critical-area required-view sets accepted in AREA_VIEW_REVIEW; only
+ Connectors remains incomplete. Five component subarea sets remain separately
+ recorded. View acceptance does not certify structural metric or traversal.
 - 2.54cm/native unit accepted from two repeated spatial/axis rangefinder anchors.
  UE=(2.54x,-2.54y,2.54z), inverse/length checks and native right-axis evidence pass.
  Exporter/editor round-trip is a Phase 2 check; no import accepted yet.
@@ -55,20 +55,19 @@ changing failed plans. Opening other tools interrupted an earlier walk.
 
 ## Active work / next action
 
-Twenty ground paths now pass both directions, including both spawn branches,
-Upper Tunnels entrance, Top Mid/Outside Long, Long Corner/Long A and the raised
-Side Pit north stair approach. SIDE_PIT_TO_PIT_GROUND_RECOVERY_001 stopped at
-the west parapet. SIDE_PIT_PARAPET_JUMP_001 started in collision and is invalid;
-002 landed before the lip; 003 used a continuous grounded approach, jumped over
-the lip and landed in Pit. Reverse and repeated special traversal remain pending.
-All three private command/pose reports are preserved; no E27 acceptance yet.
+Twenty ground paths pass both directions. Direct Side Pit-to-Pit jump/drop
+passed twice from continuous grounded approach (private003/004), stable landing;
+reverse001 jump did not clear wall. Invalid initial start001 and short002 attempt
+preserved. TRAVERSAL_PROBES.json accepts observed forward E27 jump/drop; reverse physical
+classification still pending. All four S01-S04 special connections remain unverified.
 
-Serial capture controller currently active: courtyard_mid_capture_plan.json,
-output ../reference_cache/crash_recovery_survey/courtyard_mid/. Inspect its
-survey_progress.json and every capture before reuse/registration. Do not issue
-another pose controller until it stops. Last pose is in its latest capture.
+Courtyard/Mid and CT/Pit/site surveys finished:24 reviewed additions registered
+across those batches, three obstructed/misdirected attempts rejected. Window/Pit/
+Suicide survey also finished privately; every frame inspected, registration pending.
+No controller currently active. Latest pose is Pit-to-Side-Pit jump001 landing.
 
-1. Finish courtyard/Mid/CT directional survey and direct Pit traversal review.
+1. Register remaining connector views, resolve Pit reverse bounds, Suicide and
+ B Window, then test all four special jump/drop/boost connections.
 2. Fill remaining COVERAGE_MATRIX views and structural endpoints, room/cover
  spans, tunnel stairs and ramp profiles. D044 Short count/center rise/run now
  accepted; width interpolation and render/collision bounds remain separate.
