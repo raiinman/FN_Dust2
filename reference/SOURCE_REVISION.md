@@ -22,7 +22,9 @@ The date above is the file's literal timestamp, with no assumed timezone.
 
 ## Revision discipline
 
-- Query `version` in the capture session before accepting measurements.
+- Verify installed metadata and the live map/session before accepting measurements.
+  `version` was rejected as unknown by this tools build; use available session
+  commands and rechecked installed metadata, with limitations documented.
 - Record this build identity with every local survey batch.
 - If Steam updates, compare identity before continuing; do not mix unreviewed builds.
 - Public images without a verified build remain provisional crosschecks.
@@ -33,7 +35,7 @@ The date above is the file's literal timestamp, with no assumed timezone.
 ## Reproduction
 
 Read only the fields above from the installed manifest and `steam.inf`.
-Then run `py -3.11 scripts/cs2_console.py "version"` against a game launched with
+Then run `py -3.11 scripts/cs2_console.py "echo FN_DUST2_PROBE"` against a game launched with
 `-tools -vconsole`. The CS2RemoteConsole implementation explicitly requires
 tools mode: https://github.com/theokyr/CS2RemoteConsole . Merely enabling the
 on-screen console or launching with `-vconsole` did not create a TCP listener in
@@ -42,8 +44,9 @@ assuming availability. Keep raw capture media outside Git pending reuse clearanc
 
 Install the optional Workshop Tools component through CS2 Properties > DLC.
 After the user completed the download on 2026-10-01, `assetsystem.dll` exists.
-The Workshop addon launcher (`csgocfg.exe`) listens on port 29000 but returned
-no PRNT replies to echo/version probes while no game process was running.
 Launch the game/tools from the addon launcher before verifying the transport.
+The live game returned the exact echo marker after the reader was corrected
+for 32-bit packet lengths. See `evidence/CONSOLE_PREFLIGHT.md` for verified
+commands, rejected version command and the screenshot-path failure recovery.
 Do not treat a launcher TCP listener as successful game control, and do not
 download replacement DLLs.

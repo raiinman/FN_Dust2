@@ -9,7 +9,12 @@ Own reproducible scripts used to generate, import, validate, capture, or report 
 Blender Python, Unreal automation, validation scripts, manifest processors, and evidence-generation helpers.
 
 - `cs2_console.py` sends commands to an already-running local CS2 VConsole at
-  loopback only. Usage and limitations are in its module docstring.
+  loopback only. It handles 32-bit packet lengths and suppresses buffered replay.
+  `response_received` only indicates live output; `response_verified` requires
+  an exact echo marker. Other command results require semantic inspection.
+  Usage and limitations are in its module docstring.
+- `test_cs2_console.py` verifies framing, fragmentation, replay and echo handling
+  against a local synthetic server without launching or controlling CS2.
 - `reference_batch.py` derives reference metadata, normalized plan locators,
   survey tasks and the route summary from inspected HTML and TOPOLOGY.json.
   Its output remains provisional until current-build survey validation.

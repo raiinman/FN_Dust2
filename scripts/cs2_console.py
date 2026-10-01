@@ -12,7 +12,10 @@ import socket
 import struct
 import time
 
-HEADER = struct.Struct('>4sIHH')
+HEADER = struct.Struct('>4sHIH')
+# Current-build wire observations: uint16 version, uint32 total length, uint16
+# handle. Legacy uint16 length readers lose alignment on large CVRB packets.
+MAX_PACKET_BYTES = 4 * 1024 * 1024
 
 def command_packet(command: str) -> bytes:
     if any(c in command for c in '\x00\n\r'):
@@ -20,11 +23,12 @@ def command_packet(command: str) -> bytes:
     body = command.encode('utf-8') + b'\0'
     if len(body) + HEADER.size > 65535:
         raise ValueError('Command exceeds protocol packet limit')
-    return HEADER.pack(b'CMND', 0x00D40000, len(body) + HEADER.size, 0) + body
+    return HEADER.pack(b'CMND', 0x00D4, len(body) + HEADER.size, 0) + body
 
 def exchange(command: str, port: int = 29000, seconds: float = 1.5) -> dict:
     records = []
     pending = b''
+    replaying = False
     with socket.create_connection(('127.0.0.1', port), timeout=2) as conn:
         conn.settimeout(0.15)
         conn.sendall(command_packet(command))
@@ -39,15 +43,25 @@ def exchange(command: str, port: int = 29000, seconds: float = 1.5) -> dict:
             pending += chunk
             while len(pending) >= HEADER.size:
                 kind, version, length, handle = HEADER.unpack_from(pending)
-                if length < HEADER.size:
+                if length < HEADER.size or length > MAX_PACKET_BYTES:
                     raise ValueError('Invalid VConsole packet length')
                 if len(pending) < length:
                     break
                 body, pending = pending[HEADER.size:length], pending[length:]
                 if kind == b'PRNT':
-                    records.append(body[28:].split(b'\0', 1)[0].decode('utf-8', errors='replace'))
+                    line = body[28:].split(b'\0', 1)[0].decode('utf-8', errors='replace')
+                    if 'End VConsole Buffered Messages' in line:
+                        replaying = False
+                        records.clear()
+                    elif 'VConsole Buffered Messages' in line:
+                        replaying = True
+                        records.clear()
+                    elif not replaying:
+                        records.append(line)
     return {'transport': '127.0.0.1:' + str(port), 'command': command,
-            'received_prints': records, 'response_verified': bool(records),
+            'received_prints': records, 'response_received': bool(records),
+            'response_verified': command.startswith('echo ') and any(
+                line.strip() == command[5:].strip() for line in records),
             'note': 'A sent packet does not establish that the command succeeded.'}
 
 def main() -> int:
@@ -66,7 +80,7 @@ def main() -> int:
         args.output.parent.mkdir(parents=True, exist_ok=True)
         args.output.write_text(rendered + '\n', encoding='utf-8')
     print(rendered)
-    return 0 if result.get('response_verified') else 2
+    return 0 if result.get('response_received') else 2
 
 if __name__ == '__main__':
     raise SystemExit(main())
