@@ -56,7 +56,19 @@ are recorded in `reference/CAPTURE_PREFLIGHT.json`; media remains local-only.
 The first `cs2_capture.py` integration attempt used an uppercase screenshot ID;
 it returned no screenshot reply. A subsequent pose-only attempt returned no
 pose. Host inspection then found CS2 running with MainWindowTitle `Error` and
-no live echo replies. The dialog text/cause is unverified. Do not assume it is
-the same absolute-path failure. Helper now emits lowercase names and uses
-longer observation windows, but neither change has been live-verified.
-Resolve the dialog before another test. No acceptance gate advanced.
+no live echo replies. The user's subsequent screenshot confirms:
+
+```text
+CScreenshotService::Con_Screenshot_f():
+Invalid screenshot path, must be under Game or Content, be under MAXPATH,
+and have no bad characters: QA_TSPAWN_DISCOVERY_001
+```
+
+That basename is rejected; this does not isolate uppercase, length or another
+validation rule as the cause. Helper now separates descriptive metadata IDs
+from 13-character lowercase hashed engine names (`d2_` plus ten hex characters).
+This mitigation remains unverified in the live game. Dismiss error, relaunch,
+verify loading completed and test once. Stop if another error appears.
+No acceptance gate advanced. Root/docs/reference/evidence owning AGENTS remain
+unchanged for this fix because ownership and hierarchy did not change; the
+scripts contract documents the naming change.

@@ -67,8 +67,10 @@ def main():
     pose = [line.strip() for line in pose_reply if line.startswith('setpos_exact ')]
     if len(pose) != 1:
         raise RuntimeError('No unique live pose; capture aborted')
-    # Keep engine-facing resource names lowercase; metadata IDs may be uppercase.
-    response = exchange('screenshot ' + a.id.lower(), seconds=3)['received_prints']
+    # Engine rejected QA_TSPAWN_DISCOVERY_001. Its precise filename restriction
+    # is unknown; keep the resource name short and independent of metadata IDs.
+    basename = 'd2_' + hashlib.sha256(a.id.encode('ascii')).hexdigest()[:10]
+    response = exchange('screenshot ' + basename, seconds=3)['received_prints']
     names = [re.search(r'Screenshot written to: (.+)', line) for line in response]
     names = [m.group(1).strip() for m in names if m]
     if len(names) != 1:
@@ -81,6 +83,7 @@ def main():
     png = out / (a.id + '.png')
     width, height = preview_tga(target, png)
     result = dict(id=a.id, timestamp_utc=datetime.now(timezone.utc).isoformat(),
+                  engine_capture_basename=basename,
                   pose_command=pose[0], pose_unit='source_units', width=width,
                   height=height, requested_pose=a.pose,
                   tga_sha256=hashlib.sha256(target.read_bytes()).hexdigest(),
