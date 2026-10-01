@@ -54,6 +54,10 @@ Use:
 
 Prefer power tools over hundreds of manual editor clicks.
 
+## Before binary production
+
+Verify Git LFS is installed and active in the working clone before committing Unreal/UEFN maps or assets, Blender files, FBX/GLB, EXR/TIFF/PSD. The repository already defines LFS patterns in `.gitattributes`.
+
 ## Hard rules
 
 - Never polish incorrect geometry.
