@@ -70,6 +70,1035 @@
       ],
       "review": "Opposing Pit side-wall concrete mesh faces at y350 z-90; corresponding visible retaining walls in Pit forward/reverse/side views. Cross-section only, not minimum route clearance.",
       "id": "PIT_WALL_ENDPOINTS_001"
+    },
+    {
+      "id": "LONG_DOORS_CROSS_SECTIONS_001",
+      "source_build": "25640462",
+      "area": "Long Doors",
+      "source_map": "de_dust2",
+      "timestamp_utc": "2026-10-01T19:23:16.550371+00:00",
+      "unit": "source_units",
+      "config": {
+        "stations": [
+          {
+            "yaws": [
+              0,
+              180
+            ],
+            "pose": [
+              640,
+              250,
+              5
+            ],
+            "id": "OUTER_THRESHOLD_250"
+          },
+          {
+            "yaws": [
+              0,
+              180
+            ],
+            "pose": [
+              650,
+              350,
+              5
+            ],
+            "id": "CHAMBER_350"
+          },
+          {
+            "yaws": [
+              0,
+              180
+            ],
+            "pose": [
+              650,
+              450,
+              5
+            ],
+            "id": "CHAMBER_450"
+          },
+          {
+            "yaws": [
+              0,
+              180
+            ],
+            "pose": [
+              635,
+              700,
+              5
+            ],
+            "id": "INNER_THRESHOLD_700"
+          }
+        ],
+        "area": "Long Doors",
+        "build": "25640462",
+        "id": "LONG_DOORS_CROSS_SECTIONS_001"
+      },
+      "observations": [
+        {
+          "station_id": "OUTER_THRESHOLD_250",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact 640.000000 250.000000 5.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            640,
+            250,
+            69
+          ],
+          "hit": [
+            765.31,
+            250.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 84059"
+          ],
+          "rangefinder_reply": "DISTANCE: 125.31 inches ( 10.44 feet)"
+        },
+        {
+          "station_id": "OUTER_THRESHOLD_250",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact 640.000000 250.000000 5.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            640,
+            250,
+            69
+          ],
+          "hit": [
+            765.31,
+            250.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 84059"
+          ],
+          "rangefinder_reply": "DISTANCE: 125.31 inches ( 10.44 feet)"
+        },
+        {
+          "station_id": "OUTER_THRESHOLD_250",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact 640.000000 250.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            640,
+            250,
+            69
+          ],
+          "hit": [
+            101.81,
+            250.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 67151"
+          ],
+          "rangefinder_reply": "DISTANCE: 538.19 inches ( 44.85 feet)"
+        },
+        {
+          "station_id": "OUTER_THRESHOLD_250",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact 640.000000 250.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            640,
+            250,
+            69
+          ],
+          "hit": [
+            101.81,
+            250.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 67151"
+          ],
+          "rangefinder_reply": "DISTANCE: 538.19 inches ( 44.85 feet)"
+        },
+        {
+          "station_id": "CHAMBER_350",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact 650.000000 350.000000 5.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            650,
+            350,
+            69
+          ],
+          "hit": [
+            768.0,
+            350.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 84130"
+          ],
+          "rangefinder_reply": "DISTANCE: 118.00 inches (  9.83 feet)"
+        },
+        {
+          "station_id": "CHAMBER_350",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact 650.000000 350.000000 5.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            650,
+            350,
+            69
+          ],
+          "hit": [
+            768.0,
+            350.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 84130"
+          ],
+          "rangefinder_reply": "DISTANCE: 118.00 inches (  9.83 feet)"
+        },
+        {
+          "station_id": "CHAMBER_350",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact 650.000000 350.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            650,
+            350,
+            69
+          ],
+          "hit": [
+            512.0,
+            350.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 71236"
+          ],
+          "rangefinder_reply": "DISTANCE: 138.00 inches ( 11.50 feet)"
+        },
+        {
+          "station_id": "CHAMBER_350",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact 650.000000 350.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            650,
+            350,
+            69
+          ],
+          "hit": [
+            512.0,
+            350.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 71236"
+          ],
+          "rangefinder_reply": "DISTANCE: 138.00 inches ( 11.50 feet)"
+        },
+        {
+          "station_id": "CHAMBER_450",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact 650.000000 450.000000 5.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            650,
+            450,
+            69
+          ],
+          "hit": [
+            758.98,
+            450.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 108.98 inches (  9.08 feet)"
+        },
+        {
+          "station_id": "CHAMBER_450",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact 650.000000 450.000000 5.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            650,
+            450,
+            69
+          ],
+          "hit": [
+            758.98,
+            450.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 108.98 inches (  9.08 feet)"
+        },
+        {
+          "station_id": "CHAMBER_450",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact 650.000000 450.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            650,
+            450,
+            69
+          ],
+          "hit": [
+            522.19,
+            450.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 127.81 inches ( 10.65 feet)"
+        },
+        {
+          "station_id": "CHAMBER_450",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact 650.000000 450.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            650,
+            450,
+            69
+          ],
+          "hit": [
+            522.19,
+            450.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 127.81 inches ( 10.65 feet)"
+        },
+        {
+          "station_id": "INNER_THRESHOLD_700",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact 635.000000 700.000000 5.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            635,
+            700,
+            69
+          ],
+          "hit": [
+            692.95,
+            700.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  57.95 inches (  4.83 feet)"
+        },
+        {
+          "station_id": "INNER_THRESHOLD_700",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact 635.000000 700.000000 5.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            635,
+            700,
+            69
+          ],
+          "hit": [
+            692.95,
+            700.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  57.95 inches (  4.83 feet)"
+        },
+        {
+          "station_id": "INNER_THRESHOLD_700",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact 635.000000 700.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            635,
+            700,
+            69
+          ],
+          "hit": [
+            512.0,
+            700.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 75031"
+          ],
+          "rangefinder_reply": "DISTANCE: 123.00 inches ( 10.25 feet)"
+        },
+        {
+          "station_id": "INNER_THRESHOLD_700",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact 635.000000 700.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            635,
+            700,
+            69
+          ],
+          "hit": [
+            512.0,
+            700.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 75031"
+          ],
+          "rangefinder_reply": "DISTANCE: 123.00 inches ( 10.25 feet)"
+        }
+      ],
+      "status": "complete; architectural interpretation pending",
+      "original_pose": "setpos_exact 1100.000000 2500.000000 105.000000;setang_exact 0.000000 90.000000 0.000000",
+      "restored_pose": "setpos_exact 1100.000000 2500.000000 105.000000;setang_exact 0.000000 90.000000 0.000000",
+      "accepted_sections": [
+        {
+          "id": "LONG_CHAMBER_350",
+          "station_id": "CHAMBER_350",
+          "feature": "Opposing concrete chamber mesh walls at source y350 z69",
+          "confidence": "confirmed repeated collision cross-section",
+          "notes": "Visible chamber walls corroborated by inspected forward/reverse/elevation views. Section only; not room length, opening width, or full-height clearance."
+        },
+        {
+          "id": "LONG_CHAMBER_450",
+          "station_id": "CHAMBER_450",
+          "feature": "Opposing chamber collision hull faces at source y450 z69",
+          "confidence": "confirmed repeated collision cross-section",
+          "notes": "Timber support/wall section visible in side view. Hull faces differ from neighboring concrete mesh walls; preserve separate section, not minimum room width."
+        },
+        {
+          "id": "LONG_INNER_THRESHOLD_700",
+          "station_id": "INNER_THRESHOLD_700",
+          "feature": "Horizontal collision passage sample INNER_THRESHOLD_700 at source z69",
+          "confidence": "confirmed repeated collision cross-section",
+          "notes": "Door-leaf/wall cross-section only. Angled leaves require a weaving path verified separately in WALK_PROBES. Sample does not establish minimum orthogonal passage clearance, structural jamb span or opening height."
+        }
+      ],
+      "review": "Two repeated rays per side match exactly; all rangefinder readouts match native lengths within .02 units. Outer station250 crosses exterior courtyard and is excluded from chamber/opening dimensions. Accepted sections remain local, not minimum or full opening dimensions."
+    },
+    {
+      "id": "LONG_DOORS_LEAF_SECTIONS_002",
+      "source_build": "25640462",
+      "area": "Long Doors",
+      "source_map": "de_dust2",
+      "timestamp_utc": "2026-10-01T19:27:16.788185+00:00",
+      "unit": "source_units",
+      "config": {
+        "id": "LONG_DOORS_LEAF_SECTIONS_002",
+        "area": "Long Doors",
+        "build": "25640462",
+        "stations": [
+          {
+            "id": "OUTER_GAP_280",
+            "yaws": [
+              0,
+              180
+            ],
+            "pose": [
+              630,
+              280,
+              5
+            ]
+          },
+          {
+            "id": "OUTER_GAP_300",
+            "yaws": [
+              0,
+              180
+            ],
+            "pose": [
+              640,
+              300,
+              5
+            ]
+          },
+          {
+            "id": "OUTER_GAP_320",
+            "yaws": [
+              0,
+              180
+            ],
+            "pose": [
+              650,
+              320,
+              5
+            ]
+          },
+          {
+            "id": "INNER_GAP_640",
+            "yaws": [
+              0,
+              180
+            ],
+            "pose": [
+              635,
+              640,
+              5
+            ]
+          },
+          {
+            "id": "INNER_GAP_660",
+            "yaws": [
+              0,
+              180
+            ],
+            "pose": [
+              635,
+              660,
+              5
+            ]
+          },
+          {
+            "id": "INNER_GAP_680",
+            "yaws": [
+              0,
+              180
+            ],
+            "pose": [
+              635,
+              680,
+              5
+            ]
+          }
+        ]
+      },
+      "observations": [
+        {
+          "station_id": "OUTER_GAP_280",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact 630.000000 280.000000 5.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            630,
+            280,
+            69
+          ],
+          "hit": [
+            679.68,
+            280.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  49.68 inches (  4.14 feet)"
+        },
+        {
+          "station_id": "OUTER_GAP_280",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact 630.000000 280.000000 5.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            630,
+            280,
+            69
+          ],
+          "hit": [
+            679.68,
+            280.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  49.68 inches (  4.14 feet)"
+        },
+        {
+          "station_id": "OUTER_GAP_280",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact 630.000000 280.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            630,
+            280,
+            69
+          ],
+          "hit": [
+            562.88,
+            280.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  67.12 inches (  5.59 feet)"
+        },
+        {
+          "station_id": "OUTER_GAP_280",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact 630.000000 280.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            630,
+            280,
+            69
+          ],
+          "hit": [
+            562.88,
+            280.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  67.12 inches (  5.59 feet)"
+        },
+        {
+          "station_id": "OUTER_GAP_300",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact 640.000000 300.000000 5.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            640,
+            300,
+            69
+          ],
+          "hit": [
+            712.35,
+            300.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  72.35 inches (  6.03 feet)"
+        },
+        {
+          "station_id": "OUTER_GAP_300",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact 640.000000 300.000000 5.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            640,
+            300,
+            69
+          ],
+          "hit": [
+            712.35,
+            300.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  72.35 inches (  6.03 feet)"
+        },
+        {
+          "station_id": "OUTER_GAP_300",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact 640.000000 300.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            640,
+            300,
+            69
+          ],
+          "hit": [
+            576.31,
+            300.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  63.69 inches (  5.31 feet)"
+        },
+        {
+          "station_id": "OUTER_GAP_300",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact 640.000000 300.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            640,
+            300,
+            69
+          ],
+          "hit": [
+            576.31,
+            300.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  63.69 inches (  5.31 feet)"
+        },
+        {
+          "station_id": "OUTER_GAP_320",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact 650.000000 320.000000 5.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            650,
+            320,
+            69
+          ],
+          "hit": [
+            751.68,
+            320.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 101.68 inches (  8.47 feet)"
+        },
+        {
+          "station_id": "OUTER_GAP_320",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact 650.000000 320.000000 5.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            650,
+            320,
+            69
+          ],
+          "hit": [
+            751.68,
+            320.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 101.68 inches (  8.47 feet)"
+        },
+        {
+          "station_id": "OUTER_GAP_320",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact 650.000000 320.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            650,
+            320,
+            69
+          ],
+          "hit": [
+            608.89,
+            320.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  41.11 inches (  3.43 feet)"
+        },
+        {
+          "station_id": "OUTER_GAP_320",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact 650.000000 320.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            650,
+            320,
+            69
+          ],
+          "hit": [
+            608.89,
+            320.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  41.11 inches (  3.43 feet)"
+        },
+        {
+          "station_id": "INNER_GAP_640",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact 635.000000 640.000000 5.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            635,
+            640,
+            69
+          ],
+          "hit": [
+            652.66,
+            640.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  17.66 inches (  1.47 feet)"
+        },
+        {
+          "station_id": "INNER_GAP_640",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact 635.000000 640.000000 5.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            635,
+            640,
+            69
+          ],
+          "hit": [
+            652.66,
+            640.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  17.66 inches (  1.47 feet)"
+        },
+        {
+          "station_id": "INNER_GAP_640",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact 635.000000 640.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            635,
+            640,
+            69
+          ],
+          "hit": [
+            512.0,
+            640.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 75031"
+          ],
+          "rangefinder_reply": "DISTANCE: 123.00 inches ( 10.25 feet)"
+        },
+        {
+          "station_id": "INNER_GAP_640",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact 635.000000 640.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            635,
+            640,
+            69
+          ],
+          "hit": [
+            512.0,
+            640.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 75031"
+          ],
+          "rangefinder_reply": "DISTANCE: 123.00 inches ( 10.25 feet)"
+        },
+        {
+          "station_id": "INNER_GAP_660",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact 635.000000 660.000000 5.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            635,
+            660,
+            69
+          ],
+          "hit": [
+            652.66,
+            660.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  17.66 inches (  1.47 feet)"
+        },
+        {
+          "station_id": "INNER_GAP_660",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact 635.000000 660.000000 5.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            635,
+            660,
+            69
+          ],
+          "hit": [
+            652.66,
+            660.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  17.66 inches (  1.47 feet)"
+        },
+        {
+          "station_id": "INNER_GAP_660",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact 635.000000 660.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            635,
+            660,
+            69
+          ],
+          "hit": [
+            512.0,
+            660.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 75031"
+          ],
+          "rangefinder_reply": "DISTANCE: 123.00 inches ( 10.25 feet)"
+        },
+        {
+          "station_id": "INNER_GAP_660",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact 635.000000 660.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            635,
+            660,
+            69
+          ],
+          "hit": [
+            512.0,
+            660.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 75031"
+          ],
+          "rangefinder_reply": "DISTANCE: 123.00 inches ( 10.25 feet)"
+        },
+        {
+          "station_id": "INNER_GAP_680",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact 635.000000 680.000000 5.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            635,
+            680,
+            69
+          ],
+          "hit": [
+            652.66,
+            680.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  17.66 inches (  1.47 feet)"
+        },
+        {
+          "station_id": "INNER_GAP_680",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact 635.000000 680.000000 5.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            635,
+            680,
+            69
+          ],
+          "hit": [
+            652.66,
+            680.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  17.66 inches (  1.47 feet)"
+        },
+        {
+          "station_id": "INNER_GAP_680",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact 635.000000 680.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            635,
+            680,
+            69
+          ],
+          "hit": [
+            512.0,
+            680.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 75031"
+          ],
+          "rangefinder_reply": "DISTANCE: 123.00 inches ( 10.25 feet)"
+        },
+        {
+          "station_id": "INNER_GAP_680",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact 635.000000 680.000000 5.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            635,
+            680,
+            69
+          ],
+          "hit": [
+            512.0,
+            680.0,
+            69.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 75031"
+          ],
+          "rangefinder_reply": "DISTANCE: 123.00 inches ( 10.25 feet)"
+        }
+      ],
+      "status": "complete; architectural interpretation pending",
+      "original_pose": "setpos_exact 1100.000000 2500.000000 105.000000;setang_exact 0.000000 90.000000 0.000000",
+      "restored_pose": "setpos_exact 1100.000000 2500.000000 105.000000;setang_exact 0.000000 90.000000 0.000000",
+      "accepted_sections": [
+        {
+          "id": "LONG_OUTER_GAP_280",
+          "station_id": "OUTER_GAP_280",
+          "feature": "Horizontal collision passage sample OUTER_GAP_280 at source z69",
+          "confidence": "confirmed repeated collision cross-section",
+          "notes": "Door-leaf/wall cross-section only. Angled leaves require a weaving path verified separately in WALK_PROBES. Sample does not establish minimum orthogonal passage clearance, structural jamb span or opening height."
+        },
+        {
+          "id": "LONG_OUTER_GAP_300",
+          "station_id": "OUTER_GAP_300",
+          "feature": "Horizontal collision passage sample OUTER_GAP_300 at source z69",
+          "confidence": "confirmed repeated collision cross-section",
+          "notes": "Door-leaf/wall cross-section only. Angled leaves require a weaving path verified separately in WALK_PROBES. Sample does not establish minimum orthogonal passage clearance, structural jamb span or opening height."
+        },
+        {
+          "id": "LONG_OUTER_GAP_320",
+          "station_id": "OUTER_GAP_320",
+          "feature": "Horizontal collision passage sample OUTER_GAP_320 at source z69",
+          "confidence": "confirmed repeated collision cross-section",
+          "notes": "Door-leaf/wall cross-section only. Angled leaves require a weaving path verified separately in WALK_PROBES. Sample does not establish minimum orthogonal passage clearance, structural jamb span or opening height."
+        },
+        {
+          "id": "LONG_INNER_GAP_640",
+          "station_id": "INNER_GAP_640",
+          "feature": "Horizontal collision passage sample INNER_GAP_640 at source z69",
+          "confidence": "confirmed repeated collision cross-section",
+          "notes": "Door-leaf/wall cross-section only. Angled leaves require a weaving path verified separately in WALK_PROBES. Sample does not establish minimum orthogonal passage clearance, structural jamb span or opening height."
+        },
+        {
+          "id": "LONG_INNER_GAP_660",
+          "station_id": "INNER_GAP_660",
+          "feature": "Horizontal collision passage sample INNER_GAP_660 at source z69",
+          "confidence": "confirmed repeated collision cross-section",
+          "notes": "Door-leaf/wall cross-section only. Angled leaves require a weaving path verified separately in WALK_PROBES. Sample does not establish minimum orthogonal passage clearance, structural jamb span or opening height."
+        },
+        {
+          "id": "LONG_INNER_GAP_680",
+          "station_id": "INNER_GAP_680",
+          "feature": "Horizontal collision passage sample INNER_GAP_680 at source z69",
+          "confidence": "confirmed repeated collision cross-section",
+          "notes": "Door-leaf/wall cross-section only. Angled leaves require a weaving path verified separately in WALK_PROBES. Sample does not establish minimum orthogonal passage clearance, structural jamb span or opening height."
+        }
+      ],
+      "review": "Two repeated rays per side match exactly; all rangefinder readouts match native lengths within .02 units. Outer station250 crosses exterior courtyard and is excluded from chamber/opening dimensions. Accepted sections remain local, not minimum or full opening dimensions."
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 ## Active phase
 
-**Phase 1 â€” Reference + Metric Truth. Gate 1 remains FAIL.**
+**Phase 1 - Reference + Metric Truth. Gate 1 remains FAIL.**
 Phase 0 complete. User requested Phase 2 after Phase 1 passes, never before.
 
 ## Last checkpoint
@@ -10,11 +10,15 @@ Phase 0 complete. User requested Phase 2 after Phase 1 passes, never before.
 Crash recovery: GitHub baseline 35eaa64212857d1890faaba6a3be03f2f229c61a;
 preserved old checkout work in 4c7df48 and merged baseline in ab4e484.
 See evidence/CRASH_RECOVERY_20261001.md and latest Git commit for checkpoint SHA.
-84 study JPEGs registered; original 24 and recovered 55 re-inspected, one
-new CT exit view and four Pit views inspected. Eight historical images excluded from coverage;
+90 study JPEGs registered; original 24 and recovered 55 re-inspected, one
+new CT exit view, four Pit views and six Long Doors/approach views inspected.
+Four current-build native radar crops have separate calibration provenance.
+Eight historical images excluded from coverage;
 all evidence remains preserved. IMAGE_REVIEW.json and IMAGE_AUDIT.json own this
-decision. Thirteen repeated floor datums preserved as native evidence and converted separately. Engine physical conversion is accepted at2.54cm/source unit from two repeated spatial/axis anchors. WALK_PROBES.json
-preserves one completed forward tunnel-to-B walk, a completed Pit ramp path in both directions, three blocked plans and one response-interrupted reverse attempt.
+decision. Thirteen repeated floor datums are preserved as native evidence and converted separately. Engine physical conversion is accepted at 2.54 cm/source unit from two repeated spatial/axis anchors. WALK_PROBES.json
+preserves completed Pit ramp, Upper Tunnels-to-B exit, and Long Doors paths in
+both directions, plus earlier blocked/interrupted plans. Eleven calibrated
+collision-feature measurements are accepted; they do not fill the full register.
 
 ## Working checkout and recovery
 
@@ -41,19 +45,28 @@ reuse. Do not start duplicates or trust old PIDs/status alone.
    rejected for stale framebuffer despite correct pose; CT 003 matches the pose.
    Inspect each frame against logged area/heading; use new IDs after a failed attempt.
 2. Finish COVERAGE_MATRIX.csv gaps, especially complete Pit bottom/ramp extent (distinct from
-   Side Pit terrace), Long Doors chamber, tunnel chamber/stair branch and
+   Side Pit terrace), Outside Long courtyard, tunnel chamber/stair branch and
    unoccluded A/B site reverse views. All existing views are partial references.
 3. Extend architectural endpoints and validate Unreal axis transform. Physical factor2.54 is recorded in SCALE_CALIBRATION.json; keep source units separate.
 4. Complete both-direction walking and special jump/drop/boost evidence.
-5. Build calibrated annotated footprint/elevation layers and rerun Gate 1.
+5. Refine RADAR_PLAN.svg into surveyed architectural footprint/elevation layers
+   and rerun Gate 1. Four native-pose anchors fit within 0.20 pixels; allow 2
+   pixels (about 92 cm) for localization. Radar outlines are stylized.
 6. Only PASS permits Phase 2 deterministic Blender geometry.
 
 ## Current limitations
 
-Two accepted calibrated collision-feature measurements; full critical dimensions and render/collision bounds remain incomplete. FOV90 configured for new frames.
-Current overview attempts are perspective/roof-occluded, not calibrated truth maps.
+Eleven accepted calibrated collision-feature measurements; full critical dimensions
+and render/collision bounds remain incomplete. FOV90 configured for new frames.
+RADAR_PLAN.svg has a calibrated physical grid and 13 sampled floor elevations;
+stylized plan edges and unresolved overlapping elevation layers prevent truth-map acceptance.
 Gate 1 review must include recovered image audit and walking attempts.
 engine_no_focus_sleep is temporarily 0; restore and read back 20 at closeout.
 CLI GitHub fetch works in this session; prior network-failure note is obsolete.
 
-Latest Pit station: native(1400,350,-154) for clean forward view; floor hit(1400,350,-159.14), upper station(1400,700,-37.22). Do not use player foot position as architectural surface. Private fixture files are in crash_recovery_survey; Hammer currently has an unsaved agent-authored128-unit cube, no production or source map. Opening tools interrupted one walk; finish route runs before switching tools. GitHub checkpoint 8924235 contains Pit and scale evidence.
+Latest completed walk ends near native(-1950,1204,31.64), Upper Tunnels.
+Pit lower/upper floor hits: (1400,350,-159.14) and (1400,700,-37.22).
+Do not use player foot position as architectural surface. Private fixture files
+are in crash_recovery_survey; Hammer has an unsaved agent-authored 128-unit cube,
+no production or source map. Opening tools interrupted one walk; finish route
+runs before switching tools. Checkpoint 3ddf013 precedes this Long Doors/radar work.

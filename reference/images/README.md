@@ -53,6 +53,13 @@ Gate 1 survey batch: [metadata](../CAPTURE_GATE1_SURVEY.json).
 
 ## Directional survey - 2026-10-01
 
+Crash-recovery additions: [reviewed CT/Pit/Long images and camera metadata](../CAPTURE_CRASH_RECOVERY.json).
+Eight historical frames are excluded in [image review](../IMAGE_REVIEW.json).
+All 90 area JPEG hashes are checked by [image audit](../IMAGE_AUDIT.json).
+Four native HUD crops have [separate pose/hash calibration](../RADAR_CALIBRATION.json)
+and a [physical grid and elevation overlay](../RADAR_PLAN.svg); stylized radar
+edges are not accepted architectural measurements.
+
 55 reviewed 1280x720 JPEG references. [Poses, hashes and per-image limits](../CAPTURE_DIRECTIONAL_GATE1.json). Source-axis headings are not a geographic compass. Partial references do not certify Gate 1 coverage.
 
 | Area | +Y | -Y | +X | -X | Down |

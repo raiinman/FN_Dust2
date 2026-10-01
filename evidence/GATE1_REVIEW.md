@@ -5,14 +5,14 @@
 | Requirement | Evidence | Result |
 | --- | --- | --- |
 | Provenance and current revision | REFERENCE_MANIFEST.csv; build 25640462 | PASS for captured batch |
-| Every critical area forward/reverse/side/elevation coverage | 84 reviewed registered images (eight excluded from coverage); COVERAGE_MATRIX.csv | FAIL: incomplete directional and area coverage |
-| Unambiguous validated topology | ROUTE_GRAPH.md; TOPOLOGY.json; seven visually corroborated edges | FAIL: Pit ramp both-direction path and one forward tunnel path completed; remaining and special traversal incomplete |
-| Critical physical dimensions with confidence | Repeated native rays; 13 floor datums; CT column; four raw dimensions | FAIL: two calibrated feature measurements; full critical-dimension register incomplete |
-| Calibrated annotated whole-map truth | Overhead perspective; CT chord SVG; native floor datum point plot | FAIL: roofs occlude passages; no calibrated full footprint |
+| Every critical area forward/reverse/side/elevation coverage | 90 reviewed area images (eight excluded); four native radar crops separately reviewed; COVERAGE_MATRIX.csv | FAIL: incomplete directional and area coverage |
+| Unambiguous validated topology | ROUTE_GRAPH.md; TOPOLOGY.json; WALK_PROBES.json | FAIL: Pit ramp, Upper Tunnels-to-B exit and Long Doors paths pass both directions; remaining and special traversal incomplete |
+| Critical physical dimensions with confidence | Repeated native rays; 13 floor datums; ARCHITECTURAL_ENDPOINTS.json | FAIL: eleven calibrated feature measurements; full critical-dimension register incomplete |
+| Calibrated annotated whole-map truth | RADAR_CALIBRATION.json; RADAR_PLAN.svg with physical grid and floor samples | FAIL: calibrated context plan exists; stylized architectural boundaries and overlapping elevation layers remain unverified |
 | Bounded remaining uncertainty | UNCERTAINTY.md; per-area coverage matrix | FAIL: critical architectural completeness and render/collision offsets remain unresolved |
 
 Reviewed image metadata: CAPTURE_CT_RECOVERY.json, CAPTURE_DISCOVERY_BATCH.json,
-CAPTURE_ROUTE_BATCH.json CAPTURE_GATE1_SURVEY.json, CAPTURE_DIRECTIONAL_GATE1.json and CAPTURE_CRASH_RECOVERY.json. Eighty-four JPEG study previews are
+CAPTURE_ROUTE_BATCH.json CAPTURE_GATE1_SURVEY.json, CAPTURE_DIRECTIONAL_GATE1.json and CAPTURE_CRASH_RECOVERY.json. Ninety JPEG study previews are
 committed under reference/images/ with SHA-256 provenance; local originals remain.
 SOURCE_CAMERAS.csv separates native poses from Unreal camera units.
 Eleven rejected route-camera attempts preserve their poses/reasons; none counts
@@ -25,7 +25,7 @@ and repeated floor datums, a same-XY CT column and one rejected below-floor
 probe. FLOOR_DATUM_PLAN.svg was rendered and visually reviewed. The CT overhead
 hull is not accepted as a whole-room ceiling.
 
-Next: fill coverage gaps; establish physical conversion;
+Next: fill coverage gaps; validate the Unreal axis transform;
 measure actual architectural endpoints; verify walks and special traversals;
 construct calibrated footprint/elevation layers; rerun this gate.
 
@@ -33,6 +33,19 @@ DOX: root user preference and reference/scripting contracts updated; reference
 and master standards reconcile screenshot storage. Docs/evidence/QA AGENTS
 unchanged because ownership and acceptance criteria have not changed.
 
-Recovery review: IMAGE_AUDIT.json verifies all 80 image hashes. IMAGE_REVIEW.json identifies eight excluded images and keeps all remaining images partial. The original 24 and recovered 55 were individually inspected. A new clear CT reverse image was inspected against its pose. No area is certified complete. WALK_PROBES.json preserves four recovered attempts: three blocked paths and one forward-only Upper Tunnels to B collision walk. A blocked waypoint does not disprove an edge. See CRASH_RECOVERY_20261001.md for exact recovery and connection handover.
+Recovery review: IMAGE_AUDIT.json verifies all 90 area image hashes. IMAGE_REVIEW.json
+identifies eight excluded historical images. The original 24 and recovered 55,
+new CT/Pit and six Long Doors replacement frames were inspected. Six initial
+Long Doors frames remain private rejects. No complete area certification.
+WALK_PROBES.json preserves recovered and subsequent attempts; a blocked waypoint
+does not disprove an edge. See CRASH_RECOVERY_20261001.md for recovery instructions.
 
-Current review includes SCALE_CALIBRATION.json, ARCHITECTURAL_ENDPOINTS.json, PHYSICAL_FLOOR_DATUMS.csv and MEASUREMENTS.csv. Physical conversion is now accepted for this build from repeated inch readouts at two spatial/axis anchors. Critical dimensions still fail because the two measured features do not fill the required route/opening/stair/cover register. Four new Pit frames match requested poses and pass local visual inspection; full bottom lip and complete ramp extent remain. Both-direction Pit ramp walking passes at recorded reduced speed; no special traversal has been accepted. Whole-map footprint still fails.
+SCALE_CALIBRATION.json accepts physical conversion for this build from repeated
+inch readouts at two spatial/axis anchors. Eleven calibrated measurements do not
+fill the route/opening/stair/cover register. Long cross-sections are local collision
+samples, not minimum leaf clearance or complete structural openings.
+RADAR_CALIBRATION.json preserves four inspected 250x250 native HUD crops, actual
+poses and hashes. Fit residuals are below .20 pixels; allow 2 pixels (~92 cm) for
+localization. RADAR_PLAN.svg was rendered and inspected with grid, heights and
+sample legend. This allowance does not certify stylized radar boundaries.
+No special traversal is accepted. Phase 2 remains prohibited.

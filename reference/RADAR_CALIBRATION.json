@@ -1,0 +1,130 @@
+{
+  "source_build": "25640462",
+  "source_map": "de_dust2",
+  "review_date": "2026-10-01",
+  "status": "Calibrated current-build HUD plan; approximate context footprint, not surveyed architectural boundary",
+  "method": "Four separated current native poses; visually identified pink player marker; centroid of R>140 B>100 G<100 pixels in inspected crop; independent X/Y least-squares fit",
+  "crop_pixels": [
+    5,
+    4,
+    250,
+    250
+  ],
+  "parameters": {
+    "cl_hud_radar_scale": 1.3,
+    "cl_radar_always_centered": 0,
+    "cl_radar_rotate": 0,
+    "showscores": true
+  },
+  "anchors": [
+    {
+      "id": "QA_RADAR_AAPP_CAL_001",
+      "source_pose": [
+        1100.0,
+        2500.0,
+        105.0,
+        0.0,
+        90.0
+      ],
+      "pixel": [
+        198.57142857142858,
+        41.734693877551024
+      ],
+      "pink_pixels": 49,
+      "raw_png_sha256": "7c06ba50d8ca919f3f1adea44400b836542577a1917395319c5745bcbe22ba8a",
+      "crop_png_sha256": "bfaa5ff224b3f0cc1ee2dac12f53ec27c5f6b32b807577842964f301cd5a38c0",
+      "residual_pixels": 0.16966317214187826,
+      "repository_crop": "reference/images/map_plan/QA_RADAR_AAPP_CAL_001.png",
+      "timestamp_utc": "2026-10-01T19:20:28.727658+00:00",
+      "pose_command": "setpos_exact 1100.000000 2500.000000 105.000000;setang_exact 0.000000 90.000000 0.000000",
+      "pose_unit": "source_units",
+      "raw_tga_sha256": "1a26ed193482c781e29356597c64ce7533e25e1fe7a938a87386ba34d6905849",
+      "review": "Inspected whole-map crop: full plan extent and single pink player marker visible. Crop excludes scoreboard/account details. All four marker positions corroborate transform; radar edges are stylized, not architectural endpoints."
+    },
+    {
+      "id": "QA_RADAR_BSITE_CAL_001",
+      "source_pose": [
+        -1800.0,
+        2500.0,
+        40.0,
+        0.0,
+        90.0
+      ],
+      "pixel": [
+        36.81481481481482,
+        41.68518518518518
+      ],
+      "pink_pixels": 54,
+      "raw_png_sha256": "d028a74bb75bb04e707692847f63b08ca21520e1b50370f67b4398b279913dc6",
+      "crop_png_sha256": "8ece400d4ac16cab570832df3ebdf850075dabe7b4f589f8cb9b8f0d9d28d818",
+      "residual_pixels": 0.10513395808380266,
+      "repository_crop": "reference/images/map_plan/QA_RADAR_BSITE_CAL_001.png",
+      "timestamp_utc": "2026-10-01T19:20:08.595336+00:00",
+      "pose_command": "setpos_exact -1800.000000 2500.000000 40.000000;setang_exact 0.000000 90.000000 0.000000",
+      "pose_unit": "source_units",
+      "raw_tga_sha256": "ac299f92e13eb514b7cd2ea939da8507cf21e3236f56ac96a5f5f177abf76353",
+      "review": "Inspected whole-map crop: full plan extent and single pink player marker visible. Crop excludes scoreboard/account details. All four marker positions corroborate transform; radar edges are stylized, not architectural endpoints."
+    },
+    {
+      "id": "QA_RADAR_LONGA_CAL_001",
+      "source_pose": [
+        1400.0,
+        1100.0,
+        0.0,
+        0.0,
+        90.0
+      ],
+      "pixel": [
+        215.05555555555554,
+        119.87037037037037
+      ],
+      "pink_pixels": 54,
+      "raw_png_sha256": "c2061f3d3826958f30d966b774b1026eee5c2f4a15eb23ed7bc3b822cb1cd3ad",
+      "crop_png_sha256": "04b630c30bf645dd00a0960d8455ed92c7f08dea963df241e432860c51bf6893",
+      "residual_pixels": 0.07721778223798936,
+      "repository_crop": "reference/images/map_plan/QA_RADAR_LONGA_CAL_001.png",
+      "timestamp_utc": "2026-10-01T19:20:18.663380+00:00",
+      "pose_command": "setpos_exact 1400.000000 1100.000000 0.000000;setang_exact 0.000000 90.000000 0.000000",
+      "pose_unit": "source_units",
+      "raw_tga_sha256": "4a58d8ae82002c7b2493c7908dbff8c75c2ca54aa7486f152060b38bc0a642d5",
+      "review": "Inspected whole-map crop: full plan extent and single pink player marker visible. Crop excludes scoreboard/account details. All four marker positions corroborate transform; radar edges are stylized, not architectural endpoints."
+    },
+    {
+      "id": "QA_RADAR_TSPAWN_CAL_001",
+      "source_pose": [
+        -500.0,
+        -900.0,
+        115.0,
+        0.0,
+        90.0
+      ],
+      "pixel": [
+        109.0,
+        231.45098039215685
+      ],
+      "pink_pixels": 51,
+      "raw_png_sha256": "0e3834c3c7dd9f22ac652f56d1bb6969e960d3f524463e4f0c9418ff48c10e93",
+      "crop_png_sha256": "3e5cc39ea6b96b66b517ae8a827781674c619833fb2d63384817a741b8245a33",
+      "residual_pixels": 0.19570354788032313,
+      "repository_crop": "reference/images/map_plan/QA_RADAR_TSPAWN_CAL_001.png",
+      "timestamp_utc": "2026-10-01T19:19:58.413966+00:00",
+      "pose_command": "setpos_exact -500.000000 -900.000000 115.000000;setang_exact 0.000000 90.000000 0.000000",
+      "pose_unit": "source_units",
+      "raw_tga_sha256": "a3e5ad3dbb29fca7b4634c78a7510869d5cbe4f261b41f525f7d3484e108123b",
+      "review": "Inspected whole-map crop: full plan extent and single pink player marker visible. Crop excludes scoreboard/account details. All four marker positions corroborate transform; radar edges are stylized, not architectural endpoints."
+    }
+  ],
+  "pixel_transform": {
+    "x_scale": 0.05575452520189362,
+    "x_offset": 137.07272347535505,
+    "y_scale": -0.05580700722442471,
+    "y_offset": 181.23441684806798
+  },
+  "cm_per_source_unit": 2.54,
+  "cm_per_pixel": [
+    45.556840288790276,
+    45.51399772766052
+  ],
+  "marker_localization_bound_pixels": 2,
+  "limits": "2-pixel marker/readout allowance is approximately 92 cm in world coordinates. This bounds calibration localization, not radar-outline versus collision/rendered architecture. Radar outlines are stylized; small opening dimensions must come from endpoints. Hatched overlapping paths need elevation and traversal surveys; floor labels are point samples, not continuous surfaces. Source axes; Unreal transform pending."
+}

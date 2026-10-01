@@ -83,7 +83,8 @@
       "visual_evidence_ids": [
         "QA_UPTUN_DISCOVERY_002"
       ],
-      "validation": "current-build visual corroboration only; walking/collision/elevation validation pending"
+      "validation": "Completed collision walk in both directions; reduced speed80; arrival radius25; dimensions still pending.",
+      "walking_evidence": "WALK_PROBES.json/UPPER_B_BOTH"
     },
     {
       "id": "E06",
@@ -97,7 +98,8 @@
         "QA_UPTUN_DISCOVERY_002",
         "QA_B_DISCOVERY_001"
       ],
-      "validation": "current-build visual corroboration only; walking/collision/elevation validation pending"
+      "validation": "Completed collision walk in both directions; reduced speed80; arrival radius25; dimensions still pending.",
+      "walking_evidence": "WALK_PROBES.json/UPPER_B_BOTH"
     },
     {
       "id": "E07",
@@ -281,7 +283,8 @@
       "visual_evidence_ids": [
         "QA_OUTLONG_DISCOVERY_002"
       ],
-      "validation": "current-build visual corroboration only; walking/collision/elevation validation pending"
+      "validation": "Completed collision walk in both directions; reduced speed80; arrival radius25; dimensions still pending.",
+      "walking_evidence": "WALK_PROBES.json/LONG_DOORS_BOTH"
     },
     {
       "id": "E25",
@@ -290,7 +293,9 @@
       "mode": "walk",
       "direction": "both",
       "elevation": "two portals with intervening room",
-      "measurement": "D025"
+      "measurement": "D025",
+      "walking_evidence": "WALK_PROBES.json/LONG_DOORS_BOTH",
+      "validation": "Completed collision walk in both directions; reduced speed80; arrival radius25; dimensions still pending."
     },
     {
       "id": "E26",

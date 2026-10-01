@@ -42,11 +42,29 @@ noclip and clean HUD. Foreground rendering must be verified after focus changes;
 getpos_exact alone cannot certify the image. engine_no_focus_sleep temporarily
 set to 0 for diagnosis; restore 20 at survey closeout.
 
-Recovered walk telemetry supports Upper Tunnels toward B only; reverse and
-other routes remain unverified. Three blocked waypoint attempts do not disprove
-their map edges. Physical conversion, critical dimensions, complete area coverage,
-special traversal and calibrated whole-map footprint remain required.
+Recovered and subsequent telemetry now supports Upper Tunnels-to-B exit,
+Pit ramp and Long Doors paths in both directions. Failed waypoint attempts do
+not disprove map edges. Remaining paths, critical dimensions, complete area
+coverage, special traversal and surveyed whole-map boundaries remain required.
 
 ## Pit and scale checkpoint
 
 Four individually reviewed Pit views preserve poses and hashes. Collision walking passed from Pit to Long A and in reverse. The first reverse attempt lost a response during tool startup, stayed failed, and inputs/speed were restored before retry. Two repeated spatial/axis anchors corroborate source-unit lengths against current CS2 inch readouts; conversion is 2.54 cm/source unit. A private authored cube shows that Hammer's centimeter export setting retags numeric units without applying this conversion. Two calibrated collision-feature measurements and 13 floor samples are recorded. Gate 1 remains FAIL.
+
+## Long Doors and native plan checkpoint
+
+Six new Long Doors/approach references were individually inspected and uploaded
+with native poses and hashes; six clipped/incomplete initial frames stay private
+as rejected attempts. Both portals and the chamber passed collision walking in
+both directions at speed 80, arrival radius 25, no route teleports. Attempt 004
+oscillated at the final waypoint because radius 15 was below the movement step;
+completed 005 supersedes it without hiding the failure. Nine repeated chamber/
+leaf cross-sections extend MEASUREMENTS.csv to eleven bounded feature rows.
+They do not establish complete structural openings or minimum angled-leaf clearance.
+
+Four current-build native HUD crops have separate pose/hash provenance in
+RADAR_CALIBRATION.json. Fit residuals are below .20 pixels; allow 2 pixels,
+about 92 cm, for localization. RADAR_PLAN.svg adds physical grid and 13 floor
+heights and was rendered/inspected. Radar silhouettes remain unsurveyed;
+small openings and overlapping elevation layers still need direct evidence.
+Restore temporary background-render setting at closeout. No production geometry.

@@ -29,7 +29,8 @@ def build(root):
     with (ref / 'PHYSICAL_FLOOR_DATUMS.csv').open('w', newline='') as f:
         w = csv.DictWriter(f, fieldnames=physical[0].keys())
         w.writeheader(); w.writerows(physical)
-    report = json.loads((ref / 'ARCHITECTURAL_ENDPOINTS.json').read_text())['reports'][0]
+    endpoint_reports = json.loads((ref / 'ARCHITECTURAL_ENDPOINTS.json').read_text())['reports']
+    report = endpoint_reports[0]
     obs = report['observations']
     east = [o['hit'] for o in obs if o['side'] == 'east']
     west = [o['hit'] for o in obs if o['side'] == 'west']
@@ -52,7 +53,25 @@ def build(root):
             source_id='ELEVATION_PROBES/FLOOR_PIT_LOWER_001;FLOOR_PIT_UPPER_001',
             confidence='confirmed sampled collision elevation difference',
             tolerance='.0508 cm output rounding; render/collision offset not independently bounded',
-            notes='Sample interval, not complete ramp endpoints or total Pit rise. Horizontal sample interval889 cm.'))
+            notes='Sample interval, not complete ramp endpoints or total Pit rise. Horizontal sample interval 889 cm.'))
+    for report in endpoint_reports[1:]:
+        for section in report.get('accepted_sections', []):
+            observations = [o for o in report['observations'] if o['station_id'] == section['station_id']]
+            positive = [o for o in observations if o['yaw'] == 0]
+            negative = [o for o in observations if o['yaw'] == 180]
+            assert len(positive) == len(negative) == 2
+            assert positive[0]['hit'] == positive[1]['hit']
+            assert negative[0]['hit'] == negative[1]['hit']
+            assert positive[0]['hit'][1:] == negative[0]['hit'][1:]
+            assert positive[0]['hit'][0] > negative[0]['hit'][0]
+            measurements.append(dict(id=section['id'],area=report['area'],
+                feature=section['feature'],
+                value=round(math.dist(positive[0]['hit'],negative[0]['hit'])*factor,4),unit='cm',
+                method='two repeated collision endpoints; native rangefinder crosscheck; SCALE_CALIBRATION',
+                source_id='ARCHITECTURAL_ENDPOINTS/'+report['id']+'/'+section['station_id'],
+                confidence=section['confidence'],
+                tolerance='.0508 cm output rounding; render/collision offset not independently bounded',
+                notes=section['notes']))
     with (ref / 'MEASUREMENTS.csv').open('w', newline='') as f:
         w = csv.DictWriter(f,fieldnames=measurements[0].keys())
         w.writeheader(); w.writerows(measurements)

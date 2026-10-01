@@ -51,6 +51,11 @@ self-captured CS2 study screenshots for the internal benchmark.
 
 ## Local Contracts
 
+- `RADAR_CALIBRATION.json` owns current-build screenshot crop provenance,
+  four native-pose/pixel anchors and transform uncertainty. `RADAR_PLAN.svg`
+  overlays physical grid and sampled elevations on the native HUD plan.
+  Radar silhouettes never replace architectural endpoint measurements.
+
 - `IMAGE_REVIEW.json` owns explicit visual exclusions; `IMAGE_AUDIT.json` independently checks all registered JPEG hashes. Excluded frames remain preserved and never count toward coverage.
 - `CAPTURE_CRASH_RECOVERY.json` preserves the new CT exit view and a stale-frame rejection. Inspect rendered area against pose after foreground changes.
 

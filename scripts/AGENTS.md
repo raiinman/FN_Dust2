@@ -66,6 +66,15 @@ Blender Python, Unreal automation, validation scripts, manifest processors, and 
 
 ## Local Contracts
 
+- `build_radar_plan.py` rebuilds the current-build HUD context plan from
+  hash-pinned screenshot crops and RADAR_CALIBRATION.json. Its grid and floor
+  labels are calibrated; stylized radar outlines are not measured wall endpoints.
+
+- `cs2_probe_endpoints.py` repeats configured horizontal rays with exact echo,
+  settled pose, endpoint and native rangefinder checks. Keep its output private
+  until surface interpretation and privacy review. It preserves partial work
+  and verifies pose restoration; raw chords never imply full room dimensions.
+
 - `audit_reference_images.py` verifies all registered JPEG hashes against capture metadata and records explicit visual exclusions. It never grants area completion.
 
 - `cs2_capture_survey.py` runs CAPTURE_PLAN_GATE1.json serially through the

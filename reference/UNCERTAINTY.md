@@ -5,14 +5,14 @@ Baseline: CS2 build 25640462, 2026-10-01 UTC.
 
 | ID | Unknown | Present bound | Required resolution |
 | --- | --- | --- | --- |
-| U01 | Capture continuity | Old workers did not survive. New single-owner worker verified after VConsole disconnect; 80 registered frames re-reviewed, eight excluded; stale-frame rejection preserved | Keep exact echo checks and rendered-area/pose checks; extend usable route-oriented coverage |
-| U02 | Critical lengths/widths | CT Spawn native collision chords measured 480.28 and 528.31 source units; physical bounds unresolved | Repeated endpoints or calibrated multiview survey |
-| U03 | Elevations/slopes/stairs | 13 repeated native floor datums; CT floor/overhead separation 167.69 native units; full stairs/slopes and physical scale unresolved | Floor endpoints, stair counts and rise/run readings |
+| U01 | Capture continuity | Old workers did not survive. New single-owner worker verified after VConsole disconnect; 90 area frames reviewed, eight excluded; four native radar crops inspected separately | Keep exact echo checks and rendered-area/pose checks; extend usable route-oriented coverage |
+| U02 | Critical lengths/widths | Eleven calibrated collision-feature measurements: Pit wall/rise and nine Long chamber/leaf sections; full architectural bounds incomplete | Structural aperture endpoints, room lengths and remaining route/cover dimensions |
+| U03 | Elevations/slopes/stairs | 13 repeated native floor datums with calibrated conversion; CT floor/overhead separation 167.69 native units; full stairs/slopes unresolved | Floor endpoints, stair counts and rise/run readings |
 | U04 | Map scale and axes | Current-build native rangefinder matches inch units at two repeated spatial/axis anchors; factor2.54cm/source unit accepted. Unreal orientation transform pending | Validate target axis transform and preserve calibrated source endpoints |
-| U05 | Per-area directional coverage | 84 current-build registered captures, eight exclusions; no complete area certification; gaps listed in matrix | Complete pose-pinned forward/reverse/side/elevation views for all areas |
+| U05 | Per-area directional coverage | 90 current-build area captures, eight exclusions; no complete area certification; gaps listed in matrix | Complete pose-pinned forward/reverse/side/elevation views for all areas |
 | U06 | Revision-sensitive traversal | Four special connections in TOPOLOGY.json unverified | Current-build jump/drop/boost tests; record each direction |
 | U07 | Source image revision | Web radars have no matching installed-build identity | Crosscheck against current local captures |
-| U08 | Current truth-map footprint | Native-unit floor datum point plot has 13 surveyed XY/Z samples; no surveyed full boundary or physical grid | Calibrated footprint and elevation layers |
+| U08 | Current truth-map footprint | RADAR_PLAN.svg has physical grid and 13 floor samples; four anchors fit within .20 pixels; 2-pixel localization allowance about92cm; stylized outlines are unsurveyed | Architectural boundary crosschecks and overlapping elevation layers |
 
 Production geometry cannot use an unbounded uncertainty as an estimated dimension.
 The implementation tolerance (+/-1% triangulated, +/-3% estimated) is distinct from
@@ -27,6 +27,10 @@ source uncertainty. A +/-3% modeling tolerance does not validate an invented num
 4. Longitudinal distances and total footprint.
 5. Secondary architecture, after all preceding items have bounded evidence.
 
-Recovery walking review: one forward Upper Tunnels-to-B path completed with collision on at reduced speed. Three attempted paths stopped at obstacles or bad waypoints. Reverse paths and all special traversals remain unverified. These observations do not bound physical scale. Current-tool documentation research found no CS2-specific physical conversion evidence; other-game unit conventions are not independent anchors.
+Recovery walking review: Pit ramp, Upper Tunnels-to-B exit and Long Doors through
+both portals passed in both directions with collision on at reduced speed.
+Failed plans remain preserved; remaining paths and all special traversals require
+verification. Walking observations do not establish physical scale;
+SCALE_CALIBRATION.json records the separate current-build rangefinder evidence.
 
 Pit recovery: four clean reviewed frames now show actual ramp/floor context. A collision walk passed in both directions between source(1400,350) and(1400,950), reduced speed80 and arrival20. Side Pit terrace-to-Pit edge is not yet tested. Opposing concrete retaining-wall faces at source y350/z-90 repeat exactly at x1272 and1592, yielding812.8cm. Ramp sample stationsy350/y700 rise309.6768cm across889cm horizontal; these are sample endpoints, not total ramp endpoints. Physical-scale evidence in SCALE_CALIBRATION.json supersedes the earlier unresolved lookup, while render/collision and coverage limitations remain.

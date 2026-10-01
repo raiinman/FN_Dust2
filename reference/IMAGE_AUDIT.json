@@ -1,7 +1,7 @@
 {
   "review_date": "2026-10-01",
   "source_build": "25640462",
-  "registered_images": 84,
+  "registered_images": 90,
   "coverage_excluded": 8,
   "complete_areas": 0,
   "gate_1": "FAIL",
@@ -677,6 +677,54 @@
       "sha256": "dd24be6ecf3a334e32d54a3796d63e3187a4de922ca53f2876c8e716481df244",
       "coverage_status": "PARTIAL",
       "review": "Overhead Pit ramp and both terraces; perspective, bottom lip partly clipped; not calibrated footprint."
+    },
+    {
+      "id": "QA_OUTLONG_FORWARD_RECOVERY_002",
+      "area": "Outside Long",
+      "image": "reference/images/outside_long/QA_OUTLONG_FORWARD_RECOVERY_002.jpg",
+      "sha256": "ef0ef4fafc39df4bda4b3963546b3618b4bf77c07256bfd6a2d2660edbbb1093",
+      "coverage_status": "PARTIAL",
+      "review": "Complete outer portal arch and threshold visible with courtyard context; upper building extent remains outside frame."
+    },
+    {
+      "id": "QA_LONGDOORS_FORWARD_RECOVERY_002",
+      "area": "Long Doors",
+      "image": "reference/images/long_doors/QA_LONGDOORS_FORWARD_RECOVERY_002.jpg",
+      "sha256": "dd1b1ecf4173190cae6ff400f31b5d9ea8e583e1b03d7bb14cb27ad3dbbd6fb2",
+      "coverage_status": "PARTIAL",
+      "review": "Inner portal arch and walking gap visible; adjacent crate stack is observed architectural cover, not a hidden portal substitute."
+    },
+    {
+      "id": "QA_LONGDOORS_REVERSE_RECOVERY_002",
+      "area": "Long Doors",
+      "image": "reference/images/long_doors/QA_LONGDOORS_REVERSE_RECOVERY_002.jpg",
+      "sha256": "9d0faa63cc5295677d30d4dd63729d46a07175d288ed35adda5053aaf0928093",
+      "coverage_status": "PARTIAL",
+      "review": "Outer portal from chamber: full arch, door leaves, floor threshold and return path visible."
+    },
+    {
+      "id": "QA_LONGDOORS_SIDE_RECOVERY_002",
+      "area": "Long Doors",
+      "image": "reference/images/long_doors/QA_LONGDOORS_SIDE_RECOVERY_002.jpg",
+      "sha256": "37976365ab847f8af279333578aa114cea3f565c0e337a15b5563eff7f12e8d4",
+      "coverage_status": "PARTIAL",
+      "review": "Oblique chamber side-wall, timber supports and floor junction; cropped portal edge is not opening-dimension evidence."
+    },
+    {
+      "id": "QA_LONGDOORS_ELEVATION_RECOVERY_002",
+      "area": "Long Doors",
+      "image": "reference/images/long_doors/QA_LONGDOORS_ELEVATION_RECOVERY_002.jpg",
+      "sha256": "3c5adcd377dd3c0cd320306221fbd20ff5bb0c20c2492d0198b75e5e7eb8503d",
+      "coverage_status": "PARTIAL",
+      "review": "Elevated perspective shows chamber floor, crate stack, both portal thresholds and side-wall arrangement; not orthographic."
+    },
+    {
+      "id": "QA_LONGCORNER_REVERSE_RECOVERY_002",
+      "area": "Long Corner",
+      "image": "reference/images/long_corner/QA_LONGCORNER_REVERSE_RECOVERY_002.jpg",
+      "sha256": "46c9e51f2a91491daf74fa934a32ebc63551cca112c68b842753d0253802ae26",
+      "coverage_status": "PARTIAL",
+      "review": "Inner portal exterior reverse with arch, threshold, barrel and corner approach visible; facade continues above frame."
     }
   ]
 }

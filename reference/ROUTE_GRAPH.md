@@ -67,7 +67,8 @@ Nodes describe area relationships; they are not polygon outlines or route length
 
 ## Remaining uncertainty
 
-See UNCERTAINTY.md and SURVEY_TASKS.csv. No numeric width/elevation is yet accepted.
+See UNCERTAINTY.md and SURVEY_TASKS.csv. Calibrated collision samples are accepted
+in MEASUREMENTS.csv; complete route/opening dimensions remain unresolved.
 
 ## Current-build visual corroboration
 
@@ -86,4 +87,12 @@ used to assert the exact Top Mid/Suicide callout boundary.
 
 ## Collision walking recovery
 
-WALK_PROBES.json records PIT_LONG_RAMP in both directions with no route teleports, collision on, reduced speed80 and arrival20. This directly links Pit ramp lower station to Long A approach; it does not validate the raised Side Pit terrace edgeE27. E05/E06 have one forward complete Upper Tunnels-to-B path only. Preserve these distinctions when completing reverse and special traversal. Scale is calibrated; the critical metric register remains incomplete.
+WALK_PROBES.json records PIT_LONG_RAMP in both directions with no route teleports,
+collision on, reduced speed 80 and arrival 20. This links Pit ramp lower station
+to Long A approach; it does not validate the raised Side Pit terrace edge E27.
+E05/E06 now have completed Upper Tunnels-to-B exit walks in both directions.
+E24/E25 have completed walks through both Long Doors portals and the intervening
+chamber in both directions. Those tests used speed 80 and arrival radius 25.
+The initial 15-unit Long endpoint tolerance caused oscillation; attempt 004 is
+preserved as a controller failure, superseded by completed 005. No special
+traversal is accepted. Scale is calibrated; the critical metric register is incomplete.

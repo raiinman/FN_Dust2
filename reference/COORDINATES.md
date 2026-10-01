@@ -52,8 +52,10 @@ and a collision Hull, so whole-room ceiling interpretation remains unresolved.
 Upper and Lower sampled floor elevations differ by 143.38 at different XY;
 this is not a surveyed stair rise or a route-distance measurement.
 
-Physical-scale lookup remains unresolved: Valve Developer Community Unit_scales
-was unavailable (403), and retrieved older Source/Half-Life documentation is
-not sufficient to calibrate this CS2 build. Do not adopt its conversions silently.
-
 Current-build calibration supersedes the earlier failed documentation lookup: repeated Long A +X and CT Spawn +Y anchors compare native ray lengths211 and189.88373 with rangefinder inch readouts211.00 and189.88. Differences fit .01 output rounding. These are independent spatial anchors with a separate distance readout, not independent engine implementations. NIST SP1038 defines1inch=2.54cm exactly. The native128-unit fixture exported with Hammer's Centimeters option retained128-valued vertices and UnitScaleFactor1; that export merely tags numeric units and cannot replace measured physical conversion. No fixture is production geometry.
+
+RADAR_CALIBRATION.json fits four separated native player positions to inspected
+current-build HUD marker centers. Source +X is screen right; source +Y is screen
+up. RADAR_PLAN.svg overlays a physical grid and the repeated floor samples.
+Residuals are below 0.20 pixels, but allow 2 pixels (about 92 cm) for localization.
+This does not bound stylized radar outlines against rendered/collision surfaces.
