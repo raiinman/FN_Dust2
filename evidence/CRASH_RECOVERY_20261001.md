@@ -1,4 +1,4 @@
-# Crash recovery and image re-review — 2026-10-01
+# Crash recovery and image re-review â€” 2026-10-01
 
 Gate 1 remains FAIL. Production geometry is prohibited.
 
@@ -46,3 +46,7 @@ Recovered walk telemetry supports Upper Tunnels toward B only; reverse and
 other routes remain unverified. Three blocked waypoint attempts do not disprove
 their map edges. Physical conversion, critical dimensions, complete area coverage,
 special traversal and calibrated whole-map footprint remain required.
+
+## Pit and scale checkpoint
+
+Four individually reviewed Pit views preserve poses and hashes. Collision walking passed from Pit to Long A and in reverse. The first reverse attempt lost a response during tool startup, stayed failed, and inputs/speed were restored before retry. Two repeated spatial/axis anchors corroborate source-unit lengths against current CS2 inch readouts; conversion is 2.54 cm/source unit. A private authored cube shows that Hammer's centimeter export setting retags numeric units without applying this conversion. Two calibrated collision-feature measurements and 13 floor samples are recorded. Gate 1 remains FAIL.

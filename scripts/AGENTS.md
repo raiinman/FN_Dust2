@@ -100,3 +100,5 @@ Every production script should document expected inputs, outputs, and a basic ve
 ## Child DOX Index
 
 None.
+
+- build_physical_register.py derives reviewed centimeter samples from SCALE_CALIBRATION, architectural endpoints and native floor datums. Never silently overwrite future manually accepted measurement rows; extend the reviewed source evidence first.

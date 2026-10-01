@@ -1,7 +1,7 @@
 {
   "review_date": "2026-10-01",
   "source_build": "25640462",
-  "registered_images": 80,
+  "registered_images": 84,
   "coverage_excluded": 8,
   "complete_areas": 0,
   "gate_1": "FAIL",
@@ -645,6 +645,38 @@
       "sha256": "c930215906e7e9fb5d08ff97c777ab8c43b35f9036a029764318622b53e71a4d",
       "coverage_status": "PARTIAL",
       "review": "Relocated west-facing CT exit to CT Mid and B Doors. Passage visible; crates remain at right edge. Partial route reference, not full room extent."
+    },
+    {
+      "id": "QA_PIT_FORWARD_RECOVERY_001",
+      "area": "Pit",
+      "image": "reference/images/pit/QA_PIT_FORWARD_RECOVERY_001.jpg",
+      "sha256": "791e3b45f2b2684d4791693395f69b267bdb1ef997962ebc0745e15c36ba9bf6",
+      "coverage_status": "PARTIAL",
+      "review": "Clean floor-level ramp toward Long A; retaining walls visible."
+    },
+    {
+      "id": "QA_PIT_REVERSE_RECOVERY_001",
+      "area": "Pit",
+      "image": "reference/images/pit/QA_PIT_REVERSE_RECOVERY_001.jpg",
+      "sha256": "e777206c18446c5bcf7d36bdc84c6c6516a5fb96fd72a9e3d6b579a3a2689e0b",
+      "coverage_status": "PARTIAL",
+      "review": "Clean reverse ramp and sealed decorative bottom door; do not interpret decorative door as a route."
+    },
+    {
+      "id": "QA_PIT_SIDE_RECOVERY_001",
+      "area": "Pit",
+      "image": "reference/images/pit/QA_PIT_SIDE_RECOVERY_001.jpg",
+      "sha256": "bb0097e7a1877ddcf527d66fe138fdcbdcda9317bc17316f27c6bd4564a3dfa8",
+      "coverage_status": "PARTIAL",
+      "review": "Oblique Pit side-wall and bottom-door read; remaining left extent outside frame."
+    },
+    {
+      "id": "QA_PIT_PLAN_RECOVERY_001",
+      "area": "Pit",
+      "image": "reference/images/pit/QA_PIT_PLAN_RECOVERY_001.jpg",
+      "sha256": "dd24be6ecf3a334e32d54a3796d63e3187a4de922ca53f2876c8e716481df244",
+      "coverage_status": "PARTIAL",
+      "review": "Overhead Pit ramp and both terraces; perspective, bottom lip partly clipped; not calibrated footprint."
     }
   ]
 }

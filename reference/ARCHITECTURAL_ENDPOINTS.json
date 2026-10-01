@@ -1,0 +1,75 @@
+{
+  "reports": [
+    {
+      "source_build": "25640462",
+      "area": "Pit",
+      "timestamp_utc": "2026-10-01T18:51:19.871992+00:00",
+      "unit": "source_units",
+      "station": [
+        1400,
+        350,
+        -154
+      ],
+      "observations": [
+        {
+          "side": "east",
+          "repeat": 1,
+          "pose": "setpos_exact 1400.000000 350.000000 -154.000000;setang_exact 0.000000 0.000000 0.000000",
+          "hit": [
+            1592.0,
+            350.0,
+            -90.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82858"
+          ],
+          "rangefinder_reply": "DISTANCE: 192.00 inches ( 16.00 feet)"
+        },
+        {
+          "side": "east",
+          "repeat": 2,
+          "pose": "setpos_exact 1400.000000 350.000000 -154.000000;setang_exact 0.000000 0.000000 0.000000",
+          "hit": [
+            1592.0,
+            350.0,
+            -90.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82858"
+          ],
+          "rangefinder_reply": "DISTANCE: 192.00 inches ( 16.00 feet)"
+        },
+        {
+          "side": "west",
+          "repeat": 1,
+          "pose": "setpos_exact 1400.000000 350.000000 -154.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "hit": [
+            1272.0,
+            350.0,
+            -90.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82543"
+          ],
+          "rangefinder_reply": "DISTANCE: 128.00 inches ( 10.67 feet)"
+        },
+        {
+          "side": "west",
+          "repeat": 2,
+          "pose": "setpos_exact 1400.000000 350.000000 -154.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "hit": [
+            1272.0,
+            350.0,
+            -90.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82543"
+          ],
+          "rangefinder_reply": "DISTANCE: 128.00 inches ( 10.67 feet)"
+        }
+      ],
+      "review": "Opposing Pit side-wall concrete mesh faces at y350 z-90; corresponding visible retaining walls in Pit forward/reverse/side views. Cross-section only, not minimum route clearance.",
+      "id": "PIT_WALL_ENDPOINTS_001"
+    }
+  ]
+}

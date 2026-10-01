@@ -1,0 +1,131 @@
+{
+  "source_build": "25640462",
+  "source_map": "de_dust2",
+  "timestamp_utc": "2026-10-01T18:48:19.867918+00:00",
+  "anchors": [
+    {
+      "id": "LONG_CAFE_X",
+      "area": "Long A",
+      "repeat": 1,
+      "pose": "setpos_exact 1400.000000 1100.000000 20.000000;setang_exact 0.000000 0.000000 0.000000",
+      "eye_origin": [
+        1400.0,
+        1100.0,
+        84.0
+      ],
+      "hit": [
+        1611.0,
+        1100.0,
+        84.0
+      ],
+      "description": [
+        "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop metalpanel, contents 400004c1, shape type: Mesh, face: 146624"
+      ],
+      "rangefinder_reply": "DISTANCE: 211.00 inches ( 17.58 feet)",
+      "native_length": 211.0,
+      "inch_length": 211.0,
+      "inches_per_native_unit": 1.0
+    },
+    {
+      "id": "LONG_CAFE_X",
+      "area": "Long A",
+      "repeat": 2,
+      "pose": "setpos_exact 1400.000000 1100.000000 20.000000;setang_exact 0.000000 0.000000 0.000000",
+      "eye_origin": [
+        1400.0,
+        1100.0,
+        84.0
+      ],
+      "hit": [
+        1611.0,
+        1100.0,
+        84.0
+      ],
+      "description": [
+        "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop metalpanel, contents 400004c1, shape type: Mesh, face: 146624"
+      ],
+      "rangefinder_reply": "DISTANCE: 211.00 inches ( 17.58 feet)",
+      "native_length": 211.0,
+      "inch_length": 211.0,
+      "inches_per_native_unit": 1.0
+    },
+    {
+      "id": "CT_CONCRETE_Y",
+      "area": "CT Spawn",
+      "repeat": 1,
+      "pose": "setpos_exact 160.122742 2369.676270 -119.918701;setang_exact 0.000000 90.000000 0.000000",
+      "eye_origin": [
+        160.122742,
+        2369.67627,
+        -55.918701
+      ],
+      "hit": [
+        160.12,
+        2559.56,
+        -55.92
+      ],
+      "description": [
+        "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 157730"
+      ],
+      "rangefinder_reply": "DISTANCE: 189.88 inches ( 15.82 feet)",
+      "native_length": 189.88373002424106,
+      "inch_length": 189.88,
+      "inches_per_native_unit": 0.9999803562725432
+    },
+    {
+      "id": "CT_CONCRETE_Y",
+      "area": "CT Spawn",
+      "repeat": 2,
+      "pose": "setpos_exact 160.122742 2369.676270 -119.918701;setang_exact 0.000000 90.000000 0.000000",
+      "eye_origin": [
+        160.122742,
+        2369.67627,
+        -55.918701
+      ],
+      "hit": [
+        160.12,
+        2559.56,
+        -55.92
+      ],
+      "description": [
+        "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 157730"
+      ],
+      "rangefinder_reply": "DISTANCE: 189.88 inches ( 15.82 feet)",
+      "native_length": 189.88373002424106,
+      "inch_length": 189.88,
+      "inches_per_native_unit": 0.9999803562725432
+    }
+  ],
+  "method": "Current CS2 rangefinder inch readout crosschecked against getpos_exact and cast_ray hit; two independent locations and orthogonal horizontal axes, two repeats each.",
+  "status": "ACCEPTED engine physical unit convention for this build",
+  "cm_per_source_unit": 2.54,
+  "inch_definition": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication1038.pdf page 1",
+  "ratio_max_discrepancy": 1.9644e-05,
+  "limitations": "Independent spatial anchors and orthogonal axes, not independent engine implementations. Printed hit/rangefinder resolution .01 native/inch. Measures engine physical convention, not real-world building sizes. Revalidate on source revision change.",
+  "hammer_export_fixture": {
+    "native_dimensions": [
+      128,
+      128,
+      128
+    ],
+    "export_units_setting": "Centimeters",
+    "fbx_unit_scale_factor": 1,
+    "fbx_vertex_bounds": [
+      [
+        0,
+        128
+      ],
+      [
+        0,
+        128
+      ],
+      [
+        0,
+        128
+      ]
+    ],
+    "conclusion": "Default Hammer export retags native numbers as cm; does not apply observed inch-to-cm factor. Never use its unit metadata as physical calibration. Apply 2.54 conversion explicitly.",
+    "fixture_obj_sha256": "3171636568d51e1556dbcc6d6f30944be7e0ae1c3ac295f332633504a2010131",
+    "export_fbx_sha256": "d1ccc1b07cd3011f9c81dc4f88b05788bad9236c96e738be2ea31dfa480bb7aa"
+  }
+}

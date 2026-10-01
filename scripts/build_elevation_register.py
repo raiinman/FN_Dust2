@@ -22,7 +22,7 @@ def build(root):
             source_z=hit[2],unit='source_units',confidence='confirmed native collision hit',
             output_rounding='.01 per coordinate',target_xy_error=observations[-1]['xy_error'],
             source_build=report['source_build'],surface=observations[-1]['hit_description'][0],
-            production_status='physical scale and render/collision crosscheck unresolved'))
+            production_status='raw source endpoint; conversion in SCALE_CALIBRATION.json; render/collision crosscheck unresolved'))
     with (root/'reference/FLOOR_DATUMS.csv').open('w',encoding='utf-8',newline='') as f:
         writer=csv.DictWriter(f,fieldnames=list(rows[0]),lineterminator='\n')
         writer.writeheader();writer.writerows(rows)
@@ -30,7 +30,7 @@ def build(root):
          '<rect width="1120" height="760" fill="#f5f4ef"/>',
          '<g font-family="Arial,sans-serif" fill="#24282b">',
          '<text x="35" y="35" font-size="23" font-weight="bold">Dust II — surveyed native floor datums</text>',
-         '<text x="35" y="60" font-size="14">CS2 build 25640462 • Source units • +Y upward • physical scale unresolved</text>',
+         '<text x="35" y="60" font-size="14">CS2 build 25640462 • Source units • +Y upward • conversion documented separately in SCALE_CALIBRATION.json</text>',
          '<text x="35" y="82" font-size="13">Point evidence only: no boundary, route, room extent or continuous surface is inferred.</text>']
     # Include T Spawn's negative Y without clipping it below the plot.
     def xy(x,y):return 75+(x+2200)*.15, 640-(y+1000)*.135

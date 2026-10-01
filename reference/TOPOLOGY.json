@@ -407,5 +407,16 @@
       "status": "requires independent traversal proof",
       "measurement": "D038"
     }
+  ],
+  "observed_supplemental_paths": [
+    {
+      "id": "PIT_LONG_RAMP",
+      "from": "Pit ramp lower station",
+      "to": "Long A approach",
+      "mode": "walk",
+      "direction": "both",
+      "evidence": "WALK_PROBES.json/PIT_LONG_RAMP",
+      "limits": "Reduced speed80; arrival20 source units. No Side Pit terrace acceptance."
+    }
   ]
 }

@@ -2,7 +2,7 @@
 <rect width="1120" height="760" fill="#f5f4ef"/>
 <g font-family="Arial,sans-serif" fill="#24282b">
 <text x="35" y="35" font-size="23" font-weight="bold">Dust II — surveyed native floor datums</text>
-<text x="35" y="60" font-size="14">CS2 build 25640462 • Source units • +Y upward • physical scale unresolved</text>
+<text x="35" y="60" font-size="14">CS2 build 25640462 • Source units • +Y upward • conversion documented separately in SCALE_CALIBRATION.json</text>
 <text x="35" y="82" font-size="13">Point evidence only: no boundary, route, room extent or continuous surface is inferred.</text>
 <path d="M105.0 120 V640" stroke="#d8d9d4"/><text x="105.0" y="665" font-size="11" text-anchor="middle">-2000</text>
 <path d="M180.0 120 V640" stroke="#d8d9d4"/><text x="180.0" y="665" font-size="11" text-anchor="middle">-1500</text>
@@ -46,6 +46,10 @@
 <text x="760" y="565" font-size="13">10. T Spawn</text><text x="778" y="581" font-size="11">(-500.01, -900.00, 106.97)</text>
 <circle cx="570.0" cy="167.49999999999994" r="6" fill="#a9302a"/><text x="580.0" y="160.49999999999994" font-size="13" font-weight="bold">11</text><text x="580.0" y="178.49999999999994" font-size="11">z 95.54</text>
 <text x="760" y="607" font-size="13">11. A Site approach</text><text x="778" y="623" font-size="11">(1100.00, 2500.00, 95.54)</text>
+<circle cx="615.0" cy="457.75" r="6" fill="#a9302a"/><text x="625.0" y="450.75" font-size="13" font-weight="bold">12</text><text x="625.0" y="468.75" font-size="11">z -159.14</text>
+<text x="760" y="649" font-size="13">12. Pit ramp lower station</text><text x="778" y="665" font-size="11">(1400.00, 350.00, -159.14)</text>
+<circle cx="615.0" cy="410.5" r="6" fill="#a9302a"/><text x="625.0" y="403.5" font-size="13" font-weight="bold">13</text><text x="625.0" y="421.5" font-size="11">z -37.22</text>
+<text x="760" y="691" font-size="13">13. Pit ramp upper station</text><text x="778" y="707" font-size="11">(1400.00, 700.00, -37.22)</text>
 <text x="35" y="727" font-size="12">Repeated endpoints agree at printed precision. This is repeatability, not absolute architectural accuracy.</text>
 <text x="35" y="746" font-size="12">Evidence: ELEVATION_PROBES.json • Register: FLOOR_DATUMS.csv • Gate 1 remains incomplete.</text>
 </g></svg>
