@@ -7,7 +7,7 @@ no model override, new chat or agent delegation requested. Criteria unchanged.
 
 ## Authority and preserved work
 
-GitHub main authoritative. Latest pushed checkpoint8748cd2 before south-camera checkpoint;
+GitHub main authoritative. Latest pushed checkpointc3840f1 before return survey;
 latest Git commit pins this checkpoint. Crash baseline35eaa642, dirty work
 preserved4c7df48, mergedab4e484. Active checkout:
 C:/Users/mikea/Documents/Codex/2026-09-30/new-chat/FN_Dust2
@@ -90,7 +90,18 @@ now extend projection range throughZ290. Whole cap/body still separate. Every co
 
 ## Desktop and current source controller
 
-No active source controller. South camera driver completed fit/hold captures,
+No active source controller. Return001/002 and side003 completed48/44/12
+observations, all0 exact B-mouth restoration.001 relief threshold nearX-1779.7
+and002 bevel threshold nearX-1728.66 are rejected corner interpretations.
+B_COURTYARD_RETURN_CHECKS JSON/CSV/SVG derives bounded estimated local corner
+atZ160: nativeX[-1730.0492,-1728.0264], Y[1791.59,1792.01],
+Z[158.9957,160.9252]. Three independently repeated side points confirm taper.
+Annotation rebuilt/rendered/inspected;13 existing stone intrados projections
+retain separate depth/render limits.146 raw reports/13 rejected attempts; all
+prior records unchanged. No new physical feature rows (382) or whole-site bounds.
+Do not rerun001/002/003; private raw configs/reports/corner crop preserved.
+Next: B ground/platform/cover bounds and remaining critical-area dimensions.
+South camera driver completed fit/hold captures,
 exact B-mouth restore errors all0. Four native PNG/JPEGs and18 cross centers
 individually inspected. B_COURTYARD_SOUTH_FRONTAL_001 accepted at exact pose
 [-1800,2100,96,p0,y-90,roll0]:8 fit max.506316px,10 independent depth/height
@@ -98,8 +109,7 @@ max.402810px. Two clean hashes differ;255 image hashes/native dates PASS.
 KnownY inverse only, checkedY1600..1800/Z-32..275; authored negativeZ marker
 is not a floor datum. Main/left-recess plaster depth and low cover remain separate.
 Private b_courtyard_south_camera_01 retains raw/metadata/plans/crops/recovery;
-do not rerun completed capture plans. Next: bracket main plaster return atZ160
-from independentY2450/2500, using native depth and checked rendered corner.
+do not rerun completed capture plans. Local return review now complete atZ160 only; full vertical/ground bounds remain open.
 Courtyard longitudinal001/002 completed16 native
 observations each, exact B-mouth restore. IndependentY2450/2500 origins agree;
 four selected local sections atX-1800/-1700,Z160/220. Main-facade spans2763.52/

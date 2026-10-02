@@ -379,3 +379,10 @@ markers at its exact native pose. Four inspected JPEGs retain distinct hashes;
 knownY inversion requires separately observed depth. NegativeZ authored marker
 is not a floor datum; car/crates/scaffold obscure ground. Calibration grants no
 selected structural corner, complete portal or continuous courtyard footprint.
+
+B_COURTYARD_RETURN_REVIEW owns explicit corner-pixel/front-depth selections.
+B_COURTYARD_RETURN_CHECKS JSON/CSV/SVG derives a bounded estimated local corner
+atZ160 and three repeated side points. Preserve001 narrow-band plaster-relief
+threshold and002 side-bevel threshold as rejected corner interpretations. Both
+source-origin pairs agree but thresholds are not architectural endpoints. No
+constant-X return plane, full-height wall or entire courtyard inferred.

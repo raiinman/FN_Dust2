@@ -1,0 +1,121 @@
+{
+  "source_build": "25640462",
+  "camera_id": "B_COURTYARD_SOUTH_FRONTAL_001",
+  "front_depth_controls_native": [
+    [
+      -1800.0,
+      1792.0,
+      160.0
+    ],
+    [
+      -1750.0,
+      1791.61,
+      160.0
+    ],
+    [
+      -1728.91,
+      1791.6,
+      160.0
+    ]
+  ],
+  "front_normal_interval_native": [
+    1791.59,
+    1792.01
+  ],
+  "rendered_corner_box_native": [
+    [
+      -1730.0491582716236,
+      -1728.0263787068293
+    ],
+    [
+      1791.59,
+      1792.01
+    ],
+    [
+      158.99566987845523,
+      160.9252088159085
+    ]
+  ],
+  "rendered_corner_box_cm": [
+    [
+      -4394.324862009924,
+      -4389.187001915347
+    ],
+    [
+      4550.6386,
+      4551.7054
+    ],
+    [
+      403.8490014912763,
+      408.75003039240755
+    ]
+  ],
+  "confidence": "triangulated estimated local architectural corner; pixel selection and observed front relief bounded",
+  "independent_side_points": [
+    {
+      "native": [
+        -1728.67,
+        1780.0,
+        160.0
+      ],
+      "pixel": [
+        532.5230204757711,
+        359.4384920634919
+      ]
+    },
+    {
+      "native": [
+        -1728.31,
+        1760.0,
+        160.0
+      ],
+      "pixel": [
+        538.3091296503824,
+        359.4384920634918
+      ]
+    },
+    {
+      "native": [
+        -1728.01,
+        1720.0,
+        160.0
+      ],
+      "pixel": [
+        548.5847297135078,
+        359.43849206349205
+      ]
+    }
+  ],
+  "rejected_corner_thresholds": [
+    {
+      "report": "B_COURTYARD_SOUTH_RETURN_001",
+      "intervals": [
+        [
+          -1779.78515625,
+          -1779.6875
+        ],
+        [
+          -1779.78515625,
+          -1779.6875
+        ]
+      ],
+      "review": "Rejected corner interpretation: constant-depth band crosses minor plaster relief nearX-1779.7, visibly before corner. Complete native observations retained, no flat facade or endpoint acceptance."
+    },
+    {
+      "report": "B_COURTYARD_SOUTH_COMPONENT_INTERFACE_002",
+      "intervals": [
+        [
+          -1728.7109375,
+          -1728.61328125
+        ],
+        [
+          -1728.7109375,
+          -1728.61328125
+        ]
+      ],
+      "review": "Rejected abrupt-recess interface interpretation: both origins agree threshold interval, but final off hitY1777.19 is the tapering Mesh side, not deeperY1600 recess. No structural endpoint acceptance from classifier threshold."
+    }
+  ],
+  "scope": "Bounded rendered local corner atZ160 with independently sampled tapered return. No full-height wall, complete courtyard, minimum route clearance or continuous footprint.",
+  "gate1": "FAIL"
+}

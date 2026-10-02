@@ -1,0 +1,34 @@
+{
+  "source_build": "25640462",
+  "camera_id": "B_COURTYARD_SOUTH_FRONTAL_001",
+  "clean_image_path": "reference/images/b_site/QA_B_COURTYARD_SOUTH_CAMERA_FIT_001_CLEAN.jpg",
+  "diagnostic_reports": [
+    "B_COURTYARD_SOUTH_RETURN_001",
+    "B_COURTYARD_SOUTH_COMPONENT_INTERFACE_002",
+    "B_COURTYARD_SOUTH_RETURN_SIDE_003"
+  ],
+  "rendered_corner_review": {
+    "pixel": [
+      529,
+      359.5
+    ],
+    "pixel_radius": 1.5,
+    "review": "Original native clean and close nearest-neighbor crop inspected: visible vertical main-plaster/side return atx529 around native eyeZ160. This is a bounded architectural corner selection, not an exact collision-material threshold."
+  },
+  "scope": "Bounded rendered local corner atZ160 with independently sampled tapered return. No full-height wall, complete courtyard, minimum route clearance or continuous footprint.",
+  "front_depth_control_selections": [
+    {
+      "report": "B_COURTYARD_SOUTH_RETURN_001",
+      "tangents": [
+        -1800
+      ]
+    },
+    {
+      "report": "B_COURTYARD_SOUTH_COMPONENT_INTERFACE_002",
+      "tangents": [
+        -1750,
+        -1728.90625
+      ]
+    }
+  ]
+}

@@ -358,3 +358,13 @@ checkedY1600..1800/Z-32..275 at exact[-1800,2100,96,0,-90,0]. Native-depth
 selection, main plaster return and full aperture remain separate. Foreground
 cover/scaffold hides ground; authored negativeZ marker grants no floor. Total255
 reviewed JPEG hashes/native dates PASS; critical extents remain open, Gate1 FAIL.
+
+B south return:001/002 classifiers repeat from two origins but their limits
+select plaster relief/side bevel, not structural endpoints; interpretations
+rejected and all92 observations preserved. Side003 has12 observations: three
+exactly agreeing independent-origin tapered return points atZ160. Checked
+rendered corner gives estimated native boxX[-1730.0492,-1728.0264],
+Y[1791.59,1792.01], Z[158.9957,160.9252] using observed front relief and1.5px
+selection bounds. Local corner only; exact bevel intersection, vertical extent,
+complete B ground/platform/cover bounds remain open. Annotation rendered/inspected;
+13 existing stone intrados projections retain collision-depth/render-offset limits.

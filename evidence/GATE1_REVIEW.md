@@ -6,6 +6,12 @@ South courtyard camera checkpoint: B_COURTYARD_SOUTH_FRONTAL_001 has8 fit /
 10 withheld depth-height checks (max.506316/.402810px); four native originals,
 JPEGs and18 marker centers individually inspected.255 image hashes/native
 dates PASS. Camera acceptance does not close any structural extent criterion.
+
+B_COURTYARD_RETURN_CHECKS adds one bounded estimated corner selection atZ160,
+three independent-origin side points and an inspected calibrated context with
+13 existing stone intrados samples.001/002 depth thresholds rejected as corner
+interpretations; all native reports/restoration preserved. Full site/layer extents
+remain incomplete. Physical measurement count stays382; Gate1 remains FAIL.
 Source: installed CS2 build25640462, de_dust2. GitHub main is durable authority.
 
 | Requirement | Evidence | Result |

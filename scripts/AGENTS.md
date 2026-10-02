@@ -406,3 +406,11 @@ Reports011/013 extend selected rows to four local upper bounds; preserve failed
 recessed depth at final bracket, not an earlier coarse ray. High003 independent
 camera checks must pass before projecting above original markerZ230. Front
 cap-band corroboration does not certify exact rough rendered component seam.
+
+build_b_courtyard_return.py derives B_COURTYARD_RETURN_CHECKS JSON/CSV/SVG
+from B_COURTYARD_RETURN_REVIEW selections and three raw endpoint reports.
+Validate independent side origins, repeats, measured nonflat front depths and
+checked camera/image hashes; rebuild/render/inspect. Classifier thresholds are
+diagnostics, never the architectural corner. Local pixel/depth bounds grant no
+full-height extrusion or whole-site footprint; stone sample projections retain
+their separate collision depth and rendered-offset limits.
