@@ -58,6 +58,20 @@ def probe(a):
                     hits = [m for s in lines if (m := re.search(r'Hit position: ('+NUMBER+r'), ('+NUMBER+r'), ('+NUMBER+r')', s))]
                     distances = [s.strip() for s in lines if s.startswith('DISTANCE:')]
                     if len(hits) != 1 or len(distances) != 1:
+                        no_hit = len(hits) == len(distances) == 0 and any(
+                            s.strip() == "Rangefinder didn't hit anything" for s in lines)
+                        if config.get('allow_open_rays', False) and no_hit:
+                            report.setdefault('open_observations', []).append(dict(
+                                station_id=station['id'], yaw=yaw, repeat=repeat,
+                                pose=observed, eye_origin=[x,y,z+64],
+                                semantic_reply=["Rangefinder didn't hit anything"]))
+                            save()
+                            continue
+                        report['failed_ray'] = dict(station_id=station['id'], yaw=yaw,
+                            repeat=repeat, pose=observed, eye_origin=[x,y,z+64],
+                            semantic_reply=[s.strip() for s in lines if s.startswith(
+                                ('Hit:', 'Hit position:', 'DISTANCE:', "Rangefinder didn't hit anything"))])
+                        save()
                         raise RuntimeError('No unique ray hit/rangefinder crosscheck')
                     report['observations'].append(dict(station_id=station['id'], yaw=yaw,
                         repeat=repeat, pose=observed, eye_origin=[x,y,z+64],
@@ -68,6 +82,10 @@ def probe(a):
                     hit=report['observations'][-1]['hit']
                     if sum((a-b)**2 for a,b in zip(hit,[x,y,z+64])) < .01:
                         raise RuntimeError('Ray starts inside collision; own-origin hit is not an endpoint')
+                opened = [o for o in report.get('open_observations', [])
+                    if o['station_id'] == station['id'] and o['yaw'] == yaw]
+                if opened and len(opened) != 2:
+                    raise RuntimeError('Open/hit repeat inconsistency; preserve both and inspect')
         report['status'] = 'complete; architectural interpretation pending'
     except Exception as error:
         report.update(status='failed; inspect before continuing', error=str(error))

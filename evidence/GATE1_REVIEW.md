@@ -201,3 +201,13 @@ PLAN_SECTION_SWEEPS now preserves96 distinct horizontal first-hit directions (19
 
 
 Horizontal-section survey expanded to eight surveyed areas:256 distinct directions/512 repeated observations now committed in PLAN_SECTION_SWEEPS, with exact native height, pose, surface and rangefinder evidence. Long chamber portals, Lower east/Xbox, Top Mid connections and Outside Long south rays explicitly cross areas; A Site includes cover/returns and open routes. Two-layer point figure rendered/inspected. First-hit points do not become joined wall/floor boundaries.96 fresh midpoint validation rays are planned privately, not executed or accepted. Gate1 FAIL.
+
+
+Resumed checkpoint:17 horizontal sections/544 repeated directions preserved;
+six local stone intrados columns accepted,263 physical measurements and323
+connector first-surface points. B exitY1816 lower first hit is diagnostic,
+excluded from flight interpretation pending offset probes. Two TSpawn east
+no-hit attempts retain exact miss/echo and restoration; no endpoint inferred.
+Point-only layered map rendered/inspected. Fresh B Site midpoint checks active;
+other planned midpoint/floor/detail batches unexecuted. Complete footprint and
+critical dimensional/uncertainty acceptance remain FAIL; Phase2 not started.

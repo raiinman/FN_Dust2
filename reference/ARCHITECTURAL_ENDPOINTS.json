@@ -26559,6 +26559,814 @@
           "notes": "AtY1740 repeated concrete Mesh walls X-2048/-1920 define passage sections. AtY1780 concrete Hull jamb/intrados gives nonuniform stone-mouth widths atZ80/180/220. Y1800/1820/1840 rays cross exterior B area and cover/outer walls: diagnostic only. Outside clean image frames whole opening and entrance steps. Inside1650 apex cropped: rejected, raw preserved. No full-height rectangular opening or courtyard footprint inferred."
         }
       ]
+    },
+    {
+      "timestamp_utc": "2026-10-02T08:44:50.786610+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B tunnel stone mouth floor/intrados",
+      "unit": "source_units",
+      "target_xy": [
+        -1958.0,
+        1780.0
+      ],
+      "probe_player_z": 70.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -2021.990234 1780.000000 70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1957.31,
+            1780.0,
+            31.73
+          ],
+          "xy_error": 0.6900000000000546,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 94418"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -2022.680298 1780.000000 70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1958.0,
+            1780.0,
+            31.73
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 94418"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -2022.680298 1780.000000 70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1958.0,
+            1780.0,
+            31.73
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 94418"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1894.009766 1780.000000 70.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -1955.23,
+            1780.0,
+            229.69
+          ],
+          "xy_error": 2.769999999999982,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1896.779785 1780.000000 70.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -1957.97,
+            1780.0,
+            231.46
+          ],
+          "xy_error": 0.029999999999972715,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1896.809692 1780.000000 70.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -1958.0,
+            1780.0,
+            231.47
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 4,
+          "observed_pose": "setpos_exact -1896.809692 1780.000000 70.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -1958.0,
+            1780.0,
+            231.47
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1958.0,
+          1780.0,
+          31.73
+        ],
+        "ceiling": [
+          -1958.0,
+          1780.0,
+          231.47
+        ]
+      },
+      "endpoint_xy_separation": 0.0,
+      "native_vertical_separation": 199.74,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_TUNNEL_MOUTH_INTRADOS_X1958_Y1780_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\remaining_apertures_01\\B_TUNNEL_MOUTH_INTRADOS_X1958_Y1780_001.json",
+      "review": "Repeated local floor-to-concrete Hull intrados at mouth planeY1780, corroborated by full outside arch view. Three samples and independent width sections do not certify a full fitted curve, arch depth, rendered offset or minimum entire opening.",
+      "accepted_columns": [
+        {
+          "id": "B_TUNNEL_MOUTH_INTRADOS_X1958_Y1780_001_HEIGHT",
+          "feature": "Local collision floor-to-stone intrados at[-1958.0, 1780.0]",
+          "confidence": "confirmed repeated first-overhead collision column",
+          "notes": "Repeated local floor-to-concrete Hull intrados at mouth planeY1780, corroborated by full outside arch view. Three samples and independent width sections do not certify a full fitted curve, arch depth, rendered offset or minimum entire opening."
+        }
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-02T08:44:34.831157+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B tunnel stone mouth floor/intrados",
+      "unit": "source_units",
+      "target_xy": [
+        -1984.0,
+        1780.0
+      ],
+      "probe_player_z": 70.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -2047.990234 1780.000000 70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1983.31,
+            1780.0,
+            31.66
+          ],
+          "xy_error": 0.6900000000000546,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 94418"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -2048.680176 1780.000000 70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1780.0,
+            31.66
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 94412"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -2048.680176 1780.000000 70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1780.0,
+            31.66
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 94412"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1920.009766 1780.000000 70.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -1981.05,
+            1780.0,
+            240.09
+          ],
+          "xy_error": 2.9500000000000455,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1922.959717 1780.000000 70.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -1983.98,
+            1780.0,
+            240.98
+          ],
+          "xy_error": 0.01999999999998181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1922.959717 1780.000000 70.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -1983.98,
+            1780.0,
+            240.98
+          ],
+          "xy_error": 0.01999999999998181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1984.0,
+          1780.0,
+          31.66
+        ],
+        "ceiling": [
+          -1983.98,
+          1780.0,
+          240.98
+        ]
+      },
+      "endpoint_xy_separation": 0.01999999999998181,
+      "native_vertical_separation": 209.32,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_TUNNEL_MOUTH_INTRADOS_X1984_Y1780_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\remaining_apertures_01\\B_TUNNEL_MOUTH_INTRADOS_X1984_Y1780_001.json",
+      "review": "Repeated local floor-to-concrete Hull intrados at mouth planeY1780, corroborated by full outside arch view. Three samples and independent width sections do not certify a full fitted curve, arch depth, rendered offset or minimum entire opening.",
+      "accepted_columns": [
+        {
+          "id": "B_TUNNEL_MOUTH_INTRADOS_X1984_Y1780_001_HEIGHT",
+          "feature": "Local collision floor-to-stone intrados at[-1984.0, 1780.0]",
+          "confidence": "confirmed repeated first-overhead collision column",
+          "notes": "Repeated local floor-to-concrete Hull intrados at mouth planeY1780, corroborated by full outside arch view. Three samples and independent width sections do not certify a full fitted curve, arch depth, rendered offset or minimum entire opening."
+        }
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-02T08:44:16.285766+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B tunnel stone mouth floor/intrados",
+      "unit": "source_units",
+      "target_xy": [
+        -2010.0,
+        1780.0
+      ],
+      "probe_player_z": 70.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -2073.990234 1780.000000 70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -2009.31,
+            1780.0,
+            31.73
+          ],
+          "xy_error": 0.6900000000000546,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 94412"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -2074.680176 1780.000000 70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -2010.0,
+            1780.0,
+            31.73
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 94412"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -2074.680176 1780.000000 70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -2010.0,
+            1780.0,
+            31.73
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 94412"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1946.009766 1780.000000 70.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -2007.19,
+            1780.0,
+            232.08
+          ],
+          "xy_error": 2.8099999999999454,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1948.819702 1780.000000 70.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -2010.03,
+            1780.0,
+            230.46
+          ],
+          "xy_error": 0.029999999999972715,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1948.789795 1780.000000 70.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -2010.0,
+            1780.0,
+            230.48
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 4,
+          "observed_pose": "setpos_exact -1948.789795 1780.000000 70.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -2010.0,
+            1780.0,
+            230.48
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -2010.0,
+          1780.0,
+          31.73
+        ],
+        "ceiling": [
+          -2010.0,
+          1780.0,
+          230.48
+        ]
+      },
+      "endpoint_xy_separation": 0.0,
+      "native_vertical_separation": 198.75,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_TUNNEL_MOUTH_INTRADOS_X2010_Y1780_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\remaining_apertures_01\\B_TUNNEL_MOUTH_INTRADOS_X2010_Y1780_001.json",
+      "review": "Repeated local floor-to-concrete Hull intrados at mouth planeY1780, corroborated by full outside arch view. Three samples and independent width sections do not certify a full fitted curve, arch depth, rendered offset or minimum entire opening.",
+      "accepted_columns": [
+        {
+          "id": "B_TUNNEL_MOUTH_INTRADOS_X2010_Y1780_001_HEIGHT",
+          "feature": "Local collision floor-to-stone intrados at[-2010.0, 1780.0]",
+          "confidence": "confirmed repeated first-overhead collision column",
+          "notes": "Repeated local floor-to-concrete Hull intrados at mouth planeY1780, corroborated by full outside arch view. Three samples and independent width sections do not certify a full fitted curve, arch depth, rendered offset or minimum entire opening."
+        }
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-02T08:45:09.391337+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Lower tunnel Mid-side stone mouth",
+      "unit": "source_units",
+      "target_xy": [
+        -520.0,
+        1370.0
+      ],
+      "probe_player_z": -40.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -520.000000 1306.009766 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -520.0,
+            1371.29,
+            -112.86
+          ],
+          "xy_error": 1.2899999999999636,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 102041"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -520.000000 1304.719727 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -520.0,
+            1370.0,
+            -112.77
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 102041"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -520.000000 1304.719727 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -520.0,
+            1370.0,
+            -112.77
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 102041"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -520.000000 1433.990234 -40.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -520.0,
+            1370.79,
+            6.49
+          ],
+          "xy_error": 0.7899999999999636,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -520.000000 1433.200195 -40.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -520.0,
+            1369.99,
+            5.87
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -520.000000 1433.200195 -40.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -520.0,
+            1369.99,
+            5.87
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -520.0,
+          1370.0,
+          -112.77
+        ],
+        "ceiling": [
+          -520.0,
+          1369.99,
+          5.87
+        ]
+      },
+      "endpoint_xy_separation": 0.009999999999990905,
+      "native_vertical_separation": 118.64,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "LOWER_ARCH_X520_Y1370_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\remaining_apertures_01\\LOWER_ARCH_X520_Y1370_001.json",
+      "review": "Repeated local floor-to-concrete Hull intrados at Lower Mid-side planeX-520. Stone first overhead differs from passage timber roof. Three transverse samples do not locate exact apex/jamb ends or certify full fitted curve, depth or rendered offset; complementary detail images pending.",
+      "accepted_columns": [
+        {
+          "id": "LOWER_ARCH_X520_Y1370_001_HEIGHT",
+          "feature": "Local collision floor-to-stone intrados at[-520.0, 1370.0]",
+          "confidence": "confirmed repeated first-overhead collision column",
+          "notes": "Repeated local floor-to-concrete Hull intrados at Lower Mid-side planeX-520. Stone first overhead differs from passage timber roof. Three transverse samples do not locate exact apex/jamb ends or certify full fitted curve, depth or rendered offset; complementary detail images pending."
+        }
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-02T08:45:25.239672+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Lower tunnel Mid-side stone mouth",
+      "unit": "source_units",
+      "target_xy": [
+        -520.0,
+        1424.0
+      ],
+      "probe_player_z": -40.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -520.000000 1360.009766 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -520.0,
+            1425.28,
+            -112.38
+          ],
+          "xy_error": 1.2799999999999727,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 102053"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -520.000000 1358.729736 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -520.0,
+            1424.0,
+            -112.38
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 102053"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -520.000000 1358.729736 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -520.0,
+            1424.0,
+            -112.38
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 102053"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -520.000000 1487.990234 -40.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -520.0,
+            1425.65,
+            55.49
+          ],
+          "xy_error": 1.650000000000091,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -520.000000 1486.340210 -40.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -520.0,
+            1424.01,
+            56.05
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -520.000000 1486.340210 -40.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -520.0,
+            1424.01,
+            56.05
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -520.0,
+          1424.0,
+          -112.38
+        ],
+        "ceiling": [
+          -520.0,
+          1424.01,
+          56.05
+        ]
+      },
+      "endpoint_xy_separation": 0.009999999999990905,
+      "native_vertical_separation": 168.43,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "LOWER_ARCH_X520_Y1424_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\remaining_apertures_01\\LOWER_ARCH_X520_Y1424_001.json",
+      "review": "Repeated local floor-to-concrete Hull intrados at Lower Mid-side planeX-520. Stone first overhead differs from passage timber roof. Three transverse samples do not locate exact apex/jamb ends or certify full fitted curve, depth or rendered offset; complementary detail images pending.",
+      "accepted_columns": [
+        {
+          "id": "LOWER_ARCH_X520_Y1424_001_HEIGHT",
+          "feature": "Local collision floor-to-stone intrados at[-520.0, 1424.0]",
+          "confidence": "confirmed repeated first-overhead collision column",
+          "notes": "Repeated local floor-to-concrete Hull intrados at Lower Mid-side planeX-520. Stone first overhead differs from passage timber roof. Three transverse samples do not locate exact apex/jamb ends or certify full fitted curve, depth or rendered offset; complementary detail images pending."
+        }
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-02T08:45:40.890978+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Lower tunnel Mid-side stone mouth",
+      "unit": "source_units",
+      "target_xy": [
+        -520.0,
+        1470.0
+      ],
+      "probe_player_z": -40.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -520.000000 1406.009766 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -520.0,
+            1471.29,
+            -112.51
+          ],
+          "xy_error": 1.2899999999999636,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 102055"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -520.000000 1404.719727 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -520.0,
+            1469.99,
+            -112.49
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 102055"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -520.000000 1404.719727 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -520.0,
+            1469.99,
+            -112.49
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 102055"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -520.000000 1533.990234 -40.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -520.0,
+            1471.18,
+            28.79
+          ],
+          "xy_error": 1.1800000000000637,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -520.000000 1532.810303 -40.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -520.0,
+            1470.02,
+            29.86
+          ],
+          "xy_error": 0.01999999999998181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -520.000000 1532.810303 -40.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -520.0,
+            1470.02,
+            29.86
+          ],
+          "xy_error": 0.01999999999998181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -520.0,
+          1469.99,
+          -112.49
+        ],
+        "ceiling": [
+          -520.0,
+          1470.02,
+          29.86
+        ]
+      },
+      "endpoint_xy_separation": 0.029999999999972715,
+      "native_vertical_separation": 142.35,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "LOWER_ARCH_X520_Y1470_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\remaining_apertures_01\\LOWER_ARCH_X520_Y1470_001.json",
+      "review": "Repeated local floor-to-concrete Hull intrados at Lower Mid-side planeX-520. Stone first overhead differs from passage timber roof. Three transverse samples do not locate exact apex/jamb ends or certify full fitted curve, depth or rendered offset; complementary detail images pending.",
+      "accepted_columns": [
+        {
+          "id": "LOWER_ARCH_X520_Y1470_001_HEIGHT",
+          "feature": "Local collision floor-to-stone intrados at[-520.0, 1470.0]",
+          "confidence": "confirmed repeated first-overhead collision column",
+          "notes": "Repeated local floor-to-concrete Hull intrados at Lower Mid-side planeX-520. Stone first overhead differs from passage timber roof. Three transverse samples do not locate exact apex/jamb ends or certify full fitted curve, depth or rendered offset; complementary detail images pending."
+        }
+      ]
     }
   ],
   "rejected_attempts": [

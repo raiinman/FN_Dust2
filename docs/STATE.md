@@ -27,7 +27,7 @@ Raw/private sibling reference_cache/crash_recovery_survey and work/ preserved.
   2.54z), inverse/length/native-right checks pass. Phase2 exporter/editor roundtrip
   unverified. Unsaved Hammer128 cube is authored calibration, not production.
 - 13 repeated floor datums,54 Short stair floor points,54 Tunnel stair points,
-  313 connector floor/cover/cap points,257 calibrated feature measurements.
+  323 connector floor/cover/cap points,263 calibrated feature measurements.
   ARCHITECTURAL_SECTIONS/ARCHITECTURAL_SURVEY_PLAN derive106 local chords;
   they cross space and never become wall outlines or floor-story acceptance.
 - Short12 rendered/native risers, nonuniform individual center sections;
@@ -164,21 +164,44 @@ B Doors: three repeated local floor/first-timber columns, one independent old-he
 
 B tunnel exit: six repeated transverse passage/stone-mouth sections accepted atY1740/1780 Z80/180/220. LaterY1800..1840 hits cross exterior courtyard/cover and remain diagnostics. Outside image frames full arch and steps; inside apex-clipped attempt rejected and preserved.257 physical measurements,106 local chords,223 reviewed JPEGs. Full arch height/step flight and continuous architectural footprint pending; Gate1 FAIL.
 
-Plan section batch01 completed/registered:96 distinct repeated directions across
-B Site, CT Spawn and Upper chamber; source restored and independently read back.
-Active serial controller probe_plan_sections_02.py, private plan_sections_02:
-15 named positions,32 repeated directions each, sequential per-area reports.
-First five batch02 areas registered (Long chamber, Lower passage, A Site,
-Top Mid, Outside Long). Long Corner complete private/unregistered; Pit in
-progress at last inspection. Inspect every report/status/process after timeout.
-Do not duplicate reports or start another pose controller. Each area restores
-source camera -1984,2100,50p0/y-90. Native overlay visible.
+## Current resumed survey checkpoint
 
-PLAN_SECTION_SWEEPS now preserves96 distinct horizontal first-hit directions (192 observations) across B Site, CT Spawn and Upper chamber. Native endpoints/surface repeats, rangefinder distances and original-pose restore checks pass. Calibrated point CSV and two height-layer SVG rendered/inspected. Materials/remote portal hits stay explicit; no angular gap, connected boundary or footprint accepted. Gate1 remains FAIL.
+17 horizontal section reports registered:544 distinct repeated directions,
+1088 observations. Two TSpawn east no-hit attempts preserved with exact native
+miss/echo, no accepted endpoints and verified source restoration. Materials,
+remote portal hits and slope intersections remain explicit; point-only height
+layers rendered/inspected, no joined boundary or whole footprint accepted.
 
+Six newly reviewed local concrete intrados columns (three B mouth/three Lower
+arch) bring physical register to263 measurements. Ten repeated B exit first
+floor hits bring connector samples to323. Y1816 unexpectedly hits lower Mesh
+between higher Hull treads: diagnostic only, explicitly excluded from tread/
+flight interpretation pending offsets. No full flight accepted from samples.
 
-Horizontal-section survey expanded to eight surveyed areas:256 distinct directions/512 repeated observations now committed in PLAN_SECTION_SWEEPS, with exact native height, pose, surface and rangefinder evidence. Long chamber portals, Lower east/Xbox, Top Mid connections and Outside Long south rays explicitly cross areas; A Site includes cover/returns and open routes. Two-layer point figure rendered/inspected. First-hit points do not become joined wall/floor boundaries.96 fresh midpoint validation rays are planned privately, not executed or accepted. Gate1 FAIL.
-Private plan_section_checks_01/validation_plan.json fixes96 midpoint predictions
-before new native capture against first three reports. Configs are unexecuted.
-After active batch02 ends, review partial/failed reports, register completions,
-then run withheld checks serially; never overlap pose controllers.
+User resumed desktop after physical Escape stop. Existing CS2PID13444 and ONE
+worker Python34036/socket57046 verified, fresh exact echo and source pose
+-1984,2100,50p0/y-90 read back. Native sky observation and window activation
+work. Old aperture16-column and section controllers all ended/restored. No
+duplicate worker started. GitHub main was4d975a3 at resume, no remote divergence.
+
+ONE current pose controller: native midpoint checks CT_SPAWN_checks_001.json,
+private plan_section_checks_01. B Site32 checks completed/restored:22 candidate chords failed .1native local
+agreement, maximum475.110cm; ten agree only at checked points. Predictions were
+fixed before capture in validation_plan. CT Spawn active; Upper32 unexecuted. Inspect status/process before
+resuming; each endpoint helper restores original B mouth source pose. Do not
+change UI focus or overlap another pose/input controller.
+
+Private route_floor_profiles_01/plan.json has85 unexecuted repeated floor-only
+probes on13 accepted walking paths. Feet only select probe origin, never supply
+floor elevation. Private run_planned_columns_01.py serially runs reports and
+finally verifies original source restore; refuses existing files/recovery.
+remaining_apertures_01 planned three detail captures remain unexecuted. Its
+16 columns are complete and registered; do not repeat them. B exit Y1816 offset
+checks/riser faces, Lower arch lateral chords and B timber component identity
+remain pending. New optional allow_open_rays branch is unexecuted/unverified;
+default failure diagnostics live-tested. Never give missing rays endpoints.
+
+Gate1 FAIL: full critical aperture/body, room/route/cover spans, Tunnel terminal/
+side bounds, ramp/site endpoints, continuous calibrated layered footprint and
+bounded source uncertainty remain required. Image count223/hash audit unchanged;
+listed topology PASS unchanged. Phase2 production has not started.

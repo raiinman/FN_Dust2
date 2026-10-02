@@ -23549,6 +23549,756 @@
       "id": "PIT_UNDER_CAP_X1590_Y750_001",
       "private_raw_path": "../reference_cache/crash_recovery_survey/pit_under_cap_01/PIT_UNDER_CAP_X1590_Y750_001.json",
       "surface_semantics": "Lower pavement below separately observed raised edge/cap; repeated low-origin casts distinguish pavement from overhead rock/cap hulls. No smooth interpolation across independently measured vertical curb faces or full unseen-floor acceptance."
+    },
+    {
+      "timestamp_utc": "2026-10-02T08:45:56.736937+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B tunnel exit step/floor profile",
+      "unit": "source_units",
+      "target_xy": [
+        -1984.0,
+        1776.0
+      ],
+      "probe_player_z": 50.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -2047.990234 1776.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1983.66,
+            1776.0,
+            31.62
+          ],
+          "xy_error": 0.33999999999991815,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 94418"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -2048.330322 1776.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1776.0,
+            31.62
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 94418"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -2048.330322 1776.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1776.0,
+            31.62
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 94418"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1984.0,
+          1776.0,
+          31.62
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_TUNNEL_EXIT_FLOOR_Y1776_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\remaining_apertures_01\\B_TUNNEL_EXIT_FLOOR_Y1776_001.json",
+      "surface_semantics": "Repeated exit centerline floor/first-surface point. Concrete Hull tread versus sand/concrete Mesh landing retained in raw descriptions; no entire stair flight, horizontal riser face or side continuity inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T08:46:05.875208+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B tunnel exit step/floor profile",
+      "unit": "source_units",
+      "target_xy": [
+        -1984.0,
+        1792.0
+      ],
+      "probe_player_z": 50.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -2047.990234 1792.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1983.66,
+            1792.0,
+            31.79
+          ],
+          "xy_error": 0.33999999999991815,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 94418"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -2048.330322 1792.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1792.0,
+            31.78
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 94412"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -2048.330322 1792.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1792.0,
+            31.78
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 94412"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1984.0,
+          1792.0,
+          31.78
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_TUNNEL_EXIT_FLOOR_Y1792_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\remaining_apertures_01\\B_TUNNEL_EXIT_FLOOR_Y1792_001.json",
+      "surface_semantics": "Repeated exit centerline floor/first-surface point. Concrete Hull tread versus sand/concrete Mesh landing retained in raw descriptions; no entire stair flight, horizontal riser face or side continuity inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T08:46:14.706728+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B tunnel exit step/floor profile",
+      "unit": "source_units",
+      "target_xy": [
+        -1984.0,
+        1800.0
+      ],
+      "probe_player_z": 50.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -2047.990234 1800.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1983.67,
+            1800.0,
+            32.03
+          ],
+          "xy_error": 0.32999999999992724,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -2048.320312 1800.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1800.0,
+            32.03
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -2048.320312 1800.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1800.0,
+            32.03
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1984.0,
+          1800.0,
+          32.03
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_TUNNEL_EXIT_FLOOR_Y1800_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\remaining_apertures_01\\B_TUNNEL_EXIT_FLOOR_Y1800_001.json",
+      "surface_semantics": "Repeated exit centerline floor/first-surface point. Concrete Hull tread versus sand/concrete Mesh landing retained in raw descriptions; no entire stair flight, horizontal riser face or side continuity inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T08:46:23.725834+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B tunnel exit step/floor profile",
+      "unit": "source_units",
+      "target_xy": [
+        -1984.0,
+        1808.0
+      ],
+      "probe_player_z": 50.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -2047.990234 1808.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1983.53,
+            1808.0,
+            24.03
+          ],
+          "xy_error": 0.4700000000000273,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -2048.460205 1808.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1808.0,
+            24.03
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -2048.460205 1808.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1808.0,
+            24.03
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1984.0,
+          1808.0,
+          24.03
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_TUNNEL_EXIT_FLOOR_Y1808_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\remaining_apertures_01\\B_TUNNEL_EXIT_FLOOR_Y1808_001.json",
+      "surface_semantics": "Repeated exit centerline floor/first-surface point. Concrete Hull tread versus sand/concrete Mesh landing retained in raw descriptions; no entire stair flight, horizontal riser face or side continuity inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T08:46:32.755926+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B tunnel exit step/floor profile",
+      "unit": "source_units",
+      "target_xy": [
+        -1984.0,
+        1816.0
+      ],
+      "probe_player_z": 50.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -2047.990234 1816.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1983.11,
+            1816.0,
+            0.01
+          ],
+          "xy_error": 0.8900000000001,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 94531"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -2048.880371 1816.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1816.0,
+            0.01
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 94531"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -2048.880371 1816.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1816.0,
+            0.01
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 94531"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1984.0,
+          1816.0,
+          0.01
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_TUNNEL_EXIT_FLOOR_Y1816_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\remaining_apertures_01\\B_TUNNEL_EXIT_FLOOR_Y1816_001.json",
+      "surface_semantics": "DIAGNOSTIC lower concrete Mesh first hit atY1816, between higher neighboring Hull treads. Explicitly excluded from tread/flight modeling; repeated native response does not establish its edge interpretation. Offset checks pending."
+    },
+    {
+      "timestamp_utc": "2026-10-02T08:46:42.082514+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B tunnel exit step/floor profile",
+      "unit": "source_units",
+      "target_xy": [
+        -1984.0,
+        1824.0
+      ],
+      "probe_player_z": 50.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -2047.990234 1824.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1983.39,
+            1824.0,
+            16.03
+          ],
+          "xy_error": 0.6099999999999,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -2048.600342 1824.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1824.0,
+            16.03
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -2048.600342 1824.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1824.0,
+            16.03
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1984.0,
+          1824.0,
+          16.03
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_TUNNEL_EXIT_FLOOR_Y1824_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\remaining_apertures_01\\B_TUNNEL_EXIT_FLOOR_Y1824_001.json",
+      "surface_semantics": "Repeated exit centerline floor/first-surface point. Concrete Hull tread versus sand/concrete Mesh landing retained in raw descriptions; no entire stair flight, horizontal riser face or side continuity inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T08:46:51.405876+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B tunnel exit step/floor profile",
+      "unit": "source_units",
+      "target_xy": [
+        -1984.0,
+        1832.0
+      ],
+      "probe_player_z": 50.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -2047.990234 1832.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1983.25,
+            1832.0,
+            8.03
+          ],
+          "xy_error": 0.75,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -2048.740234 1832.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1832.0,
+            8.03
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -2048.740234 1832.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1832.0,
+            8.03
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1984.0,
+          1832.0,
+          8.03
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_TUNNEL_EXIT_FLOOR_Y1832_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\remaining_apertures_01\\B_TUNNEL_EXIT_FLOOR_Y1832_001.json",
+      "surface_semantics": "Repeated exit centerline floor/first-surface point. Concrete Hull tread versus sand/concrete Mesh landing retained in raw descriptions; no entire stair flight, horizontal riser face or side continuity inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T08:47:00.735458+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B tunnel exit step/floor profile",
+      "unit": "source_units",
+      "target_xy": [
+        -1984.0,
+        1840.0
+      ],
+      "probe_player_z": 50.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -2047.990234 1840.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1983.25,
+            1840.0,
+            8.03
+          ],
+          "xy_error": 0.75,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -2048.740234 1840.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1840.0,
+            8.03
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -2048.740234 1840.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1840.0,
+            8.03
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1984.0,
+          1840.0,
+          8.03
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_TUNNEL_EXIT_FLOOR_Y1840_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\remaining_apertures_01\\B_TUNNEL_EXIT_FLOOR_Y1840_001.json",
+      "surface_semantics": "Repeated exit centerline floor/first-surface point. Concrete Hull tread versus sand/concrete Mesh landing retained in raw descriptions; no entire stair flight, horizontal riser face or side continuity inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T08:47:09.968711+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B tunnel exit step/floor profile",
+      "unit": "source_units",
+      "target_xy": [
+        -1984.0,
+        1848.0
+      ],
+      "probe_player_z": 50.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -2047.990234 1848.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1983.11,
+            1848.0,
+            0.37
+          ],
+          "xy_error": 0.8900000000001,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 94535"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -2048.880371 1848.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1848.0,
+            0.37
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 94535"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -2048.880371 1848.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1848.0,
+            0.37
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 94535"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1984.0,
+          1848.0,
+          0.37
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_TUNNEL_EXIT_FLOOR_Y1848_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\remaining_apertures_01\\B_TUNNEL_EXIT_FLOOR_Y1848_001.json",
+      "surface_semantics": "Repeated exit centerline floor/first-surface point. Concrete Hull tread versus sand/concrete Mesh landing retained in raw descriptions; no entire stair flight, horizontal riser face or side continuity inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T08:47:19.203465+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B tunnel exit step/floor profile",
+      "unit": "source_units",
+      "target_xy": [
+        -1984.0,
+        1856.0
+      ],
+      "probe_player_z": 50.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -2047.990234 1856.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1983.12,
+            1856.0,
+            0.57
+          ],
+          "xy_error": 0.8800000000001091,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 94536"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -2048.870361 1856.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1856.0,
+            0.57
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 94536"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -2048.870361 1856.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1856.0,
+            0.57
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 94536"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1984.0,
+          1856.0,
+          0.57
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_TUNNEL_EXIT_FLOOR_Y1856_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\remaining_apertures_01\\B_TUNNEL_EXIT_FLOOR_Y1856_001.json",
+      "surface_semantics": "Repeated exit centerline floor/first-surface point. Concrete Hull tread versus sand/concrete Mesh landing retained in raw descriptions; no entire stair flight, horizontal riser face or side continuity inferred."
     }
   ],
   "accepted_pairs": [

@@ -201,6 +201,20 @@ It derives point CSV/SVG from PLAN_SECTION_SWEEPS; it never connects neighboring
 rays or grants a continuous footprint. Material colors alone do not identify
 walls versus pillars, floors, facade returns or sightline cover.
 
+Endpoint batches preserve failed_ray station/yaw/repeat, settled pose, eye
+origin and filtered native hit/rangefinder diagnostics when no unique endpoint
+exists. A live exact echo can accompany an open no-hit ray; never convert it
+into an architectural endpoint or restart the persistent worker for that reason.
+Failed batches stop and restore; inspect completed observations and unexecuted
+stations before a separately named resume batch.
+
+Only an explicitly configured allow_open_rays horizontal section survey may
+record two native no-hit/rangefinder-miss replies and continue other independent
+directions. Missing echoes/poses, own-origin hits, ambiguous replies and mixed
+open/hit repeats still stop. Open observations have no endpoint or distance;
+they do not prove absent player collision, floor extent or rendered boundaries.
+The default architectural endpoint helper still stops on any missing hit.
+
 - build_physical_register.py derives reviewed centimeter samples from SCALE_CALIBRATION, architectural endpoints and native floor datums. Reviewed sections may use native X or Y; reviewed columns require repeated same-XY floor/first-overhead endpoints. Local clearance is not full-opening acceptance. Never silently overwrite future manually accepted measurement rows; extend the reviewed source evidence first. Accepted Short floor point-pair rises come from SHORT_STAIR_PROFILE.json and require repeated corrected endpoints. Explicit accepted_flight adds individual center-section rise/run and full-flight outer endpoint values through shared flight_rows validation.
 
 Physical-register column acceptance permits floor/overhead XY separation within .04 native units; both corrected repeated endpoints must individually meet .02 tolerance. It retains original coordinates and vertical difference, never forces coincidence.
