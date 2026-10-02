@@ -3427,5 +3427,92 @@
   ],
   "max_observed_residual_native": 1.0105316842105196,
   "max_observed_residual_cm": 2.56675047789472,
-  "limits": "Checked-point error only; not universal unseen-surface bound, full Pit ends, near-wall excluded strips, rendered offset or whole-map truth acceptance."
+  "raised_strip_section_checks": [
+    {
+      "y": 350,
+      "side": "west",
+      "outer_id": "PIT_GRID_X1274_Y350_001",
+      "inner_id": "PIT_CURB_COLUMN_X1304_Y350_001",
+      "holdout_id": "PIT_ROAD_BOUND_X1288_Y350_001",
+      "source_xyz": [
+        1288.0,
+        350.01,
+        -154.78
+      ],
+      "predicted_z": -154.54933333333332,
+      "residual_cm": -0.5858933333333636
+    },
+    {
+      "y": 350,
+      "side": "east",
+      "outer_id": "PIT_GRID_X1590_Y350_001",
+      "inner_id": "PIT_CURB_COLUMN_X1544_Y350_001",
+      "holdout_id": "PIT_OUTER_HOLD_X1545_Y350_001",
+      "source_xyz": [
+        1545.0,
+        350.01,
+        -154.72
+      ],
+      "predicted_z": -154.72173913043477,
+      "residual_cm": 0.004417391304318698
+    },
+    {
+      "y": 500,
+      "side": "west",
+      "outer_id": "PIT_GRID_X1274_Y500_001",
+      "inner_id": "PIT_CURB_COLUMN_X1304_Y500_001",
+      "holdout_id": "PIT_ROAD_BOUND_X1288_Y500_001",
+      "source_xyz": [
+        1288.0,
+        500.01,
+        -100.5
+      ],
+      "predicted_z": -100.30066666666667,
+      "residual_cm": -0.5063066666666538
+    },
+    {
+      "y": 500,
+      "side": "east",
+      "outer_id": "PIT_GRID_X1590_Y500_001",
+      "inner_id": "PIT_CURB_COLUMN_X1544_Y500_001",
+      "holdout_id": "PIT_OUTER_HOLD_X1545_Y500_001",
+      "source_xyz": [
+        1545.0,
+        500.01,
+        -100.13
+      ],
+      "predicted_z": -100.11478260869565,
+      "residual_cm": -0.03865217391304128
+    },
+    {
+      "y": 650,
+      "side": "west",
+      "outer_id": "PIT_UNDER_CAP_X1274_Y650_001",
+      "inner_id": "PIT_CURB_COLUMN_X1304_Y650_001",
+      "holdout_id": "PIT_ROAD_BOUND_X1288_Y650_001",
+      "source_xyz": [
+        1288.0,
+        650.0,
+        -44.44
+      ],
+      "predicted_z": -44.156,
+      "residual_cm": -0.7213599999999972
+    },
+    {
+      "y": 650,
+      "side": "east",
+      "outer_id": "PIT_GRID02_X1590_Y650_001",
+      "inner_id": "PIT_CURB_COLUMN_X1544_Y650_001",
+      "holdout_id": "PIT_OUTER_HOLD_X1545_Y650_001",
+      "source_xyz": [
+        1545.0,
+        650.01,
+        -43.82
+      ],
+      "predicted_z": -43.82739130434783,
+      "residual_cm": 0.018773913043480802
+    }
+  ],
+  "raised_strip_max_observed_residual_cm": 0.7213599999999972,
+  "limits": "Checked-point error only; side checks are six independent local transverse checks, never continuous raised strips. Not universal unseen-surface bound, full Pit ends, near-wall excluded strips, rendered offset or whole-map truth acceptance."
 }

@@ -33,7 +33,14 @@ def build(root):
   assert max(v for _,v in choices)-min(v for _,v in choices)<.05
   n,z=choices[0];checks.append(dict(id=ident,triangle=n,source_xyz=p[ident],predicted_z=z,residual_native=p[ident][2]-z,residual_cm=(p[ident][2]-z)*factor))
  maximum=max(abs(c['residual_native']) for c in checks)
- result=dict(source_build=survey['source_build'],status='DIAGNOSTIC ONLY; explicit reviewed uncertainty acceptance required',triangles=[dict(id=n,point_ids=t,source_xyz=[p[i] for i in t]) for n,t in enumerate(triangles)],holdouts=checks,max_observed_residual_native=maximum,max_observed_residual_cm=maximum*factor,limits='Checked-point error only; not universal unseen-surface bound, full Pit ends, near-wall excluded strips, rendered offset or whole-map truth acceptance.')
+ side_checks=[]
+ for section in survey.get('raised_strip_sections',[]):
+  outer,inner,hold=[p[section[key]] for key in ['outer_id','inner_id','holdout_id']]
+  assert section['holdout_id'] not in {section['outer_id'],section['inner_id']}
+  assert max(h[1] for h in [outer,inner,hold])-min(h[1] for h in [outer,inner,hold])<=.02
+  u=(hold[0]-outer[0])/(inner[0]-outer[0]);assert 0<u<1
+  z=outer[2]+u*(inner[2]-outer[2]);side_checks.append(dict(**section,source_xyz=hold,predicted_z=z,residual_cm=(hold[2]-z)*factor))
+ result=dict(source_build=survey['source_build'],status='DIAGNOSTIC ONLY; explicit reviewed uncertainty acceptance required',triangles=[dict(id=n,point_ids=t,source_xyz=[p[i] for i in t]) for n,t in enumerate(triangles)],holdouts=checks,max_observed_residual_native=maximum,max_observed_residual_cm=maximum*factor,raised_strip_section_checks=side_checks,raised_strip_max_observed_residual_cm=max([abs(c['residual_cm']) for c in side_checks],default=None),limits='Checked-point error only; side checks are six independent local transverse checks, never continuous raised strips. Not universal unseen-surface bound, full Pit ends, near-wall excluded strips, rendered offset or whole-map truth acceptance.')
  (ref/'PIT_FLOOR_INTERPOLATION.json').write_text(json.dumps(result,indent=2)+'\n')
  xmin,xmax=min(p[i][0] for a in anchors for i in a),max(p[i][0] for a in anchors for i in a)
  ymin,ymax=min(p[i][1] for a in anchors for i in a),max(p[i][1] for a in anchors for i in a)

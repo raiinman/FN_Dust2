@@ -231,3 +231,5 @@ independent holdout errors. Its output is a diagnostic; universal unseen-floor,
 rendered offset, wall ends and whole-map acceptance need separate review.
 
 build_pit_camera.py checks eight fit/eight independent native marker pixels, capture hashes and known-Z inverse at the locked Pit pose; writes the calibration and overlaid diagnostic. build_plan_camera_model.py fits constrained intrinsics using original overhead anchors and independently checks32 markers across two poses. Neither grants new camera poses, rendered-edge accuracy or floor acceptance. Rebuild, render and inspect updated figures after floor changes.
+
+Pit raised_strip_sections/checks preserve six independent local transverse validation checks separately from road triangles. They never interpolate across a curb or certify longitudinal side-strip continuity. Selected complete repeated sections may be accepted from a later-failed endpoint batch only with explicit observation selection/review; preserve its original failed status, rejected own-origin hit and exact restore.

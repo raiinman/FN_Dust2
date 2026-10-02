@@ -323,5 +323,49 @@
     "east_inner_curb_x": 1542.97,
     "scope": "Repeated concrete Hull inner faces atY350/500/650. Local six road-to-top rises are nonuniform; side strips, cap hulls and road are separate surfaces. No full curb ends inferred."
   },
-  "five_column_diagnostic": "PIT_FLOOR_INTERPOLATION_FIVE_COLUMN.json preserves failed smooth outer-band checks:35 holdouts,max13.849988208421049cm. Three east outer checks reclassified as raised-strip validation, not discarded."
+  "five_column_diagnostic": "PIT_FLOOR_INTERPOLATION_FIVE_COLUMN.json preserves failed smooth outer-band checks:35 holdouts,max13.849988208421049cm. Three east outer checks reclassified as raised-strip validation, not discarded.",
+  "raised_strip_sections": [
+    {
+      "y": 350,
+      "side": "west",
+      "outer_id": "PIT_GRID_X1274_Y350_001",
+      "inner_id": "PIT_CURB_COLUMN_X1304_Y350_001",
+      "holdout_id": "PIT_ROAD_BOUND_X1288_Y350_001"
+    },
+    {
+      "y": 350,
+      "side": "east",
+      "outer_id": "PIT_GRID_X1590_Y350_001",
+      "inner_id": "PIT_CURB_COLUMN_X1544_Y350_001",
+      "holdout_id": "PIT_OUTER_HOLD_X1545_Y350_001"
+    },
+    {
+      "y": 500,
+      "side": "west",
+      "outer_id": "PIT_GRID_X1274_Y500_001",
+      "inner_id": "PIT_CURB_COLUMN_X1304_Y500_001",
+      "holdout_id": "PIT_ROAD_BOUND_X1288_Y500_001"
+    },
+    {
+      "y": 500,
+      "side": "east",
+      "outer_id": "PIT_GRID_X1590_Y500_001",
+      "inner_id": "PIT_CURB_COLUMN_X1544_Y500_001",
+      "holdout_id": "PIT_OUTER_HOLD_X1545_Y500_001"
+    },
+    {
+      "y": 650,
+      "side": "west",
+      "outer_id": "PIT_UNDER_CAP_X1274_Y650_001",
+      "inner_id": "PIT_CURB_COLUMN_X1304_Y650_001",
+      "holdout_id": "PIT_ROAD_BOUND_X1288_Y650_001"
+    },
+    {
+      "y": 650,
+      "side": "east",
+      "outer_id": "PIT_GRID02_X1590_Y650_001",
+      "inner_id": "PIT_CURB_COLUMN_X1544_Y650_001",
+      "holdout_id": "PIT_OUTER_HOLD_X1545_Y650_001"
+    }
+  ]
 }

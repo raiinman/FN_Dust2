@@ -1,7 +1,7 @@
 {
   "review_date": "2026-10-01",
   "source_build": "25640462",
-  "registered_images": 214,
+  "registered_images": 216,
   "coverage_excluded": 8,
   "complete_areas": 16,
   "complete_subareas": 11,
@@ -2383,6 +2383,22 @@
       "sha256": "1527746999a212f8c448eedcffc1fdeafe8f5398d60020f960ef0ae24608222a",
       "coverage_status": "PARTIAL",
       "review": "Clean full-resolution Pit local plan companion; no debug overlay. Both retaining faces/ramp and terraces visible. Foreground roof hides some low floor; outer street/area extends frame. Hash-pinned camera context only, not complete footprint."
+    },
+    {
+      "id": "QA_BWINDOW_SECTIONS_001_MARKED",
+      "area": "B Window",
+      "image": "reference/images/b_window/QA_BWINDOW_SECTIONS_001_MARKED.jpg",
+      "sha256": "156ed6da3cfb872f347cc1472998a2975de9ee6fc3c33c712b9214840d655c51",
+      "coverage_status": "PARTIAL",
+      "review": "Three authored native lines connect independently repeated X-1320 opening endpoints atZ160/200/240. All lines distinct; upper line partly passes behind front wall because collision section is recessed. Lines are measured collision references, not selected visible face pixels."
+    },
+    {
+      "id": "QA_BWINDOW_SECTIONS_001_CLEAN",
+      "area": "B Window",
+      "image": "reference/images/b_window/QA_BWINDOW_SECTIONS_001_CLEAN.jpg",
+      "sha256": "184a3ffd8454e07395a367d5f2183abb3a8c4824390c6283c22a422e534fe2ef",
+      "coverage_status": "PARTIAL",
+      "review": "Clean local jagged roofless gap and rubble sill unobstructed and fully framed. B courtyard/exterior continue beyond crop; foreground crate cropped. Local opening context, not full site or uniform sill/ceiling/minimum-clearance measurement."
     }
   ]
 }
