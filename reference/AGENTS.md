@@ -430,3 +430,8 @@ B_TIMBER_LOCAL_SECTIONS JSON/CSV/SVG owns two localZ40 thicknesses and bounded
 upper elevations from complete008/012/016/017. Direct018 Wood/gravel upper
 points stay separate from main ground. Failed011/014/015 preserved. No fullstrip,
 uniformcap, hiddenbase or platform perimeter inferred.
+
+B_TIMBER_LOCAL_SECTIONS also validates optional022 two-origin firstWood/Dirt
+near-facing limit. Preserve failed019/020/021 and unsafeY2878 own-origin hit.
+Mixed MetalPanel/Wood/Dirt interfaces never automatically define fullstrip
+body/corner. Rebuild/render/inspect updated JSON/SVG; physical rows unchanged.

@@ -473,3 +473,13 @@ No sharedflat cap/constant thickness. Failed011/014/015 actual intermediate
 Wood_Panel/rock/gravel classifications preserved;160 architectural reports/
 17 rejected. All executed controllers exact B-mouth restore all0. Full timber
 ends, hidden base, platform envelope and continuous whole-map footprint open.
+
+B nearstrip022 completes24 observations/all0restore: independentX-1680/
+-1660 agree firstWood/Dirt interfaceY[2426.34765625,2426.40625] atZ40.
+WoodX-1718.49; DirtX-1723.15, neither automatic fullbodycorner nor topend.
+B_TIMBER_LOCAL_SECTIONS updated/rendered/inspected. Failed019 own-originRock
+Y2878 and failed020/021 intermediateRock/Dirt preserved; safe paired019 rays
+identify farMetalPanel and nearWood as different components.164 architectural
+reports/20 rejected.396 measurements/456 connector points unchanged. Gate1 FAIL;
+fullmixedstrip/ground/wholemap extents open. Next broaden architectural footprint,
+using existing Pit floor/camera and measured walls; do not rerun completedB plans.

@@ -70,11 +70,28 @@ def build(root):
         assert f'surfaceprop {material},' in str(pair[1]['hit_description']) and f'shape type: {shape},' in str(pair[1]['hit_description'])
         row=next(r for r in rows if r['native_y']==case['xy'][1]);row['selected_upper_column']=dict(report=case['id'],point=report['endpoints']['floor'],material=material,shape=shape)
         u,v=project(c['projection_matrix'],report['endpoints']['floor']);svg.append(f'<circle cx="{u}" cy="{v+100}" r="3" fill="#49f6e0" stroke="#14202e"/>')
+    data=json.loads((ref/'ARCHITECTURAL_ENDPOINTS.json').read_text())
+    near=next((r for r in data['reports'] if r['id']=='B_STRIP_NEAR_WOOD_DIRT_INTERFACE_022'),None)
+    interface=None
+    if near:
+        assert near['source_build']=='25640462' and near['status'].startswith('complete;') and max(near['restore_numeric_errors'])<=.01
+        assert near['config']['normal_band_is_classifier'] and near['config']['height_native']==40 and len(near['brackets'])==2
+        points=[];intervals=[]
+        for b in near['brackets']:
+            on,off=[repeated(near,b[k]['observation_index']) for k in ['on','off']]
+            assert 'surfaceprop Wood_Plank,' in str(on['surface']) and 'surfaceprop dirt,' in str(off['surface'])
+            assert all('shape type: Hull,' in str(o['surface']) for o in [on,off])
+            assert -1720<=on['hit'][0]<=-1710 and off['hit'][0]<-1720 and on['hit'][2]==off['hit'][2]==40
+            intervals.append(b['tangent_interval_native']);points.append([on['hit'],off['hit']])
+        assert intervals[0]==intervals[1] and points[0]==points[1] and intervals[0][1]-intervals[0][0]<=.1
+        interface=dict(report=near['id'],interval_native_y=intervals[0],wood_point=points[0][0],dirt_point=points[0][1],scope='Local first-Wood facing/material end atZ40 only; dirt filling, complete strip corner/body and all other heights separate.')
+        for pt in points[0]:
+            u,v=project(c['projection_matrix'],pt);svg.append(f'<circle cx="{u}" cy="{v+100}" r="4" fill="#f9f9f9" stroke="#14202e"/>')
     for n,r in enumerate(rows):
         lo,hi=r['upper_elevation_interval_cm'];svg.append(f'<text x="25" y="{858+n*33}" font-size="17">NativeY{r["native_y"]}: thickness{r["thickness_cm"]:.4f}cm; upperZ{r["upper_interval_native"]} / absolute elevation[{lo:.4f},{hi:.4f}]cm.</text>')
-    svg.extend(['<text x="25" y="925" font-size="17">Cyan direct top samples: WoodZ62.67 atY2500; gravelZ61.94 atY2600, slightly behind each front point.</text>','<text x="25" y="958" font-size="17">Pink chords cross the body at two stations only. Neither uniform thickness nor shared flat cap is accepted.</text>','<text x="25" y="991" font-size="17">Hidden base, full strip ends, entire platform/ground envelope and exact renderer/collision seams remain unresolved.</text>','<text x="25" y="1030" font-size="19">Gate1 FAIL. Camera max held error0.532px; projection is separate from structural correspondence.</text></g></svg>'])
+    svg.extend(['<text x="25" y="925" font-size="17">Cyan top: WoodZ62.67/Y2500, gravelZ61.94/Y2600. White: nearWood/Dirt interfaceY[2426.34765625,2426.40625].</text>','<text x="25" y="958" font-size="17">Pink chords cross the body at two stations only. Neither uniform thickness nor shared flat cap is accepted.</text>','<text x="25" y="991" font-size="17">White material limit is not the complete outer body corner. Hidden base, far ends and full platform envelope remain open.</text>','<text x="25" y="1030" font-size="19">Gate1 FAIL. Camera max held error0.532px; projection is separate from structural correspondence.</text></g></svg>'])
     (ref/'B_TIMBER_LOCAL_SECTIONS.svg').write_text('\n'.join(svg)+'\n')
-    (ref/'B_TIMBER_LOCAL_SECTIONS.json').write_text(json.dumps(dict(source_build='25640462',camera_id=c['id'],sections=rows,gate1='FAIL',scope=__doc__),indent=2)+'\n')
+    (ref/'B_TIMBER_LOCAL_SECTIONS.json').write_text(json.dumps(dict(source_build='25640462',camera_id=c['id'],sections=rows,near_interface=interface,gate1='FAIL',scope=__doc__),indent=2)+'\n')
     with (ref/'B_TIMBER_LOCAL_SECTIONS.csv').open('w',newline='') as f:
         w=csv.writer(f);w.writerow(['native_y','thickness_cm','upper_native_z_low','upper_native_z_high','upper_elevation_cm_low','upper_elevation_cm_high','scope'])
         for r in rows:w.writerow([r['native_y'],r['thickness_cm'],*r['upper_interval_native'],*r['upper_elevation_interval_cm'],r['scope']])

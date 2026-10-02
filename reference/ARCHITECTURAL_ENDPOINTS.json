@@ -79558,6 +79558,1537 @@
       "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\b_platform_upper_gravel_17\\report.json",
       "architectural_review": "Complete independentorigins bound localWood terminationY2600Z[62.578125,62.65625] before nearbygravel; different fromY2500. No fullcap or planar/extruded strip.",
       "accepted_sections": []
+    },
+    {
+      "id": "B_TIMBER_TANGENT_END_PREFLIGHT_019",
+      "source_build": "25640462",
+      "area": "B Site timber strip longitudinal ends",
+      "source_map": "de_dust2",
+      "timestamp_utc": "2026-10-02T17:32:30.919846+00:00",
+      "unit": "source_units",
+      "config": {
+        "id": "B_TIMBER_TANGENT_END_PREFLIGHT_019",
+        "build": "25640462",
+        "area": "B Site timber strip longitudinal ends",
+        "stations": [
+          {
+            "id": "X1680_Y2410_Z40",
+            "pose": [
+              -1680,
+              2410,
+              -24
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "X1660_Y2410_Z40",
+            "pose": [
+              -1660,
+              2410,
+              -24
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "X1680_Y2440_Z40",
+            "pose": [
+              -1680,
+              2440,
+              -24
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "X1660_Y2440_Z40",
+            "pose": [
+              -1660,
+              2440,
+              -24
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "X1680_Y2860_Z40",
+            "pose": [
+              -1680,
+              2860,
+              -24
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "X1660_Y2860_Z40",
+            "pose": [
+              -1660,
+              2860,
+              -24
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "X1680_Y2878_Z40",
+            "pose": [
+              -1680,
+              2878,
+              -24
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "X1660_Y2878_Z40",
+            "pose": [
+              -1660,
+              2878,
+              -24
+            ],
+            "yaws": [
+              180
+            ]
+          }
+        ],
+        "scope": "Near and rear end first-hit diagnostics from two independent exterior X origins. Source Y2878 stays outside known rearfrontY2880; never teleport behind/inside that facade to force a timberend. DifferentWood faces must use normal bands/component review; firstmaterial transition not automatic bodyend. Measured cap/body elevations remain nonuniform."
+      },
+      "observations": [
+        {
+          "station_id": "X1680_Y2410_Z40",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2410.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2410,
+            40
+          ],
+          "hit": [
+            -1759.35,
+            2410.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  79.35 inches (  6.61 feet)"
+        },
+        {
+          "station_id": "X1680_Y2410_Z40",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1680.000000 2410.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2410,
+            40
+          ],
+          "hit": [
+            -1759.35,
+            2410.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  79.35 inches (  6.61 feet)"
+        },
+        {
+          "station_id": "X1660_Y2410_Z40",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1660.000000 2410.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1660,
+            2410,
+            40
+          ],
+          "hit": [
+            -1759.35,
+            2410.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  99.35 inches (  8.28 feet)"
+        },
+        {
+          "station_id": "X1660_Y2410_Z40",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1660.000000 2410.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1660,
+            2410,
+            40
+          ],
+          "hit": [
+            -1759.35,
+            2410.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  99.35 inches (  8.28 feet)"
+        },
+        {
+          "station_id": "X1680_Y2440_Z40",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2440.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2440,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2440.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  38.49 inches (  3.21 feet)"
+        },
+        {
+          "station_id": "X1680_Y2440_Z40",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1680.000000 2440.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2440,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2440.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  38.49 inches (  3.21 feet)"
+        },
+        {
+          "station_id": "X1660_Y2440_Z40",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1660.000000 2440.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1660,
+            2440,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2440.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  58.49 inches (  4.87 feet)"
+        },
+        {
+          "station_id": "X1660_Y2440_Z40",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1660.000000 2440.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1660,
+            2440,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2440.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  58.49 inches (  4.87 feet)"
+        },
+        {
+          "station_id": "X1680_Y2860_Z40",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2860.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2860,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2860.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop metalpanel, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  38.49 inches (  3.21 feet)"
+        },
+        {
+          "station_id": "X1680_Y2860_Z40",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1680.000000 2860.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2860,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2860.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop metalpanel, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  38.49 inches (  3.21 feet)"
+        },
+        {
+          "station_id": "X1660_Y2860_Z40",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1660.000000 2860.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1660,
+            2860,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2860.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop metalpanel, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  58.49 inches (  4.87 feet)"
+        },
+        {
+          "station_id": "X1660_Y2860_Z40",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1660.000000 2860.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1660,
+            2860,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2860.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop metalpanel, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  58.49 inches (  4.87 feet)"
+        },
+        {
+          "station_id": "X1680_Y2878_Z40",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2878.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2878,
+            40
+          ],
+          "hit": [
+            -1680.0,
+            2878.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:   0.00 inches (  0.00 feet)"
+        }
+      ],
+      "status": "failed; inspect before continuing",
+      "original_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "error": "Ray starts inside collision; own-origin hit is not an endpoint",
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reviewed_area": "B Site",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\b_timber_ends_19\\report.json",
+      "architectural_review": "FailedY2878 own-originRock excluded; six complete pairedrays atY2410/2440/2860 agree fromtwoXorigins. LocalnearstripWood and coveredWood separate; rearMetalPanel material notuniformtimberbody.",
+      "accepted_sections": []
+    },
+    {
+      "id": "B_STRIP_NEAR_FACE_VISIBILITY_020",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "timestamp_utc": "2026-10-02T17:34:29.319793+00:00",
+      "config": {
+        "id": "B_STRIP_NEAR_FACE_VISIBILITY_020",
+        "build": "25640462",
+        "area": "B Site mixed retaining strip near turn",
+        "normal_axis": 0,
+        "tangent_axis": 1,
+        "height_native": 40,
+        "on_material": "Wood_Plank",
+        "on_shape": "Hull",
+        "off_material": "Wood_Plank",
+        "off_shape": "Hull",
+        "normal_band_is_classifier": true,
+        "maximum_bracket_native": 0.1,
+        "origins": [
+          {
+            "id": "X1680",
+            "normal_coordinate": -1680,
+            "yaw": 180,
+            "on_normal_band": [
+              -1720,
+              -1710
+            ]
+          },
+          {
+            "id": "X1660",
+            "normal_coordinate": -1660,
+            "yaw": 180,
+            "on_normal_band": [
+              -1720,
+              -1710
+            ]
+          }
+        ],
+        "brackets": [
+          {
+            "id": "nearstrip_vs_farthercoveredWood",
+            "on_coordinate": 2440,
+            "off_coordinate": 2410
+          }
+        ],
+        "scope": "Explicit face-depth classifier: local nonflat frontWood band[-1720,-1710], measured2440 firstX-1718.49; farthercoveredWood at2410X-1759.35. Band groups visible nearstrip component, never establishes a flatwall or full bodyend. Two independent origins. Failed019 rear ownoriginRock preserved; do not retry2878."
+      },
+      "unit": "source_units",
+      "observations": [
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2440,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2440.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2440,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2440.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  38.49 inches (  3.21 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2440,
+          "repeat": 2,
+          "pose": "setpos_exact -1680.000000 2440.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2440,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2440.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  38.49 inches (  3.21 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2410,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2410.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2410,
+            40
+          ],
+          "hit": [
+            -1759.35,
+            2410.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  79.35 inches (  6.61 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2410,
+          "repeat": 2,
+          "pose": "setpos_exact -1680.000000 2410.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2410,
+            40
+          ],
+          "hit": [
+            -1759.35,
+            2410.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  79.35 inches (  6.61 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2425.0,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2425.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2425.0,
+            40
+          ],
+          "hit": [
+            -2130.88,
+            2425.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 450.88 inches ( 37.57 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2425.0,
+          "repeat": 2,
+          "pose": "setpos_exact -1680.000000 2425.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2425.0,
+            40
+          ],
+          "hit": [
+            -2130.88,
+            2425.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 450.88 inches ( 37.57 feet)"
+        }
+      ],
+      "brackets": [],
+      "status": "failed; preserve partial observations and inspect before resume",
+      "scope": "Bracket first-hit material transitions with parallel native rays.\n\nConfig contains fixed height, normal axis, opposite safe normal origins and\non-masonry/off-timber tangent intervals. Preserve every repeat and component;\na material interface can be occlusion, never automatic structural opening,\nminimum passage or a shared wall-body extent. One persistent worker/controller.\nOptional normal_band_is_classifier explicitly distinguishes same-material\nfirst faces by their measured normal coordinates; such an interface can still\nbe a leaf occlusion, not an exact fixed-post edge without independent review.\nOptional tangent_axis=2 varies ray height while the camera remains horizontal;\neach origin must declare fixed_lateral_native. The default tangent axis and\nfixed-height behavior are unchanged. First-material height bounds likewise\nrequire opposed-origin/component review; they are not hidden full-body tops.\n",
+      "original_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "error": "Unexpected off-component; no interface classification",
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reviewed_area": "B Site",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\b_strip_near_end_20\\report.json",
+      "architectural_review": "Failed6obs at intermediatefarRockY2425; originaloffcoveredWood classifier cannot locatecomponentend.",
+      "accepted_sections": []
+    },
+    {
+      "id": "B_STRIP_NEAR_FACE_TO_ROCK_021",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "timestamp_utc": "2026-10-02T17:36:13.391420+00:00",
+      "config": {
+        "id": "B_STRIP_NEAR_FACE_TO_ROCK_021",
+        "build": "25640462",
+        "area": "B Site mixed retaining strip near turn",
+        "normal_axis": 0,
+        "tangent_axis": 1,
+        "height_native": 40,
+        "on_material": "Wood_Plank",
+        "on_shape": "Hull",
+        "off_material": "rock",
+        "off_shape": "Hull",
+        "normal_band_is_classifier": true,
+        "maximum_bracket_native": 0.1,
+        "origins": [
+          {
+            "id": "X1680",
+            "normal_coordinate": -1680,
+            "yaw": 180,
+            "on_normal_band": [
+              -1720,
+              -1710
+            ]
+          },
+          {
+            "id": "X1660",
+            "normal_coordinate": -1660,
+            "yaw": 180,
+            "on_normal_band": [
+              -1720,
+              -1710
+            ]
+          }
+        ],
+        "brackets": [
+          {
+            "id": "nearstrip_to_open_ray_farRock",
+            "on_coordinate": 2440,
+            "off_coordinate": 2425
+          }
+        ],
+        "scope": "Failed020 stopped at intermediate open-ray remoteRockX-2130.88/Y2425,6obs/all0restore; preserve original. Separate narrowernearstrip to observedfarRock interval. Broadnormalband[-1720,-1710] groups nonflat localcomponent without fittingflatplane. Twooutside origins; no sharedbody with coveredWood atY2410 or automatic complete strip end."
+      },
+      "unit": "source_units",
+      "observations": [
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2440,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2440.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2440,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2440.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  38.49 inches (  3.21 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2440,
+          "repeat": 2,
+          "pose": "setpos_exact -1680.000000 2440.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2440,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2440.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  38.49 inches (  3.21 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2425,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2425.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2425,
+            40
+          ],
+          "hit": [
+            -2130.88,
+            2425.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 450.88 inches ( 37.57 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2425,
+          "repeat": 2,
+          "pose": "setpos_exact -1680.000000 2425.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2425,
+            40
+          ],
+          "hit": [
+            -2130.88,
+            2425.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 450.88 inches ( 37.57 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2432.5,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2432.500000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2432.5,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2432.5,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  38.49 inches (  3.21 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2432.5,
+          "repeat": 2,
+          "pose": "setpos_exact -1680.000000 2432.500000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2432.5,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2432.5,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  38.49 inches (  3.21 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2428.75,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2428.750000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2428.75,
+            40
+          ],
+          "hit": [
+            -1716.11,
+            2428.75,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  36.11 inches (  3.01 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2428.75,
+          "repeat": 2,
+          "pose": "setpos_exact -1680.000000 2428.750000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2428.75,
+            40
+          ],
+          "hit": [
+            -1716.11,
+            2428.75,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  36.11 inches (  3.01 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2426.875,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2426.875000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2426.875,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2426.88,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  38.49 inches (  3.21 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2426.875,
+          "repeat": 2,
+          "pose": "setpos_exact -1680.000000 2426.875000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2426.875,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2426.88,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  38.49 inches (  3.21 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2425.9375,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2425.937500 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2425.9375,
+            40
+          ],
+          "hit": [
+            -1723.15,
+            2425.94,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  43.15 inches (  3.60 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2425.9375,
+          "repeat": 2,
+          "pose": "setpos_exact -1680.000000 2425.937500 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2425.9375,
+            40
+          ],
+          "hit": [
+            -1723.15,
+            2425.94,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  43.15 inches (  3.60 feet)"
+        }
+      ],
+      "brackets": [],
+      "status": "failed; preserve partial observations and inspect before resume",
+      "scope": "Bracket first-hit material transitions with parallel native rays.\n\nConfig contains fixed height, normal axis, opposite safe normal origins and\non-masonry/off-timber tangent intervals. Preserve every repeat and component;\na material interface can be occlusion, never automatic structural opening,\nminimum passage or a shared wall-body extent. One persistent worker/controller.\nOptional normal_band_is_classifier explicitly distinguishes same-material\nfirst faces by their measured normal coordinates; such an interface can still\nbe a leaf occlusion, not an exact fixed-post edge without independent review.\nOptional tangent_axis=2 varies ray height while the camera remains horizontal;\neach origin must declare fixed_lateral_native. The default tangent axis and\nfixed-height behavior are unchanged. First-material height bounds likewise\nrequire opposed-origin/component review; they are not hidden full-body tops.\n",
+      "original_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "error": "Unexpected off-component; no interface classification",
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reviewed_area": "B Site",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\b_strip_near_end_21\\report.json",
+      "architectural_review": "Failed12obs at nearerDirt HullX-1723.15/Y2425.9375. Preserve originalRockclassifier; do not accept broadinterval asbodyend.",
+      "accepted_sections": []
+    },
+    {
+      "id": "B_STRIP_NEAR_WOOD_DIRT_INTERFACE_022",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "timestamp_utc": "2026-10-02T17:37:57.942572+00:00",
+      "config": {
+        "id": "B_STRIP_NEAR_WOOD_DIRT_INTERFACE_022",
+        "build": "25640462",
+        "area": "B Site mixed retaining strip near turn",
+        "normal_axis": 0,
+        "tangent_axis": 1,
+        "height_native": 40,
+        "on_material": "Wood_Plank",
+        "on_shape": "Hull",
+        "off_material": "dirt",
+        "off_shape": "Hull",
+        "normal_band_is_classifier": true,
+        "maximum_bracket_native": 0.1,
+        "origins": [
+          {
+            "id": "X1680",
+            "normal_coordinate": -1680,
+            "yaw": 180,
+            "on_normal_band": [
+              -1720,
+              -1710
+            ]
+          },
+          {
+            "id": "X1660",
+            "normal_coordinate": -1660,
+            "yaw": 180,
+            "on_normal_band": [
+              -1720,
+              -1710
+            ]
+          }
+        ],
+        "brackets": [
+          {
+            "id": "localfrontWood_to_nearDirt_return",
+            "on_coordinate": 2426.875,
+            "off_coordinate": 2425.9375
+          }
+        ],
+        "scope": "Failed021 stopped at nearerDirt HullX-1723.15/Y2425.9375, notfarRock. Original12obs/all0restore preserved. Fresh narrow localWood/Dirt interface from two outsideorigins; retain differentnormal coordinates/materials. This is firstWood facing limit atZ40, not automatic outerstrip/bodycorner or complete platformperimeter."
+      },
+      "unit": "source_units",
+      "observations": [
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2426.875,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2426.875000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2426.875,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2426.88,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  38.49 inches (  3.21 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2426.875,
+          "repeat": 2,
+          "pose": "setpos_exact -1680.000000 2426.875000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2426.875,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2426.88,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  38.49 inches (  3.21 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2425.9375,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2425.937500 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2425.9375,
+            40
+          ],
+          "hit": [
+            -1723.15,
+            2425.94,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  43.15 inches (  3.60 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2425.9375,
+          "repeat": 2,
+          "pose": "setpos_exact -1680.000000 2425.937500 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2425.9375,
+            40
+          ],
+          "hit": [
+            -1723.15,
+            2425.94,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  43.15 inches (  3.60 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2426.40625,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2426.406250 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2426.40625,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2426.41,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  38.49 inches (  3.21 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2426.40625,
+          "repeat": 2,
+          "pose": "setpos_exact -1680.000000 2426.406250 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2426.40625,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2426.41,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  38.49 inches (  3.21 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2426.171875,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2426.171875 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2426.171875,
+            40
+          ],
+          "hit": [
+            -1723.15,
+            2426.17,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  43.15 inches (  3.60 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2426.171875,
+          "repeat": 2,
+          "pose": "setpos_exact -1680.000000 2426.171875 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2426.171875,
+            40
+          ],
+          "hit": [
+            -1723.15,
+            2426.17,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  43.15 inches (  3.60 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2426.2890625,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2426.289062 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2426.2890625,
+            40
+          ],
+          "hit": [
+            -1723.15,
+            2426.29,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  43.15 inches (  3.60 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2426.2890625,
+          "repeat": 2,
+          "pose": "setpos_exact -1680.000000 2426.289062 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2426.2890625,
+            40
+          ],
+          "hit": [
+            -1723.15,
+            2426.29,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  43.15 inches (  3.60 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2426.34765625,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2426.347656 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2426.34765625,
+            40
+          ],
+          "hit": [
+            -1723.15,
+            2426.35,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  43.15 inches (  3.60 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2426.34765625,
+          "repeat": 2,
+          "pose": "setpos_exact -1680.000000 2426.347656 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2426.34765625,
+            40
+          ],
+          "hit": [
+            -1723.15,
+            2426.35,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  43.15 inches (  3.60 feet)"
+        },
+        {
+          "origin_id": "X1660",
+          "requested_tangent": 2426.875,
+          "repeat": 1,
+          "pose": "setpos_exact -1660.000000 2426.875000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1660,
+            2426.875,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2426.88,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  58.49 inches (  4.87 feet)"
+        },
+        {
+          "origin_id": "X1660",
+          "requested_tangent": 2426.875,
+          "repeat": 2,
+          "pose": "setpos_exact -1660.000000 2426.875000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1660,
+            2426.875,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2426.88,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  58.49 inches (  4.87 feet)"
+        },
+        {
+          "origin_id": "X1660",
+          "requested_tangent": 2425.9375,
+          "repeat": 1,
+          "pose": "setpos_exact -1660.000000 2425.937500 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1660,
+            2425.9375,
+            40
+          ],
+          "hit": [
+            -1723.15,
+            2425.94,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  63.15 inches (  5.26 feet)"
+        },
+        {
+          "origin_id": "X1660",
+          "requested_tangent": 2425.9375,
+          "repeat": 2,
+          "pose": "setpos_exact -1660.000000 2425.937500 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1660,
+            2425.9375,
+            40
+          ],
+          "hit": [
+            -1723.15,
+            2425.94,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  63.15 inches (  5.26 feet)"
+        },
+        {
+          "origin_id": "X1660",
+          "requested_tangent": 2426.40625,
+          "repeat": 1,
+          "pose": "setpos_exact -1660.000000 2426.406250 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1660,
+            2426.40625,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2426.41,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  58.49 inches (  4.87 feet)"
+        },
+        {
+          "origin_id": "X1660",
+          "requested_tangent": 2426.40625,
+          "repeat": 2,
+          "pose": "setpos_exact -1660.000000 2426.406250 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1660,
+            2426.40625,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2426.41,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  58.49 inches (  4.87 feet)"
+        },
+        {
+          "origin_id": "X1660",
+          "requested_tangent": 2426.171875,
+          "repeat": 1,
+          "pose": "setpos_exact -1660.000000 2426.171875 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1660,
+            2426.171875,
+            40
+          ],
+          "hit": [
+            -1723.15,
+            2426.17,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  63.15 inches (  5.26 feet)"
+        },
+        {
+          "origin_id": "X1660",
+          "requested_tangent": 2426.171875,
+          "repeat": 2,
+          "pose": "setpos_exact -1660.000000 2426.171875 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1660,
+            2426.171875,
+            40
+          ],
+          "hit": [
+            -1723.15,
+            2426.17,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  63.15 inches (  5.26 feet)"
+        },
+        {
+          "origin_id": "X1660",
+          "requested_tangent": 2426.2890625,
+          "repeat": 1,
+          "pose": "setpos_exact -1660.000000 2426.289062 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1660,
+            2426.2890625,
+            40
+          ],
+          "hit": [
+            -1723.15,
+            2426.29,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  63.15 inches (  5.26 feet)"
+        },
+        {
+          "origin_id": "X1660",
+          "requested_tangent": 2426.2890625,
+          "repeat": 2,
+          "pose": "setpos_exact -1660.000000 2426.289062 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1660,
+            2426.2890625,
+            40
+          ],
+          "hit": [
+            -1723.15,
+            2426.29,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  63.15 inches (  5.26 feet)"
+        },
+        {
+          "origin_id": "X1660",
+          "requested_tangent": 2426.34765625,
+          "repeat": 1,
+          "pose": "setpos_exact -1660.000000 2426.347656 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1660,
+            2426.34765625,
+            40
+          ],
+          "hit": [
+            -1723.15,
+            2426.35,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  63.15 inches (  5.26 feet)"
+        },
+        {
+          "origin_id": "X1660",
+          "requested_tangent": 2426.34765625,
+          "repeat": 2,
+          "pose": "setpos_exact -1660.000000 2426.347656 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1660,
+            2426.34765625,
+            40
+          ],
+          "hit": [
+            -1723.15,
+            2426.35,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  63.15 inches (  5.26 feet)"
+        }
+      ],
+      "brackets": [
+        {
+          "id": "localfrontWood_to_nearDirt_return",
+          "origin_id": "X1680",
+          "on": {
+            "coordinate": 2426.40625,
+            "on_component": true,
+            "observation_index": 5
+          },
+          "off": {
+            "coordinate": 2426.34765625,
+            "on_component": false,
+            "observation_index": 11
+          },
+          "tangent_interval_native": [
+            2426.34765625,
+            2426.40625
+          ],
+          "history": [
+            {
+              "coordinate": 2426.875,
+              "on_component": true,
+              "observation_index": 1
+            },
+            {
+              "coordinate": 2425.9375,
+              "on_component": false,
+              "observation_index": 3
+            },
+            {
+              "coordinate": 2426.40625,
+              "on_component": true,
+              "observation_index": 5
+            },
+            {
+              "coordinate": 2426.171875,
+              "on_component": false,
+              "observation_index": 7
+            },
+            {
+              "coordinate": 2426.2890625,
+              "on_component": false,
+              "observation_index": 9
+            },
+            {
+              "coordinate": 2426.34765625,
+              "on_component": false,
+              "observation_index": 11
+            }
+          ],
+          "limits": "Parallel first-hit material interval only; component occlusion and actual structural end require independent geometric/render review."
+        },
+        {
+          "id": "localfrontWood_to_nearDirt_return",
+          "origin_id": "X1660",
+          "on": {
+            "coordinate": 2426.40625,
+            "on_component": true,
+            "observation_index": 17
+          },
+          "off": {
+            "coordinate": 2426.34765625,
+            "on_component": false,
+            "observation_index": 23
+          },
+          "tangent_interval_native": [
+            2426.34765625,
+            2426.40625
+          ],
+          "history": [
+            {
+              "coordinate": 2426.875,
+              "on_component": true,
+              "observation_index": 13
+            },
+            {
+              "coordinate": 2425.9375,
+              "on_component": false,
+              "observation_index": 15
+            },
+            {
+              "coordinate": 2426.40625,
+              "on_component": true,
+              "observation_index": 17
+            },
+            {
+              "coordinate": 2426.171875,
+              "on_component": false,
+              "observation_index": 19
+            },
+            {
+              "coordinate": 2426.2890625,
+              "on_component": false,
+              "observation_index": 21
+            },
+            {
+              "coordinate": 2426.34765625,
+              "on_component": false,
+              "observation_index": 23
+            }
+          ],
+          "limits": "Parallel first-hit material interval only; component occlusion and actual structural end require independent geometric/render review."
+        }
+      ],
+      "status": "complete; material interfaces only; structural review pending",
+      "scope": "Bracket first-hit material transitions with parallel native rays.\n\nConfig contains fixed height, normal axis, opposite safe normal origins and\non-masonry/off-timber tangent intervals. Preserve every repeat and component;\na material interface can be occlusion, never automatic structural opening,\nminimum passage or a shared wall-body extent. One persistent worker/controller.\nOptional normal_band_is_classifier explicitly distinguishes same-material\nfirst faces by their measured normal coordinates; such an interface can still\nbe a leaf occlusion, not an exact fixed-post edge without independent review.\nOptional tangent_axis=2 varies ray height while the camera remains horizontal;\neach origin must declare fixed_lateral_native. The default tangent axis and\nfixed-height behavior are unchanged. First-material height bounds likewise\nrequire opposed-origin/component review; they are not hidden full-body tops.\n",
+      "original_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reviewed_area": "B Site",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\b_strip_near_dirt_22\\report.json",
+      "architectural_review": "Complete twoindependent-origin localWood/Dirt material transition atZ40. MatchingY[2426.34765625,2426.40625]; exposedfirstWood facing limit only, not entire strip/Dirt envelope or top/bodycorner. Nativeclosecrop inspected besidecoveredbox; calibratedprojection review separate.",
+      "accepted_sections": []
     }
   ],
   "rejected_attempts": [
@@ -82676,6 +84207,886 @@
       "reviewed_area": "B Site",
       "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\b_platform_upper_resume_15\\report.json",
       "architectural_review": "Failed at nearbygravel MeshX-1731.46/Z63.125, not distantRock. Preserve classifier failure; no fullcap acceptance.",
+      "accepted_sections": []
+    },
+    {
+      "id": "B_TIMBER_TANGENT_END_PREFLIGHT_019",
+      "source_build": "25640462",
+      "area": "B Site timber strip longitudinal ends",
+      "source_map": "de_dust2",
+      "timestamp_utc": "2026-10-02T17:32:30.919846+00:00",
+      "unit": "source_units",
+      "config": {
+        "id": "B_TIMBER_TANGENT_END_PREFLIGHT_019",
+        "build": "25640462",
+        "area": "B Site timber strip longitudinal ends",
+        "stations": [
+          {
+            "id": "X1680_Y2410_Z40",
+            "pose": [
+              -1680,
+              2410,
+              -24
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "X1660_Y2410_Z40",
+            "pose": [
+              -1660,
+              2410,
+              -24
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "X1680_Y2440_Z40",
+            "pose": [
+              -1680,
+              2440,
+              -24
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "X1660_Y2440_Z40",
+            "pose": [
+              -1660,
+              2440,
+              -24
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "X1680_Y2860_Z40",
+            "pose": [
+              -1680,
+              2860,
+              -24
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "X1660_Y2860_Z40",
+            "pose": [
+              -1660,
+              2860,
+              -24
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "X1680_Y2878_Z40",
+            "pose": [
+              -1680,
+              2878,
+              -24
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "X1660_Y2878_Z40",
+            "pose": [
+              -1660,
+              2878,
+              -24
+            ],
+            "yaws": [
+              180
+            ]
+          }
+        ],
+        "scope": "Near and rear end first-hit diagnostics from two independent exterior X origins. Source Y2878 stays outside known rearfrontY2880; never teleport behind/inside that facade to force a timberend. DifferentWood faces must use normal bands/component review; firstmaterial transition not automatic bodyend. Measured cap/body elevations remain nonuniform."
+      },
+      "observations": [
+        {
+          "station_id": "X1680_Y2410_Z40",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2410.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2410,
+            40
+          ],
+          "hit": [
+            -1759.35,
+            2410.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  79.35 inches (  6.61 feet)"
+        },
+        {
+          "station_id": "X1680_Y2410_Z40",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1680.000000 2410.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2410,
+            40
+          ],
+          "hit": [
+            -1759.35,
+            2410.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  79.35 inches (  6.61 feet)"
+        },
+        {
+          "station_id": "X1660_Y2410_Z40",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1660.000000 2410.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1660,
+            2410,
+            40
+          ],
+          "hit": [
+            -1759.35,
+            2410.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  99.35 inches (  8.28 feet)"
+        },
+        {
+          "station_id": "X1660_Y2410_Z40",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1660.000000 2410.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1660,
+            2410,
+            40
+          ],
+          "hit": [
+            -1759.35,
+            2410.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  99.35 inches (  8.28 feet)"
+        },
+        {
+          "station_id": "X1680_Y2440_Z40",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2440.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2440,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2440.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  38.49 inches (  3.21 feet)"
+        },
+        {
+          "station_id": "X1680_Y2440_Z40",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1680.000000 2440.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2440,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2440.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  38.49 inches (  3.21 feet)"
+        },
+        {
+          "station_id": "X1660_Y2440_Z40",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1660.000000 2440.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1660,
+            2440,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2440.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  58.49 inches (  4.87 feet)"
+        },
+        {
+          "station_id": "X1660_Y2440_Z40",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1660.000000 2440.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1660,
+            2440,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2440.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  58.49 inches (  4.87 feet)"
+        },
+        {
+          "station_id": "X1680_Y2860_Z40",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2860.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2860,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2860.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop metalpanel, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  38.49 inches (  3.21 feet)"
+        },
+        {
+          "station_id": "X1680_Y2860_Z40",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1680.000000 2860.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2860,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2860.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop metalpanel, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  38.49 inches (  3.21 feet)"
+        },
+        {
+          "station_id": "X1660_Y2860_Z40",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1660.000000 2860.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1660,
+            2860,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2860.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop metalpanel, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  58.49 inches (  4.87 feet)"
+        },
+        {
+          "station_id": "X1660_Y2860_Z40",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1660.000000 2860.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1660,
+            2860,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2860.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop metalpanel, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  58.49 inches (  4.87 feet)"
+        },
+        {
+          "station_id": "X1680_Y2878_Z40",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2878.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2878,
+            40
+          ],
+          "hit": [
+            -1680.0,
+            2878.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:   0.00 inches (  0.00 feet)"
+        }
+      ],
+      "status": "failed; inspect before continuing",
+      "original_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "error": "Ray starts inside collision; own-origin hit is not an endpoint",
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reviewed_area": "B Site",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\b_timber_ends_19\\report.json",
+      "architectural_review": "FailedY2878 own-originRock excluded; six complete pairedrays atY2410/2440/2860 agree fromtwoXorigins. LocalnearstripWood and coveredWood separate; rearMetalPanel material notuniformtimberbody.",
+      "accepted_sections": []
+    },
+    {
+      "id": "B_STRIP_NEAR_FACE_VISIBILITY_020",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "timestamp_utc": "2026-10-02T17:34:29.319793+00:00",
+      "config": {
+        "id": "B_STRIP_NEAR_FACE_VISIBILITY_020",
+        "build": "25640462",
+        "area": "B Site mixed retaining strip near turn",
+        "normal_axis": 0,
+        "tangent_axis": 1,
+        "height_native": 40,
+        "on_material": "Wood_Plank",
+        "on_shape": "Hull",
+        "off_material": "Wood_Plank",
+        "off_shape": "Hull",
+        "normal_band_is_classifier": true,
+        "maximum_bracket_native": 0.1,
+        "origins": [
+          {
+            "id": "X1680",
+            "normal_coordinate": -1680,
+            "yaw": 180,
+            "on_normal_band": [
+              -1720,
+              -1710
+            ]
+          },
+          {
+            "id": "X1660",
+            "normal_coordinate": -1660,
+            "yaw": 180,
+            "on_normal_band": [
+              -1720,
+              -1710
+            ]
+          }
+        ],
+        "brackets": [
+          {
+            "id": "nearstrip_vs_farthercoveredWood",
+            "on_coordinate": 2440,
+            "off_coordinate": 2410
+          }
+        ],
+        "scope": "Explicit face-depth classifier: local nonflat frontWood band[-1720,-1710], measured2440 firstX-1718.49; farthercoveredWood at2410X-1759.35. Band groups visible nearstrip component, never establishes a flatwall or full bodyend. Two independent origins. Failed019 rear ownoriginRock preserved; do not retry2878."
+      },
+      "unit": "source_units",
+      "observations": [
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2440,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2440.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2440,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2440.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  38.49 inches (  3.21 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2440,
+          "repeat": 2,
+          "pose": "setpos_exact -1680.000000 2440.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2440,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2440.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  38.49 inches (  3.21 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2410,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2410.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2410,
+            40
+          ],
+          "hit": [
+            -1759.35,
+            2410.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  79.35 inches (  6.61 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2410,
+          "repeat": 2,
+          "pose": "setpos_exact -1680.000000 2410.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2410,
+            40
+          ],
+          "hit": [
+            -1759.35,
+            2410.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  79.35 inches (  6.61 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2425.0,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2425.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2425.0,
+            40
+          ],
+          "hit": [
+            -2130.88,
+            2425.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 450.88 inches ( 37.57 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2425.0,
+          "repeat": 2,
+          "pose": "setpos_exact -1680.000000 2425.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2425.0,
+            40
+          ],
+          "hit": [
+            -2130.88,
+            2425.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 450.88 inches ( 37.57 feet)"
+        }
+      ],
+      "brackets": [],
+      "status": "failed; preserve partial observations and inspect before resume",
+      "scope": "Bracket first-hit material transitions with parallel native rays.\n\nConfig contains fixed height, normal axis, opposite safe normal origins and\non-masonry/off-timber tangent intervals. Preserve every repeat and component;\na material interface can be occlusion, never automatic structural opening,\nminimum passage or a shared wall-body extent. One persistent worker/controller.\nOptional normal_band_is_classifier explicitly distinguishes same-material\nfirst faces by their measured normal coordinates; such an interface can still\nbe a leaf occlusion, not an exact fixed-post edge without independent review.\nOptional tangent_axis=2 varies ray height while the camera remains horizontal;\neach origin must declare fixed_lateral_native. The default tangent axis and\nfixed-height behavior are unchanged. First-material height bounds likewise\nrequire opposed-origin/component review; they are not hidden full-body tops.\n",
+      "original_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "error": "Unexpected off-component; no interface classification",
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reviewed_area": "B Site",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\b_strip_near_end_20\\report.json",
+      "architectural_review": "Failed6obs at intermediatefarRockY2425; originaloffcoveredWood classifier cannot locatecomponentend.",
+      "accepted_sections": []
+    },
+    {
+      "id": "B_STRIP_NEAR_FACE_TO_ROCK_021",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "timestamp_utc": "2026-10-02T17:36:13.391420+00:00",
+      "config": {
+        "id": "B_STRIP_NEAR_FACE_TO_ROCK_021",
+        "build": "25640462",
+        "area": "B Site mixed retaining strip near turn",
+        "normal_axis": 0,
+        "tangent_axis": 1,
+        "height_native": 40,
+        "on_material": "Wood_Plank",
+        "on_shape": "Hull",
+        "off_material": "rock",
+        "off_shape": "Hull",
+        "normal_band_is_classifier": true,
+        "maximum_bracket_native": 0.1,
+        "origins": [
+          {
+            "id": "X1680",
+            "normal_coordinate": -1680,
+            "yaw": 180,
+            "on_normal_band": [
+              -1720,
+              -1710
+            ]
+          },
+          {
+            "id": "X1660",
+            "normal_coordinate": -1660,
+            "yaw": 180,
+            "on_normal_band": [
+              -1720,
+              -1710
+            ]
+          }
+        ],
+        "brackets": [
+          {
+            "id": "nearstrip_to_open_ray_farRock",
+            "on_coordinate": 2440,
+            "off_coordinate": 2425
+          }
+        ],
+        "scope": "Failed020 stopped at intermediate open-ray remoteRockX-2130.88/Y2425,6obs/all0restore; preserve original. Separate narrowernearstrip to observedfarRock interval. Broadnormalband[-1720,-1710] groups nonflat localcomponent without fittingflatplane. Twooutside origins; no sharedbody with coveredWood atY2410 or automatic complete strip end."
+      },
+      "unit": "source_units",
+      "observations": [
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2440,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2440.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2440,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2440.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  38.49 inches (  3.21 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2440,
+          "repeat": 2,
+          "pose": "setpos_exact -1680.000000 2440.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2440,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2440.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  38.49 inches (  3.21 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2425,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2425.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2425,
+            40
+          ],
+          "hit": [
+            -2130.88,
+            2425.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 450.88 inches ( 37.57 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2425,
+          "repeat": 2,
+          "pose": "setpos_exact -1680.000000 2425.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2425,
+            40
+          ],
+          "hit": [
+            -2130.88,
+            2425.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 450.88 inches ( 37.57 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2432.5,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2432.500000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2432.5,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2432.5,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  38.49 inches (  3.21 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2432.5,
+          "repeat": 2,
+          "pose": "setpos_exact -1680.000000 2432.500000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2432.5,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2432.5,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  38.49 inches (  3.21 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2428.75,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2428.750000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2428.75,
+            40
+          ],
+          "hit": [
+            -1716.11,
+            2428.75,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  36.11 inches (  3.01 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2428.75,
+          "repeat": 2,
+          "pose": "setpos_exact -1680.000000 2428.750000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2428.75,
+            40
+          ],
+          "hit": [
+            -1716.11,
+            2428.75,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  36.11 inches (  3.01 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2426.875,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2426.875000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2426.875,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2426.88,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  38.49 inches (  3.21 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2426.875,
+          "repeat": 2,
+          "pose": "setpos_exact -1680.000000 2426.875000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2426.875,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2426.88,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  38.49 inches (  3.21 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2425.9375,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2425.937500 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2425.9375,
+            40
+          ],
+          "hit": [
+            -1723.15,
+            2425.94,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  43.15 inches (  3.60 feet)"
+        },
+        {
+          "origin_id": "X1680",
+          "requested_tangent": 2425.9375,
+          "repeat": 2,
+          "pose": "setpos_exact -1680.000000 2425.937500 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2425.9375,
+            40
+          ],
+          "hit": [
+            -1723.15,
+            2425.94,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop dirt, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  43.15 inches (  3.60 feet)"
+        }
+      ],
+      "brackets": [],
+      "status": "failed; preserve partial observations and inspect before resume",
+      "scope": "Bracket first-hit material transitions with parallel native rays.\n\nConfig contains fixed height, normal axis, opposite safe normal origins and\non-masonry/off-timber tangent intervals. Preserve every repeat and component;\na material interface can be occlusion, never automatic structural opening,\nminimum passage or a shared wall-body extent. One persistent worker/controller.\nOptional normal_band_is_classifier explicitly distinguishes same-material\nfirst faces by their measured normal coordinates; such an interface can still\nbe a leaf occlusion, not an exact fixed-post edge without independent review.\nOptional tangent_axis=2 varies ray height while the camera remains horizontal;\neach origin must declare fixed_lateral_native. The default tangent axis and\nfixed-height behavior are unchanged. First-material height bounds likewise\nrequire opposed-origin/component review; they are not hidden full-body tops.\n",
+      "original_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "error": "Unexpected off-component; no interface classification",
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reviewed_area": "B Site",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\b_strip_near_end_21\\report.json",
+      "architectural_review": "Failed12obs at nearerDirt HullX-1723.15/Y2425.9375. Preserve originalRockclassifier; do not accept broadinterval asbodyend.",
       "accepted_sections": []
     }
   ]

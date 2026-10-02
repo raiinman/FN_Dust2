@@ -7,7 +7,7 @@ no model override, new chat or agent delegation requested. Criteria unchanged.
 
 ## Authority and preserved work
 
-GitHub main authoritative. Latest checkpoint: B timber local sections/top evidence; previous pushed5c27b0a;
+GitHub main authoritative. Latest checkpoint: B near-facing interface review; previous pushed1ea659a;
 latest Git commit pins this checkpoint. Crash baseline35eaa642, dirty work
 preserved4c7df48, mergedab4e484. Active checkout:
 C:/Users/mikea/Documents/Codex/2026-09-30/new-chat/FN_Dust2
@@ -90,7 +90,16 @@ now extend projection range throughZ290. Whole cap/body still separate. Every co
 
 ## Desktop and current source controller
 
-No active source controller. B timber upper/back/top010..018 reviewed: complete012/017 independent
+No active source controller. B nearstrip022 completes24 observations/all0restore: independentX-1680/
+-1660 agree firstWood/Dirt interfaceY[2426.34765625,2426.40625] atZ40.
+WoodX-1718.49; DirtX-1723.15, neither automatic fullbodycorner nor topend.
+B_TIMBER_LOCAL_SECTIONS updated/rendered/inspected. Failed019 own-originRock
+Y2878 and failed020/021 intermediateRock/Dirt preserved; safe paired019 rays
+identify farMetalPanel and nearWood as different components.164 architectural
+reports/20 rejected.396 measurements/456 connector points unchanged. Gate1 FAIL;
+fullmixedstrip/ground/wholemap extents open. Next broaden architectural footprint,
+using existing Pit floor/camera and measured walls; do not rerun completedB plans.
+Previous pushed checkpoint: B timber upper/back/top010..018 reviewed: complete012/017 independent
 origins bound upper first-Wood atY2500Z[65,65.078125] andY2600
 Z[62.578125,62.65625]. Complete016 opposite faces give sampledZ40 thicknesses
 78.6892/68.4276cm. B_TIMBER_LOCAL_SECTIONS JSON/CSV/SVG rebuilt/rendered/inspected;

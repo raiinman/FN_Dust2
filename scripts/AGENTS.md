@@ -445,3 +445,8 @@ independent upper origins/materials/normals and opposite back-face origins.
 Its measurement_rows feeds physical register; absolute sourceZ0 elevations are
 not ground-to-top heights. Validate direct018 Wood/gravel columns separately.
 Rebuild/render/inspect JSON/CSV/SVG; component failures and wholebody limits remain.
+
+B_TIMBER_LOCAL_SECTIONS also validates optional022 two-origin firstWood/Dirt
+near-facing limit. Preserve failed019/020/021 and unsafeY2878 own-origin hit.
+Mixed MetalPanel/Wood/Dirt interfaces never automatically define fullstrip
+body/corner. Rebuild/render/inspect updated JSON/SVG; physical rows unchanged.

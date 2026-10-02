@@ -99,6 +99,24 @@
       }
     }
   ],
+  "near_interface": {
+    "report": "B_STRIP_NEAR_WOOD_DIRT_INTERFACE_022",
+    "interval_native_y": [
+      2426.34765625,
+      2426.40625
+    ],
+    "wood_point": [
+      -1718.49,
+      2426.41,
+      40.0
+    ],
+    "dirt_point": [
+      -1723.15,
+      2426.35,
+      40.0
+    ],
+    "scope": "Local first-Wood facing/material end atZ40 only; dirt filling, complete strip corner/body and all other heights separate."
+  },
   "gate1": "FAIL",
   "scope": "Derive two sampled B timber thicknesses and bounded local upper elevations.\n\nOriginal failed component classifications remain in ARCHITECTURAL_ENDPOINTS.\nRebuild/render/inspect B_TIMBER_LOCAL_SECTIONS JSON/CSV/SVG; no full strip,\nhidden base, uniform top, rendered seam or continuous platform outline inferred.\n"
 }
