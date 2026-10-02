@@ -2,6 +2,17 @@
 
 **FAIL. Phase 1 remains active. Phase 2 production is prohibited.**
 
+Pit023 adds88 repeated Z0 observations;024/025 each add44, matching independent
+origins at southern Mesh/Hull joins.185 architectural reports/26 preserved
+rejections. Two frontal cameras each pass8 fit/8 independent depth-elevation
+points, maximum held residual .726574px west/.668962px east. Eight native/JPEG
+frames and32 marker crops individually inspected;273 registered hashes/native
+dates PASS. PIT_WALL_RENDER_REVIEW.json corroborates north local facing breaks
+and retains unresolved southZ0 roof-underside correspondence. No complete Pit
+section/body/ground polygon accepted;410 physical features unchanged. Full
+critical dimensions, layered architectural footprint and bounded uncertainty
+criteria remain FAIL.
+
 B cover contacts006:48 repeated observations/all0 restore, matching independent
 origins at twoY. B_COVER_CONTACT_SECTIONS has bounded selected top minus local
 ground/first-Wood visibility differences[249.7709,250.03125]cm and
@@ -39,7 +50,7 @@ Source: installed CS2 build25640462, de_dust2. GitHub main is durable authority.
 | --- | --- | --- |
 | Provenance and current revision | REFERENCE_MANIFEST.csv; native poses/hashes and build25640462 | PASS for reviewed captured batches |
 | Physical scale and coordinate convention | SCALE_CALIBRATION.json; COORDINATE_TRANSFORM.json | PASS for current-build factor2.54 and reversible UE=(2.54x,-2.54y,2.54z); Phase2 exporter/import validation pending |
-| Every critical area forward/reverse/side/elevation coverage | 265 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | PASS: sixteen critical-area sets and eleven subarea sets accepted; structural metric and traversal remain separate |
+| Every critical area forward/reverse/side/elevation coverage | 273 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | PASS: sixteen critical-area sets and eleven subarea sets accepted; structural metric and traversal remain separate |
 | Unambiguous validated topology | ROUTE_GRAPH.md; TOPOLOGY.json; WALK_PROBES.json; TRAVERSAL_PROBES.json; TOPOLOGY_AUDIT.json | PASS for listed surveyed connections:24 ground paths both directions; B Window both; S01 both, S02/S03 reciprocal routes, S04 partner forward/reverse. E11/E27 direct forward twice, unsupported reverse at surveyed crossing blocked twice, indirect walking returns both. Alternative launches/partners and geometric bounds remain separate |
 | Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; TUNNEL_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 410 calibrated feature measurements;54 Short and117 Tunnel floor samples; full critical register incomplete |
 | Calibrated annotated whole-map truth | RADAR_CALIBRATION.json; MAP_CAMERA_CALIBRATION.json; RADAR_PLAN.svg; MAP_CAMERA_PLAN.svg | FAIL: calibrated native camera, physical grid, floors and paths; continuous architectural boundaries and overlapping elevation layers incomplete |
@@ -53,7 +64,7 @@ camera transfer, entire slab/cover body or critical footprint completion.
 
 ## Reference review
 
-IMAGE_REVIEW.json and IMAGE_AUDIT.json verify all265 registered JPEG hashes and
+IMAGE_REVIEW.json and IMAGE_AUDIT.json verify all273 registered JPEG hashes and
 preserve eight excluded historical frames. Original24 and recovered55 images
 were re-inspected, with subsequent CT/Pit/door/site/Short/Catwalk additions
 inspected individually. Clipped, stale or obstructed attempts retain their

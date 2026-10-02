@@ -5402,6 +5402,962 @@
           "maximum_axis_1_5_pixel_displacement_cm": 3.8740053242960677
         }
       ]
+    },
+    {
+      "id": "PIT_WEST_WALL_FRONTAL_026",
+      "camera_pose": [
+        1510.0,
+        480.0,
+        -96.0,
+        0.0,
+        -180.0
+      ],
+      "observed_pose": [
+        1510.0,
+        480.0,
+        -96.0,
+        0.0,
+        -180.0,
+        0.0
+      ],
+      "image_size": [
+        1280,
+        720
+      ],
+      "status": "accepted independently checked Pit frontal projection; structural selection separate",
+      "model": "constrained native pose",
+      "normal_axis": 0,
+      "bound_planes_native": [
+        1264,
+        1272,
+        1280
+      ],
+      "method": "Eight known-world YZ fit markers; eight independent depth/elevation markers excluded from fit. All native/JPEG frames and32 isolated cross crops individually inspected. Pale red vertical strokes use marked-minus-clean chroma confirmation; original failed neutral/strict-red extraction preserved privately. Approximate pose model locates search windows only.",
+      "tested_marker_x_range": [
+        1264,
+        1280
+      ],
+      "tested_marker_y_range": [
+        200,
+        770
+      ],
+      "tested_marker_z_range": [
+        -180,
+        64
+      ],
+      "excluded_markers": [],
+      "limits": "Exact native pose/FOV only; fixed-X inverse requires independently established surface plane. Facing, cap, southern return, roof and graded curb remain separate. Pole can occlude west northcorner. Calibration alone grants no architectural endpoint, full body or continuous floor/map footprint.",
+      "captures": [
+        {
+          "id": "QA_PIT_WEST_WALL_FIT_026_MARKED",
+          "repository_image_path": "reference/images/pit/QA_PIT_WEST_WALL_FIT_026_MARKED.jpg",
+          "jpeg_sha256": "a110da56a43f5d40f688950a978d821620c71b1d3a62ec9a267dd1151b4fe6db",
+          "png_sha256": "fb536f4d2f3720022e7fda0cc1af1b6be3cf2414e8e45720365ea1a29b0ad8ce"
+        },
+        {
+          "id": "QA_PIT_WEST_WALL_FIT_026_CLEAN",
+          "repository_image_path": "reference/images/pit/QA_PIT_WEST_WALL_FIT_026_CLEAN.jpg",
+          "jpeg_sha256": "5c28a35144dfd3db50b6c2795186528a5fb10b3c99ac4f5bbe45681b0818696d",
+          "png_sha256": "d0b6f8c5e4962f4200e800c6fc48f0eac37a51c4a02aef703b1fc48387a2395d"
+        },
+        {
+          "id": "QA_PIT_WEST_WALL_HOLD_026_MARKED",
+          "repository_image_path": "reference/images/pit/QA_PIT_WEST_WALL_HOLD_026_MARKED.jpg",
+          "jpeg_sha256": "9aab2ebb91cf45178f8ef383aa28a333e5883dc673fa94a529c126ed01174138",
+          "png_sha256": "f51532382bf927561787631e3febcf08a2deb85a476779bb4eb747e7576b0d41"
+        },
+        {
+          "id": "QA_PIT_WEST_WALL_HOLD_026_CLEAN",
+          "repository_image_path": "reference/images/pit/QA_PIT_WEST_WALL_HOLD_026_CLEAN.jpg",
+          "jpeg_sha256": "edcf26d27004c702ed4da973b98cfc2f9e99c91648923867ceaed062423f7f9b",
+          "png_sha256": "9a8b97a9d648c6d47d387d8891cc358c012df5bd4643356ef5f5e61d7ce461b1"
+        }
+      ],
+      "groups": [
+        {
+          "role": "fit",
+          "anchors": [
+            {
+              "id": "WEST_FIT01",
+              "world": [
+                1272,
+                200,
+                0
+              ],
+              "pixel": [
+                74.53225806451613,
+                295.0
+              ],
+              "search_guess": [
+                75.29411764705867,
+                295.4621848739496
+              ],
+              "analytic_model_residual_px": 0.26457593376488947,
+              "projected_pixel": [
+                74.81975053216794,
+                294.8730769230766
+              ],
+              "residual_px": 0.31426324381357645
+            },
+            {
+              "id": "WEST_FIT02",
+              "world": [
+                1272,
+                280,
+                16
+              ],
+              "pixel": [
+                236.5,
+                262.5
+              ],
+              "search_guess": [
+                236.63865546218477,
+                263.1932773109244
+              ],
+              "analytic_model_residual_px": 0.4097877425290527,
+              "projected_pixel": [
+                236.1464571192481,
+                262.53846153846115
+              ],
+              "residual_px": 0.3556288212042753
+            },
+            {
+              "id": "WEST_FIT03",
+              "world": [
+                1272,
+                360,
+                -32
+              ],
+              "pixel": [
+                397.5,
+                359.5
+              ],
+              "search_guess": [
+                397.9831932773109,
+                360.0
+              ],
+              "analytic_model_residual_px": 0.01680672268912531,
+              "projected_pixel": [
+                397.47316370632876,
+                359.54230769230725
+              ],
+              "residual_px": 0.05010117250497859
+            },
+            {
+              "id": "WEST_FIT04",
+              "world": [
+                1272,
+                440,
+                16
+              ],
+              "pixel": [
+                558.5,
+                262.5
+              ],
+              "search_guess": [
+                559.3277310924369,
+                263.1932773109244
+              ],
+              "analytic_model_residual_px": 0.3804783671485855,
+              "projected_pixel": [
+                558.799870293409,
+                262.53846153846115
+              ],
+              "residual_px": 0.3023267814964016
+            },
+            {
+              "id": "WEST_FIT05",
+              "world": [
+                1272,
+                520,
+                -32
+              ],
+              "pixel": [
+                720.5,
+                359.5
+              ],
+              "search_guess": [
+                720.672268907563,
+                360.0
+              ],
+              "analytic_model_residual_px": 0.327731092437034,
+              "projected_pixel": [
+                720.1265768804891,
+                359.54230769230725
+              ],
+              "residual_px": 0.37581214324928225
+            },
+            {
+              "id": "WEST_FIT06",
+              "world": [
+                1272,
+                600,
+                16
+              ],
+              "pixel": [
+                881.5076923076923,
+                262.4923076923077
+              ],
+              "search_guess": [
+                882.016806722689,
+                263.1932773109244
+              ],
+              "analytic_model_residual_px": 0.20117619185099103,
+              "projected_pixel": [
+                881.4532834675697,
+                262.53846153846115
+              ],
+              "residual_px": 0.07134773576117086
+            },
+            {
+              "id": "WEST_FIT07",
+              "world": [
+                1272,
+                680,
+                0
+              ],
+              "pixel": [
+                1042.5,
+                295.0
+              ],
+              "search_guess": [
+                1043.361344537815,
+                295.4621848739496
+              ],
+              "analytic_model_residual_px": 0.36331784812610896,
+              "projected_pixel": [
+                1042.77999005465,
+                294.8730769230764
+              ],
+              "residual_px": 0.3074148632689001
+            },
+            {
+              "id": "WEST_FIT08",
+              "world": [
+                1272,
+                750,
+                16
+              ],
+              "pixel": [
+                1184.0,
+                262.4923076923077
+              ],
+              "search_guess": [
+                1184.5378151260502,
+                263.1932773109244
+              ],
+              "analytic_model_residual_px": 0.2044963847238539,
+              "projected_pixel": [
+                1183.9408583183451,
+                262.5384615384609
+              ],
+              "residual_px": 0.07501943763919774
+            }
+          ],
+          "maximum_residual_px": 0.37581214324928225
+        },
+        {
+          "role": "independent depth/height",
+          "anchors": [
+            {
+              "id": "WEST_HOLD01",
+              "world": [
+                1272,
+                220,
+                -180
+              ],
+              "pixel": [
+                115.5,
+                658.0
+              ],
+              "search_guess": [
+                115.63025210084015,
+                658.4873949579833
+              ],
+              "analytic_model_residual_px": 0.369962695440181,
+              "projected_pixel": [
+                115.1514271789381,
+                658.6374999999994
+              ],
+              "residual_px": 0.726573644981866
+            },
+            {
+              "id": "WEST_HOLD02",
+              "world": [
+                1280,
+                315,
+                -120
+              ],
+              "pixel": [
+                295.5,
+                543.5
+              ],
+              "search_guess": [
+                295.6521739130434,
+                543.6521739130435
+              ],
+              "analytic_model_residual_px": 0.491900369521129,
+              "projected_pixel": [
+                295.1534536046315,
+                543.568444816053
+              ],
+              "residual_px": 0.3532408484128252
+            },
+            {
+              "id": "WEST_HOLD03",
+              "world": [
+                1268,
+                395,
+                -55
+              ],
+              "pixel": [
+                471.0,
+                405.0
+              ],
+              "search_guess": [
+                471.4049586776859,
+                405.6198347107438
+              ],
+              "analytic_model_residual_px": 0.15294839275476996,
+              "projected_pixel": [
+                470.8868147927016,
+                405.25503615702434
+              ],
+              "residual_px": 0.2790238924194845
+            },
+            {
+              "id": "WEST_HOLD04",
+              "world": [
+                1276,
+                480,
+                -10
+              ],
+              "pixel": [
+                639.5,
+                314.5
+              ],
+              "search_guess": [
+                639.9999999999999,
+                314.87179487179486
+              ],
+              "analytic_model_residual_px": 0.1282051282051384,
+              "projected_pixel": [
+                639.4632235869494,
+                314.3222098948059
+              ],
+              "residual_px": 0.1815539205354643
+            },
+            {
+              "id": "WEST_HOLD05",
+              "world": [
+                1272,
+                560,
+                0
+              ],
+              "pixel": [
+                800.5076923076923,
+                295.0
+              ],
+              "search_guess": [
+                801.3445378151259,
+                295.4621848739496
+              ],
+              "analytic_model_residual_px": 0.33896147220063766,
+              "projected_pixel": [
+                800.7899301740293,
+                294.8730769230766
+              ],
+              "residual_px": 0.30946353686691175
+            },
+            {
+              "id": "WEST_HOLD06",
+              "world": [
+                1264,
+                640,
+                24
+              ],
+              "pixel": [
+                951.5,
+                250.5
+              ],
+              "search_guess": [
+                952.1951219512193,
+                250.7317073170732
+              ],
+              "analytic_model_residual_px": 0.331743183139771,
+              "projected_pixel": [
+                951.6238428367469,
+                250.05151657285774
+              ],
+              "residual_px": 0.4652681298292352
+            },
+            {
+              "id": "WEST_HOLD07",
+              "world": [
+                1280,
+                715,
+                64
+              ],
+              "pixel": [
+                1130.0,
+                159.4923076923077
+              ],
+              "search_guess": [
+                1130.4347826086955,
+                159.6521739130435
+              ],
+              "analytic_model_residual_px": 0.3463297502743663,
+              "projected_pixel": [
+                1129.8438050769166,
+                158.78652173913002
+              ],
+              "residual_px": 0.7228628263370097
+            },
+            {
+              "id": "WEST_HOLD08",
+              "world": [
+                1272,
+                770,
+                4
+              ],
+              "pixel": [
+                1224.5,
+                287.0
+              ],
+              "search_guess": [
+                1224.8739495798318,
+                287.3949579831933
+              ],
+              "analytic_model_residual_px": 0.16408087554434944,
+              "projected_pixel": [
+                1224.272534965115,
+                286.7894230769226
+              ],
+              "residual_px": 0.30997255141053953
+            }
+          ],
+          "maximum_residual_px": 0.726573644981866
+        }
+      ],
+      "intrinsics": {
+        "fx": 479.94695209656396,
+        "fy": 480.97740384615344,
+        "cx": 639.4632235869491,
+        "cy": 359.54230769230765
+      },
+      "fit_algorithm": "Native zero-roll pose +64 camera_up; only fx/fy/cx/cy fit from fit-group pixels. Independent groups excluded. Explicit native holdouts required at this exact pose.",
+      "projection_matrix": [
+        [
+          -639.4632235869492,
+          479.9469520965639,
+          0.0,
+          735214.9306099426
+        ],
+        [
+          -359.54230769230765,
+          -4.403123362734373e-14,
+          -480.97740384615344,
+          527517.6076923076
+        ],
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          -0.0,
+          1510.0
+        ]
+      ],
+      "sampled_pixel_localization_bounds": [
+        {
+          "source_x": 1264,
+          "maximum_axis_1_5_pixel_displacement_cm": 1.9528408210658337
+        },
+        {
+          "source_x": 1272,
+          "maximum_axis_1_5_pixel_displacement_cm": 1.8893338024958006
+        },
+        {
+          "source_x": 1280,
+          "maximum_axis_1_5_pixel_displacement_cm": 1.8258267839246127
+        }
+      ]
+    },
+    {
+      "id": "PIT_EAST_WALL_FRONTAL_027",
+      "camera_pose": [
+        1300.0,
+        480.0,
+        -96.0,
+        0.0,
+        0.0
+      ],
+      "observed_pose": [
+        1300.0,
+        480.0,
+        -96.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "image_size": [
+        1280,
+        720
+      ],
+      "status": "accepted independently checked Pit frontal projection; structural selection separate",
+      "model": "constrained native pose",
+      "normal_axis": 0,
+      "bound_planes_native": [
+        1584,
+        1592,
+        1600
+      ],
+      "method": "Eight known-world YZ fit markers; eight independent depth/elevation markers excluded from fit. All native/JPEG frames and32 isolated cross crops individually inspected. Pale red vertical strokes use marked-minus-clean chroma confirmation; original failed neutral/strict-red extraction preserved privately. Approximate pose model locates search windows only.",
+      "tested_marker_x_range": [
+        1584,
+        1600
+      ],
+      "tested_marker_y_range": [
+        200,
+        770
+      ],
+      "tested_marker_z_range": [
+        -180,
+        64
+      ],
+      "excluded_markers": [],
+      "limits": "Exact native pose/FOV only; fixed-X inverse requires independently established surface plane. Facing, cap, southern return, roof and graded curb remain separate. Pole can occlude west northcorner. Calibration alone grants no architectural endpoint, full body or continuous floor/map footprint.",
+      "captures": [
+        {
+          "id": "QA_PIT_EAST_WALL_FIT_027_MARKED",
+          "repository_image_path": "reference/images/pit/QA_PIT_EAST_WALL_FIT_027_MARKED.jpg",
+          "jpeg_sha256": "b30aa2edfe37e7a680545bb3d8c1755a77061d438f9e89f3baae9b11936380ba",
+          "png_sha256": "6696f2374ea29d933a1ffafcbfd2f151c1d44cb736ba72334942e9a848433f96"
+        },
+        {
+          "id": "QA_PIT_EAST_WALL_FIT_027_CLEAN",
+          "repository_image_path": "reference/images/pit/QA_PIT_EAST_WALL_FIT_027_CLEAN.jpg",
+          "jpeg_sha256": "b70d7d8fa5b70e933105a6ad446c549598be4d47c82f4b8328306f96607c3a6e",
+          "png_sha256": "0593f929ed402d384ad5405088c71e677a4cbb7652c44541bc02914c700e478c"
+        },
+        {
+          "id": "QA_PIT_EAST_WALL_HOLD_027_MARKED",
+          "repository_image_path": "reference/images/pit/QA_PIT_EAST_WALL_HOLD_027_MARKED.jpg",
+          "jpeg_sha256": "b1db726e7bc08efe09c8d66971b3b0a5da7e80d51273d5fede8e02799f058552",
+          "png_sha256": "2f96c14e0550221e3c57f5b76a3d40e1384394332df02562c05f8d9798588a18"
+        },
+        {
+          "id": "QA_PIT_EAST_WALL_HOLD_027_CLEAN",
+          "repository_image_path": "reference/images/pit/QA_PIT_EAST_WALL_HOLD_027_CLEAN.jpg",
+          "jpeg_sha256": "1f18274aabfef6a71275df0ce506ec5ee0373954622616feec535f828e34f8a0",
+          "png_sha256": "6adbdd8ca544b1399c96ad59126eb1f6ce30a18acf65b35b37226be5c4eaab56"
+        }
+      ],
+      "groups": [
+        {
+          "role": "fit",
+          "anchors": [
+            {
+              "id": "EAST_FIT01",
+              "world": [
+                1592,
+                200,
+                0
+              ],
+              "pixel": [
+                1099.5,
+                307.0
+              ],
+              "search_guess": [
+                1100.2739726027398,
+                307.3972602739726
+              ],
+              "analytic_model_residual_px": 0.29260286799041957,
+              "projected_pixel": [
+                1099.688375612631,
+                306.8721153846151
+              ],
+              "residual_px": 0.22768365397249113
+            },
+            {
+              "id": "EAST_FIT02",
+              "world": [
+                1592,
+                280,
+                16
+              ],
+              "pixel": [
+                968.484375,
+                280.4923076923077
+              ],
+              "search_guess": [
+                968.7671232876712,
+                281.0958904109589
+              ],
+              "analytic_model_residual_px": 0.24068171121412793,
+              "projected_pixel": [
+                968.2071912353604,
+                280.5368589743587
+              ],
+              "residual_px": 0.28074126186257115
+            },
+            {
+              "id": "EAST_FIT03",
+              "world": [
+                1592,
+                360,
+                -32
+              ],
+              "pixel": [
+                836.5,
+                359.5
+              ],
+              "search_guess": [
+                837.2602739726027,
+                360.0
+              ],
+              "analytic_model_residual_px": 0.2602739726027039,
+              "projected_pixel": [
+                836.7260068580891,
+                359.54262820512776
+              ],
+              "residual_px": 0.22999187762992132
+            },
+            {
+              "id": "EAST_FIT04",
+              "world": [
+                1592,
+                440,
+                16
+              ],
+              "pixel": [
+                705.4923076923077,
+                280.4923076923077
+              ],
+              "search_guess": [
+                705.7534246575342,
+                281.0958904109589
+              ],
+              "analytic_model_residual_px": 0.26037373889423693,
+              "projected_pixel": [
+                705.2448224808179,
+                280.5368589743587
+              ],
+              "residual_px": 0.2514632113024407
+            },
+            {
+              "id": "EAST_FIT05",
+              "world": [
+                1592,
+                520,
+                -32
+              ],
+              "pixel": [
+                573.5,
+                359.5
+              ],
+              "search_guess": [
+                574.2465753424658,
+                360.0
+              ],
+              "analytic_model_residual_px": 0.24657534246580326,
+              "projected_pixel": [
+                573.7636381035467,
+                359.54262820512776
+              ],
+              "residual_px": 0.26706219034917283
+            },
+            {
+              "id": "EAST_FIT06",
+              "world": [
+                1592,
+                600,
+                16
+              ],
+              "pixel": [
+                442.4923076923077,
+                280.4923076923077
+              ],
+              "search_guess": [
+                442.7397260273973,
+                281.0958904109589
+              ],
+              "analytic_model_residual_px": 0.2729961117893015,
+              "projected_pixel": [
+                442.28245372627583,
+                280.5368589743587
+              ],
+              "residual_px": 0.21453089239475687
+            },
+            {
+              "id": "EAST_FIT07",
+              "world": [
+                1592,
+                680,
+                0
+              ],
+              "pixel": [
+                311.0,
+                307.0
+              ],
+              "search_guess": [
+                311.2328767123288,
+                307.3972602739726
+              ],
+              "analytic_model_residual_px": 0.28619975912019513,
+              "projected_pixel": [
+                310.8012693490046,
+                306.8721153846151
+              ],
+              "residual_px": 0.23632254758529364
+            },
+            {
+              "id": "EAST_FIT08",
+              "world": [
+                1592,
+                750,
+                16
+              ],
+              "pixel": [
+                195.5,
+                280.5
+              ],
+              "search_guess": [
+                196.16438356164383,
+                281.0958904109589
+              ],
+              "analytic_model_residual_px": 0.19030745191025156,
+              "projected_pixel": [
+                195.75523301889228,
+                280.5368589743587
+              ],
+              "residual_px": 0.25788074360767194
+            }
+          ],
+          "maximum_residual_px": 0.28074126186257115
+        },
+        {
+          "role": "independent depth/height",
+          "anchors": [
+            {
+              "id": "EAST_HOLD01",
+              "world": [
+                1592,
+                220,
+                -180
+              ],
+              "pixel": [
+                1067.0,
+                602.5
+              ],
+              "search_guess": [
+                1067.3972602739727,
+                603.2876712328767
+              ],
+              "analytic_model_residual_px": 0.3054671660407663,
+              "projected_pixel": [
+                1066.8180795183134,
+                603.1437499999995
+              ],
+              "residual_px": 0.6689612276929294
+            },
+            {
+              "id": "EAST_HOLD02",
+              "world": [
+                1600,
+                315,
+                -120
+              ],
+              "pixel": [
+                903.5,
+                500.5
+              ],
+              "search_guess": [
+                904.0,
+                500.8
+              ],
+              "analytic_model_residual_px": 0.19999999999998863,
+              "projected_pixel": [
+                903.4527079295542,
+                500.5240341880339
+              ],
+              "residual_px": 0.053048865411986286
+            },
+            {
+              "id": "EAST_HOLD03",
+              "world": [
+                1588,
+                395,
+                -55
+              ],
+              "pixel": [
+                781.5,
+                397.5076923076923
+              ],
+              "search_guess": [
+                781.6666666666666,
+                398.3333333333333
+              ],
+              "analytic_model_residual_px": 0.46599698356498187,
+              "projected_pixel": [
+                781.143249226378,
+                397.9253500044514
+              ],
+              "residual_px": 0.5492804985997702
+            },
+            {
+              "id": "EAST_HOLD04",
+              "world": [
+                1596,
+                480,
+                -10
+              ],
+              "pixel": [
+                639.5,
+                323.5076923076923
+              ],
+              "search_guess": [
+                640.0,
+                324.3243243243243
+              ],
+              "analytic_model_residual_px": 0.31663201663201335,
+              "projected_pixel": [
+                639.504230292182,
+                323.8209881756755
+              ],
+              "residual_px": 0.31332442654105813
+            },
+            {
+              "id": "EAST_HOLD05",
+              "world": [
+                1592,
+                560,
+                0
+              ],
+              "pixel": [
+                508.0,
+                307.0
+              ],
+              "search_guess": [
+                508.4931506849315,
+                307.3972602739726
+              ],
+              "analytic_model_residual_px": 0.10296778341349691,
+              "projected_pixel": [
+                508.02304591491145,
+                306.8721153846151
+              ],
+              "residual_px": 0.12994456143391794
+            },
+            {
+              "id": "EAST_HOLD06",
+              "world": [
+                1584,
+                640,
+                24
+              ],
+              "pixel": [
+                369.0,
+                264.5076923076923
+              ],
+              "search_guess": [
+                369.5774647887324,
+                265.3521126760563
+              ],
+              "analytic_model_residual_px": 0.3530243385906411,
+              "projected_pixel": [
+                369.1344708684979,
+                264.7727970386422
+              ],
+              "residual_px": 0.29725903324639225
+            },
+            {
+              "id": "EAST_HOLD07",
+              "world": [
+                1600,
+                715,
+                64
+              ],
+              "pixel": [
+                263.5,
+                206.0
+              ],
+              "search_guess": [
+                264.0,
+                206.4
+              ],
+              "analytic_model_residual_px": 0.09999999999999432,
+              "projected_pixel": [
+                263.5776106268342,
+                205.74473076923053
+              ],
+              "residual_px": 0.2668066520445754
+            },
+            {
+              "id": "EAST_HOLD08",
+              "world": [
+                1592,
+                770,
+                4
+              ],
+              "pixel": [
+                162.5076923076923,
+                300.5
+              ],
+              "search_guess": [
+                163.28767123287673,
+                300.82191780821915
+              ],
+              "analytic_model_residual_px": 0.33181540889008543,
+              "projected_pixel": [
+                162.88493692457448,
+                300.2883012820508
+              ],
+              "residual_px": 0.43258507619648057
+            }
+          ],
+          "maximum_residual_px": 0.6689612276929294
+        }
+      ],
+      "intrinsics": {
+        "fx": 479.9063229770397,
+        "fy": 480.6184294871795,
+        "cx": 639.5042302921821,
+        "cy": 359.5426282051282
+      },
+      "fit_algorithm": "Native zero-roll pose +64 camera_up; only fx/fy/cx/cy fit from fit-group pixels. Independent groups excluded. Explicit native holdouts required at this exact pose.",
+      "projection_matrix": [
+        [
+          639.5042302921821,
+          -479.9063229770397,
+          0.0,
+          -601000.4643508577
+        ],
+        [
+          359.5426282051282,
+          0.0,
+          -480.6184294871795,
+          -482785.20641025645
+        ],
+        [
+          1.0,
+          0.0,
+          -0.0,
+          -1300.0
+        ]
+      ],
+      "sampled_pixel_localization_bounds": [
+        {
+          "source_x": 1584,
+          "maximum_axis_1_5_pixel_displacement_cm": 2.254690026353776
+        },
+        {
+          "source_x": 1592,
+          "maximum_axis_1_5_pixel_displacement_cm": 2.318202421462195
+        },
+        {
+          "source_x": 1600,
+          "maximum_axis_1_5_pixel_displacement_cm": 2.381714816570325
+        }
+      ]
     }
   ]
 }

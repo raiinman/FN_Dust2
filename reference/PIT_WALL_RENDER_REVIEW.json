@@ -1,0 +1,90 @@
+{
+  "source_build": "25640462",
+  "source_map": "de_dust2",
+  "scope": "Exact-pose checked frontal projections and explicit component review atZ0; complete Pit architectural footprint unresolved",
+  "rows": [
+    {
+      "side": "WEST",
+      "end": "south",
+      "native": [
+        1272,
+        183.87890625,
+        0
+      ],
+      "projected_pixel": [
+        42.310213516304906,
+        294.8730769230766
+      ],
+      "status": "UNRESOLVED rendered correspondence",
+      "camera_id": "PIT_WEST_WALL_FRONTAL_026",
+      "clean_image_path": "reference/images/pit/QA_PIT_WEST_WALL_FIT_026_CLEAN.jpg",
+      "clean_jpeg_sha256": "5c28a35144dfd3db50b6c2795186528a5fb10b3c99ac4f5bbe45681b0818696d",
+      "review": "Full clean native PNG/JPEG and91x91 nearest-neighbor crop individually inspected. ProjectedZ0 Mesh/Hull transition meets the underside of a separate overhanging roof. No isolated rendered material seam can be selected with a defensible pixel interval at this height. Native two-origin material bracket remains valid diagnostic; it is not promoted into a complete wall endpoint."
+    },
+    {
+      "side": "WEST",
+      "end": "north",
+      "native": [
+        1272,
+        768.017578125,
+        0
+      ],
+      "projected_pixel": [
+        1220.274815063116,
+        294.8730769230764
+      ],
+      "status": "CORROBORATED local facing break only",
+      "camera_id": "PIT_WEST_WALL_FRONTAL_026",
+      "clean_image_path": "reference/images/pit/QA_PIT_WEST_WALL_FIT_026_CLEAN.jpg",
+      "clean_jpeg_sha256": "5c28a35144dfd3db50b6c2795186528a5fb10b3c99ac4f5bbe45681b0818696d",
+      "observed_vertical_break_pixel": [
+        1221,
+        294.8730769230764
+      ],
+      "pixel_radius": 1.5,
+      "review": "Full clean native PNG/JPEG and91x91 nearest-neighbor crop individually inspected. Visible plaster-facing break agrees locally with projected native transition atZ0. West utility pole is immediately beyond the face; east fence is behind the break. This is a local exposed-facing limit, not an entire wall body/ground corner. Southern rendered limit unresolved; no complete section accepted."
+    },
+    {
+      "side": "EAST",
+      "end": "south",
+      "native": [
+        1592,
+        184.00390625,
+        0
+      ],
+      "projected_pixel": [
+        1125.9781925083798,
+        306.8721153846151
+      ],
+      "status": "UNRESOLVED rendered correspondence",
+      "camera_id": "PIT_EAST_WALL_FRONTAL_027",
+      "clean_image_path": "reference/images/pit/QA_PIT_EAST_WALL_FIT_027_CLEAN.jpg",
+      "clean_jpeg_sha256": "b70d7d8fa5b70e933105a6ad446c549598be4d47c82f4b8328306f96607c3a6e",
+      "review": "Full clean native PNG/JPEG and91x91 nearest-neighbor crop individually inspected. ProjectedZ0 Mesh/Hull transition meets the underside of a separate overhanging roof. No isolated rendered material seam can be selected with a defensible pixel interval at this height. Native two-origin material bracket remains valid diagnostic; it is not promoted into a complete wall endpoint."
+    },
+    {
+      "side": "EAST",
+      "end": "north",
+      "native": [
+        1592,
+        768.017578125,
+        0
+      ],
+      "projected_pixel": [
+        166.1430766253293,
+        306.8721153846151
+      ],
+      "status": "CORROBORATED local facing break only",
+      "camera_id": "PIT_EAST_WALL_FRONTAL_027",
+      "clean_image_path": "reference/images/pit/QA_PIT_EAST_WALL_FIT_027_CLEAN.jpg",
+      "clean_jpeg_sha256": "b70d7d8fa5b70e933105a6ad446c549598be4d47c82f4b8328306f96607c3a6e",
+      "observed_vertical_break_pixel": [
+        166,
+        306.8721153846151
+      ],
+      "pixel_radius": 1.5,
+      "review": "Full clean native PNG/JPEG and91x91 nearest-neighbor crop individually inspected. Visible plaster-facing break agrees locally with projected native transition atZ0. West utility pole is immediately beyond the face; east fence is behind the break. This is a local exposed-facing limit, not an entire wall body/ground corner. Southern rendered limit unresolved; no complete section accepted."
+    }
+  ],
+  "accepted_complete_sections": []
+}

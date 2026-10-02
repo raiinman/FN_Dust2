@@ -481,3 +481,12 @@ against independent outside-origin companionfaces. Two accepted_endpoint_spans
 feed physicalregister as sampledsolidcap chords atwestZ30/eastZ52, notuniform
 fullcap/body thickness. NativeXZ figure keeps measuredtops, outsideground,
 adjacentground and firstMesh/Rock interfaces separate. Rebuild/render/inspect.
+
+PIT_WEST_WALL_FRONTAL_026 and PIT_EAST_WALL_FRONTAL_027 in LOCAL_CAMERA_CALIBRATIONS
+own exact-pose eight-fit/eight-independent depth/elevation models. All native
+frames, JPEGs and marker crops must be inspected; pale red extraction retains
+marked-minus-clean chroma confirmation and original reader failures privately.
+PIT_WALL_RENDER_REVIEW.json owns hash-pinned Z0 projected join/component decisions:
+north local facing breaks corroborated, south roof-underside correspondence
+unresolved. Report023 sampled sides and024/025 southern material brackets are
+diagnostics; no complete section, full-height wall or floor footprint accepted.

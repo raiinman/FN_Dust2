@@ -7,9 +7,9 @@ no model override, new chat or agent delegation requested. Criteria unchanged.
 
 ## Authority and preserved work
 
-GitHub main is authoritative. Latest checkpoint: Pit upper plaster/Rock interfaces, cap/ground points
-and sampledcapbody widths; preceding pushed commite69d0d9. Current Git
-commit pins the checkpoint. Crash baseline35eaa642; dirty work preserved4c7df48,
+GitHub main is authoritative. Latest pushed checkpoint4497835: Pit plaster/cap interfaces and local cap sections.
+Current work adds checked frontal cameras, Z0 joins and rendered component review;
+current Git commit pins that evidence checkpoint. Crash baseline35eaa642; dirty work preserved4c7df48,
 mergedab4e484. Active checkout:
 C:/Users/mikea/Documents/Codex/2026-09-30/new-chat/FN_Dust2
 Branch codex/crash-recovery-20261001 pushes meaningful checkpoints to main.
@@ -19,15 +19,15 @@ evidence/CRASH_RECOVERY_20261001.md. Inspect dirty work/current main first.
 
 ## Accepted evidence and remaining limits
 
-- 265 individually reviewed JPEGs; eight historical exclusions. Original24 and
-  recovered55 re-inspected. IMAGE_AUDIT265 hashes/native UTC dates PASS. Sixteen
+- 273 individually reviewed JPEGs; eight historical exclusions. Original24 and
+  recovered55 re-inspected. IMAGE_AUDIT273 hashes/native UTC dates PASS. Sixteen
   critical/eleven subarea required-view sets PASS; image coverage is separate
   from numeric acceptance. Native originals/failed frames/metadata retained.
 - Scale2.54cm/native from repeated inch-rangefinder anchors. UE=(2.54x,-2.54y,
   2.54z), inverse/right-axis/length checks PASS. Phase2 exporter/editor roundtrip
   unverified; unsaved Hammer128 cube is calibration, not production.
 - 410 bounded physical features;13 floor datums;54 Short/117 Tunnel stair floor
-  samples;465 connector points;135 local architectural chords.182 raw
+  samples;465 connector points;135 local architectural chords.185 raw
   architectural reports/26 rejected attempts. MEASUREMENTS/profile registers own
   confidence/limits. Chords cross open space; they are not wall/polygon edges.
 - Listed topology PASS:34 edges/four specials.24 ground paths both directions;
@@ -84,7 +84,19 @@ X1590/Z-13.85. Registered465connectorpoints/two different-X cap-ground rises.
 022 completes16obs/all0restore. Twooutsideorigins perface agree westRockcap
 X1251.77..1267.96/Z30 and eastX1591.07..1617.21/Z52 atY750. Twoaccepted
 localcapbody chords, differentwidths, notuniformfullcap/body thickness.
-No active sourcecontroller; inspect latestcheckpoint/rawstatus before input.
+023 completes88observations/all0restore: bothorigins agree fixedZ0 Mesh1272/1592
+from188 through767.96875, separate southernHull at176..184. No smoothcurve/
+fullheight extrusion accepted. 024/025 complete44obs each/all0exactrestore. TwoXorigins agree southjoin westY[183.875,183.8828125], eastY[184,184.0078125] atZ0. NativeUI preflight observed the authored white cross at the west camera;
+source B-mouth exactly restored before captures. Camera026/027 controller COMPLETE:
+eight marked/clean frames, final B-mouth pose/all0 errors, overlay restored visible.
+NO ACTIVE source controller. Do not rerun driver/preflight/plans. Private folder
+pit_wall_cameras_26_27 owns original plans, captures and extraction failures.
+Two new checked frontal models:8 fit/8 independent depth-elevation points each,
+maximum held residual .726574px west/.668962px east. All32 crops/eight native
+frames/JPEGs individually inspected;273 registered hash/native-date audit PASS.
+PIT_WALL_RENDER_REVIEW retains north local-facing corroboration and unresolved
+southZ0 correspondence under separate roof. No complete section/body accepted.
+
 
 ## Desktop and console recovery
 
@@ -110,7 +122,7 @@ stay runtime-only; game-native study originals can be reviewed privately.
 
 ## Next work and review
 
-1. Inspect current main/dirty state/active016 report; resume first incomplete
+1. Inspect current main/dirty state and latest controller report; resume first incomplete
    action only after controller outcome/restore verified. Preserve all raw.
 2. Continue actual architectural endpoint/full-area extents and layered footprint
    using native component-aware checks and calibrated imagery. Do not widen
