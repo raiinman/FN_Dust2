@@ -6735,6 +6735,3231 @@
       "id": "SPAWN_PARAPET_X450_Y560_001",
       "private_raw_path": "../reference_cache/crash_recovery_survey/spawn_parapet_01/SPAWN_PARAPET_X450_Y560_001.json",
       "surface_semantics": "Lower Suicide-candidate corridor floor collision sample below Spawn parapet"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:36:20.313798+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "PIT centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        180.0
+      ],
+      "probe_player_z": -40.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 116.009750 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            182.57,
+            -186.37
+          ],
+          "xy_error": 2.569999999999993,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82627"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 113.439751 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            180.01,
+            -186.65
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82627"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 113.439751 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            180.01,
+            -186.65
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82627"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          180.01,
+          -186.65
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "PIT_CENTER_X1400_Y180_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/PIT_CENTER_X1400_Y180_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Pit curved ramp"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:36:29.137500+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "PIT centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        200.0
+      ],
+      "probe_player_z": -40.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 136.009750 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            202.55,
+            -184.87
+          ],
+          "xy_error": 2.5500000000000114,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82629"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 133.459747 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            200.0,
+            -185.18
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82629"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 133.459747 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            200.0,
+            -185.18
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82629"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          200.0,
+          -185.18
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "PIT_CENTER_X1400_Y200_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/PIT_CENTER_X1400_Y200_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Pit curved ramp"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:29:12.106407+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "PIT centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        220.0
+      ],
+      "probe_player_z": -40.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 156.009750 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            222.5,
+            -182.27
+          ],
+          "xy_error": 2.5,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82631"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 153.509750 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            220.01,
+            -182.58
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82631"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 153.509750 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            220.01,
+            -182.58
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82631"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          220.01,
+          -182.58
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "PIT_CENTER_X1400_Y220_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/PIT_CENTER_X1400_Y220_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Pit curved ramp"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:29:20.933166+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "PIT centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        250.0
+      ],
+      "probe_player_z": -40.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 186.009750 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            252.42,
+            -177.64
+          ],
+          "xy_error": 2.4199999999999875,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82650"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 183.589752 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            250.01,
+            -178.13
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82650"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 183.589752 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            250.01,
+            -178.13
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82650"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          250.01,
+          -178.13
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "PIT_CENTER_X1400_Y250_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/PIT_CENTER_X1400_Y250_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Pit curved ramp"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:29:29.694227+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "PIT centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        280.0
+      ],
+      "probe_player_z": -40.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 216.009750 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            282.34,
+            -172.88
+          ],
+          "xy_error": 2.339999999999975,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82658"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 213.669754 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            280.01,
+            -173.22
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82658"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 213.669754 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            280.01,
+            -173.22
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82658"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          280.01,
+          -173.22
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "PIT_CENTER_X1400_Y280_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/PIT_CENTER_X1400_Y280_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Pit curved ramp"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:29:38.526324+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "PIT centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        300.0
+      ],
+      "probe_player_z": -40.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 236.009750 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            302.29,
+            -169.95
+          ],
+          "xy_error": 2.2900000000000205,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82658"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 233.719742 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            300.0,
+            -170.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82658"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 233.719742 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            300.0,
+            -170.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82658"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          300.0,
+          -170.28
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "PIT_CENTER_X1400_Y300_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/PIT_CENTER_X1400_Y300_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Pit curved ramp"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:29:47.351343+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "PIT centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        320.0
+      ],
+      "probe_player_z": -40.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 256.009735 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            322.23,
+            -166.86
+          ],
+          "xy_error": 2.230000000000018,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82683"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 253.779755 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            320.01,
+            -167.34
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82658"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 253.779755 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            320.01,
+            -167.34
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82658"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          320.01,
+          -167.34
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "PIT_CENTER_X1400_Y320_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/PIT_CENTER_X1400_Y320_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Pit curved ramp"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:29:56.373567+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "PIT centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        350.0
+      ],
+      "probe_player_z": -40.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 286.009735 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            352.09,
+            -158.56
+          ],
+          "xy_error": 2.089999999999975,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82684"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 283.919739 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            350.01,
+            -159.14
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82684"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 283.919739 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            350.01,
+            -159.14
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82684"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          350.01,
+          -159.14
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "PIT_CENTER_X1400_Y350_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/PIT_CENTER_X1400_Y350_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Pit curved ramp"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:30:05.287873+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "PIT centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        400.0
+      ],
+      "probe_player_z": -40.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 336.009735 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            401.83,
+            -143.72
+          ],
+          "xy_error": 1.829999999999984,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82699"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 334.179749 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            400.01,
+            -144.36
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82699"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 334.179749 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            400.01,
+            -144.36
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82699"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          400.01,
+          -144.36
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "PIT_CENTER_X1400_Y400_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/PIT_CENTER_X1400_Y400_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Pit curved ramp"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:30:13.918353+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "PIT centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        450.0
+      ],
+      "probe_player_z": -40.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 386.009735 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            451.52,
+            -126.21
+          ],
+          "xy_error": 1.5199999999999818,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82716"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 384.489746 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            450.01,
+            -126.77
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82716"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 384.489746 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            450.01,
+            -126.77
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82716"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          450.01,
+          -126.77
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "PIT_CENTER_X1400_Y450_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/PIT_CENTER_X1400_Y450_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Pit curved ramp"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:30:22.744858+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "PIT centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        500.0
+      ],
+      "probe_player_z": -40.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 436.009735 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            501.21,
+            -108.04
+          ],
+          "xy_error": 1.2099999999999795,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82713"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 434.799744 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            500.0,
+            -108.47
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82713"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 434.799744 -40.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            500.0,
+            -108.47
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82713"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          500.0,
+          -108.47
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "PIT_CENTER_X1400_Y500_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/PIT_CENTER_X1400_Y500_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Pit curved ramp"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:30:31.774836+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "PIT centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        550.0
+      ],
+      "probe_player_z": 60.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 486.009735 60.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            552.63,
+            -89.62
+          ],
+          "xy_error": 2.6299999999999955,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82732"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 483.379761 60.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            550.02,
+            -90.55
+          ],
+          "xy_error": 0.01999999999998181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82732"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 483.379761 60.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            550.02,
+            -90.55
+          ],
+          "xy_error": 0.01999999999998181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82732"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          550.02,
+          -90.55
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "PIT_CENTER_X1400_Y550_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/PIT_CENTER_X1400_Y550_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Pit curved ramp"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:30:40.804256+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "PIT centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        600.0
+      ],
+      "probe_player_z": 60.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 536.009766 60.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            602.32,
+            -71.54
+          ],
+          "xy_error": 2.32000000000005,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82747"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 533.689758 60.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            600.01,
+            -72.38
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82747"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 533.689758 60.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            600.01,
+            -72.38
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82747"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          600.01,
+          -72.38
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "PIT_CENTER_X1400_Y600_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/PIT_CENTER_X1400_Y600_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Pit curved ramp"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:30:49.730046+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "PIT centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        650.0
+      ],
+      "probe_player_z": 60.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 586.009766 60.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            652.01,
+            -53.78
+          ],
+          "xy_error": 2.009999999999991,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82762"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 583.999756 60.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            650.01,
+            -54.48
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82762"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 583.999756 60.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            650.01,
+            -54.48
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82762"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          650.01,
+          -54.48
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "PIT_CENTER_X1400_Y650_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/PIT_CENTER_X1400_Y650_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Pit curved ramp"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:30:58.650618+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "PIT centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        700.0
+      ],
+      "probe_player_z": 60.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 636.009766 60.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            701.71,
+            -36.67
+          ],
+          "xy_error": 1.7100000000000364,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82764"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 634.299744 60.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            700.01,
+            -37.22
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82764"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 634.299744 60.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            700.01,
+            -37.22
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82764"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          700.01,
+          -37.22
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "PIT_CENTER_X1400_Y700_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/PIT_CENTER_X1400_Y700_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Pit curved ramp"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:31:07.576417+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "PIT centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        750.0
+      ],
+      "probe_player_z": 60.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 686.009766 60.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            751.45,
+            -22.2
+          ],
+          "xy_error": 1.4500000000000455,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 83401"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 684.559753 60.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            750.01,
+            -22.62
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 83401"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 684.559753 60.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            750.01,
+            -22.62
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 83401"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          750.01,
+          -22.62
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "PIT_CENTER_X1400_Y750_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/PIT_CENTER_X1400_Y750_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Pit curved ramp"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:31:16.397773+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "PIT centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        800.0
+      ],
+      "probe_player_z": 60.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 736.009766 60.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            801.32,
+            -14.42
+          ],
+          "xy_error": 1.32000000000005,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 83861"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 734.689758 60.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            800.0,
+            -14.5
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 83861"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 734.689758 60.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            800.0,
+            -14.5
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 83861"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          800.0,
+          -14.5
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "PIT_CENTER_X1400_Y800_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/PIT_CENTER_X1400_Y800_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Pit curved ramp"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:31:25.431725+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "PIT centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        850.0
+      ],
+      "probe_player_z": 60.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 786.009766 60.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            851.27,
+            -11.9
+          ],
+          "xy_error": 1.2699999999999818,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 83873"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 784.739746 60.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            850.01,
+            -11.95
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 83873"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 784.739746 60.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            850.01,
+            -11.95
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 83873"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          850.01,
+          -11.95
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "PIT_CENTER_X1400_Y850_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/PIT_CENTER_X1400_Y850_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Pit curved ramp"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:31:34.457728+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "PIT centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        900.0
+      ],
+      "probe_player_z": 100.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 836.009766 100.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            901.94,
+            -10.27
+          ],
+          "xy_error": 1.9400000000000546,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 83899"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 834.069763 100.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            900.01,
+            -10.33
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 83899"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 834.069763 100.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            900.01,
+            -10.33
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 83899"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          900.01,
+          -10.33
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "PIT_CENTER_X1400_Y900_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/PIT_CENTER_X1400_Y900_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Pit curved ramp"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:31:43.389560+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "PIT centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        950.0
+      ],
+      "probe_player_z": 100.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 886.009766 100.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            951.92,
+            -8.83
+          ],
+          "xy_error": 1.919999999999959,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 83913"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 884.089722 100.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            950.0,
+            -8.87
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 83913"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 884.089722 100.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            950.0,
+            -8.87
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 83913"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          950.0,
+          -8.87
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "PIT_CENTER_X1400_Y950_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/PIT_CENTER_X1400_Y950_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Pit curved ramp"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:42:46.189502+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Long A / A ramp / A entry",
+      "unit": "source_units",
+      "target_xy": [
+        1200.0,
+        2800.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1200.000000 2736.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1200.0,
+            2802.35,
+            116.28
+          ],
+          "xy_error": 2.349999999999909,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1200.000000 2733.659668 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1200.0,
+            2800.0,
+            116.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1200.000000 2733.659668 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1200.0,
+            2800.0,
+            116.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1200.0,
+          2800.0,
+          116.28
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "LONG_A_CENTER_X1200_Y2800_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/LONG_A_CENTER_X1200_Y2800_001.json",
+      "surface_semantics": "A-entry inclined step/curb collision hull; not plain pavement or player foot elevation"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:32:00.924746+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "LONG_A centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        1100.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 1036.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            1104.55,
+            -9.52
+          ],
+          "xy_error": 4.5499999999999545,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 139113"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 1031.459717 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            1100.0,
+            -9.43
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 139113"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 1031.459717 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            1100.0,
+            -9.43
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 139113"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          1100.0,
+          -9.43
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "LONG_A_CENTER_X1400_Y1100_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/LONG_A_CENTER_X1400_Y1100_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Long road / uphill A approach; X950 point is A platform"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:32:09.941560+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "LONG_A centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        1300.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 1236.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            1304.59,
+            -11.62
+          ],
+          "xy_error": 4.589999999999918,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 139298"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 1231.419800 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            1300.0,
+            -11.56
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 139298"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 1231.419800 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            1300.0,
+            -11.56
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 139298"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          1300.0,
+          -11.56
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "LONG_A_CENTER_X1400_Y1300_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/LONG_A_CENTER_X1400_Y1300_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Long road / uphill A approach; X950 point is A platform"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:32:18.871548+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "LONG_A centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        1500.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 1436.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            1504.51,
+            -7.3
+          ],
+          "xy_error": 4.509999999999991,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 139471"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 1431.499756 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            1500.0,
+            -7.38
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 139471"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 1431.499756 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            1500.0,
+            -7.38
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 139471"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          1500.0,
+          -7.38
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "LONG_A_CENTER_X1400_Y1500_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/LONG_A_CENTER_X1400_Y1500_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Long road / uphill A approach; X950 point is A platform"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:32:27.594561+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "LONG_A centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        1700.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 1636.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            1704.53,
+            -8.29
+          ],
+          "xy_error": 4.529999999999973,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 139675"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 1631.479736 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            1700.0,
+            -8.29
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 139675"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 1631.479736 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            1700.0,
+            -8.29
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 139675"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          1700.0,
+          -8.29
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "LONG_A_CENTER_X1400_Y1700_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/LONG_A_CENTER_X1400_Y1700_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Long road / uphill A approach; X950 point is A platform"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:32:36.553296+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "LONG_A centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        1900.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 1836.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            1904.55,
+            -9.59
+          ],
+          "xy_error": 4.5499999999999545,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 163384"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 1831.459717 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            1900.0,
+            -9.55
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 163384"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 1831.459717 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            1900.0,
+            -9.55
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 163384"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          1900.0,
+          -9.55
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "LONG_A_CENTER_X1400_Y1900_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/LONG_A_CENTER_X1400_Y1900_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Long road / uphill A approach; X950 point is A platform"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:32:45.583149+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "LONG_A centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        2100.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 2036.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2104.54,
+            -9.23
+          ],
+          "xy_error": 4.539999999999964,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 163417"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 2031.469727 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2100.01,
+            -9.37
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 163417"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 2031.469727 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2100.01,
+            -9.37
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 163417"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          2100.01,
+          -9.37
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "LONG_A_CENTER_X1400_Y2100_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/LONG_A_CENTER_X1400_Y2100_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Long road / uphill A approach; X950 point is A platform"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:32:54.636526+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "LONG_A centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        2200.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 2136.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2204.51,
+            -7.51
+          ],
+          "xy_error": 4.510000000000218,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163437"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 2131.499756 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2200.01,
+            -7.59
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163438"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 2131.499756 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2200.01,
+            -7.59
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163438"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          2200.01,
+          -7.59
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "LONG_A_CENTER_X1400_Y2200_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/LONG_A_CENTER_X1400_Y2200_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Long road / uphill A approach; X950 point is A platform"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:33:03.659696+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "LONG_A centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        2250.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 2186.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2254.46,
+            -4.27
+          ],
+          "xy_error": 4.460000000000036,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 163444"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 2181.549805 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2250.01,
+            -4.82
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 163444"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 2181.549805 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2250.01,
+            -4.82
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 163444"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          2250.01,
+          -4.82
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "LONG_A_CENTER_X1400_Y2250_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/LONG_A_CENTER_X1400_Y2250_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Long road / uphill A approach; X950 point is A platform"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:33:12.678951+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "LONG_A centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        2300.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 2236.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2304.32,
+            3.38
+          ],
+          "xy_error": 4.320000000000164,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164443"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 2231.689697 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2300.02,
+            2.61
+          ],
+          "xy_error": 0.01999999999998181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 163449"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 2231.689697 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2300.02,
+            2.61
+          ],
+          "xy_error": 0.01999999999998181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 163449"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          2300.02,
+          2.61
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "LONG_A_CENTER_X1400_Y2300_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/LONG_A_CENTER_X1400_Y2300_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Long road / uphill A approach; X950 point is A platform"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:33:21.406064+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "LONG_A centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        2350.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 2286.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2354.2,
+            10.79
+          ],
+          "xy_error": 4.199999999999818,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164445"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 2281.809814 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2350.01,
+            10.09
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164445"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 2281.809814 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2350.01,
+            10.09
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164445"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          2350.01,
+          10.09
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "LONG_A_CENTER_X1400_Y2350_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/LONG_A_CENTER_X1400_Y2350_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Long road / uphill A approach; X950 point is A platform"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:33:30.441785+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "LONG_A centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        2400.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 2336.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2404.0,
+            22.07
+          ],
+          "xy_error": 4.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164452"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 2332.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2400.02,
+            21.07
+          ],
+          "xy_error": 0.01999999999998181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164452"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 2332.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2400.02,
+            21.07
+          ],
+          "xy_error": 0.01999999999998181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164452"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          2400.02,
+          21.07
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "LONG_A_CENTER_X1400_Y2400_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/LONG_A_CENTER_X1400_Y2400_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Long road / uphill A approach; X950 point is A platform"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:33:39.177387+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "LONG_A centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        2450.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 2386.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2453.78,
+            34.69
+          ],
+          "xy_error": 3.7800000000002,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164477"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 2382.229736 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2450.02,
+            33.68
+          ],
+          "xy_error": 0.01999999999998181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164477"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 2382.229736 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2450.02,
+            33.68
+          ],
+          "xy_error": 0.01999999999998181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164477"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          2450.02,
+          33.68
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "LONG_A_CENTER_X1400_Y2450_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/LONG_A_CENTER_X1400_Y2450_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Long road / uphill A approach; X950 point is A platform"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:33:48.203234+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "LONG_A centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        2500.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 2436.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2503.55,
+            47.84
+          ],
+          "xy_error": 3.550000000000182,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164488"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 2432.459717 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2500.01,
+            46.98
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164488"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 2432.459717 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2500.01,
+            46.98
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164488"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          2500.01,
+          46.98
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "LONG_A_CENTER_X1400_Y2500_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/LONG_A_CENTER_X1400_Y2500_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Long road / uphill A approach; X950 point is A platform"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:36:38.163679+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "LONG_A centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        2550.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 2486.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2553.34,
+            59.74
+          ],
+          "xy_error": 3.3400000000001455,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164487"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 2482.669678 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2550.01,
+            58.97
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164487"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 2482.669678 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2550.01,
+            58.97
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164487"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          2550.01,
+          58.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "LONG_A_CENTER_X1400_Y2550_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/LONG_A_CENTER_X1400_Y2550_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Long road / uphill A approach; X950 point is A platform"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:36:46.687740+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "LONG_A centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        2600.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 2536.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2603.14,
+            71.34
+          ],
+          "xy_error": 3.1399999999998727,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164515"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 2532.869629 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2600.01,
+            70.6
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164515"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 2532.869629 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2600.01,
+            70.6
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164515"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          2600.01,
+          70.6
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "LONG_A_CENTER_X1400_Y2600_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/LONG_A_CENTER_X1400_Y2600_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Long road / uphill A approach; X950 point is A platform"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:36:55.711777+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "LONG_A centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        2650.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 2586.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2652.94,
+            82.94
+          ],
+          "xy_error": 2.9400000000000546,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164536"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 2583.069824 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2650.01,
+            82.27
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164536"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 2583.069824 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2650.01,
+            82.27
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164536"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          2650.01,
+          82.27
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "LONG_A_CENTER_X1400_Y2650_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/LONG_A_CENTER_X1400_Y2650_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Long road / uphill A approach; X950 point is A platform"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:37:04.738275+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "LONG_A centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        2700.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 2636.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2702.74,
+            93.95
+          ],
+          "xy_error": 2.7399999999997817,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164542"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 2633.269775 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2700.01,
+            93.42
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164542"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 2633.269775 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2700.01,
+            93.42
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164542"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          2700.01,
+          93.42
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "LONG_A_CENTER_X1400_Y2700_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/LONG_A_CENTER_X1400_Y2700_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Long road / uphill A approach; X950 point is A platform"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:37:13.768756+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "LONG_A centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        2750.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 2686.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2752.56,
+            104.51
+          ],
+          "xy_error": 2.5599999999999454,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164541"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 2683.449707 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2750.01,
+            103.96
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164541"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 2683.449707 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2750.01,
+            103.96
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164541"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          2750.01,
+          103.96
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "LONG_A_CENTER_X1400_Y2750_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/LONG_A_CENTER_X1400_Y2750_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Long road / uphill A approach; X950 point is A platform"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:42:28.234902+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Long A / A ramp / A entry",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        2800.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 2736.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2802.44,
+            111.27
+          ],
+          "xy_error": 2.4400000000000546,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164552"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 2733.569824 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2800.01,
+            110.95
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164552"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 2733.569824 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            2800.01,
+            110.95
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164552"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          2800.01,
+          110.95
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "LONG_A_CENTER_X1400_Y2800_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/LONG_A_CENTER_X1400_Y2800_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Long road / uphill A approach; X950 point is A platform"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:31:52.215861+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "LONG_A centerline",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        950.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1400.000000 886.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            954.54,
+            -8.78
+          ],
+          "xy_error": 4.539999999999964,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 83913"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1400.000000 881.469727 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            950.0,
+            -8.87
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 83913"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1400.000000 881.469727 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1400.0,
+            950.0,
+            -8.87
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 83913"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          950.0,
+          -8.87
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "LONG_A_CENTER_X1400_Y950_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/LONG_A_CENTER_X1400_Y950_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Long road / uphill A approach; X950 point is A platform"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:42:37.261276+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Long A / A ramp / A entry",
+      "unit": "source_units",
+      "target_xy": [
+        1450.0,
+        2750.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1450.000000 2686.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1450.0,
+            2752.58,
+            103.05
+          ],
+          "xy_error": 2.5799999999999272,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164568"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1450.000000 2683.429688 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1450.0,
+            2750.01,
+            102.53
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164564"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1450.000000 2683.429688 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1450.0,
+            2750.01,
+            102.53
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164564"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1450.0,
+          2750.01,
+          102.53
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "LONG_A_CENTER_X1450_Y2750_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/LONG_A_CENTER_X1450_Y2750_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Long road / uphill A approach; X950 point is A platform"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:42:55.214435+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Long A / A ramp / A entry",
+      "unit": "source_units",
+      "target_xy": [
+        950.0,
+        2750.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 950.000000 2686.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            950.0,
+            2752.68,
+            97.63
+          ],
+          "xy_error": 2.6799999999998363,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162898"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 950.000000 2683.329834 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            950.0,
+            2750.0,
+            97.54
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162898"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 950.000000 2683.329834 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            950.0,
+            2750.0,
+            97.54
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162898"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          950.0,
+          2750.0,
+          97.54
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "LONG_A_CENTER_X950_Y2750_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/LONG_A_CENTER_X950_Y2750_001.json",
+      "surface_semantics": "Repeated sand/concrete collision pavement point on Long road / uphill A approach; X950 point is A platform"
     }
   ],
   "accepted_pairs": [
@@ -6890,6 +10115,42 @@
       "dimension": "rise",
       "feature": "Spawn approach pavement sample to parapet cap",
       "notes": "Distinct-XY repeated point pair atX-450; not full parapet minimum height or reverse boost feasibility. QA_SPAWN_PARAPET_LOWER/SIDE corroborate surface identity; original Spawn views retained."
+    },
+    {
+      "id": "PIT_CENTER_PROFILE_SAMPLE_RISE",
+      "area": "Pit",
+      "from_report": "PIT_CENTER_X1400_Y180_001",
+      "to_report": "PIT_CENTER_X1400_Y950_001",
+      "dimension": "rise",
+      "feature": "PIT sampled centerline endpoint rise",
+      "notes": "Measured sample endpoints, not full architectural ramp boundaries. Nonuniform floor; no continuous surface interpolation, constant slope or crossfall inferred. Native local-detail views corroborate pavement identity."
+    },
+    {
+      "id": "PIT_CENTER_PROFILE_SAMPLE_HORIZONTAL_INTERVAL",
+      "area": "Pit",
+      "from_report": "PIT_CENTER_X1400_Y180_001",
+      "to_report": "PIT_CENTER_X1400_Y950_001",
+      "dimension": "horizontal_interval",
+      "feature": "PIT sampled centerline endpoint horizontal_interval",
+      "notes": "Measured sample endpoints, not full architectural ramp boundaries. Nonuniform floor; no continuous surface interpolation, constant slope or crossfall inferred. Native local-detail views corroborate pavement identity."
+    },
+    {
+      "id": "LONG_A_CENTER_PROFILE_SAMPLE_RISE",
+      "area": "Long A",
+      "from_report": "LONG_A_CENTER_X1400_Y950_001",
+      "to_report": "LONG_A_CENTER_X1400_Y2800_001",
+      "dimension": "rise",
+      "feature": "LONG_A sampled centerline endpoint rise",
+      "notes": "Measured sample endpoints, not full architectural ramp boundaries. Nonuniform floor; no continuous surface interpolation, constant slope or crossfall inferred. Native local-detail views corroborate pavement identity."
+    },
+    {
+      "id": "LONG_A_CENTER_PROFILE_SAMPLE_HORIZONTAL_INTERVAL",
+      "area": "Long A",
+      "from_report": "LONG_A_CENTER_X1400_Y950_001",
+      "to_report": "LONG_A_CENTER_X1400_Y2800_001",
+      "dimension": "horizontal_interval",
+      "feature": "LONG_A sampled centerline endpoint horizontal_interval",
+      "notes": "Measured sample endpoints, not full architectural ramp boundaries. Nonuniform floor; no continuous surface interpolation, constant slope or crossfall inferred. Native local-detail views corroborate pavement identity."
     }
   ]
 }

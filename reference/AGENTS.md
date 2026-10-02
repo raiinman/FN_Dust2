@@ -163,3 +163,5 @@ Reviewed accepted_endpoint_spans in ARCHITECTURAL_ENDPOINTS pair opposite
 outside-origin rays for solid cover. Each selector keeps original station/yaw,
 repeated native endpoint and rangefinder crosscheck. A sampled face-to-face body
 extent never becomes a full bbox, hidden joint/base or uniform rectangular prop.
+
+RAMP_PROFILE_GROUPS.json selects measured centerline samples from CONNECTOR_SURFACE_PROFILES. RAMP_SEGMENTS.csv and RAMP_PROFILE.svg show discrete sample intervals/order, never fitted floors, full ramp ends or uniform slopes. A-entry hull and player support remain separate.

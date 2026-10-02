@@ -1,7 +1,7 @@
 {
   "review_date": "2026-10-01",
   "source_build": "25640462",
-  "registered_images": 206,
+  "registered_images": 210,
   "coverage_excluded": 8,
   "complete_areas": 16,
   "complete_subareas": 11,
@@ -2319,6 +2319,38 @@
       "sha256": "39f61cec79c05d2cad2a4d0dc0d5736fcc827a6e219957c79e83a74e52c78a6c",
       "coverage_status": "PARTIAL",
       "review": "Unobstructed oblique side view of parapet cap, Spawn-side pavement and lower corridor floor; no overlay. Native floor-only points atX-450 are local collision samples; image does not bound render/collision offset or classify other launches."
+    },
+    {
+      "id": "QA_A_RAMP_APPROACH_DETAIL_001",
+      "area": "A Site / Long ramp entry",
+      "image": "reference/images/a_site/QA_A_RAMP_APPROACH_DETAIL_001.jpg",
+      "sha256": "3cf08cf02918a98ff5fc40d4a8f50f5f46d49856b48bd62f4249de3e4569106d",
+      "coverage_status": "PARTIAL",
+      "review": "Unobstructed uphill road beside raised A platform retaining wall/curb; target junction fully framed. Local ramp context, not whole ramp width/length."
+    },
+    {
+      "id": "QA_A_RAMP_PLAN_DETAIL_001",
+      "area": "A Site / Long ramp entry",
+      "image": "reference/images/a_site/QA_A_RAMP_PLAN_DETAIL_001.jpg",
+      "sha256": "18729e7b442cac3d3079dd44fc450930b584ee11765bff9a6f982fdaebfd2505",
+      "coverage_status": "PARTIAL",
+      "review": "Clean near-vertical local A-platform/east-wall/curb/Long-road junction. Outer region extends frame; local context only, no full site boundary."
+    },
+    {
+      "id": "QA_A_ENTRY_DETAIL_001",
+      "area": "A Site / Long ramp entry",
+      "image": "reference/images/a_site/QA_A_ENTRY_DETAIL_001.jpg",
+      "sha256": "484bf792fe84e2e1f39b062ee76293ef565410357046b32a221ad2ac01b1beb5",
+      "coverage_status": "PARTIAL",
+      "review": "Clean westward local entrance view with three visible step edges between road-side landing and A platform. Target steps fully visible; foreground second barrel cropped. Count context, not measured tread dimensions."
+    },
+    {
+      "id": "QA_A_ENTRY_PLAN_DETAIL_001",
+      "area": "A Site / Long ramp entry",
+      "image": "reference/images/a_site/QA_A_ENTRY_PLAN_DETAIL_001.jpg",
+      "sha256": "742f8aa1c0c8724d1a71f09756437ae788c0c023649a9203ea598dbefee2b151",
+      "coverage_status": "PARTIAL",
+      "review": "Clean near-vertical entrance plan showing three parallel step edges, upper landing, adjoining curbs and platform tiles. Complete local flight visible; facades/road continue beyond frame. Step endpoints and heights need independent native measurement."
     }
   ]
 }

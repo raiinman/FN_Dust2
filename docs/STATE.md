@@ -19,7 +19,7 @@ preserve all raw captures, failed attempts and existing work/ directories.
 
 ## Reviewed progress
 
-- 206 registered reviewed JPEGs; eight historical coverage exclusions retained.
+- 210 registered reviewed JPEGs; eight historical coverage exclusions retained.
   Original24 and recovered55 re-inspected; all additions individually inspected.
   IMAGE_REVIEW/IMAGE_AUDIT and capture registers own hashes/provenance/rejections.
 - Sixteen critical-area forward/reverse/side/elevation sets and eleven subarea
@@ -30,7 +30,7 @@ preserve all raw captures, failed attempts and existing work/ directories.
   Phase 2 exporter/editor round-trip remains unverified. Unsaved Hammer128-unit
   cube is an agent-authored calibration fixture, not production or source geometry.
 - 13 repeated floor datums,54 Short floor samples,54 Tunnel stair floor samples,
-  89 connector floor/cover/cap points,157 calibrated feature measurements.
+  132 connector floor/cover/cap points,161 calibrated feature measurements.
   No continuous floors, room outlines or cover bounds inferred from point counts.
 - Short:12 rendered/native risers, individual nonuniform section spacing;
   sampled rise234.3912cm/run359.6132cm. SHORT_STAIR_* preserve endpoint limits.
@@ -108,11 +108,18 @@ east wall joint and base remain separate. Native bbox/text identified combined
 basemodel entity, not useful cover bounds; overlays explicitly toggled OFF.
 Restored front source camera/read back before next controller.
 
-Active serial probe_long_pit_floor_profiles_01.py, private
-long_pit_floor_profiles_01 folder:18 Pit and14 Long centerline floor-only columns
-atX1400, yaw90. Low Pit casts start beneath gate canopy. Inspect process/partial
-reports before another pose/input controller. These new reports still private,
-not accepted as continuous surfaces or complete ramp endpoints. Preserve plan.json.
+Long/Pit profile batch and both extensions ended;43 repeated points registered,
+including20 samples each onX1400 centerlines plus3 entry/platform companions.
+RAMP_PROFILE_GROUPS/RAMP_PROFILE/RAMP_SEGMENTS preserve sample-only scope.
+Four inspected local A ramp/entry JPEGs registered. Three visible entry steps
+require native endpoint measurement. Long/Pit-upper north rays corrected to
+rising road floor, not far walls.
+
+Entry grid probe_a_entry_grid_01.py ended, private a_entry_grid_01 folder,
+ten floor columns atX1100/1200,Y2680..2840. Inspect process/partial reports
+before another pose/input controller. Grid samples still private. Active serial
+probe_a_entry_fine_01.py in a_entry_fine_01 samples15 center and5 lateral points.
+Inspect its process/reports; no concurrent controller.
 
 Next: remaining structural apertures/room spans/cover bounds and ramp profiles;
 full Tunnel side/terminal footprint; bounded other launch/partner scope;
@@ -128,7 +135,7 @@ build/map unchanged. No bot remains. Private plotting dependencies in
 policy; do not bypass/change it. Native PNG-to-reviewed-JPEG uses private PIL.
 
 Verification:34-edge/four-special topology evidence audit PASS for listed
-current-build connections,206-image hash audit,16 critical/11 subarea reviews, physical
-register157 rows, overhead/local calibration checks, Tunnel repeated-point,
+current-build connections,210-image hash audit,16 critical/11 subarea reviews, physical
+register161 rows, overhead/local calibration checks, Tunnel repeated-point,
 floor/face, opposite-ray/rangefinder and withheld-plane checks pass. Derived
 Short/Long/Tunnel/radar/overhead/architectural-section SVGs rendered and inspected. Gate1 still FAIL.

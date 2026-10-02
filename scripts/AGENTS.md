@@ -216,3 +216,5 @@ outside-origin repeated rays, same other coordinates and rangefinder/eye-origin
 distance agreement within.02 native. Solid-cover interiors cannot be ray origins;
 do not rename independent stations into a fictitious single station or infer
 hidden cover bounds from a combined native entity bbox.
+
+build_ramp_profile.py validates group build/ordered repeated points through build_connector_profile and writes calibrated sample intervals plus SVG. Rebuild, render and inspect. Dashed connectors denote sample order only; no interpolation or complete ramp acceptance.
