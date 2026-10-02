@@ -1,6 +1,13 @@
 # Phase 1 uncertainty ledger
 
 **Gate 1: FAIL.** These are blockers, not accepted exceptions.
+
+039 two outsideorigins match south firstMesh-facing limitY[2303.9921875,2304]
+atZ110;192 architectural reports.040 fresh8 terminalholdouts max.446016px,
+unchanged036fit and originalholds;283 registered images audited. Clean corner
+crop and1.5px selection corroborate this localZ110 exposed end. TestedY now2304;
+outsideSandZ13.44 projection remains extrapolated. Northern cap/body/fullheight
+extents and hiddenfloor are still open; absolute sourceY bound is not walllength.
 Baseline: CS2 build 25640462, 2026-10-01 UTC.
 
 Latest035 directed checks: overhead031 rays reach nearer RockHull before two
@@ -14,6 +21,13 @@ fixed-X projection can locate visible eastern face selections once plane identit
 is measured. Northern lowerwall remains hidden by rising road/curb, with barrels
 and foreground building separate. Camera localization is not full-body uncertainty.
 
+037 six corrected terminal points (475 connector total) distinguish southern
+outsideSand fromRock and retain northernRock beyond lowerroad occlusion.038
+two outsideorigins match southnearMesh at2304..2312 versus remoteMesh at2296/2300;
+northernZ122 Rockfaces through2792.191 architectural reports; full northern
+bodyend still open. A_RETAINING_CONTEXT23 unconnected projections inspected;
+southernY2304/groundZ13.44 extrapolate marker ranges explicitly.
+
 A Site checks032/033: two outsideXorigins confirm MeshX1280 atY2650/Z110
 behind nearerHull1319.9 atZ90. Preserve lower height-dependent occlusion; no
 whole-body endpoint from a first-hit change. NorthernX1000/Z180 reaches remote
@@ -23,11 +37,11 @@ camera031 maxheld .509377px. Full site/retaining/continuous layered bounds open.
 
 | ID | Unknown | Present bound | Required resolution |
 | --- | --- | --- | --- |
-| U01 | Capture continuity | Old workers did not survive. New single-owner worker verified after VConsole disconnect; 277 reference frames reviewed, eight excluded; four native radar crops inspected separately | Keep exact echo checks and rendered-area/pose checks; extend usable route-oriented coverage |
-| U02 | Critical lengths/widths | 414 calibrated collision-feature measurements;13 floor datums,54 Short and117 Tunnel stair points and469 connector surface points. Long/B/Mid local openings, Short flight, Xbox/CT crate/elevator point-pair rises accepted; full architectural bounds incomplete | Structural aperture endpoints, room lengths and remaining route/cover dimensions |
+| U01 | Capture continuity | Old workers did not survive. New single-owner worker verified after VConsole disconnect; 281 reference frames reviewed, eight excluded; four native radar crops inspected separately | Keep exact echo checks and rendered-area/pose checks; extend usable route-oriented coverage |
+| U02 | Critical lengths/widths | 414 calibrated collision-feature measurements;13 floor datums,54 Short and117 Tunnel stair points and475 connector surface points. Long/B/Mid local openings, Short flight, Xbox/CT crate/elevator point-pair rises accepted; full architectural bounds incomplete | Structural aperture endpoints, room lengths and remaining route/cover dimensions |
 | U03 | Elevations/slopes/stairs | 13 repeated native floor datums with calibrated conversion; CT floor/overhead separation 167.69 native units; 54 repeated Short floor samples plus12 repeated center riser faces; Short count/rise/run and Tunnel18 count,18 rises/16 axial intervals,16 local widths accepted; full Tunnel sides/terminal edges and remaining slopes unresolved | Floor endpoints, stair counts and rise/run readings |
 | U04 | Map scale and axes | Native rangefinder anchors accept factor2.54cm/source unit; native right-axis tests and Epic documentation fix UE=(2.54x,-2.54y,2.54z), reversible math checks pass | Phase 2 exporter/editor round-trip must preserve convention exactly once; no import accepted yet |
-| U05 | Per-area directional coverage | 277 current-build reference captures, eight exclusions; sixteen critical-area view sets and eleven subarea sets accepted; all required directional sets accepted; individual image limitations retained | Preserve complementary view coverage; resolve full structural metric evidence |
+| U05 | Per-area directional coverage | 281 current-build reference captures, eight exclusions; sixteen critical-area view sets and eleven subarea sets accepted; all required directional sets accepted; individual image limitations retained | Preserve complementary view coverage; resolve full structural metric evidence |
 | U06 | Revision-sensitive traversal | S01 solo forward twice/reverse once; S02 forward; S03 solo climb twice; S04 partner boost twice/reverse drop once | Unsupported E11/E27 reverse jumps blocked twice at surveyed crossings; other launch/partner scope and full geometric launch/landing bounds; indirect walking returns now accepted both ways; preserve direction-specific evidence |
 | U07 | Source image revision | Web radars have no matching installed-build identity | Crosscheck against current local captures |
 | U08 | Current truth-map footprint | Calibrated native overhead8 fit/16 independent holdouts, max.7518px; known-Z1.5px localization allowance. Radar13 floors/24 paths; four anchors within.20px. Four room wall sections accepted; continuous layered outline unsurveyed | Architectural boundary crosschecks and overlapping elevation layers |

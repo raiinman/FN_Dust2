@@ -525,3 +525,19 @@ CONNECTOR_SURFACE_PROFILES.asite_retaining_cap_review owns034 four corrected
 RockHull top points and original plan/driver. A_SITE_SURVEY_POINTS optionally
 validates and overlays them; two different-X top/Longroad rise rows retain
 intervening curb/ground/hidden-base limits. No constant wholecap or wallheight.
+
+CONNECTOR_SURFACE_PROFILES.asite_retaining_terminal_review owns037 six corrected
+columns/serial driver: outsideSandY2296 versus southernRockY2304/2312 and northern
+Rock continuation2776/2784/2792. A_RETAINING_CONTEXT JSON/SVG, owned by
+build_a_retaining_context.py, joins their point evidence with033/038 native
+firstfaces in checked036. Validate repeats/rangefinder/restores/hash, render and
+inspect. Southern marker-range extrapolation and northern roadocclusion retained;
+no connected polygon/fullcap/body endpoints or hiddenbase inferred.
+
+A_RETAINING_TERMINAL_REVIEW.json owns039 matching independent-origin Z110
+localMesh-facing southinterval and hash-pinned040 rendered pixel-box selection.
+The context builder validates native components/poses/rangefinder/brackets,
+fresh040 exactpoint holdout and1.5px correspondence. SourceY interval includes
+.01native printing allowance perend; absolute coordinate is not a walllength.
+040 fresh8held markers preserve036fit/oldhold unchanged and extend testedY to2304.
+Native/JPEGs/all8crops inspected. Localcorner atthisheight only; no wholebody/floor.

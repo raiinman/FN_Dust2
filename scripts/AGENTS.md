@@ -471,6 +471,18 @@ components and exact driver restore before adding four cap projections. Two
 accepted_pairs feed physical register as different-X top/road sampled rises;
 do not equate them with full wallheight or a constant cap.
 
+build_a_retaining_context.py owns A_RETAINING_CONTEXT JSON/SVG. Validate033/038
+native repeated first-hit/rangefinder/restore evidence, corrected034/037 cap/
+outsideground points and checked camera036 JPEG hash. Rebuild/render/inspect.
+Keep points unconnected, southern marker-range extrapolation explicit and
+northern roadocclusion separate from cap/body end; no full footprint acceptance.
+
+Optional A_RETAINING_TERMINAL_REVIEW input selects039 Z110 native southbracket
+and040 hash-pinned rendered pixelbox. Validate independent origins, requested/
+observed pose, on/off components, rangefinder, unchanged camera fit and fresh
+exactpoint holdout before corroborating localcorner. Absolute sourceY bound
+includes .01native printing allowance perend; no length or fullbody inference.
+
 B_TIMBER_LOCAL_SECTIONS also validates optional022 two-origin firstWood/Dirt
 near-facing limit. Preserve failed019/020/021 and unsafeY2878 own-origin hit.
 Mixed MetalPanel/Wood/Dirt interfaces never automatically define fullstrip

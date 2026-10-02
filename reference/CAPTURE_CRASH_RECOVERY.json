@@ -8101,6 +8101,137 @@
       "jpeg_sha256": "aadbd0592d1f0e25d03d0fde84e42c85baa86a4ed60608f5d3d9c1d2743bc50d",
       "fov_cs_debug_parameter": 90,
       "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_ASITE_TERMINAL_HOLD_040_MARKED",
+      "timestamp_utc": "2026-10-02T20:34:14.943274+00:00",
+      "engine_capture_basename": "d2_83a68e1e53",
+      "pose_command": "setpos_exact 1660.000000 2700.000000 80.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        1660,
+        2700,
+        80,
+        0,
+        180
+      ],
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "tga_sha256": "efb8ecd33be2787da6e68704070c54991f808ed83d48e09d6efd6ce55d78258b",
+      "png_sha256": "91e1a3c93b643a3408a25e7475bd9bf871df6aaef75b6f387a959e14af4b153d",
+      "anchors": [
+        {
+          "id": "ASITE_TERMINAL_HOLD01",
+          "point": [
+            1278.51,
+            2304,
+            110
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "ASITE_TERMINAL_HOLD02",
+          "point": [
+            1276,
+            2320,
+            180
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "ASITE_TERMINAL_HOLD03",
+          "point": [
+            1280,
+            2380,
+            65
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "ASITE_TERMINAL_HOLD04",
+          "point": [
+            1288,
+            2460,
+            140
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "ASITE_TERMINAL_HOLD05",
+          "point": [
+            1272,
+            2650,
+            90
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "ASITE_TERMINAL_HOLD06",
+          "point": [
+            1284,
+            2810,
+            125
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "ASITE_TERMINAL_HOLD07",
+          "point": [
+            1280,
+            2990,
+            155
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "ASITE_TERMINAL_HOLD08",
+          "point": [
+            1276,
+            3040,
+            80
+          ],
+          "half_size": 10
+        }
+      ],
+      "status": "visually inspected; usable stated-direction reference",
+      "marker_plane": "YZ",
+      "area": "A Site",
+      "review": "Both native PNGs and8 isolated marker crops individually inspected. JPEG individually inspected and accepted for stated terminalholdout scope. Exact036pose; eight additional predeclared independent markers including039southernonpoint, excluded from originalfit. Southernexposedcorner visible; higherroad/barrel/nearbuilding occlusions and hiddenfullbody retained.",
+      "repository_image_path": "reference/images/a_site/QA_ASITE_TERMINAL_HOLD_040_MARKED.jpg",
+      "jpeg_sha256": "77bf09b5bc6d5aeebdae6f10bce331a76a1ec806544a6cd5b8df96d039dfa316",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_ASITE_TERMINAL_HOLD_040_CLEAN",
+      "timestamp_utc": "2026-10-02T20:34:21.438376+00:00",
+      "engine_capture_basename": "d2_7cb540d8e4",
+      "pose_command": "setpos_exact 1660.000000 2700.000000 80.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        1660,
+        2700,
+        80,
+        0,
+        180
+      ],
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "tga_sha256": "21cd26f402059ba5273d64a31e8babb37b7e61e0e828e4d91fc4109fb2ce4997",
+      "png_sha256": "afb6e44d864e9d6c2930972a54acf9d5300bc9022b1c5f33d39acf5eeb4b2dd8",
+      "anchors": [],
+      "status": "visually inspected; usable stated-direction reference",
+      "marker_plane": "YZ",
+      "area": "A Site",
+      "review": "Both native PNGs and8 isolated marker crops individually inspected. JPEG individually inspected and accepted for stated terminalholdout scope. Exact036pose; eight additional predeclared independent markers including039southernonpoint, excluded from originalfit. Southernexposedcorner visible; higherroad/barrel/nearbuilding occlusions and hiddenfullbody retained.",
+      "repository_image_path": "reference/images/a_site/QA_ASITE_TERMINAL_HOLD_040_CLEAN.jpg",
+      "jpeg_sha256": "e20d79b74342f9693c7d27b1db3f3f7bd2d2a9becb40c68982afeeddcd2c0cb6",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
     }
   ],
   "rejected_attempts": [

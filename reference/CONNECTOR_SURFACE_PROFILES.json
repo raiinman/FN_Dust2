@@ -35358,6 +35358,526 @@
       "id": "ASITE_EAST_TOP_X1276_Y2750_034",
       "surface_semantics": "Repeated corrected first-downward Rock Hull top near separately measured eastretainingMeshX1280. Calibrated031 shows local stonecoping region; top at thisXY only, not floor/highest wholecap/constanttop or hiddenbase.",
       "private_raw_path": "../reference_cache/crash_recovery_survey/asite_cap_columns_034/ASITE_EAST_TOP_X1276_Y2750_034.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T20:25:33.314784+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A Site eastern retaining terminal first-down component diagnostic",
+      "unit": "source_units",
+      "target_xy": [
+        1276.0,
+        2296.0
+      ],
+      "probe_player_z": 450.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1212.009766 2296.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1283.64,
+            2296.0,
+            13.28
+          ],
+          "xy_error": 7.6400000000001,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163281"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1204.369751 2296.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1276.0,
+            2296.0,
+            13.44
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163279"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1204.369751 2296.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1276.0,
+            2296.0,
+            13.44
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163279"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1276.0,
+          2296.0,
+          13.44
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "ASITE_EAST_TERMINAL_TOP_X1276_Y2296_037",
+      "surface_semantics": "Repeated corrected first-down SandMesh outside southern retaining cap atY2296; local ground sample, not fullfloor bound.",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/asite_cap_ends_037/ASITE_EAST_TERMINAL_TOP_X1276_Y2296_037.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T20:25:43.076232+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A Site eastern retaining terminal first-down component diagnostic",
+      "unit": "source_units",
+      "target_xy": [
+        1276.0,
+        2304.0
+      ],
+      "probe_player_z": 450.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1212.009766 2304.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1283.62,
+            2304.0,
+            14.32
+          ],
+          "xy_error": 7.619999999999891,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163281"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1204.389771 2304.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1274.1,
+            2304.0,
+            123.51
+          ],
+          "xy_error": 1.900000000000091,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1206.289795 2304.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1276.0,
+            2304.0,
+            123.51
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 4,
+          "observed_pose": "setpos_exact 1206.289795 2304.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1276.0,
+            2304.0,
+            123.51
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1276.0,
+          2304.0,
+          123.51
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "ASITE_EAST_TERMINAL_TOP_X1276_Y2304_037",
+      "surface_semantics": "Repeated corrected first-down RockHull near eastern retaining cap; localtop point. Northern continuation throughY2792 survives lower road occlusion; exposed lowerface disappearance is not cap/body end. No fullcap endpoint/hiddenbase/constanttop acceptance.",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/asite_cap_ends_037/ASITE_EAST_TERMINAL_TOP_X1276_Y2304_037.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T20:25:54.637162+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A Site eastern retaining terminal first-down component diagnostic",
+      "unit": "source_units",
+      "target_xy": [
+        1276.0,
+        2312.0
+      ],
+      "probe_player_z": 450.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1212.009766 2312.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1281.73,
+            2312.0,
+            122.93
+          ],
+          "xy_error": 5.730000000000018,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1206.279785 2312.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1275.97,
+            2312.0,
+            124.41
+          ],
+          "xy_error": 0.029999999999972715,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1206.309692 2312.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1276.0,
+            2312.0,
+            124.4
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 4,
+          "observed_pose": "setpos_exact 1206.309692 2312.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1276.0,
+            2312.0,
+            124.4
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1276.0,
+          2312.0,
+          124.4
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "ASITE_EAST_TERMINAL_TOP_X1276_Y2312_037",
+      "surface_semantics": "Repeated corrected first-down RockHull near eastern retaining cap; localtop point. Northern continuation throughY2792 survives lower road occlusion; exposed lowerface disappearance is not cap/body end. No fullcap endpoint/hiddenbase/constanttop acceptance.",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/asite_cap_ends_037/ASITE_EAST_TERMINAL_TOP_X1276_Y2312_037.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T20:26:06.726411+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A Site eastern retaining terminal first-down component diagnostic",
+      "unit": "source_units",
+      "target_xy": [
+        1276.0,
+        2776.0
+      ],
+      "probe_player_z": 450.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1212.009766 2776.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1281.72,
+            2776.0,
+            123.4
+          ],
+          "xy_error": 5.720000000000027,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1206.289795 2776.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1275.97,
+            2776.0,
+            124.97
+          ],
+          "xy_error": 0.029999999999972715,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1206.319702 2776.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1276.0,
+            2776.0,
+            124.96
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 4,
+          "observed_pose": "setpos_exact 1206.319702 2776.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1276.0,
+            2776.0,
+            124.96
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1276.0,
+          2776.0,
+          124.96
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "ASITE_EAST_TERMINAL_TOP_X1276_Y2776_037",
+      "surface_semantics": "Repeated corrected first-down RockHull near eastern retaining cap; localtop point. Northern continuation throughY2792 survives lower road occlusion; exposed lowerface disappearance is not cap/body end. No fullcap endpoint/hiddenbase/constanttop acceptance.",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/asite_cap_ends_037/ASITE_EAST_TERMINAL_TOP_X1276_Y2776_037.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T20:26:18.114246+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A Site eastern retaining terminal first-down component diagnostic",
+      "unit": "source_units",
+      "target_xy": [
+        1276.0,
+        2784.0
+      ],
+      "probe_player_z": 450.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1212.009766 2784.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1281.72,
+            2784.0,
+            123.43
+          ],
+          "xy_error": 5.720000000000027,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1206.289795 2784.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1275.97,
+            2784.0,
+            125.0
+          ],
+          "xy_error": 0.029999999999972715,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1206.319702 2784.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1276.0,
+            2784.0,
+            124.99
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 4,
+          "observed_pose": "setpos_exact 1206.319702 2784.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1276.0,
+            2784.0,
+            124.99
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1276.0,
+          2784.0,
+          124.99
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "ASITE_EAST_TERMINAL_TOP_X1276_Y2784_037",
+      "surface_semantics": "Repeated corrected first-down RockHull near eastern retaining cap; localtop point. Northern continuation throughY2792 survives lower road occlusion; exposed lowerface disappearance is not cap/body end. No fullcap endpoint/hiddenbase/constanttop acceptance.",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/asite_cap_ends_037/ASITE_EAST_TERMINAL_TOP_X1276_Y2784_037.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T20:26:29.593905+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A Site eastern retaining terminal first-down component diagnostic",
+      "unit": "source_units",
+      "target_xy": [
+        1276.0,
+        2792.0
+      ],
+      "probe_player_z": 450.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1212.009766 2792.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1281.72,
+            2792.0,
+            123.47
+          ],
+          "xy_error": 5.720000000000027,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1206.289795 2792.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1275.97,
+            2792.0,
+            125.03
+          ],
+          "xy_error": 0.029999999999972715,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1206.319702 2792.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1276.0,
+            2792.0,
+            125.03
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 4,
+          "observed_pose": "setpos_exact 1206.319702 2792.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1276.0,
+            2792.0,
+            125.03
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1276.0,
+          2792.0,
+          125.03
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "ASITE_EAST_TERMINAL_TOP_X1276_Y2792_037",
+      "surface_semantics": "Repeated corrected first-down RockHull near eastern retaining cap; localtop point. Northern continuation throughY2792 survives lower road occlusion; exposed lowerface disappearance is not cap/body end. No fullcap endpoint/hiddenbase/constanttop acceptance.",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/asite_cap_ends_037/ASITE_EAST_TERMINAL_TOP_X1276_Y2792_037.json"
     }
   ],
   "accepted_pairs": [
@@ -36893,5 +37413,114 @@
       ]
     },
     "scope": "Four explicitly reviewed RockHull top points near eastretainingMesh, component distinction separate from entire capbody/elevations; calibrated031 context. No uniform top or under-cap floor."
+  },
+  "asite_retaining_terminal_review": {
+    "plan": {
+      "build": "25640462",
+      "cases": [
+        {
+          "id": "ASITE_EAST_TERMINAL_TOP_X1276_Y2296_037",
+          "xy": [
+            1276,
+            2296
+          ],
+          "z": 450,
+          "area": "A Site eastern retaining terminal first-down component diagnostic",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "ASITE_EAST_TERMINAL_TOP_X1276_Y2304_037",
+          "xy": [
+            1276,
+            2304
+          ],
+          "z": 450,
+          "area": "A Site eastern retaining terminal first-down component diagnostic",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "ASITE_EAST_TERMINAL_TOP_X1276_Y2312_037",
+          "xy": [
+            1276,
+            2312
+          ],
+          "z": 450,
+          "area": "A Site eastern retaining terminal first-down component diagnostic",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "ASITE_EAST_TERMINAL_TOP_X1276_Y2776_037",
+          "xy": [
+            1276,
+            2776
+          ],
+          "z": 450,
+          "area": "A Site eastern retaining terminal first-down component diagnostic",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "ASITE_EAST_TERMINAL_TOP_X1276_Y2784_037",
+          "xy": [
+            1276,
+            2784
+          ],
+          "z": 450,
+          "area": "A Site eastern retaining terminal first-down component diagnostic",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "ASITE_EAST_TERMINAL_TOP_X1276_Y2792_037",
+          "xy": [
+            1276,
+            2792
+          ],
+          "z": 450,
+          "area": "A Site eastern retaining terminal first-down component diagnostic",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        }
+      ],
+      "scope": "Predeclared southern and northern terminal first-down points atX1276 after inspected calibrated036. Distinguish localRock cap, road/ground and covered masses from actual native first-hit material/shape and rendered context. No full ends from first-hit change alone, uniform elevation, hidden ground continuation or cap extrapolation."
+    },
+    "driver_recovery": {
+      "timestamp_utc": "2026-10-02T20:25:32.533094+00:00",
+      "original_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "status": "completed serial columns; semantic review pending",
+      "completed": [
+        "ASITE_EAST_TERMINAL_TOP_X1276_Y2296_037",
+        "ASITE_EAST_TERMINAL_TOP_X1276_Y2304_037",
+        "ASITE_EAST_TERMINAL_TOP_X1276_Y2312_037",
+        "ASITE_EAST_TERMINAL_TOP_X1276_Y2776_037",
+        "ASITE_EAST_TERMINAL_TOP_X1276_Y2784_037",
+        "ASITE_EAST_TERMINAL_TOP_X1276_Y2792_037"
+      ],
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "scope": "Six predeclared southern/northern firstdown columns. Y2296 sand outside; Y2304 rockZ123.51,2312Z124.4. Northern2776/2784/2792 rocktops124.96/124.99/125.03. Lowerface hidden by rising road is not capend; fullbody extent pending."
   }
 }

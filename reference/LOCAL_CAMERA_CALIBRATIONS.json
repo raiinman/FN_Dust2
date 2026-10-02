@@ -6915,13 +6915,13 @@
         1288
       ],
       "status": "accepted independently checked east retaining frontal projection; structural selection separate",
-      "method": "Eight fixedX fit markers, eight independent depth/elevation markers excluded from fit. All four native/JPEG frames and16 isolated marker crops require inspection. Approximate pose model locates search windows only.",
+      "method": "Eight fixedX fit markers, eight independent depth/elevation markers excluded from fit. All four native/JPEG frames and16 isolated marker crops require inspection. Approximate pose model locates search windows only. Fresh040 eight terminal/depth/elevation markers independently checked without changing originalfit/hold; exact039onpoint included.",
       "tested_marker_x_range": [
         1272,
         1288
       ],
       "tested_marker_y_range": [
-        2330,
+        2304,
         3050
       ],
       "tested_marker_z_range": [
@@ -6954,6 +6954,18 @@
           "repository_image_path": "reference/images/a_site/QA_ASITE_FRONTAL_HOLD_036_CLEAN.jpg",
           "jpeg_sha256": "aadbd0592d1f0e25d03d0fde84e42c85baa86a4ed60608f5d3d9c1d2743bc50d",
           "png_sha256": "83d9e5b38b2b1df6e59a15840e29d4aa36e9e125c00c4724e94bee288a9e51a1"
+        },
+        {
+          "id": "QA_ASITE_TERMINAL_HOLD_040_MARKED",
+          "repository_image_path": "reference/images/a_site/QA_ASITE_TERMINAL_HOLD_040_MARKED.jpg",
+          "jpeg_sha256": "77bf09b5bc6d5aeebdae6f10bce331a76a1ec806544a6cd5b8df96d039dfa316",
+          "png_sha256": "91e1a3c93b643a3408a25e7475bd9bf871df6aaef75b6f387a959e14af4b153d"
+        },
+        {
+          "id": "QA_ASITE_TERMINAL_HOLD_040_CLEAN",
+          "repository_image_path": "reference/images/a_site/QA_ASITE_TERMINAL_HOLD_040_CLEAN.jpg",
+          "jpeg_sha256": "e20d79b74342f9693c7d27b1db3f3f7bd2d2a9becb40c68982afeeddcd2c0cb6",
+          "png_sha256": "afb6e44d864e9d6c2930972a54acf9d5300bc9022b1c5f33d39acf5eeb4b2dd8"
         }
       ],
       "groups": [
@@ -7320,6 +7332,188 @@
             }
           ],
           "maximum_residual_px": 0.5485219146310734
+        },
+        {
+          "role": "independent southern terminal/depth/elevation040",
+          "anchors": [
+            {
+              "id": "ASITE_TERMINAL_HOLD01",
+              "world": [
+                1278.51,
+                2304,
+                110
+              ],
+              "pixel": [
+                141.49019607843138,
+                402.4901960784314
+              ],
+              "search_guess": [
+                141.74316495845227,
+                402.779627251042
+              ],
+              "analytic_model_residual_px": 0.32459760520725567,
+              "projected_pixel": [
+                141.32105427047773,
+                402.15504114266025
+              ],
+              "residual_px": 0.3754168112506142
+            },
+            {
+              "id": "ASITE_TERMINAL_HOLD02",
+              "world": [
+                1276,
+                2320,
+                180
+              ],
+              "pixel": [
+                164.5,
+                314.5
+              ],
+              "search_guess": [
+                164.99999999999983,
+                315.0
+              ],
+              "analytic_model_residual_px": 1.7053025658242404e-13,
+              "projected_pixel": [
+                164.57550726053464,
+                314.51518823046473
+              ],
+              "residual_px": 0.07701966461946651
+            },
+            {
+              "id": "ASITE_TERMINAL_HOLD03",
+              "world": [
+                1280,
+                2380,
+                65
+              ],
+              "pixel": [
+                235.49019607843138,
+                459.5
+              ],
+              "search_guess": [
+                235.7894736842104,
+                459.7894736842105
+              ],
+              "analytic_model_residual_px": 0.29087937221757776,
+              "projected_pixel": [
+                235.3577304237271,
+                459.07410895392655
+              ],
+              "residual_px": 0.4460160678739795
+            },
+            {
+              "id": "ASITE_TERMINAL_HOLD04",
+              "world": [
+                1288,
+                2460,
+                140
+              ],
+              "pixel": [
+                329.5,
+                364.50943396226415
+              ],
+              "search_guess": [
+                330.32258064516117,
+                365.16129032258067
+              ],
+              "analytic_model_residual_px": 0.356536992191798,
+              "projected_pixel": [
+                329.8811549524841,
+                364.5966051084879
+              ],
+              "residual_px": 0.39099604414510947
+            },
+            {
+              "id": "ASITE_TERMINAL_HOLD05",
+              "world": [
+                1272,
+                2650,
+                90
+              ],
+              "pixel": [
+                577.52,
+                426.4901960784314
+              ],
+              "search_guess": [
+                578.1443298969072,
+                426.8041237113402
+              ],
+              "analytic_model_residual_px": 0.2237875087216987,
+              "projected_pixel": [
+                577.6775213795208,
+                426.14128262040697
+              ],
+              "residual_px": 0.3828231787610409
+            },
+            {
+              "id": "ASITE_TERMINAL_HOLD06",
+              "world": [
+                1284,
+                2810,
+                125
+              ],
+              "pixel": [
+                780.0,
+                383.5192307692308
+              ],
+              "search_guess": [
+                780.4255319148936,
+                384.25531914893617
+              ],
+              "analytic_model_residual_px": 0.24755447629024743,
+              "projected_pixel": [
+                779.9380050049205,
+                383.6602298953335
+              ],
+              "residual_px": 0.15402640350485858
+            },
+            {
+              "id": "ASITE_TERMINAL_HOLD07",
+              "world": [
+                1280,
+                2990,
+                155
+              ],
+              "pixel": [
+                1005.5098039215686,
+                345.5098039215686
+              ],
+              "search_guess": [
+                1006.3157894736842,
+                346.10526315789474
+              ],
+              "analytic_model_residual_px": 0.32053022307330187,
+              "projected_pixel": [
+                1005.8051260439005,
+                345.57092147203747
+              ],
+              "residual_px": 0.30158002406311857
+            },
+            {
+              "id": "ASITE_TERMINAL_HOLD08",
+              "world": [
+                1276,
+                3040,
+                80
+              ],
+              "pixel": [
+                1064.5,
+                439.5
+              ],
+              "search_guess": [
+                1065.0,
+                440.0
+              ],
+              "analytic_model_residual_px": 0.0,
+              "projected_pixel": [
+                1064.4833259152456,
+                439.31614668856093
+              ],
+              "residual_px": 0.18460786881795543
+            }
+          ],
+          "maximum_residual_px": 0.4460160678739795
         }
       ],
       "intrinsics": {
@@ -7352,15 +7546,15 @@
       "sampled_pixel_localization_bounds": [
         {
           "source_x": 1272,
-          "maximum_axis_1_5_pixel_displacement_cm": 3.084661806738812
+          "maximum_axis_1_5_pixel_displacement_cm": 3.08466180673892
         },
         {
           "source_x": 1280,
-          "maximum_axis_1_5_pixel_displacement_cm": 3.021060532373082
+          "maximum_axis_1_5_pixel_displacement_cm": 3.021060532372793
         },
         {
           "source_x": 1288,
-          "maximum_axis_1_5_pixel_displacement_cm": 2.9574592580073515
+          "maximum_axis_1_5_pixel_displacement_cm": 2.957459258007207
         }
       ]
     }

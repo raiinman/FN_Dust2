@@ -2,6 +2,20 @@
 
 **FAIL. Phase 1 remains active. Phase 2 production is prohibited.**
 
+03944 observations/all0:192 architectural reports. Two outsideorigins match
+south localMesh facing limitY[2303.9921875,2304] atZ110.040 fresh8 terminalholdouts
+max.446016px without refitting036; both native/JPEGframes/all8crops inspected,
+283 image hashes/native dates PASS. Unmarkedcorner crop inspected; selected
+pixelbox corroborates localZ110 exposed corner. A_RETAINING_CONTEXT validates
+bounded sourceY coordinate and hash-pinned comparison; no fullbody/floor end.
+
+037 six corrected terminal columns/all0 restore:475 connector points. Outside
+SandY2296/Z13.44 differs fromRockY2304/Z123.51; northernRock top continues
+throughY2792/Z125.03 beyond lowerroad occlusion.038 completes32 observations/
+all0:191 architectural reports, independent origins match southern nearMesh
+transition betweenY2300/2304 and northernRock faces. A_RETAINING_CONTEXT23
+unconnected projections rendered/inspected; no wholebody endpoints accepted.
+
 East retaining frontal036 camera passes8fit/8independent depth-elevation markers,
 max.412890/.548522px. Four native/JPEGs and16 marker crops individually inspected;
 281 image hashes/native UTC dates PASS. Exposed southface and cap visible;
