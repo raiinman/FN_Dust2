@@ -8,7 +8,7 @@ with its configured model; no model override or agent delegation requested.
 ## Authority and preserved work
 
 GitHub main authoritative; fetch/check before resuming. Crash baseline35eaa642,
-dirty work preserved4c7df48, mergedab4e484. Latest pushed checkpoint2f0a651
+dirty work preserved4c7df48, mergedab4e484. Latest pushed checkpointaf39b54
 before this update. Active C:/Users/mikea/Documents/Codex/2026-09-30/new-chat/
 FN_Dust2, branch codex/crash-recovery-20261001 pushes meaningful checkpoints
 to main. OneDrive workspace separate; synced sources/ read-only. Raw/private
@@ -25,7 +25,7 @@ recovery: evidence/CRASH_RECOVERY_20261001.md. Latest Git commit pins checkpoint
   -2.54y,2.54z), inverse/length/native-right checks PASS. Phase2 editor/exporter
   roundtrip unverified. Unsaved Hammer128 calibration cube is not production.
 - 13 floor datums;54 Short/54 Tunnel stair samples;434 connector floor/cover/
-  cap points;358 calibrated feature measurements.126 local architectural chords
+  cap points;363 calibrated feature measurements.126 local architectural chords
   never become complete room rectangles or minimum full-route clearances.
 - Short12 rendered/native risers, rise234.3912cm/run359.6132cm sampled; nonuniform.
   Tunnel18 risers/18 local planes/36 independent offsets/16 tread-level widths;
@@ -195,15 +195,27 @@ southY2050 has first concrete facesX-1376/-1232; northY2400X-1343.5/-1296.
 Y2150/2300 first Wood_Dense from both sides. Different southern return/northern
 facade depths stay explicit; no mixed-component body dimension accepted.
 ONE ACTIVE source controller: cs2_probe_endpoints.py with private
-b_leaf_plane_height_holds_08/config.json; output
-B_LEAF_PLANE_INDEPENDENT_HEIGHT_HOLDS_008. Independent predictions fixed before
-capture in predictions_fixed_before_capture.json. Inspect partial/status/restore
-before further source input; never restart existing output.
+b_frame_upper_preflight_10/config.json; output B_FRAME_UPPER_FIRST_FACES_PREFLIGHT_010.
+Four upper heights/two post locations/central header, opposing normal rays.
+Explicit native misses allowed as diagnostics without endpoints. Inspect partial
+report/status/restore before new source input; never rerun existing output.
+b_leaf_plane_height_holds_08 completed
+32 observations/restored exactly;16 fresh Z40/140 tangent/height directions
+pass Z80-only plane predictions (max.005native). B_LEAF_PLANES selects2fit points
+per face,8 original+16 fresh withheld checks; derived JSON/CSV/SVG validated,
+rendered/inspected. Two sampled normal separations south20.4427..20.5376cm,
+north20.4204..20.4691cm, plane angle magnitude26.7024deg relative nativeX normal.
+No leaf ends, whole body or unseen plane continuity accepted.
 b_inner_post_transitions_07 completed92 observations/restored exactly; opposing
 origins give identical south[2112.265625,2112.28125] and north
-[2297.724609375,2297.73828125]native intervals atZ80. Explicit normal-coordinate
-classifier distinguishes first Wood post vs leaf faces, not material identity.
-Independent height/component checks needed before inner post span acceptance.
+[2297.724609375,2297.73828125]native intervals atZ80. b_inner_post_height_checks_09
+completed32 observations/restored exactly; narrow independentZ40/140 brackets
+agree. Off faces are inset timber/hinge-edge Hull, not central leaf planes.
+Only flat post cap sections supported; complete inner opening/body unresolved.
+B_POST_CAP_SECTIONS JSON and three derived measurements/CSV/SVG validated,
+rendered/inspected. Enclosing sampled Z40/80/140 bounds: flat cap separation
+470.9668..471.1700cm, south flat cap width27.3050..27.5082cm, north
+27.2796..27.4828cm. Cap separation is not inner aperture/minimum clearance.
 b_inner_frame_leaf_06 completed48 observations/restored exactly. Y2104/2112/2304
 hit opposed flat timber post caps; interiorY2120..2160 and2240..2290 hit slanted
 leaf faces. Y2200 rays reach remote surfaces through opening, not local aperture.

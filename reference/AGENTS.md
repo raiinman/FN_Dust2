@@ -285,3 +285,15 @@ distinguish same-material first faces by measured normal-coordinate bands.
 Optional off_shape requires the expected native off-component shape. Such
 interfaces remain subject to opposing-origin/height/component review; a leaf
 occlusion is not an exact fixed-post inner edge. Preserve all diagnostic rays.
+
+B_LEAF_PLANES.json selects original leaf-face fit points and independent
+tangent/height checks. B_LEAF_PLANE_CHECKS JSON/CSV and B_LEAF_PLANES.svg derive
+sampled parallel-face normal separation with explicit printing/slope/observed
+residual bounds. No unseen continuity, complete leaf thickness/ends/height or
+render/collision accuracy is granted; adjacent inset hinge faces are separate.
+
+B_POST_CAP_SECTIONS.json selects outer material transitions and inner
+normal-band transitions checked atZ40/80/140. B_POST_CAP_MEASUREMENTS JSON/CSV
+and B_POST_CAP_SECTIONS.svg enclose sampled flat cap widths and separation.
+Inset hinge timber remains distinct from central leaf planes; cap separation
+is not aperture clearance and no entire post body/height interpolation is granted.

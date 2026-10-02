@@ -340,3 +340,14 @@ distinguish same-material first faces by measured normal-coordinate bands.
 Optional off_shape requires the expected native off-component shape. Such
 interfaces remain subject to opposing-origin/height/component review; a leaf
 occlusion is not an exact fixed-post inner edge. Preserve all diagnostic rays.
+
+build_b_leaf_planes.py fits two Z80 endpoints per first-Wood face, withholds
+original interior points and fresh Z40/140 tangent checks, validates native
+repeats/restoration and derives two sampled normal separation measurements.
+Rebuild/render/inspect CSV/JSON/SVG. Numerical and observed residual bounds
+apply to sampled plane comparisons, never unseen surfaces or entire leaf bodies.
+
+build_b_post_caps.py validates opposed normal-band/outer material transitions
+and independent height brackets, checking shared flat first-Wood cap normals.
+Rebuild/render/inspect JSON/CSV/SVG; three physical rows enclose all sampled
+heights, without granting full post/body, unseen height continuity or clearance.

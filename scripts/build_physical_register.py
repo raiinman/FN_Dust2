@@ -196,6 +196,12 @@ def build(root):
     if (ref / 'B_FRAME_SECTIONS.json').exists():
         from build_b_frame_sections import measurement_rows
         measurements.extend(measurement_rows(ref))
+    if (ref / 'B_LEAF_PLANES.json').exists():
+        from build_b_leaf_planes import measurement_rows
+        measurements.extend(measurement_rows(ref))
+    if (ref / 'B_POST_CAP_SECTIONS.json').exists():
+        from build_b_post_caps import measurement_rows
+        measurements.extend(measurement_rows(ref))
     with (ref / 'MEASUREMENTS.csv').open('w', newline='') as f:
         w = csv.DictWriter(f,fieldnames=measurements[0].keys())
         w.writeheader(); w.writerows(measurements)

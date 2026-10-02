@@ -1,0 +1,57 @@
+{
+  "source_build": "25640462",
+  "baseline_report": "B_INNER_FRAME_LEAF_FIRST_FACES_006",
+  "independent_report": "B_LEAF_PLANE_INDEPENDENT_HEIGHT_HOLDS_008",
+  "leaves": [
+    {
+      "id": "south",
+      "fit": {
+        "B_INSIDE": [
+          "B_INNER_Z80_B_INSIDE_Y2120_006",
+          "B_INNER_Z80_B_INSIDE_Y2160_006"
+        ],
+        "CT_OUTSIDE": [
+          "B_INNER_Z80_CT_OUTSIDE_Y2120_006",
+          "B_INNER_Z80_CT_OUTSIDE_Y2160_006"
+        ]
+      },
+      "baseline_holds": {
+        "B_INSIDE": [
+          "B_INNER_Z80_B_INSIDE_Y2130_006",
+          "B_INNER_Z80_B_INSIDE_Y2140_006"
+        ],
+        "CT_OUTSIDE": [
+          "B_INNER_Z80_CT_OUTSIDE_Y2130_006",
+          "B_INNER_Z80_CT_OUTSIDE_Y2140_006"
+        ]
+      }
+    },
+    {
+      "id": "north",
+      "fit": {
+        "B_INSIDE": [
+          "B_INNER_Z80_B_INSIDE_Y2240_006",
+          "B_INNER_Z80_B_INSIDE_Y2290_006"
+        ],
+        "CT_OUTSIDE": [
+          "B_INNER_Z80_CT_OUTSIDE_Y2240_006",
+          "B_INNER_Z80_CT_OUTSIDE_Y2290_006"
+        ]
+      },
+      "baseline_holds": {
+        "B_INSIDE": [
+          "B_INNER_Z80_B_INSIDE_Y2260_006",
+          "B_INNER_Z80_B_INSIDE_Y2280_006"
+        ],
+        "CT_OUTSIDE": [
+          "B_INNER_Z80_CT_OUTSIDE_Y2260_006",
+          "B_INNER_Z80_CT_OUTSIDE_Y2280_006"
+        ]
+      }
+    }
+  ],
+  "camera_id": "B_DOOR_OUTSIDE_FRONTAL_001",
+  "clean_image_path": "reference/images/b_doors/QA_B_PORTAL_OUTSIDE_DETAIL_001.jpg",
+  "clean_jpeg_sha256": "51cc5a58b61d3486bf500d49598775303fd684aa798adf1f5454be2d0f7447f3",
+  "limits": "Sampled first Wood_Dense Hull faces only. Two Z80 fit points per face; withheld original tangent points and fresh Z40/140 points check a vertical parallel-plane hypothesis. Normal separation numerical bound includes printed endpoint/slope rounding and twice the observed held residual, but does not bound unseen surface continuity or rendered/collision offsets. Native first-face region visually associates with each angled leaf; no full body thickness, leaf ends/height, shared entity identity, moving state or minimum opening clearance accepted."
+}

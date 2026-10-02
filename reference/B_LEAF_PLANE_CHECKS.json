@@ -1,0 +1,390 @@
+{
+  "source_build": "25640462",
+  "leaves": [
+    {
+      "id": "south",
+      "faces": [
+        {
+          "origin_id": "B_INSIDE",
+          "fit": [
+            [
+              -1321.21,
+              2120.0,
+              80.0
+            ],
+            [
+              -1301.09,
+              2160.0,
+              80.0
+            ]
+          ],
+          "slope": 0.503000000000003,
+          "intercept": -2387.570000000006,
+          "slope_interval": [
+            0.502750000000003,
+            0.503250000000003
+          ],
+          "checks": [
+            {
+              "report": "B_INNER_FRAME_LEAF_FIRST_FACES_006",
+              "station_id": "B_INNER_Z80_B_INSIDE_Y2130_006",
+              "point": [
+                -1316.18,
+                2130.0,
+                80.0
+              ],
+              "predicted_x_native": -1316.1799999999996,
+              "residual_native": -4.547473508864641e-13
+            },
+            {
+              "report": "B_INNER_FRAME_LEAF_FIRST_FACES_006",
+              "station_id": "B_INNER_Z80_B_INSIDE_Y2140_006",
+              "point": [
+                -1311.15,
+                2140.0,
+                80.0
+              ],
+              "predicted_x_native": -1311.1499999999996,
+              "residual_native": -4.547473508864641e-13
+            },
+            {
+              "report": "B_LEAF_PLANE_INDEPENDENT_HEIGHT_HOLDS_008",
+              "station_id": "B_LEAF_Z40_B_INSIDE_Y2145_008",
+              "point": [
+                -1308.64,
+                2145.0,
+                40.0
+              ],
+              "predicted_x_native": -1308.6349999999995,
+              "residual_native": -0.005000000000563887
+            },
+            {
+              "report": "B_LEAF_PLANE_INDEPENDENT_HEIGHT_HOLDS_008",
+              "station_id": "B_LEAF_Z40_B_INSIDE_Y2155_008",
+              "point": [
+                -1303.61,
+                2155.0,
+                40.0
+              ],
+              "predicted_x_native": -1303.6049999999996,
+              "residual_native": -0.005000000000336513
+            },
+            {
+              "report": "B_LEAF_PLANE_INDEPENDENT_HEIGHT_HOLDS_008",
+              "station_id": "B_LEAF_Z140_B_INSIDE_Y2145_008",
+              "point": [
+                -1308.64,
+                2145.0,
+                140.0
+              ],
+              "predicted_x_native": -1308.6349999999995,
+              "residual_native": -0.005000000000563887
+            },
+            {
+              "report": "B_LEAF_PLANE_INDEPENDENT_HEIGHT_HOLDS_008",
+              "station_id": "B_LEAF_Z140_B_INSIDE_Y2155_008",
+              "point": [
+                -1303.61,
+                2155.0,
+                140.0
+              ],
+              "predicted_x_native": -1303.6049999999996,
+              "residual_native": -0.005000000000336513
+            }
+          ],
+          "maximum_held_residual_native": 0.005000000000563887
+        },
+        {
+          "origin_id": "CT_OUTSIDE",
+          "fit": [
+            [
+              -1312.18,
+              2120.0,
+              80.0
+            ],
+            [
+              -1292.06,
+              2160.0,
+              80.0
+            ]
+          ],
+          "slope": 0.503000000000003,
+          "intercept": -2378.5400000000063,
+          "slope_interval": [
+            0.502750000000003,
+            0.503250000000003
+          ],
+          "checks": [
+            {
+              "report": "B_INNER_FRAME_LEAF_FIRST_FACES_006",
+              "station_id": "B_INNER_Z80_CT_OUTSIDE_Y2130_006",
+              "point": [
+                -1307.15,
+                2130.0,
+                80.0
+              ],
+              "predicted_x_native": -1307.1499999999999,
+              "residual_native": 0.0
+            },
+            {
+              "report": "B_INNER_FRAME_LEAF_FIRST_FACES_006",
+              "station_id": "B_INNER_Z80_CT_OUTSIDE_Y2140_006",
+              "point": [
+                -1302.12,
+                2140.0,
+                80.0
+              ],
+              "predicted_x_native": -1302.12,
+              "residual_native": 0.0
+            },
+            {
+              "report": "B_LEAF_PLANE_INDEPENDENT_HEIGHT_HOLDS_008",
+              "station_id": "B_LEAF_Z40_CT_OUTSIDE_Y2145_008",
+              "point": [
+                -1299.61,
+                2145.0,
+                40.0
+              ],
+              "predicted_x_native": -1299.6049999999998,
+              "residual_native": -0.005000000000109139
+            },
+            {
+              "report": "B_LEAF_PLANE_INDEPENDENT_HEIGHT_HOLDS_008",
+              "station_id": "B_LEAF_Z40_CT_OUTSIDE_Y2155_008",
+              "point": [
+                -1294.58,
+                2155.0,
+                40.0
+              ],
+              "predicted_x_native": -1294.5749999999998,
+              "residual_native": -0.005000000000109139
+            },
+            {
+              "report": "B_LEAF_PLANE_INDEPENDENT_HEIGHT_HOLDS_008",
+              "station_id": "B_LEAF_Z140_CT_OUTSIDE_Y2145_008",
+              "point": [
+                -1299.61,
+                2145.0,
+                140.0
+              ],
+              "predicted_x_native": -1299.6049999999998,
+              "residual_native": -0.005000000000109139
+            },
+            {
+              "report": "B_LEAF_PLANE_INDEPENDENT_HEIGHT_HOLDS_008",
+              "station_id": "B_LEAF_Z140_CT_OUTSIDE_Y2155_008",
+              "point": [
+                -1294.58,
+                2155.0,
+                140.0
+              ],
+              "predicted_x_native": -1294.5749999999998,
+              "residual_native": -0.005000000000109139
+            }
+          ],
+          "maximum_held_residual_native": 0.005000000000109139
+        }
+      ],
+      "normal_separation_cm": 20.49011386086486,
+      "normal_separation_interval_cm": [
+        20.442679547063605,
+        20.537556880731927
+      ],
+      "source_angle_deg": 26.702395970771555,
+      "limits": "Sampled first Wood_Dense Hull faces only. Two Z80 fit points per face; withheld original tangent points and fresh Z40/140 points check a vertical parallel-plane hypothesis. Normal separation numerical bound includes printed endpoint/slope rounding and twice the observed held residual, but does not bound unseen surface continuity or rendered/collision offsets. Native first-face region visually associates with each angled leaf; no full body thickness, leaf ends/height, shared entity identity, moving state or minimum opening clearance accepted."
+    },
+    {
+      "id": "north",
+      "faces": [
+        {
+          "origin_id": "B_INSIDE",
+          "fit": [
+            [
+              -1352.21,
+              2240.0,
+              80.0
+            ],
+            [
+              -1327.06,
+              2290.0,
+              80.0
+            ]
+          ],
+          "slope": 0.5030000000000018,
+          "intercept": -2478.930000000004,
+          "slope_interval": [
+            0.5028000000000018,
+            0.5032000000000018
+          ],
+          "checks": [
+            {
+              "report": "B_INNER_FRAME_LEAF_FIRST_FACES_006",
+              "station_id": "B_INNER_Z80_B_INSIDE_Y2260_006",
+              "point": [
+                -1342.15,
+                2260.0,
+                80.0
+              ],
+              "predicted_x_native": -1342.1499999999999,
+              "residual_native": 0.0
+            },
+            {
+              "report": "B_INNER_FRAME_LEAF_FIRST_FACES_006",
+              "station_id": "B_INNER_Z80_B_INSIDE_Y2280_006",
+              "point": [
+                -1332.09,
+                2280.0,
+                80.0
+              ],
+              "predicted_x_native": -1332.09,
+              "residual_native": 0.0
+            },
+            {
+              "report": "B_LEAF_PLANE_INDEPENDENT_HEIGHT_HOLDS_008",
+              "station_id": "B_LEAF_Z40_B_INSIDE_Y2250_008",
+              "point": [
+                -1347.18,
+                2250.0,
+                40.0
+              ],
+              "predicted_x_native": -1347.1799999999998,
+              "residual_native": -2.2737367544323206e-13
+            },
+            {
+              "report": "B_LEAF_PLANE_INDEPENDENT_HEIGHT_HOLDS_008",
+              "station_id": "B_LEAF_Z40_B_INSIDE_Y2270_008",
+              "point": [
+                -1337.12,
+                2270.0,
+                40.0
+              ],
+              "predicted_x_native": -1337.12,
+              "residual_native": 0.0
+            },
+            {
+              "report": "B_LEAF_PLANE_INDEPENDENT_HEIGHT_HOLDS_008",
+              "station_id": "B_LEAF_Z140_B_INSIDE_Y2250_008",
+              "point": [
+                -1347.18,
+                2250.0,
+                140.0
+              ],
+              "predicted_x_native": -1347.1799999999998,
+              "residual_native": -2.2737367544323206e-13
+            },
+            {
+              "report": "B_LEAF_PLANE_INDEPENDENT_HEIGHT_HOLDS_008",
+              "station_id": "B_LEAF_Z140_B_INSIDE_Y2270_008",
+              "point": [
+                -1337.12,
+                2270.0,
+                140.0
+              ],
+              "predicted_x_native": -1337.12,
+              "residual_native": 0.0
+            }
+          ],
+          "maximum_held_residual_native": 2.2737367544323206e-13
+        },
+        {
+          "origin_id": "CT_OUTSIDE",
+          "fit": [
+            [
+              -1343.2,
+              2240.0,
+              80.0
+            ],
+            [
+              -1318.05,
+              2290.0,
+              80.0
+            ]
+          ],
+          "slope": 0.5030000000000018,
+          "intercept": -2469.9200000000037,
+          "slope_interval": [
+            0.5028000000000018,
+            0.5032000000000018
+          ],
+          "checks": [
+            {
+              "report": "B_INNER_FRAME_LEAF_FIRST_FACES_006",
+              "station_id": "B_INNER_Z80_CT_OUTSIDE_Y2260_006",
+              "point": [
+                -1333.14,
+                2260.0,
+                80.0
+              ],
+              "predicted_x_native": -1333.1399999999996,
+              "residual_native": -4.547473508864641e-13
+            },
+            {
+              "report": "B_INNER_FRAME_LEAF_FIRST_FACES_006",
+              "station_id": "B_INNER_Z80_CT_OUTSIDE_Y2280_006",
+              "point": [
+                -1323.08,
+                2280.0,
+                80.0
+              ],
+              "predicted_x_native": -1323.0799999999997,
+              "residual_native": 0.0
+            },
+            {
+              "report": "B_LEAF_PLANE_INDEPENDENT_HEIGHT_HOLDS_008",
+              "station_id": "B_LEAF_Z40_CT_OUTSIDE_Y2250_008",
+              "point": [
+                -1338.17,
+                2250.0,
+                40.0
+              ],
+              "predicted_x_native": -1338.1699999999996,
+              "residual_native": -4.547473508864641e-13
+            },
+            {
+              "report": "B_LEAF_PLANE_INDEPENDENT_HEIGHT_HOLDS_008",
+              "station_id": "B_LEAF_Z40_CT_OUTSIDE_Y2270_008",
+              "point": [
+                -1328.11,
+                2270.0,
+                40.0
+              ],
+              "predicted_x_native": -1328.1099999999997,
+              "residual_native": -2.2737367544323206e-13
+            },
+            {
+              "report": "B_LEAF_PLANE_INDEPENDENT_HEIGHT_HOLDS_008",
+              "station_id": "B_LEAF_Z140_CT_OUTSIDE_Y2250_008",
+              "point": [
+                -1338.17,
+                2250.0,
+                140.0
+              ],
+              "predicted_x_native": -1338.1699999999996,
+              "residual_native": -4.547473508864641e-13
+            },
+            {
+              "report": "B_LEAF_PLANE_INDEPENDENT_HEIGHT_HOLDS_008",
+              "station_id": "B_LEAF_Z140_CT_OUTSIDE_Y2270_008",
+              "point": [
+                -1328.11,
+                2270.0,
+                140.0
+              ],
+              "predicted_x_native": -1328.1099999999997,
+              "residual_native": -2.2737367544323206e-13
+            }
+          ],
+          "maximum_held_residual_native": 4.547473508864641e-13
+        }
+      ],
+      "normal_separation_cm": 20.44473154888071,
+      "normal_separation_interval_cm": [
+        20.42040064550998,
+        20.46906583854634
+      ],
+      "source_angle_deg": 26.702395970771498,
+      "limits": "Sampled first Wood_Dense Hull faces only. Two Z80 fit points per face; withheld original tangent points and fresh Z40/140 points check a vertical parallel-plane hypothesis. Normal separation numerical bound includes printed endpoint/slope rounding and twice the observed held residual, but does not bound unseen surface continuity or rendered/collision offsets. Native first-face region visually associates with each angled leaf; no full body thickness, leaf ends/height, shared entity identity, moving state or minimum opening clearance accepted."
+    }
+  ],
+  "gate1": "FAIL"
+}

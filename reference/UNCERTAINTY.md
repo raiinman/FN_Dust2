@@ -6,7 +6,7 @@ Baseline: CS2 build 25640462, 2026-10-01 UTC.
 | ID | Unknown | Present bound | Required resolution |
 | --- | --- | --- | --- |
 | U01 | Capture continuity | Old workers did not survive. New single-owner worker verified after VConsole disconnect; 232 reference frames reviewed, eight excluded; four native radar crops inspected separately | Keep exact echo checks and rendered-area/pose checks; extend usable route-oriented coverage |
-| U02 | Critical lengths/widths | 358 calibrated collision-feature measurements;13 floor datums,54 Short and54 Tunnel stair points and434 connector surface points. Long/B/Mid local openings, Short flight, Xbox/CT crate/elevator point-pair rises accepted; full architectural bounds incomplete | Structural aperture endpoints, room lengths and remaining route/cover dimensions |
+| U02 | Critical lengths/widths | 363 calibrated collision-feature measurements;13 floor datums,54 Short and54 Tunnel stair points and434 connector surface points. Long/B/Mid local openings, Short flight, Xbox/CT crate/elevator point-pair rises accepted; full architectural bounds incomplete | Structural aperture endpoints, room lengths and remaining route/cover dimensions |
 | U03 | Elevations/slopes/stairs | 13 repeated native floor datums with calibrated conversion; CT floor/overhead separation 167.69 native units; 54 repeated Short floor samples plus12 repeated center riser faces; Short count/rise/run and Tunnel18 count,18 rises/16 axial intervals,16 local widths accepted; full Tunnel sides/terminal edges and remaining slopes unresolved | Floor endpoints, stair counts and rise/run readings |
 | U04 | Map scale and axes | Native rangefinder anchors accept factor2.54cm/source unit; native right-axis tests and Epic documentation fix UE=(2.54x,-2.54y,2.54z), reversible math checks pass | Phase 2 exporter/editor round-trip must preserve convention exactly once; no import accepted yet |
 | U05 | Per-area directional coverage | 232 current-build reference captures, eight exclusions; sixteen critical-area view sets and eleven subarea sets accepted; all required directional sets accepted; individual image limitations retained | Preserve complementary view coverage; resolve full structural metric evidence |
@@ -268,3 +268,14 @@ checks agree withZ80;15 new bounded lateral/normal spans bring the register to35
 B_FRAME_SECTIONS.svg calibrated native projections rendered/inspected. South
 rendered seam offset, inner post/leaf clearance, full height/body and complete
 architectural footprint remain unresolved. Gate1 FAIL; Phase2 not started.
+
+B slanted leaf sampled parallel planes pass24 withheld point checks (eight
+original,16 fresh height/tangent). B_LEAF_PLANES.svg rendered/inspected; two
+normal separation rows bring measurements to360. Flat post cap transitions
+are opposed and agree atZ40/80/140; inset timber/hinge edge faces differ from
+central leaf planes. Full leaf ends/body, clearance and footprint remain open.
+
+Three flat post cap dimensions from opposed transitions and independent
+Z40/140 checks bring measurements to363. B_POST_CAP_SECTIONS.svg rendered
+and inspected; inset hinge timber and central slanted leaf planes separate.
+Complete upper/base/body/aperture limits and whole-map footprint remain open.
