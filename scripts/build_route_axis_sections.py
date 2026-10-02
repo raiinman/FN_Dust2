@@ -31,4 +31,5 @@ def build(root):
   if rr:
    with (ref/name).open('w',newline='') as f:w=csv.DictWriter(f,fieldnames=rr[0]);w.writeheader();w.writerows(rr)
  print(len(rows),'validated diagnostic axis spans;',len(opened),'native no-hit directions; no full clearance/footprint acceptance')
+ return rows,opened
 if __name__=='__main__':build(Path(__file__).resolve().parent.parent)

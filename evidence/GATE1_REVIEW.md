@@ -249,3 +249,15 @@ No endpoint/distance assigned to missing direction. Gate1 remains FAIL.
 
 Lower south-jamb retry beyond intervening cover independently repeats concrete
 outside face; local depth66.4464cm accepted.317 calibrated measurements.
+
+Both route-axis height surveys completed/restored:168 paired local spans at35/64native above85 independently measured floors. Of84 matching stations,21 agree within.02native at both XY endpoints; maximum span change4385.183cm. The same Spawn south direction misses twice at each height, without endpoints. ROUTE_AXIS_HEIGHT_COMPARISON preserves all changes; no full route clearance or playerclip-mask acceptance. WALL_BOUNDARY_CHECKS projects axis-flat candidates into the hash-pinned calibrated overhead frame; successful point checks remain separate from full component/end-point and footprint acceptance.
+
+
+110 fresh wall-candidate midpoint directions over14 areas completed/restored;
+PLAN_SECTION_CHECKS now206 independent directions across17 area models. Of123
+axis-flat concrete candidate segments,118 agree at tested point only and five
+reject: B rear.285native, remote B south102.78native, A south3.67native,
+Long Corner458.33native and T Spawn1.53native normal-axis errors. All errors/
+materials retained. WALL_BOUNDARY_CHECKS calibrated native overview rebuilt,
+rendered and inspected; successful midpoint checks do not grant continuous
+wall identity/full ends, rendered offsets or closed layered footprint. Gate1 FAIL.

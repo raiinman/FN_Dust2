@@ -8,7 +8,7 @@ with its configured model; no model override or agent delegation requested.
 ## Authority and preserved work
 
 GitHub main authoritative; fetch/check before resuming. Crash baseline35eaa642,
-dirty work preserved4c7df48, mergedab4e484. Latest pushed checkpoint5a3d7db
+dirty work preserved4c7df48, mergedab4e484. Latest pushed checkpointeaacb3b
 before this update. Active C:/Users/mikea/Documents/Codex/2026-09-30/new-chat/
 FN_Dust2, branch codex/crash-recovery-20261001 pushes meaningful checkpoints
 to main. OneDrive workspace separate; synced sources/ read-only. Raw/private
@@ -97,13 +97,12 @@ floor or give actual walking length.26 sampled endpoint elevation/chord measures
 recorded;317 feature measurements/418 connector points. Wrapper completed all85,
 finally restored original source pose, exact independent echo/readback passed.
 
-Lower-body axis survey completed/restored:85 floor-linked stations,338 repeated
-hit observations plus two native misses,84 paired diagnostic spans. Public
-ROUTE_AXIS_SECTIONS/SPANS/OPEN_RAYS preserve material, exact heights and no-hit
-limits. No whole-route minimum or playerclip-mask acceptance. Higher64-native
-comparison route_sections_03/config.json is now the ONE ACTIVE controller;
-output ROUTE_BODY64_AXIS_SECTIONS_003.json. Inspect status/observations and
-restoration before any additional source input; preserve partial evidence.
+Both route-axis surveys completed/restored and independently read back:85 floor-
+linked stations at35/64native heights,676 repeated hit observations plus four
+native misses;168 paired diagnostic spans.84 matching two-height stations,
+only21 have both endpoints within.02native XY; maximum span change4385.183cm.
+ROUTE_AXIS_HEIGHT_COMPARISON keeps height dependence explicit; no full player
+clearance, route minimum or playerclip-mask acceptance.
 
 remaining_portals_04 completed/restored:seven local stone opening widths,three
 opposite outside-origin masonry depths and nine additional sand-floor/stone
@@ -116,8 +115,23 @@ X-536.96/-510.80 atY1370 Z30 give66.4464cm local depth; original Wood cover-hit
 pair retained diagnostic. Fresh original source-pose readback required before
 next controller. remaining_portals_04 all nine columns completed; never rerun.
 STONE_PORTAL_PROFILES selects15 columns,10 widths and4 masonry depths; its
-CSV/SVG rebuilt/rendered/inspected. axis_wall_checks_02/plan.json fixes110 fresh
-midpoint predictions over14 areas; unexecuted until active route survey ends.
+CSV/SVG rebuilt/rendered/inspected. WALL_BOUNDARY_CHECKS derives123 axis-flat candidate segments, all independently
+checked:118 agree at tested point only, five rejected.110 fresh checks over14
+areas completed/restored; total206 independent midpoint directions/17 area
+models in PLAN_SECTION_CHECKS. Calibrated overhead figure rebuilt/rendered/
+inspected. No component/full-boundary or closed-footprint acceptance.
+
+ONE ACTIVE pose controller: run_planned_columns_01.py with private
+xbox_joint_04/columns_plan.json; six first-surface downward diagnostics atX-280/
+-270/-260, Y1390/1450. SourceZ50 above measured adjacent cap; surfaces determine
+cover versus masonry. Inspect driver_recovery_001.json/completed IDs and actual
+restoration after interruption, never rerun completed cases.
+
+Planned unexecuted: high_room_sections_03/config.json and serial
+run_high_room_sections_003.py split LongZ300/UpperZ200 into separate native
+32-direction reports with full guards. portal_edges_06/widths_config.json
+selects13 additional curve/near-apex widths; columns_plan.json selects eight
+near-jamb floor/intrados columns. Preserve source units and component limits.
 
 Temporary engine_no_focus_sleep0(original20), m_yaw/m_pitch0(original.022).
 Movement released/maxspeed320/noclip1. Restore/read back temporary originals at

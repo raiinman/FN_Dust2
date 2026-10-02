@@ -1,0 +1,30 @@
+{
+  "source_build": "25640462",
+  "heights_above_measured_floor_native": [
+    35,
+    64
+  ],
+  "paired_floor_stations": 84,
+  "both_endpoint_xy_agreement_within_02_native": 21,
+  "open_directions": [
+    {
+      "report": "ROUTE_BODY35_AXIS_SECTIONS_002",
+      "station": "ROUTE_FLOOR_TSPAWN_OUTSIDE_TUNNELS_BOTH_02_001_BODY35",
+      "route": "TSPAWN_OUTSIDE_TUNNELS_BOTH",
+      "yaw": -90,
+      "eye_origin_native": "[-1499.46, -900.0, 151.78]",
+      "limits": "Two native misses; no endpoint/distance. No absent playerclip, floor boundary or rendered-edge inference."
+    },
+    {
+      "report": "ROUTE_BODY64_AXIS_SECTIONS_003",
+      "station": "ROUTE_FLOOR_TSPAWN_OUTSIDE_TUNNELS_BOTH_02_001_BODY64",
+      "route": "TSPAWN_OUTSIDE_TUNNELS_BOTH",
+      "yaw": -90,
+      "eye_origin_native": "[-1499.46, -900.0, 180.78]",
+      "limits": "Two native misses; no endpoint/distance. No absent playerclip, floor boundary or rendered-edge inference."
+    }
+  ],
+  "maximum_absolute_span_change_cm": 4385.183,
+  "status": "Validated height-dependence diagnostic; no complete route clearance acceptance",
+  "scope": "Two-height point diagnostic only; shifts may be cover, curve, grade, returns or cross-area first-hit changes. No whole-route minimum, swept body clearance or playerclip-mask acceptance."
+}

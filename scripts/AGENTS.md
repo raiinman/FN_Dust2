@@ -294,3 +294,10 @@ build_stone_portal_profiles.py validates selected repeated sand-floor/concrete
 intrados columns, opposite local opening chords and outside-origin depths.
 Rebuild/render/inspect its CSV/SVG after selection changes. Separate stone,
 timber, stairs and cover; sample-order links never certify continuous geometry.
+
+build_route_axis_comparison.py first validates both route-ray reports against
+independent floor data, then pairs exact stations/axes at35/64native heights.
+build_wall_boundary_checks.py derives concrete axis candidates, validates exact
+baseline/check links and hashes the calibrated overhead source image. Its SVG
+projects only tested-Z-range candidate points. Rebuild/render/inspect after
+checks change; numerical point agreement never accepts a continuous wall.

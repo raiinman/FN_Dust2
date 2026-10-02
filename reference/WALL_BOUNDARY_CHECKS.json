@@ -1,0 +1,5912 @@
+{
+  "source_build": "25640462",
+  "status": "Native axis-line validation candidates; no architectural boundary acceptance",
+  "diagnostic_axis_agreement_threshold_native": 0.1,
+  "accepted_boundaries": [],
+  "candidates": [
+    {
+      "id": "AXIS_CANDIDATE_B_SITE_56.25_1",
+      "source_report": "PLAN_SECTION_B_SITE_001",
+      "area": "B_SITE",
+      "source_pose": [
+        -1800,
+        2500,
+        40
+      ],
+      "axis": 1,
+      "from_yaw": 56.25,
+      "to_yaw": 67.5,
+      "from_point": [
+        -1546.09,
+        2880.0,
+        104.0
+      ],
+      "to_point": [
+        -1642.59,
+        2880.01,
+        104.0
+      ],
+      "midpoint_yaw": 61.875,
+      "check_report": "PLAN_SECTION_CHECKS_B_SITE_001",
+      "check": {
+        "station_id": "B_SITE_CHECKS",
+        "yaw": 61.875,
+        "repeat": 2,
+        "pose": "setpos_exact -1800.000000 2500.000000 40.000000;setang_exact 0.000000 61.875000 0.000000",
+        "eye_origin": [
+          -1800,
+          2500,
+          104
+        ],
+        "hit": [
+          -1597.03,
+          2879.72,
+          104.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE: 430.57 inches ( 35.88 feet)"
+      },
+      "check_axis_error_native": 0.28500000000030923,
+      "result": "candidate axis line rejected",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_B_SITE_67.5_1",
+      "source_report": "PLAN_SECTION_B_SITE_001",
+      "area": "B_SITE",
+      "source_pose": [
+        -1800,
+        2500,
+        40
+      ],
+      "axis": 1,
+      "from_yaw": 67.5,
+      "to_yaw": 78.75,
+      "from_point": [
+        -1642.59,
+        2880.01,
+        104.0
+      ],
+      "to_point": [
+        -1724.41,
+        2880.01,
+        104.0
+      ],
+      "midpoint_yaw": 73.125,
+      "check_report": "PLAN_SECTION_CHECKS_B_SITE_001",
+      "check": {
+        "station_id": "B_SITE_CHECKS",
+        "yaw": 73.125,
+        "repeat": 2,
+        "pose": "setpos_exact -1800.000000 2500.000000 40.000000;setang_exact 0.000000 73.125000 0.000000",
+        "eye_origin": [
+          -1800,
+          2500,
+          104
+        ],
+        "hit": [
+          -1684.72,
+          2880.01,
+          104.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119916"
+        ],
+        "rangefinder_reply": "DISTANCE: 397.11 inches ( 33.09 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_B_SITE_78.75_1",
+      "source_report": "PLAN_SECTION_B_SITE_001",
+      "area": "B_SITE",
+      "source_pose": [
+        -1800,
+        2500,
+        40
+      ],
+      "axis": 1,
+      "from_yaw": 78.75,
+      "to_yaw": 90.0,
+      "from_point": [
+        -1724.41,
+        2880.01,
+        104.0
+      ],
+      "to_point": [
+        -1800.0,
+        2880.0,
+        104.0
+      ],
+      "midpoint_yaw": 84.375,
+      "check_report": "PLAN_SECTION_CHECKS_B_SITE_001",
+      "check": {
+        "station_id": "B_SITE_CHECKS",
+        "yaw": 84.375,
+        "repeat": 2,
+        "pose": "setpos_exact -1800.000000 2500.000000 40.000000;setang_exact 0.000000 84.375000 0.000000",
+        "eye_origin": [
+          -1800,
+          2500,
+          104
+        ],
+        "hit": [
+          -1762.57,
+          2880.01,
+          104.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119905"
+        ],
+        "rangefinder_reply": "DISTANCE: 381.85 inches ( 31.82 feet)"
+      },
+      "check_axis_error_native": 0.005000000000109139,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_B_SITE_157.5_0",
+      "source_report": "PLAN_SECTION_B_SITE_001",
+      "area": "B_SITE",
+      "source_pose": [
+        -1800,
+        2500,
+        40
+      ],
+      "axis": 0,
+      "from_yaw": 157.5,
+      "to_yaw": 168.75,
+      "from_point": [
+        -2128.01,
+        2635.86,
+        104.0
+      ],
+      "to_point": [
+        -2128.0,
+        2565.24,
+        104.0
+      ],
+      "midpoint_yaw": 163.125,
+      "check_report": "PLAN_SECTION_CHECKS_B_SITE_001",
+      "check": {
+        "station_id": "B_SITE_CHECKS",
+        "yaw": 163.125,
+        "repeat": 2,
+        "pose": "setpos_exact -1800.000000 2500.000000 40.000000;setang_exact 0.000000 163.125000 0.000000",
+        "eye_origin": [
+          -1800,
+          2500,
+          104
+        ],
+        "hit": [
+          -2128.01,
+          2599.5,
+          104.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 114711"
+        ],
+        "rangefinder_reply": "DISTANCE: 342.76 inches ( 28.56 feet)"
+      },
+      "check_axis_error_native": 0.005000000000109139,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_B_SITE_168.75_0",
+      "source_report": "PLAN_SECTION_B_SITE_001",
+      "area": "B_SITE",
+      "source_pose": [
+        -1800,
+        2500,
+        40
+      ],
+      "axis": 0,
+      "from_yaw": 168.75,
+      "to_yaw": 180.0,
+      "from_point": [
+        -2128.0,
+        2565.24,
+        104.0
+      ],
+      "to_point": [
+        -2128.01,
+        2500.0,
+        104.0
+      ],
+      "midpoint_yaw": 174.375,
+      "check_report": "PLAN_SECTION_CHECKS_B_SITE_001",
+      "check": {
+        "station_id": "B_SITE_CHECKS",
+        "yaw": 174.375,
+        "repeat": 2,
+        "pose": "setpos_exact -1800.000000 2500.000000 40.000000;setang_exact 0.000000 174.375000 0.000000",
+        "eye_origin": [
+          -1800,
+          2500,
+          104
+        ],
+        "hit": [
+          -2128.01,
+          2532.31,
+          104.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 97375"
+        ],
+        "rangefinder_reply": "DISTANCE: 329.59 inches ( 27.47 feet)"
+      },
+      "check_axis_error_native": 0.005000000000109139,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_B_SITE_180.0_0",
+      "source_report": "PLAN_SECTION_B_SITE_001",
+      "area": "B_SITE",
+      "source_pose": [
+        -1800,
+        2500,
+        40
+      ],
+      "axis": 0,
+      "from_yaw": 180.0,
+      "to_yaw": 191.25,
+      "from_point": [
+        -2128.01,
+        2500.0,
+        104.0
+      ],
+      "to_point": [
+        -2128.01,
+        2434.76,
+        104.0
+      ],
+      "midpoint_yaw": 185.625,
+      "check_report": "PLAN_SECTION_CHECKS_B_SITE_001",
+      "check": {
+        "station_id": "B_SITE_CHECKS",
+        "yaw": 185.625,
+        "repeat": 2,
+        "pose": "setpos_exact -1800.000000 2500.000000 40.000000;setang_exact 0.000000 -174.375000 0.000000",
+        "eye_origin": [
+          -1800,
+          2500,
+          104
+        ],
+        "hit": [
+          -2128.01,
+          2467.69,
+          104.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 97293"
+        ],
+        "rangefinder_reply": "DISTANCE: 329.59 inches ( 27.47 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_B_SITE_281.25_1",
+      "source_report": "PLAN_SECTION_B_SITE_001",
+      "area": "B_SITE",
+      "source_pose": [
+        -1800,
+        2500,
+        40
+      ],
+      "axis": 1,
+      "from_yaw": 281.25,
+      "to_yaw": 292.5,
+      "from_point": [
+        -1620.98,
+        1600.0,
+        104.0
+      ],
+      "to_point": [
+        -1427.21,
+        1600.0,
+        104.0
+      ],
+      "midpoint_yaw": 286.875,
+      "check_report": "PLAN_SECTION_CHECKS_B_SITE_001",
+      "check": {
+        "station_id": "B_SITE_CHECKS",
+        "yaw": 286.875,
+        "repeat": 2,
+        "pose": "setpos_exact -1800.000000 2500.000000 40.000000;setang_exact 0.000000 -73.125000 0.000000",
+        "eye_origin": [
+          -1800,
+          2500,
+          104
+        ],
+        "hit": [
+          -1558.16,
+          1702.78,
+          104.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop metalpanel, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE: 833.10 inches ( 69.42 feet)"
+      },
+      "check_axis_error_native": 102.77999999999997,
+      "result": "candidate axis line rejected",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_CT_SPAWN_123.75_0",
+      "source_report": "PLAN_SECTION_CT_SPAWN_001",
+      "area": "CT_SPAWN",
+      "source_pose": [
+        160,
+        2370,
+        -100
+      ],
+      "axis": 0,
+      "from_yaw": 123.75,
+      "to_yaw": 135.0,
+      "from_point": [
+        67.36,
+        2508.65,
+        -36.0
+      ],
+      "to_point": [
+        67.36,
+        2462.64,
+        -36.0
+      ],
+      "midpoint_yaw": 129.375,
+      "check_report": "PLAN_SECTION_CHECKS_CT_SPAWN_001",
+      "check": {
+        "station_id": "CT_SPAWN_CHECKS",
+        "yaw": 129.375,
+        "repeat": 2,
+        "pose": "setpos_exact 160.000000 2370.000000 -100.000000;setang_exact 0.000000 129.375000 0.000000",
+        "eye_origin": [
+          160,
+          2370,
+          -36
+        ],
+        "hit": [
+          67.36,
+          2482.88,
+          -36.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 157693"
+        ],
+        "rangefinder_reply": "DISTANCE: 146.03 inches ( 12.17 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_CT_SPAWN_270.0_1",
+      "source_report": "PLAN_SECTION_CT_SPAWN_001",
+      "area": "CT_SPAWN",
+      "source_pose": [
+        160,
+        2370,
+        -100
+      ],
+      "axis": 1,
+      "from_yaw": 270.0,
+      "to_yaw": 281.25,
+      "from_point": [
+        160.0,
+        2032.0,
+        -36.0
+      ],
+      "to_point": [
+        227.23,
+        2032.0,
+        -36.0
+      ],
+      "midpoint_yaw": 275.625,
+      "check_report": "PLAN_SECTION_CHECKS_CT_SPAWN_001",
+      "check": {
+        "station_id": "CT_SPAWN_CHECKS",
+        "yaw": 275.625,
+        "repeat": 2,
+        "pose": "setpos_exact 160.000000 2370.000000 -100.000000;setang_exact 0.000000 -84.375000 0.000000",
+        "eye_origin": [
+          160,
+          2370,
+          -36
+        ],
+        "hit": [
+          193.29,
+          2032.0,
+          -36.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 156146"
+        ],
+        "rangefinder_reply": "DISTANCE: 339.64 inches ( 28.30 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_UPPER_CHAMBER_22.5_1",
+      "source_report": "PLAN_SECTION_UPPER_CHAMBER_001",
+      "area": "UPPER_CHAMBER",
+      "source_pose": [
+        -1600,
+        1200,
+        40
+      ],
+      "axis": 1,
+      "from_yaw": 22.5,
+      "to_yaw": 33.75,
+      "from_point": [
+        -1406.86,
+        1280.0,
+        104.0
+      ],
+      "to_point": [
+        -1480.27,
+        1280.0,
+        104.0
+      ],
+      "midpoint_yaw": 28.125,
+      "check_report": "PLAN_SECTION_CHECKS_UPPER_CHAMBER_001",
+      "check": {
+        "station_id": "UPPER_CHAMBER_CHECKS",
+        "yaw": 28.125,
+        "repeat": 2,
+        "pose": "setpos_exact -1600.000000 1200.000000 40.000000;setang_exact 0.000000 28.125000 0.000000",
+        "eye_origin": [
+          -1600,
+          1200,
+          104
+        ],
+        "hit": [
+          -1450.33,
+          1280.0,
+          104.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 92320"
+        ],
+        "rangefinder_reply": "DISTANCE: 169.71 inches ( 14.14 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_UPPER_CHAMBER_67.5_1",
+      "source_report": "PLAN_SECTION_UPPER_CHAMBER_001",
+      "area": "UPPER_CHAMBER",
+      "source_pose": [
+        -1600,
+        1200,
+        40
+      ],
+      "axis": 1,
+      "from_yaw": 67.5,
+      "to_yaw": 78.75,
+      "from_point": [
+        -1566.86,
+        1280.0,
+        104.0
+      ],
+      "to_point": [
+        -1584.09,
+        1280.0,
+        104.0
+      ],
+      "midpoint_yaw": 73.125,
+      "check_report": "PLAN_SECTION_CHECKS_UPPER_CHAMBER_001",
+      "check": {
+        "station_id": "UPPER_CHAMBER_CHECKS",
+        "yaw": 73.125,
+        "repeat": 2,
+        "pose": "setpos_exact -1600.000000 1200.000000 40.000000;setang_exact 0.000000 73.125000 0.000000",
+        "eye_origin": [
+          -1600,
+          1200,
+          104
+        ],
+        "hit": [
+          -1575.73,
+          1280.0,
+          104.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 92097"
+        ],
+        "rangefinder_reply": "DISTANCE:  83.60 inches (  6.97 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_UPPER_CHAMBER_303.75_1",
+      "source_report": "PLAN_SECTION_UPPER_CHAMBER_001",
+      "area": "UPPER_CHAMBER",
+      "source_pose": [
+        -1600,
+        1200,
+        40
+      ],
+      "axis": 1,
+      "from_yaw": 303.75,
+      "to_yaw": 315.0,
+      "from_point": [
+        -1482.4,
+        1024.0,
+        104.0
+      ],
+      "to_point": [
+        -1424.0,
+        1024.0,
+        104.0
+      ],
+      "midpoint_yaw": 309.375,
+      "check_report": "PLAN_SECTION_CHECKS_UPPER_CHAMBER_001",
+      "check": {
+        "station_id": "UPPER_CHAMBER_CHECKS",
+        "yaw": 309.375,
+        "repeat": 2,
+        "pose": "setpos_exact -1600.000000 1200.000000 40.000000;setang_exact 0.000000 -50.625000 0.000000",
+        "eye_origin": [
+          -1600,
+          1200,
+          104
+        ],
+        "hit": [
+          -1455.56,
+          1024.0,
+          104.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 91735"
+        ],
+        "rangefinder_reply": "DISTANCE: 227.68 inches ( 18.97 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_UPPER_CHAMBER_315.0_1",
+      "source_report": "PLAN_SECTION_UPPER_CHAMBER_001",
+      "area": "UPPER_CHAMBER",
+      "source_pose": [
+        -1600,
+        1200,
+        40
+      ],
+      "axis": 1,
+      "from_yaw": 315.0,
+      "to_yaw": 326.25,
+      "from_point": [
+        -1424.0,
+        1024.0,
+        104.0
+      ],
+      "to_point": [
+        -1336.6,
+        1024.0,
+        104.0
+      ],
+      "midpoint_yaw": 320.625,
+      "check_report": "PLAN_SECTION_CHECKS_UPPER_CHAMBER_001",
+      "check": {
+        "station_id": "UPPER_CHAMBER_CHECKS",
+        "yaw": 320.625,
+        "repeat": 2,
+        "pose": "setpos_exact -1600.000000 1200.000000 40.000000;setang_exact 0.000000 -39.375000 0.000000",
+        "eye_origin": [
+          -1600,
+          1200,
+          104
+        ],
+        "hit": [
+          -1385.55,
+          1024.0,
+          104.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 99050"
+        ],
+        "rangefinder_reply": "DISTANCE: 277.43 inches ( 23.12 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_LONG_CHAMBER_0.0_0",
+      "source_report": "PLAN_SECTION_LONG_CHAMBER_001",
+      "area": "LONG_CHAMBER",
+      "source_pose": [
+        640,
+        500,
+        16
+      ],
+      "axis": 0,
+      "from_yaw": 0.0,
+      "to_yaw": 11.25,
+      "from_point": [
+        768.0,
+        500.0,
+        80.0
+      ],
+      "to_point": [
+        768.0,
+        525.46,
+        80.0
+      ],
+      "midpoint_yaw": 5.625,
+      "check_report": "AXIS_WALL_MIDPOINTS_LONG_CHAMBER_002",
+      "check": {
+        "station_id": "LONG_CHAMBER_AXIS_CHECKS",
+        "yaw": 5.625,
+        "repeat": 2,
+        "pose": "setpos_exact 640.000000 500.000000 16.000000;setang_exact 0.000000 5.625000 0.000000",
+        "eye_origin": [
+          640,
+          500,
+          80
+        ],
+        "hit": [
+          768.0,
+          512.61,
+          80.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 84139"
+        ],
+        "rangefinder_reply": "DISTANCE: 128.62 inches ( 10.72 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_LONG_CHAMBER_11.25_0",
+      "source_report": "PLAN_SECTION_LONG_CHAMBER_001",
+      "area": "LONG_CHAMBER",
+      "source_pose": [
+        640,
+        500,
+        16
+      ],
+      "axis": 0,
+      "from_yaw": 11.25,
+      "to_yaw": 22.5,
+      "from_point": [
+        768.0,
+        525.46,
+        80.0
+      ],
+      "to_point": [
+        768.0,
+        553.02,
+        80.0
+      ],
+      "midpoint_yaw": 16.875,
+      "check_report": "AXIS_WALL_MIDPOINTS_LONG_CHAMBER_002",
+      "check": {
+        "station_id": "LONG_CHAMBER_AXIS_CHECKS",
+        "yaw": 16.875,
+        "repeat": 2,
+        "pose": "setpos_exact 640.000000 500.000000 16.000000;setang_exact 0.000000 16.875000 0.000000",
+        "eye_origin": [
+          640,
+          500,
+          80
+        ],
+        "hit": [
+          768.0,
+          538.83,
+          80.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 84149"
+        ],
+        "rangefinder_reply": "DISTANCE: 133.76 inches ( 11.15 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_LONG_CHAMBER_123.75_0",
+      "source_report": "PLAN_SECTION_LONG_CHAMBER_001",
+      "area": "LONG_CHAMBER",
+      "source_pose": [
+        640,
+        500,
+        16
+      ],
+      "axis": 0,
+      "from_yaw": 123.75,
+      "to_yaw": 135.0,
+      "from_point": [
+        512.0,
+        691.57,
+        80.0
+      ],
+      "to_point": [
+        512.0,
+        628.0,
+        80.0
+      ],
+      "midpoint_yaw": 129.375,
+      "check_report": "AXIS_WALL_MIDPOINTS_LONG_CHAMBER_002",
+      "check": {
+        "station_id": "LONG_CHAMBER_AXIS_CHECKS",
+        "yaw": 129.375,
+        "repeat": 2,
+        "pose": "setpos_exact 640.000000 500.000000 16.000000;setang_exact 0.000000 129.375000 0.000000",
+        "eye_origin": [
+          640,
+          500,
+          80
+        ],
+        "hit": [
+          512.0,
+          655.97,
+          80.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 75030"
+        ],
+        "rangefinder_reply": "DISTANCE: 201.77 inches ( 16.81 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_LONG_CHAMBER_213.75_0",
+      "source_report": "PLAN_SECTION_LONG_CHAMBER_001",
+      "area": "LONG_CHAMBER",
+      "source_pose": [
+        640,
+        500,
+        16
+      ],
+      "axis": 0,
+      "from_yaw": 213.75,
+      "to_yaw": 225.0,
+      "from_point": [
+        512.0,
+        414.47,
+        80.0
+      ],
+      "to_point": [
+        512.0,
+        372.0,
+        80.0
+      ],
+      "midpoint_yaw": 219.375,
+      "check_report": "AXIS_WALL_MIDPOINTS_LONG_CHAMBER_002",
+      "check": {
+        "station_id": "LONG_CHAMBER_AXIS_CHECKS",
+        "yaw": 219.375,
+        "repeat": 2,
+        "pose": "setpos_exact 640.000000 500.000000 16.000000;setang_exact 0.000000 -140.625000 0.000000",
+        "eye_origin": [
+          640,
+          500,
+          80
+        ],
+        "hit": [
+          512.0,
+          394.95,
+          80.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 71237"
+        ],
+        "rangefinder_reply": "DISTANCE: 165.59 inches ( 13.80 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_LONG_CHAMBER_315.0_0",
+      "source_report": "PLAN_SECTION_LONG_CHAMBER_001",
+      "area": "LONG_CHAMBER",
+      "source_pose": [
+        640,
+        500,
+        16
+      ],
+      "axis": 0,
+      "from_yaw": 315.0,
+      "to_yaw": 326.25,
+      "from_point": [
+        768.0,
+        372.0,
+        80.0
+      ],
+      "to_point": [
+        768.0,
+        414.47,
+        80.0
+      ],
+      "midpoint_yaw": 320.625,
+      "check_report": "AXIS_WALL_MIDPOINTS_LONG_CHAMBER_002",
+      "check": {
+        "station_id": "LONG_CHAMBER_AXIS_CHECKS",
+        "yaw": 320.625,
+        "repeat": 2,
+        "pose": "setpos_exact 640.000000 500.000000 16.000000;setang_exact 0.000000 -39.375000 0.000000",
+        "eye_origin": [
+          640,
+          500,
+          80
+        ],
+        "hit": [
+          768.0,
+          394.95,
+          80.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 84133"
+        ],
+        "rangefinder_reply": "DISTANCE: 165.59 inches ( 13.80 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_LONG_CHAMBER_348.75_0",
+      "source_report": "PLAN_SECTION_LONG_CHAMBER_001",
+      "area": "LONG_CHAMBER",
+      "source_pose": [
+        640,
+        500,
+        16
+      ],
+      "axis": 0,
+      "from_yaw": 348.75,
+      "to_yaw": 0.0,
+      "from_point": [
+        768.0,
+        474.54,
+        80.0
+      ],
+      "to_point": [
+        768.0,
+        500.0,
+        80.0
+      ],
+      "midpoint_yaw": 354.375,
+      "check_report": "AXIS_WALL_MIDPOINTS_LONG_CHAMBER_002",
+      "check": {
+        "station_id": "LONG_CHAMBER_AXIS_CHECKS",
+        "yaw": 354.375,
+        "repeat": 2,
+        "pose": "setpos_exact 640.000000 500.000000 16.000000;setang_exact 0.000000 -5.625000 0.000000",
+        "eye_origin": [
+          640,
+          500,
+          80
+        ],
+        "hit": [
+          768.0,
+          487.39,
+          80.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 84139"
+        ],
+        "rangefinder_reply": "DISTANCE: 128.62 inches ( 10.72 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_LOWER_PASSAGE_11.25_1",
+      "source_report": "PLAN_SECTION_LOWER_PASSAGE_001",
+      "area": "LOWER_PASSAGE",
+      "source_pose": [
+        -1000,
+        1450,
+        -100
+      ],
+      "axis": 1,
+      "from_yaw": 11.25,
+      "to_yaw": 22.5,
+      "from_point": [
+        -567.65,
+        1536.0,
+        -36.0
+      ],
+      "to_point": [
+        -792.38,
+        1536.0,
+        -36.0
+      ],
+      "midpoint_yaw": 16.875,
+      "check_report": "AXIS_WALL_MIDPOINTS_LOWER_PASSAGE_002",
+      "check": {
+        "station_id": "LOWER_PASSAGE_AXIS_CHECKS",
+        "yaw": 16.875,
+        "repeat": 2,
+        "pose": "setpos_exact -1000.000000 1450.000000 -100.000000;setang_exact 0.000000 16.875000 0.000000",
+        "eye_origin": [
+          -1000,
+          1450,
+          -36
+        ],
+        "hit": [
+          -716.5,
+          1536.0,
+          -36.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101501"
+        ],
+        "rangefinder_reply": "DISTANCE: 296.26 inches ( 24.69 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_LOWER_PASSAGE_45.0_1",
+      "source_report": "PLAN_SECTION_LOWER_PASSAGE_001",
+      "area": "LOWER_PASSAGE",
+      "source_pose": [
+        -1000,
+        1450,
+        -100
+      ],
+      "axis": 1,
+      "from_yaw": 45.0,
+      "to_yaw": 56.25,
+      "from_point": [
+        -914.0,
+        1536.0,
+        -36.0
+      ],
+      "to_point": [
+        -942.54,
+        1536.0,
+        -36.0
+      ],
+      "midpoint_yaw": 50.625,
+      "check_report": "AXIS_WALL_MIDPOINTS_LOWER_PASSAGE_002",
+      "check": {
+        "station_id": "LOWER_PASSAGE_AXIS_CHECKS",
+        "yaw": 50.625,
+        "repeat": 2,
+        "pose": "setpos_exact -1000.000000 1450.000000 -100.000000;setang_exact 0.000000 50.625000 0.000000",
+        "eye_origin": [
+          -1000,
+          1450,
+          -36
+        ],
+        "hit": [
+          -929.42,
+          1536.0,
+          -36.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101481"
+        ],
+        "rangefinder_reply": "DISTANCE: 111.25 inches (  9.27 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_LOWER_PASSAGE_56.25_1",
+      "source_report": "PLAN_SECTION_LOWER_PASSAGE_001",
+      "area": "LOWER_PASSAGE",
+      "source_pose": [
+        -1000,
+        1450,
+        -100
+      ],
+      "axis": 1,
+      "from_yaw": 56.25,
+      "to_yaw": 67.5,
+      "from_point": [
+        -942.54,
+        1536.0,
+        -36.0
+      ],
+      "to_point": [
+        -964.38,
+        1536.0,
+        -36.0
+      ],
+      "midpoint_yaw": 61.875,
+      "check_report": "AXIS_WALL_MIDPOINTS_LOWER_PASSAGE_002",
+      "check": {
+        "station_id": "LOWER_PASSAGE_AXIS_CHECKS",
+        "yaw": 61.875,
+        "repeat": 2,
+        "pose": "setpos_exact -1000.000000 1450.000000 -100.000000;setang_exact 0.000000 61.875000 0.000000",
+        "eye_origin": [
+          -1000,
+          1450,
+          -36
+        ],
+        "hit": [
+          -954.03,
+          1536.0,
+          -36.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101481"
+        ],
+        "rangefinder_reply": "DISTANCE:  97.51 inches (  8.13 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_LOWER_PASSAGE_67.5_1",
+      "source_report": "PLAN_SECTION_LOWER_PASSAGE_001",
+      "area": "LOWER_PASSAGE",
+      "source_pose": [
+        -1000,
+        1450,
+        -100
+      ],
+      "axis": 1,
+      "from_yaw": 67.5,
+      "to_yaw": 78.75,
+      "from_point": [
+        -964.38,
+        1536.0,
+        -36.0
+      ],
+      "to_point": [
+        -982.89,
+        1536.0,
+        -36.0
+      ],
+      "midpoint_yaw": 73.125,
+      "check_report": "AXIS_WALL_MIDPOINTS_LOWER_PASSAGE_002",
+      "check": {
+        "station_id": "LOWER_PASSAGE_AXIS_CHECKS",
+        "yaw": 73.125,
+        "repeat": 2,
+        "pose": "setpos_exact -1000.000000 1450.000000 -100.000000;setang_exact 0.000000 73.125000 0.000000",
+        "eye_origin": [
+          -1000,
+          1450,
+          -36
+        ],
+        "hit": [
+          -973.91,
+          1536.0,
+          -36.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101114"
+        ],
+        "rangefinder_reply": "DISTANCE:  89.87 inches (  7.49 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_LOWER_PASSAGE_78.75_1",
+      "source_report": "PLAN_SECTION_LOWER_PASSAGE_001",
+      "area": "LOWER_PASSAGE",
+      "source_pose": [
+        -1000,
+        1450,
+        -100
+      ],
+      "axis": 1,
+      "from_yaw": 78.75,
+      "to_yaw": 90.0,
+      "from_point": [
+        -982.89,
+        1536.0,
+        -36.0
+      ],
+      "to_point": [
+        -1000.0,
+        1536.0,
+        -36.0
+      ],
+      "midpoint_yaw": 84.375,
+      "check_report": "AXIS_WALL_MIDPOINTS_LOWER_PASSAGE_002",
+      "check": {
+        "station_id": "LOWER_PASSAGE_AXIS_CHECKS",
+        "yaw": 84.375,
+        "repeat": 2,
+        "pose": "setpos_exact -1000.000000 1450.000000 -100.000000;setang_exact 0.000000 84.375000 0.000000",
+        "eye_origin": [
+          -1000,
+          1450,
+          -36
+        ],
+        "hit": [
+          -991.53,
+          1536.0,
+          -36.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101114"
+        ],
+        "rangefinder_reply": "DISTANCE:  86.42 inches (  7.20 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_LOWER_PASSAGE_90.0_1",
+      "source_report": "PLAN_SECTION_LOWER_PASSAGE_001",
+      "area": "LOWER_PASSAGE",
+      "source_pose": [
+        -1000,
+        1450,
+        -100
+      ],
+      "axis": 1,
+      "from_yaw": 90.0,
+      "to_yaw": 101.25,
+      "from_point": [
+        -1000.0,
+        1536.0,
+        -36.0
+      ],
+      "to_point": [
+        -1017.11,
+        1536.0,
+        -36.0
+      ],
+      "midpoint_yaw": 95.625,
+      "check_report": "AXIS_WALL_MIDPOINTS_LOWER_PASSAGE_002",
+      "check": {
+        "station_id": "LOWER_PASSAGE_AXIS_CHECKS",
+        "yaw": 95.625,
+        "repeat": 2,
+        "pose": "setpos_exact -1000.000000 1450.000000 -100.000000;setang_exact 0.000000 95.625000 0.000000",
+        "eye_origin": [
+          -1000,
+          1450,
+          -36
+        ],
+        "hit": [
+          -1008.47,
+          1536.0,
+          -36.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101116"
+        ],
+        "rangefinder_reply": "DISTANCE:  86.42 inches (  7.20 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_LOWER_PASSAGE_101.25_1",
+      "source_report": "PLAN_SECTION_LOWER_PASSAGE_001",
+      "area": "LOWER_PASSAGE",
+      "source_pose": [
+        -1000,
+        1450,
+        -100
+      ],
+      "axis": 1,
+      "from_yaw": 101.25,
+      "to_yaw": 112.5,
+      "from_point": [
+        -1017.11,
+        1536.0,
+        -36.0
+      ],
+      "to_point": [
+        -1035.62,
+        1536.0,
+        -36.0
+      ],
+      "midpoint_yaw": 106.875,
+      "check_report": "AXIS_WALL_MIDPOINTS_LOWER_PASSAGE_002",
+      "check": {
+        "station_id": "LOWER_PASSAGE_AXIS_CHECKS",
+        "yaw": 106.875,
+        "repeat": 2,
+        "pose": "setpos_exact -1000.000000 1450.000000 -100.000000;setang_exact 0.000000 106.875000 0.000000",
+        "eye_origin": [
+          -1000,
+          1450,
+          -36
+        ],
+        "hit": [
+          -1026.09,
+          1536.0,
+          -36.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101116"
+        ],
+        "rangefinder_reply": "DISTANCE:  89.87 inches (  7.49 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_LOWER_PASSAGE_112.5_1",
+      "source_report": "PLAN_SECTION_LOWER_PASSAGE_001",
+      "area": "LOWER_PASSAGE",
+      "source_pose": [
+        -1000,
+        1450,
+        -100
+      ],
+      "axis": 1,
+      "from_yaw": 112.5,
+      "to_yaw": 123.75,
+      "from_point": [
+        -1035.62,
+        1536.0,
+        -36.0
+      ],
+      "to_point": [
+        -1057.46,
+        1536.0,
+        -36.0
+      ],
+      "midpoint_yaw": 118.125,
+      "check_report": "AXIS_WALL_MIDPOINTS_LOWER_PASSAGE_002",
+      "check": {
+        "station_id": "LOWER_PASSAGE_AXIS_CHECKS",
+        "yaw": 118.125,
+        "repeat": 2,
+        "pose": "setpos_exact -1000.000000 1450.000000 -100.000000;setang_exact 0.000000 118.125000 0.000000",
+        "eye_origin": [
+          -1000,
+          1450,
+          -36
+        ],
+        "hit": [
+          -1045.97,
+          1536.0,
+          -36.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101116"
+        ],
+        "rangefinder_reply": "DISTANCE:  97.51 inches (  8.13 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_LOWER_PASSAGE_123.75_1",
+      "source_report": "PLAN_SECTION_LOWER_PASSAGE_001",
+      "area": "LOWER_PASSAGE",
+      "source_pose": [
+        -1000,
+        1450,
+        -100
+      ],
+      "axis": 1,
+      "from_yaw": 123.75,
+      "to_yaw": 135.0,
+      "from_point": [
+        -1057.46,
+        1536.0,
+        -36.0
+      ],
+      "to_point": [
+        -1086.0,
+        1536.0,
+        -36.0
+      ],
+      "midpoint_yaw": 129.375,
+      "check_report": "AXIS_WALL_MIDPOINTS_LOWER_PASSAGE_002",
+      "check": {
+        "station_id": "LOWER_PASSAGE_AXIS_CHECKS",
+        "yaw": 129.375,
+        "repeat": 2,
+        "pose": "setpos_exact -1000.000000 1450.000000 -100.000000;setang_exact 0.000000 129.375000 0.000000",
+        "eye_origin": [
+          -1000,
+          1450,
+          -36
+        ],
+        "hit": [
+          -1070.58,
+          1536.0,
+          -36.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101116"
+        ],
+        "rangefinder_reply": "DISTANCE: 111.25 inches (  9.27 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_LOWER_PASSAGE_135.0_1",
+      "source_report": "PLAN_SECTION_LOWER_PASSAGE_001",
+      "area": "LOWER_PASSAGE",
+      "source_pose": [
+        -1000,
+        1450,
+        -100
+      ],
+      "axis": 1,
+      "from_yaw": 135.0,
+      "to_yaw": 146.25,
+      "from_point": [
+        -1086.0,
+        1536.0,
+        -36.0
+      ],
+      "to_point": [
+        -1128.71,
+        1536.0,
+        -36.0
+      ],
+      "midpoint_yaw": 140.625,
+      "check_report": "AXIS_WALL_MIDPOINTS_LOWER_PASSAGE_002",
+      "check": {
+        "station_id": "LOWER_PASSAGE_AXIS_CHECKS",
+        "yaw": 140.625,
+        "repeat": 2,
+        "pose": "setpos_exact -1000.000000 1450.000000 -100.000000;setang_exact 0.000000 140.625000 0.000000",
+        "eye_origin": [
+          -1000,
+          1450,
+          -36
+        ],
+        "hit": [
+          -1104.79,
+          1536.0,
+          -36.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101104"
+        ],
+        "rangefinder_reply": "DISTANCE: 135.56 inches ( 11.30 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_LOWER_PASSAGE_168.75_0",
+      "source_report": "PLAN_SECTION_LOWER_PASSAGE_001",
+      "area": "LOWER_PASSAGE",
+      "source_pose": [
+        -1000,
+        1450,
+        -100
+      ],
+      "axis": 0,
+      "from_yaw": 168.75,
+      "to_yaw": 180.0,
+      "from_point": [
+        -1216.0,
+        1492.97,
+        -36.0
+      ],
+      "to_point": [
+        -1216.0,
+        1450.0,
+        -36.0
+      ],
+      "midpoint_yaw": 174.375,
+      "check_report": "AXIS_WALL_MIDPOINTS_LOWER_PASSAGE_002",
+      "check": {
+        "station_id": "LOWER_PASSAGE_AXIS_CHECKS",
+        "yaw": 174.375,
+        "repeat": 2,
+        "pose": "setpos_exact -1000.000000 1450.000000 -100.000000;setang_exact 0.000000 174.375000 0.000000",
+        "eye_origin": [
+          -1000,
+          1450,
+          -36
+        ],
+        "hit": [
+          -1216.0,
+          1471.27,
+          -36.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 100995"
+        ],
+        "rangefinder_reply": "DISTANCE: 217.05 inches ( 18.09 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_LOWER_PASSAGE_180.0_0",
+      "source_report": "PLAN_SECTION_LOWER_PASSAGE_001",
+      "area": "LOWER_PASSAGE",
+      "source_pose": [
+        -1000,
+        1450,
+        -100
+      ],
+      "axis": 0,
+      "from_yaw": 180.0,
+      "to_yaw": 191.25,
+      "from_point": [
+        -1216.0,
+        1450.0,
+        -36.0
+      ],
+      "to_point": [
+        -1216.0,
+        1407.03,
+        -36.0
+      ],
+      "midpoint_yaw": 185.625,
+      "check_report": "AXIS_WALL_MIDPOINTS_LOWER_PASSAGE_002",
+      "check": {
+        "station_id": "LOWER_PASSAGE_AXIS_CHECKS",
+        "yaw": 185.625,
+        "repeat": 2,
+        "pose": "setpos_exact -1000.000000 1450.000000 -100.000000;setang_exact 0.000000 -174.375000 0.000000",
+        "eye_origin": [
+          -1000,
+          1450,
+          -36
+        ],
+        "hit": [
+          -1216.0,
+          1428.73,
+          -36.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 100993"
+        ],
+        "rangefinder_reply": "DISTANCE: 217.05 inches ( 18.09 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_LOWER_PASSAGE_191.25_0",
+      "source_report": "PLAN_SECTION_LOWER_PASSAGE_001",
+      "area": "LOWER_PASSAGE",
+      "source_pose": [
+        -1000,
+        1450,
+        -100
+      ],
+      "axis": 0,
+      "from_yaw": 191.25,
+      "to_yaw": 202.5,
+      "from_point": [
+        -1216.0,
+        1407.03,
+        -36.0
+      ],
+      "to_point": [
+        -1216.0,
+        1360.53,
+        -36.0
+      ],
+      "midpoint_yaw": 196.875,
+      "check_report": "AXIS_WALL_MIDPOINTS_LOWER_PASSAGE_002",
+      "check": {
+        "station_id": "LOWER_PASSAGE_AXIS_CHECKS",
+        "yaw": 196.875,
+        "repeat": 2,
+        "pose": "setpos_exact -1000.000000 1450.000000 -100.000000;setang_exact 0.000000 -163.125000 0.000000",
+        "eye_origin": [
+          -1000,
+          1450,
+          -36
+        ],
+        "hit": [
+          -1216.0,
+          1384.48,
+          -36.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 100990"
+        ],
+        "rangefinder_reply": "DISTANCE: 225.72 inches ( 18.81 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_LOWER_PASSAGE_281.25_1",
+      "source_report": "PLAN_SECTION_LOWER_PASSAGE_001",
+      "area": "LOWER_PASSAGE",
+      "source_pose": [
+        -1000,
+        1450,
+        -100
+      ],
+      "axis": 1,
+      "from_yaw": 281.25,
+      "to_yaw": 292.5,
+      "from_point": [
+        -972.55,
+        1312.0,
+        -36.0
+      ],
+      "to_point": [
+        -942.84,
+        1312.0,
+        -36.0
+      ],
+      "midpoint_yaw": 286.875,
+      "check_report": "AXIS_WALL_MIDPOINTS_LOWER_PASSAGE_002",
+      "check": {
+        "station_id": "LOWER_PASSAGE_AXIS_CHECKS",
+        "yaw": 286.875,
+        "repeat": 2,
+        "pose": "setpos_exact -1000.000000 1450.000000 -100.000000;setang_exact 0.000000 -73.125000 0.000000",
+        "eye_origin": [
+          -1000,
+          1450,
+          -36
+        ],
+        "hit": [
+          -958.14,
+          1312.0,
+          -36.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101416"
+        ],
+        "rangefinder_reply": "DISTANCE: 144.21 inches ( 12.02 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_LOWER_PASSAGE_292.5_1",
+      "source_report": "PLAN_SECTION_LOWER_PASSAGE_001",
+      "area": "LOWER_PASSAGE",
+      "source_pose": [
+        -1000,
+        1450,
+        -100
+      ],
+      "axis": 1,
+      "from_yaw": 292.5,
+      "to_yaw": 303.75,
+      "from_point": [
+        -942.84,
+        1312.0,
+        -36.0
+      ],
+      "to_point": [
+        -907.79,
+        1312.0,
+        -36.0
+      ],
+      "midpoint_yaw": 298.125,
+      "check_report": "AXIS_WALL_MIDPOINTS_LOWER_PASSAGE_002",
+      "check": {
+        "station_id": "LOWER_PASSAGE_AXIS_CHECKS",
+        "yaw": 298.125,
+        "repeat": 2,
+        "pose": "setpos_exact -1000.000000 1450.000000 -100.000000;setang_exact 0.000000 -61.875000 0.000000",
+        "eye_origin": [
+          -1000,
+          1450,
+          -36
+        ],
+        "hit": [
+          -926.24,
+          1312.0,
+          -36.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101415"
+        ],
+        "rangefinder_reply": "DISTANCE: 156.48 inches ( 13.04 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_A_SITE_33.75_1",
+      "source_report": "PLAN_SECTION_A_SITE_001",
+      "area": "A_SITE",
+      "source_pose": [
+        950,
+        2750,
+        120
+      ],
+      "axis": 1,
+      "from_yaw": 33.75,
+      "to_yaw": 45.0,
+      "from_point": [
+        1000.88,
+        2784.0,
+        184.0
+      ],
+      "to_point": [
+        984.0,
+        2784.0,
+        184.0
+      ],
+      "midpoint_yaw": 39.375,
+      "check_report": "AXIS_WALL_MIDPOINTS_A_SITE_002",
+      "check": {
+        "station_id": "A_SITE_AXIS_CHECKS",
+        "yaw": 39.375,
+        "repeat": 2,
+        "pose": "setpos_exact 950.000000 2750.000000 120.000000;setang_exact 0.000000 39.375000 0.000000",
+        "eye_origin": [
+          950,
+          2750,
+          184
+        ],
+        "hit": [
+          991.43,
+          2784.0,
+          184.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 162982"
+        ],
+        "rangefinder_reply": "DISTANCE:  53.59 inches (  4.47 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_A_SITE_45.0_1",
+      "source_report": "PLAN_SECTION_A_SITE_001",
+      "area": "A_SITE",
+      "source_pose": [
+        950,
+        2750,
+        120
+      ],
+      "axis": 1,
+      "from_yaw": 45.0,
+      "to_yaw": 56.25,
+      "from_point": [
+        984.0,
+        2784.0,
+        184.0
+      ],
+      "to_point": [
+        972.72,
+        2784.0,
+        184.0
+      ],
+      "midpoint_yaw": 50.625,
+      "check_report": "AXIS_WALL_MIDPOINTS_A_SITE_002",
+      "check": {
+        "station_id": "A_SITE_AXIS_CHECKS",
+        "yaw": 50.625,
+        "repeat": 2,
+        "pose": "setpos_exact 950.000000 2750.000000 120.000000;setang_exact 0.000000 50.625000 0.000000",
+        "eye_origin": [
+          950,
+          2750,
+          184
+        ],
+        "hit": [
+          977.9,
+          2784.0,
+          184.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 162982"
+        ],
+        "rangefinder_reply": "DISTANCE:  43.98 inches (  3.67 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_A_SITE_123.75_1",
+      "source_report": "PLAN_SECTION_A_SITE_001",
+      "area": "A_SITE",
+      "source_pose": [
+        950,
+        2750,
+        120
+      ],
+      "axis": 1,
+      "from_yaw": 123.75,
+      "to_yaw": 135.0,
+      "from_point": [
+        927.28,
+        2784.0,
+        184.0
+      ],
+      "to_point": [
+        916.0,
+        2784.0,
+        184.0
+      ],
+      "midpoint_yaw": 129.375,
+      "check_report": "AXIS_WALL_MIDPOINTS_A_SITE_002",
+      "check": {
+        "station_id": "A_SITE_AXIS_CHECKS",
+        "yaw": 129.375,
+        "repeat": 2,
+        "pose": "setpos_exact 950.000000 2750.000000 120.000000;setang_exact 0.000000 129.375000 0.000000",
+        "eye_origin": [
+          950,
+          2750,
+          184
+        ],
+        "hit": [
+          922.1,
+          2784.0,
+          184.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 162982"
+        ],
+        "rangefinder_reply": "DISTANCE:  43.98 inches (  3.67 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_A_SITE_135.0_1",
+      "source_report": "PLAN_SECTION_A_SITE_001",
+      "area": "A_SITE",
+      "source_pose": [
+        950,
+        2750,
+        120
+      ],
+      "axis": 1,
+      "from_yaw": 135.0,
+      "to_yaw": 146.25,
+      "from_point": [
+        916.0,
+        2784.0,
+        184.0
+      ],
+      "to_point": [
+        899.12,
+        2784.0,
+        184.0
+      ],
+      "midpoint_yaw": 140.625,
+      "check_report": "AXIS_WALL_MIDPOINTS_A_SITE_002",
+      "check": {
+        "station_id": "A_SITE_AXIS_CHECKS",
+        "yaw": 140.625,
+        "repeat": 2,
+        "pose": "setpos_exact 950.000000 2750.000000 120.000000;setang_exact 0.000000 140.625000 0.000000",
+        "eye_origin": [
+          950,
+          2750,
+          184
+        ],
+        "hit": [
+          908.57,
+          2784.0,
+          184.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 162982"
+        ],
+        "rangefinder_reply": "DISTANCE:  53.59 inches (  4.47 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_A_SITE_146.25_1",
+      "source_report": "PLAN_SECTION_A_SITE_001",
+      "area": "A_SITE",
+      "source_pose": [
+        950,
+        2750,
+        120
+      ],
+      "axis": 1,
+      "from_yaw": 146.25,
+      "to_yaw": 157.5,
+      "from_point": [
+        899.12,
+        2784.0,
+        184.0
+      ],
+      "to_point": [
+        867.92,
+        2784.0,
+        184.0
+      ],
+      "midpoint_yaw": 151.875,
+      "check_report": "AXIS_WALL_MIDPOINTS_A_SITE_002",
+      "check": {
+        "station_id": "A_SITE_AXIS_CHECKS",
+        "yaw": 151.875,
+        "repeat": 2,
+        "pose": "setpos_exact 950.000000 2750.000000 120.000000;setang_exact 0.000000 151.875000 0.000000",
+        "eye_origin": [
+          950,
+          2750,
+          184
+        ],
+        "hit": [
+          886.39,
+          2784.0,
+          184.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 162981"
+        ],
+        "rangefinder_reply": "DISTANCE:  72.13 inches (  6.01 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_A_SITE_157.5_1",
+      "source_report": "PLAN_SECTION_A_SITE_001",
+      "area": "A_SITE",
+      "source_pose": [
+        950,
+        2750,
+        120
+      ],
+      "axis": 1,
+      "from_yaw": 157.5,
+      "to_yaw": 168.75,
+      "from_point": [
+        867.92,
+        2784.0,
+        184.0
+      ],
+      "to_point": [
+        779.07,
+        2784.0,
+        184.0
+      ],
+      "midpoint_yaw": 163.125,
+      "check_report": "AXIS_WALL_MIDPOINTS_A_SITE_002",
+      "check": {
+        "station_id": "A_SITE_AXIS_CHECKS",
+        "yaw": 163.125,
+        "repeat": 2,
+        "pose": "setpos_exact 950.000000 2750.000000 120.000000;setang_exact 0.000000 163.125000 0.000000",
+        "eye_origin": [
+          950,
+          2750,
+          184
+        ],
+        "hit": [
+          837.92,
+          2784.0,
+          184.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 162976"
+        ],
+        "rangefinder_reply": "DISTANCE: 117.13 inches (  9.76 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_A_SITE_202.5_0",
+      "source_report": "PLAN_SECTION_A_SITE_001",
+      "area": "A_SITE",
+      "source_pose": [
+        950,
+        2750,
+        120
+      ],
+      "axis": 0,
+      "from_yaw": 202.5,
+      "to_yaw": 213.75,
+      "from_point": [
+        256.0,
+        2462.54,
+        184.0
+      ],
+      "to_point": [
+        256.0,
+        2286.28,
+        184.0
+      ],
+      "midpoint_yaw": 208.125,
+      "check_report": "AXIS_WALL_MIDPOINTS_A_SITE_002",
+      "check": {
+        "station_id": "A_SITE_AXIS_CHECKS",
+        "yaw": 208.125,
+        "repeat": 2,
+        "pose": "setpos_exact 950.000000 2750.000000 120.000000;setang_exact 0.000000 -151.875000 0.000000",
+        "eye_origin": [
+          950,
+          2750,
+          184
+        ],
+        "hit": [
+          256.0,
+          2379.05,
+          184.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 158434"
+        ],
+        "rangefinder_reply": "DISTANCE: 786.92 inches ( 65.58 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_A_SITE_270.0_1",
+      "source_report": "PLAN_SECTION_A_SITE_001",
+      "area": "A_SITE",
+      "source_pose": [
+        950,
+        2750,
+        120
+      ],
+      "axis": 1,
+      "from_yaw": 270.0,
+      "to_yaw": 281.25,
+      "from_point": [
+        950.0,
+        2016.0,
+        184.0
+      ],
+      "to_point": [
+        1096.0,
+        2016.0,
+        184.0
+      ],
+      "midpoint_yaw": 275.625,
+      "check_report": "AXIS_WALL_MIDPOINTS_A_SITE_002",
+      "check": {
+        "station_id": "A_SITE_AXIS_CHECKS",
+        "yaw": 275.625,
+        "repeat": 2,
+        "pose": "setpos_exact 950.000000 2750.000000 120.000000;setang_exact 0.000000 -84.375000 0.000000",
+        "eye_origin": [
+          950,
+          2750,
+          184
+        ],
+        "hit": [
+          1021.93,
+          2019.67,
+          184.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE: 733.87 inches ( 61.16 feet)"
+      },
+      "check_axis_error_native": 3.6700000000000728,
+      "result": "candidate axis line rejected",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_TOP_MID_45.0_0",
+      "source_report": "PLAN_SECTION_TOP_MID_001",
+      "area": "TOP_MID",
+      "source_pose": [
+        -450,
+        300,
+        10
+      ],
+      "axis": 0,
+      "from_yaw": 45.0,
+      "to_yaw": 56.25,
+      "from_point": [
+        -128.0,
+        622.0,
+        74.0
+      ],
+      "to_point": [
+        -128.0,
+        781.91,
+        74.0
+      ],
+      "midpoint_yaw": 50.625,
+      "check_report": "AXIS_WALL_MIDPOINTS_TOP_MID_002",
+      "check": {
+        "station_id": "TOP_MID_AXIS_CHECKS",
+        "yaw": 50.625,
+        "repeat": 2,
+        "pose": "setpos_exact -450.000000 300.000000 10.000000;setang_exact 0.000000 50.625000 0.000000",
+        "eye_origin": [
+          -450,
+          300,
+          74
+        ],
+        "hit": [
+          -128.0,
+          692.36,
+          74.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 70019"
+        ],
+        "rangefinder_reply": "DISTANCE: 507.57 inches ( 42.30 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_TOP_MID_56.25_0",
+      "source_report": "PLAN_SECTION_TOP_MID_001",
+      "area": "TOP_MID",
+      "source_pose": [
+        -450,
+        300,
+        10
+      ],
+      "axis": 0,
+      "from_yaw": 56.25,
+      "to_yaw": 67.5,
+      "from_point": [
+        -128.0,
+        781.91,
+        74.0
+      ],
+      "to_point": [
+        -128.0,
+        1077.38,
+        74.0
+      ],
+      "midpoint_yaw": 61.875,
+      "check_report": "AXIS_WALL_MIDPOINTS_TOP_MID_002",
+      "check": {
+        "station_id": "TOP_MID_AXIS_CHECKS",
+        "yaw": 61.875,
+        "repeat": 2,
+        "pose": "setpos_exact -450.000000 300.000000 10.000000;setang_exact 0.000000 61.875000 0.000000",
+        "eye_origin": [
+          -450,
+          300,
+          74
+        ],
+        "hit": [
+          -128.0,
+          902.42,
+          74.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 70890"
+        ],
+        "rangefinder_reply": "DISTANCE: 683.08 inches ( 56.92 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_TOP_MID_213.75_1",
+      "source_report": "PLAN_SECTION_TOP_MID_001",
+      "area": "TOP_MID",
+      "source_pose": [
+        -450,
+        300,
+        10
+      ],
+      "axis": 1,
+      "from_yaw": 213.75,
+      "to_yaw": 225.0,
+      "from_point": [
+        -611.63,
+        192.0,
+        74.0
+      ],
+      "to_point": [
+        -558.0,
+        192.0,
+        74.0
+      ],
+      "midpoint_yaw": 219.375,
+      "check_report": "AXIS_WALL_MIDPOINTS_TOP_MID_002",
+      "check": {
+        "station_id": "TOP_MID_AXIS_CHECKS",
+        "yaw": 219.375,
+        "repeat": 2,
+        "pose": "setpos_exact -450.000000 300.000000 10.000000;setang_exact 0.000000 -140.625000 0.000000",
+        "eye_origin": [
+          -450,
+          300,
+          74
+        ],
+        "hit": [
+          -581.6,
+          192.0,
+          74.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 46540"
+        ],
+        "rangefinder_reply": "DISTANCE: 170.24 inches ( 14.19 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_TOP_MID_281.25_0",
+      "source_report": "PLAN_SECTION_TOP_MID_001",
+      "area": "TOP_MID",
+      "source_pose": [
+        -450,
+        300,
+        10
+      ],
+      "axis": 0,
+      "from_yaw": 281.25,
+      "to_yaw": 292.5,
+      "from_point": [
+        -384.01,
+        -31.77,
+        74.0
+      ],
+      "to_point": [
+        -384.0,
+        140.67,
+        74.0
+      ],
+      "midpoint_yaw": 286.875,
+      "check_report": "AXIS_WALL_MIDPOINTS_TOP_MID_002",
+      "check": {
+        "station_id": "TOP_MID_AXIS_CHECKS",
+        "yaw": 286.875,
+        "repeat": 2,
+        "pose": "setpos_exact -450.000000 300.000000 10.000000;setang_exact 0.000000 -73.125000 0.000000",
+        "eye_origin": [
+          -450,
+          300,
+          74
+        ],
+        "hit": [
+          -384.01,
+          82.45,
+          74.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 61817"
+        ],
+        "rangefinder_reply": "DISTANCE: 227.34 inches ( 18.95 feet)"
+      },
+      "check_axis_error_native": 0.0049999999999954525,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_LONG_CORNER_180.0_0",
+      "source_report": "PLAN_SECTION_LONG_CORNER_001",
+      "area": "LONG_CORNER",
+      "source_pose": [
+        1200,
+        950,
+        16
+      ],
+      "axis": 0,
+      "from_yaw": 180.0,
+      "to_yaw": 191.25,
+      "from_point": [
+        496.0,
+        950.0,
+        80.0
+      ],
+      "to_point": [
+        496.0,
+        809.97,
+        80.0
+      ],
+      "midpoint_yaw": 185.625,
+      "check_report": "AXIS_WALL_MIDPOINTS_LONG_CORNER_002",
+      "check": {
+        "station_id": "LONG_CORNER_AXIS_CHECKS",
+        "yaw": 185.625,
+        "repeat": 2,
+        "pose": "setpos_exact 1200.000000 950.000000 16.000000;setang_exact 0.000000 -174.375000 0.000000",
+        "eye_origin": [
+          1200,
+          950,
+          80
+        ],
+        "hit": [
+          496.0,
+          880.66,
+          80.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 76237"
+        ],
+        "rangefinder_reply": "DISTANCE: 707.41 inches ( 58.95 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_LONG_CORNER_236.25_0",
+      "source_report": "PLAN_SECTION_LONG_CORNER_001",
+      "area": "LONG_CORNER",
+      "source_pose": [
+        1200,
+        950,
+        16
+      ],
+      "axis": 0,
+      "from_yaw": 236.25,
+      "to_yaw": 247.5,
+      "from_point": [
+        944.0,
+        566.87,
+        80.0
+      ],
+      "to_point": [
+        944.0,
+        331.97,
+        80.0
+      ],
+      "midpoint_yaw": 241.875,
+      "check_report": "AXIS_WALL_MIDPOINTS_LONG_CORNER_002",
+      "check": {
+        "station_id": "LONG_CORNER_AXIS_CHECKS",
+        "yaw": 241.875,
+        "repeat": 2,
+        "pose": "setpos_exact 1200.000000 950.000000 16.000000;setang_exact 0.000000 -118.125000 0.000000",
+        "eye_origin": [
+          1200,
+          950,
+          80
+        ],
+        "hit": [
+          944.0,
+          471.06,
+          80.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 85298"
+        ],
+        "rangefinder_reply": "DISTANCE: 543.06 inches ( 45.26 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_LONG_CORNER_281.25_1",
+      "source_report": "PLAN_SECTION_LONG_CORNER_001",
+      "area": "LONG_CORNER",
+      "source_pose": [
+        1200,
+        950,
+        16
+      ],
+      "axis": 1,
+      "from_yaw": 281.25,
+      "to_yaw": 292.5,
+      "from_point": [
+        1325.31,
+        320.0,
+        80.0
+      ],
+      "to_point": [
+        1460.95,
+        320.0,
+        80.0
+      ],
+      "midpoint_yaw": 286.875,
+      "check_report": "AXIS_WALL_MIDPOINTS_LONG_CORNER_002",
+      "check": {
+        "station_id": "LONG_CORNER_AXIS_CHECKS",
+        "yaw": 286.875,
+        "repeat": 2,
+        "pose": "setpos_exact 1200.000000 950.000000 16.000000;setang_exact 0.000000 -73.125000 0.000000",
+        "eye_origin": [
+          1200,
+          950,
+          80
+        ],
+        "hit": [
+          1252.08,
+          778.33,
+          80.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE: 179.40 inches ( 14.95 feet)"
+      },
+      "check_axis_error_native": 458.33000000000004,
+      "result": "candidate axis line rejected",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_LONG_CORNER_315.0_0",
+      "source_report": "PLAN_SECTION_LONG_CORNER_001",
+      "area": "LONG_CORNER",
+      "source_pose": [
+        1200,
+        950,
+        16
+      ],
+      "axis": 0,
+      "from_yaw": 315.0,
+      "to_yaw": 326.25,
+      "from_point": [
+        1792.0,
+        358.0,
+        80.0
+      ],
+      "to_point": [
+        1792.0,
+        554.44,
+        80.0
+      ],
+      "midpoint_yaw": 320.625,
+      "check_report": "AXIS_WALL_MIDPOINTS_LONG_CORNER_002",
+      "check": {
+        "station_id": "LONG_CORNER_AXIS_CHECKS",
+        "yaw": 320.625,
+        "repeat": 2,
+        "pose": "setpos_exact 1200.000000 950.000000 16.000000;setang_exact 0.000000 -39.375000 0.000000",
+        "eye_origin": [
+          1200,
+          950,
+          80
+        ],
+        "hit": [
+          1792.0,
+          464.16,
+          80.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 87757"
+        ],
+        "rangefinder_reply": "DISTANCE: 765.84 inches ( 63.82 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_LONG_CORNER_326.25_0",
+      "source_report": "PLAN_SECTION_LONG_CORNER_001",
+      "area": "LONG_CORNER",
+      "source_pose": [
+        1200,
+        950,
+        16
+      ],
+      "axis": 0,
+      "from_yaw": 326.25,
+      "to_yaw": 337.5,
+      "from_point": [
+        1792.0,
+        554.44,
+        80.0
+      ],
+      "to_point": [
+        1792.0,
+        704.78,
+        80.0
+      ],
+      "midpoint_yaw": 331.875,
+      "check_report": "AXIS_WALL_MIDPOINTS_LONG_CORNER_002",
+      "check": {
+        "station_id": "LONG_CORNER_AXIS_CHECKS",
+        "yaw": 331.875,
+        "repeat": 2,
+        "pose": "setpos_exact 1200.000000 950.000000 16.000000;setang_exact 0.000000 -28.125000 0.000000",
+        "eye_origin": [
+          1200,
+          950,
+          80
+        ],
+        "hit": [
+          1792.0,
+          633.57,
+          80.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 87768"
+        ],
+        "rangefinder_reply": "DISTANCE: 671.26 inches ( 55.94 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_PIT_0.0_0",
+      "source_report": "PLAN_SECTION_PIT_001",
+      "area": "PIT",
+      "source_pose": [
+        1400,
+        350,
+        -130
+      ],
+      "axis": 0,
+      "from_yaw": 0.0,
+      "to_yaw": 11.25,
+      "from_point": [
+        1592.0,
+        350.0,
+        -66.0
+      ],
+      "to_point": [
+        1592.0,
+        388.19,
+        -66.0
+      ],
+      "midpoint_yaw": 5.625,
+      "check_report": "AXIS_WALL_MIDPOINTS_PIT_002",
+      "check": {
+        "station_id": "PIT_AXIS_CHECKS",
+        "yaw": 5.625,
+        "repeat": 2,
+        "pose": "setpos_exact 1400.000000 350.000000 -130.000000;setang_exact 0.000000 5.625000 0.000000",
+        "eye_origin": [
+          1400,
+          350,
+          -66
+        ],
+        "hit": [
+          1592.0,
+          368.91,
+          -66.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82857"
+        ],
+        "rangefinder_reply": "DISTANCE: 192.93 inches ( 16.08 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_PIT_11.25_0",
+      "source_report": "PLAN_SECTION_PIT_001",
+      "area": "PIT",
+      "source_pose": [
+        1400,
+        350,
+        -130
+      ],
+      "axis": 0,
+      "from_yaw": 11.25,
+      "to_yaw": 22.5,
+      "from_point": [
+        1592.0,
+        388.19,
+        -66.0
+      ],
+      "to_point": [
+        1592.0,
+        429.53,
+        -66.0
+      ],
+      "midpoint_yaw": 16.875,
+      "check_report": "AXIS_WALL_MIDPOINTS_PIT_002",
+      "check": {
+        "station_id": "PIT_AXIS_CHECKS",
+        "yaw": 16.875,
+        "repeat": 2,
+        "pose": "setpos_exact 1400.000000 350.000000 -130.000000;setang_exact 0.000000 16.875000 0.000000",
+        "eye_origin": [
+          1400,
+          350,
+          -66
+        ],
+        "hit": [
+          1592.0,
+          408.24,
+          -66.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82857"
+        ],
+        "rangefinder_reply": "DISTANCE: 200.64 inches ( 16.72 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_PIT_22.5_0",
+      "source_report": "PLAN_SECTION_PIT_001",
+      "area": "PIT",
+      "source_pose": [
+        1400,
+        350,
+        -130
+      ],
+      "axis": 0,
+      "from_yaw": 22.5,
+      "to_yaw": 33.75,
+      "from_point": [
+        1592.0,
+        429.53,
+        -66.0
+      ],
+      "to_point": [
+        1592.0,
+        478.29,
+        -66.0
+      ],
+      "midpoint_yaw": 28.125,
+      "check_report": "AXIS_WALL_MIDPOINTS_PIT_002",
+      "check": {
+        "station_id": "PIT_AXIS_CHECKS",
+        "yaw": 28.125,
+        "repeat": 2,
+        "pose": "setpos_exact 1400.000000 350.000000 -130.000000;setang_exact 0.000000 28.125000 0.000000",
+        "eye_origin": [
+          1400,
+          350,
+          -66
+        ],
+        "hit": [
+          1592.0,
+          452.63,
+          -66.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82877"
+        ],
+        "rangefinder_reply": "DISTANCE: 217.71 inches ( 18.14 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_PIT_33.75_0",
+      "source_report": "PLAN_SECTION_PIT_001",
+      "area": "PIT",
+      "source_pose": [
+        1400,
+        350,
+        -130
+      ],
+      "axis": 0,
+      "from_yaw": 33.75,
+      "to_yaw": 45.0,
+      "from_point": [
+        1592.0,
+        478.29,
+        -66.0
+      ],
+      "to_point": [
+        1592.0,
+        542.0,
+        -66.0
+      ],
+      "midpoint_yaw": 39.375,
+      "check_report": "AXIS_WALL_MIDPOINTS_PIT_002",
+      "check": {
+        "station_id": "PIT_AXIS_CHECKS",
+        "yaw": 39.375,
+        "repeat": 2,
+        "pose": "setpos_exact 1400.000000 350.000000 -130.000000;setang_exact 0.000000 39.375000 0.000000",
+        "eye_origin": [
+          1400,
+          350,
+          -66
+        ],
+        "hit": [
+          1592.0,
+          507.57,
+          -66.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82875"
+        ],
+        "rangefinder_reply": "DISTANCE: 248.38 inches ( 20.70 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_PIT_123.75_0",
+      "source_report": "PLAN_SECTION_PIT_001",
+      "area": "PIT",
+      "source_pose": [
+        1400,
+        350,
+        -130
+      ],
+      "axis": 0,
+      "from_yaw": 123.75,
+      "to_yaw": 135.0,
+      "from_point": [
+        1272.0,
+        541.56,
+        -66.0
+      ],
+      "to_point": [
+        1272.0,
+        478.0,
+        -66.0
+      ],
+      "midpoint_yaw": 129.375,
+      "check_report": "AXIS_WALL_MIDPOINTS_PIT_002",
+      "check": {
+        "station_id": "PIT_AXIS_CHECKS",
+        "yaw": 129.375,
+        "repeat": 2,
+        "pose": "setpos_exact 1400.000000 350.000000 -130.000000;setang_exact 0.000000 129.375000 0.000000",
+        "eye_origin": [
+          1400,
+          350,
+          -66
+        ],
+        "hit": [
+          1272.0,
+          505.97,
+          -66.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82569"
+        ],
+        "rangefinder_reply": "DISTANCE: 201.77 inches ( 16.81 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_PIT_135.0_0",
+      "source_report": "PLAN_SECTION_PIT_001",
+      "area": "PIT",
+      "source_pose": [
+        1400,
+        350,
+        -130
+      ],
+      "axis": 0,
+      "from_yaw": 135.0,
+      "to_yaw": 146.25,
+      "from_point": [
+        1272.0,
+        478.0,
+        -66.0
+      ],
+      "to_point": [
+        1272.0,
+        435.53,
+        -66.0
+      ],
+      "midpoint_yaw": 140.625,
+      "check_report": "AXIS_WALL_MIDPOINTS_PIT_002",
+      "check": {
+        "station_id": "PIT_AXIS_CHECKS",
+        "yaw": 140.625,
+        "repeat": 2,
+        "pose": "setpos_exact 1400.000000 350.000000 -130.000000;setang_exact 0.000000 140.625000 0.000000",
+        "eye_origin": [
+          1400,
+          350,
+          -66
+        ],
+        "hit": [
+          1272.0,
+          455.05,
+          -66.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82570"
+        ],
+        "rangefinder_reply": "DISTANCE: 165.59 inches ( 13.80 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_PIT_146.25_0",
+      "source_report": "PLAN_SECTION_PIT_001",
+      "area": "PIT",
+      "source_pose": [
+        1400,
+        350,
+        -130
+      ],
+      "axis": 0,
+      "from_yaw": 146.25,
+      "to_yaw": 157.5,
+      "from_point": [
+        1272.0,
+        435.53,
+        -66.0
+      ],
+      "to_point": [
+        1272.0,
+        403.02,
+        -66.0
+      ],
+      "midpoint_yaw": 151.875,
+      "check_report": "AXIS_WALL_MIDPOINTS_PIT_002",
+      "check": {
+        "station_id": "PIT_AXIS_CHECKS",
+        "yaw": 151.875,
+        "repeat": 2,
+        "pose": "setpos_exact 1400.000000 350.000000 -130.000000;setang_exact 0.000000 151.875000 0.000000",
+        "eye_origin": [
+          1400,
+          350,
+          -66
+        ],
+        "hit": [
+          1272.0,
+          418.42,
+          -66.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82542"
+        ],
+        "rangefinder_reply": "DISTANCE: 145.14 inches ( 12.09 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_PIT_157.5_0",
+      "source_report": "PLAN_SECTION_PIT_001",
+      "area": "PIT",
+      "source_pose": [
+        1400,
+        350,
+        -130
+      ],
+      "axis": 0,
+      "from_yaw": 157.5,
+      "to_yaw": 168.75,
+      "from_point": [
+        1272.0,
+        403.02,
+        -66.0
+      ],
+      "to_point": [
+        1272.0,
+        375.46,
+        -66.0
+      ],
+      "midpoint_yaw": 163.125,
+      "check_report": "AXIS_WALL_MIDPOINTS_PIT_002",
+      "check": {
+        "station_id": "PIT_AXIS_CHECKS",
+        "yaw": 163.125,
+        "repeat": 2,
+        "pose": "setpos_exact 1400.000000 350.000000 -130.000000;setang_exact 0.000000 163.125000 0.000000",
+        "eye_origin": [
+          1400,
+          350,
+          -66
+        ],
+        "hit": [
+          1272.0,
+          388.83,
+          -66.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82542"
+        ],
+        "rangefinder_reply": "DISTANCE: 133.76 inches ( 11.15 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_PIT_168.75_0",
+      "source_report": "PLAN_SECTION_PIT_001",
+      "area": "PIT",
+      "source_pose": [
+        1400,
+        350,
+        -130
+      ],
+      "axis": 0,
+      "from_yaw": 168.75,
+      "to_yaw": 180.0,
+      "from_point": [
+        1272.0,
+        375.46,
+        -66.0
+      ],
+      "to_point": [
+        1272.0,
+        350.0,
+        -66.0
+      ],
+      "midpoint_yaw": 174.375,
+      "check_report": "AXIS_WALL_MIDPOINTS_PIT_002",
+      "check": {
+        "station_id": "PIT_AXIS_CHECKS",
+        "yaw": 174.375,
+        "repeat": 2,
+        "pose": "setpos_exact 1400.000000 350.000000 -130.000000;setang_exact 0.000000 174.375000 0.000000",
+        "eye_origin": [
+          1400,
+          350,
+          -66
+        ],
+        "hit": [
+          1272.0,
+          362.61,
+          -66.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82542"
+        ],
+        "rangefinder_reply": "DISTANCE: 128.62 inches ( 10.72 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_PIT_180.0_0",
+      "source_report": "PLAN_SECTION_PIT_001",
+      "area": "PIT",
+      "source_pose": [
+        1400,
+        350,
+        -130
+      ],
+      "axis": 0,
+      "from_yaw": 180.0,
+      "to_yaw": 191.25,
+      "from_point": [
+        1272.0,
+        350.0,
+        -66.0
+      ],
+      "to_point": [
+        1272.0,
+        324.54,
+        -66.0
+      ],
+      "midpoint_yaw": 185.625,
+      "check_report": "AXIS_WALL_MIDPOINTS_PIT_002",
+      "check": {
+        "station_id": "PIT_AXIS_CHECKS",
+        "yaw": 185.625,
+        "repeat": 2,
+        "pose": "setpos_exact 1400.000000 350.000000 -130.000000;setang_exact 0.000000 -174.375000 0.000000",
+        "eye_origin": [
+          1400,
+          350,
+          -66
+        ],
+        "hit": [
+          1272.0,
+          337.39,
+          -66.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82543"
+        ],
+        "rangefinder_reply": "DISTANCE: 128.62 inches ( 10.72 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_PIT_191.25_0",
+      "source_report": "PLAN_SECTION_PIT_001",
+      "area": "PIT",
+      "source_pose": [
+        1400,
+        350,
+        -130
+      ],
+      "axis": 0,
+      "from_yaw": 191.25,
+      "to_yaw": 202.5,
+      "from_point": [
+        1272.0,
+        324.54,
+        -66.0
+      ],
+      "to_point": [
+        1272.0,
+        296.98,
+        -66.0
+      ],
+      "midpoint_yaw": 196.875,
+      "check_report": "AXIS_WALL_MIDPOINTS_PIT_002",
+      "check": {
+        "station_id": "PIT_AXIS_CHECKS",
+        "yaw": 196.875,
+        "repeat": 2,
+        "pose": "setpos_exact 1400.000000 350.000000 -130.000000;setang_exact 0.000000 -163.125000 0.000000",
+        "eye_origin": [
+          1400,
+          350,
+          -66
+        ],
+        "hit": [
+          1272.0,
+          311.17,
+          -66.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82539"
+        ],
+        "rangefinder_reply": "DISTANCE: 133.76 inches ( 11.15 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_PIT_202.5_0",
+      "source_report": "PLAN_SECTION_PIT_001",
+      "area": "PIT",
+      "source_pose": [
+        1400,
+        350,
+        -130
+      ],
+      "axis": 0,
+      "from_yaw": 202.5,
+      "to_yaw": 213.75,
+      "from_point": [
+        1272.0,
+        296.98,
+        -66.0
+      ],
+      "to_point": [
+        1272.0,
+        264.47,
+        -66.0
+      ],
+      "midpoint_yaw": 208.125,
+      "check_report": "AXIS_WALL_MIDPOINTS_PIT_002",
+      "check": {
+        "station_id": "PIT_AXIS_CHECKS",
+        "yaw": 208.125,
+        "repeat": 2,
+        "pose": "setpos_exact 1400.000000 350.000000 -130.000000;setang_exact 0.000000 -151.875000 0.000000",
+        "eye_origin": [
+          1400,
+          350,
+          -66
+        ],
+        "hit": [
+          1272.0,
+          281.58,
+          -66.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82537"
+        ],
+        "rangefinder_reply": "DISTANCE: 145.14 inches ( 12.09 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_PIT_213.75_0",
+      "source_report": "PLAN_SECTION_PIT_001",
+      "area": "PIT",
+      "source_pose": [
+        1400,
+        350,
+        -130
+      ],
+      "axis": 0,
+      "from_yaw": 213.75,
+      "to_yaw": 225.0,
+      "from_point": [
+        1272.0,
+        264.47,
+        -66.0
+      ],
+      "to_point": [
+        1272.0,
+        222.0,
+        -66.0
+      ],
+      "midpoint_yaw": 219.375,
+      "check_report": "AXIS_WALL_MIDPOINTS_PIT_002",
+      "check": {
+        "station_id": "PIT_AXIS_CHECKS",
+        "yaw": 219.375,
+        "repeat": 2,
+        "pose": "setpos_exact 1400.000000 350.000000 -130.000000;setang_exact 0.000000 -140.625000 0.000000",
+        "eye_origin": [
+          1400,
+          350,
+          -66
+        ],
+        "hit": [
+          1272.0,
+          244.95,
+          -66.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82538"
+        ],
+        "rangefinder_reply": "DISTANCE: 165.59 inches ( 13.80 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_PIT_326.25_0",
+      "source_report": "PLAN_SECTION_PIT_001",
+      "area": "PIT",
+      "source_pose": [
+        1400,
+        350,
+        -130
+      ],
+      "axis": 0,
+      "from_yaw": 326.25,
+      "to_yaw": 337.5,
+      "from_point": [
+        1592.0,
+        221.71,
+        -66.0
+      ],
+      "to_point": [
+        1592.0,
+        270.47,
+        -66.0
+      ],
+      "midpoint_yaw": 331.875,
+      "check_report": "AXIS_WALL_MIDPOINTS_PIT_002",
+      "check": {
+        "station_id": "PIT_AXIS_CHECKS",
+        "yaw": 331.875,
+        "repeat": 2,
+        "pose": "setpos_exact 1400.000000 350.000000 -130.000000;setang_exact 0.000000 -28.125000 0.000000",
+        "eye_origin": [
+          1400,
+          350,
+          -66
+        ],
+        "hit": [
+          1592.0,
+          247.37,
+          -66.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82846"
+        ],
+        "rangefinder_reply": "DISTANCE: 217.71 inches ( 18.14 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_PIT_337.5_0",
+      "source_report": "PLAN_SECTION_PIT_001",
+      "area": "PIT",
+      "source_pose": [
+        1400,
+        350,
+        -130
+      ],
+      "axis": 0,
+      "from_yaw": 337.5,
+      "to_yaw": 348.75,
+      "from_point": [
+        1592.0,
+        270.47,
+        -66.0
+      ],
+      "to_point": [
+        1592.0,
+        311.81,
+        -66.0
+      ],
+      "midpoint_yaw": 343.125,
+      "check_report": "AXIS_WALL_MIDPOINTS_PIT_002",
+      "check": {
+        "station_id": "PIT_AXIS_CHECKS",
+        "yaw": 343.125,
+        "repeat": 2,
+        "pose": "setpos_exact 1400.000000 350.000000 -130.000000;setang_exact 0.000000 -16.875000 0.000000",
+        "eye_origin": [
+          1400,
+          350,
+          -66
+        ],
+        "hit": [
+          1592.0,
+          291.76,
+          -66.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82852"
+        ],
+        "rangefinder_reply": "DISTANCE: 200.64 inches ( 16.72 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_PIT_348.75_0",
+      "source_report": "PLAN_SECTION_PIT_001",
+      "area": "PIT",
+      "source_pose": [
+        1400,
+        350,
+        -130
+      ],
+      "axis": 0,
+      "from_yaw": 348.75,
+      "to_yaw": 0.0,
+      "from_point": [
+        1592.0,
+        311.81,
+        -66.0
+      ],
+      "to_point": [
+        1592.0,
+        350.0,
+        -66.0
+      ],
+      "midpoint_yaw": 354.375,
+      "check_report": "AXIS_WALL_MIDPOINTS_PIT_002",
+      "check": {
+        "station_id": "PIT_AXIS_CHECKS",
+        "yaw": 354.375,
+        "repeat": 2,
+        "pose": "setpos_exact 1400.000000 350.000000 -130.000000;setang_exact 0.000000 -5.625000 0.000000",
+        "eye_origin": [
+          1400,
+          350,
+          -66
+        ],
+        "hit": [
+          1592.0,
+          331.09,
+          -66.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82857"
+        ],
+        "rangefinder_reply": "DISTANCE: 192.93 inches ( 16.08 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_SIDE_PIT_0.0_0",
+      "source_report": "PLAN_SECTION_SIDE_PIT_001",
+      "area": "SIDE_PIT",
+      "source_pose": [
+        1700,
+        500,
+        65
+      ],
+      "axis": 0,
+      "from_yaw": 0.0,
+      "to_yaw": 11.25,
+      "from_point": [
+        1792.0,
+        500.0,
+        129.0
+      ],
+      "to_point": [
+        1792.0,
+        518.3,
+        129.0
+      ],
+      "midpoint_yaw": 5.625,
+      "check_report": "AXIS_WALL_MIDPOINTS_SIDE_PIT_002",
+      "check": {
+        "station_id": "SIDE_PIT_AXIS_CHECKS",
+        "yaw": 5.625,
+        "repeat": 2,
+        "pose": "setpos_exact 1700.000000 500.000000 65.000000;setang_exact 0.000000 5.625000 0.000000",
+        "eye_origin": [
+          1700,
+          500,
+          129
+        ],
+        "hit": [
+          1792.0,
+          509.06,
+          129.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 87758"
+        ],
+        "rangefinder_reply": "DISTANCE:  92.45 inches (  7.70 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_SIDE_PIT_11.25_0",
+      "source_report": "PLAN_SECTION_SIDE_PIT_001",
+      "area": "SIDE_PIT",
+      "source_pose": [
+        1700,
+        500,
+        65
+      ],
+      "axis": 0,
+      "from_yaw": 11.25,
+      "to_yaw": 22.5,
+      "from_point": [
+        1792.0,
+        518.3,
+        129.0
+      ],
+      "to_point": [
+        1792.0,
+        538.11,
+        129.0
+      ],
+      "midpoint_yaw": 16.875,
+      "check_report": "AXIS_WALL_MIDPOINTS_SIDE_PIT_002",
+      "check": {
+        "station_id": "SIDE_PIT_AXIS_CHECKS",
+        "yaw": 16.875,
+        "repeat": 2,
+        "pose": "setpos_exact 1700.000000 500.000000 65.000000;setang_exact 0.000000 16.875000 0.000000",
+        "eye_origin": [
+          1700,
+          500,
+          129
+        ],
+        "hit": [
+          1792.0,
+          527.91,
+          129.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 87758"
+        ],
+        "rangefinder_reply": "DISTANCE:  96.14 inches (  8.01 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_SIDE_PIT_22.5_0",
+      "source_report": "PLAN_SECTION_SIDE_PIT_001",
+      "area": "SIDE_PIT",
+      "source_pose": [
+        1700,
+        500,
+        65
+      ],
+      "axis": 0,
+      "from_yaw": 22.5,
+      "to_yaw": 33.75,
+      "from_point": [
+        1792.0,
+        538.11,
+        129.0
+      ],
+      "to_point": [
+        1792.0,
+        561.47,
+        129.0
+      ],
+      "midpoint_yaw": 28.125,
+      "check_report": "AXIS_WALL_MIDPOINTS_SIDE_PIT_002",
+      "check": {
+        "station_id": "SIDE_PIT_AXIS_CHECKS",
+        "yaw": 28.125,
+        "repeat": 2,
+        "pose": "setpos_exact 1700.000000 500.000000 65.000000;setang_exact 0.000000 28.125000 0.000000",
+        "eye_origin": [
+          1700,
+          500,
+          129
+        ],
+        "hit": [
+          1792.0,
+          549.18,
+          129.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 87772"
+        ],
+        "rangefinder_reply": "DISTANCE: 104.32 inches (  8.69 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_SIDE_PIT_33.75_0",
+      "source_report": "PLAN_SECTION_SIDE_PIT_001",
+      "area": "SIDE_PIT",
+      "source_pose": [
+        1700,
+        500,
+        65
+      ],
+      "axis": 0,
+      "from_yaw": 33.75,
+      "to_yaw": 45.0,
+      "from_point": [
+        1792.0,
+        561.47,
+        129.0
+      ],
+      "to_point": [
+        1792.0,
+        592.0,
+        129.0
+      ],
+      "midpoint_yaw": 39.375,
+      "check_report": "AXIS_WALL_MIDPOINTS_SIDE_PIT_002",
+      "check": {
+        "station_id": "SIDE_PIT_AXIS_CHECKS",
+        "yaw": 39.375,
+        "repeat": 2,
+        "pose": "setpos_exact 1700.000000 500.000000 65.000000;setang_exact 0.000000 39.375000 0.000000",
+        "eye_origin": [
+          1700,
+          500,
+          129
+        ],
+        "hit": [
+          1792.0,
+          575.5,
+          129.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 87772"
+        ],
+        "rangefinder_reply": "DISTANCE: 119.02 inches (  9.92 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_SIDE_PIT_45.0_0",
+      "source_report": "PLAN_SECTION_SIDE_PIT_001",
+      "area": "SIDE_PIT",
+      "source_pose": [
+        1700,
+        500,
+        65
+      ],
+      "axis": 0,
+      "from_yaw": 45.0,
+      "to_yaw": 56.25,
+      "from_point": [
+        1792.0,
+        592.0,
+        129.0
+      ],
+      "to_point": [
+        1792.0,
+        637.69,
+        129.0
+      ],
+      "midpoint_yaw": 50.625,
+      "check_report": "AXIS_WALL_MIDPOINTS_SIDE_PIT_002",
+      "check": {
+        "station_id": "SIDE_PIT_AXIS_CHECKS",
+        "yaw": 50.625,
+        "repeat": 2,
+        "pose": "setpos_exact 1700.000000 500.000000 65.000000;setang_exact 0.000000 50.625000 0.000000",
+        "eye_origin": [
+          1700,
+          500,
+          129
+        ],
+        "hit": [
+          1792.0,
+          612.1,
+          129.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 87773"
+        ],
+        "rangefinder_reply": "DISTANCE: 145.02 inches ( 12.09 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_SIDE_PIT_56.25_0",
+      "source_report": "PLAN_SECTION_SIDE_PIT_001",
+      "area": "SIDE_PIT",
+      "source_pose": [
+        1700,
+        500,
+        65
+      ],
+      "axis": 0,
+      "from_yaw": 56.25,
+      "to_yaw": 67.5,
+      "from_point": [
+        1792.0,
+        637.69,
+        129.0
+      ],
+      "to_point": [
+        1792.0,
+        722.11,
+        129.0
+      ],
+      "midpoint_yaw": 61.875,
+      "check_report": "AXIS_WALL_MIDPOINTS_SIDE_PIT_002",
+      "check": {
+        "station_id": "SIDE_PIT_AXIS_CHECKS",
+        "yaw": 61.875,
+        "repeat": 2,
+        "pose": "setpos_exact 1700.000000 500.000000 65.000000;setang_exact 0.000000 61.875000 0.000000",
+        "eye_origin": [
+          1700,
+          500,
+          129
+        ],
+        "hit": [
+          1792.0,
+          672.12,
+          129.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 87785"
+        ],
+        "rangefinder_reply": "DISTANCE: 195.17 inches ( 16.26 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_SIDE_PIT_180.0_0",
+      "source_report": "PLAN_SECTION_SIDE_PIT_001",
+      "area": "SIDE_PIT",
+      "source_pose": [
+        1700,
+        500,
+        65
+      ],
+      "axis": 0,
+      "from_yaw": 180.0,
+      "to_yaw": 191.25,
+      "from_point": [
+        944.0,
+        500.0,
+        129.0
+      ],
+      "to_point": [
+        944.0,
+        349.62,
+        129.0
+      ],
+      "midpoint_yaw": 185.625,
+      "check_report": "AXIS_WALL_MIDPOINTS_SIDE_PIT_002",
+      "check": {
+        "station_id": "SIDE_PIT_AXIS_CHECKS",
+        "yaw": 185.625,
+        "repeat": 2,
+        "pose": "setpos_exact 1700.000000 500.000000 65.000000;setang_exact 0.000000 -174.375000 0.000000",
+        "eye_origin": [
+          1700,
+          500,
+          129
+        ],
+        "hit": [
+          944.0,
+          425.54,
+          129.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 85212"
+        ],
+        "rangefinder_reply": "DISTANCE: 759.66 inches ( 63.30 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_SIDE_PIT_202.5_1",
+      "source_report": "PLAN_SECTION_SIDE_PIT_001",
+      "area": "SIDE_PIT",
+      "source_pose": [
+        1700,
+        500,
+        65
+      ],
+      "axis": 1,
+      "from_yaw": 202.5,
+      "to_yaw": 213.75,
+      "from_point": [
+        1265.44,
+        320.0,
+        129.0
+      ],
+      "to_point": [
+        1430.61,
+        320.0,
+        129.0
+      ],
+      "midpoint_yaw": 208.125,
+      "check_report": "AXIS_WALL_MIDPOINTS_SIDE_PIT_002",
+      "check": {
+        "station_id": "SIDE_PIT_AXIS_CHECKS",
+        "yaw": 208.125,
+        "repeat": 2,
+        "pose": "setpos_exact 1700.000000 500.000000 65.000000;setang_exact 0.000000 -151.875000 0.000000",
+        "eye_origin": [
+          1700,
+          500,
+          129
+        ],
+        "hit": [
+          1363.24,
+          320.0,
+          129.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 86762"
+        ],
+        "rangefinder_reply": "DISTANCE: 381.84 inches ( 31.82 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_SIDE_PIT_213.75_1",
+      "source_report": "PLAN_SECTION_SIDE_PIT_001",
+      "area": "SIDE_PIT",
+      "source_pose": [
+        1700,
+        500,
+        65
+      ],
+      "axis": 1,
+      "from_yaw": 213.75,
+      "to_yaw": 225.0,
+      "from_point": [
+        1430.61,
+        320.0,
+        129.0
+      ],
+      "to_point": [
+        1520.0,
+        320.0,
+        129.0
+      ],
+      "midpoint_yaw": 219.375,
+      "check_report": "AXIS_WALL_MIDPOINTS_SIDE_PIT_002",
+      "check": {
+        "station_id": "SIDE_PIT_AXIS_CHECKS",
+        "yaw": 219.375,
+        "repeat": 2,
+        "pose": "setpos_exact 1700.000000 500.000000 65.000000;setang_exact 0.000000 -140.625000 0.000000",
+        "eye_origin": [
+          1700,
+          500,
+          129
+        ],
+        "hit": [
+          1480.67,
+          320.0,
+          129.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 86856"
+        ],
+        "rangefinder_reply": "DISTANCE: 283.74 inches ( 23.64 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_SIDE_PIT_225.0_1",
+      "source_report": "PLAN_SECTION_SIDE_PIT_001",
+      "area": "SIDE_PIT",
+      "source_pose": [
+        1700,
+        500,
+        65
+      ],
+      "axis": 1,
+      "from_yaw": 225.0,
+      "to_yaw": 236.25,
+      "from_point": [
+        1520.0,
+        320.0,
+        129.0
+      ],
+      "to_point": [
+        1579.73,
+        320.0,
+        129.0
+      ],
+      "midpoint_yaw": 230.625,
+      "check_report": "AXIS_WALL_MIDPOINTS_SIDE_PIT_002",
+      "check": {
+        "station_id": "SIDE_PIT_AXIS_CHECKS",
+        "yaw": 230.625,
+        "repeat": 2,
+        "pose": "setpos_exact 1700.000000 500.000000 65.000000;setang_exact 0.000000 -129.375000 0.000000",
+        "eye_origin": [
+          1700,
+          500,
+          129
+        ],
+        "hit": [
+          1552.28,
+          320.0,
+          129.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 86884"
+        ],
+        "rangefinder_reply": "DISTANCE: 232.86 inches ( 19.40 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_SIDE_PIT_258.75_1",
+      "source_report": "PLAN_SECTION_SIDE_PIT_001",
+      "area": "SIDE_PIT",
+      "source_pose": [
+        1700,
+        500,
+        65
+      ],
+      "axis": 1,
+      "from_yaw": 258.75,
+      "to_yaw": 270.0,
+      "from_point": [
+        1657.83,
+        288.0,
+        129.0
+      ],
+      "to_point": [
+        1700.0,
+        288.0,
+        129.0
+      ],
+      "midpoint_yaw": 264.375,
+      "check_report": "AXIS_WALL_MIDPOINTS_SIDE_PIT_002",
+      "check": {
+        "station_id": "SIDE_PIT_AXIS_CHECKS",
+        "yaw": 264.375,
+        "repeat": 2,
+        "pose": "setpos_exact 1700.000000 500.000000 65.000000;setang_exact 0.000000 -95.625000 0.000000",
+        "eye_origin": [
+          1700,
+          500,
+          129
+        ],
+        "hit": [
+          1679.12,
+          288.0,
+          129.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 86585"
+        ],
+        "rangefinder_reply": "DISTANCE: 213.03 inches ( 17.75 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_SIDE_PIT_270.0_1",
+      "source_report": "PLAN_SECTION_SIDE_PIT_001",
+      "area": "SIDE_PIT",
+      "source_pose": [
+        1700,
+        500,
+        65
+      ],
+      "axis": 1,
+      "from_yaw": 270.0,
+      "to_yaw": 281.25,
+      "from_point": [
+        1700.0,
+        288.0,
+        129.0
+      ],
+      "to_point": [
+        1742.17,
+        288.0,
+        129.0
+      ],
+      "midpoint_yaw": 275.625,
+      "check_report": "AXIS_WALL_MIDPOINTS_SIDE_PIT_002",
+      "check": {
+        "station_id": "SIDE_PIT_AXIS_CHECKS",
+        "yaw": 275.625,
+        "repeat": 2,
+        "pose": "setpos_exact 1700.000000 500.000000 65.000000;setang_exact 0.000000 -84.375000 0.000000",
+        "eye_origin": [
+          1700,
+          500,
+          129
+        ],
+        "hit": [
+          1720.88,
+          288.0,
+          129.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 87706"
+        ],
+        "rangefinder_reply": "DISTANCE: 213.03 inches ( 17.75 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_SIDE_PIT_281.25_1",
+      "source_report": "PLAN_SECTION_SIDE_PIT_001",
+      "area": "SIDE_PIT",
+      "source_pose": [
+        1700,
+        500,
+        65
+      ],
+      "axis": 1,
+      "from_yaw": 281.25,
+      "to_yaw": 292.5,
+      "from_point": [
+        1742.17,
+        288.0,
+        129.0
+      ],
+      "to_point": [
+        1787.81,
+        288.0,
+        129.0
+      ],
+      "midpoint_yaw": 286.875,
+      "check_report": "AXIS_WALL_MIDPOINTS_SIDE_PIT_002",
+      "check": {
+        "station_id": "SIDE_PIT_AXIS_CHECKS",
+        "yaw": 286.875,
+        "repeat": 2,
+        "pose": "setpos_exact 1700.000000 500.000000 65.000000;setang_exact 0.000000 -73.125000 0.000000",
+        "eye_origin": [
+          1700,
+          500,
+          129
+        ],
+        "hit": [
+          1764.31,
+          288.0,
+          129.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 87713"
+        ],
+        "rangefinder_reply": "DISTANCE: 221.54 inches ( 18.46 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_SIDE_PIT_303.75_0",
+      "source_report": "PLAN_SECTION_SIDE_PIT_001",
+      "area": "SIDE_PIT",
+      "source_pose": [
+        1700,
+        500,
+        65
+      ],
+      "axis": 0,
+      "from_yaw": 303.75,
+      "to_yaw": 315.0,
+      "from_point": [
+        1792.0,
+        362.31,
+        129.0
+      ],
+      "to_point": [
+        1792.0,
+        408.0,
+        129.0
+      ],
+      "midpoint_yaw": 309.375,
+      "check_report": "AXIS_WALL_MIDPOINTS_SIDE_PIT_002",
+      "check": {
+        "station_id": "SIDE_PIT_AXIS_CHECKS",
+        "yaw": 309.375,
+        "repeat": 2,
+        "pose": "setpos_exact 1700.000000 500.000000 65.000000;setang_exact 0.000000 -50.625000 0.000000",
+        "eye_origin": [
+          1700,
+          500,
+          129
+        ],
+        "hit": [
+          1792.0,
+          387.9,
+          129.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 87736"
+        ],
+        "rangefinder_reply": "DISTANCE: 145.02 inches ( 12.09 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_SIDE_PIT_315.0_0",
+      "source_report": "PLAN_SECTION_SIDE_PIT_001",
+      "area": "SIDE_PIT",
+      "source_pose": [
+        1700,
+        500,
+        65
+      ],
+      "axis": 0,
+      "from_yaw": 315.0,
+      "to_yaw": 326.25,
+      "from_point": [
+        1792.0,
+        408.0,
+        129.0
+      ],
+      "to_point": [
+        1792.0,
+        438.53,
+        129.0
+      ],
+      "midpoint_yaw": 320.625,
+      "check_report": "AXIS_WALL_MIDPOINTS_SIDE_PIT_002",
+      "check": {
+        "station_id": "SIDE_PIT_AXIS_CHECKS",
+        "yaw": 320.625,
+        "repeat": 2,
+        "pose": "setpos_exact 1700.000000 500.000000 65.000000;setang_exact 0.000000 -39.375000 0.000000",
+        "eye_origin": [
+          1700,
+          500,
+          129
+        ],
+        "hit": [
+          1792.0,
+          424.5,
+          129.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 87758"
+        ],
+        "rangefinder_reply": "DISTANCE: 119.02 inches (  9.92 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_SIDE_PIT_326.25_0",
+      "source_report": "PLAN_SECTION_SIDE_PIT_001",
+      "area": "SIDE_PIT",
+      "source_pose": [
+        1700,
+        500,
+        65
+      ],
+      "axis": 0,
+      "from_yaw": 326.25,
+      "to_yaw": 337.5,
+      "from_point": [
+        1792.0,
+        438.53,
+        129.0
+      ],
+      "to_point": [
+        1792.0,
+        461.89,
+        129.0
+      ],
+      "midpoint_yaw": 331.875,
+      "check_report": "AXIS_WALL_MIDPOINTS_SIDE_PIT_002",
+      "check": {
+        "station_id": "SIDE_PIT_AXIS_CHECKS",
+        "yaw": 331.875,
+        "repeat": 2,
+        "pose": "setpos_exact 1700.000000 500.000000 65.000000;setang_exact 0.000000 -28.125000 0.000000",
+        "eye_origin": [
+          1700,
+          500,
+          129
+        ],
+        "hit": [
+          1792.0,
+          450.82,
+          129.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 87758"
+        ],
+        "rangefinder_reply": "DISTANCE: 104.32 inches (  8.69 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_SIDE_PIT_337.5_0",
+      "source_report": "PLAN_SECTION_SIDE_PIT_001",
+      "area": "SIDE_PIT",
+      "source_pose": [
+        1700,
+        500,
+        65
+      ],
+      "axis": 0,
+      "from_yaw": 337.5,
+      "to_yaw": 348.75,
+      "from_point": [
+        1792.0,
+        461.89,
+        129.0
+      ],
+      "to_point": [
+        1792.0,
+        481.7,
+        129.0
+      ],
+      "midpoint_yaw": 343.125,
+      "check_report": "AXIS_WALL_MIDPOINTS_SIDE_PIT_002",
+      "check": {
+        "station_id": "SIDE_PIT_AXIS_CHECKS",
+        "yaw": 343.125,
+        "repeat": 2,
+        "pose": "setpos_exact 1700.000000 500.000000 65.000000;setang_exact 0.000000 -16.875000 0.000000",
+        "eye_origin": [
+          1700,
+          500,
+          129
+        ],
+        "hit": [
+          1792.0,
+          472.09,
+          129.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 87758"
+        ],
+        "rangefinder_reply": "DISTANCE:  96.14 inches (  8.01 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_SIDE_PIT_348.75_0",
+      "source_report": "PLAN_SECTION_SIDE_PIT_001",
+      "area": "SIDE_PIT",
+      "source_pose": [
+        1700,
+        500,
+        65
+      ],
+      "axis": 0,
+      "from_yaw": 348.75,
+      "to_yaw": 0.0,
+      "from_point": [
+        1792.0,
+        481.7,
+        129.0
+      ],
+      "to_point": [
+        1792.0,
+        500.0,
+        129.0
+      ],
+      "midpoint_yaw": 354.375,
+      "check_report": "AXIS_WALL_MIDPOINTS_SIDE_PIT_002",
+      "check": {
+        "station_id": "SIDE_PIT_AXIS_CHECKS",
+        "yaw": 354.375,
+        "repeat": 2,
+        "pose": "setpos_exact 1700.000000 500.000000 65.000000;setang_exact 0.000000 -5.625000 0.000000",
+        "eye_origin": [
+          1700,
+          500,
+          129
+        ],
+        "hit": [
+          1792.0,
+          490.94,
+          129.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 87758"
+        ],
+        "rangefinder_reply": "DISTANCE:  92.45 inches (  7.70 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_LONG_A_11.25_0",
+      "source_report": "PLAN_SECTION_LONG_A_001",
+      "area": "LONG_A",
+      "source_pose": [
+        1400,
+        1500,
+        20
+      ],
+      "axis": 0,
+      "from_yaw": 11.25,
+      "to_yaw": 22.5,
+      "from_point": [
+        1616.0,
+        1542.97,
+        84.0
+      ],
+      "to_point": [
+        1616.0,
+        1589.47,
+        84.0
+      ],
+      "midpoint_yaw": 16.875,
+      "check_report": "AXIS_WALL_MIDPOINTS_LONG_A_002",
+      "check": {
+        "station_id": "LONG_A_AXIS_CHECKS",
+        "yaw": 16.875,
+        "repeat": 2,
+        "pose": "setpos_exact 1400.000000 1500.000000 20.000000;setang_exact 0.000000 16.875000 0.000000",
+        "eye_origin": [
+          1400,
+          1500,
+          84
+        ],
+        "hit": [
+          1616.0,
+          1565.52,
+          84.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 150052"
+        ],
+        "rangefinder_reply": "DISTANCE: 225.72 inches ( 18.81 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_LONG_A_22.5_0",
+      "source_report": "PLAN_SECTION_LONG_A_001",
+      "area": "LONG_A",
+      "source_pose": [
+        1400,
+        1500,
+        20
+      ],
+      "axis": 0,
+      "from_yaw": 22.5,
+      "to_yaw": 33.75,
+      "from_point": [
+        1616.0,
+        1589.47,
+        84.0
+      ],
+      "to_point": [
+        1616.0,
+        1644.33,
+        84.0
+      ],
+      "midpoint_yaw": 28.125,
+      "check_report": "AXIS_WALL_MIDPOINTS_LONG_A_002",
+      "check": {
+        "station_id": "LONG_A_AXIS_CHECKS",
+        "yaw": 28.125,
+        "repeat": 2,
+        "pose": "setpos_exact 1400.000000 1500.000000 20.000000;setang_exact 0.000000 28.125000 0.000000",
+        "eye_origin": [
+          1400,
+          1500,
+          84
+        ],
+        "hit": [
+          1616.0,
+          1615.46,
+          84.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 150055"
+        ],
+        "rangefinder_reply": "DISTANCE: 244.92 inches ( 20.41 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_LONG_A_168.75_0",
+      "source_report": "PLAN_SECTION_LONG_A_001",
+      "area": "LONG_A",
+      "source_pose": [
+        1400,
+        1500,
+        20
+      ],
+      "axis": 0,
+      "from_yaw": 168.75,
+      "to_yaw": 180.0,
+      "from_point": [
+        1248.01,
+        1530.23,
+        84.0
+      ],
+      "to_point": [
+        1248.01,
+        1500.0,
+        84.0
+      ],
+      "midpoint_yaw": 174.375,
+      "check_report": "AXIS_WALL_MIDPOINTS_LONG_A_002",
+      "check": {
+        "station_id": "LONG_A_AXIS_CHECKS",
+        "yaw": 174.375,
+        "repeat": 2,
+        "pose": "setpos_exact 1400.000000 1500.000000 20.000000;setang_exact 0.000000 174.375000 0.000000",
+        "eye_origin": [
+          1400,
+          1500,
+          84
+        ],
+        "hit": [
+          1248.01,
+          1514.97,
+          84.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 140527"
+        ],
+        "rangefinder_reply": "DISTANCE: 152.72 inches ( 12.73 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_LONG_A_180.0_0",
+      "source_report": "PLAN_SECTION_LONG_A_001",
+      "area": "LONG_A",
+      "source_pose": [
+        1400,
+        1500,
+        20
+      ],
+      "axis": 0,
+      "from_yaw": 180.0,
+      "to_yaw": 191.25,
+      "from_point": [
+        1248.01,
+        1500.0,
+        84.0
+      ],
+      "to_point": [
+        1248.01,
+        1469.77,
+        84.0
+      ],
+      "midpoint_yaw": 185.625,
+      "check_report": "AXIS_WALL_MIDPOINTS_LONG_A_002",
+      "check": {
+        "station_id": "LONG_A_AXIS_CHECKS",
+        "yaw": 185.625,
+        "repeat": 2,
+        "pose": "setpos_exact 1400.000000 1500.000000 20.000000;setang_exact 0.000000 -174.375000 0.000000",
+        "eye_origin": [
+          1400,
+          1500,
+          84
+        ],
+        "hit": [
+          1248.01,
+          1485.03,
+          84.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 140397"
+        ],
+        "rangefinder_reply": "DISTANCE: 152.72 inches ( 12.73 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_LONG_A_191.25_0",
+      "source_report": "PLAN_SECTION_LONG_A_001",
+      "area": "LONG_A",
+      "source_pose": [
+        1400,
+        1500,
+        20
+      ],
+      "axis": 0,
+      "from_yaw": 191.25,
+      "to_yaw": 202.5,
+      "from_point": [
+        1248.01,
+        1469.77,
+        84.0
+      ],
+      "to_point": [
+        1248.01,
+        1437.04,
+        84.0
+      ],
+      "midpoint_yaw": 196.875,
+      "check_report": "AXIS_WALL_MIDPOINTS_LONG_A_002",
+      "check": {
+        "station_id": "LONG_A_AXIS_CHECKS",
+        "yaw": 196.875,
+        "repeat": 2,
+        "pose": "setpos_exact 1400.000000 1500.000000 20.000000;setang_exact 0.000000 -163.125000 0.000000",
+        "eye_origin": [
+          1400,
+          1500,
+          84
+        ],
+        "hit": [
+          1248.01,
+          1453.9,
+          84.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 140288"
+        ],
+        "rangefinder_reply": "DISTANCE: 158.83 inches ( 13.24 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_LONG_A_202.5_0",
+      "source_report": "PLAN_SECTION_LONG_A_001",
+      "area": "LONG_A",
+      "source_pose": [
+        1400,
+        1500,
+        20
+      ],
+      "axis": 0,
+      "from_yaw": 202.5,
+      "to_yaw": 213.75,
+      "from_point": [
+        1248.01,
+        1437.04,
+        84.0
+      ],
+      "to_point": [
+        1248.01,
+        1398.45,
+        84.0
+      ],
+      "midpoint_yaw": 208.125,
+      "check_report": "AXIS_WALL_MIDPOINTS_LONG_A_002",
+      "check": {
+        "station_id": "LONG_A_AXIS_CHECKS",
+        "yaw": 208.125,
+        "repeat": 2,
+        "pose": "setpos_exact 1400.000000 1500.000000 20.000000;setang_exact 0.000000 -151.875000 0.000000",
+        "eye_origin": [
+          1400,
+          1500,
+          84
+        ],
+        "hit": [
+          1248.01,
+          1418.76,
+          84.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 140272"
+        ],
+        "rangefinder_reply": "DISTANCE: 172.34 inches ( 14.36 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_CATWALK_0.0_0",
+      "source_report": "PLAN_SECTION_CATWALK_001",
+      "area": "CATWALK",
+      "source_pose": [
+        250,
+        1400,
+        10
+      ],
+      "axis": 0,
+      "from_yaw": 0.0,
+      "to_yaw": 11.25,
+      "from_point": [
+        512.0,
+        1400.0,
+        74.0
+      ],
+      "to_point": [
+        512.0,
+        1452.12,
+        74.0
+      ],
+      "midpoint_yaw": 5.625,
+      "check_report": "AXIS_WALL_MIDPOINTS_CATWALK_002",
+      "check": {
+        "station_id": "CATWALK_AXIS_CHECKS",
+        "yaw": 5.625,
+        "repeat": 2,
+        "pose": "setpos_exact 250.000000 1400.000000 10.000000;setang_exact 0.000000 5.625000 0.000000",
+        "eye_origin": [
+          250,
+          1400,
+          74
+        ],
+        "hit": [
+          512.0,
+          1425.8,
+          74.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 136299"
+        ],
+        "rangefinder_reply": "DISTANCE: 263.27 inches ( 21.94 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_CATWALK_11.25_0",
+      "source_report": "PLAN_SECTION_CATWALK_001",
+      "area": "CATWALK",
+      "source_pose": [
+        250,
+        1400,
+        10
+      ],
+      "axis": 0,
+      "from_yaw": 11.25,
+      "to_yaw": 22.5,
+      "from_point": [
+        512.0,
+        1452.12,
+        74.0
+      ],
+      "to_point": [
+        512.0,
+        1508.52,
+        74.0
+      ],
+      "midpoint_yaw": 16.875,
+      "check_report": "AXIS_WALL_MIDPOINTS_CATWALK_002",
+      "check": {
+        "station_id": "CATWALK_AXIS_CHECKS",
+        "yaw": 16.875,
+        "repeat": 2,
+        "pose": "setpos_exact 250.000000 1400.000000 10.000000;setang_exact 0.000000 16.875000 0.000000",
+        "eye_origin": [
+          250,
+          1400,
+          74
+        ],
+        "hit": [
+          512.0,
+          1479.48,
+          74.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 136317"
+        ],
+        "rangefinder_reply": "DISTANCE: 273.79 inches ( 22.82 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_CATWALK_112.5_1",
+      "source_report": "PLAN_SECTION_CATWALK_001",
+      "area": "CATWALK",
+      "source_pose": [
+        250,
+        1400,
+        10
+      ],
+      "axis": 1,
+      "from_yaw": 112.5,
+      "to_yaw": 123.75,
+      "from_point": [
+        193.42,
+        1536.6,
+        74.0
+      ],
+      "to_point": [
+        158.72,
+        1536.61,
+        74.0
+      ],
+      "midpoint_yaw": 118.125,
+      "check_report": "AXIS_WALL_MIDPOINTS_CATWALK_002",
+      "check": {
+        "station_id": "CATWALK_AXIS_CHECKS",
+        "yaw": 118.125,
+        "repeat": 2,
+        "pose": "setpos_exact 250.000000 1400.000000 10.000000;setang_exact 0.000000 118.125000 0.000000",
+        "eye_origin": [
+          250,
+          1400,
+          74
+        ],
+        "hit": [
+          176.98,
+          1536.6,
+          74.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE: 154.89 inches ( 12.91 feet)"
+      },
+      "check_axis_error_native": 0.005000000000109139,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_CATWALK_123.75_1",
+      "source_report": "PLAN_SECTION_CATWALK_001",
+      "area": "CATWALK",
+      "source_pose": [
+        250,
+        1400,
+        10
+      ],
+      "axis": 1,
+      "from_yaw": 123.75,
+      "to_yaw": 135.0,
+      "from_point": [
+        158.72,
+        1536.61,
+        74.0
+      ],
+      "to_point": [
+        113.39,
+        1536.61,
+        74.0
+      ],
+      "midpoint_yaw": 129.375,
+      "check_report": "AXIS_WALL_MIDPOINTS_CATWALK_002",
+      "check": {
+        "station_id": "CATWALK_AXIS_CHECKS",
+        "yaw": 129.375,
+        "repeat": 2,
+        "pose": "setpos_exact 250.000000 1400.000000 10.000000;setang_exact 0.000000 129.375000 0.000000",
+        "eye_origin": [
+          250,
+          1400,
+          74
+        ],
+        "hit": [
+          137.89,
+          1536.61,
+          74.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE: 176.72 inches ( 14.73 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_CATWALK_258.75_1",
+      "source_report": "PLAN_SECTION_CATWALK_001",
+      "area": "CATWALK",
+      "source_pose": [
+        250,
+        1400,
+        10
+      ],
+      "axis": 1,
+      "from_yaw": 258.75,
+      "to_yaw": 270.0,
+      "from_point": [
+        235.68,
+        1328.0,
+        74.0
+      ],
+      "to_point": [
+        250.0,
+        1328.0,
+        74.0
+      ],
+      "midpoint_yaw": 264.375,
+      "check_report": "AXIS_WALL_MIDPOINTS_CATWALK_002",
+      "check": {
+        "station_id": "CATWALK_AXIS_CHECKS",
+        "yaw": 264.375,
+        "repeat": 2,
+        "pose": "setpos_exact 250.000000 1400.000000 10.000000;setang_exact 0.000000 -95.625000 0.000000",
+        "eye_origin": [
+          250,
+          1400,
+          74
+        ],
+        "hit": [
+          242.91,
+          1328.0,
+          74.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 130007"
+        ],
+        "rangefinder_reply": "DISTANCE:  72.35 inches (  6.03 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_CATWALK_270.0_1",
+      "source_report": "PLAN_SECTION_CATWALK_001",
+      "area": "CATWALK",
+      "source_pose": [
+        250,
+        1400,
+        10
+      ],
+      "axis": 1,
+      "from_yaw": 270.0,
+      "to_yaw": 281.25,
+      "from_point": [
+        250.0,
+        1328.0,
+        74.0
+      ],
+      "to_point": [
+        264.32,
+        1328.0,
+        74.0
+      ],
+      "midpoint_yaw": 275.625,
+      "check_report": "AXIS_WALL_MIDPOINTS_CATWALK_002",
+      "check": {
+        "station_id": "CATWALK_AXIS_CHECKS",
+        "yaw": 275.625,
+        "repeat": 2,
+        "pose": "setpos_exact 250.000000 1400.000000 10.000000;setang_exact 0.000000 -84.375000 0.000000",
+        "eye_origin": [
+          250,
+          1400,
+          74
+        ],
+        "hit": [
+          257.09,
+          1328.0,
+          74.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 131224"
+        ],
+        "rangefinder_reply": "DISTANCE:  72.35 inches (  6.03 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_CATWALK_281.25_1",
+      "source_report": "PLAN_SECTION_CATWALK_001",
+      "area": "CATWALK",
+      "source_pose": [
+        250,
+        1400,
+        10
+      ],
+      "axis": 1,
+      "from_yaw": 281.25,
+      "to_yaw": 292.5,
+      "from_point": [
+        264.32,
+        1328.0,
+        74.0
+      ],
+      "to_point": [
+        279.82,
+        1328.0,
+        74.0
+      ],
+      "midpoint_yaw": 286.875,
+      "check_report": "AXIS_WALL_MIDPOINTS_CATWALK_002",
+      "check": {
+        "station_id": "CATWALK_AXIS_CHECKS",
+        "yaw": 286.875,
+        "repeat": 2,
+        "pose": "setpos_exact 250.000000 1400.000000 10.000000;setang_exact 0.000000 -73.125000 0.000000",
+        "eye_origin": [
+          250,
+          1400,
+          74
+        ],
+        "hit": [
+          271.84,
+          1328.0,
+          74.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 131222"
+        ],
+        "rangefinder_reply": "DISTANCE:  75.24 inches (  6.27 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_CATWALK_348.75_0",
+      "source_report": "PLAN_SECTION_CATWALK_001",
+      "area": "CATWALK",
+      "source_pose": [
+        250,
+        1400,
+        10
+      ],
+      "axis": 0,
+      "from_yaw": 348.75,
+      "to_yaw": 0.0,
+      "from_point": [
+        512.0,
+        1347.88,
+        74.0
+      ],
+      "to_point": [
+        512.0,
+        1400.0,
+        74.0
+      ],
+      "midpoint_yaw": 354.375,
+      "check_report": "AXIS_WALL_MIDPOINTS_CATWALK_002",
+      "check": {
+        "station_id": "CATWALK_AXIS_CHECKS",
+        "yaw": 354.375,
+        "repeat": 2,
+        "pose": "setpos_exact 250.000000 1400.000000 10.000000;setang_exact 0.000000 -5.625000 0.000000",
+        "eye_origin": [
+          250,
+          1400,
+          74
+        ],
+        "hit": [
+          512.0,
+          1374.2,
+          74.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 136119"
+        ],
+        "rangefinder_reply": "DISTANCE: 263.27 inches ( 21.94 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_MID_123.75_1",
+      "source_report": "PLAN_SECTION_MID_001",
+      "area": "MID",
+      "source_pose": [
+        -420,
+        1300,
+        -100
+      ],
+      "axis": 1,
+      "from_yaw": 123.75,
+      "to_yaw": 135.0,
+      "from_point": [
+        -577.69,
+        1536.0,
+        -36.0
+      ],
+      "to_point": [
+        -656.0,
+        1536.0,
+        -36.0
+      ],
+      "midpoint_yaw": 129.375,
+      "check_report": "AXIS_WALL_MIDPOINTS_MID_002",
+      "check": {
+        "station_id": "MID_AXIS_CHECKS",
+        "yaw": 129.375,
+        "repeat": 2,
+        "pose": "setpos_exact -420.000000 1300.000000 -100.000000;setang_exact 0.000000 129.375000 0.000000",
+        "eye_origin": [
+          -420,
+          1300,
+          -36
+        ],
+        "hit": [
+          -613.68,
+          1536.0,
+          -36.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 102123"
+        ],
+        "rangefinder_reply": "DISTANCE: 305.30 inches ( 25.44 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_MID_168.75_0",
+      "source_report": "PLAN_SECTION_MID_001",
+      "area": "MID",
+      "source_pose": [
+        -420,
+        1300,
+        -100
+      ],
+      "axis": 0,
+      "from_yaw": 168.75,
+      "to_yaw": 180.0,
+      "from_point": [
+        -512.0,
+        1318.3,
+        -36.0
+      ],
+      "to_point": [
+        -512.0,
+        1300.0,
+        -36.0
+      ],
+      "midpoint_yaw": 174.375,
+      "check_report": "AXIS_WALL_MIDPOINTS_MID_002",
+      "check": {
+        "station_id": "MID_AXIS_CHECKS",
+        "yaw": 174.375,
+        "repeat": 2,
+        "pose": "setpos_exact -420.000000 1300.000000 -100.000000;setang_exact 0.000000 174.375000 0.000000",
+        "eye_origin": [
+          -420,
+          1300,
+          -36
+        ],
+        "hit": [
+          -512.0,
+          1309.06,
+          -36.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101969"
+        ],
+        "rangefinder_reply": "DISTANCE:  92.45 inches (  7.70 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_MID_180.0_0",
+      "source_report": "PLAN_SECTION_MID_001",
+      "area": "MID",
+      "source_pose": [
+        -420,
+        1300,
+        -100
+      ],
+      "axis": 0,
+      "from_yaw": 180.0,
+      "to_yaw": 191.25,
+      "from_point": [
+        -512.0,
+        1300.0,
+        -36.0
+      ],
+      "to_point": [
+        -512.0,
+        1281.7,
+        -36.0
+      ],
+      "midpoint_yaw": 185.625,
+      "check_report": "AXIS_WALL_MIDPOINTS_MID_002",
+      "check": {
+        "station_id": "MID_AXIS_CHECKS",
+        "yaw": 185.625,
+        "repeat": 2,
+        "pose": "setpos_exact -420.000000 1300.000000 -100.000000;setang_exact 0.000000 -174.375000 0.000000",
+        "eye_origin": [
+          -420,
+          1300,
+          -36
+        ],
+        "hit": [
+          -512.0,
+          1290.94,
+          -36.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101795"
+        ],
+        "rangefinder_reply": "DISTANCE:  92.45 inches (  7.70 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_MID_191.25_0",
+      "source_report": "PLAN_SECTION_MID_001",
+      "area": "MID",
+      "source_pose": [
+        -420,
+        1300,
+        -100
+      ],
+      "axis": 0,
+      "from_yaw": 191.25,
+      "to_yaw": 202.5,
+      "from_point": [
+        -512.0,
+        1281.7,
+        -36.0
+      ],
+      "to_point": [
+        -512.0,
+        1261.89,
+        -36.0
+      ],
+      "midpoint_yaw": 196.875,
+      "check_report": "AXIS_WALL_MIDPOINTS_MID_002",
+      "check": {
+        "station_id": "MID_AXIS_CHECKS",
+        "yaw": 196.875,
+        "repeat": 2,
+        "pose": "setpos_exact -420.000000 1300.000000 -100.000000;setang_exact 0.000000 -163.125000 0.000000",
+        "eye_origin": [
+          -420,
+          1300,
+          -36
+        ],
+        "hit": [
+          -512.0,
+          1272.09,
+          -36.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101795"
+        ],
+        "rangefinder_reply": "DISTANCE:  96.14 inches (  8.01 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_MID_202.5_0",
+      "source_report": "PLAN_SECTION_MID_001",
+      "area": "MID",
+      "source_pose": [
+        -420,
+        1300,
+        -100
+      ],
+      "axis": 0,
+      "from_yaw": 202.5,
+      "to_yaw": 213.75,
+      "from_point": [
+        -512.0,
+        1261.89,
+        -36.0
+      ],
+      "to_point": [
+        -512.0,
+        1238.53,
+        -36.0
+      ],
+      "midpoint_yaw": 208.125,
+      "check_report": "AXIS_WALL_MIDPOINTS_MID_002",
+      "check": {
+        "station_id": "MID_AXIS_CHECKS",
+        "yaw": 208.125,
+        "repeat": 2,
+        "pose": "setpos_exact -420.000000 1300.000000 -100.000000;setang_exact 0.000000 -151.875000 0.000000",
+        "eye_origin": [
+          -420,
+          1300,
+          -36
+        ],
+        "hit": [
+          -512.0,
+          1250.82,
+          -36.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101795"
+        ],
+        "rangefinder_reply": "DISTANCE: 104.32 inches (  8.69 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_MID_213.75_0",
+      "source_report": "PLAN_SECTION_MID_001",
+      "area": "MID",
+      "source_pose": [
+        -420,
+        1300,
+        -100
+      ],
+      "axis": 0,
+      "from_yaw": 213.75,
+      "to_yaw": 225.0,
+      "from_point": [
+        -512.0,
+        1238.53,
+        -36.0
+      ],
+      "to_point": [
+        -512.0,
+        1208.0,
+        -36.0
+      ],
+      "midpoint_yaw": 219.375,
+      "check_report": "AXIS_WALL_MIDPOINTS_MID_002",
+      "check": {
+        "station_id": "MID_AXIS_CHECKS",
+        "yaw": 219.375,
+        "repeat": 2,
+        "pose": "setpos_exact -420.000000 1300.000000 -100.000000;setang_exact 0.000000 -140.625000 0.000000",
+        "eye_origin": [
+          -420,
+          1300,
+          -36
+        ],
+        "hit": [
+          -512.0,
+          1224.5,
+          -36.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101793"
+        ],
+        "rangefinder_reply": "DISTANCE: 119.02 inches (  9.92 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_CT_MID_11.25_0",
+      "source_report": "PLAN_SECTION_CT_MID_001",
+      "area": "CT_MID",
+      "source_pose": [
+        -500,
+        2300,
+        -100
+      ],
+      "axis": 0,
+      "from_yaw": 11.25,
+      "to_yaw": 22.5,
+      "from_point": [
+        -319.0,
+        2336.0,
+        -36.0
+      ],
+      "to_point": [
+        -319.0,
+        2374.97,
+        -36.0
+      ],
+      "midpoint_yaw": 16.875,
+      "check_report": "AXIS_WALL_MIDPOINTS_CT_MID_002",
+      "check": {
+        "station_id": "CT_MID_AXIS_CHECKS",
+        "yaw": 16.875,
+        "repeat": 2,
+        "pose": "setpos_exact -500.000000 2300.000000 -100.000000;setang_exact 0.000000 16.875000 0.000000",
+        "eye_origin": [
+          -500,
+          2300,
+          -36
+        ],
+        "hit": [
+          -319.0,
+          2354.91,
+          -36.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE: 189.14 inches ( 15.76 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_CT_MID_22.5_0",
+      "source_report": "PLAN_SECTION_CT_MID_001",
+      "area": "CT_MID",
+      "source_pose": [
+        -500,
+        2300,
+        -100
+      ],
+      "axis": 0,
+      "from_yaw": 22.5,
+      "to_yaw": 33.75,
+      "from_point": [
+        -319.0,
+        2374.97,
+        -36.0
+      ],
+      "to_point": [
+        -319.0,
+        2420.94,
+        -36.0
+      ],
+      "midpoint_yaw": 28.125,
+      "check_report": "AXIS_WALL_MIDPOINTS_CT_MID_002",
+      "check": {
+        "station_id": "CT_MID_AXIS_CHECKS",
+        "yaw": 28.125,
+        "repeat": 2,
+        "pose": "setpos_exact -500.000000 2300.000000 -100.000000;setang_exact 0.000000 28.125000 0.000000",
+        "eye_origin": [
+          -500,
+          2300,
+          -36
+        ],
+        "hit": [
+          -319.0,
+          2396.75,
+          -36.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE: 205.23 inches ( 17.10 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_OUTSIDE_TUNNELS_56.25_0",
+      "source_report": "PLAN_SECTION_OUTSIDE_TUNNELS_001",
+      "area": "OUTSIDE_TUNNELS",
+      "source_pose": [
+        -1700,
+        600,
+        40
+      ],
+      "axis": 0,
+      "from_yaw": 56.25,
+      "to_yaw": 67.5,
+      "from_point": [
+        -1600.0,
+        749.66,
+        104.0
+      ],
+      "to_point": [
+        -1600.0,
+        841.42,
+        104.0
+      ],
+      "midpoint_yaw": 61.875,
+      "check_report": "AXIS_WALL_MIDPOINTS_OUTSIDE_TUNNELS_002",
+      "check": {
+        "station_id": "OUTSIDE_TUNNELS_AXIS_CHECKS",
+        "yaw": 61.875,
+        "repeat": 2,
+        "pose": "setpos_exact -1700.000000 600.000000 40.000000;setang_exact 0.000000 61.875000 0.000000",
+        "eye_origin": [
+          -1700,
+          600,
+          104
+        ],
+        "hit": [
+          -1600.0,
+          787.09,
+          104.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 40025"
+        ],
+        "rangefinder_reply": "DISTANCE: 212.14 inches ( 17.68 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_OUTSIDE_TUNNELS_270.0_1",
+      "source_report": "PLAN_SECTION_OUTSIDE_TUNNELS_001",
+      "area": "OUTSIDE_TUNNELS",
+      "source_pose": [
+        -1700,
+        600,
+        40
+      ],
+      "axis": 1,
+      "from_yaw": 270.0,
+      "to_yaw": 281.25,
+      "from_point": [
+        -1700.0,
+        -128.0,
+        104.0
+      ],
+      "to_point": [
+        -1555.19,
+        -128.0,
+        104.0
+      ],
+      "midpoint_yaw": 275.625,
+      "check_report": "AXIS_WALL_MIDPOINTS_OUTSIDE_TUNNELS_002",
+      "check": {
+        "station_id": "OUTSIDE_TUNNELS_AXIS_CHECKS",
+        "yaw": 275.625,
+        "repeat": 2,
+        "pose": "setpos_exact -1700.000000 600.000000 40.000000;setang_exact 0.000000 -84.375000 0.000000",
+        "eye_origin": [
+          -1700,
+          600,
+          104
+        ],
+        "hit": [
+          -1628.3,
+          -128.0,
+          104.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 16113"
+        ],
+        "rangefinder_reply": "DISTANCE: 731.52 inches ( 60.96 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_OUTSIDE_TUNNELS_348.75_0",
+      "source_report": "PLAN_SECTION_OUTSIDE_TUNNELS_001",
+      "area": "OUTSIDE_TUNNELS",
+      "source_pose": [
+        -1700,
+        600,
+        40
+      ],
+      "axis": 0,
+      "from_yaw": 348.75,
+      "to_yaw": 0.0,
+      "from_point": [
+        -1312.0,
+        522.82,
+        104.0
+      ],
+      "to_point": [
+        -1312.0,
+        600.0,
+        104.0
+      ],
+      "midpoint_yaw": 354.375,
+      "check_report": "AXIS_WALL_MIDPOINTS_OUTSIDE_TUNNELS_002",
+      "check": {
+        "station_id": "OUTSIDE_TUNNELS_AXIS_CHECKS",
+        "yaw": 354.375,
+        "repeat": 2,
+        "pose": "setpos_exact -1700.000000 600.000000 40.000000;setang_exact 0.000000 -5.625000 0.000000",
+        "eye_origin": [
+          -1700,
+          600,
+          104
+        ],
+        "hit": [
+          -1312.0,
+          561.79,
+          104.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 42937"
+        ],
+        "rangefinder_reply": "DISTANCE: 389.87 inches ( 32.49 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_UNDER_A_247.5_1",
+      "source_report": "PLAN_SECTION_UNDER_A_001",
+      "area": "UNDER_A",
+      "source_pose": [
+        595.777588,
+        2150.004883,
+        -99.773682
+      ],
+      "axis": 1,
+      "from_yaw": 247.5,
+      "to_yaw": 258.75,
+      "from_point": [
+        553.53,
+        2048.01,
+        -35.77
+      ],
+      "to_point": [
+        575.49,
+        2048.01,
+        -35.77
+      ],
+      "midpoint_yaw": 253.125,
+      "check_report": "AXIS_WALL_MIDPOINTS_UNDER_A_002",
+      "check": {
+        "station_id": "UNDER_A_AXIS_CHECKS",
+        "yaw": 253.125,
+        "repeat": 2,
+        "pose": "setpos_exact 595.777588 2150.004883 -99.773682;setang_exact 0.000000 -106.875000 0.000000",
+        "eye_origin": [
+          595.777588,
+          2150.004883,
+          -35.773681999999994
+        ],
+        "hit": [
+          564.84,
+          2048.01,
+          -35.77
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 159522"
+        ],
+        "rangefinder_reply": "DISTANCE: 106.58 inches (  8.88 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_UNDER_A_258.75_1",
+      "source_report": "PLAN_SECTION_UNDER_A_001",
+      "area": "UNDER_A",
+      "source_pose": [
+        595.777588,
+        2150.004883,
+        -99.773682
+      ],
+      "axis": 1,
+      "from_yaw": 258.75,
+      "to_yaw": 270.0,
+      "from_point": [
+        575.49,
+        2048.01,
+        -35.77
+      ],
+      "to_point": [
+        595.78,
+        2048.01,
+        -35.77
+      ],
+      "midpoint_yaw": 264.375,
+      "check_report": "AXIS_WALL_MIDPOINTS_UNDER_A_002",
+      "check": {
+        "station_id": "UNDER_A_AXIS_CHECKS",
+        "yaw": 264.375,
+        "repeat": 2,
+        "pose": "setpos_exact 595.777588 2150.004883 -99.773682;setang_exact 0.000000 -95.625000 0.000000",
+        "eye_origin": [
+          595.777588,
+          2150.004883,
+          -35.773681999999994
+        ],
+        "hit": [
+          585.73,
+          2048.01,
+          -35.77
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 159522"
+        ],
+        "rangefinder_reply": "DISTANCE: 102.49 inches (  8.54 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_UNDER_A_270.0_1",
+      "source_report": "PLAN_SECTION_UNDER_A_001",
+      "area": "UNDER_A",
+      "source_pose": [
+        595.777588,
+        2150.004883,
+        -99.773682
+      ],
+      "axis": 1,
+      "from_yaw": 270.0,
+      "to_yaw": 281.25,
+      "from_point": [
+        595.78,
+        2048.01,
+        -35.77
+      ],
+      "to_point": [
+        616.07,
+        2048.01,
+        -35.77
+      ],
+      "midpoint_yaw": 275.625,
+      "check_report": "AXIS_WALL_MIDPOINTS_UNDER_A_002",
+      "check": {
+        "station_id": "UNDER_A_AXIS_CHECKS",
+        "yaw": 275.625,
+        "repeat": 2,
+        "pose": "setpos_exact 595.777588 2150.004883 -99.773682;setang_exact 0.000000 -84.375000 0.000000",
+        "eye_origin": [
+          595.777588,
+          2150.004883,
+          -35.773681999999994
+        ],
+        "hit": [
+          605.82,
+          2048.01,
+          -35.77
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 159528"
+        ],
+        "rangefinder_reply": "DISTANCE: 102.49 inches (  8.54 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_UNDER_A_281.25_1",
+      "source_report": "PLAN_SECTION_UNDER_A_001",
+      "area": "UNDER_A",
+      "source_pose": [
+        595.777588,
+        2150.004883,
+        -99.773682
+      ],
+      "axis": 1,
+      "from_yaw": 281.25,
+      "to_yaw": 292.5,
+      "from_point": [
+        616.07,
+        2048.01,
+        -35.77
+      ],
+      "to_point": [
+        638.02,
+        2048.01,
+        -35.77
+      ],
+      "midpoint_yaw": 286.875,
+      "check_report": "AXIS_WALL_MIDPOINTS_UNDER_A_002",
+      "check": {
+        "station_id": "UNDER_A_AXIS_CHECKS",
+        "yaw": 286.875,
+        "repeat": 2,
+        "pose": "setpos_exact 595.777588 2150.004883 -99.773682;setang_exact 0.000000 -73.125000 0.000000",
+        "eye_origin": [
+          595.777588,
+          2150.004883,
+          -35.773681999999994
+        ],
+        "hit": [
+          626.72,
+          2048.01,
+          -35.77
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 159527"
+        ],
+        "rangefinder_reply": "DISTANCE: 106.58 inches (  8.88 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_UNDER_A_292.5_1",
+      "source_report": "PLAN_SECTION_UNDER_A_001",
+      "area": "UNDER_A",
+      "source_pose": [
+        595.777588,
+        2150.004883,
+        -99.773682
+      ],
+      "axis": 1,
+      "from_yaw": 292.5,
+      "to_yaw": 303.75,
+      "from_point": [
+        638.02,
+        2048.01,
+        -35.77
+      ],
+      "to_point": [
+        663.93,
+        2048.01,
+        -35.77
+      ],
+      "midpoint_yaw": 298.125,
+      "check_report": "AXIS_WALL_MIDPOINTS_UNDER_A_002",
+      "check": {
+        "station_id": "UNDER_A_AXIS_CHECKS",
+        "yaw": 298.125,
+        "repeat": 2,
+        "pose": "setpos_exact 595.777588 2150.004883 -99.773682;setang_exact 0.000000 -61.875000 0.000000",
+        "eye_origin": [
+          595.777588,
+          2150.004883,
+          -35.773681999999994
+        ],
+        "hit": [
+          650.29,
+          2048.01,
+          -35.77
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 159535"
+        ],
+        "rangefinder_reply": "DISTANCE: 115.65 inches (  9.64 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_UNDER_A_303.75_1",
+      "source_report": "PLAN_SECTION_UNDER_A_001",
+      "area": "UNDER_A",
+      "source_pose": [
+        595.777588,
+        2150.004883,
+        -99.773682
+      ],
+      "axis": 1,
+      "from_yaw": 303.75,
+      "to_yaw": 315.0,
+      "from_point": [
+        663.93,
+        2048.01,
+        -35.77
+      ],
+      "to_point": [
+        697.77,
+        2048.01,
+        -35.77
+      ],
+      "midpoint_yaw": 309.375,
+      "check_report": "AXIS_WALL_MIDPOINTS_UNDER_A_002",
+      "check": {
+        "station_id": "UNDER_A_AXIS_CHECKS",
+        "yaw": 309.375,
+        "repeat": 2,
+        "pose": "setpos_exact 595.777588 2150.004883 -99.773682;setang_exact 0.000000 -50.625000 0.000000",
+        "eye_origin": [
+          595.777588,
+          2150.004883,
+          -35.773681999999994
+        ],
+        "hit": [
+          679.48,
+          2048.01,
+          -35.77
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 159539"
+        ],
+        "rangefinder_reply": "DISTANCE: 131.94 inches ( 11.00 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_UNDER_A_315.0_1",
+      "source_report": "PLAN_SECTION_UNDER_A_001",
+      "area": "UNDER_A",
+      "source_pose": [
+        595.777588,
+        2150.004883,
+        -99.773682
+      ],
+      "axis": 1,
+      "from_yaw": 315.0,
+      "to_yaw": 326.25,
+      "from_point": [
+        697.77,
+        2048.01,
+        -35.77
+      ],
+      "to_point": [
+        748.42,
+        2048.01,
+        -35.77
+      ],
+      "midpoint_yaw": 320.625,
+      "check_report": "AXIS_WALL_MIDPOINTS_UNDER_A_002",
+      "check": {
+        "station_id": "UNDER_A_AXIS_CHECKS",
+        "yaw": 320.625,
+        "repeat": 2,
+        "pose": "setpos_exact 595.777588 2150.004883 -99.773682;setang_exact 0.000000 -39.375000 0.000000",
+        "eye_origin": [
+          595.777588,
+          2150.004883,
+          -35.773681999999994
+        ],
+        "hit": [
+          720.06,
+          2048.01,
+          -35.77
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 159545"
+        ],
+        "rangefinder_reply": "DISTANCE: 160.77 inches ( 13.40 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_UNDER_A_326.25_1",
+      "source_report": "PLAN_SECTION_UNDER_A_001",
+      "area": "UNDER_A",
+      "source_pose": [
+        595.777588,
+        2150.004883,
+        -99.773682
+      ],
+      "axis": 1,
+      "from_yaw": 326.25,
+      "to_yaw": 337.5,
+      "from_point": [
+        748.42,
+        2048.01,
+        -35.77
+      ],
+      "to_point": [
+        842.01,
+        2048.01,
+        -35.77
+      ],
+      "midpoint_yaw": 331.875,
+      "check_report": "AXIS_WALL_MIDPOINTS_UNDER_A_002",
+      "check": {
+        "station_id": "UNDER_A_AXIS_CHECKS",
+        "yaw": 331.875,
+        "repeat": 2,
+        "pose": "setpos_exact 595.777588 2150.004883 -99.773682;setang_exact 0.000000 -28.125000 0.000000",
+        "eye_origin": [
+          595.777588,
+          2150.004883,
+          -35.773681999999994
+        ],
+        "hit": [
+          786.59,
+          2048.01,
+          -35.77
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 159558"
+        ],
+        "rangefinder_reply": "DISTANCE: 216.36 inches ( 18.03 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_T_SPAWN_78.75_1",
+      "source_report": "PLAN_SECTION_T_SPAWN_OPEN_003",
+      "area": "T_SPAWN",
+      "source_pose": [
+        -500,
+        -900,
+        120
+      ],
+      "axis": 1,
+      "from_yaw": 78.75,
+      "to_yaw": 90.0,
+      "from_point": [
+        -392.59,
+        -360.0,
+        184.0
+      ],
+      "to_point": [
+        -500.0,
+        -360.0,
+        184.0
+      ],
+      "midpoint_yaw": 84.375,
+      "check_report": "AXIS_WALL_MIDPOINTS_T_SPAWN_002",
+      "check": {
+        "station_id": "T_SPAWN_AXIS_CHECKS",
+        "yaw": 84.375,
+        "repeat": 2,
+        "pose": "setpos_exact -500.000000 -900.000000 120.000000;setang_exact 0.000000 84.375000 0.000000",
+        "eye_origin": [
+          -500,
+          -900,
+          184
+        ],
+        "hit": [
+          -446.81,
+          -360.0,
+          184.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 60463"
+        ],
+        "rangefinder_reply": "DISTANCE: 542.61 inches ( 45.22 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_T_SPAWN_135.0_1",
+      "source_report": "PLAN_SECTION_T_SPAWN_OPEN_003",
+      "area": "T_SPAWN",
+      "source_pose": [
+        -500,
+        -900,
+        120
+      ],
+      "axis": 1,
+      "from_yaw": 135.0,
+      "to_yaw": 146.25,
+      "from_point": [
+        -760.0,
+        -640.0,
+        184.0
+      ],
+      "to_point": [
+        -889.12,
+        -640.0,
+        184.0
+      ],
+      "midpoint_yaw": 140.625,
+      "check_report": "AXIS_WALL_MIDPOINTS_T_SPAWN_002",
+      "check": {
+        "station_id": "T_SPAWN_AXIS_CHECKS",
+        "yaw": 140.625,
+        "repeat": 2,
+        "pose": "setpos_exact -500.000000 -900.000000 120.000000;setang_exact 0.000000 140.625000 0.000000",
+        "eye_origin": [
+          -500,
+          -900,
+          184
+        ],
+        "hit": [
+          -814.95,
+          -641.53,
+          184.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop metal, contents 400004c1, shape type: Hull, face: -1"
+        ],
+        "rangefinder_reply": "DISTANCE: 407.43 inches ( 33.95 feet)"
+      },
+      "check_axis_error_native": 1.5299999999999727,
+      "result": "candidate axis line rejected",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_T_SPAWN_247.5_1",
+      "source_report": "PLAN_SECTION_T_SPAWN_OPEN_003",
+      "area": "T_SPAWN",
+      "source_pose": [
+        -500,
+        -900,
+        120
+      ],
+      "axis": 1,
+      "from_yaw": 247.5,
+      "to_yaw": 258.75,
+      "from_point": [
+        -571.25,
+        -1072.0,
+        184.0
+      ],
+      "to_point": [
+        -534.21,
+        -1072.0,
+        184.0
+      ],
+      "midpoint_yaw": 253.125,
+      "check_report": "AXIS_WALL_MIDPOINTS_T_SPAWN_002",
+      "check": {
+        "station_id": "T_SPAWN_AXIS_CHECKS",
+        "yaw": 253.125,
+        "repeat": 2,
+        "pose": "setpos_exact -500.000000 -900.000000 120.000000;setang_exact 0.000000 -106.875000 0.000000",
+        "eye_origin": [
+          -500,
+          -900,
+          184
+        ],
+        "hit": [
+          -552.18,
+          -1072.0,
+          184.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 11003"
+        ],
+        "rangefinder_reply": "DISTANCE: 179.74 inches ( 14.98 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_T_SPAWN_258.75_1",
+      "source_report": "PLAN_SECTION_T_SPAWN_OPEN_003",
+      "area": "T_SPAWN",
+      "source_pose": [
+        -500,
+        -900,
+        120
+      ],
+      "axis": 1,
+      "from_yaw": 258.75,
+      "to_yaw": 270.0,
+      "from_point": [
+        -534.21,
+        -1072.0,
+        184.0
+      ],
+      "to_point": [
+        -500.0,
+        -1072.0,
+        184.0
+      ],
+      "midpoint_yaw": 264.375,
+      "check_report": "AXIS_WALL_MIDPOINTS_T_SPAWN_002",
+      "check": {
+        "station_id": "T_SPAWN_AXIS_CHECKS",
+        "yaw": 264.375,
+        "repeat": 2,
+        "pose": "setpos_exact -500.000000 -900.000000 120.000000;setang_exact 0.000000 -95.625000 0.000000",
+        "eye_origin": [
+          -500,
+          -900,
+          184
+        ],
+        "hit": [
+          -516.94,
+          -1072.0,
+          184.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 11020"
+        ],
+        "rangefinder_reply": "DISTANCE: 172.83 inches ( 14.40 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    },
+    {
+      "id": "AXIS_CANDIDATE_T_SPAWN_303.75_1",
+      "source_report": "PLAN_SECTION_T_SPAWN_OPEN_003",
+      "area": "T_SPAWN",
+      "source_pose": [
+        -500,
+        -900,
+        120
+      ],
+      "axis": 1,
+      "from_yaw": 303.75,
+      "to_yaw": 315.0,
+      "from_point": [
+        -385.07,
+        -1072.0,
+        184.0
+      ],
+      "to_point": [
+        -328.0,
+        -1072.0,
+        184.0
+      ],
+      "midpoint_yaw": 309.375,
+      "check_report": "AXIS_WALL_MIDPOINTS_T_SPAWN_002",
+      "check": {
+        "station_id": "T_SPAWN_AXIS_CHECKS",
+        "yaw": 309.375,
+        "repeat": 2,
+        "pose": "setpos_exact -500.000000 -900.000000 120.000000;setang_exact 0.000000 -50.625000 0.000000",
+        "eye_origin": [
+          -500,
+          -900,
+          184
+        ],
+        "hit": [
+          -358.84,
+          -1072.0,
+          184.0
+        ],
+        "surface": [
+          "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 52712"
+        ],
+        "rangefinder_reply": "DISTANCE: 222.51 inches ( 18.54 feet)"
+      },
+      "check_axis_error_native": 0.0,
+      "result": "agrees at checked point only",
+      "architectural_component": "unreviewed; concrete material alone does not establish wall/cover/graded-floor identity"
+    }
+  ]
+}

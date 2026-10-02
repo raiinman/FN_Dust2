@@ -238,3 +238,11 @@ chords and outside-origin masonry depths from ARCHITECTURAL_ENDPOINTS.
 STONE_PORTAL_PROFILE_SAMPLES.csv and STONE_PORTAL_PROFILES.svg keep exact planes,
 components and calibrated values. Dashed links show order, never fit a continuous
 curve or certify apex/jamb ends, constant depth or rendered offsets.
+
+ROUTE_AXIS_HEIGHT_COMPARISON.csv/JSON compare the same measured-floor stations
+at35/64native ray heights. Endpoint/span shifts are first-hit diagnostics, never
+body clearance or whole-route minima. WALL_BOUNDARY_CHECKS JSON/CSV/SVG derive
+axis-flat concrete candidates from PLAN_SECTION_SWEEPS and independently held
+PLAN_SECTION_CHECKS rays. The hash-pinned calibrated overview keeps exact ray
+elevations, rejected and unexecuted checks explicit. Point agreement alone grants
+no component identity, full ends, polygon closure or continuous footprint.
