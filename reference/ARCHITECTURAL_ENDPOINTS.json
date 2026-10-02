@@ -23832,6 +23832,622 @@
           "notes": "Six repeated wall sections: low end-wall spansZ32/100 (eastZ32 hitsWood_Panel crate), lateral Z200 wall sectionsY350/500/650. Low/mid facade positions differ fromZ300 recess; no linear lean extrapolation. Native chamber views corroborate easterncrate and concrete masonry. Seventh local cover-to-wall section records obstruction, not chamber length."
         }
       ]
+    },
+    {
+      "timestamp_utc": "2026-10-02T07:07:14.674189+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Mid Doors first timber header diagnostic",
+      "unit": "source_units",
+      "target_xy": [
+        -390.0,
+        1630.0
+      ],
+      "probe_player_z": -30.0,
+      "initial_pose": "setpos_exact 640.000000 1000.000000 120.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -453.990234 1630.000000 -30.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -388.28,
+            1630.0,
+            -127.52
+          ],
+          "xy_error": 1.7200000000000273,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop gravel, contents 400004c1, shape type: Mesh, face: 105528"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -455.710266 1630.000000 -30.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -390.0,
+            1630.0,
+            -127.48
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop gravel, contents 400004c1, shape type: Mesh, face: 105528"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -455.710266 1630.000000 -30.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -390.0,
+            1630.0,
+            -127.48
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop gravel, contents 400004c1, shape type: Mesh, face: 105528"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -326.009766 1630.000000 -30.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -388.67,
+            1630.0,
+            47.48
+          ],
+          "xy_error": 1.329999999999984,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -327.339722 1630.000000 -30.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -389.99,
+            1630.0,
+            47.69
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -327.339722 1630.000000 -30.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -389.99,
+            1630.0,
+            47.69
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -390.0,
+          1630.0,
+          -127.48
+        ],
+        "ceiling": [
+          -389.99,
+          1630.0,
+          47.69
+        ]
+      },
+      "endpoint_xy_separation": 0.009999999999990905,
+      "native_vertical_separation": 175.17000000000002,
+      "restored_pose": "setpos_exact 640.000000 1000.000000 120.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "MID_PORTAL_X390_Y1630_003",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\mid_portal_01\\MID_PORTAL_X390_Y1630_003.json",
+      "review": "Repeated sand floor and first timber curved-header collision atY1630. Three X positions show nonuniform header/floor; fixed overhead and angled leaves are distinct. X-420 independently repeats previously accepted MID_DOOR_HEADER_COLUMN_002; no duplicate physical measurement granted. Native clean forward/reverse portal views corroborate timber arch/header.",
+      "accepted_columns": [
+        {
+          "id": "MID_PORTAL_X390_Y1630_003_HEIGHT",
+          "feature": "Mid local floor-to-curved-timber-header at[-390.0, 1630.0]",
+          "confidence": "confirmed repeated first-overhead collision column",
+          "notes": "Repeated sand floor and first timber curved-header collision atY1630. Three X positions show nonuniform header/floor; fixed overhead and angled leaves are distinct. X-420 independently repeats previously accepted MID_DOOR_HEADER_COLUMN_002; no duplicate physical measurement granted. Native clean forward/reverse portal views corroborate timber arch/header."
+        }
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-02T07:06:58.734944+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Mid Doors first timber header diagnostic",
+      "unit": "source_units",
+      "target_xy": [
+        -420.0,
+        1630.0
+      ],
+      "probe_player_z": -30.0,
+      "initial_pose": "setpos_exact 640.000000 1000.000000 120.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -483.990234 1630.000000 -30.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -418.3,
+            1630.0,
+            -126.54
+          ],
+          "xy_error": 1.6999999999999886,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop gravel, contents 400004c1, shape type: Mesh, face: 105526"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -485.690247 1630.000000 -30.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -420.0,
+            1630.0,
+            -126.51
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop gravel, contents 400004c1, shape type: Mesh, face: 105526"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -485.690247 1630.000000 -30.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -420.0,
+            1630.0,
+            -126.51
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop gravel, contents 400004c1, shape type: Mesh, face: 105526"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -356.009766 1630.000000 -30.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -418.64,
+            1630.0,
+            49.17
+          ],
+          "xy_error": 1.3600000000000136,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -357.369751 1630.000000 -30.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -420.0,
+            1630.0,
+            49.08
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -357.369751 1630.000000 -30.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -420.0,
+            1630.0,
+            49.08
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -420.0,
+          1630.0,
+          -126.51
+        ],
+        "ceiling": [
+          -420.0,
+          1630.0,
+          49.08
+        ]
+      },
+      "endpoint_xy_separation": 0.0,
+      "native_vertical_separation": 175.59,
+      "restored_pose": "setpos_exact 640.000000 1000.000000 120.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "MID_PORTAL_X420_Y1630_003",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\mid_portal_01\\MID_PORTAL_X420_Y1630_003.json",
+      "review": "Repeated sand floor and first timber curved-header collision atY1630. Three X positions show nonuniform header/floor; fixed overhead and angled leaves are distinct. X-420 independently repeats previously accepted MID_DOOR_HEADER_COLUMN_002; no duplicate physical measurement granted. Native clean forward/reverse portal views corroborate timber arch/header.",
+      "accepted_columns": []
+    },
+    {
+      "timestamp_utc": "2026-10-02T07:06:42.661779+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Mid Doors first timber header diagnostic",
+      "unit": "source_units",
+      "target_xy": [
+        -450.0,
+        1630.0
+      ],
+      "probe_player_z": -30.0,
+      "initial_pose": "setpos_exact 640.000000 1000.000000 120.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -513.990234 1630.000000 -30.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -448.3,
+            1630.0,
+            -126.36
+          ],
+          "xy_error": 1.6999999999999886,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop gravel, contents 400004c1, shape type: Mesh, face: 105495"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -515.690247 1630.000000 -30.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -450.0,
+            1630.0,
+            -126.42
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop gravel, contents 400004c1, shape type: Mesh, face: 105495"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -515.690247 1630.000000 -30.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -450.0,
+            1630.0,
+            -126.42
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop gravel, contents 400004c1, shape type: Mesh, face: 105495"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -386.009766 1630.000000 -30.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -448.68,
+            1630.0,
+            46.61
+          ],
+          "xy_error": 1.3199999999999932,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -387.329712 1630.000000 -30.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -450.01,
+            1630.0,
+            46.39
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -387.329712 1630.000000 -30.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -450.01,
+            1630.0,
+            46.39
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -450.0,
+          1630.0,
+          -126.42
+        ],
+        "ceiling": [
+          -450.01,
+          1630.0,
+          46.39
+        ]
+      },
+      "endpoint_xy_separation": 0.009999999999990905,
+      "native_vertical_separation": 172.81,
+      "restored_pose": "setpos_exact 640.000000 1000.000000 120.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "MID_PORTAL_X450_Y1630_003",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\mid_portal_01\\MID_PORTAL_X450_Y1630_003.json",
+      "review": "Repeated sand floor and first timber curved-header collision atY1630. Three X positions show nonuniform header/floor; fixed overhead and angled leaves are distinct. X-420 independently repeats previously accepted MID_DOOR_HEADER_COLUMN_002; no duplicate physical measurement granted. Native clean forward/reverse portal views corroborate timber arch/header.",
+      "accepted_columns": [
+        {
+          "id": "MID_PORTAL_X450_Y1630_003_HEIGHT",
+          "feature": "Mid local floor-to-curved-timber-header at[-450.0, 1630.0]",
+          "confidence": "confirmed repeated first-overhead collision column",
+          "notes": "Repeated sand floor and first timber curved-header collision atY1630. Three X positions show nonuniform header/floor; fixed overhead and angled leaves are distinct. X-420 independently repeats previously accepted MID_DOOR_HEADER_COLUMN_002; no duplicate physical measurement granted. Native clean forward/reverse portal views corroborate timber arch/header."
+        }
+      ]
+    },
+    {
+      "id": "MID_PORTAL_FACADE_DEPTH_001",
+      "source_build": "25640462",
+      "area": "Mid portal normal facade diagnostics",
+      "source_map": "de_dust2",
+      "timestamp_utc": "2026-10-02T07:07:29.841978+00:00",
+      "unit": "source_units",
+      "config": {
+        "id": "MID_PORTAL_FACADE_DEPTH_001",
+        "build": "25640462",
+        "area": "Mid portal normal facade diagnostics",
+        "stations": [
+          {
+            "id": "FACADE_X540_Y1400",
+            "pose": [
+              -540,
+              1400,
+              16
+            ],
+            "yaws": [
+              90
+            ]
+          },
+          {
+            "id": "FACADE_X540_Y1800",
+            "pose": [
+              -540,
+              1800,
+              16
+            ],
+            "yaws": [
+              -90
+            ]
+          },
+          {
+            "id": "FACADE_X290_Y1400",
+            "pose": [
+              -290,
+              1400,
+              16
+            ],
+            "yaws": [
+              90
+            ]
+          },
+          {
+            "id": "FACADE_X290_Y1800",
+            "pose": [
+              -290,
+              1800,
+              16
+            ],
+            "yaws": [
+              -90
+            ]
+          }
+        ],
+        "scope": "Normal rays beside portal opening; first hits may be facade, intersecting building or cover. No full uniform wall thickness without identity and same-axis outside-origin checks."
+      },
+      "observations": [
+        {
+          "station_id": "FACADE_X540_Y1400",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact -540.000000 1400.000000 16.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -540,
+            1400,
+            80
+          ],
+          "hit": [
+            -540.0,
+            1536.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 102149"
+          ],
+          "rangefinder_reply": "DISTANCE: 136.00 inches ( 11.33 feet)"
+        },
+        {
+          "station_id": "FACADE_X540_Y1400",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact -540.000000 1400.000000 16.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -540,
+            1400,
+            80
+          ],
+          "hit": [
+            -540.0,
+            1536.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 102149"
+          ],
+          "rangefinder_reply": "DISTANCE: 136.00 inches ( 11.33 feet)"
+        },
+        {
+          "station_id": "FACADE_X540_Y1800",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -540.000000 1800.000000 16.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -540,
+            1800,
+            80
+          ],
+          "hit": [
+            -540.0,
+            1648.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 105615"
+          ],
+          "rangefinder_reply": "DISTANCE: 152.00 inches ( 12.67 feet)"
+        },
+        {
+          "station_id": "FACADE_X540_Y1800",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact -540.000000 1800.000000 16.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -540,
+            1800,
+            80
+          ],
+          "hit": [
+            -540.0,
+            1648.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 105615"
+          ],
+          "rangefinder_reply": "DISTANCE: 152.00 inches ( 12.67 feet)"
+        },
+        {
+          "station_id": "FACADE_X290_Y1400",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact -290.000000 1400.000000 16.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -290,
+            1400,
+            80
+          ],
+          "hit": [
+            -290.0,
+            1536.17,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 136.17 inches ( 11.35 feet)"
+        },
+        {
+          "station_id": "FACADE_X290_Y1400",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact -290.000000 1400.000000 16.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -290,
+            1400,
+            80
+          ],
+          "hit": [
+            -290.0,
+            1536.17,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 136.17 inches ( 11.35 feet)"
+        },
+        {
+          "station_id": "FACADE_X290_Y1800",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -290.000000 1800.000000 16.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -290,
+            1800,
+            80
+          ],
+          "hit": [
+            -290.0,
+            1800.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:   0.00 inches (  0.00 feet)"
+        }
+      ],
+      "status": "failed; inspect before continuing",
+      "original_pose": "setpos_exact 640.000000 1000.000000 120.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "error": "Ray starts inside collision; own-origin hit is not an endpoint",
+      "restored_pose": "setpos_exact 640.000000 1000.000000 120.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\mid_portal_01\\MID_PORTAL_FACADE_DEPTH_001.json",
+      "review": "LeftX-540 normal rays each repeat concrete Mesh facesY1536/1648, giving local western masonry block span112native. Right frontX-290 repeats concreteY1536.17, but far right origin is inside adjoining CT-side building and was rejected. Whole failed batch preserved, restore independently read back. Accept only complete left outside-origin span, not right wall thickness, full gate depth or uniform block.",
+      "accepted_endpoint_spans": [
+        {
+          "id": "MID_WEST_MASONRY_LOCAL_DEPTH_X540_Z80",
+          "axis": 1,
+          "low": {
+            "station_id": "FACADE_X540_Y1400",
+            "yaw": 90
+          },
+          "high": {
+            "station_id": "FACADE_X540_Y1800",
+            "yaw": -90
+          },
+          "feature": "Mid portal western masonry block local normal span atX-540 Z80",
+          "confidence": "confirmed repeated opposite outside-origin collision span",
+          "notes": "LeftX-540 normal rays each repeat concrete Mesh facesY1536/1648, giving local western masonry block span112native. Right frontX-290 repeats concreteY1536.17, but far right origin is inside adjoining CT-side building and was rejected. Whole failed batch preserved, restore independently read back. Accept only complete left outside-origin span, not right wall thickness, full gate depth or uniform block."
+        }
+      ]
     }
   ],
   "rejected_attempts": [

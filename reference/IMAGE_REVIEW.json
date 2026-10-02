@@ -1,6 +1,6 @@
 {
-  "review_date": "2026-10-01",
-  "method": "Original24 and recovered55 re-inspected via native contact sheets. All additions individually inspected against native pose and target. Rejected attempts preserved. AREA_VIEW_REVIEW records complementary view decisions; IMAGE_AUDIT independently verifies hashes.",
+  "review_date": "2026-10-02",
+  "method": "Original24 and recovered55 re-inspected via native contact sheets. All additions individually inspected against native pose and target. Rejected attempts preserved. AREA_VIEW_REVIEW records complementary view decisions; IMAGE_AUDIT independently verifies hashes and native timestamp dates.",
   "capture_registers": [
     "CAPTURE_CT_RECOVERY.json",
     "CAPTURE_DISCOVERY_BATCH.json",
@@ -9,7 +9,7 @@
     "CAPTURE_DIRECTIONAL_GATE1.json",
     "CAPTURE_CRASH_RECOVERY.json"
   ],
-  "expected_image_count": 218,
+  "expected_image_count": 220,
   "coverage_exclusions": {
     "QA_CT_RECOVERY_WEST": "Crate blocks reverse passage; excluded as reverse route evidence.",
     "QA_CT_RECOVERY_SOUTH": "Debug ray overlay; clean side replacement exists in directional batch.",

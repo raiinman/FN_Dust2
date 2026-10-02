@@ -239,3 +239,8 @@ columns and same-plane independent horizontal intrados chords before deriving
 CSV/SVG. Header and stone arch remain separate components. Rebuild, render and
 inspect after selections change; no continuous curve, leaf minimum or chamber
 footprint acceptance is generated.
+
+audit_reference_images.py also requires matching manifest local image paths and
+original native timestamp_utc access dates. It reports checked date count;
+review dates remain distinct. Hash/date integrity checks never grant visual,
+geometric, or whole-map acceptance.

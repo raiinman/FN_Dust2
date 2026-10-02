@@ -3,6 +3,7 @@
 Run: py -3.11 scripts/audit_reference_images.py
 Reads capture metadata and IMAGE_REVIEW.json. Never grants visual acceptance.
 """
+import csv
 import hashlib
 import json
 from pathlib import Path
@@ -18,10 +19,17 @@ def audit(root):
                 assert record['id'] not in records, record['id']
                 records[record['id']] = record
     result = []
+    with (reference / 'REFERENCE_MANIFEST.csv').open(newline='',encoding='utf-8-sig') as handle:
+        manifest = {r['id']:r for r in csv.DictReader(handle)}
+    timestamp_dates_checked = 0
     for identifier, record in records.items():
         path = root / record['repository_image_path']
         digest = hashlib.sha256(path.read_bytes()).hexdigest()
         assert digest == record['jpeg_sha256'], str(path)
+        assert identifier in manifest and manifest[identifier]['local_filename']==record['repository_image_path'], identifier
+        if record.get('timestamp_utc'):
+            assert manifest[identifier]['date_accessed']==record['timestamp_utc'][:10], identifier
+            timestamp_dates_checked += 1
         exclusion = review['coverage_exclusions'].get(identifier)
         result.append(dict(id=identifier, area=record['area'],
             image=record['repository_image_path'], sha256=digest,
@@ -46,6 +54,7 @@ def audit(root):
         accepted_sets.append(declared)
     output = dict(review_date=review['review_date'], source_build='25640462',
         registered_images=len(result),
+        native_timestamp_dates_checked=timestamp_dates_checked,
         coverage_excluded=sum(r['coverage_status']=='EXCLUDED' for r in result),
         complete_areas=sum(s['taxonomy_scope']=='critical_area' for s in accepted_sets),
         complete_subareas=sum(s['taxonomy_scope']=='critical_subarea' for s in accepted_sets),

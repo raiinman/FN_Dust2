@@ -189,3 +189,9 @@ columns at separate wall-depth planes. Its CSV/SVG derive physical heights and
 independent local intrados chords; dashed sample connectors are not fitted
 surfaces. Preserve failed leaf/jamb column attempts and never substitute arch
 height for timber/leaf passage clearance or certify a full chamber rectangle.
+
+Native self-capture REFERENCE_MANIFEST access dates must match original
+timestamp_utc dates. Keep review dates separate from source capture dates;
+never insert a shared placeholder batch date. IMAGE_AUDIT checks manifest image
+paths and native timestamp dates alongside hashes. Correcting date metadata
+never changes image or geometric acceptance.

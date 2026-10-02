@@ -18,7 +18,7 @@ Raw/private sibling reference_cache/crash_recovery_survey and work/ preserved.
 
 ## Accepted evidence and limits
 
-- 218 registered reviewed JPEGs, eight historical coverage exclusions.
+- 220 registered reviewed JPEGs, eight historical coverage exclusions.
   Original24/recovered55 re-inspected; all additions individually inspected.
   IMAGE_REVIEW/IMAGE_AUDIT/capture registers preserve hashes and rejections.
   Sixteen critical-area and eleven subarea forward/reverse/side/elevation sets
@@ -27,7 +27,7 @@ Raw/private sibling reference_cache/crash_recovery_survey and work/ preserved.
   2.54z), inverse/length/native-right checks pass. Phase2 exporter/editor roundtrip
   unverified. Unsaved Hammer128 cube is authored calibration, not production.
 - 13 repeated floor datums,54 Short stair floor points,54 Tunnel stair points,
-  313 connector floor/cover/cap points,244 calibrated feature measurements.
+  313 connector floor/cover/cap points,247 calibrated feature measurements.
   ARCHITECTURAL_SECTIONS/ARCHITECTURAL_SURVEY_PLAN derive100 local chords;
   they cross space and never become wall outlines or floor-story acceptance.
 - Short12 rendered/native risers, nonuniform individual center sections;
@@ -113,8 +113,14 @@ proof of survival. Verify processes, queues/socket and fresh exact echo before
 reuse. Historical console_session_02/cs2_live_20261001 did not survive. Read
 docs/TOOLING_AND_RECOVERY.md before reconnecting; never start duplicate workers.
 
-All controllers ended. Last separate readback640,1000,120p0/y-90, exact echo
-FN_LONG_CHAMBER_COMPLETE_READBACK. Raw current batches long_inner_depth_01,
+Long and Mid endpoint/capture controllers ended. Mid failed final facade origin
+was restored/read back640,1000,120p0/y-90 before captures. Mid three column reports,
+left span and two clean details registered.
+B portal serial measurement helper ended: three columns and two adjoining north
+masonry spans complete in private b_portal_01, not yet registered. Active only
+capture_b_portal_01.py, two planned inside/outside details in same folder. Inspect
+process/partial image files and overlay state before any next controller.
+Last source may change between these two native capture poses; verify separately. Raw current batches long_inner_depth_01,
 long_inner_columns_01, long_inner_arch_01/_02, long_inner_arch_edges_01,
 long_inner_arch_widths_01, long_inner_widths_01, long_chamber_lengths_01 and
 long_chamber_low_plan_01. Completed accepted/rejected reports registered.
@@ -137,6 +143,17 @@ Tunnel terminal/side footprint, full ramp/site bounds and calibrated whole-map
 architectural outline with overlapping elevation layers. Source uncertainty
 must be bounded explicitly. Then rerun Gate1 review; only PASS permits Phase2.
 
-Image integrity218 hashes, listed34-edge/four-special topology audit PASS;
-physical register244 and repeated column/face/rangefinder checks pass. Source
+Image integrity220 hashes, listed34-edge/four-special topology audit PASS;
+physical register247 and repeated column/face/rangefinder checks pass. Source
 sampling and rendered surface limitations remain separate. Gate1 still FAIL.
+
+
+Mid portal: three repeated floor/curved-timber-header columns atY1630; X-420
+independently matches earlier accepted column, two new X heights recorded without
+duplicate measurement. Left western masonry local normal span284.48cm accepted
+from complete repeats; later right own-origin failure preserved and restored.
+Two clean complementary details inspected.247 physical measurements,220 registered
+JPEGs; IMAGE_AUDIT checks all220 hashes and native dates.21 placeholder manifest
+dates corrected against original UTC captures; original images/poses/hashes
+preserved. Coverage matrix reconciled to accepted traversal/metric progress;
+all complete structural coverage still FAIL. Gate1 remains FAIL.

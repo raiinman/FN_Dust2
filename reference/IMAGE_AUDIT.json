@@ -1,7 +1,8 @@
 {
-  "review_date": "2026-10-01",
+  "review_date": "2026-10-02",
   "source_build": "25640462",
-  "registered_images": 218,
+  "registered_images": 220,
+  "native_timestamp_dates_checked": 220,
   "coverage_excluded": 8,
   "complete_areas": 16,
   "complete_subareas": 11,
@@ -2415,6 +2416,22 @@
       "sha256": "d7bad9df10ac4e8fd87580dca907d20d2f81cdb1f4cbd55926007b852d35df44",
       "coverage_status": "PARTIAL",
       "review": "Clean full-resolution street-side inner portal. Both leaves/header/upper arch fully visible; top decorative facade crops. Door passage and threshold context, not full facade or minimum body clearance."
+    },
+    {
+      "id": "QA_MID_PORTAL_DETAIL_001",
+      "area": "Mid Doors",
+      "image": "reference/images/mid_doors/QA_MID_PORTAL_DETAIL_001.jpg",
+      "sha256": "92e751696ddfe03feb1bfc80f3144b4c2406d001ec1b7d704f98f5aa08eb39d3",
+      "coverage_status": "PARTIAL",
+      "review": "Clean full-resolution Mid portal forward view. Full timber curved header and both leaves visible; lower threshold/rubble visible. Adjacent Lower arch and eastern crates provide context, outer walls/foreground crate crop. No full chamber or hidden floor claim."
+    },
+    {
+      "id": "QA_MID_PORTAL_REVERSE_DETAIL_001",
+      "area": "Mid Doors",
+      "image": "reference/images/mid_doors/QA_MID_PORTAL_REVERSE_DETAIL_001.jpg",
+      "sha256": "97bd8ec1dc1439a657a1ea60144f327796b13604bf4bea09357fab15bcea7d2f",
+      "coverage_status": "PARTIAL",
+      "review": "Clean full-resolution CT-side Mid portal view. Full curved timber header, both angled leaves, threshold and adjoining masonry visible. Portal context only; sides continue beyond crop. Header clearance measured independently, not read from uncalibrated pixels."
     }
   ]
 }
