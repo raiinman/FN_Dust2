@@ -446,6 +446,13 @@ Its measurement_rows feeds physical register; absolute sourceZ0 elevations are
 not ground-to-top heights. Validate direct018 Wood/gravel columns separately.
 Rebuild/render/inspect JSON/CSV/SVG; component failures and wholebody limits remain.
 
+build_pit_facing_sections.py owns PIT_FACING_SECTIONS JSON/CSV/SVG and two
+bounded native first-Mesh extent rows consumed by build_physical_register.py.
+Validate independent012/013/024/025 brackets, prospective029 lower-height
+checks, repeats/poses/rangefinder, exact camera/hash and selected pixel boxes.
+Southern rendered checks atZ-80/-40 do not clear the separate Z0 roof occlusion.
+Rebuild/render/inspect; no full-body, full-height or ground-polygon acceptance.
+
 B_TIMBER_LOCAL_SECTIONS also validates optional022 two-origin firstWood/Dirt
 near-facing limit. Preserve failed019/020/021 and unsafeY2878 own-origin hit.
 Mixed MetalPanel/Wood/Dirt interfaces never automatically define fullstrip

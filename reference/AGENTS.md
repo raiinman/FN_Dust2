@@ -490,3 +490,10 @@ PIT_WALL_RENDER_REVIEW.json owns hash-pinned Z0 projected join/component decisio
 north local facing breaks corroborated, south roof-underside correspondence
 unresolved. Report023 sampled sides and024/025 southern material brackets are
 diagnostics; no complete section, full-height wall or floor footprint accepted.
+
+PIT_FACING_SECTIONS JSON/CSV/SVG derives bounded native first-Mesh Z0 lengths
+from012/013/024/025 and prospective029 lower checks. build_pit_facing_sections.py
+validates every repeat, pose/rangefinder, component bracket and independent
+source origin; hash-pinned northZ0 and southZ-80/-40 rendered selections remain
+separate. Physical rows retain occluded southZ0/hidden-body/floor limits. Render
+and inspect after rebuilding; dashed image extents are component sections only.

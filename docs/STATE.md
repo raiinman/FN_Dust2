@@ -7,7 +7,7 @@ no model override, new chat or agent delegation requested. Criteria unchanged.
 
 ## Authority and preserved work
 
-GitHub main is authoritative. Latest pushed checkpoint4497835: Pit plaster/cap interfaces and local cap sections.
+GitHub main is authoritative. Latest pushed checkpoint0a691e7: calibrated Pit frontal cameras and reviewed Z0 joins.
 Current work adds checked frontal cameras, Z0 joins and rendered component review;
 current Git commit pins that evidence checkpoint. Crash baseline35eaa642; dirty work preserved4c7df48,
 mergedab4e484. Active checkout:
@@ -26,8 +26,8 @@ evidence/CRASH_RECOVERY_20261001.md. Inspect dirty work/current main first.
 - Scale2.54cm/native from repeated inch-rangefinder anchors. UE=(2.54x,-2.54y,
   2.54z), inverse/right-axis/length checks PASS. Phase2 exporter/editor roundtrip
   unverified; unsaved Hammer128 cube is calibration, not production.
-- 410 bounded physical features;13 floor datums;54 Short/117 Tunnel stair floor
-  samples;465 connector points;135 local architectural chords.185 raw
+- 412 bounded physical features;13 floor datums;54 Short/117 Tunnel stair floor
+  samples;465 connector points;135 local architectural chords.187 raw
   architectural reports/26 rejected attempts. MEASUREMENTS/profile registers own
   confidence/limits. Chords cross open space; they are not wall/polygon edges.
 - Listed topology PASS:34 edges/four specials.24 ground paths both directions;
@@ -89,13 +89,21 @@ from188 through767.96875, separate southernHull at176..184. No smoothcurve/
 fullheight extrusion accepted. 024/025 complete44obs each/all0exactrestore. TwoXorigins agree southjoin westY[183.875,183.8828125], eastY[184,184.0078125] atZ0. NativeUI preflight observed the authored white cross at the west camera;
 source B-mouth exactly restored before captures. Camera026/027 controller COMPLETE:
 eight marked/clean frames, final B-mouth pose/all0 errors, overlay restored visible.
-NO ACTIVE source controller. Do not rerun driver/preflight/plans. Private folder
+NO ACTIVE source controller. Report028 COMPLETE48/all0; report029 COMPLETE32/all0.
+OriginalZ0 on/off brackets independently match atZ-80/-40 from twoXorigins;
+all four lower seam crops inspected/corroborated. Do not rerun camera driver/preflight/plans. Private folder
 pit_wall_cameras_26_27 owns original plans, captures and extraction failures.
 Two new checked frontal models:8 fit/8 independent depth-elevation points each,
 maximum held residual .726574px west/.668962px east. All32 crops/eight native
 frames/JPEGs individually inspected;273 registered hash/native-date audit PASS.
 PIT_WALL_RENDER_REVIEW retains north local-facing corroboration and unresolved
 southZ0 correspondence under separate roof. No complete section/body accepted.
+
+PIT_FACING_SECTIONS builder validates both nativeZ0 facing extents, original
+independent brackets and prospective029 lower checks. West length interval
+[1483.52748125,1483.896971875]cm; east[1483.20998125,1483.579471875]cm. Two
+physical rows retain partial renderedZ0/wholebody/ground limits. SVG rendered
+and inspected; no closed Pit floor/body polygon or whole-map acceptance.
 
 
 ## Desktop and console recovery

@@ -2,6 +2,14 @@
 
 **FAIL. Phase 1 remains active. Phase 2 production is prohibited.**
 
+Pit028/029 complete48/32 observations with exact all0 restores. OriginalZ0
+southern Mesh/Hull brackets prospectively match atZ-80/-40 from twoXorigins.
+Four lower seam crops inspected/corroborated. PIT_FACING_SECTIONS validates
+nativeZ0 first-Mesh extent intervals west[1483.52748125,1483.896971875]cm and
+east[1483.20998125,1483.579471875]cm; annotated SVG rendered/inspected.412 physical
+features;187 raw architectural reports/26 rejects. Southern renderedZ0 under
+roof remains unresolved; no full wall/ground polygon or Gate1 PASS granted.
+
 Pit023 adds88 repeated Z0 observations;024/025 each add44, matching independent
 origins at southern Mesh/Hull joins.185 architectural reports/26 preserved
 rejections. Two frontal cameras each pass8 fit/8 independent depth-elevation
@@ -52,7 +60,7 @@ Source: installed CS2 build25640462, de_dust2. GitHub main is durable authority.
 | Physical scale and coordinate convention | SCALE_CALIBRATION.json; COORDINATE_TRANSFORM.json | PASS for current-build factor2.54 and reversible UE=(2.54x,-2.54y,2.54z); Phase2 exporter/import validation pending |
 | Every critical area forward/reverse/side/elevation coverage | 273 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | PASS: sixteen critical-area sets and eleven subarea sets accepted; structural metric and traversal remain separate |
 | Unambiguous validated topology | ROUTE_GRAPH.md; TOPOLOGY.json; WALK_PROBES.json; TRAVERSAL_PROBES.json; TOPOLOGY_AUDIT.json | PASS for listed surveyed connections:24 ground paths both directions; B Window both; S01 both, S02/S03 reciprocal routes, S04 partner forward/reverse. E11/E27 direct forward twice, unsupported reverse at surveyed crossing blocked twice, indirect walking returns both. Alternative launches/partners and geometric bounds remain separate |
-| Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; TUNNEL_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 410 calibrated feature measurements;54 Short and117 Tunnel floor samples; full critical register incomplete |
+| Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; TUNNEL_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 412 calibrated feature measurements;54 Short and117 Tunnel floor samples; full critical register incomplete |
 | Calibrated annotated whole-map truth | RADAR_CALIBRATION.json; MAP_CAMERA_CALIBRATION.json; RADAR_PLAN.svg; MAP_CAMERA_PLAN.svg | FAIL: calibrated native camera, physical grid, floors and paths; continuous architectural boundaries and overlapping elevation layers incomplete |
 | Bounded remaining uncertainty | UNCERTAINTY.md; SURVEY_TASKS.csv | FAIL: unresolved critical extents, full apertures/cover dimensions, stairs and render/collision bounds |
 

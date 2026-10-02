@@ -1,0 +1,63 @@
+{
+  "source_build": "25640462",
+  "sections": [
+    {
+      "id": "PIT_WEST_Z0_FIRST_MESH_FACING_LENGTH",
+      "side": "WEST",
+      "plane_native": 1272,
+      "height_native": 0,
+      "south_interval_native": [
+        183.865,
+        183.8928125
+      ],
+      "north_interval_native": [
+        767.95875,
+        768.07640625
+      ],
+      "length_interval_cm": [
+        1483.5274812500002,
+        1483.896971875
+      ],
+      "length_midpoint_cm": 1483.7122265625,
+      "transition_reports": [
+        "PIT_WEST_Z0_SOUTH_MESH_HULL_JOIN_024",
+        "PIT_WEST_Z0_FIRST_MESH_LIMIT_012"
+      ],
+      "lower_check_report": "PIT_SOUTH_JOIN_INDEPENDENT_LOWER_BRACKETS_029",
+      "camera_id": "PIT_WEST_WALL_FRONTAL_026",
+      "clean_image_path": "reference/images/pit/QA_PIT_WEST_WALL_FIT_026_CLEAN.jpg",
+      "clean_jpeg_sha256": "5c28a35144dfd3db50b6c2795186528a5fb10b3c99ac4f5bbe45681b0818696d",
+      "limits": "Native first-Mesh extent atZ0. Southern sameXY join independently checked/rendered atZ-80/-40; Z0 roof occlusion remains. North local facing break only. No full wall body, hidden base, uniform height, continuous ground outline or whole-map acceptance."
+    },
+    {
+      "id": "PIT_EAST_Z0_FIRST_MESH_FACING_LENGTH",
+      "side": "EAST",
+      "plane_native": 1592,
+      "height_native": 0,
+      "south_interval_native": [
+        183.99,
+        184.0178125
+      ],
+      "north_interval_native": [
+        767.95875,
+        768.07640625
+      ],
+      "length_interval_cm": [
+        1483.20998125,
+        1483.579471875
+      ],
+      "length_midpoint_cm": 1483.3947265625002,
+      "transition_reports": [
+        "PIT_EAST_Z0_SOUTH_MESH_HULL_JOIN_025",
+        "PIT_EAST_Z0_FIRST_MESH_LIMIT_013"
+      ],
+      "lower_check_report": "PIT_SOUTH_JOIN_INDEPENDENT_LOWER_BRACKETS_029",
+      "camera_id": "PIT_EAST_WALL_FRONTAL_027",
+      "clean_image_path": "reference/images/pit/QA_PIT_EAST_WALL_FIT_027_CLEAN.jpg",
+      "clean_jpeg_sha256": "b70d7d8fa5b70e933105a6ad446c549598be4d47c82f4b8328306f96607c3a6e",
+      "limits": "Native first-Mesh extent atZ0. Southern sameXY join independently checked/rendered atZ-80/-40; Z0 roof occlusion remains. North local facing break only. No full wall body, hidden base, uniform height, continuous ground outline or whole-map acceptance."
+    }
+  ],
+  "gate1": "FAIL",
+  "limits": "Derive bounded Pit native first-Mesh facing intervals at source Z0.\n\nSouthern rendered correspondence is checked at Z-80/-40, below the separate\nroof; Z0 itself remains occluded. These are component extents, not complete\nwall bodies, full-height sections or closed floor/map boundaries.\n"
+}

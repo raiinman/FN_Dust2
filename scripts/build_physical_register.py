@@ -217,6 +217,9 @@ def build(root):
     if (ref / 'PIT_RETAINING_HEIGHT_REVIEW.json').exists():
         from build_pit_retaining_heights import measurement_rows
         measurements.extend(measurement_rows(ref))
+    if (ref / 'PIT_WALL_RENDER_REVIEW.json').exists() and json.loads((ref / 'PIT_WALL_RENDER_REVIEW.json').read_text()).get('lower_join_reviews'):
+        from build_pit_facing_sections import measurement_rows
+        measurements.extend(measurement_rows(ref))
     if tunnel_path.exists():
         profile=json.loads(tunnel_path.read_text())
         if profile.get('accepted_terminal_pairs'):
