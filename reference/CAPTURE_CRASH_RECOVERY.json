@@ -4485,6 +4485,33 @@
       "jpeg_sha256": "51cc5a58b61d3486bf500d49598775303fd684aa798adf1f5454be2d0f7447f3",
       "fov_cs_debug_parameter": 90,
       "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_B_TUNNEL_MOUTH_OUTSIDE_001",
+      "timestamp_utc": "2026-10-02T07:44:31.369699+00:00",
+      "engine_capture_basename": "d2_88ec4fb2bf",
+      "pose_command": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -1984.0,
+        2100.0,
+        50.0,
+        0.0,
+        -90.0
+      ],
+      "tga_sha256": "8d021360066e03177a75836a81b89737f34f6cc8e4c9f6be3a88e9a79219f075",
+      "png_sha256": "3d9c6a2588c6b5fcde59cd9704fc24c7e56f6bb5998ea9ede587b48181990276",
+      "status": "visually inspected; usable stated-direction reference",
+      "area": "B Tunnel Exit",
+      "review": "Clean outside view frames complete stone aperture and entrance steps; roofed passage visible through opening. Adjacent left cover/car and outer facade continue beyond crop. Full target unobstructed; no numeric measurement from uncalibrated pixels.",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "repository_image_path": "reference/images/b_tunnel_exit/QA_B_TUNNEL_MOUTH_OUTSIDE_001.jpg",
+      "jpeg_sha256": "5e65ebcfef889e774aec9803053d2cfbd834685f2feee603663a4976a1cbc68c",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
     }
   ],
   "rejected_attempts": [
@@ -5263,6 +5290,26 @@
       "png_sha256": "ee2be193ed1a02beeed16627c90429f78bd73242d2ea8059ec7508a8993ae10c",
       "status": "captured; requires visual area/direction review",
       "reason": "Rejected full-count target: camera too low; nearer faces obscure some farther center risers and side extent is cropped. Raw detail preserved; no coverage or count acceptance."
+    },
+    {
+      "id": "QA_B_TUNNEL_MOUTH_INSIDE_001",
+      "timestamp_utc": "2026-10-02T07:44:20.959709+00:00",
+      "engine_capture_basename": "d2_85d3cb3d42",
+      "pose_command": "setpos_exact -1984.000000 1650.000000 50.000000;setang_exact 0.000000 90.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -1984.0,
+        1650.0,
+        50.0,
+        0.0,
+        90.0
+      ],
+      "tga_sha256": "ff661a7e0073dc565f891bac4ec51087d60a86405451dd832e04a09a9788efe3",
+      "png_sha256": "8704730e398c16ecc2085b5564517bdbcccccbe12d2ad5a578641a95bebdbb2c",
+      "status": "rejected clipped aperture",
+      "reason": "Stone aperture apex clipped by top frame; rejected as complete arch reference. Raw pose/hash/TGA/PNG preserved."
     }
   ],
   "gate_1": "FAIL",

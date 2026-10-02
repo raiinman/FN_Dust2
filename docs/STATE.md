@@ -18,7 +18,7 @@ Raw/private sibling reference_cache/crash_recovery_survey and work/ preserved.
 
 ## Accepted evidence and limits
 
-- 222 registered reviewed JPEGs, eight historical coverage exclusions.
+- 223 registered reviewed JPEGs, eight historical coverage exclusions.
   Original24/recovered55 re-inspected; all additions individually inspected.
   IMAGE_REVIEW/IMAGE_AUDIT/capture registers preserve hashes and rejections.
   Sixteen critical-area and eleven subarea forward/reverse/side/elevation sets
@@ -27,8 +27,8 @@ Raw/private sibling reference_cache/crash_recovery_survey and work/ preserved.
   2.54z), inverse/length/native-right checks pass. Phase2 exporter/editor roundtrip
   unverified. Unsaved Hammer128 cube is authored calibration, not production.
 - 13 repeated floor datums,54 Short stair floor points,54 Tunnel stair points,
-  313 connector floor/cover/cap points,251 calibrated feature measurements.
-  ARCHITECTURAL_SECTIONS/ARCHITECTURAL_SURVEY_PLAN derive100 local chords;
+  313 connector floor/cover/cap points,257 calibrated feature measurements.
+  ARCHITECTURAL_SECTIONS/ARCHITECTURAL_SURVEY_PLAN derive106 local chords;
   they cross space and never become wall outlines or floor-story acceptance.
 - Short12 rendered/native risers, nonuniform individual center sections;
   sampled rise234.3912cm/run359.6132cm. Full side/width continuation separate.
@@ -143,8 +143,8 @@ Tunnel terminal/side footprint, full ramp/site bounds and calibrated whole-map
 architectural outline with overlapping elevation layers. Source uncertainty
 must be bounded explicitly. Then rerun Gate1 review; only PASS permits Phase2.
 
-Image integrity222 hashes, listed34-edge/four-special topology audit PASS;
-physical register251 and repeated column/face/rangefinder checks pass. Source
+Image integrity223 hashes, listed34-edge/four-special topology audit PASS;
+physical register257 and repeated column/face/rangefinder checks pass. Source
 sampling and rendered surface limitations remain separate. Gate1 still FAIL.
 
 
@@ -160,3 +160,12 @@ all complete structural coverage still FAIL. Gate1 remains FAIL.
 
 
 B Doors: three repeated local floor/first-timber columns, one independent old-height repeat; two new heights and two outside-origin north masonry spans120.65cm recorded. Two clean inside/outside detail JPEGs individually inspected. Exact timber beam-versus-leaf identity, complete aperture/body envelope and full site footprint remain unresolved.251 calibrated measurements,222 registered JPEGs; all hashes/native dates checked. Gate1 remains FAIL.
+
+
+B tunnel exit: six repeated transverse passage/stone-mouth sections accepted atY1740/1780 Z80/180/220. LaterY1800..1840 hits cross exterior courtyard/cover and remain diagnostics. Outside image frames full arch and steps; inside apex-clipped attempt rejected and preserved.257 physical measurements,106 local chords,223 reviewed JPEGs. Full arch height/step flight and continuous architectural footprint pending; Gate1 FAIL.
+
+Active serial controller probe_plan_sections_01.py:32 repeated angular rays at
+B Site, CT Spawn and Upper chamber, private plan_sections_01. B Site64
+observations complete; CT Spawn then Upper run sequentially. Inspect report
+status/process before next pose controller; all three restore original B tunnel
+source camera -1984,2100,50p0/y-90. Native overlay visible.

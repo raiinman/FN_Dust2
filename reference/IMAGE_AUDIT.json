@@ -1,8 +1,8 @@
 {
   "review_date": "2026-10-02",
   "source_build": "25640462",
-  "registered_images": 222,
-  "native_timestamp_dates_checked": 222,
+  "registered_images": 223,
+  "native_timestamp_dates_checked": 223,
   "coverage_excluded": 8,
   "complete_areas": 16,
   "complete_subareas": 11,
@@ -2448,6 +2448,14 @@
       "sha256": "51cc5a58b61d3486bf500d49598775303fd684aa798adf1f5454be2d0f7447f3",
       "coverage_status": "PARTIAL",
       "review": "Clean full-resolution CT-side view; both leaves, timber curve and threshold fully framed. Foreground left crate and upper battlement crop are context limits; target unobstructed. Component assignment uses independent collision evidence, not uncalibrated pixels."
+    },
+    {
+      "id": "QA_B_TUNNEL_MOUTH_OUTSIDE_001",
+      "area": "B Tunnel Exit",
+      "image": "reference/images/b_tunnel_exit/QA_B_TUNNEL_MOUTH_OUTSIDE_001.jpg",
+      "sha256": "5e65ebcfef889e774aec9803053d2cfbd834685f2feee603663a4976a1cbc68c",
+      "coverage_status": "PARTIAL",
+      "review": "Clean outside view frames complete stone aperture and entrance steps; roofed passage visible through opening. Adjacent left cover/car and outer facade continue beyond crop. Full target unobstructed; no numeric measurement from uncalibrated pixels."
     }
   ]
 }

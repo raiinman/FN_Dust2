@@ -25098,6 +25098,1467 @@
           "notes": "Two opposite outside-origin concrete Mesh spans north of B opening, each47.5native/120.65cm atZ80. Endpoints slightly shift with Y; these are local adjoining masonry spans, not uniform gate depth or full block footprint."
         }
       ]
+    },
+    {
+      "id": "B_TUNNEL_MOUTH_WIDTH_SECTIONS_001",
+      "source_build": "25640462",
+      "area": "B tunnel exit passage and stone mouth",
+      "source_map": "de_dust2",
+      "timestamp_utc": "2026-10-02T07:45:33.009711+00:00",
+      "unit": "source_units",
+      "config": {
+        "id": "B_TUNNEL_MOUTH_WIDTH_SECTIONS_001",
+        "build": "25640462",
+        "area": "B tunnel exit passage and stone mouth",
+        "stations": [
+          {
+            "id": "MOUTH_Y1740_Z80",
+            "pose": [
+              -1984,
+              1740,
+              16
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "MOUTH_Y1740_Z180",
+            "pose": [
+              -1984,
+              1740,
+              116
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "MOUTH_Y1740_Z220",
+            "pose": [
+              -1984,
+              1740,
+              156
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "MOUTH_Y1780_Z80",
+            "pose": [
+              -1984,
+              1780,
+              16
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "MOUTH_Y1780_Z180",
+            "pose": [
+              -1984,
+              1780,
+              116
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "MOUTH_Y1780_Z220",
+            "pose": [
+              -1984,
+              1780,
+              156
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "MOUTH_Y1800_Z80",
+            "pose": [
+              -1984,
+              1800,
+              16
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "MOUTH_Y1800_Z180",
+            "pose": [
+              -1984,
+              1800,
+              116
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "MOUTH_Y1800_Z220",
+            "pose": [
+              -1984,
+              1800,
+              156
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "MOUTH_Y1820_Z80",
+            "pose": [
+              -1984,
+              1820,
+              16
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "MOUTH_Y1820_Z180",
+            "pose": [
+              -1984,
+              1820,
+              116
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "MOUTH_Y1820_Z220",
+            "pose": [
+              -1984,
+              1820,
+              156
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "MOUTH_Y1840_Z80",
+            "pose": [
+              -1984,
+              1840,
+              16
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "MOUTH_Y1840_Z180",
+            "pose": [
+              -1984,
+              1840,
+              116
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "MOUTH_Y1840_Z220",
+            "pose": [
+              -1984,
+              1840,
+              156
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          }
+        ],
+        "scope": "Repeated low/upper transverse first hits across tunnel exit mouth. Wood roof, stone jamb/intrados, exterior cover or open cross-area hits remain distinct. No silhouette-derived measurement or hidden full floor."
+      },
+      "observations": [
+        {
+          "station_id": "MOUTH_Y1740_Z80",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1740.000000 16.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1740,
+            80
+          ],
+          "hit": [
+            -1920.0,
+            1740.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95279"
+          ],
+          "rangefinder_reply": "DISTANCE:  64.00 inches (  5.33 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1740_Z80",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1740.000000 16.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1740,
+            80
+          ],
+          "hit": [
+            -1920.0,
+            1740.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95279"
+          ],
+          "rangefinder_reply": "DISTANCE:  64.00 inches (  5.33 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1740_Z80",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1740.000000 16.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1740,
+            80
+          ],
+          "hit": [
+            -2048.0,
+            1740.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95126"
+          ],
+          "rangefinder_reply": "DISTANCE:  64.00 inches (  5.33 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1740_Z80",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1740.000000 16.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1740,
+            80
+          ],
+          "hit": [
+            -2048.0,
+            1740.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95126"
+          ],
+          "rangefinder_reply": "DISTANCE:  64.00 inches (  5.33 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1740_Z180",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1740.000000 116.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1740,
+            180
+          ],
+          "hit": [
+            -1920.0,
+            1740.0,
+            180.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95291"
+          ],
+          "rangefinder_reply": "DISTANCE:  64.00 inches (  5.33 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1740_Z180",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1740.000000 116.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1740,
+            180
+          ],
+          "hit": [
+            -1920.0,
+            1740.0,
+            180.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95291"
+          ],
+          "rangefinder_reply": "DISTANCE:  64.00 inches (  5.33 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1740_Z180",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1740.000000 116.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1740,
+            180
+          ],
+          "hit": [
+            -2048.0,
+            1740.0,
+            180.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95137"
+          ],
+          "rangefinder_reply": "DISTANCE:  64.00 inches (  5.33 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1740_Z180",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1740.000000 116.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1740,
+            180
+          ],
+          "hit": [
+            -2048.0,
+            1740.0,
+            180.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95137"
+          ],
+          "rangefinder_reply": "DISTANCE:  64.00 inches (  5.33 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1740_Z220",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1740.000000 156.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1740,
+            220
+          ],
+          "hit": [
+            -1920.0,
+            1740.0,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95958"
+          ],
+          "rangefinder_reply": "DISTANCE:  64.00 inches (  5.33 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1740_Z220",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1740.000000 156.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1740,
+            220
+          ],
+          "hit": [
+            -1920.0,
+            1740.0,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95958"
+          ],
+          "rangefinder_reply": "DISTANCE:  64.00 inches (  5.33 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1740_Z220",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1740.000000 156.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1740,
+            220
+          ],
+          "hit": [
+            -2048.0,
+            1740.0,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95920"
+          ],
+          "rangefinder_reply": "DISTANCE:  64.00 inches (  5.33 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1740_Z220",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1740.000000 156.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1740,
+            220
+          ],
+          "hit": [
+            -2048.0,
+            1740.0,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95920"
+          ],
+          "rangefinder_reply": "DISTANCE:  64.00 inches (  5.33 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1780_Z80",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1780.000000 16.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1780,
+            80
+          ],
+          "hit": [
+            -1925.15,
+            1780.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  58.85 inches (  4.90 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1780_Z80",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1780.000000 16.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1780,
+            80
+          ],
+          "hit": [
+            -1925.15,
+            1780.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  58.85 inches (  4.90 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1780_Z80",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1780.000000 16.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1780,
+            80
+          ],
+          "hit": [
+            -2042.98,
+            1780.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  58.98 inches (  4.91 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1780_Z80",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1780.000000 16.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1780,
+            80
+          ],
+          "hit": [
+            -2042.98,
+            1780.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  58.98 inches (  4.91 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1780_Z180",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1780.000000 116.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1780,
+            180
+          ],
+          "hit": [
+            -1928.19,
+            1780.0,
+            180.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  55.81 inches (  4.65 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1780_Z180",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1780.000000 116.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1780,
+            180
+          ],
+          "hit": [
+            -1928.19,
+            1780.0,
+            180.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  55.81 inches (  4.65 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1780_Z180",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1780.000000 116.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1780,
+            180
+          ],
+          "hit": [
+            -2039.74,
+            1780.0,
+            180.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  55.74 inches (  4.65 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1780_Z180",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1780.000000 116.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1780,
+            180
+          ],
+          "hit": [
+            -2039.74,
+            1780.0,
+            180.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  55.74 inches (  4.65 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1780_Z220",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1780.000000 156.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1780,
+            220
+          ],
+          "hit": [
+            -1943.69,
+            1780.0,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  40.31 inches (  3.36 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1780_Z220",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1780.000000 156.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1780,
+            220
+          ],
+          "hit": [
+            -1943.69,
+            1780.0,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  40.31 inches (  3.36 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1780_Z220",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1780.000000 156.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1780,
+            220
+          ],
+          "hit": [
+            -2024.16,
+            1780.0,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  40.16 inches (  3.35 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1780_Z220",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1780.000000 156.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1780,
+            220
+          ],
+          "hit": [
+            -2024.16,
+            1780.0,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  40.16 inches (  3.35 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1800_Z80",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1800.000000 16.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1800,
+            80
+          ],
+          "hit": [
+            -1860.23,
+            1800.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 123.77 inches ( 10.31 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1800_Z80",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1800.000000 16.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1800,
+            80
+          ],
+          "hit": [
+            -1860.23,
+            1800.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 123.77 inches ( 10.31 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1800_Z80",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1800.000000 16.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1800,
+            80
+          ],
+          "hit": [
+            -2175.58,
+            1800.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95155"
+          ],
+          "rangefinder_reply": "DISTANCE: 191.58 inches ( 15.97 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1800_Z80",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1800.000000 16.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1800,
+            80
+          ],
+          "hit": [
+            -2175.58,
+            1800.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95155"
+          ],
+          "rangefinder_reply": "DISTANCE: 191.58 inches ( 15.97 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1800_Z180",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1800.000000 116.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1800,
+            180
+          ],
+          "hit": [
+            -1376.73,
+            1800.0,
+            180.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 100757"
+          ],
+          "rangefinder_reply": "DISTANCE: 607.27 inches ( 50.61 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1800_Z180",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1800.000000 116.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1800,
+            180
+          ],
+          "hit": [
+            -1376.73,
+            1800.0,
+            180.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 100757"
+          ],
+          "rangefinder_reply": "DISTANCE: 607.27 inches ( 50.61 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1800_Z180",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1800.000000 116.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1800,
+            180
+          ],
+          "hit": [
+            -2176.0,
+            1800.0,
+            180.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95209"
+          ],
+          "rangefinder_reply": "DISTANCE: 192.00 inches ( 16.00 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1800_Z180",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1800.000000 116.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1800,
+            180
+          ],
+          "hit": [
+            -2176.0,
+            1800.0,
+            180.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95209"
+          ],
+          "rangefinder_reply": "DISTANCE: 192.00 inches ( 16.00 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1800_Z220",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1800.000000 156.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1800,
+            220
+          ],
+          "hit": [
+            -1376.0,
+            1800.0,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 100760"
+          ],
+          "rangefinder_reply": "DISTANCE: 608.00 inches ( 50.67 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1800_Z220",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1800.000000 156.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1800,
+            220
+          ],
+          "hit": [
+            -1376.0,
+            1800.0,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 100760"
+          ],
+          "rangefinder_reply": "DISTANCE: 608.00 inches ( 50.67 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1800_Z220",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1800.000000 156.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1800,
+            220
+          ],
+          "hit": [
+            -3016.26,
+            1800.0,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop default, contents 400004c1, shape type: Mesh, face: 93279"
+          ],
+          "rangefinder_reply": "DISTANCE: 1032.26 inches ( 86.02 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1800_Z220",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1800.000000 156.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1800,
+            220
+          ],
+          "hit": [
+            -3016.26,
+            1800.0,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop default, contents 400004c1, shape type: Mesh, face: 93279"
+          ],
+          "rangefinder_reply": "DISTANCE: 1032.26 inches ( 86.02 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1820_Z80",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1820.000000 16.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1820,
+            80
+          ],
+          "hit": [
+            -1860.27,
+            1820.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 123.73 inches ( 10.31 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1820_Z80",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1820.000000 16.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1820,
+            80
+          ],
+          "hit": [
+            -1860.27,
+            1820.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 123.73 inches ( 10.31 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1820_Z80",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1820.000000 16.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1820,
+            80
+          ],
+          "hit": [
+            -2175.82,
+            1820.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95154"
+          ],
+          "rangefinder_reply": "DISTANCE: 191.82 inches ( 15.99 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1820_Z80",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1820.000000 16.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1820,
+            80
+          ],
+          "hit": [
+            -2175.82,
+            1820.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95154"
+          ],
+          "rangefinder_reply": "DISTANCE: 191.82 inches ( 15.99 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1820_Z180",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1820.000000 116.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1820,
+            180
+          ],
+          "hit": [
+            -1376.73,
+            1820.0,
+            180.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 100757"
+          ],
+          "rangefinder_reply": "DISTANCE: 607.27 inches ( 50.61 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1820_Z180",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1820.000000 116.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1820,
+            180
+          ],
+          "hit": [
+            -1376.73,
+            1820.0,
+            180.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 100757"
+          ],
+          "rangefinder_reply": "DISTANCE: 607.27 inches ( 50.61 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1820_Z180",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1820.000000 116.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1820,
+            180
+          ],
+          "hit": [
+            -2176.0,
+            1820.0,
+            180.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95216"
+          ],
+          "rangefinder_reply": "DISTANCE: 192.00 inches ( 16.00 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1820_Z180",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1820.000000 116.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1820,
+            180
+          ],
+          "hit": [
+            -2176.0,
+            1820.0,
+            180.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95216"
+          ],
+          "rangefinder_reply": "DISTANCE: 192.00 inches ( 16.00 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1820_Z220",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1820.000000 156.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1820,
+            220
+          ],
+          "hit": [
+            -1376.0,
+            1820.0,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 100760"
+          ],
+          "rangefinder_reply": "DISTANCE: 608.00 inches ( 50.67 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1820_Z220",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1820.000000 156.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1820,
+            220
+          ],
+          "hit": [
+            -1376.0,
+            1820.0,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 100760"
+          ],
+          "rangefinder_reply": "DISTANCE: 608.00 inches ( 50.67 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1820_Z220",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1820.000000 156.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1820,
+            220
+          ],
+          "hit": [
+            -3016.26,
+            1820.0,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop default, contents 400004c1, shape type: Mesh, face: 93279"
+          ],
+          "rangefinder_reply": "DISTANCE: 1032.26 inches ( 86.02 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1820_Z220",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1820.000000 156.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1820,
+            220
+          ],
+          "hit": [
+            -3016.26,
+            1820.0,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop default, contents 400004c1, shape type: Mesh, face: 93279"
+          ],
+          "rangefinder_reply": "DISTANCE: 1032.26 inches ( 86.02 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1840_Z80",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1840.000000 16.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1840,
+            80
+          ],
+          "hit": [
+            -1860.31,
+            1840.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 123.69 inches ( 10.31 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1840_Z80",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1840.000000 16.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1840,
+            80
+          ],
+          "hit": [
+            -1860.31,
+            1840.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 123.69 inches ( 10.31 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1840_Z80",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1840.000000 16.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1840,
+            80
+          ],
+          "hit": [
+            -2176.0,
+            1840.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95156"
+          ],
+          "rangefinder_reply": "DISTANCE: 192.00 inches ( 16.00 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1840_Z80",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1840.000000 16.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1840,
+            80
+          ],
+          "hit": [
+            -2176.0,
+            1840.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95156"
+          ],
+          "rangefinder_reply": "DISTANCE: 192.00 inches ( 16.00 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1840_Z180",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1840.000000 116.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1840,
+            180
+          ],
+          "hit": [
+            -1376.73,
+            1840.0,
+            180.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 106086"
+          ],
+          "rangefinder_reply": "DISTANCE: 607.27 inches ( 50.61 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1840_Z180",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1840.000000 116.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1840,
+            180
+          ],
+          "hit": [
+            -1376.73,
+            1840.0,
+            180.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 106086"
+          ],
+          "rangefinder_reply": "DISTANCE: 607.27 inches ( 50.61 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1840_Z180",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1840.000000 116.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1840,
+            180
+          ],
+          "hit": [
+            -2176.0,
+            1840.0,
+            180.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95236"
+          ],
+          "rangefinder_reply": "DISTANCE: 192.00 inches ( 16.00 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1840_Z180",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1840.000000 116.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1840,
+            180
+          ],
+          "hit": [
+            -2176.0,
+            1840.0,
+            180.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95236"
+          ],
+          "rangefinder_reply": "DISTANCE: 192.00 inches ( 16.00 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1840_Z220",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1840.000000 156.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1840,
+            220
+          ],
+          "hit": [
+            -1376.0,
+            1840.0,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 106089"
+          ],
+          "rangefinder_reply": "DISTANCE: 608.00 inches ( 50.67 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1840_Z220",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1840.000000 156.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1840,
+            220
+          ],
+          "hit": [
+            -1376.0,
+            1840.0,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 106089"
+          ],
+          "rangefinder_reply": "DISTANCE: 608.00 inches ( 50.67 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1840_Z220",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1840.000000 156.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1840,
+            220
+          ],
+          "hit": [
+            -3016.26,
+            1840.0,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop default, contents 400004c1, shape type: Mesh, face: 93279"
+          ],
+          "rangefinder_reply": "DISTANCE: 1032.26 inches ( 86.02 feet)"
+        },
+        {
+          "station_id": "MOUTH_Y1840_Z220",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1840.000000 156.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1840,
+            220
+          ],
+          "hit": [
+            -3016.26,
+            1840.0,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop default, contents 400004c1, shape type: Mesh, face: 93279"
+          ],
+          "rangefinder_reply": "DISTANCE: 1032.26 inches ( 86.02 feet)"
+        }
+      ],
+      "status": "complete; architectural interpretation pending",
+      "original_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "private_raw_path": "C:\\Users\\mikea\\Documents\\Codex\\2026-09-30\\new-chat\\reference_cache\\crash_recovery_survey\\b_tunnel_mouth_01\\B_TUNNEL_MOUTH_WIDTH_SECTIONS_001.json",
+      "review": "AtY1740 repeated concrete Mesh walls X-2048/-1920 define passage sections. AtY1780 concrete Hull jamb/intrados gives nonuniform stone-mouth widths atZ80/180/220. Y1800/1820/1840 rays cross exterior B area and cover/outer walls: diagnostic only. Outside clean image frames whole opening and entrance steps. Inside1650 apex cropped: rejected, raw preserved. No full-height rectangular opening or courtyard footprint inferred.",
+      "accepted_sections": [
+        {
+          "station_id": "MOUTH_Y1740_Z80",
+          "axis": 0,
+          "id": "B_TUNNEL_MOUTH_WIDTH_Y1740_Z80",
+          "feature": "B tunnel passage wall transverse section Y1740 Z80",
+          "confidence": "confirmed repeated collision cross-section",
+          "notes": "AtY1740 repeated concrete Mesh walls X-2048/-1920 define passage sections. AtY1780 concrete Hull jamb/intrados gives nonuniform stone-mouth widths atZ80/180/220. Y1800/1820/1840 rays cross exterior B area and cover/outer walls: diagnostic only. Outside clean image frames whole opening and entrance steps. Inside1650 apex cropped: rejected, raw preserved. No full-height rectangular opening or courtyard footprint inferred."
+        },
+        {
+          "station_id": "MOUTH_Y1740_Z180",
+          "axis": 0,
+          "id": "B_TUNNEL_MOUTH_WIDTH_Y1740_Z180",
+          "feature": "B tunnel passage wall transverse section Y1740 Z180",
+          "confidence": "confirmed repeated collision cross-section",
+          "notes": "AtY1740 repeated concrete Mesh walls X-2048/-1920 define passage sections. AtY1780 concrete Hull jamb/intrados gives nonuniform stone-mouth widths atZ80/180/220. Y1800/1820/1840 rays cross exterior B area and cover/outer walls: diagnostic only. Outside clean image frames whole opening and entrance steps. Inside1650 apex cropped: rejected, raw preserved. No full-height rectangular opening or courtyard footprint inferred."
+        },
+        {
+          "station_id": "MOUTH_Y1740_Z220",
+          "axis": 0,
+          "id": "B_TUNNEL_MOUTH_WIDTH_Y1740_Z220",
+          "feature": "B tunnel passage wall transverse section Y1740 Z220",
+          "confidence": "confirmed repeated collision cross-section",
+          "notes": "AtY1740 repeated concrete Mesh walls X-2048/-1920 define passage sections. AtY1780 concrete Hull jamb/intrados gives nonuniform stone-mouth widths atZ80/180/220. Y1800/1820/1840 rays cross exterior B area and cover/outer walls: diagnostic only. Outside clean image frames whole opening and entrance steps. Inside1650 apex cropped: rejected, raw preserved. No full-height rectangular opening or courtyard footprint inferred."
+        },
+        {
+          "station_id": "MOUTH_Y1780_Z80",
+          "axis": 0,
+          "id": "B_TUNNEL_MOUTH_WIDTH_Y1780_Z80",
+          "feature": "B tunnel stone jamb/intrados transverse section Y1780 Z80",
+          "confidence": "confirmed repeated collision cross-section",
+          "notes": "AtY1740 repeated concrete Mesh walls X-2048/-1920 define passage sections. AtY1780 concrete Hull jamb/intrados gives nonuniform stone-mouth widths atZ80/180/220. Y1800/1820/1840 rays cross exterior B area and cover/outer walls: diagnostic only. Outside clean image frames whole opening and entrance steps. Inside1650 apex cropped: rejected, raw preserved. No full-height rectangular opening or courtyard footprint inferred."
+        },
+        {
+          "station_id": "MOUTH_Y1780_Z180",
+          "axis": 0,
+          "id": "B_TUNNEL_MOUTH_WIDTH_Y1780_Z180",
+          "feature": "B tunnel stone jamb/intrados transverse section Y1780 Z180",
+          "confidence": "confirmed repeated collision cross-section",
+          "notes": "AtY1740 repeated concrete Mesh walls X-2048/-1920 define passage sections. AtY1780 concrete Hull jamb/intrados gives nonuniform stone-mouth widths atZ80/180/220. Y1800/1820/1840 rays cross exterior B area and cover/outer walls: diagnostic only. Outside clean image frames whole opening and entrance steps. Inside1650 apex cropped: rejected, raw preserved. No full-height rectangular opening or courtyard footprint inferred."
+        },
+        {
+          "station_id": "MOUTH_Y1780_Z220",
+          "axis": 0,
+          "id": "B_TUNNEL_MOUTH_WIDTH_Y1780_Z220",
+          "feature": "B tunnel stone jamb/intrados transverse section Y1780 Z220",
+          "confidence": "confirmed repeated collision cross-section",
+          "notes": "AtY1740 repeated concrete Mesh walls X-2048/-1920 define passage sections. AtY1780 concrete Hull jamb/intrados gives nonuniform stone-mouth widths atZ80/180/220. Y1800/1820/1840 rays cross exterior B area and cover/outer walls: diagnostic only. Outside clean image frames whole opening and entrance steps. Inside1650 apex cropped: rejected, raw preserved. No full-height rectangular opening or courtyard footprint inferred."
+        }
+      ]
     }
   ],
   "rejected_attempts": [
