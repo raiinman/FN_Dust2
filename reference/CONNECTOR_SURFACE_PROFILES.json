@@ -34158,6 +34158,172 @@
       "source_requested_area": "B Site adjoining cover ground prospective plane check",
       "surface_semantics": "Repeated concrete Mesh adjoining ground; unchanged plane prediction tested separately. A rejected plane does not reject the actual floor point.",
       "private_filename": "..\\reference_cache\\crash_recovery_survey\\b_cover_ground_holds_04\\B_COVER_GROUND_HOLD_X1750_Y2400_004.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T17:27:44.315578+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Site",
+      "unit": "source_units",
+      "target_xy": [
+        -1720.0,
+        2500.0
+      ],
+      "probe_player_z": 150.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1783.990234 2500.000000 150.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1718.5,
+            2500.0,
+            65.07
+          ],
+          "xy_error": 1.5,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1785.490234 2500.000000 150.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1719.96,
+            2500.0,
+            62.67
+          ],
+          "xy_error": 0.03999999999996362,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1785.530273 2500.000000 150.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1720.0,
+            2500.0,
+            62.67
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 4,
+          "observed_pose": "setpos_exact -1785.530273 2500.000000 150.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1720.0,
+            2500.0,
+            62.67
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1720.0,
+          2500.0,
+          62.67
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_TIMBER_TOP_Y2500_018",
+      "source_requested_area": "B Site timber retaining strip top first-down diagnostic",
+      "surface_semantics": "Repeated Wood_Plank Hull upper point slightly behind timberfront; local top/filled strip sample, not main platform floor or a sharedplane. Source column floor field only names ray direction.",
+      "private_filename": "..\\reference_cache\\crash_recovery_survey\\b_platform_top_18\\B_TIMBER_TOP_Y2500_018.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T17:27:56.678670+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Site",
+      "unit": "source_units",
+      "target_xy": [
+        -1723.0,
+        2600.0
+      ],
+      "probe_player_z": 150.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1786.990234 2600.000000 150.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1721.44,
+            2600.0,
+            61.62
+          ],
+          "xy_error": 1.5599999999999454,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop gravel, contents 400004c1, shape type: Mesh, face: 98829"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1788.550293 2600.000000 150.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1723.0,
+            2600.0,
+            61.94
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop gravel, contents 400004c1, shape type: Mesh, face: 98829"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1788.550293 2600.000000 150.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1723.0,
+            2600.0,
+            61.94
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop gravel, contents 400004c1, shape type: Mesh, face: 98829"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1723.0,
+          2600.0,
+          61.94
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_TIMBER_TOP_Y2600_018",
+      "source_requested_area": "B Site timber retaining strip top first-down diagnostic",
+      "surface_semantics": "Repeated gravel Mesh upper point slightly behind timberfront; local top/filled strip sample, not main platform floor or a sharedplane. Source column floor field only names ray direction.",
+      "private_filename": "..\\reference_cache\\crash_recovery_survey\\b_platform_top_18\\B_TIMBER_TOP_Y2600_018.json"
     }
   ],
   "accepted_pairs": [
@@ -35323,5 +35489,59 @@
       }
     ],
     "scope": "Original three-point plane retained unchanged, no fit promotion or tolerance widening. Three of four fresh predictions reject. No flat nearby or hidden under-body floor accepted. Actual ground points remain reviewed evidence."
+  },
+  "b_timber_top_review": {
+    "plan": {
+      "build": "25640462",
+      "cases": [
+        {
+          "id": "B_TIMBER_TOP_Y2500_018",
+          "xy": [
+            -1720,
+            2500
+          ],
+          "z": 150,
+          "area": "B Site timber retaining strip top first-down diagnostic",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "B_TIMBER_TOP_Y2600_018",
+          "xy": [
+            -1723,
+            2600
+          ],
+          "z": 150,
+          "area": "B Site timber retaining strip top first-down diagnostic",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        }
+      ],
+      "scope": "Two direct first-down top checks slightly inside independently measured timber-front normals. Ground/wood/gravel identity must be reviewed; column feature floor is transport field, not evidence of walkable floor. No sharedtopplane or fullstrip envelope."
+    },
+    "driver_recovery": {
+      "timestamp_utc": "2026-10-02T17:27:43.526851+00:00",
+      "original_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "status": "completed serial columns; semantic review pending",
+      "completed": [
+        "B_TIMBER_TOP_Y2500_018",
+        "B_TIMBER_TOP_Y2600_018"
+      ],
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "camera_id": "B_PLATFORM_OVERHEAD_009",
+    "scope": "Two direct first-down top checks slightly inside independently measured timber-front normals. Ground/wood/gravel identity must be reviewed; column feature floor is transport field, not evidence of walkable floor. No sharedtopplane or fullstrip envelope."
   }
 }

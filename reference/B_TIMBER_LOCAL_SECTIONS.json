@@ -1,0 +1,104 @@
+{
+  "source_build": "25640462",
+  "camera_id": "B_PLATFORM_OVERHEAD_009",
+  "sections": [
+    {
+      "native_y": 2500,
+      "front_point": [
+        -1716.11,
+        2500.0,
+        40.0
+      ],
+      "back_point": [
+        -1747.09,
+        2500.0,
+        40.0
+      ],
+      "thickness_cm": 78.68920000000004,
+      "thickness_interval_cm": [
+        78.63840000000005,
+        78.74000000000004
+      ],
+      "upper_report": "B_PLATFORM_TIMBER_UPPER_Y2500_RESUME_012",
+      "upper_interval_native": [
+        65,
+        65.078125
+      ],
+      "upper_elevation_interval_cm": [
+        165.07459999999998,
+        165.32383750000002
+      ],
+      "upper_on_point": [
+        -1716.11,
+        2500.0,
+        65.0
+      ],
+      "upper_off_point": [
+        -2024.18,
+        2500.0,
+        65.08
+      ],
+      "scope": "Two local different-Y sections; upper elevation relative sourceZ0, not ground-to-top height. Off-hit is remoteWood_Panel atY2500 and nearer gravel atY2600. No interpolation/fulltop/hiddenbase/bodyends or renderer offset bounds.",
+      "selected_upper_column": {
+        "report": "B_TIMBER_TOP_Y2500_018",
+        "point": [
+          -1720.0,
+          2500.0,
+          62.67
+        ],
+        "material": "Wood_Plank",
+        "shape": "Hull"
+      }
+    },
+    {
+      "native_y": 2600,
+      "front_point": [
+        -1718.49,
+        2600.0,
+        40.0
+      ],
+      "back_point": [
+        -1745.43,
+        2600.0,
+        40.0
+      ],
+      "thickness_cm": 68.42760000000014,
+      "thickness_interval_cm": [
+        68.37680000000015,
+        68.47840000000014
+      ],
+      "upper_report": "B_PLATFORM_TIMBER_UPPER_Y2600_GRAVEL_017",
+      "upper_interval_native": [
+        62.578125,
+        62.65625
+      ],
+      "upper_elevation_interval_cm": [
+        158.92303750000002,
+        159.17227499999998
+      ],
+      "upper_on_point": [
+        -1718.49,
+        2600.0,
+        62.58
+      ],
+      "upper_off_point": [
+        -1726.65,
+        2600.0,
+        62.66
+      ],
+      "scope": "Two local different-Y sections; upper elevation relative sourceZ0, not ground-to-top height. Off-hit is remoteWood_Panel atY2500 and nearer gravel atY2600. No interpolation/fulltop/hiddenbase/bodyends or renderer offset bounds.",
+      "selected_upper_column": {
+        "report": "B_TIMBER_TOP_Y2600_018",
+        "point": [
+          -1723.0,
+          2600.0,
+          61.94
+        ],
+        "material": "gravel",
+        "shape": "Mesh"
+      }
+    }
+  ],
+  "gate1": "FAIL",
+  "scope": "Derive two sampled B timber thicknesses and bounded local upper elevations.\n\nOriginal failed component classifications remain in ARCHITECTURAL_ENDPOINTS.\nRebuild/render/inspect B_TIMBER_LOCAL_SECTIONS JSON/CSV/SVG; no full strip,\nhidden base, uniform top, rendered seam or continuous platform outline inferred.\n"
+}

@@ -7,7 +7,7 @@ no model override, new chat or agent delegation requested. Criteria unchanged.
 
 ## Authority and preserved work
 
-GitHub main authoritative. Latest checkpoint: calibrated B overhead camera and platform-front review;
+GitHub main authoritative. Latest checkpoint: B timber local sections/top evidence; previous pushed5c27b0a;
 latest Git commit pins this checkpoint. Crash baseline35eaa642, dirty work
 preserved4c7df48, mergedab4e484. Active checkout:
 C:/Users/mikea/Documents/Codex/2026-09-30/new-chat/FN_Dust2
@@ -25,8 +25,8 @@ evidence/CRASH_RECOVERY_20261001.md. Inspect dirty work and current main first.
 - Scale2.54cm/native from repeated inch-rangefinder anchors; UE=(2.54x,-2.54y,
   2.54z), inverse/native-right/length checks PASS. Phase2 exporter/editor roundtrip
   remains unverified. Unsaved Hammer128 cube is calibration, not production.
-- 392 bounded physical feature measurements;13 floor datums;54 Short/117 Tunnel
-  stair floor samples;454 connector points;130 local architectural chords.
+- 396 bounded physical feature measurements;13 floor datums;54 Short/117 Tunnel
+  stair floor samples;456 connector points;130 local architectural chords.
   MEASUREMENTS.csv and profile registers retain confidence and explicit limits.
   Local sections/point pairs are not entire room rectangles or route clearances.
 - Listed topology PASS:34 edges/four specials;24 ground paths both directions,
@@ -90,18 +90,18 @@ now extend projection range throughZ290. Whole cap/body still separate. Every co
 
 ## Desktop and current source controller
 
-No active source controller. Camera009 driver completedfit/hold and exact
-B-mouth restore all0; all images/crops/JPEGs reviewed. B_PLATFORM_OVERHEAD_009
-fit/held maxima.220304/.531624px. Four distinct new native hashes (clean frames
-also differ from prior context),260 reviewed images. B_PLATFORM_OVERHEAD_POINTS
-JSON/SVG rebuilt/rendered/inspected,22 points; no full perimeter acceptance.
-Failedfront007 owns two complete safe low pairs and rejected own-origin timber
-hit, all0 restore. Complete00812obs independently confirm low normals from
-X-1680 and higherZ40/60; both registered.152 architectural reports/14 rejected.
-Worker/socket/process freshly verified; exact FN_PLATFORM_RESUME_20261002_1725
-echo and B-mouth pose confirmed. Do not rerun completed009/007/008 plans.
-Next: preflight timber upper visibility and tangent limits, then independently
-bound actual component ends. Continuous platform/site bounds remain open.
+No active source controller. B timber upper/back/top010..018 reviewed: complete012/017 independent
+origins bound upper first-Wood atY2500Z[65,65.078125] andY2600
+Z[62.578125,62.65625]. Complete016 opposite faces give sampledZ40 thicknesses
+78.6892/68.4276cm. B_TIMBER_LOCAL_SECTIONS JSON/CSV/SVG rebuilt/rendered/inspected;
+four new physical rows,396 total. Two corrected018 first-down points: Wood
+Z62.67 slightly behindY2500 face, gravelZ61.94 behindY2600;456 connector points.
+No sharedflat cap/constant thickness. Failed011/014/015 actual intermediate
+Wood_Panel/rock/gravel classifications preserved;160 architectural reports/
+17 rejected. All executed controllers exact B-mouth restore all0. Full timber
+ends, hidden base, platform envelope and continuous whole-map footprint open.
+Next: preflight tangent ends and independently bracket actual exposed component
+limits. Do not rerun completed plans; failed011 Y2600 config was never executed.
 Ground004/lower005/contact006 completed; all
 exact B-mouth restores all0.150 architectural reports/13 rejected attempts.
 Original ground plane1PASS/3REJECT retained; max10.080168cm, no refit/flat floor.

@@ -425,3 +425,8 @@ top and report008 timber points into independently checked B_PLATFORM_OVERHEAD_0
 Rebuild/render/inspect; keep subZ5 ground extrapolation explicit. Overlapping
 height points are not corners. No timber ends, hidden floor or full site boundary
 is accepted from point projections alone.
+
+B_TIMBER_LOCAL_SECTIONS JSON/CSV/SVG owns two localZ40 thicknesses and bounded
+upper elevations from complete008/012/016/017. Direct018 Wood/gravel upper
+points stay separate from main ground. Failed011/014/015 preserved. No fullstrip,
+uniformcap, hiddenbase or platform perimeter inferred.

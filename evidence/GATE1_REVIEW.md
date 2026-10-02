@@ -41,7 +41,7 @@ Source: installed CS2 build25640462, de_dust2. GitHub main is durable authority.
 | Physical scale and coordinate convention | SCALE_CALIBRATION.json; COORDINATE_TRANSFORM.json | PASS for current-build factor2.54 and reversible UE=(2.54x,-2.54y,2.54z); Phase2 exporter/import validation pending |
 | Every critical area forward/reverse/side/elevation coverage | 256 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | PASS: sixteen critical-area sets and eleven subarea sets accepted; structural metric and traversal remain separate |
 | Unambiguous validated topology | ROUTE_GRAPH.md; TOPOLOGY.json; WALK_PROBES.json; TRAVERSAL_PROBES.json; TOPOLOGY_AUDIT.json | PASS for listed surveyed connections:24 ground paths both directions; B Window both; S01 both, S02/S03 reciprocal routes, S04 partner forward/reverse. E11/E27 direct forward twice, unsupported reverse at surveyed crossing blocked twice, indirect walking returns both. Alternative launches/partners and geometric bounds remain separate |
-| Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; TUNNEL_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 392 calibrated feature measurements;54 Short and117 Tunnel floor samples; full critical register incomplete |
+| Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; TUNNEL_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 396 calibrated feature measurements;54 Short and117 Tunnel floor samples; full critical register incomplete |
 | Calibrated annotated whole-map truth | RADAR_CALIBRATION.json; MAP_CAMERA_CALIBRATION.json; RADAR_PLAN.svg; MAP_CAMERA_PLAN.svg | FAIL: calibrated native camera, physical grid, floors and paths; continuous architectural boundaries and overlapping elevation layers incomplete |
 | Bounded remaining uncertainty | UNCERTAINTY.md; SURVEY_TASKS.csv | FAIL: unresolved critical extents, full apertures/cover dimensions, stairs and render/collision bounds |
 
@@ -462,3 +462,14 @@ inspected; faint red HOLD04 separately extracted after original reader failure.
 22 ground/covered-top/timber projections, no full boundaries. Failedfront007
 own-origin hit preserved;008 completes12 fresh observations/all0 restore.
 Critical dimensions and bounded whole-map architectural footprint remain FAIL.
+
+B timber upper/back/top010..018 reviewed: complete012/017 independent
+origins bound upper first-Wood atY2500Z[65,65.078125] andY2600
+Z[62.578125,62.65625]. Complete016 opposite faces give sampledZ40 thicknesses
+78.6892/68.4276cm. B_TIMBER_LOCAL_SECTIONS JSON/CSV/SVG rebuilt/rendered/inspected;
+four new physical rows,396 total. Two corrected018 first-down points: Wood
+Z62.67 slightly behindY2500 face, gravelZ61.94 behindY2600;456 connector points.
+No sharedflat cap/constant thickness. Failed011/014/015 actual intermediate
+Wood_Panel/rock/gravel classifications preserved;160 architectural reports/
+17 rejected. All executed controllers exact B-mouth restore all0. Full timber
+ends, hidden base, platform envelope and continuous whole-map footprint open.

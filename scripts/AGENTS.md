@@ -439,3 +439,9 @@ complete independent-origin timber report008, source restoration, native
 rangefinder and checked camera/image hash before writing B_PLATFORM_OVERHEAD_POINTS.
 Rebuild/render/inspect JSON/SVG. Preserve failed007 and its own-origin exclusion;
 no complete timber body, ground interpolation or architectural perimeter inferred.
+
+build_b_timber_sections.py checks repeated native pair/pose/rangefinder, two
+independent upper origins/materials/normals and opposite back-face origins.
+Its measurement_rows feeds physical register; absolute sourceZ0 elevations are
+not ground-to-top heights. Validate direct018 Wood/gravel columns separately.
+Rebuild/render/inspect JSON/CSV/SVG; component failures and wholebody limits remain.

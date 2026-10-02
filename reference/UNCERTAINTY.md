@@ -5,11 +5,11 @@ Baseline: CS2 build 25640462, 2026-10-01 UTC.
 
 | ID | Unknown | Present bound | Required resolution |
 | --- | --- | --- | --- |
-| U01 | Capture continuity | Old workers did not survive. New single-owner worker verified after VConsole disconnect; 251 reference frames reviewed, eight excluded; four native radar crops inspected separately | Keep exact echo checks and rendered-area/pose checks; extend usable route-oriented coverage |
-| U02 | Critical lengths/widths | 382 calibrated collision-feature measurements;13 floor datums,54 Short and117 Tunnel stair points and434 connector surface points. Long/B/Mid local openings, Short flight, Xbox/CT crate/elevator point-pair rises accepted; full architectural bounds incomplete | Structural aperture endpoints, room lengths and remaining route/cover dimensions |
+| U01 | Capture continuity | Old workers did not survive. New single-owner worker verified after VConsole disconnect; 260 reference frames reviewed, eight excluded; four native radar crops inspected separately | Keep exact echo checks and rendered-area/pose checks; extend usable route-oriented coverage |
+| U02 | Critical lengths/widths | 396 calibrated collision-feature measurements;13 floor datums,54 Short and117 Tunnel stair points and456 connector surface points. Long/B/Mid local openings, Short flight, Xbox/CT crate/elevator point-pair rises accepted; full architectural bounds incomplete | Structural aperture endpoints, room lengths and remaining route/cover dimensions |
 | U03 | Elevations/slopes/stairs | 13 repeated native floor datums with calibrated conversion; CT floor/overhead separation 167.69 native units; 54 repeated Short floor samples plus12 repeated center riser faces; Short count/rise/run and Tunnel18 count,18 rises/16 axial intervals,16 local widths accepted; full Tunnel sides/terminal edges and remaining slopes unresolved | Floor endpoints, stair counts and rise/run readings |
 | U04 | Map scale and axes | Native rangefinder anchors accept factor2.54cm/source unit; native right-axis tests and Epic documentation fix UE=(2.54x,-2.54y,2.54z), reversible math checks pass | Phase 2 exporter/editor round-trip must preserve convention exactly once; no import accepted yet |
-| U05 | Per-area directional coverage | 251 current-build reference captures, eight exclusions; sixteen critical-area view sets and eleven subarea sets accepted; all required directional sets accepted; individual image limitations retained | Preserve complementary view coverage; resolve full structural metric evidence |
+| U05 | Per-area directional coverage | 260 current-build reference captures, eight exclusions; sixteen critical-area view sets and eleven subarea sets accepted; all required directional sets accepted; individual image limitations retained | Preserve complementary view coverage; resolve full structural metric evidence |
 | U06 | Revision-sensitive traversal | S01 solo forward twice/reverse once; S02 forward; S03 solo climb twice; S04 partner boost twice/reverse drop once | Unsupported E11/E27 reverse jumps blocked twice at surveyed crossings; other launch/partner scope and full geometric launch/landing bounds; indirect walking returns now accepted both ways; preserve direction-specific evidence |
 | U07 | Source image revision | Web radars have no matching installed-build identity | Crosscheck against current local captures |
 | U08 | Current truth-map footprint | Calibrated native overhead8 fit/16 independent holdouts, max.7518px; known-Z1.5px localization allowance. Radar13 floors/24 paths; four anchors within.20px. Four room wall sections accepted; continuous layered outline unsurveyed | Architectural boundary crosschecks and overlapping elevation layers |
@@ -419,3 +419,14 @@ inspected; faint red HOLD04 separately extracted after original reader failure.
 22 ground/covered-top/timber projections, no full boundaries. Failedfront007
 own-origin hit preserved;008 completes12 fresh observations/all0 restore.
 Critical dimensions and bounded whole-map architectural footprint remain FAIL.
+
+B timber upper/back/top010..018 reviewed: complete012/017 independent
+origins bound upper first-Wood atY2500Z[65,65.078125] andY2600
+Z[62.578125,62.65625]. Complete016 opposite faces give sampledZ40 thicknesses
+78.6892/68.4276cm. B_TIMBER_LOCAL_SECTIONS JSON/CSV/SVG rebuilt/rendered/inspected;
+four new physical rows,396 total. Two corrected018 first-down points: Wood
+Z62.67 slightly behindY2500 face, gravelZ61.94 behindY2600;456 connector points.
+No sharedflat cap/constant thickness. Failed011/014/015 actual intermediate
+Wood_Panel/rock/gravel classifications preserved;160 architectural reports/
+17 rejected. All executed controllers exact B-mouth restore all0. Full timber
+ends, hidden base, platform envelope and continuous whole-map footprint open.
