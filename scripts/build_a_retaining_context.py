@@ -3,7 +3,7 @@
 Inputs: native reports033/038, corrected columns034/037 and checked camera036.
 Outputs: reference/A_RETAINING_CONTEXT.json/.svg. Render and inspect after build.
 Points identify measured first-hit components; connecting lines are not inferred.
-Southern points outside marker range and occluded floor/cap remain explicit.
+Outsideground below marker range and occluded floor/cap remain explicit.
 """
 import base64,hashlib,json,math,re
 from pathlib import Path

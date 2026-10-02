@@ -2,6 +2,17 @@
 
 **Gate 1: FAIL.** These are blockers, not accepted exceptions.
 
+041 prospective exactupper-bracket coordinates atZ40/80 hit deeperconcreteHull
+X1227.02 onbothsides fromtwoorigins.042 nearbyY2308/2312/2320 reaches localMesh
+X1280 atZ40 and1279.35..1279.55 atZ80.194 architectural reports; lower firstface
+interface bounded initially between2304/2308 and retains separate height/shape.
+No automatic fullheight extension of upper039 exposedcorner.
+
+043 lowerZ80 join attempt preserved as27tharchitectural rejection: nearerMesh
+X1279.33 atY2305 gives way to deeperMeshX1260.02 at2304.5, thenHullX1227.02
+at2304. Original normalguard stopped; exactrestoreall0. Multiple lowercomponents
+remain separate.194 completearchitectural reports; no acceptedlowerbody endpoint.
+
 039 two outsideorigins match south firstMesh-facing limitY[2303.9921875,2304]
 atZ110;192 architectural reports.040 fresh8 terminalholdouts max.446016px,
 unchanged036fit and originalholds;283 registered images audited. Clean corner

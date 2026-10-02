@@ -2,6 +2,16 @@
 
 **FAIL. Phase 1 remains active. Phase 2 production is prohibited.**
 
+043 failed10 observations on deeperconcreteMeshX1260.02/Y2304.5/Z80; native
+rangefinder/repeats and all0restore verified. Preserved as27threjection with
+originalnormalguard;194 completearchitectural reports unchanged. LowerMesh/Hull
+components differ from upper039; no fullheight/body/floor end acceptance.
+
+04116 observations/all0: original039 on/off coordinates atZ40/80 bothhit deeper
+concreteHullX1227.02.04224/all0: nearbyY2308/2312/2320 localMeshX1280 atZ40 and
+1279.35..1279.55 atZ80.194 architectural reports; no fullheight upperbody end
+acceptance. Preserve failed lowercorroboration and sourcecomponent differences.
+
 03944 observations/all0:192 architectural reports. Two outsideorigins match
 south localMesh facing limitY[2303.9921875,2304] atZ110.040 fresh8 terminalholdouts
 max.446016px without refitting036; both native/JPEGframes/all8crops inspected,

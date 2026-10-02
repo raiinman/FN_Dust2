@@ -7,9 +7,9 @@ no model override, new chat or agent delegation requested. Criteria unchanged.
 
 ## Authority and preserved work
 
-GitHub main is authoritative. Latest pushed checkpoint878286a: directed visibility checks and A eastern frontal camera.
-Current work adds checked wider A Site overhead camera and retains clipped030 rejection;
-current Git commit pins that evidence checkpoint. Crash baseline35eaa642; dirty work preserved4c7df48,
+GitHub main is authoritative. Latest pushed checkpoint38ac4c5: bounded A southern facing end and retaining context.
+Current work narrows A retaining lower component joins; clipped030 rejection retained.
+Current Git commit pins the evidence checkpoint. Crash baseline35eaa642; dirty work preserved4c7df48,
 mergedab4e484. Active checkout:
 C:/Users/mikea/Documents/Codex/2026-09-30/new-chat/FN_Dust2
 Branch codex/crash-recovery-20261001 pushes meaningful checkpoints to main.
@@ -27,8 +27,8 @@ evidence/CRASH_RECOVERY_20261001.md. Inspect dirty work/current main first.
   2.54z), inverse/right-axis/length checks PASS. Phase2 exporter/editor roundtrip
   unverified; unsaved Hammer128 cube is calibration, not production.
 - 414 bounded physical features;13 floor datums;54 Short/117 Tunnel stair floor
-  samples;475 connector points;135 local architectural chords.192 raw
-  architectural reports/26 rejected attempts. MEASUREMENTS/profile registers own
+  samples;475 connector points;135 local architectural chords.194 raw
+  architectural reports/27 rejected attempts. MEASUREMENTS/profile registers own
   confidence/limits. Chords cross open space; they are not wall/polygon edges.
 - Listed topology PASS:34 edges/four specials.24 ground paths both directions;
   B Window both; Xbox forward twice/reverse; reciprocal Short-drop/CT-crate;
@@ -89,7 +89,13 @@ from188 through767.96875, separate southernHull at176..184. No smoothcurve/
 fullheight extrusion accepted. 024/025 complete44obs each/all0exactrestore. TwoXorigins agree southjoin westY[183.875,183.8828125], eastY[184,184.0078125] atZ0. NativeUI preflight observed the authored white cross at the west camera;
 source B-mouth exactly restored before captures. Camera026/027 controller COMPLETE:
 eight marked/clean frames, final B-mouth pose/all0 errors, overlay restored visible.
-NO ACTIVE source controller.040 two native/JPEGframes/all8crops individually
+ONE ACTIVE source controller: run_planned_columns_01.py asite_courtyard_columns_044/
+plan.json. Eight predeclared firstdown points; samefolder/driver_recovery_001.json
+owns outcome/cleanup.043 failed10obs on lowerMeshX1260.02 atY2304.5/Z80,
+all0restore; originalclassifier retained/private/report registered as27threject.
+194 completearchitectural reports.041/042 lowercomponent evidence preserved;
+no fullbody lowerend accepted.044 ground versus cover semantics need review.
+040 two native/JPEGframes/all8crops individually
 inspected; driver COMPLETE/all0. Eight fresh terminalholds excluded from original
 036fit, max.446016px, including exact039onpoint; unchanged originalfit/hold.
 283 images;192 architectural reports; south firstMesh interval
