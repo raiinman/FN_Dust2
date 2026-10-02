@@ -378,3 +378,11 @@ slopes. Native/JPEG overhead context individually inspected at actualpitch89
 Numeric point plan rebuilt/rendered/inspected.384 bounded measurements/443
 connector points/256 reviewed JPEG hashes/native dates PASS. Platform/cover
 perimeters, contact heights and whole-map architecture remain unresolved.
+
+B covered-mass face002:24 repeated observations, exact all0 restore; fourZ80
+Wood_Plank Hull faces each independently agree from two spaced outside origins.
+Local sampled width256.3368cm/depth261.6200cm; lowerZ60 width256.9464cm.
+Lower northY2457.43 versus upper bodyY2425.09 is adjoining retaining component,
+excluded from covered depth.387 physical rows; no complete box, hidden base,
+ground-contact height or uniform cloth top accepted. Separate top/surround plan
+is active in STATE; review source components before accepting additional heights.

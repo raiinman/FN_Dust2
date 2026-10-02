@@ -394,3 +394,9 @@ XY point plan, never interpolated floor or a transferred overhead camera. Two
 ground point-pair rises are separate from exact retaining-face/platform height.
 Overhead context requestedpitch90 was clamped89; captured actual pose reviewed
 and accepted for component context, failed wrapper/restoration preserved.
+
+B_COVERED_MASS_FACE_PREFLIGHT_002 in ARCHITECTURAL_ENDPOINTS owns four local
+Wood_Plank Hull face directions ateyeZ80, each checked from two spaced outside
+origins, plus lowerZ60 diagnostics. Three accepted_endpoint_spans are local
+width/depth sections. Exclude lower northY2457.43 retaining component from covered
+depth; shared material does not establish same body. No entire cover or hidden base.

@@ -7,7 +7,7 @@ no model override, new chat or agent delegation requested. Criteria unchanged.
 
 ## Authority and preserved work
 
-GitHub main authoritative. Latest pushed checkpointa9729a1 before platform survey;
+GitHub main authoritative. Latest pushed checkpoint5bf25a6 before covered-mass survey;
 latest Git commit pins this checkpoint. Crash baseline35eaa642, dirty work
 preserved4c7df48, mergedab4e484. Active checkout:
 C:/Users/mikea/Documents/Codex/2026-09-30/new-chat/FN_Dust2
@@ -25,7 +25,7 @@ evidence/CRASH_RECOVERY_20261001.md. Inspect dirty work and current main first.
 - Scale2.54cm/native from repeated inch-rangefinder anchors; UE=(2.54x,-2.54y,
   2.54z), inverse/native-right/length checks PASS. Phase2 exporter/editor roundtrip
   remains unverified. Unsaved Hammer128 cube is calibration, not production.
-- 384 bounded physical feature measurements;13 floor datums;54 Short/117 Tunnel
+- 387 bounded physical feature measurements;13 floor datums;54 Short/117 Tunnel
   stair floor samples;443 connector points;130 local architectural chords.
   MEASUREMENTS.csv and profile registers retain confidence and explicit limits.
   Local sections/point pairs are not entire room rectangles or route clearances.
@@ -90,7 +90,16 @@ now extend projection range throughZ290. Whole cap/body still separate. Every co
 
 ## Desktop and current source controller
 
-No active source controller. Nine B platform columns completed, exact all0
+ONE active source controller: private run_planned_columns_01.py ->
+b_covered_top_surround_03/driver_recovery_001.json, four covered-top and three
+adjoining first-down points fromZ180. Inspect plan/raw semantics and exact
+restoration before reuse; do not duplicate. Covered-face002 completed24
+observations/all0 restore, registered147th architectural report. Four face
+directions atZ80 each independently agree from two origins: sampled width
+256.3368cm/depth261.6200cm. LowerZ60 width256.9464cm; north lower firstWood
+Y2457.43 is nearer retaining component, excluded from cover depth. Three
+physical rows added (387); no complete cover box/height/hidden base accepted.
+Nine B platform columns completed, exact all0
 restore; raw plan/driver/reports preserved in b_platform_columns_01. Eight
 concrete/gravel ground points and one Wood_Plank Hull cover top explicitly
 reviewed. Two ground point-pair rises51.7398/56.6420cm;384 measurements/443

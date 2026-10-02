@@ -73858,6 +73858,698 @@
       "private_raw_path": "../reference_cache/crash_recovery_survey/b_courtyard_south_side_03/report.json",
       "review": "Three westward side hits agree exactly from independentX-1700/-1680 atZ160: Y1780/-1728.67, Y1760/-1728.31, Y1720/-1728.01. Tapered sampled return; no constant-X/full-height plane.",
       "accepted_sections": []
+    },
+    {
+      "id": "B_COVERED_MASS_FACE_PREFLIGHT_002",
+      "source_build": "25640462",
+      "area": "B Site covered mass near first-down top[-1850,2400,102.54]",
+      "source_map": "de_dust2",
+      "timestamp_utc": "2026-10-02T16:31:18.047320+00:00",
+      "unit": "source_units",
+      "config": {
+        "id": "B_COVERED_MASS_FACE_PREFLIGHT_002",
+        "build": "25640462",
+        "area": "B Site covered mass near first-down top[-1850,2400,102.54]",
+        "stations": [
+          {
+            "id": "WEST_X1950_Z80",
+            "pose": [
+              -1950,
+              2400,
+              16
+            ],
+            "yaws": [
+              0
+            ]
+          },
+          {
+            "id": "WEST_X1980_Z80",
+            "pose": [
+              -1980,
+              2400,
+              16
+            ],
+            "yaws": [
+              0
+            ]
+          },
+          {
+            "id": "EAST_X1750_Z80",
+            "pose": [
+              -1750,
+              2400,
+              16
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "EAST_X1720_Z80",
+            "pose": [
+              -1720,
+              2400,
+              16
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "NORTH_Y2500_Z80",
+            "pose": [
+              -1850,
+              2500,
+              16
+            ],
+            "yaws": [
+              -90
+            ]
+          },
+          {
+            "id": "NORTH_Y2550_Z80",
+            "pose": [
+              -1850,
+              2550,
+              16
+            ],
+            "yaws": [
+              -90
+            ]
+          },
+          {
+            "id": "SOUTH_Y2250_Z80",
+            "pose": [
+              -1850,
+              2250,
+              16
+            ],
+            "yaws": [
+              90
+            ]
+          },
+          {
+            "id": "SOUTH_Y2220_Z80",
+            "pose": [
+              -1850,
+              2220,
+              16
+            ],
+            "yaws": [
+              90
+            ]
+          },
+          {
+            "id": "WEST_X1950_Z60",
+            "pose": [
+              -1950,
+              2400,
+              -4
+            ],
+            "yaws": [
+              0
+            ]
+          },
+          {
+            "id": "EAST_X1750_Z60",
+            "pose": [
+              -1750,
+              2400,
+              -4
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "NORTH_Y2500_Z60",
+            "pose": [
+              -1850,
+              2500,
+              -4
+            ],
+            "yaws": [
+              -90
+            ]
+          },
+          {
+            "id": "SOUTH_Y2250_Z60",
+            "pose": [
+              -1850,
+              2250,
+              -4
+            ],
+            "yaws": [
+              90
+            ]
+          }
+        ],
+        "scope": "Four opposing first-hit face directions ateyeZ80 fromtwo independently spaced outside origins per side; lowerZ60 single origin per side diagnostic. Native top was Wood_Plank Hull, overhead context shows covered box by retaining strip. Preserve intervening strip/other cover hits; require repeated same intended Wood_Plank component before dimension selection. No automatic box footprint, full height, hidden underside or entire platform perimeter."
+      },
+      "observations": [
+        {
+          "station_id": "WEST_X1950_Z80",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1950.000000 2400.000000 16.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            2400,
+            80
+          ],
+          "hit": [
+            -1859.43,
+            2400.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  90.57 inches (  7.55 feet)"
+        },
+        {
+          "station_id": "WEST_X1950_Z80",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1950.000000 2400.000000 16.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            2400,
+            80
+          ],
+          "hit": [
+            -1859.43,
+            2400.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  90.57 inches (  7.55 feet)"
+        },
+        {
+          "station_id": "WEST_X1980_Z80",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1980.000000 2400.000000 16.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1980,
+            2400,
+            80
+          ],
+          "hit": [
+            -1859.43,
+            2400.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 120.57 inches ( 10.05 feet)"
+        },
+        {
+          "station_id": "WEST_X1980_Z80",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1980.000000 2400.000000 16.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1980,
+            2400,
+            80
+          ],
+          "hit": [
+            -1859.43,
+            2400.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 120.57 inches ( 10.05 feet)"
+        },
+        {
+          "station_id": "EAST_X1750_Z80",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1750.000000 2400.000000 16.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1750,
+            2400,
+            80
+          ],
+          "hit": [
+            -1758.51,
+            2400.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:   8.51 inches (  0.71 feet)"
+        },
+        {
+          "station_id": "EAST_X1750_Z80",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1750.000000 2400.000000 16.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1750,
+            2400,
+            80
+          ],
+          "hit": [
+            -1758.51,
+            2400.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:   8.51 inches (  0.71 feet)"
+        },
+        {
+          "station_id": "EAST_X1720_Z80",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1720.000000 2400.000000 16.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1720,
+            2400,
+            80
+          ],
+          "hit": [
+            -1758.51,
+            2400.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  38.51 inches (  3.21 feet)"
+        },
+        {
+          "station_id": "EAST_X1720_Z80",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1720.000000 2400.000000 16.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1720,
+            2400,
+            80
+          ],
+          "hit": [
+            -1758.51,
+            2400.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  38.51 inches (  3.21 feet)"
+        },
+        {
+          "station_id": "NORTH_Y2500_Z80",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -1850.000000 2500.000000 16.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1850,
+            2500,
+            80
+          ],
+          "hit": [
+            -1850.0,
+            2425.09,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  74.91 inches (  6.24 feet)"
+        },
+        {
+          "station_id": "NORTH_Y2500_Z80",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact -1850.000000 2500.000000 16.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1850,
+            2500,
+            80
+          ],
+          "hit": [
+            -1850.0,
+            2425.09,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  74.91 inches (  6.24 feet)"
+        },
+        {
+          "station_id": "NORTH_Y2550_Z80",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -1850.000000 2550.000000 16.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1850,
+            2550,
+            80
+          ],
+          "hit": [
+            -1850.0,
+            2425.09,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 124.91 inches ( 10.41 feet)"
+        },
+        {
+          "station_id": "NORTH_Y2550_Z80",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact -1850.000000 2550.000000 16.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1850,
+            2550,
+            80
+          ],
+          "hit": [
+            -1850.0,
+            2425.09,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 124.91 inches ( 10.41 feet)"
+        },
+        {
+          "station_id": "SOUTH_Y2250_Z80",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact -1850.000000 2250.000000 16.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -1850,
+            2250,
+            80
+          ],
+          "hit": [
+            -1850.0,
+            2322.09,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  72.09 inches (  6.01 feet)"
+        },
+        {
+          "station_id": "SOUTH_Y2250_Z80",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact -1850.000000 2250.000000 16.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -1850,
+            2250,
+            80
+          ],
+          "hit": [
+            -1850.0,
+            2322.09,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  72.09 inches (  6.01 feet)"
+        },
+        {
+          "station_id": "SOUTH_Y2220_Z80",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact -1850.000000 2220.000000 16.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -1850,
+            2220,
+            80
+          ],
+          "hit": [
+            -1850.0,
+            2322.09,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 102.09 inches (  8.51 feet)"
+        },
+        {
+          "station_id": "SOUTH_Y2220_Z80",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact -1850.000000 2220.000000 16.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -1850,
+            2220,
+            80
+          ],
+          "hit": [
+            -1850.0,
+            2322.09,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 102.09 inches (  8.51 feet)"
+        },
+        {
+          "station_id": "WEST_X1950_Z60",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1950.000000 2400.000000 -4.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            2400,
+            60
+          ],
+          "hit": [
+            -1858.81,
+            2400.0,
+            60.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  91.19 inches (  7.60 feet)"
+        },
+        {
+          "station_id": "WEST_X1950_Z60",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1950.000000 2400.000000 -4.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            2400,
+            60
+          ],
+          "hit": [
+            -1858.81,
+            2400.0,
+            60.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  91.19 inches (  7.60 feet)"
+        },
+        {
+          "station_id": "EAST_X1750_Z60",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1750.000000 2400.000000 -4.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1750,
+            2400,
+            60
+          ],
+          "hit": [
+            -1757.65,
+            2400.0,
+            60.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:   7.65 inches (  0.64 feet)"
+        },
+        {
+          "station_id": "EAST_X1750_Z60",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1750.000000 2400.000000 -4.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1750,
+            2400,
+            60
+          ],
+          "hit": [
+            -1757.65,
+            2400.0,
+            60.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:   7.65 inches (  0.64 feet)"
+        },
+        {
+          "station_id": "NORTH_Y2500_Z60",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -1850.000000 2500.000000 -4.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1850,
+            2500,
+            60
+          ],
+          "hit": [
+            -1850.0,
+            2457.43,
+            60.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  42.57 inches (  3.55 feet)"
+        },
+        {
+          "station_id": "NORTH_Y2500_Z60",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact -1850.000000 2500.000000 -4.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1850,
+            2500,
+            60
+          ],
+          "hit": [
+            -1850.0,
+            2457.43,
+            60.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  42.57 inches (  3.55 feet)"
+        },
+        {
+          "station_id": "SOUTH_Y2250_Z60",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact -1850.000000 2250.000000 -4.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -1850,
+            2250,
+            60
+          ],
+          "hit": [
+            -1850.0,
+            2321.07,
+            60.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  71.07 inches (  5.92 feet)"
+        },
+        {
+          "station_id": "SOUTH_Y2250_Z60",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact -1850.000000 2250.000000 -4.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -1850,
+            2250,
+            60
+          ],
+          "hit": [
+            -1850.0,
+            2321.07,
+            60.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  71.07 inches (  5.92 feet)"
+        }
+      ],
+      "status": "complete; architectural interpretation pending",
+      "original_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reviewed_area": "B Site",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\b_covered_mass_faces_02\\report.json",
+      "review": "Native overhead context and known top[-1850,2400,102.54] identify covered mass. AtZ80 four face directions each agree exactly from two independently spaced origins. AtZ60 west/east/south track local body but north hits nearerY2457.43 retaining component instead of upper bodyY2425.09; exclude lower north from covered depth. Material alone cannot distinguish adjoining Wood_Plank Hull. No full box, hidden base or full platform perimeter.",
+      "accepted_sections": [],
+      "accepted_endpoint_spans": [
+        {
+          "id": "B_COVERED_MASS_X_Z80_SECTION",
+          "axis": 0,
+          "low": {
+            "station_id": "WEST_X1950_Z80",
+            "yaw": 0
+          },
+          "high": {
+            "station_id": "EAST_X1750_Z80",
+            "yaw": 180
+          },
+          "feature": "B central covered mass sampled width at nativeZ80",
+          "confidence": "confirmed repeated sampled collision-body section; Z80 independently repeated origins",
+          "notes": "Native overhead context and known top[-1850,2400,102.54] identify covered mass. AtZ80 four face directions each agree exactly from two independently spaced origins. AtZ60 west/east/south track local body but north hits nearerY2457.43 retaining component instead of upper bodyY2425.09; exclude lower north from covered depth. Material alone cannot distinguish adjoining Wood_Plank Hull. No full box, hidden base or full platform perimeter. Higher/lower widths are separate; no unmeasured face interpolation or rendered cloth offset bound."
+        },
+        {
+          "id": "B_COVERED_MASS_Y_Z80_SECTION",
+          "axis": 1,
+          "low": {
+            "station_id": "SOUTH_Y2250_Z80",
+            "yaw": 90
+          },
+          "high": {
+            "station_id": "NORTH_Y2500_Z80",
+            "yaw": -90
+          },
+          "feature": "B central covered mass sampled depth at nativeZ80",
+          "confidence": "confirmed repeated sampled collision-body section; Z80 independently repeated origins",
+          "notes": "Native overhead context and known top[-1850,2400,102.54] identify covered mass. AtZ80 four face directions each agree exactly from two independently spaced origins. AtZ60 west/east/south track local body but north hits nearerY2457.43 retaining component instead of upper bodyY2425.09; exclude lower north from covered depth. Material alone cannot distinguish adjoining Wood_Plank Hull. No full box, hidden base or full platform perimeter. Higher/lower widths are separate; no unmeasured face interpolation or rendered cloth offset bound."
+        },
+        {
+          "id": "B_COVERED_MASS_X_Z60_SECTION",
+          "axis": 0,
+          "low": {
+            "station_id": "WEST_X1950_Z60",
+            "yaw": 0
+          },
+          "high": {
+            "station_id": "EAST_X1750_Z60",
+            "yaw": 180
+          },
+          "feature": "B central covered mass sampled width at nativeZ60",
+          "confidence": "confirmed repeated sampled collision-body section; Z80 independently repeated origins",
+          "notes": "Native overhead context and known top[-1850,2400,102.54] identify covered mass. AtZ80 four face directions each agree exactly from two independently spaced origins. AtZ60 west/east/south track local body but north hits nearerY2457.43 retaining component instead of upper bodyY2425.09; exclude lower north from covered depth. Material alone cannot distinguish adjoining Wood_Plank Hull. No full box, hidden base or full platform perimeter. Higher/lower widths are separate; no unmeasured face interpolation or rendered cloth offset bound."
+        }
+      ]
     }
   ],
   "rejected_attempts": [
