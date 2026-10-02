@@ -8,7 +8,7 @@ with its configured model; no model override or agent delegation requested.
 ## Authority and preserved work
 
 GitHub main authoritative; fetch/check before resuming. Crash baseline35eaa642,
-dirty work preserved4c7df48, mergedab4e484. Latest pushed checkpoint9541e12
+dirty work preserved4c7df48, mergedab4e484. Latest pushed checkpoint6d07e55
 before this update. Active C:/Users/mikea/Documents/Codex/2026-09-30/new-chat/
 FN_Dust2, branch codex/crash-recovery-20261001 pushes meaningful checkpoints
 to main. OneDrive workspace separate; synced sources/ read-only. Raw/private
@@ -24,7 +24,7 @@ recovery: evidence/CRASH_RECOVERY_20261001.md. Latest Git commit pins checkpoint
 - Scale2.54cm/native from two repeated inch-rangefinder anchors. UE=(2.54x,
   -2.54y,2.54z), inverse/length/native-right checks PASS. Phase2 editor/exporter
   roundtrip unverified. Unsaved Hammer128 calibration cube is not production.
-- 13 floor datums;54 Short/54 Tunnel stair samples;434 connector floor/cover/
+- 13 floor datums;54 Short/102 Tunnel stair samples;434 connector floor/cover/
   cap points;368 calibrated feature measurements.126 local architectural chords
   never become complete room rectangles or minimum full-route clearances.
 - Short12 rendered/native risers, rise234.3912cm/run359.6132cm sampled; nonuniform.
@@ -194,7 +194,23 @@ B_jamb_boundaries_01 eight opposite-normal preflight stations completed/restored
 southY2050 has first concrete facesX-1376/-1232; northY2400X-1343.5/-1296.
 Y2150/2300 first Wood_Dense from both sides. Different southern return/northern
 facade depths stay explicit; no mixed-component body dimension accepted.
-No active source pose/input controller. b_frame_upper_transitions_11 completed
+No active source controller. tunnel_winder_height_checks_03 completed48
+observations/restored exactly. Twelve opposite common-eyeZ10 stations give24
+fresh component checks against unchanged circle models, fixed-before-capture
+1native threshold; max outer2.0361cm/inner2.0108cm. Together with fresh angles,
+TUNNEL_WINDER_SIDE_CHECKS72 prospective checks pass (max2.3178cm), numeric
+files/annotation rebuilt/rendered/inspected; seven off-frame points retained.
+No continuous cylinder or complete side/terminal/footprint acceptance.
+tunnel_winder_side_checks_02 completed96 observations/restored exactly. All48
+fresh angle directions match predicted concrete Mesh outer/Hull inner components;
+maximum point prediction errors1.4980cm outer/2.3178cm inner. No continuous
+cylinder, full side or whole stair footprint acceptance is granted.
+tunnel_floor_side_holds_01 completed all48 columns/restored exactly. Every
+corrected repeated concrete Hull floor matches predeclared treadZ at printed
+resolution. TUNNEL_STAIR_PROFILE now102 floor points; lateral/angle checks are
+local evidence, not unseen flat-plane/full-side acceptance. New side circle
+baseline diagnostics remain provisional (outermax1.6464cm/inner1.9368cm).
+b_frame_upper_transitions_11 completed
 120 observations/restored exactly. Allsix opposing Y2110/2225/2300 upper
 first-Wood intervals[216.25,216.328125]native agree; numerical padded absolute
 source-referenced elevations549.2623..549.4861cm. Three upper elevation rows
@@ -214,7 +230,7 @@ extrapolates20.21native below marker Z range[-92.19,50]; side hitsZ-83.97..4.03
 inside range. Camera never grants full side/terminal boundaries or floor continuity.
 Initial clipped/crowded proposed hold layout rejected before capture; never run.
 Wrapper driver_recovery_001 restored exact pre-preview B-mouth target from
-B_FRAME_UPPER_MATERIAL_HEIGHT_TRANSITIONS_011; no movement/pose controller active.
+B_FRAME_UPPER_MATERIAL_HEIGHT_TRANSITIONS_011; restored before the new winder-floor controller started.
 235 JPEG hashes/native dates PASS, eight historical exclusions unchanged.
 b_leaf_plane_height_holds_08 completed
 32 observations/restored exactly;16 fresh Z40/140 tangent/height directions
@@ -274,7 +290,8 @@ Raw native TGA/PNG retained; upload reviewed JPEGs with provenance/metadata.
 
 ## Next work
 
-Continue B fixed-post inner edges/leaf extent and preserve separately bounded
+Continue Tunnel full-width riser/terminal bounds using checked local camera and
+fresh side/floor evidence. Continue B fixed-post inner edges/leaf extent and preserve separately bounded
 render offsets. Lower south depth retry is already represented in accepted local
 stone profiles; do not duplicate it. Compare
 route ray heights and verify architectural boundary candidates independently. Resolve B timber identity, full aperture/body ends/

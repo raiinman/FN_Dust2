@@ -3,7 +3,7 @@
   "source_map": "de_dust2",
   "unit": "source_units",
   "area": "Tunnel Stairs",
-  "status": "reviewed54 floor points and18 collision/rendered risers; radial width and face orientation accepted; full side/terminal geometry review pending",
+  "status": "reviewed102 floor points and18 collision/rendered risers;48 fresh floor checks and72 independent curved-side point checks; full side/terminal geometry review pending",
   "reports": [
     {
       "timestamp_utc": "2026-10-02T02:41:04.385637+00:00",
@@ -4150,6 +4150,3654 @@
       "private_filename": "tunnel_stair_floor_profile_03/TUNSTAIR_X-1292_Y1080_003.json",
       "branch": "west",
       "surface_semantics": "Concrete tread collision point in sampled stair section; sand/tile mesh floor is adjacent landing/entry and may slope slightly. No floor interpolation or rendered-face exactness inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:35:51.975901+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1126.162697,
+        1210.143718
+      ],
+      "probe_player_z": -57.97,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1190.152954 1210.143677 -57.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1125.62,
+            1210.14,
+            -87.97
+          ],
+          "xy_error": 0.5427097358009126,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1190.695679 1210.147461 -57.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1126.16,
+            1210.15,
+            -87.97
+          ],
+          "xy_error": 0.00683647080006564,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1190.695679 1210.147461 -57.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1126.16,
+            1210.15,
+            -87.97
+          ],
+          "xy_error": 0.00683647080006564,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1126.16,
+          1210.15,
+          -87.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_01_INNER_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_01_INNER_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:36:01.435148+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1046.333983,
+        1204.911468
+      ],
+      "probe_player_z": -57.97,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1110.324219 1204.911499 -57.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1045.79,
+            1204.91,
+            -87.97
+          ],
+          "xy_error": 0.5439849807789069,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1110.868164 1204.912964 -57.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1046.33,
+            1204.91,
+            -87.97
+          ],
+          "xy_error": 0.004244916135837472,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1110.868164 1204.912964 -57.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1046.33,
+            1204.91,
+            -87.97
+          ],
+          "xy_error": 0.004244916135837472,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1046.33,
+          1204.91,
+          -87.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_01_OUTER_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_01_OUTER_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:36:10.795127+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1088.506969,
+        1204.317793
+      ],
+      "probe_player_z": -57.97,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1152.497192 1204.317749 -57.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1087.96,
+            1204.32,
+            -87.97
+          ],
+          "xy_error": 0.5469734525641889,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1153.044189 1204.315552 -57.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1088.51,
+            1204.32,
+            -87.97
+          ],
+          "xy_error": 0.0037493746144894777,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1153.044189 1204.315552 -57.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1088.51,
+            1204.32,
+            -87.97
+          ],
+          "xy_error": 0.0037493746144894777,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1088.51,
+          1204.32,
+          -87.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_01_ANGLE_LOW_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_01_ANGLE_LOW_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:36:20.151496+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1088.068683,
+        1211.004744
+      ],
+      "probe_player_z": -57.97,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1152.058960 1211.004761 -57.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1087.53,
+            1211.0,
+            -87.97
+          ],
+          "xy_error": 0.5387038890011765,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1152.597656 1211.009521 -57.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1088.06,
+            1211.01,
+            -87.97
+          ],
+          "xy_error": 0.010149878078059107,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1152.597656 1211.009521 -57.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1088.06,
+            1211.01,
+            -87.97
+          ],
+          "xy_error": 0.010149878078059107,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1088.06,
+          1211.01,
+          -87.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_01_ANGLE_HIGH_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_01_ANGLE_HIGH_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:36:29.797430+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1127.699325,
+        1198.471871
+      ],
+      "probe_player_z": -49.97,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1191.689575 1198.471924 -49.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1127.16,
+            1198.47,
+            -79.97
+          ],
+          "xy_error": 0.5393282453811958,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1192.228882 1198.473755 -49.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1127.7,
+            1198.47,
+            -79.97
+          ],
+          "xy_error": 0.001989036450085065,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1192.228882 1198.473755 -49.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1127.7,
+            1198.47,
+            -79.97
+          ],
+          "xy_error": 0.001989036450085065,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1127.7,
+          1198.47,
+          -79.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_02_INNER_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_02_INNER_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:36:39.544708+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1049.236502,
+        1182.864645
+      ],
+      "probe_player_z": -49.97,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1113.226807 1182.864624 -49.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1048.69,
+            1182.86,
+            -79.97
+          ],
+          "xy_error": 0.5465217397587336,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1113.773315 1182.869263 -49.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1049.24,
+            1182.87,
+            -79.97
+          ],
+          "xy_error": 0.006396251167512829,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1113.773315 1182.869263 -49.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1049.24,
+            1182.87,
+            -79.97
+          ],
+          "xy_error": 0.006396251167512829,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1049.24,
+          1182.87,
+          -79.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_02_OUTER_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_02_OUTER_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:36:48.601136+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1091.126183,
+        1187.780728
+      ],
+      "probe_player_z": -49.97,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1155.116455 1187.780762 -49.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1090.58,
+            1187.78,
+            -79.97
+          ],
+          "xy_error": 0.5461834851706612,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1155.662598 1187.781494 -49.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1091.13,
+            1187.78,
+            -79.97
+          ],
+          "xy_error": 0.00388580403522536,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1155.662598 1187.781494 -49.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1091.13,
+            1187.78,
+            -79.97
+          ],
+          "xy_error": 0.00388580403522536,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1091.13,
+          1187.78,
+          -79.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_02_ANGLE_LOW_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_02_ANGLE_LOW_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:36:58.049874+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1089.818824,
+        1194.353264
+      ],
+      "probe_player_z": -49.97,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1153.809082 1194.353271 -49.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1089.28,
+            1194.35,
+            -79.97
+          ],
+          "xy_error": 0.538833885972269,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1154.347900 1194.356567 -49.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1089.81,
+            1194.36,
+            -79.97
+          ],
+          "xy_error": 0.0111012013763211,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1154.347900 1194.356567 -49.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1089.81,
+            1194.36,
+            -79.97
+          ],
+          "xy_error": 0.0111012013763211,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1089.81,
+          1194.36,
+          -79.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_02_ANGLE_HIGH_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_02_ANGLE_HIGH_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:37:07.593341+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1130.746288,
+        1187.100448
+      ],
+      "probe_player_z": -41.97,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1194.736572 1187.100464 -41.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1130.2,
+            1187.1,
+            -71.97
+          ],
+          "xy_error": 0.5462881836979494,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1195.282837 1187.100952 -41.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1130.75,
+            1187.1,
+            -71.97
+          ],
+          "xy_error": 0.003738936747209975,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1195.282837 1187.100952 -41.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1130.75,
+            1187.1,
+            -71.97
+          ],
+          "xy_error": 0.003738936747209975,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1130.75,
+          1187.1,
+          -71.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_03_INNER_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_03_INNER_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:37:17.046551+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1054.991878,
+        1161.385291
+      ],
+      "probe_player_z": -41.97,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1118.982178 1161.385254 -41.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1054.45,
+            1161.39,
+            -71.97
+          ],
+          "xy_error": 0.541898460567104,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1119.524048 1161.380615 -41.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1054.99,
+            1161.38,
+            -71.97
+          ],
+          "xy_error": 0.005614406914316125,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1119.524048 1161.380615 -41.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1054.99,
+            1161.38,
+            -71.97
+          ],
+          "xy_error": 0.005614406914316125,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1054.99,
+          1161.38,
+          -71.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_03_OUTER_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_03_OUTER_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:37:26.596942+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1095.881509,
+        1171.727017
+      ],
+      "probe_player_z": -41.97,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1159.871704 1171.727051 -41.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1095.34,
+            1171.73,
+            -71.97
+          ],
+          "xy_error": 0.541517216134579,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1160.413330 1171.723999 -41.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1095.88,
+            1171.72,
+            -71.97
+          ],
+          "xy_error": 0.007177420845853647,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1160.413330 1171.723999 -41.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1095.88,
+            1171.72,
+            -71.97
+          ],
+          "xy_error": 0.007177420845853647,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1095.88,
+          1171.72,
+          -71.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_03_ANGLE_LOW_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_03_ANGLE_LOW_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:37:35.956623+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1093.727447,
+        1178.072678
+      ],
+      "probe_player_z": -41.97,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1157.717651 1178.072632 -41.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1093.18,
+            1178.07,
+            -71.97
+          ],
+          "xy_error": 0.5474535500779156,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1158.265137 1178.075317 -41.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1093.73,
+            1178.08,
+            -71.97
+          ],
+          "xy_error": 0.007754320924437249,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1158.265137 1178.075317 -41.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1093.73,
+            1178.08,
+            -71.97
+          ],
+          "xy_error": 0.007754320924437249,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1093.73,
+          1178.08,
+          -71.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_03_ANGLE_HIGH_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_03_ANGLE_HIGH_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:37:45.419967+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1135.251453,
+        1176.224018
+      ],
+      "probe_player_z": -33.97,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1199.241699 1176.223999 -33.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1134.71,
+            1176.22,
+            -63.97
+          ],
+          "xy_error": 0.5414679081284962,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1199.783203 1176.228027 -33.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1135.25,
+            1176.23,
+            -63.97
+          ],
+          "xy_error": 0.006155934778878696,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1199.783203 1176.228027 -33.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1135.25,
+            1176.23,
+            -63.97
+          ],
+          "xy_error": 0.006155934778878696,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1135.25,
+          1176.23,
+          -63.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_04_INNER_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_04_INNER_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:37:54.771601+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1063.501634,
+        1140.840923
+      ],
+      "probe_player_z": -33.97,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1127.491943 1140.840942 -33.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1062.96,
+            1140.84,
+            -63.97
+          ],
+          "xy_error": 0.5416347864427886,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1128.033569 1140.841797 -33.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1063.5,
+            1140.84,
+            -63.97
+          ],
+          "xy_error": 0.001876668590880767,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1128.033569 1140.841797 -33.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1063.5,
+            1140.84,
+            -63.97
+          ],
+          "xy_error": 0.001876668590880767,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1063.5,
+          1140.84,
+          -63.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_04_OUTER_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_04_OUTER_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:38:04.225505+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1102.691582,
+        1156.431341
+      ],
+      "probe_player_z": -33.97,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1166.681885 1156.431396 -33.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1102.15,
+            1156.43,
+            -63.97
+          ],
+          "xy_error": 0.541583660208486,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1167.223389 1156.432739 -33.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1102.69,
+            1156.43,
+            -63.97
+          ],
+          "xy_error": 0.0020738864480376747,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1167.223389 1156.432739 -33.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1102.69,
+            1156.43,
+            -63.97
+          ],
+          "xy_error": 0.0020738864480376747,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1102.69,
+          1156.43,
+          -63.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_04_ANGLE_LOW_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_04_ANGLE_LOW_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:38:13.086094+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1099.727674,
+        1162.441554
+      ],
+      "probe_player_z": -33.97,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1163.717896 1162.441528 -33.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1099.18,
+            1162.44,
+            -63.97
+          ],
+          "xy_error": 0.547676204697545,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1164.265625 1162.443115 -33.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1099.73,
+            1162.44,
+            -63.97
+          ],
+          "xy_error": 0.0027973544644898677,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1164.265625 1162.443115 -33.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1099.73,
+            1162.44,
+            -63.97
+          ],
+          "xy_error": 0.0027973544644898677,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1099.73,
+          1162.44,
+          -63.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_04_ANGLE_HIGH_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_04_ANGLE_HIGH_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:38:22.340134+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1141.137735,
+        1166.028679
+      ],
+      "probe_player_z": -25.97,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1205.127930 1166.028687 -25.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1140.59,
+            1166.03,
+            -55.97
+          ],
+          "xy_error": 0.5477365929587982,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1205.675781 1166.027344 -25.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1141.14,
+            1166.03,
+            -55.97
+          ],
+          "xy_error": 0.00262207284419384,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1205.675781 1166.027344 -25.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1141.14,
+            1166.03,
+            -55.97
+          ],
+          "xy_error": 0.00262207284419384,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1141.14,
+          1166.03,
+          -55.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_05_INNER_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_05_INNER_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:38:31.991503+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1074.620166,
+        1121.58306
+      ],
+      "probe_player_z": -25.97,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1138.610474 1121.583008 -25.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1074.08,
+            1121.58,
+            -55.97
+          ],
+          "xy_error": 0.5401746672660606,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1139.150635 1121.586060 -25.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1074.62,
+            1121.59,
+            -55.97
+          ],
+          "xy_error": 0.00694198501869724,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1139.150635 1121.586060 -25.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1074.62,
+            1121.59,
+            -55.97
+          ],
+          "xy_error": 0.00694198501869724,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1074.62,
+          1121.59,
+          -55.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_05_OUTER_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_05_OUTER_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:38:41.748714+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1111.439881,
+        1142.155416
+      ],
+      "probe_player_z": -25.97,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1175.430176 1142.155396 -25.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1110.9,
+            1142.16,
+            -55.97
+          ],
+          "xy_error": 0.5399004604711104,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1175.969971 1142.150879 -25.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1111.44,
+            1142.15,
+            -55.97
+          ],
+          "xy_error": 0.005417307172356638,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1175.969971 1142.150879 -25.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1111.44,
+            1142.15,
+            -55.97
+          ],
+          "xy_error": 0.005417307172356638,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1111.44,
+          1142.15,
+          -55.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_05_ANGLE_LOW_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_05_ANGLE_LOW_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:38:51.197014+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1107.716839,
+        1147.727342
+      ],
+      "probe_player_z": -25.97,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1171.707031 1147.727295 -25.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1107.17,
+            1147.73,
+            -55.97
+          ],
+          "xy_error": 0.5468454597826075,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1172.253906 1147.724731 -25.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1107.72,
+            1147.72,
+            -55.97
+          ],
+          "xy_error": 0.00799355271445811,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1172.253906 1147.724731 -25.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1107.72,
+            1147.72,
+            -55.97
+          ],
+          "xy_error": 0.00799355271445811,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1107.72,
+          1147.72,
+          -55.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_05_ANGLE_HIGH_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_05_ANGLE_HIGH_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:39:00.449043+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1148.304417,
+        1156.688877
+      ],
+      "probe_player_z": -17.97,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1212.294678 1156.688843 -17.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1147.76,
+            1156.69,
+            -47.97
+          ],
+          "xy_error": 0.5444181582369132,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1212.839111 1156.687744 -17.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1148.31,
+            1156.69,
+            -47.97
+          ],
+          "xy_error": 0.005694823789965952,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1212.839111 1156.687744 -17.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1148.31,
+            1156.69,
+            -47.97
+          ],
+          "xy_error": 0.005694823789965952,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1148.31,
+          1156.69,
+          -47.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_06_INNER_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_06_INNER_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:39:09.900229+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1088.157233,
+        1103.941211
+      ],
+      "probe_player_z": -17.97,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1152.147461 1103.941162 -17.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1087.61,
+            1103.94,
+            -47.97
+          ],
+          "xy_error": 0.5472343399404008,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1152.694702 1103.942383 -17.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1088.16,
+            1103.94,
+            -47.97
+          ],
+          "xy_error": 0.003020398980433658,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1152.694702 1103.942383 -17.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1088.16,
+            1103.94,
+            -47.97
+          ],
+          "xy_error": 0.003020398980433658,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1088.16,
+          1103.94,
+          -47.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_06_OUTER_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_06_OUTER_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:39:19.266821+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1121.976719,
+        1129.143505
+      ],
+      "probe_player_z": -17.97,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1185.966919 1129.143555 -17.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1121.43,
+            1129.14,
+            -47.97
+          ],
+          "xy_error": 0.5467302351122835,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1186.513672 1129.146973 -17.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1121.98,
+            1129.15,
+            -47.97
+          ],
+          "xy_error": 0.007276674102996648,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1186.513672 1129.146973 -17.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1121.98,
+            1129.15,
+            -47.97
+          ],
+          "xy_error": 0.007276674102996648,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1121.98,
+          1129.15,
+          -47.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_06_ANGLE_LOW_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_06_ANGLE_LOW_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:39:28.621229+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1117.558245,
+        1134.181808
+      ],
+      "probe_player_z": -17.97,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1181.548462 1134.181763 -17.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1117.02,
+            1134.18,
+            -47.97
+          ],
+          "xy_error": 0.5382480365862543,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1182.086792 1134.183594 -17.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1117.55,
+            1134.18,
+            -47.97
+          ],
+          "xy_error": 0.008440905697834842,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1182.086792 1134.183594 -17.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1117.55,
+            1134.18,
+            -47.97
+          ],
+          "xy_error": 0.008440905697834842,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1117.55,
+          1134.18,
+          -47.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_06_ANGLE_HIGH_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_06_ANGLE_HIGH_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:39:37.367518+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1156.628877,
+        1148.364417
+      ],
+      "probe_player_z": -9.97,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1220.619141 1148.364380 -9.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1156.09,
+            1148.36,
+            -39.97
+          ],
+          "xy_error": 0.5388951020543788,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1221.157959 1148.368774 -9.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1156.62,
+            1148.37,
+            -39.97
+          ],
+          "xy_error": 0.010486706728163047,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1221.157959 1148.368774 -9.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1156.62,
+            1148.37,
+            -39.97
+          ],
+          "xy_error": 0.010486706728163047,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1156.62,
+          1148.37,
+          -39.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_07_INNER_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_07_INNER_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:39:46.513467+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1103.881211,
+        1088.217233
+      ],
+      "probe_player_z": -9.97,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1167.871460 1088.217285 -9.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1103.34,
+            1088.22,
+            -39.97
+          ],
+          "xy_error": 0.5412180732477191,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1168.412720 1088.214478 -9.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1103.88,
+            1088.21,
+            -39.97
+          ],
+          "xy_error": 0.007333676431373712,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1168.412720 1088.214478 -9.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1103.88,
+            1088.21,
+            -39.97
+          ],
+          "xy_error": 0.007333676431373712,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1103.88,
+          1088.21,
+          -39.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_07_OUTER_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_07_OUTER_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:39:56.061608+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1134.121808,
+        1117.618245
+      ],
+      "probe_player_z": -9.97,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1198.112061 1117.618286 -9.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1133.58,
+            1117.62,
+            -39.97
+          ],
+          "xy_error": 0.5418108423510812,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1198.653809 1117.616455 -9.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1134.12,
+            1117.62,
+            -39.97
+          ],
+          "xy_error": 0.002519700180729769,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1198.653809 1117.616455 -9.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1134.12,
+            1117.62,
+            -39.97
+          ],
+          "xy_error": 0.002519700180729769,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1134.12,
+          1117.62,
+          -39.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_07_ANGLE_LOW_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_07_ANGLE_LOW_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:40:04.810070+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1129.083505,
+        1122.036719
+      ],
+      "probe_player_z": -9.97,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1193.073730 1122.036743 -9.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1128.54,
+            1122.04,
+            -39.97
+          ],
+          "xy_error": 0.5435149031867517,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1193.617310 1122.033447 -9.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1129.08,
+            1122.03,
+            -39.97
+          ],
+          "xy_error": 0.007578257451459136,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1193.617310 1122.033447 -9.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1129.08,
+            1122.03,
+            -39.97
+          ],
+          "xy_error": 0.007578257451459136,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1129.08,
+          1122.03,
+          -39.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_07_ANGLE_HIGH_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_07_ANGLE_HIGH_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:40:13.778938+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1165.968679,
+        1141.197735
+      ],
+      "probe_player_z": -1.97,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1229.958984 1141.197754 -1.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1165.43,
+            1141.2,
+            -31.97
+          ],
+          "xy_error": 0.5386837618362024,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1230.497559 1141.195435 -1.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1165.96,
+            1141.2,
+            -31.97
+          ],
+          "xy_error": 0.00896968594772786,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1230.497559 1141.195435 -1.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1165.96,
+            1141.2,
+            -31.97
+          ],
+          "xy_error": 0.00896968594772786,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1165.96,
+          1141.2,
+          -31.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_08_INNER_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_08_INNER_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:40:23.129856+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1121.52306,
+        1074.680166
+      ],
+      "probe_player_z": -1.97,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1185.513306 1074.680176 -1.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1120.98,
+            1074.68,
+            -31.97
+          ],
+          "xy_error": 0.5430600253710135,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1186.056396 1074.680298 -1.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1121.52,
+            1074.68,
+            -31.97
+          ],
+          "xy_error": 0.00306449930658209,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1186.056396 1074.680298 -1.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1121.52,
+            1074.68,
+            -31.97
+          ],
+          "xy_error": 0.00306449930658209,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1121.52,
+          1074.68,
+          -31.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_08_OUTER_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_08_OUTER_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:40:32.284967+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1147.667342,
+        1107.776839
+      ],
+      "probe_player_z": -1.97,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1211.657593 1107.776855 -1.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1147.12,
+            1107.78,
+            -31.97
+          ],
+          "xy_error": 0.5473511276000785,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1212.204956 1107.773682 -1.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1147.67,
+            1107.77,
+            -31.97
+          ],
+          "xy_error": 0.007337362264623965,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1212.204956 1107.773682 -1.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1147.67,
+            1107.77,
+            -31.97
+          ],
+          "xy_error": 0.007337362264623965,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1147.67,
+          1107.77,
+          -31.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_08_ANGLE_LOW_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_08_ANGLE_LOW_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:40:41.945039+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1142.095416,
+        1111.499881
+      ],
+      "probe_player_z": -1.97,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1206.085693 1111.499878 -1.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1141.55,
+            1111.5,
+            -31.97
+          ],
+          "xy_error": 0.5454160129817659,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1206.631104 1111.499756 -1.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1142.1,
+            1111.5,
+            -31.97
+          ],
+          "xy_error": 0.0045855443515701155,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1206.631104 1111.499756 -1.969971;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1142.1,
+            1111.5,
+            -31.97
+          ],
+          "xy_error": 0.0045855443515701155,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1142.1,
+          1111.5,
+          -31.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_08_ANGLE_HIGH_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_08_ANGLE_HIGH_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:40:51.793298+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1176.164018,
+        1135.311453
+      ],
+      "probe_player_z": 6.03,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1240.154297 1135.311401 6.030000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1175.62,
+            1135.31,
+            -23.97
+          ],
+          "xy_error": 0.5440199403818353,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1240.698242 1135.312866 6.030000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1176.16,
+            1135.31,
+            -23.97
+          ],
+          "xy_error": 0.004272649412146573,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1240.698242 1135.312866 6.030000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1176.16,
+            1135.31,
+            -23.97
+          ],
+          "xy_error": 0.004272649412146573,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1176.16,
+          1135.31,
+          -23.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_09_INNER_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_09_INNER_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:41:01.344028+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1140.780923,
+        1063.561634
+      ],
+      "probe_player_z": 6.03,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1204.771118 1063.561646 6.030000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1140.24,
+            1063.56,
+            -23.97
+          ],
+          "xy_error": 0.5409254679574833,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1205.312134 1063.563232 6.030000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1140.78,
+            1063.56,
+            -23.97
+          ],
+          "xy_error": 0.001876668590880767,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1205.312134 1063.563232 6.030000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1140.78,
+            1063.56,
+            -23.97
+          ],
+          "xy_error": 0.001876668590880767,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1140.78,
+          1063.56,
+          -23.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_09_OUTER_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_09_OUTER_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:41:10.293041+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1162.381554,
+        1099.787674
+      ],
+      "probe_player_z": 6.03,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1226.371826 1099.787720 6.030000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1161.84,
+            1099.79,
+            -23.97
+          ],
+          "xy_error": 0.5415589951170086,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1226.913330 1099.785400 6.030000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1162.38,
+            1099.79,
+            -23.97
+          ],
+          "xy_error": 0.0027973544644898677,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1226.913330 1099.785400 6.030000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1162.38,
+            1099.79,
+            -23.97
+          ],
+          "xy_error": 0.0027973544644898677,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1162.38,
+          1099.79,
+          -23.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_09_ANGLE_LOW_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_09_ANGLE_LOW_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:41:19.653179+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1156.371341,
+        1102.751582
+      ],
+      "probe_player_z": 6.03,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1220.361572 1102.751587 6.030000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1155.83,
+            1102.75,
+            -23.97
+          ],
+          "xy_error": 0.5413433115917393,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1220.902954 1102.753174 6.030000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1156.37,
+            1102.75,
+            -23.97
+          ],
+          "xy_error": 0.0020738864483581423,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1220.902954 1102.753174 6.030000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1156.37,
+            1102.75,
+            -23.97
+          ],
+          "xy_error": 0.0020738864483581423,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1156.37,
+          1102.75,
+          -23.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_09_ANGLE_HIGH_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_09_ANGLE_HIGH_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:41:29.000385+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1187.040448,
+        1130.806288
+      ],
+      "probe_player_z": 14.03,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1251.030640 1130.806274 14.030000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1186.5,
+            1130.81,
+            -15.97
+          ],
+          "xy_error": 0.5404607475552379,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1251.571167 1130.802612 14.030000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1187.04,
+            1130.8,
+            -15.97
+          ],
+          "xy_error": 0.006303939086040909,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1251.571167 1130.802612 14.030000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1187.04,
+            1130.8,
+            -15.97
+          ],
+          "xy_error": 0.006303939086040909,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1187.04,
+          1130.8,
+          -15.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_10_INNER_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_10_INNER_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:41:38.450160+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1161.325291,
+        1055.051878
+      ],
+      "probe_player_z": 14.03,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1225.315552 1055.051880 14.030000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1160.78,
+            1055.05,
+            -15.97
+          ],
+          "xy_error": 0.5452942339371892,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1225.860840 1055.053711 14.030000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1161.33,
+            1055.05,
+            -15.97
+          ],
+          "xy_error": 0.0050696710937137,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1225.860840 1055.053711 14.030000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1161.33,
+            1055.05,
+            -15.97
+          ],
+          "xy_error": 0.0050696710937137,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1161.33,
+          1055.05,
+          -15.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_10_OUTER_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_10_OUTER_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:41:47.800091+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1178.012678,
+        1093.787447
+      ],
+      "probe_player_z": 14.03,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1242.002930 1093.787476 14.030000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1177.47,
+            1093.79,
+            -15.97
+          ],
+          "xy_error": 0.5426840051936539,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1242.545654 1093.784912 14.030000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1178.01,
+            1093.78,
+            -15.97
+          ],
+          "xy_error": 0.007913879769093817,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1242.545654 1093.784912 14.030000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1178.01,
+            1093.78,
+            -15.97
+          ],
+          "xy_error": 0.007913879769093817,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1178.01,
+          1093.78,
+          -15.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_10_ANGLE_LOW_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_10_ANGLE_LOW_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:41:56.852557+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1171.667017,
+        1095.941509
+      ],
+      "probe_player_z": 14.03,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1235.657227 1095.941528 14.030000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1171.12,
+            1095.94,
+            -15.97
+          ],
+          "xy_error": 0.5470190813583243,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1236.204346 1095.942993 14.030000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1171.67,
+            1095.94,
+            -15.97
+          ],
+          "xy_error": 0.0033429582708037896,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1236.204346 1095.942993 14.030000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1171.67,
+            1095.94,
+            -15.97
+          ],
+          "xy_error": 0.0033429582708037896,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1171.67,
+          1095.94,
+          -15.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_10_ANGLE_HIGH_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_10_ANGLE_HIGH_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:42:05.807559+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1198.411871,
+        1127.759325
+      ],
+      "probe_player_z": 22.03,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1262.402100 1127.759277 22.030001;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1197.87,
+            1127.76,
+            -7.97
+          ],
+          "xy_error": 0.5418714204182936,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1262.943970 1127.758667 22.030001;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1198.41,
+            1127.76,
+            -7.97
+          ],
+          "xy_error": 0.001989036450085065,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1262.943970 1127.758667 22.030001;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1198.41,
+            1127.76,
+            -7.97
+          ],
+          "xy_error": 0.001989036450085065,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1198.41,
+          1127.76,
+          -7.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_11_INNER_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_11_INNER_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:42:14.866047+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1182.804645,
+        1049.296502
+      ],
+      "probe_player_z": 22.03,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1246.794922 1049.296509 22.030001;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1182.26,
+            1049.3,
+            -7.97
+          ],
+          "xy_error": 0.5446562328927681,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1247.339600 1049.292969 22.030001;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1182.81,
+            1049.29,
+            -7.97
+          ],
+          "xy_error": 0.008423302737021071,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1247.339600 1049.292969 22.030001;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1182.81,
+            1049.29,
+            -7.97
+          ],
+          "xy_error": 0.008423302737021071,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1182.81,
+          1049.29,
+          -7.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_11_OUTER_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_11_OUTER_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:42:24.712460+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1194.293264,
+        1089.878824
+      ],
+      "probe_player_z": 22.03,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1258.283569 1089.878784 22.030001;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1193.75,
+            1089.88,
+            -7.97
+          ],
+          "xy_error": 0.543265272838142,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1258.826782 1089.877686 22.030001;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1194.29,
+            1089.88,
+            -7.97
+          ],
+          "xy_error": 0.0034693907246290726,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1258.826782 1089.877686 22.030001;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1194.29,
+            1089.88,
+            -7.97
+          ],
+          "xy_error": 0.0034693907246290726,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1194.29,
+          1089.88,
+          -7.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_11_ANGLE_LOW_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_11_ANGLE_LOW_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:42:33.856651+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1187.720728,
+        1091.186183
+      ],
+      "probe_player_z": 22.03,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1251.710938 1091.186157 22.030001;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1187.18,
+            1091.19,
+            -7.97
+          ],
+          "xy_error": 0.5407414719373208,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1252.251709 1091.182373 22.030001;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1187.72,
+            1091.18,
+            -7.97
+          ],
+          "xy_error": 0.006225710642130227,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1252.251709 1091.182373 22.030001;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1187.72,
+            1091.18,
+            -7.97
+          ],
+          "xy_error": 0.006225710642130227,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1187.72,
+          1091.18,
+          -7.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_11_ANGLE_HIGH_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_11_ANGLE_HIGH_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:42:43.014719+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1210.083718,
+        1126.222697
+      ],
+      "probe_player_z": 30.03,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1274.073975 1126.222656 30.030001;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1209.54,
+            1126.22,
+            0.03
+          ],
+          "xy_error": 0.5437246889126305,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1274.617676 1126.225342 30.030001;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1210.08,
+            1126.23,
+            0.03
+          ],
+          "xy_error": 0.008194957779181215,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1274.617676 1126.225342 30.030001;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1210.08,
+            1126.23,
+            0.03
+          ],
+          "xy_error": 0.008194957779181215,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1210.08,
+          1126.23,
+          0.03
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_12_INNER_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_12_INNER_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:42:51.964919+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1204.851468,
+        1046.393983
+      ],
+      "probe_player_z": 30.03,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1268.841675 1046.394043 30.030001;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1204.31,
+            1046.39,
+            0.03
+          ],
+          "xy_error": 0.5414826491339603,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1269.383179 1046.397949 30.030001;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1204.85,
+            1046.4,
+            0.03
+          ],
+          "xy_error": 0.006193489565854395,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1269.383179 1046.397949 30.030001;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1204.85,
+            1046.4,
+            0.03
+          ],
+          "xy_error": 0.006193489565854395,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1204.85,
+          1046.4,
+          0.03
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_12_OUTER_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_12_OUTER_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:43:01.308598+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1210.944744,
+        1088.128683
+      ],
+      "probe_player_z": 30.03,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1274.934937 1088.128662 30.030001;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1210.4,
+            1088.13,
+            0.03
+          ],
+          "xy_error": 0.5447455920196079,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1275.479736 1088.127319 30.030001;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1210.95,
+            1088.13,
+            0.03
+          ],
+          "xy_error": 0.0054184891807632215,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1275.479736 1088.127319 30.030001;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1210.95,
+            1088.13,
+            0.03
+          ],
+          "xy_error": 0.0054184891807632215,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1210.95,
+          1088.13,
+          0.03
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_12_ANGLE_LOW_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_12_ANGLE_LOW_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T13:43:10.760500+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs fresh lateral/angular floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1204.257793,
+        1088.566969
+      ],
+      "probe_player_z": 30.03,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1268.248047 1088.567017 30.030001;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1203.71,
+            1088.57,
+            0.03
+          ],
+          "xy_error": 0.5478013853669518,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1268.795898 1088.563965 30.030001;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1204.26,
+            1088.56,
+            0.03
+          ],
+          "xy_error": 0.007310116962153327,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1268.795898 1088.563965 30.030001;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1204.26,
+            1088.56,
+            0.03
+          ],
+          "xy_error": 0.007310116962153327,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1204.26,
+          1088.56,
+          0.03
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_WINDER_12_ANGLE_HIGH_FLOOR_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_12_ANGLE_HIGH_FLOOR_001.json",
+      "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
+      "branch": "winder independent checks"
     }
   ],
   "rejected_attempts": [
@@ -9714,5 +13362,990 @@
     "straight_widths"
   ],
   "width_review": "All16 low tread-interior opposite-ray sections repeat exactly and hit concrete retaining-face/outer wall; rangefinder lengths agree. Radial curved sections avoid the high diagnostic rays that passed over the inner platform. Widths remain specific to sampled direction/height; no universal minimum or handrail clearance asserted.",
-  "plane_review": "18 local face planes: center and first independent offset fit orientation; second independent offset withheld, max residual.00992 native.13 start/turn planes converge to source pivot(-1215.97,1216.03) with max.06047 native extrapolation residual. Bound.1 native keeps amplified .01 endpoint rounding separate from local checks. Full-width continuation remains unvalidated; no nominal radius imposed."
+  "plane_review": "18 local face planes: center and first independent offset fit orientation; second independent offset withheld, max residual.00992 native.13 start/turn planes converge to source pivot(-1215.97,1216.03) with max.06047 native extrapolation residual. Bound.1 native keeps amplified .01 endpoint rounding separate from local checks. Full-width continuation remains unvalidated; no nominal radius imposed.",
+  "fresh_winder_floor_holds": {
+    "private_plan_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\plan.json",
+    "plan_sha256": "4190487910da4aef76f6d34fc2b2e514a53c4e6b45dca7a483c7ea8076650d67",
+    "source_baseline_report": "TUNNEL_STAIR_RADIAL_WIDTHS_001",
+    "cases": [
+      {
+        "id": "TUN_WINDER_01_INNER_FLOOR_001",
+        "xy": [
+          -1126.162697,
+          1210.143718
+        ],
+        "z": -57.97,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 1,
+        "theta_deg": -3.75,
+        "selection_radius_native": 90,
+        "expected_floor_z_native": -87.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_01_OUTER_FLOOR_001",
+        "xy": [
+          -1046.333983,
+          1204.911468
+        ],
+        "z": -57.97,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 1,
+        "theta_deg": -3.75,
+        "selection_radius_native": 170,
+        "expected_floor_z_native": -87.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_01_ANGLE_LOW_FLOOR_001",
+        "xy": [
+          -1088.506969,
+          1204.317793
+        ],
+        "z": -57.97,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 1,
+        "theta_deg": -5.25,
+        "selection_radius_native": 128,
+        "expected_floor_z_native": -87.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_01_ANGLE_HIGH_FLOOR_001",
+        "xy": [
+          -1088.068683,
+          1211.004744
+        ],
+        "z": -57.97,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 1,
+        "theta_deg": -2.25,
+        "selection_radius_native": 128,
+        "expected_floor_z_native": -87.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_02_INNER_FLOOR_001",
+        "xy": [
+          -1127.699325,
+          1198.471871
+        ],
+        "z": -49.97,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 2,
+        "theta_deg": -11.25,
+        "selection_radius_native": 90,
+        "expected_floor_z_native": -79.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_02_OUTER_FLOOR_001",
+        "xy": [
+          -1049.236502,
+          1182.864645
+        ],
+        "z": -49.97,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 2,
+        "theta_deg": -11.25,
+        "selection_radius_native": 170,
+        "expected_floor_z_native": -79.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_02_ANGLE_LOW_FLOOR_001",
+        "xy": [
+          -1091.126183,
+          1187.780728
+        ],
+        "z": -49.97,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 2,
+        "theta_deg": -12.75,
+        "selection_radius_native": 128,
+        "expected_floor_z_native": -79.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_02_ANGLE_HIGH_FLOOR_001",
+        "xy": [
+          -1089.818824,
+          1194.353264
+        ],
+        "z": -49.97,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 2,
+        "theta_deg": -9.75,
+        "selection_radius_native": 128,
+        "expected_floor_z_native": -79.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_03_INNER_FLOOR_001",
+        "xy": [
+          -1130.746288,
+          1187.100448
+        ],
+        "z": -41.97,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 3,
+        "theta_deg": -18.75,
+        "selection_radius_native": 90,
+        "expected_floor_z_native": -71.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_03_OUTER_FLOOR_001",
+        "xy": [
+          -1054.991878,
+          1161.385291
+        ],
+        "z": -41.97,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 3,
+        "theta_deg": -18.75,
+        "selection_radius_native": 170,
+        "expected_floor_z_native": -71.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_03_ANGLE_LOW_FLOOR_001",
+        "xy": [
+          -1095.881509,
+          1171.727017
+        ],
+        "z": -41.97,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 3,
+        "theta_deg": -20.25,
+        "selection_radius_native": 128,
+        "expected_floor_z_native": -71.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_03_ANGLE_HIGH_FLOOR_001",
+        "xy": [
+          -1093.727447,
+          1178.072678
+        ],
+        "z": -41.97,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 3,
+        "theta_deg": -17.25,
+        "selection_radius_native": 128,
+        "expected_floor_z_native": -71.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_04_INNER_FLOOR_001",
+        "xy": [
+          -1135.251453,
+          1176.224018
+        ],
+        "z": -33.97,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 4,
+        "theta_deg": -26.25,
+        "selection_radius_native": 90,
+        "expected_floor_z_native": -63.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_04_OUTER_FLOOR_001",
+        "xy": [
+          -1063.501634,
+          1140.840923
+        ],
+        "z": -33.97,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 4,
+        "theta_deg": -26.25,
+        "selection_radius_native": 170,
+        "expected_floor_z_native": -63.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_04_ANGLE_LOW_FLOOR_001",
+        "xy": [
+          -1102.691582,
+          1156.431341
+        ],
+        "z": -33.97,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 4,
+        "theta_deg": -27.75,
+        "selection_radius_native": 128,
+        "expected_floor_z_native": -63.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_04_ANGLE_HIGH_FLOOR_001",
+        "xy": [
+          -1099.727674,
+          1162.441554
+        ],
+        "z": -33.97,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 4,
+        "theta_deg": -24.75,
+        "selection_radius_native": 128,
+        "expected_floor_z_native": -63.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_05_INNER_FLOOR_001",
+        "xy": [
+          -1141.137735,
+          1166.028679
+        ],
+        "z": -25.97,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 5,
+        "theta_deg": -33.75,
+        "selection_radius_native": 90,
+        "expected_floor_z_native": -55.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_05_OUTER_FLOOR_001",
+        "xy": [
+          -1074.620166,
+          1121.58306
+        ],
+        "z": -25.97,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 5,
+        "theta_deg": -33.75,
+        "selection_radius_native": 170,
+        "expected_floor_z_native": -55.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_05_ANGLE_LOW_FLOOR_001",
+        "xy": [
+          -1111.439881,
+          1142.155416
+        ],
+        "z": -25.97,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 5,
+        "theta_deg": -35.25,
+        "selection_radius_native": 128,
+        "expected_floor_z_native": -55.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_05_ANGLE_HIGH_FLOOR_001",
+        "xy": [
+          -1107.716839,
+          1147.727342
+        ],
+        "z": -25.97,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 5,
+        "theta_deg": -32.25,
+        "selection_radius_native": 128,
+        "expected_floor_z_native": -55.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_06_INNER_FLOOR_001",
+        "xy": [
+          -1148.304417,
+          1156.688877
+        ],
+        "z": -17.97,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 6,
+        "theta_deg": -41.25,
+        "selection_radius_native": 90,
+        "expected_floor_z_native": -47.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_06_OUTER_FLOOR_001",
+        "xy": [
+          -1088.157233,
+          1103.941211
+        ],
+        "z": -17.97,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 6,
+        "theta_deg": -41.25,
+        "selection_radius_native": 170,
+        "expected_floor_z_native": -47.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_06_ANGLE_LOW_FLOOR_001",
+        "xy": [
+          -1121.976719,
+          1129.143505
+        ],
+        "z": -17.97,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 6,
+        "theta_deg": -42.75,
+        "selection_radius_native": 128,
+        "expected_floor_z_native": -47.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_06_ANGLE_HIGH_FLOOR_001",
+        "xy": [
+          -1117.558245,
+          1134.181808
+        ],
+        "z": -17.97,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 6,
+        "theta_deg": -39.75,
+        "selection_radius_native": 128,
+        "expected_floor_z_native": -47.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_07_INNER_FLOOR_001",
+        "xy": [
+          -1156.628877,
+          1148.364417
+        ],
+        "z": -9.97,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 7,
+        "theta_deg": -48.75,
+        "selection_radius_native": 90,
+        "expected_floor_z_native": -39.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_07_OUTER_FLOOR_001",
+        "xy": [
+          -1103.881211,
+          1088.217233
+        ],
+        "z": -9.97,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 7,
+        "theta_deg": -48.75,
+        "selection_radius_native": 170,
+        "expected_floor_z_native": -39.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_07_ANGLE_LOW_FLOOR_001",
+        "xy": [
+          -1134.121808,
+          1117.618245
+        ],
+        "z": -9.97,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 7,
+        "theta_deg": -50.25,
+        "selection_radius_native": 128,
+        "expected_floor_z_native": -39.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_07_ANGLE_HIGH_FLOOR_001",
+        "xy": [
+          -1129.083505,
+          1122.036719
+        ],
+        "z": -9.97,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 7,
+        "theta_deg": -47.25,
+        "selection_radius_native": 128,
+        "expected_floor_z_native": -39.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_08_INNER_FLOOR_001",
+        "xy": [
+          -1165.968679,
+          1141.197735
+        ],
+        "z": -1.97,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 8,
+        "theta_deg": -56.25,
+        "selection_radius_native": 90,
+        "expected_floor_z_native": -31.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_08_OUTER_FLOOR_001",
+        "xy": [
+          -1121.52306,
+          1074.680166
+        ],
+        "z": -1.97,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 8,
+        "theta_deg": -56.25,
+        "selection_radius_native": 170,
+        "expected_floor_z_native": -31.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_08_ANGLE_LOW_FLOOR_001",
+        "xy": [
+          -1147.667342,
+          1107.776839
+        ],
+        "z": -1.97,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 8,
+        "theta_deg": -57.75,
+        "selection_radius_native": 128,
+        "expected_floor_z_native": -31.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_08_ANGLE_HIGH_FLOOR_001",
+        "xy": [
+          -1142.095416,
+          1111.499881
+        ],
+        "z": -1.97,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 8,
+        "theta_deg": -54.75,
+        "selection_radius_native": 128,
+        "expected_floor_z_native": -31.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_09_INNER_FLOOR_001",
+        "xy": [
+          -1176.164018,
+          1135.311453
+        ],
+        "z": 6.03,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 9,
+        "theta_deg": -63.75,
+        "selection_radius_native": 90,
+        "expected_floor_z_native": -23.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_09_OUTER_FLOOR_001",
+        "xy": [
+          -1140.780923,
+          1063.561634
+        ],
+        "z": 6.03,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 9,
+        "theta_deg": -63.75,
+        "selection_radius_native": 170,
+        "expected_floor_z_native": -23.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_09_ANGLE_LOW_FLOOR_001",
+        "xy": [
+          -1162.381554,
+          1099.787674
+        ],
+        "z": 6.03,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 9,
+        "theta_deg": -65.25,
+        "selection_radius_native": 128,
+        "expected_floor_z_native": -23.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_09_ANGLE_HIGH_FLOOR_001",
+        "xy": [
+          -1156.371341,
+          1102.751582
+        ],
+        "z": 6.03,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 9,
+        "theta_deg": -62.25,
+        "selection_radius_native": 128,
+        "expected_floor_z_native": -23.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_10_INNER_FLOOR_001",
+        "xy": [
+          -1187.040448,
+          1130.806288
+        ],
+        "z": 14.03,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 10,
+        "theta_deg": -71.25,
+        "selection_radius_native": 90,
+        "expected_floor_z_native": -15.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_10_OUTER_FLOOR_001",
+        "xy": [
+          -1161.325291,
+          1055.051878
+        ],
+        "z": 14.03,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 10,
+        "theta_deg": -71.25,
+        "selection_radius_native": 170,
+        "expected_floor_z_native": -15.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_10_ANGLE_LOW_FLOOR_001",
+        "xy": [
+          -1178.012678,
+          1093.787447
+        ],
+        "z": 14.03,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 10,
+        "theta_deg": -72.75,
+        "selection_radius_native": 128,
+        "expected_floor_z_native": -15.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_10_ANGLE_HIGH_FLOOR_001",
+        "xy": [
+          -1171.667017,
+          1095.941509
+        ],
+        "z": 14.03,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 10,
+        "theta_deg": -69.75,
+        "selection_radius_native": 128,
+        "expected_floor_z_native": -15.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_11_INNER_FLOOR_001",
+        "xy": [
+          -1198.411871,
+          1127.759325
+        ],
+        "z": 22.03,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 11,
+        "theta_deg": -78.75,
+        "selection_radius_native": 90,
+        "expected_floor_z_native": -7.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_11_OUTER_FLOOR_001",
+        "xy": [
+          -1182.804645,
+          1049.296502
+        ],
+        "z": 22.03,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 11,
+        "theta_deg": -78.75,
+        "selection_radius_native": 170,
+        "expected_floor_z_native": -7.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_11_ANGLE_LOW_FLOOR_001",
+        "xy": [
+          -1194.293264,
+          1089.878824
+        ],
+        "z": 22.03,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 11,
+        "theta_deg": -80.25,
+        "selection_radius_native": 128,
+        "expected_floor_z_native": -7.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_11_ANGLE_HIGH_FLOOR_001",
+        "xy": [
+          -1187.720728,
+          1091.186183
+        ],
+        "z": 22.03,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 11,
+        "theta_deg": -77.25,
+        "selection_radius_native": 128,
+        "expected_floor_z_native": -7.97,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_12_INNER_FLOOR_001",
+        "xy": [
+          -1210.083718,
+          1126.222697
+        ],
+        "z": 30.03,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 12,
+        "theta_deg": -86.25,
+        "selection_radius_native": 90,
+        "expected_floor_z_native": 0.03,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_12_OUTER_FLOOR_001",
+        "xy": [
+          -1204.851468,
+          1046.393983
+        ],
+        "z": 30.03,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 12,
+        "theta_deg": -86.25,
+        "selection_radius_native": 170,
+        "expected_floor_z_native": 0.03,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_12_ANGLE_LOW_FLOOR_001",
+        "xy": [
+          -1210.944744,
+          1088.128683
+        ],
+        "z": 30.03,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 12,
+        "theta_deg": -87.75,
+        "selection_radius_native": 128,
+        "expected_floor_z_native": 0.03,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      },
+      {
+        "id": "TUN_WINDER_12_ANGLE_HIGH_FLOOR_001",
+        "xy": [
+          -1204.257793,
+          1088.566969
+        ],
+        "z": 30.03,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs fresh lateral/angular floor check",
+        "sector": 12,
+        "theta_deg": -84.75,
+        "selection_radius_native": 128,
+        "expected_floor_z_native": 0.03,
+        "maximum_predicted_floor_residual_native": 0.02,
+        "scope": "Provisional common pivot/radius chooses safe void above observed tread region only. Native actual floor endpoint determines height; predicted flat tread height is not acceptance. Preserve own-origin/wall failures and stop before any changed plan."
+      }
+    ],
+    "maximum_observed_floor_residual_native": 0.0,
+    "driver_recovery": {
+      "timestamp_utc": "2026-10-02T13:35:51.190343+00:00",
+      "original_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "status": "completed serial columns; semantic review pending",
+      "completed": [
+        "TUN_WINDER_01_INNER_FLOOR_001",
+        "TUN_WINDER_01_OUTER_FLOOR_001",
+        "TUN_WINDER_01_ANGLE_LOW_FLOOR_001",
+        "TUN_WINDER_01_ANGLE_HIGH_FLOOR_001",
+        "TUN_WINDER_02_INNER_FLOOR_001",
+        "TUN_WINDER_02_OUTER_FLOOR_001",
+        "TUN_WINDER_02_ANGLE_LOW_FLOOR_001",
+        "TUN_WINDER_02_ANGLE_HIGH_FLOOR_001",
+        "TUN_WINDER_03_INNER_FLOOR_001",
+        "TUN_WINDER_03_OUTER_FLOOR_001",
+        "TUN_WINDER_03_ANGLE_LOW_FLOOR_001",
+        "TUN_WINDER_03_ANGLE_HIGH_FLOOR_001",
+        "TUN_WINDER_04_INNER_FLOOR_001",
+        "TUN_WINDER_04_OUTER_FLOOR_001",
+        "TUN_WINDER_04_ANGLE_LOW_FLOOR_001",
+        "TUN_WINDER_04_ANGLE_HIGH_FLOOR_001",
+        "TUN_WINDER_05_INNER_FLOOR_001",
+        "TUN_WINDER_05_OUTER_FLOOR_001",
+        "TUN_WINDER_05_ANGLE_LOW_FLOOR_001",
+        "TUN_WINDER_05_ANGLE_HIGH_FLOOR_001",
+        "TUN_WINDER_06_INNER_FLOOR_001",
+        "TUN_WINDER_06_OUTER_FLOOR_001",
+        "TUN_WINDER_06_ANGLE_LOW_FLOOR_001",
+        "TUN_WINDER_06_ANGLE_HIGH_FLOOR_001",
+        "TUN_WINDER_07_INNER_FLOOR_001",
+        "TUN_WINDER_07_OUTER_FLOOR_001",
+        "TUN_WINDER_07_ANGLE_LOW_FLOOR_001",
+        "TUN_WINDER_07_ANGLE_HIGH_FLOOR_001",
+        "TUN_WINDER_08_INNER_FLOOR_001",
+        "TUN_WINDER_08_OUTER_FLOOR_001",
+        "TUN_WINDER_08_ANGLE_LOW_FLOOR_001",
+        "TUN_WINDER_08_ANGLE_HIGH_FLOOR_001",
+        "TUN_WINDER_09_INNER_FLOOR_001",
+        "TUN_WINDER_09_OUTER_FLOOR_001",
+        "TUN_WINDER_09_ANGLE_LOW_FLOOR_001",
+        "TUN_WINDER_09_ANGLE_HIGH_FLOOR_001",
+        "TUN_WINDER_10_INNER_FLOOR_001",
+        "TUN_WINDER_10_OUTER_FLOOR_001",
+        "TUN_WINDER_10_ANGLE_LOW_FLOOR_001",
+        "TUN_WINDER_10_ANGLE_HIGH_FLOOR_001",
+        "TUN_WINDER_11_INNER_FLOOR_001",
+        "TUN_WINDER_11_OUTER_FLOOR_001",
+        "TUN_WINDER_11_ANGLE_LOW_FLOOR_001",
+        "TUN_WINDER_11_ANGLE_HIGH_FLOOR_001",
+        "TUN_WINDER_12_INNER_FLOOR_001",
+        "TUN_WINDER_12_OUTER_FLOOR_001",
+        "TUN_WINDER_12_ANGLE_LOW_FLOOR_001",
+        "TUN_WINDER_12_ANGLE_HIGH_FLOOR_001"
+      ],
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "review": "All48 fresh floor cases match predeclared native tread heights exactly at printed resolution, and repeat concrete Hull endpoints. Four checked points per12treads spanning lateral/angle directions. Source selection pivot/radii never accepted as measured wall geometry; unseen interpolation and full side/terminal bounds separate."
+  }
 }

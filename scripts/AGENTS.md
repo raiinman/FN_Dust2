@@ -362,3 +362,14 @@ build_b_frame_sections.py also validates optional upper_height_report using
 opposed horizontal-eye-height material brackets. Absolute source-referenced
 elevation rows are distinct from floor-to-top height or hidden timber body.
 Rebuild/render/inspect the updated upper native-point annotation.
+
+build_tunnel_floor_checks.py validates48 predeclared winder floor-height checks
+against corrected repeated concrete Hull observations and the checked local
+camera, writing TUNNEL_WINDER_FLOOR_CHECKS JSON/CSV/SVG. Rebuild/render/inspect;
+four checked points per tread never certify unseen flat floors or side/terminal
+bounds. Preserve the original prediction plan hash and exact controller restore.
+
+build_tunnel_side_checks.py validates original three-point circle fits and72
+prospective angle/height checks without refitting, deriving diagnostic JSON/CSV/
+SVG. Rebuild/render/inspect; projected off-frame points remain in numeric files.
+No continuous wall, entire side/terminal or complete footprint acceptance.

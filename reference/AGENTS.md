@@ -311,3 +311,14 @@ the checked exact local stair camera; lower floor depth extrapolation and crate/
 room-edge occlusion remain explicit. Duplicate clean control frames do not
 increase reference count. No camera acceptance grants staircase side/terminal
 selection or continuous architectural footprints.
+
+TUNNEL_WINDER_FLOOR_CHECKS JSON/CSV/SVG owns48 fresh predeclared local floor
+height checks selected in TUNNEL_STAIR_PROFILE. Its checked-camera projections
+do not certify unseen floor continuity or complete tread bounds. Independent
+curved-side predictions in ARCHITECTURAL_ENDPOINTS retain fixed-before-capture
+models, expected material/shape, fresh rays and errors; checked circle points
+never silently become complete cylindrical walls or a closed stair footprint.
+TUNNEL_WINDER_SIDE_CHECKS JSON/CSV/SVG derives72 prospective checks against
+unchanged original three-point circles. Keep off-frame points and source
+component/elevation distinctions; empirical point residuals never certify
+unseen continuation or exact rendered-surface offsets.
