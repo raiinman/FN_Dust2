@@ -1,7 +1,7 @@
 {
   "review_date": "2026-10-01",
   "source_build": "25640462",
-  "registered_images": 210,
+  "registered_images": 214,
   "coverage_excluded": 8,
   "complete_areas": 16,
   "complete_subareas": 11,
@@ -2351,6 +2351,38 @@
       "sha256": "742f8aa1c0c8724d1a71f09756437ae788c0c023649a9203ea598dbefee2b151",
       "coverage_status": "PARTIAL",
       "review": "Clean near-vertical entrance plan showing three parallel step edges, upper landing, adjoining curbs and platform tiles. Complete local flight visible; facades/road continue beyond frame. Step endpoints and heights need independent native measurement."
+    },
+    {
+      "id": "QA_PIT_CAMERA_TRANSFER_001_MARKED",
+      "area": "Pit",
+      "image": "reference/images/pit/QA_PIT_CAMERA_TRANSFER_001_MARKED.jpg",
+      "sha256": "8c0d6bcb09af84e83d2679497a4665bb24cac4d33e9d7a433a710cb8e7aa6e0f",
+      "coverage_status": "PARTIAL",
+      "review": "Eight new native white crosses individually inspected and extracted from marked-minus-clean frames. Local fit anchors; naive translated overhead matrix rejected21.657px."
+    },
+    {
+      "id": "QA_PIT_CAMERA_TRANSFER_001_CLEAN",
+      "area": "Pit",
+      "image": "reference/images/pit/QA_PIT_CAMERA_TRANSFER_001_CLEAN.jpg",
+      "sha256": "8c81f9e4dc8e79f6f63c69a8bba90e45fbc028c257f67dbe1894c619aba43eb3",
+      "coverage_status": "PARTIAL",
+      "review": "Clean full-resolution Pit local plan companion; no debug overlay. Both retaining faces/ramp and terraces visible. Foreground roof hides some low floor; outer street/area extends frame. Hash-pinned camera context only, not complete footprint."
+    },
+    {
+      "id": "QA_PIT_CAMERA_HOLDOUT_001_MARKED",
+      "area": "Pit",
+      "image": "reference/images/pit/QA_PIT_CAMERA_HOLDOUT_001_MARKED.jpg",
+      "sha256": "196fb49a1c20cd785ccc5e656db9d6ab9ea0c80cf9a434f56cd5f509a9c0cc36",
+      "coverage_status": "PARTIAL",
+      "review": "Eight new native white crosses individually inspected and extracted from marked-minus-clean frames. Independent low-elevation holdouts; earlier fit crosses remain distinct."
+    },
+    {
+      "id": "QA_PIT_CAMERA_HOLDOUT_001_CLEAN",
+      "area": "Pit",
+      "image": "reference/images/pit/QA_PIT_CAMERA_HOLDOUT_001_CLEAN.jpg",
+      "sha256": "1527746999a212f8c448eedcffc1fdeafe8f5398d60020f960ef0ae24608222a",
+      "coverage_status": "PARTIAL",
+      "review": "Clean full-resolution Pit local plan companion; no debug overlay. Both retaining faces/ramp and terraces visible. Foreground roof hides some low floor; outer street/area extends frame. Hash-pinned camera context only, not complete footprint."
     }
   ]
 }

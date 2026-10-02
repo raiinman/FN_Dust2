@@ -229,3 +229,5 @@ in PIT_FLOOR_SURVEY and repeated points in CONNECTOR_SURFACE_PROFILES. It checks
 build, excluded hits, monotone equal-length multicolumn rows, barycentric containment and
 independent holdout errors. Its output is a diagnostic; universal unseen-floor,
 rendered offset, wall ends and whole-map acceptance need separate review.
+
+build_pit_camera.py checks eight fit/eight independent native marker pixels, capture hashes and known-Z inverse at the locked Pit pose; writes the calibration and overlaid diagnostic. build_plan_camera_model.py fits constrained intrinsics using original overhead anchors and independently checks32 markers across two poses. Neither grants new camera poses, rendered-edge accuracy or floor acceptance. Rebuild, render and inspect updated figures after floor changes.

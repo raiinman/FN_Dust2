@@ -3987,6 +3987,300 @@
       "jpeg_sha256": "742f8aa1c0c8724d1a71f09756437ae788c0c023649a9203ea598dbefee2b151",
       "fov_cs_debug_parameter": 90,
       "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_PIT_CAMERA_TRANSFER_001_MARKED",
+      "timestamp_utc": "2026-10-02T05:37:40.719855+00:00",
+      "engine_capture_basename": "d2_aa007ada11",
+      "pose_command": "setpos_exact 1400.000000 450.000000 400.000000;setang_exact 88.999908 90.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        1400,
+        450,
+        400,
+        89,
+        90
+      ],
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "tga_sha256": "ec7fb525ff6554a7a5a8983d9749d9cfad8eaa6702486d907542f852613d6dc1",
+      "png_sha256": "ada12aefbb8c006d0d442759eeb4ccfca1a421465153fc4e3c3aeb44123101e8",
+      "anchors": [
+        {
+          "id": "PIT_X1280_Y350_Z0",
+          "point": [
+            1280,
+            350,
+            0
+          ],
+          "half_size": 10,
+          "provisional_search_pixel": [
+            500.84572138203305,
+            560.493624615457
+          ]
+        },
+        {
+          "id": "PIT_X1280_Y600_Z0",
+          "point": [
+            1280,
+            600,
+            0
+          ],
+          "half_size": 10,
+          "provisional_search_pixel": [
+            502.2700564786051,
+            276.6709524582297
+          ]
+        },
+        {
+          "id": "PIT_X1520_Y350_Z0",
+          "point": [
+            1520,
+            350,
+            0
+          ],
+          "half_size": 10,
+          "provisional_search_pixel": [
+            774.330434429625,
+            560.5216421466293
+          ]
+        },
+        {
+          "id": "PIT_X1520_Y600_Z0",
+          "point": [
+            1520,
+            600,
+            0
+          ],
+          "half_size": 10,
+          "provisional_search_pixel": [
+            773.1846804291457,
+            276.66015902865104
+          ]
+        },
+        {
+          "id": "PIT_X1280_Y350_Z80",
+          "point": [
+            1280,
+            350,
+            80
+          ],
+          "half_size": 10,
+          "provisional_search_pixel": [
+            468.5975764137538,
+            605.4049991971712
+          ]
+        },
+        {
+          "id": "PIT_X1280_Y600_Z80",
+          "point": [
+            1280,
+            600,
+            80
+          ],
+          "half_size": 10,
+          "provisional_search_pixel": [
+            470.7214692890075,
+            255.91121480068756
+          ]
+        },
+        {
+          "id": "PIT_X1520_Y350_Z80",
+          "point": [
+            1520,
+            350,
+            80
+          ],
+          "half_size": 10,
+          "provisional_search_pixel": [
+            805.6005037618432,
+            605.4471122967973
+          ]
+        },
+        {
+          "id": "PIT_X1520_Y600_Z80",
+          "point": [
+            1520,
+            600,
+            80
+          ],
+          "half_size": 10,
+          "provisional_search_pixel": [
+            803.8303374876793,
+            255.89447646316572
+          ]
+        }
+      ],
+      "status": "visually inspected; usable stated-direction reference",
+      "marker_plane": "XY",
+      "area": "Pit",
+      "review": "Eight new native white crosses individually inspected and extracted from marked-minus-clean frames. Local fit anchors; naive translated overhead matrix rejected21.657px.",
+      "repository_image_path": "reference/images/pit/QA_PIT_CAMERA_TRANSFER_001_MARKED.jpg",
+      "jpeg_sha256": "8c0d6bcb09af84e83d2679497a4665bb24cac4d33e9d7a433a710cb8e7aa6e0f",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_PIT_CAMERA_TRANSFER_001_CLEAN",
+      "timestamp_utc": "2026-10-02T05:37:47.228785+00:00",
+      "engine_capture_basename": "d2_b436816d47",
+      "pose_command": "setpos_exact 1400.000000 450.000000 400.000000;setang_exact 88.999908 90.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        1400,
+        450,
+        400,
+        89,
+        90
+      ],
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "tga_sha256": "e645b4b81126144280b5b8e60f5f5214cc4c9b7b13390af8fcdfde7cc66637a2",
+      "png_sha256": "7882f8e749910abee10b56f3b00063f59e1980fafe82d61873923f26f1aa7812",
+      "anchors": [],
+      "status": "visually inspected; usable stated-direction reference",
+      "marker_plane": "XY",
+      "area": "Pit",
+      "review": "Clean full-resolution Pit local plan companion; no debug overlay. Both retaining faces/ramp and terraces visible. Foreground roof hides some low floor; outer street/area extends frame. Hash-pinned camera context only, not complete footprint.",
+      "repository_image_path": "reference/images/pit/QA_PIT_CAMERA_TRANSFER_001_CLEAN.jpg",
+      "jpeg_sha256": "8c81f9e4dc8e79f6f63c69a8bba90e45fbc028c257f67dbe1894c619aba43eb3",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_PIT_CAMERA_HOLDOUT_001_MARKED",
+      "timestamp_utc": "2026-10-02T05:41:34.771337+00:00",
+      "engine_capture_basename": "d2_cfab8e1feb",
+      "pose_command": "setpos_exact 1400.000000 450.000000 400.000000;setang_exact 88.999908 90.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        1400,
+        450,
+        400,
+        89,
+        90
+      ],
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "tga_sha256": "18793ad87dec0e843a9ddf3a9accb7751891d65ca7aae2f6c10a16d948db1c52",
+      "png_sha256": "61ebb5db943f9b128a40e3d3c9535725f3c0c674d245bd61fb1ee5f5838dfe3e",
+      "anchors": [
+        {
+          "id": "PIT_HOLD_X1320_Y400_Z-200",
+          "point": [
+            1320,
+            400,
+            -200
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "PIT_HOLD_X1320_Y650_Z-200",
+          "point": [
+            1320,
+            650,
+            -200
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "PIT_HOLD_X1480_Y400_Z-200",
+          "point": [
+            1480,
+            400,
+            -200
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "PIT_HOLD_X1480_Y650_Z-200",
+          "point": [
+            1480,
+            650,
+            -200
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "PIT_HOLD_X1320_Y400_Z-80",
+          "point": [
+            1320,
+            400,
+            -80
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "PIT_HOLD_X1320_Y650_Z-80",
+          "point": [
+            1320,
+            650,
+            -80
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "PIT_HOLD_X1480_Y400_Z-80",
+          "point": [
+            1480,
+            400,
+            -80
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "PIT_HOLD_X1480_Y650_Z-80",
+          "point": [
+            1480,
+            650,
+            -80
+          ],
+          "half_size": 10
+        }
+      ],
+      "status": "visually inspected; usable stated-direction reference",
+      "marker_plane": "XY",
+      "area": "Pit",
+      "review": "Eight new native white crosses individually inspected and extracted from marked-minus-clean frames. Independent low-elevation holdouts; earlier fit crosses remain distinct.",
+      "repository_image_path": "reference/images/pit/QA_PIT_CAMERA_HOLDOUT_001_MARKED.jpg",
+      "jpeg_sha256": "196fb49a1c20cd785ccc5e656db9d6ab9ea0c80cf9a434f56cd5f509a9c0cc36",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_PIT_CAMERA_HOLDOUT_001_CLEAN",
+      "timestamp_utc": "2026-10-02T05:41:41.465687+00:00",
+      "engine_capture_basename": "d2_80aeb5254a",
+      "pose_command": "setpos_exact 1400.000000 450.000000 400.000000;setang_exact 88.999908 90.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        1400,
+        450,
+        400,
+        89,
+        90
+      ],
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "tga_sha256": "984fe76706c5b29785dfb6633df9bf94ec92fef516f7f8777f325c285ce6b583",
+      "png_sha256": "7754423b217a074fb75db204a9af2dba02816786c16109d5e137ec4fcec92639",
+      "anchors": [],
+      "status": "visually inspected; usable stated-direction reference",
+      "marker_plane": "XY",
+      "area": "Pit",
+      "review": "Clean full-resolution Pit local plan companion; no debug overlay. Both retaining faces/ramp and terraces visible. Foreground roof hides some low floor; outer street/area extends frame. Hash-pinned camera context only, not complete footprint.",
+      "repository_image_path": "reference/images/pit/QA_PIT_CAMERA_HOLDOUT_001_CLEAN.jpg",
+      "jpeg_sha256": "1527746999a212f8c448eedcffc1fdeafe8f5398d60020f960ef0ae24608222a",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
     }
   ],
   "rejected_attempts": [

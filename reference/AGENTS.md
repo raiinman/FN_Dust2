@@ -179,3 +179,5 @@ Neither residuals nor sample bounds silently certify a full continuous floor.
 PIT_FLOOR_INTERPOLATION_INITIAL.json preserves the original three-column
 diagnostic and its27 independent checks (max14.3972cm). Explicitly reclassify
 promoted holdouts when refining anchors; fresh holdouts must remain independent.
+
+PIT_CAMERA_CALIBRATION.json owns the locked local low-elevation camera and eight independent native checks. PIT_CAMERA_FLOOR_PLAN.svg projects measured road triangles into the hash-pinned frame, never certifying rendered edges or occluded floors. PLAN_CAMERA_MODEL.json owns physically constrained shared intrinsics checked on two exact native poses; each new pose requires fresh native holdouts. Preserve rejected matrix-transfer and failed smooth-floor diagnostics. Road and raised strips are distinct across measured curb faces.

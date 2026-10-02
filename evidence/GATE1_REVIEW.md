@@ -7,15 +7,15 @@ Source: installed CS2 build25640462, de_dust2. GitHub main is durable authority.
 | --- | --- | --- |
 | Provenance and current revision | REFERENCE_MANIFEST.csv; native poses/hashes and build25640462 | PASS for reviewed captured batches |
 | Physical scale and coordinate convention | SCALE_CALIBRATION.json; COORDINATE_TRANSFORM.json | PASS for current-build factor2.54 and reversible UE=(2.54x,-2.54y,2.54z); Phase2 exporter/import validation pending |
-| Every critical area forward/reverse/side/elevation coverage | 210 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | PASS: sixteen critical-area sets and eleven subarea sets accepted; structural metric and traversal remain separate |
+| Every critical area forward/reverse/side/elevation coverage | 214 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | PASS: sixteen critical-area sets and eleven subarea sets accepted; structural metric and traversal remain separate |
 | Unambiguous validated topology | ROUTE_GRAPH.md; TOPOLOGY.json; WALK_PROBES.json; TRAVERSAL_PROBES.json; TOPOLOGY_AUDIT.json | PASS for listed surveyed connections:24 ground paths both directions; B Window both; S01 both, S02/S03 reciprocal routes, S04 partner forward/reverse. E11/E27 direct forward twice, unsupported reverse at surveyed crossing blocked twice, indirect walking returns both. Alternative launches/partners and geometric bounds remain separate |
-| Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; TUNNEL_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 199 calibrated feature measurements;54 Short and54 Tunnel floor samples; full critical register incomplete |
+| Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; TUNNEL_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 208 calibrated feature measurements;54 Short and54 Tunnel floor samples; full critical register incomplete |
 | Calibrated annotated whole-map truth | RADAR_CALIBRATION.json; MAP_CAMERA_CALIBRATION.json; RADAR_PLAN.svg; MAP_CAMERA_PLAN.svg | FAIL: calibrated native camera, physical grid, floors and paths; continuous architectural boundaries and overlapping elevation layers incomplete |
 | Bounded remaining uncertainty | UNCERTAINTY.md; SURVEY_TASKS.csv | FAIL: unresolved critical extents, full apertures/cover dimensions, stairs and render/collision bounds |
 
 ## Reference review
 
-IMAGE_REVIEW.json and IMAGE_AUDIT.json verify all210 registered JPEG hashes and
+IMAGE_REVIEW.json and IMAGE_AUDIT.json verify all214 registered JPEG hashes and
 preserve eight excluded historical frames. Original24 and recovered55 images
 were re-inspected, with subsequent CT/Pit/door/site/Short/Catwalk additions
 inspected individually. Clipped, stale or obstructed attempts retain their
@@ -39,7 +39,7 @@ The coordinate convention is mathematically reversible; exporter/editor
 round-trip remains a Phase2 validation. Source repeatability is separate from
 rendered-surface accuracy and implementation tolerance.
 
-MEASUREMENTS has199 calibrated local feature rows;13 PHYSICAL_FLOOR_DATUMS,
+MEASUREMENTS has208 calibrated local feature rows;13 PHYSICAL_FLOOR_DATUMS,
 54 SHORT_STAIR_SAMPLES,54 TUNNEL_STAIR_SAMPLES and223 connector points are
 repeated point evidence. Short12 measured/rendered risers,359.6132cm sampled
 run and234.3912cm rise; Tunnel18 measured/rendered risers,18 rises/16 axial
@@ -88,7 +88,7 @@ Passage survey:11 additional local wall/cover sections and8 repeated floor/first
 Wood overhead columns registered. Lower local concrete widths219.3/224native,
 Upper narrow passage128native atY1500/1600/1700. B approach sections atY1900/2000
 are separate from roofed passage. ARCHITECTURAL_SURVEY_PLAN is a rendered,
-inspected43-chord layered section plan with13 floor datums; it remains separate
+inspected76-chord layered section plan with13 floor datums; it remains separate
 from continuous architectural footprint acceptance.
 
 Xbox visible face survey: two outside-origin same-height body-depth spans
@@ -106,13 +106,13 @@ A entrance:30 new floor samples,16 repeated two-position face observations.
 Three principal risers20.32cm each/runs30.48cm each; total60.96/91.44cm.
 Shallow lower lip, upper pavement slope and full lateral flight remain separate.
 Sixteen Pit retaining sections and one A second-tread wall/curb section accepted;
-open-top/cover hits retained as diagnostics. Architectural plan now60 chords,
+open-top/cover hits retained as diagnostics. Architectural plan now76 chords,
 not a continuous footprint. Gate1 remains FAIL.
 
 Long road:13 additional repeated wall/frontage/cover sections accepted;
 7 cross-area/rock/wood first-hit stations retain diagnostics. Calibrated
-architectural plan73 chords rendered/inspected. A entrance section figure
-rendered/inspected; measurements199 rows. Critical full footprint remains FAIL.
+architectural plan76 chords rendered/inspected. A entrance section figure
+rendered/inspected; measurements208 rows. Critical full footprint remains FAIL.
 
 Pit floor refinement:61 additional lateral/cap/independent-midpoint observations
 registered; one sharp rock/floor boundary failure preserved. Two raised-edge
@@ -120,3 +120,28 @@ hits excluded from floor interpolation. Initial48-anchor strip has27 independent
 checks; max14.3972cm crossfall residual, so continuous floor remains unaccepted.
 Initial diagnostic preserved; denser grid/fresh holdouts underway. End probes
 are height-specific cover/terrace diagnostics, not full retaining ends.
+
+
+Pit feature-separated survey:313 connector points and208 calibrated measurements
+now registered. Repeated inner concrete curb facesX1305.03/1542.97 atY350/500/650
+give three604.3676cm road chords and six nonuniform local curb rises. Twelve
+floor/top columns distinguish side strips. Thirty-eight additional low-origin
+road/under-cap points preserve earlier high rock/cap hits separately.
+Road-only80-anchor/120-triangle diagnostic has35 independent holdouts, maximum
+2.56675047789472cm. Earlier three-column14.3972cm and five-column13.8500cm
+failures remain in separate JSONs; six prior checks explicitly promoted to fit
+and three east outer checks explicitly reclassified as raised-strip validation.
+Six separate raised-strip checks are retained, not included in road validation.
+Checked-point error is not a universal unseen-floor or full Pit-end bound.
+
+Four individually inspected Pit marker/clean JPEGs bring registered total214;
+hash audit passes, eight historical exclusions preserved. PIT_CAMERA_CALIBRATION
+locks1400,450,400p88.999908/y90/roll0 at1280x720, eight fit/eight independent
+checks, max.3604131px, sourceZ-200..80 tested. Translated unconstrained overhead
+matrix failed at21.6567px and is preserved. PLAN_CAMERA_MODEL independently
+checks32 withheld markers across the original overhead and Pit poses, max
+.5465851px; other poses still require fresh native checks. Fixed-Z inverse needs
+independent elevation; calibration never certifies rendered edges/hidden floors.
+PIT_FLOOR_SURVEY/PIT_CAMERA_FLOOR_PLAN rendered and visually inspected with
+updated2.567cm diagnostic captions. Whole-map footprint and critical apertures,
+cover dimensions/terminal bounds remain incomplete; Gate1 FAIL.

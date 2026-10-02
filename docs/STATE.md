@@ -19,7 +19,7 @@ preserve all raw captures, failed attempts and existing work/ directories.
 
 ## Reviewed progress
 
-- 210 registered reviewed JPEGs; eight historical coverage exclusions retained.
+- 214 registered reviewed JPEGs; eight historical coverage exclusions retained.
   Original24 and recovered55 re-inspected; all additions individually inspected.
   IMAGE_REVIEW/IMAGE_AUDIT and capture registers own hashes/provenance/rejections.
 - Sixteen critical-area forward/reverse/side/elevation sets and eleven subarea
@@ -30,7 +30,7 @@ preserve all raw captures, failed attempts and existing work/ directories.
   Phase 2 exporter/editor round-trip remains unverified. Unsaved Hammer128-unit
   cube is an agent-authored calibration fixture, not production or source geometry.
 - 13 repeated floor datums,54 Short floor samples,54 Tunnel stair floor samples,
-  223 connector floor/cover/cap points,199 calibrated feature measurements.
+  313 connector floor/cover/cap points,208 calibrated feature measurements.
   No continuous floors, room outlines or cover bounds inferred from point counts.
 - Short:12 rendered/native risers, individual nonuniform section spacing;
   sampled rise234.3912cm/run359.6132cm. SHORT_STAIR_* preserve endpoint limits.
@@ -95,9 +95,9 @@ restored exact640,-100,150p0y90; independently read back before next batch.
 LOWER_PASSAGE_WALL_SECTIONS_001 and UPPER_B_PASSAGE_WALL_SECTIONS_001:
 11 reviewed local wall/cover sections plus8 repeated floor/first-overhead columns
 registered in ARCHITECTURAL_ENDPOINTS. LowerX1100 hits stair riser; X800 cover;
-UpperY1400/1800/2100/2200 cover/open-portal diagnostics retained. No full arch
+UpperY1400/1800/2140/2200 cover/open-portal diagnostics retained. No full arch
 height, minimum clearance or hidden wall interpolation inferred.
-ARCHITECTURAL_SECTIONS.csv and ARCHITECTURAL_SURVEY_PLAN.svg derive73 reviewed
+ARCHITECTURAL_SECTIONS.csv and ARCHITECTURAL_SURVEY_PLAN.svg derive76 reviewed
 horizontal chords,13 floor datums and column locations in two ray-height panels.
 Rendered/inspected: labels/grid clear, no lines certified as boundary walls.
 
@@ -125,7 +125,7 @@ A_ENTRY_STAIR_PROFILE/FLIGHT derive confirmed center sections.
 Pit width batch ended80 observations:16 retaining sections accepted,
 4 upper cross-area/cover stations diagnostic. Native retaining facesX1272/1592
 atY200..750, rounded corners atY180; no continuity/minimum/crossfall inferred.
-Architectural plan derives73 local chords; latest rendered/inspected.
+Architectural plan derives76 local chords; latest rendered/inspected.
 A_ENTRY_STAIR_PROFILE.svg rendered/inspected, rise/run labels separated.
 Long width batch ended80 observations:13 wall/frontage/cover sections accepted,
 7 cross-area/rock/wood diagnostics retained. None implies road minimum clearance.
@@ -141,10 +141,16 @@ retaining-end rays hit west WoodY784.02/east concreteY707; no full wall ends acc
 FAIL for faithful floor interpolation. Initial JSON retained separately; initial
 15-center-check SVG rendered/inspected. Latest27-check SVG needs fresh render.
 
-Active serial probe_pit_adaptive_grid_01.py, private pit_adaptive_grid_01,
-26 new lateral anchors plus8 fresh independent holdouts. Six earlier same-row
-holdouts will be explicitly promoted to anchors; preserve initial failed diagnostic.
-No revised floor accepted yet. Inspect process/partial files before any controller.
+All Pit adaptive, camera, curb, road-boundary and under-cap controllers ended.
+No active controller. Last source restore1400,450,400p88.999908/y90/roll0.
+Private pit_road_boundaries_01 and pit_under_cap_01 complete and all38 points
+registered; never repeat these completed requests. Current road-only diagnostic
+80 anchors/35 independent checks maximum2.5667505cm; curb breaks remain separate.
+PIT_FLOOR_INTERPOLATION_INITIAL and _FIVE_COLUMN preserve both failed smooth fits.
+Local Pit camera8 fit/8 checks max.3604131px accepted only at locked pose, lowZ
+-200..80 verified; PLAN_CAMERA_MODEL32 independent markers/two poses max.5465851px.
+Four new native marker/clean images individually inspected and hashes audited.
+No floor/whole-map acceptance inferred. Updated figures rendered/inspected.
 
 Next: remaining structural apertures/room spans/cover bounds and ramp profiles;
 full Tunnel side/terminal footprint; bounded other launch/partner scope;
@@ -160,7 +166,32 @@ build/map unchanged. No bot remains. Private plotting dependencies in
 policy; do not bypass/change it. Native PNG-to-reviewed-JPEG uses private PIL.
 
 Verification:34-edge/four-special topology evidence audit PASS for listed
-current-build connections,210-image hash audit,16 critical/11 subarea reviews, physical
-register199 rows, overhead/local calibration checks, Tunnel repeated-point,
+current-build connections,214-image hash audit,16 critical/11 subarea reviews, physical
+register208 rows, overhead/local calibration checks, Tunnel repeated-point,
 floor/face, opposite-ray/rangefinder and withheld-plane checks pass. Derived
 Short/Long/Tunnel/radar/overhead/architectural-section SVGs rendered and inspected. Gate1 still FAIL.
+
+
+Pit feature-separated survey:313 connector points and208 calibrated measurements
+now registered. Repeated inner concrete curb facesX1305.03/1542.97 atY350/500/650
+give three604.3676cm road chords and six nonuniform local curb rises. Twelve
+floor/top columns distinguish side strips. Thirty-eight additional low-origin
+road/under-cap points preserve earlier high rock/cap hits separately.
+Road-only80-anchor/120-triangle diagnostic has35 independent holdouts, maximum
+2.56675047789472cm. Earlier three-column14.3972cm and five-column13.8500cm
+failures remain in separate JSONs; six prior checks explicitly promoted to fit
+and three east outer checks explicitly reclassified as raised-strip validation.
+Six separate raised-strip checks are retained, not included in road validation.
+Checked-point error is not a universal unseen-floor or full Pit-end bound.
+
+Four individually inspected Pit marker/clean JPEGs bring registered total214;
+hash audit passes, eight historical exclusions preserved. PIT_CAMERA_CALIBRATION
+locks1400,450,400p88.999908/y90/roll0 at1280x720, eight fit/eight independent
+checks, max.3604131px, sourceZ-200..80 tested. Translated unconstrained overhead
+matrix failed at21.6567px and is preserved. PLAN_CAMERA_MODEL independently
+checks32 withheld markers across the original overhead and Pit poses, max
+.5465851px; other poses still require fresh native checks. Fixed-Z inverse needs
+independent elevation; calibration never certifies rendered edges/hidden floors.
+PIT_FLOOR_SURVEY/PIT_CAMERA_FLOOR_PLAN rendered and visually inspected with
+updated2.567cm diagnostic captions. Whole-map footprint and critical apertures,
+cover dimensions/terminal bounds remain incomplete; Gate1 FAIL.

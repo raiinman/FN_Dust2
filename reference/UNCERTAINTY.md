@@ -52,7 +52,7 @@ Passage survey:11 additional local wall/cover sections and8 repeated floor/first
 Wood overhead columns registered. Lower local concrete widths219.3/224native,
 Upper narrow passage128native atY1500/1600/1700. B approach sections atY1900/2000
 are separate from roofed passage. ARCHITECTURAL_SURVEY_PLAN is a rendered,
-inspected43-chord layered section plan with13 floor datums; it remains separate
+inspected76-chord layered section plan with13 floor datums; it remains separate
 from continuous architectural footprint acceptance.
 
 Xbox visible face survey: two outside-origin same-height body-depth spans
@@ -62,7 +62,7 @@ remain explicit; hidden east joint/base and whole footprint are not inferred.
 Ramp survey:20 Pit and20 Long centerline samples plus3 companions repeated.
 Sampling extents/rises measured; full ends, crossfall, lateral bounds and
 continuous interpolation not accepted. Native A-entry three-step views inspected;
-its floor/curb grid and step endpoints remain in progress.
+its three principal rise/run pairs are recorded below; full side bounds remain open.
 
 A entry principal three-step rise/run now repeated at two lateral positions;
 individual20.32/30.48cm, total60.96/91.44cm. One second-tread width section;
@@ -75,6 +75,31 @@ high rays can pass above its curb. No full roadway width inferred from those hit
 
 Pit floor initial three-column interpolation fails independent crossfall checks
 by14.3972cm, despite center-midpoint checks within1.0922cm. Original diagnostic
-is preserved; five-column refinement and fresh holdouts required. Raised west
+is preserved; feature-separated road refinement and fresh holdouts recorded below. Raised west
 X1274/Y550 and eastX1590/Y750 surfaces excluded from ramp floor; one sharp
 boundary failure preserved. Exact terminal/under-cap strips remain unresolved.
+
+
+Pit feature-separated survey:313 connector points and208 calibrated measurements
+now registered. Repeated inner concrete curb facesX1305.03/1542.97 atY350/500/650
+give three604.3676cm road chords and six nonuniform local curb rises. Twelve
+floor/top columns distinguish side strips. Thirty-eight additional low-origin
+road/under-cap points preserve earlier high rock/cap hits separately.
+Road-only80-anchor/120-triangle diagnostic has35 independent holdouts, maximum
+2.56675047789472cm. Earlier three-column14.3972cm and five-column13.8500cm
+failures remain in separate JSONs; six prior checks explicitly promoted to fit
+and three east outer checks explicitly reclassified as raised-strip validation.
+Six separate raised-strip checks are retained, not included in road validation.
+Checked-point error is not a universal unseen-floor or full Pit-end bound.
+
+Four individually inspected Pit marker/clean JPEGs bring registered total214;
+hash audit passes, eight historical exclusions preserved. PIT_CAMERA_CALIBRATION
+locks1400,450,400p88.999908/y90/roll0 at1280x720, eight fit/eight independent
+checks, max.3604131px, sourceZ-200..80 tested. Translated unconstrained overhead
+matrix failed at21.6567px and is preserved. PLAN_CAMERA_MODEL independently
+checks32 withheld markers across the original overhead and Pit poses, max
+.5465851px; other poses still require fresh native checks. Fixed-Z inverse needs
+independent elevation; calibration never certifies rendered edges/hidden floors.
+PIT_FLOOR_SURVEY/PIT_CAMERA_FLOOR_PLAN rendered and visually inspected with
+updated2.567cm diagnostic captions. Whole-map footprint and critical apertures,
+cover dimensions/terminal bounds remain incomplete; Gate1 FAIL.

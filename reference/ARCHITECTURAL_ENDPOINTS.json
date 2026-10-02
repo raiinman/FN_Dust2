@@ -16958,6 +16958,1198 @@
       ],
       "private_raw_path": "../reference_cache/crash_recovery_survey/pit_retaining_ends_01/PIT_RETAINING_NORTH_ENDS_001.json",
       "review": "WestX1260 eye10 hits Wood HullY784.02, not retaining concrete end. EastX1600 eye64 hits concreteY707 but may be higher SidePit cap/terrace transition while lower wall continues; not full wall end acceptance. Four repeated observations retained as height-specific diagnostic only. Native Pit plan view shows caps/terraces/steps and continuous ramp into road; surface interpretation depends height."
+    },
+    {
+      "id": "PIT_CURB_LOW_SECTIONS_001",
+      "source_build": "25640462",
+      "area": "Pit ramp road and raised side strips",
+      "source_map": "de_dust2",
+      "timestamp_utc": "2026-10-02T05:48:43.993864+00:00",
+      "unit": "source_units",
+      "config": {
+        "id": "PIT_CURB_LOW_SECTIONS_001",
+        "build": "25640462",
+        "area": "Pit ramp road and raised side strips",
+        "stations": [
+          {
+            "id": "PIT_CURB_Y350_EYE_PLUS2",
+            "pose": [
+              1400.0,
+              350.01,
+              -221.14
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "PIT_CURB_Y350_EYE_PLUS4",
+            "pose": [
+              1400.0,
+              350.01,
+              -219.14
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "PIT_CURB_Y500_EYE_PLUS2",
+            "pose": [
+              1400.0,
+              500.0,
+              -170.47
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "PIT_CURB_Y500_EYE_PLUS4",
+            "pose": [
+              1400.0,
+              500.0,
+              -168.47
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "PIT_CURB_Y650_EYE_PLUS2",
+            "pose": [
+              1400.0,
+              650.01,
+              -116.47999999999999
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "PIT_CURB_Y650_EYE_PLUS4",
+            "pose": [
+              1400.0,
+              650.01,
+              -114.47999999999999
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          }
+        ],
+        "scope": "Independent crossfall holdouts show outer bands have raised strips, not smooth width interpolation. Low horizontal first hits2/4 native above center floor identify curb or rising pavement surfaces; repeat/interpret before accepting curb faces or core-road widths."
+      },
+      "observations": [
+        {
+          "station_id": "PIT_CURB_Y350_EYE_PLUS2",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact 1400.000000 350.010010 -221.140015;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            1400.0,
+            350.01,
+            -157.14
+          ],
+          "hit": [
+            1542.97,
+            350.01,
+            -157.14
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 142.97 inches ( 11.91 feet)"
+        },
+        {
+          "station_id": "PIT_CURB_Y350_EYE_PLUS2",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact 1400.000000 350.010010 -221.140015;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            1400.0,
+            350.01,
+            -157.14
+          ],
+          "hit": [
+            1542.97,
+            350.01,
+            -157.14
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 142.97 inches ( 11.91 feet)"
+        },
+        {
+          "station_id": "PIT_CURB_Y350_EYE_PLUS2",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact 1400.000000 350.010010 -221.140015;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            1400.0,
+            350.01,
+            -157.14
+          ],
+          "hit": [
+            1305.03,
+            350.01,
+            -157.14
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  94.97 inches (  7.91 feet)"
+        },
+        {
+          "station_id": "PIT_CURB_Y350_EYE_PLUS2",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact 1400.000000 350.010010 -221.140015;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            1400.0,
+            350.01,
+            -157.14
+          ],
+          "hit": [
+            1305.03,
+            350.01,
+            -157.14
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  94.97 inches (  7.91 feet)"
+        },
+        {
+          "station_id": "PIT_CURB_Y350_EYE_PLUS4",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact 1400.000000 350.010010 -219.140015;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            1400.0,
+            350.01,
+            -155.14
+          ],
+          "hit": [
+            1542.97,
+            350.01,
+            -155.14
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 142.97 inches ( 11.91 feet)"
+        },
+        {
+          "station_id": "PIT_CURB_Y350_EYE_PLUS4",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact 1400.000000 350.010010 -219.140015;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            1400.0,
+            350.01,
+            -155.14
+          ],
+          "hit": [
+            1542.97,
+            350.01,
+            -155.14
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 142.97 inches ( 11.91 feet)"
+        },
+        {
+          "station_id": "PIT_CURB_Y350_EYE_PLUS4",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact 1400.000000 350.010010 -219.140015;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            1400.0,
+            350.01,
+            -155.14
+          ],
+          "hit": [
+            1305.03,
+            350.01,
+            -155.14
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  94.97 inches (  7.91 feet)"
+        },
+        {
+          "station_id": "PIT_CURB_Y350_EYE_PLUS4",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact 1400.000000 350.010010 -219.140015;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            1400.0,
+            350.01,
+            -155.14
+          ],
+          "hit": [
+            1305.03,
+            350.01,
+            -155.14
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  94.97 inches (  7.91 feet)"
+        },
+        {
+          "station_id": "PIT_CURB_Y500_EYE_PLUS2",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact 1400.000000 500.000000 -170.469971;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            1400.0,
+            500.0,
+            -106.47
+          ],
+          "hit": [
+            1542.97,
+            500.0,
+            -106.47
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 142.97 inches ( 11.91 feet)"
+        },
+        {
+          "station_id": "PIT_CURB_Y500_EYE_PLUS2",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact 1400.000000 500.000000 -170.469971;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            1400.0,
+            500.0,
+            -106.47
+          ],
+          "hit": [
+            1542.97,
+            500.0,
+            -106.47
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 142.97 inches ( 11.91 feet)"
+        },
+        {
+          "station_id": "PIT_CURB_Y500_EYE_PLUS2",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact 1400.000000 500.000000 -170.469971;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            1400.0,
+            500.0,
+            -106.47
+          ],
+          "hit": [
+            1305.03,
+            500.0,
+            -106.47
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  94.97 inches (  7.91 feet)"
+        },
+        {
+          "station_id": "PIT_CURB_Y500_EYE_PLUS2",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact 1400.000000 500.000000 -170.469971;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            1400.0,
+            500.0,
+            -106.47
+          ],
+          "hit": [
+            1305.03,
+            500.0,
+            -106.47
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  94.97 inches (  7.91 feet)"
+        },
+        {
+          "station_id": "PIT_CURB_Y500_EYE_PLUS4",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact 1400.000000 500.000000 -168.469971;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            1400.0,
+            500.0,
+            -104.47
+          ],
+          "hit": [
+            1542.97,
+            500.0,
+            -104.47
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 142.97 inches ( 11.91 feet)"
+        },
+        {
+          "station_id": "PIT_CURB_Y500_EYE_PLUS4",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact 1400.000000 500.000000 -168.469971;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            1400.0,
+            500.0,
+            -104.47
+          ],
+          "hit": [
+            1542.97,
+            500.0,
+            -104.47
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 142.97 inches ( 11.91 feet)"
+        },
+        {
+          "station_id": "PIT_CURB_Y500_EYE_PLUS4",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact 1400.000000 500.000000 -168.469971;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            1400.0,
+            500.0,
+            -104.47
+          ],
+          "hit": [
+            1305.03,
+            500.0,
+            -104.47
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  94.97 inches (  7.91 feet)"
+        },
+        {
+          "station_id": "PIT_CURB_Y500_EYE_PLUS4",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact 1400.000000 500.000000 -168.469971;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            1400.0,
+            500.0,
+            -104.47
+          ],
+          "hit": [
+            1305.03,
+            500.0,
+            -104.47
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  94.97 inches (  7.91 feet)"
+        },
+        {
+          "station_id": "PIT_CURB_Y650_EYE_PLUS2",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact 1400.000000 650.010010 -116.479980;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            1400.0,
+            650.01,
+            -52.47999999999999
+          ],
+          "hit": [
+            1527.8,
+            650.01,
+            -52.48
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82769"
+          ],
+          "rangefinder_reply": "DISTANCE: 127.80 inches ( 10.65 feet)"
+        },
+        {
+          "station_id": "PIT_CURB_Y650_EYE_PLUS2",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact 1400.000000 650.010010 -116.479980;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            1400.0,
+            650.01,
+            -52.47999999999999
+          ],
+          "hit": [
+            1527.8,
+            650.01,
+            -52.48
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82769"
+          ],
+          "rangefinder_reply": "DISTANCE: 127.80 inches ( 10.65 feet)"
+        },
+        {
+          "station_id": "PIT_CURB_Y650_EYE_PLUS2",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact 1400.000000 650.010010 -116.479980;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            1400.0,
+            650.01,
+            -52.47999999999999
+          ],
+          "hit": [
+            1353.42,
+            650.01,
+            -52.48
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82759"
+          ],
+          "rangefinder_reply": "DISTANCE:  46.58 inches (  3.88 feet)"
+        },
+        {
+          "station_id": "PIT_CURB_Y650_EYE_PLUS2",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact 1400.000000 650.010010 -116.479980;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            1400.0,
+            650.01,
+            -52.47999999999999
+          ],
+          "hit": [
+            1353.42,
+            650.01,
+            -52.48
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82759"
+          ],
+          "rangefinder_reply": "DISTANCE:  46.58 inches (  3.88 feet)"
+        },
+        {
+          "station_id": "PIT_CURB_Y650_EYE_PLUS4",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact 1400.000000 650.010010 -114.479980;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            1400.0,
+            650.01,
+            -50.47999999999999
+          ],
+          "hit": [
+            1542.97,
+            650.01,
+            -50.48
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 142.97 inches ( 11.91 feet)"
+        },
+        {
+          "station_id": "PIT_CURB_Y650_EYE_PLUS4",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact 1400.000000 650.010010 -114.479980;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            1400.0,
+            650.01,
+            -50.47999999999999
+          ],
+          "hit": [
+            1542.97,
+            650.01,
+            -50.48
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 142.97 inches ( 11.91 feet)"
+        },
+        {
+          "station_id": "PIT_CURB_Y650_EYE_PLUS4",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact 1400.000000 650.010010 -114.479980;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            1400.0,
+            650.01,
+            -50.47999999999999
+          ],
+          "hit": [
+            1324.71,
+            650.01,
+            -50.48
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82758"
+          ],
+          "rangefinder_reply": "DISTANCE:  75.29 inches (  6.27 feet)"
+        },
+        {
+          "station_id": "PIT_CURB_Y650_EYE_PLUS4",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact 1400.000000 650.010010 -114.479980;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            1400.0,
+            650.01,
+            -50.47999999999999
+          ],
+          "hit": [
+            1324.71,
+            650.01,
+            -50.48
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82758"
+          ],
+          "rangefinder_reply": "DISTANCE:  75.29 inches (  6.27 feet)"
+        }
+      ],
+      "status": "complete; architectural interpretation pending",
+      "original_pose": "setpos_exact 1400.000000 450.000000 400.000000;setang_exact 88.999908 90.000000 0.000000",
+      "restored_pose": "setpos_exact 1400.000000 450.000000 400.000000;setang_exact 88.999908 90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "private_raw_path": "../reference_cache/crash_recovery_survey/pit_curb_sections_01/PIT_CURB_LOW_SECTIONS_001.json",
+      "review": "AtY350/500 both low heights hit concrete inner curbsX1305.03/1542.97. AtY650 +2 both hits are rising road Mesh and+4 west is rising roadMeshX1324.71; not curb faces. Diagnostics retain original first-hit semantics; higher selected side-top-relative rays independently locate actual curb faces."
+    },
+    {
+      "id": "PIT_CURB_FACE_SECTIONS_001",
+      "source_build": "25640462",
+      "area": "Pit ramp inner curb faces",
+      "source_map": "de_dust2",
+      "timestamp_utc": "2026-10-02T05:53:19.494412+00:00",
+      "unit": "source_units",
+      "config": {
+        "id": "PIT_CURB_FACE_SECTIONS_001",
+        "build": "25640462",
+        "area": "Pit ramp inner curb faces",
+        "stations": [
+          {
+            "id": "CURB_Y350_BELOW_TOP1",
+            "pose": [
+              1400,
+              350,
+              -219.72
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "CURB_Y350_BELOW_TOP2",
+            "pose": [
+              1400,
+              350,
+              -220.72
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "CURB_Y500_BELOW_TOP1",
+            "pose": [
+              1400,
+              500,
+              -165.45
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "CURB_Y500_BELOW_TOP2",
+            "pose": [
+              1400,
+              500,
+              -166.45
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "CURB_Y650_BELOW_TOP1",
+            "pose": [
+              1400,
+              650,
+              -108.82
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "CURB_Y650_BELOW_TOP2",
+            "pose": [
+              1400,
+              650,
+              -109.82
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          }
+        ],
+        "scope": "Two horizontal ray heights below independently sampled raised-side tops, above road. Separate sharp curb interface from smoothly interpolated floor: repeated concrete Hull X1305.03/1542.97 expected only as search hypotheses, not forced endpoints."
+      },
+      "observations": [
+        {
+          "station_id": "CURB_Y350_BELOW_TOP1",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact 1400.000000 350.000000 -219.719971;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            1400,
+            350,
+            -155.72
+          ],
+          "hit": [
+            1542.97,
+            350.0,
+            -155.72
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 142.97 inches ( 11.91 feet)"
+        },
+        {
+          "station_id": "CURB_Y350_BELOW_TOP1",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact 1400.000000 350.000000 -219.719971;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            1400,
+            350,
+            -155.72
+          ],
+          "hit": [
+            1542.97,
+            350.0,
+            -155.72
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 142.97 inches ( 11.91 feet)"
+        },
+        {
+          "station_id": "CURB_Y350_BELOW_TOP1",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact 1400.000000 350.000000 -219.719971;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            1400,
+            350,
+            -155.72
+          ],
+          "hit": [
+            1305.03,
+            350.0,
+            -155.72
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  94.97 inches (  7.91 feet)"
+        },
+        {
+          "station_id": "CURB_Y350_BELOW_TOP1",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact 1400.000000 350.000000 -219.719971;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            1400,
+            350,
+            -155.72
+          ],
+          "hit": [
+            1305.03,
+            350.0,
+            -155.72
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  94.97 inches (  7.91 feet)"
+        },
+        {
+          "station_id": "CURB_Y350_BELOW_TOP2",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact 1400.000000 350.000000 -220.719971;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            1400,
+            350,
+            -156.72
+          ],
+          "hit": [
+            1542.97,
+            350.0,
+            -156.72
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 142.97 inches ( 11.91 feet)"
+        },
+        {
+          "station_id": "CURB_Y350_BELOW_TOP2",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact 1400.000000 350.000000 -220.719971;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            1400,
+            350,
+            -156.72
+          ],
+          "hit": [
+            1542.97,
+            350.0,
+            -156.72
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 142.97 inches ( 11.91 feet)"
+        },
+        {
+          "station_id": "CURB_Y350_BELOW_TOP2",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact 1400.000000 350.000000 -220.719971;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            1400,
+            350,
+            -156.72
+          ],
+          "hit": [
+            1305.03,
+            350.0,
+            -156.72
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  94.97 inches (  7.91 feet)"
+        },
+        {
+          "station_id": "CURB_Y350_BELOW_TOP2",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact 1400.000000 350.000000 -220.719971;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            1400,
+            350,
+            -156.72
+          ],
+          "hit": [
+            1305.03,
+            350.0,
+            -156.72
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  94.97 inches (  7.91 feet)"
+        },
+        {
+          "station_id": "CURB_Y500_BELOW_TOP1",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact 1400.000000 500.000000 -165.450012;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            1400,
+            500,
+            -101.44999999999999
+          ],
+          "hit": [
+            1542.97,
+            500.0,
+            -101.45
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 142.97 inches ( 11.91 feet)"
+        },
+        {
+          "station_id": "CURB_Y500_BELOW_TOP1",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact 1400.000000 500.000000 -165.450012;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            1400,
+            500,
+            -101.44999999999999
+          ],
+          "hit": [
+            1542.97,
+            500.0,
+            -101.45
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 142.97 inches ( 11.91 feet)"
+        },
+        {
+          "station_id": "CURB_Y500_BELOW_TOP1",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact 1400.000000 500.000000 -165.450012;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            1400,
+            500,
+            -101.44999999999999
+          ],
+          "hit": [
+            1305.03,
+            500.0,
+            -101.45
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  94.97 inches (  7.91 feet)"
+        },
+        {
+          "station_id": "CURB_Y500_BELOW_TOP1",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact 1400.000000 500.000000 -165.450012;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            1400,
+            500,
+            -101.44999999999999
+          ],
+          "hit": [
+            1305.03,
+            500.0,
+            -101.45
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  94.97 inches (  7.91 feet)"
+        },
+        {
+          "station_id": "CURB_Y500_BELOW_TOP2",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact 1400.000000 500.000000 -166.450012;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            1400,
+            500,
+            -102.44999999999999
+          ],
+          "hit": [
+            1542.97,
+            500.0,
+            -102.45
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 142.97 inches ( 11.91 feet)"
+        },
+        {
+          "station_id": "CURB_Y500_BELOW_TOP2",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact 1400.000000 500.000000 -166.450012;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            1400,
+            500,
+            -102.44999999999999
+          ],
+          "hit": [
+            1542.97,
+            500.0,
+            -102.45
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 142.97 inches ( 11.91 feet)"
+        },
+        {
+          "station_id": "CURB_Y500_BELOW_TOP2",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact 1400.000000 500.000000 -166.450012;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            1400,
+            500,
+            -102.44999999999999
+          ],
+          "hit": [
+            1305.03,
+            500.0,
+            -102.45
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  94.97 inches (  7.91 feet)"
+        },
+        {
+          "station_id": "CURB_Y500_BELOW_TOP2",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact 1400.000000 500.000000 -166.450012;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            1400,
+            500,
+            -102.44999999999999
+          ],
+          "hit": [
+            1305.03,
+            500.0,
+            -102.45
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  94.97 inches (  7.91 feet)"
+        },
+        {
+          "station_id": "CURB_Y650_BELOW_TOP1",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact 1400.000000 650.000000 -108.820007;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            1400,
+            650,
+            -44.81999999999999
+          ],
+          "hit": [
+            1542.97,
+            650.0,
+            -44.82
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 142.97 inches ( 11.91 feet)"
+        },
+        {
+          "station_id": "CURB_Y650_BELOW_TOP1",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact 1400.000000 650.000000 -108.820007;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            1400,
+            650,
+            -44.81999999999999
+          ],
+          "hit": [
+            1542.97,
+            650.0,
+            -44.82
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 142.97 inches ( 11.91 feet)"
+        },
+        {
+          "station_id": "CURB_Y650_BELOW_TOP1",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact 1400.000000 650.000000 -108.820007;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            1400,
+            650,
+            -44.81999999999999
+          ],
+          "hit": [
+            1305.03,
+            650.0,
+            -44.82
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  94.97 inches (  7.91 feet)"
+        },
+        {
+          "station_id": "CURB_Y650_BELOW_TOP1",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact 1400.000000 650.000000 -108.820007;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            1400,
+            650,
+            -44.81999999999999
+          ],
+          "hit": [
+            1305.03,
+            650.0,
+            -44.82
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  94.97 inches (  7.91 feet)"
+        },
+        {
+          "station_id": "CURB_Y650_BELOW_TOP2",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact 1400.000000 650.000000 -109.820007;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            1400,
+            650,
+            -45.81999999999999
+          ],
+          "hit": [
+            1542.97,
+            650.0,
+            -45.82
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 142.97 inches ( 11.91 feet)"
+        },
+        {
+          "station_id": "CURB_Y650_BELOW_TOP2",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact 1400.000000 650.000000 -109.820007;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            1400,
+            650,
+            -45.81999999999999
+          ],
+          "hit": [
+            1542.97,
+            650.0,
+            -45.82
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 142.97 inches ( 11.91 feet)"
+        },
+        {
+          "station_id": "CURB_Y650_BELOW_TOP2",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact 1400.000000 650.000000 -109.820007;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            1400,
+            650,
+            -45.81999999999999
+          ],
+          "hit": [
+            1305.03,
+            650.0,
+            -45.82
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  94.97 inches (  7.91 feet)"
+        },
+        {
+          "station_id": "CURB_Y650_BELOW_TOP2",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact 1400.000000 650.000000 -109.820007;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            1400,
+            650,
+            -45.81999999999999
+          ],
+          "hit": [
+            1305.03,
+            650.0,
+            -45.82
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  94.97 inches (  7.91 feet)"
+        }
+      ],
+      "status": "complete; architectural interpretation pending",
+      "original_pose": "setpos_exact 1400.000000 450.000000 400.000000;setang_exact 88.999908 90.000000 0.000000",
+      "restored_pose": "setpos_exact 1400.000000 450.000000 400.000000;setang_exact 88.999908 90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "private_raw_path": "../reference_cache/crash_recovery_survey/pit_curb_faces_01/PIT_CURB_FACE_SECTIONS_001.json",
+      "review": "Both chosen ray heights at all3Y stations hit concrete Hull inner facesX1305.03/1542.97, corroborated by native Pit plan and calibrated local image. Separate road from raised side strips; no smooth floor across these discontinuities. Three local curb chords accepted at first height; second height and earlier low rays independently corroborate planes. Full curb ends/continuous faces/vertical rise remain separate.",
+      "accepted_sections": [
+        {
+          "id": "PIT_INNER_CURB_SECTION_Y350",
+          "station_id": "CURB_Y350_BELOW_TOP1",
+          "axis": 0,
+          "feature": "Opposing inner Pit curb collision faces atY350",
+          "confidence": "confirmed repeated local concrete curb section",
+          "notes": "Repeated at two side-top-relative heights. X1305.03/1542.97 stable across3Y stations. Road core chord604.3676cm; full retaining-wall span distinct. Native calibrated Pit frame shows side strips. No whole-body minimum, full longitudinal curb ends or render/collision offset claim."
+        },
+        {
+          "id": "PIT_INNER_CURB_SECTION_Y500",
+          "station_id": "CURB_Y500_BELOW_TOP1",
+          "axis": 0,
+          "feature": "Opposing inner Pit curb collision faces atY500",
+          "confidence": "confirmed repeated local concrete curb section",
+          "notes": "Repeated at two side-top-relative heights. X1305.03/1542.97 stable across3Y stations. Road core chord604.3676cm; full retaining-wall span distinct. Native calibrated Pit frame shows side strips. No whole-body minimum, full longitudinal curb ends or render/collision offset claim."
+        },
+        {
+          "id": "PIT_INNER_CURB_SECTION_Y650",
+          "station_id": "CURB_Y650_BELOW_TOP1",
+          "axis": 0,
+          "feature": "Opposing inner Pit curb collision faces atY650",
+          "confidence": "confirmed repeated local concrete curb section",
+          "notes": "Repeated at two side-top-relative heights. X1305.03/1542.97 stable across3Y stations. Road core chord604.3676cm; full retaining-wall span distinct. Native calibrated Pit frame shows side strips. No whole-body minimum, full longitudinal curb ends or render/collision offset claim."
+        }
+      ]
     }
   ],
   "rejected_attempts": [
