@@ -8,7 +8,7 @@ Source: installed CS2 build25640462, de_dust2. GitHub main is durable authority.
 | Provenance and current revision | REFERENCE_MANIFEST.csv; native poses/hashes and build25640462 | PASS for reviewed captured batches |
 | Physical scale and coordinate convention | SCALE_CALIBRATION.json; COORDINATE_TRANSFORM.json | PASS for current-build factor2.54 and reversible UE=(2.54x,-2.54y,2.54z); Phase2 exporter/import validation pending |
 | Every critical area forward/reverse/side/elevation coverage | 187 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | PASS: sixteen critical-area sets and eleven subarea sets accepted; structural metric and traversal remain separate |
-| Unambiguous validated topology | ROUTE_GRAPH.md; TOPOLOGY.json; WALK_PROBES.json | FAIL: twenty-one surveyed paths pass both directions; remaining ordinary routes and all four special traversals incomplete |
+| Unambiguous validated topology | ROUTE_GRAPH.md; TOPOLOGY.json; WALK_PROBES.json | FAIL: twenty-two surveyed paths pass both directions; remaining ordinary routes and all four special traversals incomplete |
 | Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 53 calibrated feature measurements and54 repeated stair floor samples; full critical register incomplete |
 | Calibrated annotated whole-map truth | RADAR_CALIBRATION.json; RADAR_PLAN.svg | FAIL: four native anchors, physical grid and floor labels; stylized architectural outlines and overlapping elevation layers unverified |
 | Bounded remaining uncertainty | UNCERTAINTY.md; SURVEY_TASKS.csv | FAIL: unresolved critical extents, full apertures/cover dimensions, stairs and render/collision bounds |
@@ -55,7 +55,8 @@ CATWALK_SHORT_STAIRS_BOTH, TOPMID_CATWALK_BOTH, MID_DOORS_BOTH,
 TOPMID_MID_BOTH, CTMID_CTSPAWN_BOTH, CTSPAWN_UNDERA_LONG_BOTH, TUNNEL_STAIRS_BOTH, LOWER_MID_BOTH
 TSPAWN_OUTSIDE_LONG_BOTH, TSPAWN_OUTSIDE_TUNNELS_BOTH,
 OUTSIDE_UPPER_TUNNELS_BOTH, TOPMID_OUTSIDE_LONG_BOTH,
-LONG_CORNER_LONG_A_BOTH, LONG_CORNER_SIDE_PIT_BOTH and SUICIDE_TOPMID_BOTH. Collision enabled,
+LONG_CORNER_LONG_A_BOTH, LONG_CORNER_SIDE_PIT_BOTH, SUICIDE_TOPMID_BOTH
+and B_WINDOW_OUTSIDE_CTMID_BOTH (outside approach only). Collision enabled,
 start-only teleport, reduced speed and arrival tolerance recorded in each path.
 Failed/interrupted waypoint plans remain preserved. TRAVERSAL_PROBES accepts
 observed E27 forward jump/drop twice; failed launch/short/reverse attempts retained.
@@ -76,4 +77,4 @@ DOX owners remain root/reference/scripts/docs/evidence/QA. Acceptance criteria
 are unchanged; this review grants no exception or production advance.
 
 B Window solo climb/crossing now passes both directions in TRAVERSAL_PROBES,
-with stable landings; outside rubble-to-CT Mid approach remains pending.
+with stable landings; outside rubble-to-CT Mid approach now passes both directions.

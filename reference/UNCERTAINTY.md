@@ -29,7 +29,7 @@ source uncertainty. A +/-3% modeling tolerance does not validate an invented num
 
 Recovery walking review: Pit ramp, Upper Tunnels-to-B exit, Long Doors through
 both portals, B Doors and Long A-to-A Site passed both directions with collision on at reduced speed. Short upper landing-to-A Site and full Catwalk-to-Short stair flight now pass both directions too.
-Twenty-one surveyed paths now pass both directions, including Mid/CT/Under A and
+Twenty-two surveyed paths now pass both directions, including Mid/CT/Under A and
 Tunnel Stairs. Failed plans remain preserved; remaining paths and all special traversals require
 verification. Walking observations do not establish physical scale;
 SCALE_CALIBRATION.json records the separate current-build rangefinder evidence.

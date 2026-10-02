@@ -24,7 +24,7 @@ The latest repository commit pins this checkpoint; fetch/check main before resum
  feature measurements. Short has12 independently counted rendered risers and
  repeated center face rays; center run359.6132cm, sampled rise234.3912cm.
  SHORT_STAIR_FLIGHT/ANNOTATED retain individual spacing and limits.
-- 21 surveyed paths accepted both directions in WALK_PROBES, including Mid,
+- 22 surveyed paths accepted both directions in WALK_PROBES, including Mid,
  CT Spawn/Under A, Tunnel Stairs, Lower Tunnels-to-Mid and T Spawn-to-Outside Long.
  Reduced speed80 and arrival tolerance recorded. Failed plans are preserved.
  All four special jump/drop/boost connections remain unverified.
@@ -55,7 +55,7 @@ changing failed plans. Opening other tools interrupted an earlier walk.
 
 ## Active work / next action
 
-Twenty-one ground paths pass both directions. Direct Side Pit-to-Pit jump/drop
+Twenty-two ground paths pass both directions. Direct Side Pit-to-Pit jump/drop
 passed twice from continuous grounded approach (private003/004), stable landing;
 reverse001 jump did not clear wall. Invalid initial start001 and short002 attempt
 preserved. TRAVERSAL_PROBES.json accepts observed forward E27 jump/drop; reverse physical
@@ -78,12 +78,14 @@ registered, seven new clipped/misdirected target attempts rejected and preserved
 four additional subarea sets accepted. Parent Connector composite now accepted with explicit transition ownership.
 B Window solo climb/crossing passed both directions with stable landings;
 TRAVERSAL_PROBES records accepted004/reverse001 and five rejected/partial attempts.
-Outside rubble-to-CT Mid ground approach is next; inspect current live controller
-and its private JSON before starting any other pose/input controller.
+Outside rubble-to-CT Mid approach now passes both directions around south wall
+corner (private002 pair,17/16 steps); initial embedded/blocked start001 preserved.
+Current serial controller: probe_xbox_cover.py, private xbox_metrics/ with9 XY
+columns. Inspect live process, each completed report and plan before resume;
+do not start another pose/input controller while it runs.
 
-1. Finish remaining connector views, resolve Pit reverse classification, Suicide and
- B Window, then test all four special jump/drop/boost connections.
-2. Fill remaining COVERAGE_MATRIX views and structural endpoints, room/cover
+1. Resolve Pit/Suicide reverse classification and test S01-S04 special traversal.
+2. Complete structural endpoints, room/cover
  spans, tunnel stairs and ramp profiles. D044 Short count/center rise/run now
  accepted; width interpolation and render/collision bounds remain separate.
 3. Test revision-sensitive jump/drop/boost connections in current local build.

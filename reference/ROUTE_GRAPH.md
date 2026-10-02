@@ -87,7 +87,7 @@ used to assert the exact Top Mid/Suicide callout boundary.
 
 ## Current-build collision traversal evidence
 
-WALK_PROBES.json owns twenty-one accepted both-direction surveyed paths. Start
+WALK_PROBES.json owns twenty-two accepted both-direction surveyed paths. Start
 is the only teleport, collision stays on, speed80 and arrival20/25 are recorded
 per report. Ground-path acceptance is independent of complete width/height or
 default-speed timing. Failed plans remain preserved.
@@ -120,5 +120,5 @@ TRAVERSAL_PROBES.json separately accepts observed forward E27 grounded jump/drop
 twice, and forward E11 grounded spawn jump/drop once. Stable landings and input
 telemetry are retained; reverse classification remains unresolved. E19/E20 B
 Window climb/crossing passed both directions; outside rubble-to-CT Mid approach
-remains pending. S01-S04 special traversals remain unverified. A failed individual
+now passes both directions. S01-S04 special traversals remain unverified. A failed individual
 jump is not proof of absent connectivity. Suicide callout bounds remain provisional.
