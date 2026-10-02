@@ -19,7 +19,7 @@ preserve all raw captures, failed attempts and existing work/ directories.
 
 ## Reviewed progress
 
-- 216 registered reviewed JPEGs; eight historical coverage exclusions retained.
+- 218 registered reviewed JPEGs; eight historical coverage exclusions retained.
   Original24 and recovered55 re-inspected; all additions individually inspected.
   IMAGE_REVIEW/IMAGE_AUDIT and capture registers own hashes/provenance/rejections.
 - Sixteen critical-area forward/reverse/side/elevation sets and eleven subarea
@@ -30,7 +30,7 @@ preserve all raw captures, failed attempts and existing work/ directories.
   Phase 2 exporter/editor round-trip remains unverified. Unsaved Hammer128-unit
   cube is an agent-authored calibration fixture, not production or source geometry.
 - 13 repeated floor datums,54 Short floor samples,54 Tunnel stair floor samples,
-  313 connector floor/cover/cap points,211 calibrated feature measurements.
+  313 connector floor/cover/cap points,224 calibrated feature measurements.
   No continuous floors, room outlines or cover bounds inferred from point counts.
 - Short:12 rendered/native risers, individual nonuniform section spacing;
   sampled rise234.3912cm/run359.6132cm. SHORT_STAIR_* preserve endpoint limits.
@@ -95,9 +95,9 @@ restored exact640,-100,150p0y90; independently read back before next batch.
 LOWER_PASSAGE_WALL_SECTIONS_001 and UPPER_B_PASSAGE_WALL_SECTIONS_001:
 11 reviewed local wall/cover sections plus8 repeated floor/first-overhead columns
 registered in ARCHITECTURAL_ENDPOINTS. LowerX1100 hits stair riser; X800 cover;
-UpperY1400/1800/2160/2200 cover/open-portal diagnostics retained. No full arch
+UpperY1400/1800/2180/2200 cover/open-portal diagnostics retained. No full arch
 height, minimum clearance or hidden wall interpolation inferred.
-ARCHITECTURAL_SECTIONS.csv and ARCHITECTURAL_SURVEY_PLAN.svg derive79 reviewed
+ARCHITECTURAL_SECTIONS.csv and ARCHITECTURAL_SURVEY_PLAN.svg derive85 reviewed
 horizontal chords,13 floor datums and column locations in two ray-height panels.
 Rendered/inspected: labels/grid clear, no lines certified as boundary walls.
 
@@ -125,7 +125,7 @@ A_ENTRY_STAIR_PROFILE/FLIGHT derive confirmed center sections.
 Pit width batch ended80 observations:16 retaining sections accepted,
 4 upper cross-area/cover stations diagnostic. Native retaining facesX1272/1592
 atY200..750, rounded corners atY180; no continuity/minimum/crossfall inferred.
-Architectural plan derives79 local chords; latest rendered/inspected.
+Architectural plan derives85 local chords; latest rendered/inspected.
 A_ENTRY_STAIR_PROFILE.svg rendered/inspected, rise/run labels separated.
 Long width batch ended80 observations:13 wall/frontage/cover sections accepted,
 7 cross-area/rock/wood diagnostics retained. None implies road minimum clearance.
@@ -142,7 +142,15 @@ FAIL for faithful floor interpolation. Initial JSON retained separately; initial
 15-center-check SVG rendered/inspected. Latest27-check SVG needs fresh render.
 
 All Pit adaptive, camera, curb, road-boundary and under-cap controllers ended.
-Pit controllers ended; subsequent B Window endpoint/capture batches ended. Current last source camera-1530,2685,130p0/y0. Long inner facade helper completed8 observations; four normal rays locate concrete facesY724.28/724.34 and764.86/764.92. Raw report private long_inner_depth_01, not yet registered. Active serial probe_long_inner_columns_01.py (five planned floor/overhead columns atY744); inspect long_inner_columns_01 partial reports and controller before starting anything else.
+Pit controllers ended; subsequent B Window endpoint/capture batches ended. Current last source camera-1530,2685,130p0/y0. Long inner depth, five Y744 columns, six passage sections and two clean captures
+ended and registered. Last camera640,1000,120p0/y-90; separate readback verified.
+First Y762 arch helper ended at ceiling own-origin after repeated floor1.02.
+Failed report preserved in ARCHITECTURAL_ENDPOINTS.rejected_attempts; source
+camera640,1000,120p0/y-90 explicitly restored/read back after end.
+Active serial probe_long_inner_arch_02.py, five planned floor/ceiling columns
+atY762 withyaw0 offset ontoX to avoid crossing depth/leaf boundary. Private
+long_inner_arch_02; inspect controller/partial files before starting anything.
+
 Private pit_road_boundaries_01 and pit_under_cap_01 complete and all38 points
 registered; never repeat these completed requests. Current road-only diagnostic
 80 anchors/35 independent checks maximum2.5667505cm; curb breaks remain separate.
@@ -166,13 +174,13 @@ build/map unchanged. No bot remains. Private plotting dependencies in
 policy; do not bypass/change it. Native PNG-to-reviewed-JPEG uses private PIL.
 
 Verification:34-edge/four-special topology evidence audit PASS for listed
-current-build connections,216-image hash audit,16 critical/11 subarea reviews, physical
-register211 rows, overhead/local calibration checks, Tunnel repeated-point,
+current-build connections,218-image hash audit,16 critical/11 subarea reviews, physical
+register224 rows, overhead/local calibration checks, Tunnel repeated-point,
 floor/face, opposite-ray/rangefinder and withheld-plane checks pass. Derived
 Short/Long/Tunnel/radar/overhead/architectural-section SVGs rendered and inspected. Gate1 still FAIL.
 
 
-Pit feature-separated survey:313 connector points and211 calibrated measurements
+Pit feature-separated survey:313 connector points and224 calibrated measurements
 now registered. Repeated inner concrete curb facesX1305.03/1542.97 atY350/500/650
 give three604.3676cm road chords and six nonuniform local curb rises. Twelve
 floor/top columns distinguish side strips. Thirty-eight additional low-origin
@@ -184,7 +192,7 @@ and three east outer checks explicitly reclassified as raised-strip validation.
 Six separate raised-strip checks are retained, not included in road validation.
 Checked-point error is not a universal unseen-floor or full Pit-end bound.
 
-Four individually inspected Pit marker/clean JPEGs bring registered total216;
+Four individually inspected Pit marker/clean JPEGs bring registered total218;
 hash audit passes, eight historical exclusions preserved. PIT_CAMERA_CALIBRATION
 locks1400,450,400p88.999908/y90/roll0 at1280x720, eight fit/eight independent
 checks, max.3604131px, sourceZ-200..80 tested. Translated unconstrained overhead
@@ -204,7 +212,17 @@ final outer-facade ray started inside collision and was rejected. Original faile
 batch and all completed observations preserved; camera restored/read back.
 Only the three earlier complete repeat sections accepted, not the failed ray,
 full rectangular opening or minimum body clearance. Architectural plan79 chords;
-211 calibrated measurements,313 connector points,216 reviewed registered JPEGs.
+224 calibrated measurements,313 connector points,218 reviewed registered JPEGs.
 Pit side strips independently checked at six local transverse sections: maximum
 observed error.72136cm. Separate from35 road checks(max2.56675cm); no continuous
 side-strip or universal unseen-surface acceptance. Gate1 remains FAIL.
+
+
+Inner Long portal: two outside-origin normal wall-depth spans103.0732cm;
+five repeated floor/first-timber-header columns atY744 with fixed headerZ190.34;
+six local passage chords atY730/744/756 andZ64/160. Exact Wood_Dense leaf versus
+concrete wall identities retained. Two reviewed clean interior/street-side JPEGs
+show header, angled leaves and surrounding arch; crop/hidden floor limits explicit.
+Current224 calibrated measurements,85 local architectural chords,218 reviewed
+registered JPEGs,313 connector floor/top points. No full chamber/arch, minimum
+body-clearance envelope or whole-map footprint acceptance. Gate1 remains FAIL.

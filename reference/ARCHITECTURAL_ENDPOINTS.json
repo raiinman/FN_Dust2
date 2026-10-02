@@ -19977,6 +19977,1556 @@
           "notes": "Roofless broken-wall crossing. Jagged dirt Mesh sides at160/200 and concrete Hull sides at240; native MARKED/CLEAN context corroborates gap. Section at one wall depth, not full rectangular aperture, minimum whole-body width, finite ceiling height, sill plane or render/collision offset. Batch later failed at an unrelated own-origin outside-facade probe; these selected repeats completed before failure."
         }
       ]
+    },
+    {
+      "id": "LONG_INNER_FACADE_DEPTH_001",
+      "source_build": "25640462",
+      "area": "Long inner portal wall depth diagnostics",
+      "source_map": "de_dust2",
+      "timestamp_utc": "2026-10-02T06:32:28.807199+00:00",
+      "unit": "source_units",
+      "config": {
+        "id": "LONG_INNER_FACADE_DEPTH_001",
+        "build": "25640462",
+        "area": "Long inner portal wall depth diagnostics",
+        "stations": [
+          {
+            "id": "INNER_FACADE_X550_Y400",
+            "pose": [
+              550,
+              400,
+              136
+            ],
+            "yaws": [
+              90
+            ]
+          },
+          {
+            "id": "INNER_FACADE_X550_Y850",
+            "pose": [
+              550,
+              850,
+              136
+            ],
+            "yaws": [
+              -90
+            ]
+          },
+          {
+            "id": "INNER_FACADE_X730_Y400",
+            "pose": [
+              730,
+              400,
+              136
+            ],
+            "yaws": [
+              90
+            ]
+          },
+          {
+            "id": "INNER_FACADE_X730_Y850",
+            "pose": [
+              730,
+              850,
+              136
+            ],
+            "yaws": [
+              -90
+            ]
+          }
+        ],
+        "scope": "Outside-origin normal facade rays to locate inner portal wall depth before choosing curved opening columns. Angled leaves/cover first hits require interpretation, not forced structural facade planes."
+      },
+      "observations": [
+        {
+          "station_id": "INNER_FACADE_X550_Y400",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact 550.000000 400.000000 136.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            550,
+            400,
+            200
+          ],
+          "hit": [
+            550.0,
+            724.28,
+            200.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 324.28 inches ( 27.02 feet)"
+        },
+        {
+          "station_id": "INNER_FACADE_X550_Y400",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact 550.000000 400.000000 136.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            550,
+            400,
+            200
+          ],
+          "hit": [
+            550.0,
+            724.28,
+            200.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 324.28 inches ( 27.02 feet)"
+        },
+        {
+          "station_id": "INNER_FACADE_X550_Y850",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact 550.000000 850.000000 136.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            550,
+            850,
+            200
+          ],
+          "hit": [
+            550.0,
+            764.86,
+            200.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  85.14 inches (  7.09 feet)"
+        },
+        {
+          "station_id": "INNER_FACADE_X550_Y850",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact 550.000000 850.000000 136.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            550,
+            850,
+            200
+          ],
+          "hit": [
+            550.0,
+            764.86,
+            200.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  85.14 inches (  7.09 feet)"
+        },
+        {
+          "station_id": "INNER_FACADE_X730_Y400",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact 730.000000 400.000000 136.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            730,
+            400,
+            200
+          ],
+          "hit": [
+            730.0,
+            724.34,
+            200.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 324.34 inches ( 27.03 feet)"
+        },
+        {
+          "station_id": "INNER_FACADE_X730_Y400",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact 730.000000 400.000000 136.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            730,
+            400,
+            200
+          ],
+          "hit": [
+            730.0,
+            724.34,
+            200.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 324.34 inches ( 27.03 feet)"
+        },
+        {
+          "station_id": "INNER_FACADE_X730_Y850",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact 730.000000 850.000000 136.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            730,
+            850,
+            200
+          ],
+          "hit": [
+            730.0,
+            764.92,
+            200.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  85.08 inches (  7.09 feet)"
+        },
+        {
+          "station_id": "INNER_FACADE_X730_Y850",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact 730.000000 850.000000 136.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            730,
+            850,
+            200
+          ],
+          "hit": [
+            730.0,
+            764.92,
+            200.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  85.08 inches (  7.09 feet)"
+        }
+      ],
+      "status": "complete; architectural interpretation pending",
+      "original_pose": "setpos_exact -1530.000000 2685.000000 130.000000;setang_exact 0.000000 0.000000 0.000000",
+      "restored_pose": "setpos_exact -1530.000000 2685.000000 130.000000;setang_exact 0.000000 0.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\long_inner_depth_01\\LONG_INNER_FACADE_DEPTH_001.json",
+      "review": "Both lateral normal stations hit concrete wall Hull facesY724.28/724.34 and764.86/764.92, not angled leaves. Local outside-origin depth spans accepted atX550/730 Z200; each remains sampled wall depth, not uniform full wall or complete aperture. Existing native inner portal view corroborates plaster/masonry facade.",
+      "accepted_endpoint_spans": [
+        {
+          "id": "LONG_INNER_WALL_DEPTH_X550",
+          "axis": 1,
+          "low": {
+            "station_id": "INNER_FACADE_X550_Y400",
+            "yaw": 90
+          },
+          "high": {
+            "station_id": "INNER_FACADE_X550_Y850",
+            "yaw": -90
+          },
+          "feature": "Inner portal local concrete wall thickness atX550 Z200",
+          "confidence": "confirmed repeated outside-origin wall extent",
+          "notes": "Opposite repeated normal facade rays; second lateral station separately checks similar slope/depth. No unseen wall continuity, arch boundary or rendered offset inferred."
+        },
+        {
+          "id": "LONG_INNER_WALL_DEPTH_X730",
+          "axis": 1,
+          "low": {
+            "station_id": "INNER_FACADE_X730_Y400",
+            "yaw": 90
+          },
+          "high": {
+            "station_id": "INNER_FACADE_X730_Y850",
+            "yaw": -90
+          },
+          "feature": "Inner portal local concrete wall thickness atX730 Z200",
+          "confidence": "confirmed repeated outside-origin wall extent",
+          "notes": "Opposite repeated normal facade rays; second lateral station separately checks similar slope/depth. No unseen wall continuity, arch boundary or rendered offset inferred."
+        }
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-02T06:34:45.896764+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Long inner recessed opening diagnostic",
+      "unit": "source_units",
+      "target_xy": [
+        580.0,
+        744.0
+      ],
+      "probe_player_z": 70.0,
+      "initial_pose": "setpos_exact -1530.000000 2685.000000 130.000000;setang_exact 0.000000 0.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 580.000000 680.009766 70.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            580.0,
+            745.22,
+            1.03
+          ],
+          "xy_error": 1.2200000000000273,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 81809"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 580.000000 678.789734 70.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            580.0,
+            744.0,
+            1.03
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 81809"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 580.000000 678.789734 70.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            580.0,
+            744.0,
+            1.03
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 81809"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 580.000000 807.990234 70.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            580.0,
+            746.08,
+            190.34
+          ],
+          "xy_error": 2.080000000000041,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Solid, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 580.000000 805.910278 70.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            580.0,
+            744.0,
+            190.34
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Solid, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 580.000000 805.910278 70.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            580.0,
+            744.0,
+            190.34
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Solid, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          580.0,
+          744.0,
+          1.03
+        ],
+        "ceiling": [
+          580.0,
+          744.0,
+          190.34
+        ]
+      },
+      "endpoint_xy_separation": 0.0,
+      "native_vertical_separation": 189.31,
+      "restored_pose": "setpos_exact -1530.000000 2685.000000 130.000000;setang_exact 0.000000 0.000000 0.000000",
+      "id": "LONG_INNER_COLUMN_X580_Y744_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\long_inner_columns_01\\LONG_INNER_COLUMN_X580_Y744_001.json",
+      "review": "Five repeated first-overhead Wood_Solid Hull endpoints atZ190.34 corroborate visible fixed timber door header; unobstructed first floor recorded separately. Local floor-to-header column, not curved stone intrados or minimum full-body/leaf clearance.",
+      "accepted_columns": [
+        {
+          "id": "LONG_INNER_COLUMN_X580_Y744_001_HEIGHT",
+          "feature": "Inner portal collision floor-to-fixed timber header at[580.0, 744.0]",
+          "confidence": "confirmed repeated first-overhead collision column",
+          "notes": "Five repeated first-overhead Wood_Solid Hull endpoints atZ190.34 corroborate visible fixed timber door header; unobstructed first floor recorded separately. Local floor-to-header column, not curved stone intrados or minimum full-body/leaf clearance."
+        }
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-02T06:35:01.849420+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Long inner recessed opening diagnostic",
+      "unit": "source_units",
+      "target_xy": [
+        610.0,
+        744.0
+      ],
+      "probe_player_z": 70.0,
+      "initial_pose": "setpos_exact -1530.000000 2685.000000 130.000000;setang_exact 0.000000 0.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 610.000000 680.009766 70.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            610.0,
+            745.23,
+            0.86
+          ],
+          "xy_error": 1.2300000000000182,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 81809"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 610.000000 678.779724 70.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            610.0,
+            744.0,
+            0.86
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 81809"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 610.000000 678.779724 70.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            610.0,
+            744.0,
+            0.86
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 81809"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 610.000000 807.990234 70.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            610.0,
+            746.08,
+            190.34
+          ],
+          "xy_error": 2.080000000000041,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Solid, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 610.000000 805.910278 70.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            610.0,
+            744.0,
+            190.34
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Solid, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 610.000000 805.910278 70.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            610.0,
+            744.0,
+            190.34
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Solid, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          610.0,
+          744.0,
+          0.86
+        ],
+        "ceiling": [
+          610.0,
+          744.0,
+          190.34
+        ]
+      },
+      "endpoint_xy_separation": 0.0,
+      "native_vertical_separation": 189.48,
+      "restored_pose": "setpos_exact -1530.000000 2685.000000 130.000000;setang_exact 0.000000 0.000000 0.000000",
+      "id": "LONG_INNER_COLUMN_X610_Y744_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\long_inner_columns_01\\LONG_INNER_COLUMN_X610_Y744_001.json",
+      "review": "Five repeated first-overhead Wood_Solid Hull endpoints atZ190.34 corroborate visible fixed timber door header; unobstructed first floor recorded separately. Local floor-to-header column, not curved stone intrados or minimum full-body/leaf clearance.",
+      "accepted_columns": [
+        {
+          "id": "LONG_INNER_COLUMN_X610_Y744_001_HEIGHT",
+          "feature": "Inner portal collision floor-to-fixed timber header at[610.0, 744.0]",
+          "confidence": "confirmed repeated first-overhead collision column",
+          "notes": "Five repeated first-overhead Wood_Solid Hull endpoints atZ190.34 corroborate visible fixed timber door header; unobstructed first floor recorded separately. Local floor-to-header column, not curved stone intrados or minimum full-body/leaf clearance."
+        }
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-02T06:35:17.590192+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Long inner recessed opening diagnostic",
+      "unit": "source_units",
+      "target_xy": [
+        640.0,
+        744.0
+      ],
+      "probe_player_z": 70.0,
+      "initial_pose": "setpos_exact -1530.000000 2685.000000 130.000000;setang_exact 0.000000 0.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 640.000000 680.009766 70.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            640.0,
+            745.23,
+            0.7
+          ],
+          "xy_error": 1.2300000000000182,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 81813"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 640.000000 678.779724 70.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            640.0,
+            744.0,
+            0.7
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 81813"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 640.000000 678.779724 70.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            640.0,
+            744.0,
+            0.7
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 81813"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 640.000000 807.990234 70.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            640.0,
+            746.08,
+            190.34
+          ],
+          "xy_error": 2.080000000000041,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Solid, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 640.000000 805.910278 70.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            640.0,
+            744.0,
+            190.34
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Solid, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 640.000000 805.910278 70.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            640.0,
+            744.0,
+            190.34
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Solid, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          640.0,
+          744.0,
+          0.7
+        ],
+        "ceiling": [
+          640.0,
+          744.0,
+          190.34
+        ]
+      },
+      "endpoint_xy_separation": 0.0,
+      "native_vertical_separation": 189.64000000000001,
+      "restored_pose": "setpos_exact -1530.000000 2685.000000 130.000000;setang_exact 0.000000 0.000000 0.000000",
+      "id": "LONG_INNER_COLUMN_X640_Y744_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\long_inner_columns_01\\LONG_INNER_COLUMN_X640_Y744_001.json",
+      "review": "Five repeated first-overhead Wood_Solid Hull endpoints atZ190.34 corroborate visible fixed timber door header; unobstructed first floor recorded separately. Local floor-to-header column, not curved stone intrados or minimum full-body/leaf clearance.",
+      "accepted_columns": [
+        {
+          "id": "LONG_INNER_COLUMN_X640_Y744_001_HEIGHT",
+          "feature": "Inner portal collision floor-to-fixed timber header at[640.0, 744.0]",
+          "confidence": "confirmed repeated first-overhead collision column",
+          "notes": "Five repeated first-overhead Wood_Solid Hull endpoints atZ190.34 corroborate visible fixed timber door header; unobstructed first floor recorded separately. Local floor-to-header column, not curved stone intrados or minimum full-body/leaf clearance."
+        }
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-02T06:35:33.435949+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Long inner recessed opening diagnostic",
+      "unit": "source_units",
+      "target_xy": [
+        670.0,
+        744.0
+      ],
+      "probe_player_z": 70.0,
+      "initial_pose": "setpos_exact -1530.000000 2685.000000 130.000000;setang_exact 0.000000 0.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 670.000000 680.009766 70.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            670.0,
+            745.23,
+            0.54
+          ],
+          "xy_error": 1.2300000000000182,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 81813"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 670.000000 678.779724 70.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            670.0,
+            744.0,
+            0.54
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 81813"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 670.000000 678.779724 70.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            670.0,
+            744.0,
+            0.54
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 81813"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 670.000000 807.990234 70.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            670.0,
+            746.08,
+            190.34
+          ],
+          "xy_error": 2.080000000000041,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Solid, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 670.000000 805.910278 70.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            670.0,
+            744.0,
+            190.34
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Solid, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 670.000000 805.910278 70.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            670.0,
+            744.0,
+            190.34
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Solid, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          670.0,
+          744.0,
+          0.54
+        ],
+        "ceiling": [
+          670.0,
+          744.0,
+          190.34
+        ]
+      },
+      "endpoint_xy_separation": 0.0,
+      "native_vertical_separation": 189.8,
+      "restored_pose": "setpos_exact -1530.000000 2685.000000 130.000000;setang_exact 0.000000 0.000000 0.000000",
+      "id": "LONG_INNER_COLUMN_X670_Y744_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\long_inner_columns_01\\LONG_INNER_COLUMN_X670_Y744_001.json",
+      "review": "Five repeated first-overhead Wood_Solid Hull endpoints atZ190.34 corroborate visible fixed timber door header; unobstructed first floor recorded separately. Local floor-to-header column, not curved stone intrados or minimum full-body/leaf clearance.",
+      "accepted_columns": [
+        {
+          "id": "LONG_INNER_COLUMN_X670_Y744_001_HEIGHT",
+          "feature": "Inner portal collision floor-to-fixed timber header at[670.0, 744.0]",
+          "confidence": "confirmed repeated first-overhead collision column",
+          "notes": "Five repeated first-overhead Wood_Solid Hull endpoints atZ190.34 corroborate visible fixed timber door header; unobstructed first floor recorded separately. Local floor-to-header column, not curved stone intrados or minimum full-body/leaf clearance."
+        }
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-02T06:35:49.174226+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Long inner recessed opening diagnostic",
+      "unit": "source_units",
+      "target_xy": [
+        700.0,
+        744.0
+      ],
+      "probe_player_z": 70.0,
+      "initial_pose": "setpos_exact -1530.000000 2685.000000 130.000000;setang_exact 0.000000 0.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 700.000000 680.009766 70.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            700.0,
+            745.23,
+            0.38
+          ],
+          "xy_error": 1.2300000000000182,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 81815"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 700.000000 678.779724 70.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            700.0,
+            744.0,
+            0.38
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 81815"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 700.000000 678.779724 70.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            700.0,
+            744.0,
+            0.38
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 81815"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 700.000000 807.990234 70.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            700.0,
+            746.08,
+            190.34
+          ],
+          "xy_error": 2.080000000000041,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Solid, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 700.000000 805.910278 70.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            700.0,
+            744.0,
+            190.34
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Solid, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 700.000000 805.910278 70.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            700.0,
+            744.0,
+            190.34
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Solid, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          700.0,
+          744.0,
+          0.38
+        ],
+        "ceiling": [
+          700.0,
+          744.0,
+          190.34
+        ]
+      },
+      "endpoint_xy_separation": 0.0,
+      "native_vertical_separation": 189.96,
+      "restored_pose": "setpos_exact -1530.000000 2685.000000 130.000000;setang_exact 0.000000 0.000000 0.000000",
+      "id": "LONG_INNER_COLUMN_X700_Y744_001",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\long_inner_columns_01\\LONG_INNER_COLUMN_X700_Y744_001.json",
+      "review": "Five repeated first-overhead Wood_Solid Hull endpoints atZ190.34 corroborate visible fixed timber door header; unobstructed first floor recorded separately. Local floor-to-header column, not curved stone intrados or minimum full-body/leaf clearance.",
+      "accepted_columns": [
+        {
+          "id": "LONG_INNER_COLUMN_X700_Y744_001_HEIGHT",
+          "feature": "Inner portal collision floor-to-fixed timber header at[700.0, 744.0]",
+          "confidence": "confirmed repeated first-overhead collision column",
+          "notes": "Five repeated first-overhead Wood_Solid Hull endpoints atZ190.34 corroborate visible fixed timber door header; unobstructed first floor recorded separately. Local floor-to-header column, not curved stone intrados or minimum full-body/leaf clearance."
+        }
+      ]
+    },
+    {
+      "id": "LONG_INNER_PASSAGE_WIDTHS_001",
+      "source_build": "25640462",
+      "area": "Long inner portal leaf/structural passage sections",
+      "source_map": "de_dust2",
+      "timestamp_utc": "2026-10-02T06:36:39.540532+00:00",
+      "unit": "source_units",
+      "config": {
+        "id": "LONG_INNER_PASSAGE_WIDTHS_001",
+        "build": "25640462",
+        "area": "Long inner portal leaf/structural passage sections",
+        "stations": [
+          {
+            "id": "INNER_Y730_EYE64",
+            "pose": [
+              640,
+              730,
+              0
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "INNER_Y730_EYE160",
+            "pose": [
+              640,
+              730,
+              96
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "INNER_Y744_EYE64",
+            "pose": [
+              640,
+              744,
+              0
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "INNER_Y744_EYE160",
+            "pose": [
+              640,
+              744,
+              96
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "INNER_Y756_EYE64",
+            "pose": [
+              640,
+              756,
+              0
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "INNER_Y756_EYE160",
+            "pose": [
+              640,
+              756,
+              96
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          }
+        ],
+        "scope": "Native opening has fixed Wood_Solid header undersideZ190.34 independently measured atfive columns. Repeated first lateral hits may be angled wooden leaves rather than wall aperture; keep heights/depths distinct. No minimum body clearance or rectangular/uniform portal inferred."
+      },
+      "observations": [
+        {
+          "station_id": "INNER_Y730_EYE64",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact 640.000000 730.000000 0.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            640,
+            730,
+            64
+          ],
+          "hit": [
+            681.95,
+            730.0,
+            64.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  41.95 inches (  3.50 feet)"
+        },
+        {
+          "station_id": "INNER_Y730_EYE64",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact 640.000000 730.000000 0.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            640,
+            730,
+            64
+          ],
+          "hit": [
+            681.95,
+            730.0,
+            64.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  41.95 inches (  3.50 feet)"
+        },
+        {
+          "station_id": "INNER_Y730_EYE64",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact 640.000000 730.000000 0.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            640,
+            730,
+            64
+          ],
+          "hit": [
+            562.48,
+            730.0,
+            64.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  77.52 inches (  6.46 feet)"
+        },
+        {
+          "station_id": "INNER_Y730_EYE64",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact 640.000000 730.000000 0.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            640,
+            730,
+            64
+          ],
+          "hit": [
+            562.48,
+            730.0,
+            64.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  77.52 inches (  6.46 feet)"
+        },
+        {
+          "station_id": "INNER_Y730_EYE160",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact 640.000000 730.000000 96.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            640,
+            730,
+            160
+          ],
+          "hit": [
+            681.95,
+            730.0,
+            160.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  41.95 inches (  3.50 feet)"
+        },
+        {
+          "station_id": "INNER_Y730_EYE160",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact 640.000000 730.000000 96.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            640,
+            730,
+            160
+          ],
+          "hit": [
+            681.95,
+            730.0,
+            160.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  41.95 inches (  3.50 feet)"
+        },
+        {
+          "station_id": "INNER_Y730_EYE160",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact 640.000000 730.000000 96.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            640,
+            730,
+            160
+          ],
+          "hit": [
+            561.19,
+            730.0,
+            160.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  78.81 inches (  6.57 feet)"
+        },
+        {
+          "station_id": "INNER_Y730_EYE160",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact 640.000000 730.000000 96.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            640,
+            730,
+            160
+          ],
+          "hit": [
+            561.19,
+            730.0,
+            160.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  78.81 inches (  6.57 feet)"
+        },
+        {
+          "station_id": "INNER_Y744_EYE64",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact 640.000000 744.000000 0.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            640,
+            744,
+            64
+          ],
+          "hit": [
+            704.82,
+            744.0,
+            64.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  64.82 inches (  5.40 feet)"
+        },
+        {
+          "station_id": "INNER_Y744_EYE64",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact 640.000000 744.000000 0.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            640,
+            744,
+            64
+          ],
+          "hit": [
+            704.82,
+            744.0,
+            64.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  64.82 inches (  5.40 feet)"
+        },
+        {
+          "station_id": "INNER_Y744_EYE64",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact 640.000000 744.000000 0.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            640,
+            744,
+            64
+          ],
+          "hit": [
+            568.8,
+            744.0,
+            64.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  71.20 inches (  5.93 feet)"
+        },
+        {
+          "station_id": "INNER_Y744_EYE64",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact 640.000000 744.000000 0.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            640,
+            744,
+            64
+          ],
+          "hit": [
+            568.8,
+            744.0,
+            64.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  71.20 inches (  5.93 feet)"
+        },
+        {
+          "station_id": "INNER_Y744_EYE160",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact 640.000000 744.000000 96.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            640,
+            744,
+            160
+          ],
+          "hit": [
+            704.82,
+            744.0,
+            160.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  64.82 inches (  5.40 feet)"
+        },
+        {
+          "station_id": "INNER_Y744_EYE160",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact 640.000000 744.000000 96.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            640,
+            744,
+            160
+          ],
+          "hit": [
+            704.82,
+            744.0,
+            160.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  64.82 inches (  5.40 feet)"
+        },
+        {
+          "station_id": "INNER_Y744_EYE160",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact 640.000000 744.000000 96.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            640,
+            744,
+            160
+          ],
+          "hit": [
+            568.8,
+            744.0,
+            160.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  71.20 inches (  5.93 feet)"
+        },
+        {
+          "station_id": "INNER_Y744_EYE160",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact 640.000000 744.000000 96.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            640,
+            744,
+            160
+          ],
+          "hit": [
+            568.8,
+            744.0,
+            160.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  71.20 inches (  5.93 feet)"
+        },
+        {
+          "station_id": "INNER_Y756_EYE64",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact 640.000000 756.000000 0.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            640,
+            756,
+            64
+          ],
+          "hit": [
+            717.41,
+            756.0,
+            64.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  77.41 inches (  6.45 feet)"
+        },
+        {
+          "station_id": "INNER_Y756_EYE64",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact 640.000000 756.000000 0.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            640,
+            756,
+            64
+          ],
+          "hit": [
+            717.41,
+            756.0,
+            64.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  77.41 inches (  6.45 feet)"
+        },
+        {
+          "station_id": "INNER_Y756_EYE64",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact 640.000000 756.000000 0.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            640,
+            756,
+            64
+          ],
+          "hit": [
+            588.34,
+            756.0,
+            64.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  51.66 inches (  4.30 feet)"
+        },
+        {
+          "station_id": "INNER_Y756_EYE64",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact 640.000000 756.000000 0.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            640,
+            756,
+            64
+          ],
+          "hit": [
+            588.34,
+            756.0,
+            64.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  51.66 inches (  4.30 feet)"
+        },
+        {
+          "station_id": "INNER_Y756_EYE160",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact 640.000000 756.000000 96.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            640,
+            756,
+            160
+          ],
+          "hit": [
+            717.71,
+            756.0,
+            160.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  77.71 inches (  6.48 feet)"
+        },
+        {
+          "station_id": "INNER_Y756_EYE160",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact 640.000000 756.000000 96.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            640,
+            756,
+            160
+          ],
+          "hit": [
+            717.71,
+            756.0,
+            160.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  77.71 inches (  6.48 feet)"
+        },
+        {
+          "station_id": "INNER_Y756_EYE160",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact 640.000000 756.000000 96.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            640,
+            756,
+            160
+          ],
+          "hit": [
+            588.34,
+            756.0,
+            160.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  51.66 inches (  4.30 feet)"
+        },
+        {
+          "station_id": "INNER_Y756_EYE160",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact 640.000000 756.000000 96.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            640,
+            756,
+            160
+          ],
+          "hit": [
+            588.34,
+            756.0,
+            160.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  51.66 inches (  4.30 feet)"
+        }
+      ],
+      "status": "complete; architectural interpretation pending",
+      "original_pose": "setpos_exact -1530.000000 2685.000000 130.000000;setang_exact 0.000000 0.000000 0.000000",
+      "restored_pose": "setpos_exact -1530.000000 2685.000000 130.000000;setang_exact 0.000000 0.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_inner_widths_01/LONG_INNER_PASSAGE_WIDTHS_001.json",
+      "review": "Six complete repeated sections separate angled Wood_Dense leaves and concrete wall sides. AtY744 both heights meet leaf facesX568.8/704.82; Y730 east leaf/west masonry andY756 west leaf/east masonry. Native forward/reverse details corroborate; no single uniform/minimum body-clearance inference.",
+      "accepted_sections": [
+        {
+          "id": "LONG_INNER_LOCAL_INNER_Y730_EYE64",
+          "station_id": "INNER_Y730_EYE64",
+          "axis": 0,
+          "feature": "Inner portal local leaf/masonry collision passage INNER_Y730_EYE64",
+          "confidence": "confirmed repeated local collision section",
+          "notes": "Six complete repeated sections separate angled Wood_Dense leaves and concrete wall sides. AtY744 both heights meet leaf facesX568.8/704.82; Y730 east leaf/west masonry andY756 west leaf/east masonry. Native forward/reverse details corroborate; no single uniform/minimum body-clearance inference."
+        },
+        {
+          "id": "LONG_INNER_LOCAL_INNER_Y730_EYE160",
+          "station_id": "INNER_Y730_EYE160",
+          "axis": 0,
+          "feature": "Inner portal local leaf/masonry collision passage INNER_Y730_EYE160",
+          "confidence": "confirmed repeated local collision section",
+          "notes": "Six complete repeated sections separate angled Wood_Dense leaves and concrete wall sides. AtY744 both heights meet leaf facesX568.8/704.82; Y730 east leaf/west masonry andY756 west leaf/east masonry. Native forward/reverse details corroborate; no single uniform/minimum body-clearance inference."
+        },
+        {
+          "id": "LONG_INNER_LOCAL_INNER_Y744_EYE64",
+          "station_id": "INNER_Y744_EYE64",
+          "axis": 0,
+          "feature": "Inner portal local leaf/masonry collision passage INNER_Y744_EYE64",
+          "confidence": "confirmed repeated local collision section",
+          "notes": "Six complete repeated sections separate angled Wood_Dense leaves and concrete wall sides. AtY744 both heights meet leaf facesX568.8/704.82; Y730 east leaf/west masonry andY756 west leaf/east masonry. Native forward/reverse details corroborate; no single uniform/minimum body-clearance inference."
+        },
+        {
+          "id": "LONG_INNER_LOCAL_INNER_Y744_EYE160",
+          "station_id": "INNER_Y744_EYE160",
+          "axis": 0,
+          "feature": "Inner portal local leaf/masonry collision passage INNER_Y744_EYE160",
+          "confidence": "confirmed repeated local collision section",
+          "notes": "Six complete repeated sections separate angled Wood_Dense leaves and concrete wall sides. AtY744 both heights meet leaf facesX568.8/704.82; Y730 east leaf/west masonry andY756 west leaf/east masonry. Native forward/reverse details corroborate; no single uniform/minimum body-clearance inference."
+        },
+        {
+          "id": "LONG_INNER_LOCAL_INNER_Y756_EYE64",
+          "station_id": "INNER_Y756_EYE64",
+          "axis": 0,
+          "feature": "Inner portal local leaf/masonry collision passage INNER_Y756_EYE64",
+          "confidence": "confirmed repeated local collision section",
+          "notes": "Six complete repeated sections separate angled Wood_Dense leaves and concrete wall sides. AtY744 both heights meet leaf facesX568.8/704.82; Y730 east leaf/west masonry andY756 west leaf/east masonry. Native forward/reverse details corroborate; no single uniform/minimum body-clearance inference."
+        },
+        {
+          "id": "LONG_INNER_LOCAL_INNER_Y756_EYE160",
+          "station_id": "INNER_Y756_EYE160",
+          "axis": 0,
+          "feature": "Inner portal local leaf/masonry collision passage INNER_Y756_EYE160",
+          "confidence": "confirmed repeated local collision section",
+          "notes": "Six complete repeated sections separate angled Wood_Dense leaves and concrete wall sides. AtY744 both heights meet leaf facesX568.8/704.82; Y730 east leaf/west masonry andY756 west leaf/east masonry. Native forward/reverse details corroborate; no single uniform/minimum body-clearance inference."
+        }
+      ]
     }
   ],
   "rejected_attempts": [
@@ -20341,6 +21891,101 @@
       ],
       "private_raw_path": "../reference_cache/crash_recovery_survey/area_wall_sections_01/AREA_SECTION_TSPAWN_LOW_001.json",
       "review": "No unique east hit/rangefinder result at this height; zero endpoints accepted. Lower retry also failed. Cause not inferred; exact original camera restored."
+    },
+    {
+      "timestamp_utc": "2026-10-02T06:42:29.384166+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Long inner streetward arch column diagnostic",
+      "unit": "source_units",
+      "target_xy": [
+        580.0,
+        762.0
+      ],
+      "probe_player_z": 100.0,
+      "initial_pose": "setpos_exact 640.000000 1000.000000 120.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 580.000000 698.009766 100.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            580.0,
+            763.75,
+            1.02
+          ],
+          "xy_error": 1.75,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 81809"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 580.000000 696.259766 100.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            580.0,
+            762.0,
+            1.02
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 81809"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 580.000000 696.259766 100.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            580.0,
+            762.0,
+            1.02
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 81809"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 580.000000 825.990234 100.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            580.0,
+            764.58,
+            248.85
+          ],
+          "xy_error": 2.580000000000041,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "incomplete; collision hit at ray origin",
+      "failure": {
+        "feature": "ceiling",
+        "iteration": 2,
+        "observed_pose": "setpos_exact 580.000000 823.410278 100.000000;setang_exact -88.999901 90.000000 0.000000",
+        "hit": [
+          580.0,
+          759.42,
+          101.12
+        ],
+        "eye_origin": [
+          580.0,
+          759.4200274400445,
+          101.1170645792034
+        ],
+        "reason": "Origin inside collision; no surface endpoint accepted"
+      },
+      "id": "LONG_INNER_ARCH_X580_Y762_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/long_inner_arch_01/LONG_INNER_ARCH_X580_Y762_001.json",
+      "review": "Floor repeated tile1.02 at580/762, but north-oriented ceiling correction crossed leaf-boundaryY759.42 and hit ray origin. No ceiling/height accepted. Controller ended; explicit source camera640,1000,120p0/y-90 restored and independently read back. Rotated-offset retry separately tracked."
     }
   ]
 }

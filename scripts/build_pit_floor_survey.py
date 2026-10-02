@@ -34,6 +34,11 @@ def build(root):
   n,z=choices[0];checks.append(dict(id=ident,triangle=n,source_xyz=p[ident],predicted_z=z,residual_native=p[ident][2]-z,residual_cm=(p[ident][2]-z)*factor))
  maximum=max(abs(c['residual_native']) for c in checks)
  side_checks=[]
+ side_ids=[s['holdout_id'] for s in survey.get('raised_strip_sections',[])]
+ assert len(side_ids)==len(set(side_ids)) and set(side_ids)==set(survey.get('raised_strip_holdouts',[]))
+ assert not set(side_ids).intersection(survey['holdout_reports'])
+ side_fit_ids={s[k] for s in survey.get('raised_strip_sections',[]) for k in ['outer_id','inner_id']}
+ assert not set(side_ids).intersection(side_fit_ids|excluded)
  for section in survey.get('raised_strip_sections',[]):
   outer,inner,hold=[p[section[key]] for key in ['outer_id','inner_id','holdout_id']]
   assert section['holdout_id'] not in {section['outer_id'],section['inner_id']}
