@@ -11,7 +11,7 @@ old dirty checkout preserved in4c7df48, baseline merged inab4e484. See
 [evidence/CRASH_RECOVERY_20261001.md](../evidence/CRASH_RECOVERY_20261001.md).
 The latest repository commit pins this checkpoint; fetch/check main before resume.
 
-- 198 reviewed study JPEGs, eight historical coverage exclusions preserved.
+- 202 reviewed study JPEGs, eight historical coverage exclusions preserved.
  Original24 and recovered55 re-inspected; all additions inspected individually.
  IMAGE_REVIEW/IMAGE_AUDIT/CAPTURE_CRASH_RECOVERY own hashes and rejection reasons.
 - 16 critical-area required-view sets accepted in AREA_VIEW_REVIEW, including
@@ -24,7 +24,7 @@ The latest repository commit pins this checkpoint; fetch/check main before resum
  feature measurements. Short has12 independently counted rendered risers and
  repeated center face rays; center run359.6132cm, sampled rise234.3912cm.
  SHORT_STAIR_FLIGHT/ANNOTATED retain individual spacing and limits.
-- 22 surveyed paths accepted both directions in WALK_PROBES, including Mid,
+- 24 surveyed paths accepted both directions in WALK_PROBES, including Mid,
  CT Spawn/Under A, Tunnel Stairs, Lower Tunnels-to-Mid and T Spawn-to-Outside Long.
  Reduced speed80 and arrival tolerance recorded. Failed plans are preserved.
  S01 Xbox passes both directions; S02 Short-to-CT passes forward. S03 CT climb passes twice; S04 partner boost passes twice, reverse jump/drop once.
@@ -146,3 +146,9 @@ Telsen removed; bot_stop0/crouchFalse/dont_shootFalse, mp_limitteams2 and
 autoteambalanceTrue restored/read back. bot_quota1, modefill; private status
 confirmed zero active BOT rows. Local match restarted once to spawn partner;
 installed map/build and independent metric evidence unchanged.
+
+Return checkpoint: Pit/Side Pit and low Mid/T Spawn composite walking loops pass both directions; rejected near-wall Spawn-return001 retained, replacement002 passes. E11 forward grounded jump/drop repeats twice. Direct reverse E11/E27 parapet jumps remain unverified; indirect returns do not prove impossibility.
+No pose/input controller remains active. Current camera(640,-100,150,p0,y90), FOV90, overlays visible, noclip1; original temporary controls above still apply.
+Long outer facade repeated rays establish Y263.49 at four wall-face stations. Private front calibration003 fit markers and004 independent markers individually inspected, including both clean frames; accepted empirical projection now registered in LOCAL_CAMERA_CALIBRATIONS;003 fit max0.0043px,004 near holdouts0.4480px and005 wall-depth holdouts0.3712px. Four inspected JPEGs uploaded. Structural edge selection remains pending. Private ambiguous calibration002 preserved. Read local drafts before duplicating.
+
+Verification: image audit202 registered/eight exclusions/16 critical sets; overhead and local camera fit/independent checks pass.24-path calibrated overhead/radar diagrams rebuilt and inspected. Gate1 remains FAIL; Phase2 prohibited.

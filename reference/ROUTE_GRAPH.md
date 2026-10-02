@@ -21,7 +21,7 @@ Nodes describe area relationships; they are not polygon outlines or route length
 | E08 | Tunnel Stairs | Lower Tunnels | walk | both | lower floor | D008 |
 | E09 | Lower Tunnels | Mid | walk | both | arch survey | D009 |
 | E10 | Outside Long | Top Mid | walk | both | survey | D010 |
-| E11 | T Spawn | Suicide | observed jump/drop; reverse unverified | forward observed | drop | D011 |
+| E11 | T Spawn | Suicide | direct jump/drop; indirect walk loop both ways | forward twice; direct reverse unverified | drop | D011 |
 | E12 | Suicide | Top Mid | walk | both | survey | D012 |
 | E13 | Top Mid | Mid | walk | both | mid descends toward doors | D013 |
 | E14 | Top Mid | Catwalk | walk | both | survey | D014 |
@@ -37,7 +37,7 @@ Nodes describe area relationships; they are not polygon outlines or route length
 | E24 | Outside Long | Long Doors | walk | both | survey | D024 |
 | E25 | Long Doors | Long Corner | walk | both | two portals with intervening room | D025 |
 | E26 | Long Corner | Side Pit | walk | both | survey | D026 |
-| E27 | Side Pit | Pit | observed jump/drop; reverse unverified | forward observed | down into pit | D027 |
+| E27 | Side Pit | Pit | direct jump/drop; indirect walk loop both ways | forward twice; direct reverse unverified | down into pit | D027 |
 | E28 | Long Corner | Long A | walk | both | survey | D028 |
 | E29 | Long A | A Cross | walk | both | survey | D029 |
 | E30 | A Cross | A Ramp | walk | both | rises toward A | D030 |
@@ -87,7 +87,7 @@ used to assert the exact Top Mid/Suicide callout boundary.
 
 ## Current-build collision traversal evidence
 
-WALK_PROBES.json owns twenty-two accepted both-direction surveyed paths. Start
+WALK_PROBES.json owns twenty-four accepted both-direction surveyed paths. Start
 is the only teleport, collision stays on, speed80 and arrival20/25 are recorded
 per report. Ground-path acceptance is independent of complete width/height or
 default-speed timing. Failed plans remain preserved.
@@ -131,3 +131,5 @@ S02 independently proves Short-to-CT jump/drop; S04 partner boost remains unveri
 S04 elevator boost accepted twice with one stationary crouched practice partner;
 reverse parapet jump/drop accepted once. TRAVERSAL_PROBES owns stable head, cap
 and platform/ground landings. Added partner removed and original cvars verified.
+
+Return-loop review: PIT_SIDE_PIT_WALK_RETURN_BOTH traverses Pit ramp/Long Corner/north Side Pit steps. SUICIDE_TSPAWN_WALK_RETURN_BOTH traverses low Mid/Top Mid/Outside Long. Both pass each direction with collision enabled and no route teleports. These are composite paths, not direct reverse E11/E27 jumps; direct reverse classification remains unverified. Spawn forward jump/drop now repeats twice.

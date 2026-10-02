@@ -149,11 +149,18 @@ Blender Python, Unreal automation, validation scripts, manifest processors, and 
   must settle before a separate screenshot request: same-request capture can
   return the preceding overlay frame. Entity-overlay clears do not clear
   these primitives. All frames require independent visual/pixel review.
+  marker_plane selects XY/XZ/YZ cross axes for plan/frontal/side views; it
+  changes marker visibility only, not the known source anchor coordinates.
 - `build_map_camera.py` rebuilds the projective camera from eight inspected
   3D-to-pixel anchors using standard-library least squares; sixteen withheld
   anchors must remain below one pixel. Hash checks and fixed-Z inverse checks
   precede annotated context generation. Never infer hidden wall boundaries or
   promote that context to a completed architectural truth map.
+- `build_local_camera.py` fits centered native coordinates using only each
+  camera's fit group, checks all image hashes and independent holdouts below
+  one pixel, and verifies fixed-Y inverse round trips. Run the script to rebuild
+  LOCAL_CAMERA_CALIBRATIONS. Surface depth and architectural edge identity need
+  separate evidence; never use the pixel bound as their uncertainty bound.
 
 Prefer small composable tools with clear command usage and dry-run/validation modes where practical.
 

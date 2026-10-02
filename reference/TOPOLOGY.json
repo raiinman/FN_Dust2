@@ -161,12 +161,13 @@
       "id": "E11",
       "from": "T Spawn",
       "to": "Suicide",
-      "mode": "jump/drop; reverse unverified",
-      "direction": "forward",
+      "mode": "direct forward jump/drop",
+      "direction": "forward observed twice; direct reverse unverified",
       "elevation": "drop",
       "measurement": "D011",
       "traversal_evidence": "TRAVERSAL_PROBES.json/TSPAWN_SUICIDE_JUMP_DROP",
-      "validation": "Observed grounded approach/jump/drop into low corridor with stable landing; direct ground approach stopped at parapet. Repeat/reverse bounds pending."
+      "validation": "Two forward grounded jump/drop observations and stable landing. Indirect composite walking return verified both ways; no claim of direct reverse impossibility. Full architectural bounds pending.",
+      "indirect_walking_return": "WALK_PROBES.json/SUICIDE_TSPAWN_WALK_RETURN_BOTH"
     },
     {
       "id": "E12",
@@ -352,12 +353,13 @@
       "id": "E27",
       "from": "Side Pit",
       "to": "Pit",
-      "mode": "direct jump/drop; reverse classification pending",
-      "direction": "forward observed; reverse unverified",
+      "mode": "direct forward jump/drop",
+      "direction": "forward observed twice; direct reverse unverified",
       "elevation": "down into pit",
       "measurement": "D027",
       "traversal_evidence": "TRAVERSAL_PROBES.json/SIDE_PIT_TO_PIT_JUMP_DROP",
-      "validation": "Two collision-enabled forward approach/jump/drop observations with stable Pit landing. Direct ground attempt and one reverse jump blocked; physical impossibility of reverse not yet accepted."
+      "validation": "Two forward grounded jump/drop observations and stable landing. Indirect composite walking return verified both ways; no claim of direct reverse impossibility. Full architectural bounds pending.",
+      "indirect_walking_return": "WALK_PROBES.json/PIT_SIDE_PIT_WALK_RETURN_BOTH"
     },
     {
       "id": "E28",

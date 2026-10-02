@@ -3776,6 +3776,239 @@
           "notes": "Same-XY repeated endpoint pair. Header versus curved leaf component unresolved; no full-width/structural height acceptance."
         }
       ]
+    },
+    {
+      "id": "LONG_OUTER_FACADE_PLANE_001",
+      "source_build": "25640462",
+      "area": "Long Doors outer facade",
+      "source_map": "de_dust2",
+      "timestamp_utc": "2026-10-02T02:04:04.255893+00:00",
+      "unit": "source_units",
+      "config": {
+        "id": "LONG_OUTER_FACADE_PLANE_001",
+        "build": "25640462",
+        "area": "Long Doors outer facade",
+        "stations": [
+          {
+            "id": "WEST_JAMB_FACE",
+            "pose": [
+              500,
+              100,
+              100
+            ],
+            "yaws": [
+              90
+            ]
+          },
+          {
+            "id": "EAST_JAMB_FACE",
+            "pose": [
+              780,
+              100,
+              100
+            ],
+            "yaws": [
+              90
+            ]
+          },
+          {
+            "id": "WEST_HIGH_FACE",
+            "pose": [
+              500,
+              100,
+              220
+            ],
+            "yaws": [
+              90
+            ]
+          },
+          {
+            "id": "EAST_HIGH_FACE",
+            "pose": [
+              780,
+              100,
+              220
+            ],
+            "yaws": [
+              90
+            ]
+          }
+        ]
+      },
+      "observations": [
+        {
+          "station_id": "WEST_JAMB_FACE",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact 500.000000 100.000000 100.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            500,
+            100,
+            164
+          ],
+          "hit": [
+            500.0,
+            263.49,
+            164.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 163.49 inches ( 13.62 feet)"
+        },
+        {
+          "station_id": "WEST_JAMB_FACE",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact 500.000000 100.000000 100.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            500,
+            100,
+            164
+          ],
+          "hit": [
+            500.0,
+            263.49,
+            164.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 163.49 inches ( 13.62 feet)"
+        },
+        {
+          "station_id": "EAST_JAMB_FACE",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact 780.000000 100.000000 100.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            780,
+            100,
+            164
+          ],
+          "hit": [
+            780.0,
+            263.49,
+            164.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 163.49 inches ( 13.62 feet)"
+        },
+        {
+          "station_id": "EAST_JAMB_FACE",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact 780.000000 100.000000 100.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            780,
+            100,
+            164
+          ],
+          "hit": [
+            780.0,
+            263.49,
+            164.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 163.49 inches ( 13.62 feet)"
+        },
+        {
+          "station_id": "WEST_HIGH_FACE",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact 500.000000 100.000000 220.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            500,
+            100,
+            284
+          ],
+          "hit": [
+            500.0,
+            263.49,
+            284.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 163.49 inches ( 13.62 feet)"
+        },
+        {
+          "station_id": "WEST_HIGH_FACE",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact 500.000000 100.000000 220.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            500,
+            100,
+            284
+          ],
+          "hit": [
+            500.0,
+            263.49,
+            284.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 163.49 inches ( 13.62 feet)"
+        },
+        {
+          "station_id": "EAST_HIGH_FACE",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact 780.000000 100.000000 220.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            780,
+            100,
+            284
+          ],
+          "hit": [
+            780.0,
+            263.49,
+            284.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 163.49 inches ( 13.62 feet)"
+        },
+        {
+          "station_id": "EAST_HIGH_FACE",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact 780.000000 100.000000 220.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            780,
+            100,
+            284
+          ],
+          "hit": [
+            780.0,
+            263.49,
+            284.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 163.49 inches ( 13.62 feet)"
+        }
+      ],
+      "status": "complete; architectural interpretation pending",
+      "original_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review": "Four repeated facade-face rays establish collision planeY263.49 at x500/780 and rayZ164/284. Sample stations are outside aperture; not jamb endpoints, minimum leaf clearance, or render-plane offset."
     }
   ]
 }

@@ -81,6 +81,10 @@ self-captured CS2 study screenshots for the internal benchmark.
   `MAP_CAMERA_PLAN.svg` projects floor points and accepted player paths into
   that frame. Surface Z must be known for inversion; hidden roofs/interiors and
   wall-boundary selection are outside the pixel localization allowance.
+- `LOCAL_CAMERA_CALIBRATIONS.json` owns locked local native camera fits and
+  independently inspected withheld marker pixels. Its fixed-Y inverse requires
+  an independently established surface plane. Pixel localization bounds do not
+  validate selected architectural edges or render/collision plane agreement.
 
 - `IMAGE_REVIEW.json` owns explicit visual exclusions; `IMAGE_AUDIT.json` independently checks all registered JPEG hashes. Excluded frames remain preserved and never count toward coverage.
 - `CAPTURE_CRASH_RECOVERY.json` preserves the new CT exit view and a stale-frame rejection. Inspect rendered area against pose after foreground changes.

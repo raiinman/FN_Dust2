@@ -1,0 +1,852 @@
+{
+  "source_build": "25640462",
+  "source_map": "de_dust2",
+  "pixel_convention": "Integer pixel centers, origin top-left; x right and y down.",
+  "cameras": [
+    {
+      "id": "LONG_OUTER_FRONT_001",
+      "camera_pose": [
+        640,
+        -100,
+        150,
+        0,
+        90
+      ],
+      "image_size": [
+        1280,
+        720
+      ],
+      "status": "accepted empirical local projection; architectural endpoint selection pending",
+      "method": "Eight independently authored 3D crosses fit camera; sixteen withheld crosses at four further depths validate. Native marked-minus-clean alpha-neutral/red axis intersections measured and all crops visually inspected. Camera-eye/FOV hypothesis locates search ROIs only, never supplies accepted pixels.",
+      "captures": [
+        {
+          "id": "QA_LONG_OUTER_CAMERA_003_MARKED",
+          "timestamp_utc": "2026-10-02T02:09:03.643104+00:00",
+          "engine_capture_basename": "d2_ee21913bc3",
+          "pose_command": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+          "pose_unit": "source_units",
+          "width": 1280,
+          "height": 720,
+          "requested_pose": [
+            640,
+            -100,
+            150,
+            0,
+            90
+          ],
+          "source_build": "25640462",
+          "source_map": "de_dust2",
+          "tga_sha256": "ba3b802cb780643e58446764e229904c8bf006e76d48977da087d41d779b2326",
+          "png_sha256": "49d4941145c568f1a1c3e2bdb919ffd94c12668b8d89905fc41db18ba29d21fa",
+          "anchors": [
+            {
+              "id": "FRONT_CAMERA_1",
+              "point": [
+                580,
+                0,
+                180
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FRONT_CAMERA_2",
+              "point": [
+                700,
+                0,
+                180
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FRONT_CAMERA_3",
+              "point": [
+                580,
+                0,
+                240
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FRONT_CAMERA_4",
+              "point": [
+                700,
+                0,
+                240
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FRONT_CAMERA_5",
+              "point": [
+                560,
+                100,
+                130
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FRONT_CAMERA_6",
+              "point": [
+                720,
+                100,
+                130
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FRONT_CAMERA_7",
+              "point": [
+                560,
+                100,
+                300
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FRONT_CAMERA_8",
+              "point": [
+                720,
+                100,
+                300
+              ],
+              "half_size": 10
+            }
+          ],
+          "status": "visually inspected; usable stated-direction reference",
+          "marker_plane": "XZ",
+          "area": "Long Doors outer facade",
+          "review": "Full outer facade and both jambs visible; authored cross intersections individually inspected against clean companion frame. Palm obscures part of right decorative surround; leaf positions occlude inner floor clearance. Camera calibration only.",
+          "repository_image_path": "reference/images/long_doors/QA_LONG_OUTER_CAMERA_003_MARKED.jpg",
+          "jpeg_sha256": "0ecdf63551d835a4beb298dff2b1174b7f79d48bd9fdb06315e570357a922372",
+          "fov_cs_debug_parameter": 90,
+          "aspect_ratio": "16:9"
+        },
+        {
+          "id": "QA_LONG_OUTER_CAMERA_003_CLEAN",
+          "timestamp_utc": "2026-10-02T02:09:10.016009+00:00",
+          "engine_capture_basename": "d2_7c29406303",
+          "pose_command": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+          "pose_unit": "source_units",
+          "width": 1280,
+          "height": 720,
+          "requested_pose": [
+            640,
+            -100,
+            150,
+            0,
+            90
+          ],
+          "source_build": "25640462",
+          "source_map": "de_dust2",
+          "tga_sha256": "acea2ebac7de566f145b639bdd49893b0f8301e42e84e69ecf09ac5fc5497ca0",
+          "png_sha256": "a8d6adb661e485c2e00d8caa71a1f4c1b87b4695fe0af37d9e8fea084a924eb3",
+          "anchors": [],
+          "status": "visually inspected; usable stated-direction reference",
+          "marker_plane": "XZ",
+          "area": "Long Doors outer facade",
+          "review": "Clean frontal outer jamb/arch/transom context, individually inspected. Palm obscures right upper decorative border; angled leaves occlude inner floor and minimum passable aperture.",
+          "repository_image_path": "reference/images/long_doors/QA_LONG_OUTER_CAMERA_003_CLEAN.jpg",
+          "jpeg_sha256": "6c2af5dacd8cb7ba162d996fb6cc8e7825f0f04863f6d8effd27beca6996e207",
+          "fov_cs_debug_parameter": 90,
+          "aspect_ratio": "16:9"
+        },
+        {
+          "id": "QA_LONG_OUTER_CAMERA_004_MARKED",
+          "timestamp_utc": "2026-10-02T02:13:08.918526+00:00",
+          "engine_capture_basename": "d2_e3fa03d07b",
+          "pose_command": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+          "pose_unit": "source_units",
+          "width": 1280,
+          "height": 720,
+          "requested_pose": [
+            640,
+            -100,
+            150,
+            0,
+            90
+          ],
+          "source_build": "25640462",
+          "source_map": "de_dust2",
+          "tga_sha256": "223fbe4853cf6dae5c6e057a3b28a68ad8c079f2640c034f9eabe6583cbc093f",
+          "png_sha256": "f366d7c61feba2deba73014694719cb99f73c84aca2cc09f8ed6053e699fc26f",
+          "anchors": [
+            {
+              "id": "FRONT_HOLDOUT_1",
+              "point": [
+                620,
+                50,
+                150
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FRONT_HOLDOUT_2",
+              "point": [
+                660,
+                50,
+                150
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FRONT_HOLDOUT_3",
+              "point": [
+                620,
+                50,
+                260
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FRONT_HOLDOUT_4",
+              "point": [
+                660,
+                50,
+                260
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FRONT_HOLDOUT_5",
+              "point": [
+                600,
+                150,
+                160
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FRONT_HOLDOUT_6",
+              "point": [
+                680,
+                150,
+                160
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FRONT_HOLDOUT_7",
+              "point": [
+                600,
+                150,
+                310
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FRONT_HOLDOUT_8",
+              "point": [
+                680,
+                150,
+                310
+              ],
+              "half_size": 10
+            }
+          ],
+          "status": "visually inspected; usable stated-direction reference",
+          "marker_plane": "XZ",
+          "area": "Long Doors outer facade",
+          "review": "Full outer facade and both jambs visible; authored cross intersections individually inspected against clean companion frame. Palm obscures part of right decorative surround; leaf positions occlude inner floor clearance. Camera calibration only.",
+          "repository_image_path": "reference/images/long_doors/QA_LONG_OUTER_CAMERA_004_MARKED.jpg",
+          "jpeg_sha256": "b6f928dd13102315b8b3d81a8c98c059e02a7cf079fdb882420daf1bc45f108e",
+          "fov_cs_debug_parameter": 90,
+          "aspect_ratio": "16:9"
+        },
+        {
+          "id": "QA_LONG_OUTER_CAMERA_005_MARKED",
+          "timestamp_utc": "2026-10-02T02:22:48.352304+00:00",
+          "engine_capture_basename": "d2_c4bc7c53bf",
+          "pose_command": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+          "pose_unit": "source_units",
+          "width": 1280,
+          "height": 720,
+          "requested_pose": [
+            640,
+            -100,
+            150,
+            0,
+            90
+          ],
+          "source_build": "25640462",
+          "source_map": "de_dust2",
+          "tga_sha256": "d68314968db73da6f0bd876d610f88e3ce827059db5fa08fb91d7cc0ac7cd7f6",
+          "png_sha256": "e35f0ff833fc44023aae033f41f3d1bdf1375c140bbf0163d8f60cc9bc7005e5",
+          "anchors": [
+            {
+              "id": "FACE_HOLDOUT_1",
+              "point": [
+                600,
+                220,
+                20
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FACE_HOLDOUT_2",
+              "point": [
+                680,
+                220,
+                20
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FACE_HOLDOUT_3",
+              "point": [
+                600,
+                220,
+                270
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FACE_HOLDOUT_4",
+              "point": [
+                680,
+                220,
+                270
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FACE_HOLDOUT_5",
+              "point": [
+                580,
+                260,
+                100
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FACE_HOLDOUT_6",
+              "point": [
+                700,
+                260,
+                100
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FACE_HOLDOUT_7",
+              "point": [
+                580,
+                260,
+                320
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FACE_HOLDOUT_8",
+              "point": [
+                700,
+                260,
+                320
+              ],
+              "half_size": 10
+            }
+          ],
+          "status": "visually inspected; usable stated-direction reference",
+          "marker_plane": "XZ",
+          "area": "Long Doors outer facade",
+          "review": "Full outer facade and both jambs visible; authored cross intersections individually inspected against clean companion frame. Palm obscures part of right decorative surround; leaf positions occlude inner floor clearance. Camera calibration only.",
+          "repository_image_path": "reference/images/long_doors/QA_LONG_OUTER_CAMERA_005_MARKED.jpg",
+          "jpeg_sha256": "09025901e47f51283c478dceb0d0f4f788a04a85d67a7d1908b57a5f534afb42",
+          "fov_cs_debug_parameter": 90,
+          "aspect_ratio": "16:9"
+        }
+      ],
+      "groups": [
+        {
+          "role": "fit",
+          "capture_id": "QA_LONG_OUTER_CAMERA_003_MARKED",
+          "anchors": [
+            {
+              "id": "FRONT_CAMERA_1",
+              "world": [
+                580,
+                0,
+                180
+              ],
+              "pixel": [
+                351.5076923076923,
+                522.5
+              ],
+              "projected_pixel": [
+                351.5036173493945,
+                522.4987318433273
+              ],
+              "residual_px": 0.004267728491283997
+            },
+            {
+              "id": "FRONT_CAMERA_2",
+              "world": [
+                700,
+                0,
+                180
+              ],
+              "pixel": [
+                927.5,
+                522.5
+              ],
+              "projected_pixel": [
+                927.4972347211196,
+                522.498731843063
+              ],
+              "residual_px": 0.0030422013909573043
+            },
+            {
+              "id": "FRONT_CAMERA_3",
+              "world": [
+                580,
+                0,
+                240
+              ],
+              "pixel": [
+                351.5,
+                234.5
+              ],
+              "projected_pixel": [
+                351.50280672889915,
+                234.50126815651345
+              ],
+              "residual_px": 0.0030799266315766067
+            },
+            {
+              "id": "FRONT_CAMERA_4",
+              "world": [
+                700,
+                0,
+                240
+              ],
+              "pixel": [
+                927.4923076923077,
+                234.5
+              ],
+              "projected_pixel": [
+                927.4963411996033,
+                234.50126815673158
+              ],
+              "residual_px": 0.0042281677591665115
+            },
+            {
+              "id": "FRONT_CAMERA_5",
+              "world": [
+                560,
+                100,
+                130
+              ],
+              "pixel": [
+                447.5,
+                561.0
+              ],
+              "projected_pixel": [
+                447.5008217773761,
+                561.0002237947124
+              ],
+              "residual_px": 0.0008517054239107709
+            },
+            {
+              "id": "FRONT_CAMERA_6",
+              "world": [
+                720,
+                100,
+                130
+              ],
+              "pixel": [
+                831.5,
+                561.0
+              ],
+              "projected_pixel": [
+                831.5003853353064,
+                561.0002237944932
+              ],
+              "residual_px": 0.0004456088795761947
+            },
+            {
+              "id": "FRONT_CAMERA_7",
+              "world": [
+                560,
+                100,
+                300
+              ],
+              "pixel": [
+                447.5,
+                153.0
+              ],
+              "projected_pixel": [
+                447.4996538132974,
+                152.99977620532454
+              ],
+              "residual_px": 0.00041222480494658973
+            },
+            {
+              "id": "FRONT_CAMERA_8",
+              "world": [
+                720,
+                100,
+                300
+              ],
+              "pixel": [
+                831.5,
+                153.0
+              ],
+              "projected_pixel": [
+                831.4991390742666,
+                152.999776205561
+              ],
+              "residual_px": 0.0008895375592499201
+            }
+          ],
+          "maximum_residual_px": 0.004267728491283997
+        },
+        {
+          "role": "independent near holdout",
+          "capture_id": "QA_LONG_OUTER_CAMERA_004_MARKED",
+          "anchors": [
+            {
+              "id": "FRONT_HOLDOUT_1",
+              "world": [
+                620,
+                50,
+                150
+              ],
+              "pixel": [
+                575.5,
+                564.5
+              ],
+              "projected_pixel": [
+                575.5008760968622,
+                564.1662758635011
+              ],
+              "residual_px": 0.33372528646720895
+            },
+            {
+              "id": "FRONT_HOLDOUT_2",
+              "world": [
+                660,
+                50,
+                150
+              ],
+              "pixel": [
+                703.5,
+                564.5
+              ],
+              "projected_pixel": [
+                703.500307343126,
+                564.1662758634269
+              ],
+              "residual_px": 0.33372427809683786
+            },
+            {
+              "id": "FRONT_HOLDOUT_3",
+              "world": [
+                620,
+                50,
+                260
+              ],
+              "pixel": [
+                575.5,
+                212.5
+              ],
+              "projected_pixel": [
+                575.4998459281481,
+                212.16704330332948
+              ],
+              "residual_px": 0.3329567323180014
+            },
+            {
+              "id": "FRONT_HOLDOUT_4",
+              "world": [
+                660,
+                50,
+                260
+              ],
+              "pixel": [
+                703.5,
+                212.5
+              ],
+              "projected_pixel": [
+                703.4992546577871,
+                212.1670433033862
+              ],
+              "residual_px": 0.3329575308578902
+            },
+            {
+              "id": "FRONT_HOLDOUT_5",
+              "world": [
+                600,
+                150,
+                160
+              ],
+              "pixel": [
+                562.5,
+                463.5
+              ],
+              "projected_pixel": [
+                562.7002652251308,
+                463.10027183560396
+              ],
+              "residual_px": 0.44708921459605616
+            },
+            {
+              "id": "FRONT_HOLDOUT_6",
+              "world": [
+                680,
+                150,
+                160
+              ],
+              "pixel": [
+                716.5,
+                463.5
+              ],
+              "projected_pixel": [
+                716.3003880373523,
+                463.10027183556
+              ],
+              "residual_px": 0.44679697971073534
+            },
+            {
+              "id": "FRONT_HOLDOUT_7",
+              "world": [
+                600,
+                150,
+                310
+              ],
+              "pixel": [
+                562.5,
+                175.5
+              ],
+              "projected_pixel": [
+                562.699424197748,
+                175.09939510376725
+              ],
+              "residual_px": 0.4474978139981281
+            },
+            {
+              "id": "FRONT_HOLDOUT_8",
+              "world": [
+                680,
+                150,
+                310
+              ],
+              "pixel": [
+                716.5,
+                175.5
+              ],
+              "projected_pixel": [
+                716.2995249025054,
+                175.09939510385195
+              ],
+              "residual_px": 0.447967127737376
+            }
+          ],
+          "maximum_residual_px": 0.447967127737376
+        },
+        {
+          "role": "independent wall-depth holdout",
+          "capture_id": "QA_LONG_OUTER_CAMERA_005_MARKED",
+          "anchors": [
+            {
+              "id": "FACE_HOLDOUT_1",
+              "world": [
+                600,
+                220,
+                20
+              ],
+              "pixel": [
+                579.5,
+                650.5
+              ],
+              "projected_pixel": [
+                579.5007342177579,
+                650.438861310996
+              ],
+              "residual_px": 0.06114309747504971
+            },
+            {
+              "id": "FACE_HOLDOUT_2",
+              "world": [
+                680,
+                220,
+                20
+              ],
+              "pixel": [
+                699.5,
+                650.5
+              ],
+              "projected_pixel": [
+                699.501049830801,
+                650.4388613108963
+              ],
+              "residual_px": 0.06114770191944725
+            },
+            {
+              "id": "FACE_HOLDOUT_3",
+              "world": [
+                600,
+                220,
+                270
+              ],
+              "pixel": [
+                579.5,
+                275.5
+              ],
+              "projected_pixel": [
+                579.4996359795294,
+                275.4370144713028
+              ],
+              "residual_px": 0.06298658060387517
+            },
+            {
+              "id": "FACE_HOLDOUT_4",
+              "world": [
+                680,
+                220,
+                270
+              ],
+              "pixel": [
+                699.5,
+                275.5
+              ],
+              "projected_pixel": [
+                699.4999291036157,
+                275.437014471334
+              ],
+              "residual_px": 0.06298556856639145
+            },
+            {
+              "id": "FACE_HOLDOUT_5",
+              "world": [
+                580,
+                260,
+                100
+              ],
+              "pixel": [
+                559.5,
+                511.5
+              ],
+              "projected_pixel": [
+                559.5002252218583,
+                511.44519739673274
+              ],
+              "residual_px": 0.05480306606162105
+            },
+            {
+              "id": "FACE_HOLDOUT_6",
+              "world": [
+                700,
+                260,
+                100
+              ],
+              "pixel": [
+                719.5,
+                511.5
+              ],
+              "projected_pixel": [
+                719.5007452066241,
+                511.44519739666447
+              ],
+              "residual_px": 0.05480766976677747
+            },
+            {
+              "id": "FACE_HOLDOUT_7",
+              "world": [
+                580,
+                260,
+                320
+              ],
+              "pixel": [
+                559.5,
+                218.4814814814815
+              ],
+              "projected_pixel": [
+                559.4993690869059,
+                218.11024602084626
+              ],
+              "residual_px": 0.371235996751913
+            },
+            {
+              "id": "FACE_HOLDOUT_8",
+              "world": [
+                700,
+                260,
+                320
+              ],
+              "pixel": [
+                719.5,
+                218.4814814814815
+              ],
+              "projected_pixel": [
+                719.4998656164923,
+                218.11024602091447
+              ],
+              "residual_px": 0.37123548488976055
+            }
+          ],
+          "maximum_residual_px": 0.371235996751913
+        }
+      ],
+      "bound_planes_source_y": [
+        0,
+        50,
+        100,
+        150,
+        220,
+        260,
+        263.49
+      ],
+      "limits": "Only stated locked native pose and FOV90. Independent anchors sourceY50..260 andZ20..320; facade263.49 is3.49 units beyond tested depth and floor0 below tested elevation. Pixel allowance is localization only; wall plane identity/render-vs-collision offset and edge selection remain separate. Angled leaves and hidden depths require native endpoint corroboration.",
+      "projection_matrix": [
+        [
+          3.1999854613241063,
+          4.263277397292451,
+          -8.444830223467503e-06,
+          -1621.6527705855683
+        ],
+        [
+          3.3944850513639744e-12,
+          2.3966336673396103,
+          -3.1999923641371284,
+          924.3333907264845
+        ],
+        [
+          9.306600601409854e-15,
+          0.006666578458037333,
+          1.5991993341511018e-09,
+          0.6666707372623186
+        ]
+      ],
+      "fit_algorithm": "Centered world linear least squares; denominator at fit centroid fixed to1. Independent groups excluded from fitting.",
+      "sampled_pixel_localization_bounds": [
+        {
+          "source_y": 0,
+          "maximum_axis_1_5_pixel_displacement_cm": 0.7937590621722416
+        },
+        {
+          "source_y": 50,
+          "maximum_axis_1_5_pixel_displacement_cm": 1.1906306141237655
+        },
+        {
+          "source_y": 100,
+          "maximum_axis_1_5_pixel_displacement_cm": 1.5875021660755784
+        },
+        {
+          "source_y": 150,
+          "maximum_axis_1_5_pixel_displacement_cm": 1.984373718027391
+        },
+        {
+          "source_y": 220,
+          "maximum_axis_1_5_pixel_displacement_cm": 2.5399938907593516
+        },
+        {
+          "source_y": 260,
+          "maximum_axis_1_5_pixel_displacement_cm": 2.857491132320802
+        },
+        {
+          "source_y": 263.49,
+          "maximum_axis_1_5_pixel_displacement_cm": 2.8851927666469535
+        }
+      ]
+    }
+  ]
+}
