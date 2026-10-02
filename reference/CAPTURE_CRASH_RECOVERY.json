@@ -5030,6 +5030,144 @@
       "jpeg_sha256": "647d1b0259e3718e410cf46e58b88c8fe497bb8cd359c2cee19e7570de77907c",
       "fov_cs_debug_parameter": 90,
       "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_B_DOOR_CAMERA_HOLD_001_MARKED",
+      "timestamp_utc": "2026-10-02T12:10:00.814333+00:00",
+      "engine_capture_basename": "d2_0e6b73a248",
+      "pose_command": "setpos_exact -1000.000000 2225.000000 -30.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -1000,
+        2225,
+        -30,
+        0,
+        180
+      ],
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "tga_sha256": "ab9162da69494c10c5901d8b5a1d266cb00c802f0daf5ea7e92dd1621ec92554",
+      "png_sha256": "4c3b44365c27ec18fb250dd4611bf16d32d5b40eeeba2e9fac8aa9ebd4772528",
+      "anchors": [
+        {
+          "id": "B_DOOR_HOLD_X1180_Y2130_Z50",
+          "point": [
+            -1180,
+            2130,
+            50
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "B_DOOR_HOLD_X1180_Y2130_Z130",
+          "point": [
+            -1180,
+            2130,
+            130
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "B_DOOR_HOLD_X1180_Y2310_Z50",
+          "point": [
+            -1180,
+            2310,
+            50
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "B_DOOR_HOLD_X1180_Y2310_Z130",
+          "point": [
+            -1180,
+            2310,
+            130
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "B_DOOR_HOLD_X1240_Y2150_Z50",
+          "point": [
+            -1240,
+            2150,
+            50
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "B_DOOR_HOLD_X1240_Y2150_Z140",
+          "point": [
+            -1240,
+            2150,
+            140
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "B_DOOR_HOLD_X1240_Y2290_Z50",
+          "point": [
+            -1240,
+            2290,
+            50
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "B_DOOR_HOLD_X1240_Y2290_Z140",
+          "point": [
+            -1240,
+            2290,
+            140
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "B_DOOR_HOLD_X1296_Y2110_Z45",
+          "point": [
+            -1296,
+            2110,
+            45
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "B_DOOR_HOLD_X1296_Y2110_Z120",
+          "point": [
+            -1296,
+            2110,
+            120
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "B_DOOR_HOLD_X1296_Y2330_Z45",
+          "point": [
+            -1296,
+            2330,
+            45
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "B_DOOR_HOLD_X1296_Y2330_Z120",
+          "point": [
+            -1296,
+            2330,
+            120
+          ],
+          "half_size": 10
+        }
+      ],
+      "status": "visually inspected; usable stated-direction reference",
+      "marker_plane": "YZ",
+      "area": "B Doors",
+      "review": "Native marked/clean PNG, ten individual native cross crops and JPEG inspected. Six original timber/context markers fit four constrained native-camera intrinsics; ten visible three-depth withheld crosses pass independently. Two absent marks excluded; no image or marker certifies leaf/body/jamb identity.",
+      "repository_image_path": "reference/images/b_doors/QA_B_DOOR_CAMERA_HOLD_001_MARKED.jpg",
+      "jpeg_sha256": "95c7710d0247bf720a4eecb4b21d039d897f6abd1cae9aa596f858dcf7d55c83",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
     }
   ],
   "rejected_attempts": [
@@ -6117,6 +6255,30 @@
       "status": "captured; requires native image and projection review",
       "marker_plane": "YZ",
       "reason": "Duplicate clean reference direction preserved privately; paired subtraction/context only, not extra image coverage."
+    },
+    {
+      "id": "QA_B_DOOR_CAMERA_HOLD_001_CLEAN",
+      "timestamp_utc": "2026-10-02T12:10:07.333437+00:00",
+      "engine_capture_basename": "d2_3a4ed9310c",
+      "pose_command": "setpos_exact -1000.000000 2225.000000 -30.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -1000,
+        2225,
+        -30,
+        0,
+        180
+      ],
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "tga_sha256": "4afc7842d7e51470865408db52d4a342607bac6cb6fc4eb3437772bd6e14ee44",
+      "png_sha256": "26a5b7f5bce8272999d79d1994b2abc422b287fdbeaa2923597f2c530694d6bf",
+      "anchors": [],
+      "status": "captured; requires native image and projection review",
+      "marker_plane": "YZ",
+      "reason": "Exact duplicate clean camera companion preserved privately; pixel subtraction only, not extra direction coverage."
     }
   ],
   "gate_1": "FAIL",

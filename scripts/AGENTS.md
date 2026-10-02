@@ -322,3 +322,9 @@ clean-image corner boxes. Its CSV/JSON/SVG and physical-register rows contain
 derived intervals including actual-pose/plane rounding; no hidden/full-height
 wall body, floor perimeter or polygon closure is granted. Render and inspect
 the annotation before checkpointing; preserve original plane-only diagnostics.
+cs2_probe_parallel_transition.py varies the tangent coordinate of repeated
+parallel wall-normal rays from declared safe opposing origins. Preflight every
+on-masonry/off-timber bracket; preserve partial output and verify exact source
+restore. A first material interface may be occlusion, never automatic structural
+opening, minimum leaf clearance or shared solid-wall extent. Native rangefinder,
+own-origin, expected component and observed-pose checks precede interpretation.

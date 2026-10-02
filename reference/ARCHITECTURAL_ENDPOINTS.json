@@ -37081,6 +37081,446 @@
       "surface_semantics": "first downward masonry/coping/crown collision above timber region; helper floor label is direction only",
       "accepted_columns": [],
       "review": "Two exact repeated first-concrete upper hits from above frame. Y2190/2250 Mesh atZ232; Y2225.02 Hull atZ270.24. These are not timber caps; no header thickness from top-minus-first-Wood subtraction. Original camera restored exactly."
+    },
+    {
+      "id": "B_JAMB_NORMAL_PREFLIGHT_001",
+      "source_build": "25640462",
+      "area": "B Doors fixed masonry opening material preflight",
+      "source_map": "de_dust2",
+      "timestamp_utc": "2026-10-02T12:12:51.460456+00:00",
+      "unit": "source_units",
+      "config": {
+        "id": "B_JAMB_NORMAL_PREFLIGHT_001",
+        "area": "B Doors fixed masonry opening material preflight",
+        "build": "25640462",
+        "stations": [
+          {
+            "id": "B_JAMB_B_INSIDE_Y2050_Z80_001",
+            "pose": [
+              -1550,
+              2050,
+              16
+            ],
+            "yaws": [
+              0
+            ]
+          },
+          {
+            "id": "B_JAMB_CT_OUTSIDE_Y2050_Z80_001",
+            "pose": [
+              -1000,
+              2050,
+              16
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "B_JAMB_B_INSIDE_Y2150_Z80_001",
+            "pose": [
+              -1550,
+              2150,
+              16
+            ],
+            "yaws": [
+              0
+            ]
+          },
+          {
+            "id": "B_JAMB_CT_OUTSIDE_Y2150_Z80_001",
+            "pose": [
+              -1000,
+              2150,
+              16
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "B_JAMB_B_INSIDE_Y2300_Z80_001",
+            "pose": [
+              -1550,
+              2300,
+              16
+            ],
+            "yaws": [
+              0
+            ]
+          },
+          {
+            "id": "B_JAMB_CT_OUTSIDE_Y2300_Z80_001",
+            "pose": [
+              -1000,
+              2300,
+              16
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "B_JAMB_B_INSIDE_Y2400_Z80_001",
+            "pose": [
+              -1550,
+              2400,
+              16
+            ],
+            "yaws": [
+              0
+            ]
+          },
+          {
+            "id": "B_JAMB_CT_OUTSIDE_Y2400_Z80_001",
+            "pose": [
+              -1000,
+              2400,
+              16
+            ],
+            "yaws": [
+              180
+            ]
+          }
+        ],
+        "scope": "Opposite outside-origin wall-normal first-hit samples around gate. Confirm actual masonry/leaf/frame/cross-area identity before a separately named moving-parallel-ray boundary survey. Never infer full opening or wall depth from mixed materials."
+      },
+      "observations": [
+        {
+          "station_id": "B_JAMB_B_INSIDE_Y2050_Z80_001",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1550.000000 2050.000000 16.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1550,
+            2050,
+            80
+          ],
+          "hit": [
+            -1376.0,
+            2050.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 106220"
+          ],
+          "rangefinder_reply": "DISTANCE: 174.00 inches ( 14.50 feet)"
+        },
+        {
+          "station_id": "B_JAMB_B_INSIDE_Y2050_Z80_001",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1550.000000 2050.000000 16.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1550,
+            2050,
+            80
+          ],
+          "hit": [
+            -1376.0,
+            2050.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 106220"
+          ],
+          "rangefinder_reply": "DISTANCE: 174.00 inches ( 14.50 feet)"
+        },
+        {
+          "station_id": "B_JAMB_CT_OUTSIDE_Y2050_Z80_001",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1000.000000 2050.000000 16.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1000,
+            2050,
+            80
+          ],
+          "hit": [
+            -1232.0,
+            2050.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 106773"
+          ],
+          "rangefinder_reply": "DISTANCE: 232.00 inches ( 19.33 feet)"
+        },
+        {
+          "station_id": "B_JAMB_CT_OUTSIDE_Y2050_Z80_001",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1000.000000 2050.000000 16.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1000,
+            2050,
+            80
+          ],
+          "hit": [
+            -1232.0,
+            2050.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 106773"
+          ],
+          "rangefinder_reply": "DISTANCE: 232.00 inches ( 19.33 feet)"
+        },
+        {
+          "station_id": "B_JAMB_B_INSIDE_Y2150_Z80_001",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1550.000000 2150.000000 16.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1550,
+            2150,
+            80
+          ],
+          "hit": [
+            -1306.12,
+            2150.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 243.88 inches ( 20.32 feet)"
+        },
+        {
+          "station_id": "B_JAMB_B_INSIDE_Y2150_Z80_001",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1550.000000 2150.000000 16.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1550,
+            2150,
+            80
+          ],
+          "hit": [
+            -1306.12,
+            2150.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 243.88 inches ( 20.32 feet)"
+        },
+        {
+          "station_id": "B_JAMB_CT_OUTSIDE_Y2150_Z80_001",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1000.000000 2150.000000 16.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1000,
+            2150,
+            80
+          ],
+          "hit": [
+            -1297.09,
+            2150.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 297.09 inches ( 24.76 feet)"
+        },
+        {
+          "station_id": "B_JAMB_CT_OUTSIDE_Y2150_Z80_001",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1000.000000 2150.000000 16.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1000,
+            2150,
+            80
+          ],
+          "hit": [
+            -1297.09,
+            2150.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 297.09 inches ( 24.76 feet)"
+        },
+        {
+          "station_id": "B_JAMB_B_INSIDE_Y2300_Z80_001",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1550.000000 2300.000000 16.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1550,
+            2300,
+            80
+          ],
+          "hit": [
+            -1345.78,
+            2300.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 204.22 inches ( 17.02 feet)"
+        },
+        {
+          "station_id": "B_JAMB_B_INSIDE_Y2300_Z80_001",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1550.000000 2300.000000 16.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1550,
+            2300,
+            80
+          ],
+          "hit": [
+            -1345.78,
+            2300.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 204.22 inches ( 17.02 feet)"
+        },
+        {
+          "station_id": "B_JAMB_CT_OUTSIDE_Y2300_Z80_001",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1000.000000 2300.000000 16.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1000,
+            2300,
+            80
+          ],
+          "hit": [
+            -1294.22,
+            2300.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 294.22 inches ( 24.52 feet)"
+        },
+        {
+          "station_id": "B_JAMB_CT_OUTSIDE_Y2300_Z80_001",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1000.000000 2300.000000 16.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1000,
+            2300,
+            80
+          ],
+          "hit": [
+            -1294.22,
+            2300.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 294.22 inches ( 24.52 feet)"
+        },
+        {
+          "station_id": "B_JAMB_B_INSIDE_Y2400_Z80_001",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1550.000000 2400.000000 16.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1550,
+            2400,
+            80
+          ],
+          "hit": [
+            -1343.5,
+            2400.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 109061"
+          ],
+          "rangefinder_reply": "DISTANCE: 206.50 inches ( 17.21 feet)"
+        },
+        {
+          "station_id": "B_JAMB_B_INSIDE_Y2400_Z80_001",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1550.000000 2400.000000 16.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1550,
+            2400,
+            80
+          ],
+          "hit": [
+            -1343.5,
+            2400.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 109061"
+          ],
+          "rangefinder_reply": "DISTANCE: 206.50 inches ( 17.21 feet)"
+        },
+        {
+          "station_id": "B_JAMB_CT_OUTSIDE_Y2400_Z80_001",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1000.000000 2400.000000 16.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1000,
+            2400,
+            80
+          ],
+          "hit": [
+            -1296.0,
+            2400.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 109062"
+          ],
+          "rangefinder_reply": "DISTANCE: 296.00 inches ( 24.67 feet)"
+        },
+        {
+          "station_id": "B_JAMB_CT_OUTSIDE_Y2400_Z80_001",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1000.000000 2400.000000 16.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1000,
+            2400,
+            80
+          ],
+          "hit": [
+            -1296.0,
+            2400.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 109062"
+          ],
+          "rangefinder_reply": "DISTANCE: 296.00 inches ( 24.67 feet)"
+        }
+      ],
+      "status": "complete; architectural interpretation pending",
+      "original_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\b_jamb_boundaries_01\\B_JAMB_NORMAL_PREFLIGHT_001.json",
+      "accepted_sections": [],
+      "review": "Opposite outside-origin preflight around gate. Each station repeats native first material/endpoint and original source pose restored exactly. Material/face differences preserve masonry/frame/leaf interpretation; no gate opening or mixed-component wall depth accepted."
     }
   ],
   "rejected_attempts": [

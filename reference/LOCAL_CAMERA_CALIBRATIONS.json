@@ -1628,6 +1628,691 @@
           "maximum_axis_1_5_pixel_displacement_cm": 1.7468965023476084
         }
       ]
+    },
+    {
+      "id": "B_DOOR_OUTSIDE_FRONTAL_001",
+      "camera_pose": [
+        -1000,
+        2225,
+        -30,
+        0,
+        180
+      ],
+      "observed_pose": [
+        -1000,
+        2225,
+        -30,
+        0,
+        -180,
+        0
+      ],
+      "image_size": [
+        1280,
+        720
+      ],
+      "model": "constrained native pose",
+      "normal_axis": 0,
+      "bound_planes_native": [
+        -1296,
+        -1312,
+        -1343.5
+      ],
+      "status": "accepted constrained outside camera; structural endpoint interpretation separate",
+      "captures": [
+        {
+          "id": "QA_B_TIMBER_TAGS_OUTSIDE_001_MARKED",
+          "timestamp_utc": "2026-10-02T11:56:21.004393+00:00",
+          "engine_capture_basename": "d2_f0fe4e205d",
+          "pose_command": "setpos_exact -1000.000000 2225.000000 -30.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "pose_unit": "source_units",
+          "width": 1280,
+          "height": 720,
+          "requested_pose": [
+            -1000.0,
+            2225.0,
+            -30.0,
+            0.0,
+            180.0
+          ],
+          "source_build": "25640462",
+          "source_map": "de_dust2",
+          "tga_sha256": "fd79b87c3f294f37fe0ae10cfc376c5c994ebb24dc2b866f5d0cd2515bf878fb",
+          "png_sha256": "4b2862270bc2a6749278933717de08c35820c8154d5f6d5185c4516187045479",
+          "anchors": [
+            {
+              "id": "FIRST_WOOD_2190",
+              "point": [
+                -1312.0,
+                2189.99,
+                179.4
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "LOWER_CONTEXT_2190",
+              "point": [
+                -1312.0,
+                2189.99,
+                80
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FIRST_WOOD_2225",
+              "point": [
+                -1312.0,
+                2225.0,
+                179.09
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "LOWER_CONTEXT_2225",
+              "point": [
+                -1312.0,
+                2225.0,
+                80
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FIRST_WOOD_2250",
+              "point": [
+                -1312.0,
+                2250.01,
+                175.61
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "LOWER_CONTEXT_2250",
+              "point": [
+                -1312.0,
+                2250.01,
+                80
+              ],
+              "half_size": 10
+            }
+          ],
+          "status": "captured; requires native image and projection review",
+          "marker_plane": "YZ",
+          "repository_image_path": "reference/images/b_doors/QA_B_TIMBER_TAGS_OUTSIDE_001_MARKED.jpg",
+          "jpeg_sha256": "c27f9099ebaf3f891246b8c438c3993b3edda66dcdf78f5d192fa01cfe0ec018"
+        },
+        {
+          "id": "QA_B_PORTAL_OUTSIDE_DETAIL_001",
+          "timestamp_utc": "2026-10-02T07:31:00.764754+00:00",
+          "engine_capture_basename": "d2_63ac7874cc",
+          "pose_command": "setpos_exact -1000.000000 2225.000000 -30.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "pose_unit": "source_units",
+          "width": 1280,
+          "height": 720,
+          "requested_pose": [
+            -1000.0,
+            2225.0,
+            -30.0,
+            0.0,
+            180.0
+          ],
+          "tga_sha256": "a9e99804247e9e0952c9ac8de95f5d174489ec1c2f64a00d4c3301fb87a4747a",
+          "png_sha256": "de4a25ad044eb6f8b1c7a74f0bb55c6b4bcfe4736a26f3855efe4cfa1a02aaeb",
+          "status": "captured; requires visual area/direction review",
+          "repository_image_path": "reference/images/b_doors/QA_B_PORTAL_OUTSIDE_DETAIL_001.jpg",
+          "jpeg_sha256": "51cc5a58b61d3486bf500d49598775303fd684aa798adf1f5454be2d0f7447f3"
+        },
+        {
+          "id": "QA_B_DOOR_CAMERA_HOLD_001_MARKED",
+          "timestamp_utc": "2026-10-02T12:10:00.814333+00:00",
+          "engine_capture_basename": "d2_0e6b73a248",
+          "pose_command": "setpos_exact -1000.000000 2225.000000 -30.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "pose_unit": "source_units",
+          "width": 1280,
+          "height": 720,
+          "requested_pose": [
+            -1000,
+            2225,
+            -30,
+            0,
+            180
+          ],
+          "source_build": "25640462",
+          "source_map": "de_dust2",
+          "tga_sha256": "ab9162da69494c10c5901d8b5a1d266cb00c802f0daf5ea7e92dd1621ec92554",
+          "png_sha256": "4c3b44365c27ec18fb250dd4611bf16d32d5b40eeeba2e9fac8aa9ebd4772528",
+          "anchors": [
+            {
+              "id": "B_DOOR_HOLD_X1180_Y2130_Z50",
+              "point": [
+                -1180,
+                2130,
+                50
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "B_DOOR_HOLD_X1180_Y2130_Z130",
+              "point": [
+                -1180,
+                2130,
+                130
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "B_DOOR_HOLD_X1180_Y2310_Z50",
+              "point": [
+                -1180,
+                2310,
+                50
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "B_DOOR_HOLD_X1180_Y2310_Z130",
+              "point": [
+                -1180,
+                2310,
+                130
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "B_DOOR_HOLD_X1240_Y2150_Z50",
+              "point": [
+                -1240,
+                2150,
+                50
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "B_DOOR_HOLD_X1240_Y2150_Z140",
+              "point": [
+                -1240,
+                2150,
+                140
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "B_DOOR_HOLD_X1240_Y2290_Z50",
+              "point": [
+                -1240,
+                2290,
+                50
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "B_DOOR_HOLD_X1240_Y2290_Z140",
+              "point": [
+                -1240,
+                2290,
+                140
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "B_DOOR_HOLD_X1296_Y2110_Z45",
+              "point": [
+                -1296,
+                2110,
+                45
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "B_DOOR_HOLD_X1296_Y2110_Z120",
+              "point": [
+                -1296,
+                2110,
+                120
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "B_DOOR_HOLD_X1296_Y2330_Z45",
+              "point": [
+                -1296,
+                2330,
+                45
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "B_DOOR_HOLD_X1296_Y2330_Z120",
+              "point": [
+                -1296,
+                2330,
+                120
+              ],
+              "half_size": 10
+            }
+          ],
+          "status": "captured; requires native image and projection review",
+          "marker_plane": "YZ",
+          "repository_image_path": "reference/images/b_doors/QA_B_DOOR_CAMERA_HOLD_001_MARKED.jpg",
+          "jpeg_sha256": "95c7710d0247bf720a4eecb4b21d039d897f6abd1cae9aa596f858dcf7d55c83"
+        }
+      ],
+      "groups": [
+        {
+          "role": "fit",
+          "capture_id": "QA_B_TIMBER_TAGS_OUTSIDE_001_MARKED",
+          "anchors": [
+            {
+              "id": "FIRST_WOOD_2190",
+              "world": [
+                -1312.0,
+                2189.99,
+                179.4
+              ],
+              "pixel": [
+                586.0,
+                136.0
+              ],
+              "search_guess": [
+                586.1384615384611,
+                136.30769230769232
+              ],
+              "analytic_model_residual_px": 0.40950251243748026,
+              "projected_pixel": [
+                585.7370509323955,
+                135.89850101757548
+              ],
+              "residual_px": 0.28185857373385975
+            },
+            {
+              "id": "LOWER_CONTEXT_2190",
+              "world": [
+                -1312.0,
+                2189.99,
+                80
+              ],
+              "pixel": [
+                585.5079365079365,
+                288.51612903225805
+              ],
+              "search_guess": [
+                586.1384615384611,
+                289.2307692307692
+              ],
+              "analytic_model_residual_px": 0.25121146154259644,
+              "projected_pixel": [
+                585.7370509323955,
+                288.5112238353501
+              ],
+              "residual_px": 0.2291669270463866
+            },
+            {
+              "id": "FIRST_WOOD_2225",
+              "world": [
+                -1312.0,
+                2225.0,
+                179.09
+              ],
+              "pixel": [
+                639.5081967213115,
+                136.0
+              ],
+              "search_guess": [
+                639.9999999999999,
+                136.7846153846154
+              ],
+              "analytic_model_residual_px": 0.28473339003360304,
+              "projected_pixel": [
+                639.5407289727733,
+                136.3744561893411
+              ],
+              "residual_px": 0.3758667119086556
+            },
+            {
+              "id": "LOWER_CONTEXT_2225",
+              "world": [
+                -1312.0,
+                2225.0,
+                80
+              ],
+              "pixel": [
+                639.4920634920635,
+                288.5079365079365
+              ],
+              "search_guess": [
+                639.9999999999999,
+                289.2307692307692
+              ],
+              "analytic_model_residual_px": 0.22297401311199552,
+              "projected_pixel": [
+                639.5407289727733,
+                288.5112238353501
+              ],
+              "residual_px": 0.04877638295570488
+            },
+            {
+              "id": "FIRST_WOOD_2250",
+              "world": [
+                -1312.0,
+                2250.01,
+                175.61
+              ],
+              "pixel": [
+                678.0,
+                142.0
+              ],
+              "search_guess": [
+                678.4769230769234,
+                142.13846153846154
+              ],
+              "analytic_model_residual_px": 0.36227421044048685,
+              "projected_pixel": [
+                677.976318455487,
+                141.71743682722686
+              ],
+              "residual_px": 0.2835538082236664
+            },
+            {
+              "id": "LOWER_CONTEXT_2250",
+              "world": [
+                -1312.0,
+                2250.01,
+                80
+              ],
+              "pixel": [
+                678.0,
+                288.5
+              ],
+              "search_guess": [
+                678.4769230769234,
+                289.2307692307692
+              ],
+              "analytic_model_residual_px": 0.23192020664121354,
+              "projected_pixel": [
+                677.976318455487,
+                288.5112238353501
+              ],
+              "residual_px": 0.02620667911979772
+            }
+          ],
+          "maximum_residual_px": 0.3758667119086556
+        },
+        {
+          "role": "independent three-depth holdout",
+          "capture_id": "QA_B_DOOR_CAMERA_HOLD_001_MARKED",
+          "anchors": [
+            {
+              "id": "B_DOOR_HOLD_X1180_Y2310_Z50",
+              "world": [
+                -1180,
+                2310,
+                50
+              ],
+              "pixel": [
+                866.5,
+                316.5
+              ],
+              "search_guess": [
+                866.6666666666665,
+                317.3333333333333
+              ],
+              "analytic_model_residual_px": 0.47140452079112544,
+              "projected_pixel": [
+                865.9639003890011,
+                316.55675438670505
+              ],
+              "residual_px": 0.539095402803119
+            },
+            {
+              "id": "B_DOOR_HOLD_X1180_Y2310_Z130",
+              "world": [
+                -1180,
+                2310,
+                130
+              ],
+              "pixel": [
+                866.5,
+                103.5
+              ],
+              "search_guess": [
+                866.6666666666665,
+                104.0
+              ],
+              "analytic_model_residual_px": 0.3333333333334849,
+              "projected_pixel": [
+                865.9639003890011,
+                103.6563764786089
+              ],
+              "residual_px": 0.5584410407333185
+            },
+            {
+              "id": "B_DOOR_HOLD_X1240_Y2150_Z50",
+              "world": [
+                -1240,
+                2150,
+                50
+              ],
+              "pixel": [
+                489.5,
+                327.5
+              ],
+              "search_guess": [
+                489.99999999999994,
+                328.0
+              ],
+              "analytic_model_residual_px": 5.684341886080802e-14,
+              "projected_pixel": [
+                489.7018655355622,
+                327.2017732821099
+              ],
+              "residual_px": 0.36012340900212325
+            },
+            {
+              "id": "B_DOOR_HOLD_X1240_Y2150_Z140",
+              "world": [
+                -1240,
+                2150,
+                140
+              ],
+              "pixel": [
+                489.5,
+                147.5
+              ],
+              "search_guess": [
+                489.99999999999994,
+                148.0
+              ],
+              "analytic_model_residual_px": 5.684341886080802e-14,
+              "projected_pixel": [
+                489.7018655355622,
+                147.56707942215363
+              ],
+              "residual_px": 0.21271893033832345
+            },
+            {
+              "id": "B_DOOR_HOLD_X1240_Y2290_Z50",
+              "world": [
+                -1240,
+                2290,
+                50
+              ],
+              "pixel": [
+                769.5,
+                327.5
+              ],
+              "search_guess": [
+                770.0,
+                328.0
+              ],
+              "analytic_model_residual_px": 0.0,
+              "projected_pixel": [
+                769.4010772850219,
+                327.2017732821099
+              ],
+              "residual_px": 0.3142051540031428
+            },
+            {
+              "id": "B_DOOR_HOLD_X1240_Y2290_Z140",
+              "world": [
+                -1240,
+                2290,
+                140
+              ],
+              "pixel": [
+                769.5,
+                147.5
+              ],
+              "search_guess": [
+                770.0,
+                148.0
+              ],
+              "analytic_model_residual_px": 0.0,
+              "projected_pixel": [
+                769.4010772850219,
+                147.56707942215363
+              ],
+              "residual_px": 0.11952134711050008
+            },
+            {
+              "id": "B_DOOR_HOLD_X1296_Y2110_Z45",
+              "world": [
+                -1296,
+                2110,
+                45
+              ],
+              "pixel": [
+                453.0,
+                342.0
+              ],
+              "search_guess": [
+                453.51351351351343,
+                342.1621621621622
+              ],
+              "analytic_model_residual_px": 0.33810800008636915,
+              "projected_pixel": [
+                453.2545744292131,
+                341.3351936398603
+              ],
+              "residual_px": 0.7118817573806792
+            },
+            {
+              "id": "B_DOOR_HOLD_X1296_Y2110_Z120",
+              "world": [
+                -1296,
+                2110,
+                120
+              ],
+              "pixel": [
+                453.0,
+                220.0
+              ],
+              "search_guess": [
+                453.51351351351343,
+                220.54054054054055
+              ],
+              "analytic_model_residual_px": 0.042733481894147614,
+              "projected_pixel": [
+                453.2545744292131,
+                219.96040049124122
+              ],
+              "residual_px": 0.2576359080235449
+            },
+            {
+              "id": "B_DOOR_HOLD_X1296_Y2330_Z45",
+              "world": [
+                -1296,
+                2330,
+                45
+              ],
+              "pixel": [
+                809.5,
+                341.5076923076923
+              ],
+              "search_guess": [
+                810.2702702702702,
+                342.1621621621622
+              ],
+              "analytic_model_residual_px": 0.31129881935509235,
+              "projected_pixel": [
+                809.6280874690659,
+                341.3351936398603
+              ],
+              "residual_px": 0.21485388089475507
+            },
+            {
+              "id": "B_DOOR_HOLD_X1296_Y2330_Z120",
+              "world": [
+                -1296,
+                2330,
+                120
+              ],
+              "pixel": [
+                809.5,
+                220.0
+              ],
+              "search_guess": [
+                810.2702702702702,
+                220.54054054054055
+              ],
+              "analytic_model_residual_px": 0.27329389751556504,
+              "projected_pixel": [
+                809.6280874690659,
+                219.96040049124122
+              ],
+              "residual_px": 0.13406908974722453
+            }
+          ],
+          "maximum_residual_px": 0.7118817573806792
+        }
+      ],
+      "excluded_markers": {
+        "ids": [
+          "B_DOOR_HOLD_X1180_Y2130_Z50",
+          "B_DOOR_HOLD_X1180_Y2130_Z130"
+        ],
+        "reason": "Two authored marks absent in native rendered frame; no pixels fabricated, cause not established."
+      },
+      "method": "Six original authored timber/context crosses fit four intrinsics; ten fresh markers withheld at three additional depths validate. Native zero-roll pose +64camera_up. Every native cross crop visually inspected. No held marker enters fit.",
+      "limits": "Exact camera/build/1280x720/settings only. Known X planes need independent native collision evidence; facade slopes, frame projection, angled leaves and rendered collision offset remain separate. No full doorway envelope or footprint acceptance.",
+      "intrinsics": {
+        "fx": 479.4843629990751,
+        "fy": 479.02585029321637,
+        "cx": 639.5407289727727,
+        "cy": 359.13682996832443
+      },
+      "fit_algorithm": "Native zero-roll pose +64 camera_up; only fx/fy/cx/cy fit from fit-group pixels. Independent groups excluded. Explicit native holdouts required at this exact pose.",
+      "projection_matrix": [
+        [
+          -639.5407289727729,
+          479.484362999075,
+          0.0,
+          -1706393.4366457148
+        ],
+        [
+          -359.13682996832443,
+          -4.3981576927663575e-14,
+          -479.02585029321637,
+          -342849.951058355
+        ],
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          -0.0,
+          -999.9999999999998
+        ]
+      ],
+      "sampled_pixel_localization_bounds": [
+        {
+          "source_x": -1296,
+          "maximum_axis_1_5_pixel_displacement_cm": 2.3542779566276635
+        },
+        {
+          "source_x": -1312,
+          "maximum_axis_1_5_pixel_displacement_cm": 2.481536224553611
+        },
+        {
+          "source_x": -1343.5,
+          "maximum_axis_1_5_pixel_displacement_cm": 2.7320759395323044
+        }
+      ]
     }
   ]
 }

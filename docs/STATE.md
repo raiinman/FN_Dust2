@@ -8,7 +8,7 @@ with its configured model; no model override or agent delegation requested.
 ## Authority and preserved work
 
 GitHub main authoritative; fetch/check before resuming. Crash baseline35eaa642,
-dirty work preserved4c7df48, mergedab4e484. Latest pushed checkpoint7485ae4
+dirty work preserved4c7df48, mergedab4e484. Latest pushed checkpointb25309e
 before this update. Active C:/Users/mikea/Documents/Codex/2026-09-30/new-chat/
 FN_Dust2, branch codex/crash-recovery-20261001 pushes meaningful checkpoints
 to main. OneDrive workspace separate; synced sources/ read-only. Raw/private
@@ -17,8 +17,8 @@ recovery: evidence/CRASH_RECOVERY_20261001.md. Latest Git commit pins checkpoint
 
 ## Accepted evidence and limits
 
-- 231 individually reviewed JPEGs; eight historical exclusions. Original24/
-  recovered55 re-inspected. IMAGE_AUDIT231 hashes/native UTC dates PASS;
+- 232 individually reviewed JPEGs; eight historical exclusions. Original24/
+  recovered55 re-inspected. IMAGE_AUDIT232 hashes/native UTC dates PASS;
   sixteen critical/eleven subarea required view sets PASS. Clipped/overlay/
   nonselected attempts preserved. View coverage never grants metric acceptance.
 - Scale2.54cm/native from two repeated inch-rangefinder anchors. UE=(2.54x,
@@ -164,7 +164,7 @@ source-pose restoration verified; all selected sand-floor/concrete-intrados
 repeats reviewed.343 physical measurements/126 chords. Updated arch table and
 calibrated architectural chord overview rebuilt/rendered/inspected.
 
-No active source pose/input controller. high_room_checks_04 completed/restored
+high_room_checks_04 completed/restored
 both reports,128 native observations/64 new independent midpoint directions.
 PLAN_SECTION_CHECKS now270 directions/19 report models. Higher Long21/32 and
 Upper23/32 candidate chords reject (max53.7102cm/4675.2182cm); cross-area/relief
@@ -183,9 +183,26 @@ timber tops; these are not Wood caps and no timber thickness is accepted.
 All three diagnostic reports preserved in ARCHITECTURAL_ENDPOINTS and linked
 in B_TIMBER_COMPONENT_REVIEW. No complete structural portal/body acceptance.
 
+Outside B-door camera calibrated at exact original pose. Six original native
+timber/context crosses fit four constrained intrinsics; ten fresh three-depth
+markers pass (fitmax.37587px, heldmax.71188px). All native cross crops and new
+marked JPEG inspected;232 hashes/native dates PASS. Two absent marks excluded.
+B_DOOR_OUTSIDE_FRONTAL_001 in LOCAL_CAMERA_CALIBRATIONS includes fixed-X inverse
+checks/declared plane bounds. No camera fit grants structural edges or leaf extent.
+
+B_jamb_boundaries_01 eight opposite-normal preflight stations completed/restored:
+southY2050 has first concrete facesX-1376/-1232; northY2400X-1343.5/-1296.
+Y2150/2300 first Wood_Dense from both sides. Different southern return/northern
+facade depths stay explicit; no mixed-component body dimension accepted.
+ONE ACTIVE source controller: cs2_probe_parallel_transition.py with private
+b_jamb_boundaries_02/config.json, output B_JAMB_PARALLEL_MATERIAL_TRANSITIONS_002.
+Opposing safe origins bracket two masonry/timber interfaces atZ80. Inspect
+observations/status/echo/restore before any new source input or resume; never
+rerun a partial/completed output path. Component/raster review still required.
+
 B-wall calibration captures completed/restored exactly. Eight visually inspected
 fit markers and ten independent three-depth markers pass constrained native-pose
-projection (max held .43495px);231 individually reviewed JPEGs/hashes/native
+projection (max held .43495px);232 individually reviewed JPEGs/hashes/native
 dates PASS. Two absent marks excluded without invented pixels. Overlapping first
 hold layout and rejected full11parameter matrix (held1.17809px) retained. Clean
 wall view and native corner crops inspected; structural boundary acceptance
