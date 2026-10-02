@@ -202,6 +202,9 @@ def build(root):
     if (ref / 'B_POST_CAP_SECTIONS.json').exists():
         from build_b_post_caps import measurement_rows
         measurements.extend(measurement_rows(ref))
+    if (ref / 'B_REAR_HEIGHT_CHECKS.json').exists():
+        from build_b_rear_height_checks import measurement_rows
+        measurements.extend(measurement_rows(ref))
     if tunnel_path.exists():
         profile=json.loads(tunnel_path.read_text())
         if profile.get('accepted_terminal_pairs'):

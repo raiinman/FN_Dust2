@@ -350,3 +350,12 @@ depth camera, exact pose only, checkedY2800..2950/Z60..230. Six inspected
 marked/clean JPEGs retain individual hashes. Camera-origin diagnostic007 finds
 one agreeing front control and four nearer intervening Mesh hits; projected
 return points are not visible-corner evidence. No full rear boundary accepted.
+
+B_REAR_HEIGHT_CHECKS JSON/CSV/SVG owns16 prospective height tests:12 within the
+declared1native threshold, four rejected. Two eastZ220 hits are remote; two
+westY2890 offsets change beyond tolerance. Preserve originalZ104 models and
+thresholds, actual endpoints and restoration. No upward wall extrusion accepted.
+Two local upper-interface rows from report009 retain96 repeated observations,
+identical brackets from independent source origins and.01native numerical
+allowance. They are sourceZ0 elevations only. Rendered cap correspondence passes
+locally atX-1456; palm overlap atX-1496 remains unresolved. No full body/roof.

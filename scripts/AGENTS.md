@@ -392,3 +392,12 @@ failed reports. Validate native distances, exact restoration, camera checks and
 image hashes; render and inspect. Exclude unpaired own-origin, recessed Hull and
 remote/grazing side observations. Projected points do not certify visibility:
 camera-origin first-hit diagnostics must remain separate from rendered corners.
+
+build_b_rear_height_checks.py derives B_REAR_HEIGHT_CHECKS JSON/CSV/SVG from
+fixed-before-capture predictions and repeated report008 rays. Keep all failed
+height predictions; omit actual remote hits from camera annotation when outside
+validated depth. Rebuild/render/inspect; sampled agreement grants no extrusion.
+Report009 adds two explicitly selected local upper-interface bounds, each
+checked from two independent origins. measurement_rows feeds physical register
+as absolute sourceZ0 elevations, not floor-to-top heights. Keep palm overlap
+unresolved and verify separately selected unobstructed rendered correspondence.

@@ -6,7 +6,7 @@ Baseline: CS2 build 25640462, 2026-10-01 UTC.
 | ID | Unknown | Present bound | Required resolution |
 | --- | --- | --- | --- |
 | U01 | Capture continuity | Old workers did not survive. New single-owner worker verified after VConsole disconnect; 245 reference frames reviewed, eight excluded; four native radar crops inspected separately | Keep exact echo checks and rendered-area/pose checks; extend usable route-oriented coverage |
-| U02 | Critical lengths/widths | 374 calibrated collision-feature measurements;13 floor datums,54 Short and117 Tunnel stair points and434 connector surface points. Long/B/Mid local openings, Short flight, Xbox/CT crate/elevator point-pair rises accepted; full architectural bounds incomplete | Structural aperture endpoints, room lengths and remaining route/cover dimensions |
+| U02 | Critical lengths/widths | 376 calibrated collision-feature measurements;13 floor datums,54 Short and117 Tunnel stair points and434 connector surface points. Long/B/Mid local openings, Short flight, Xbox/CT crate/elevator point-pair rises accepted; full architectural bounds incomplete | Structural aperture endpoints, room lengths and remaining route/cover dimensions |
 | U03 | Elevations/slopes/stairs | 13 repeated native floor datums with calibrated conversion; CT floor/overhead separation 167.69 native units; 54 repeated Short floor samples plus12 repeated center riser faces; Short count/rise/run and Tunnel18 count,18 rises/16 axial intervals,16 local widths accepted; full Tunnel sides/terminal edges and remaining slopes unresolved | Floor endpoints, stair counts and rise/run readings |
 | U04 | Map scale and axes | Native rangefinder anchors accept factor2.54cm/source unit; native right-axis tests and Epic documentation fix UE=(2.54x,-2.54y,2.54z), reversible math checks pass | Phase 2 exporter/editor round-trip must preserve convention exactly once; no import accepted yet |
 | U05 | Per-area directional coverage | 245 current-build reference captures, eight exclusions; sixteen critical-area view sets and eleven subarea sets accepted; all required directional sets accepted; individual image limitations retained | Preserve complementary view coverage; resolve full structural metric evidence |
@@ -324,3 +324,12 @@ agrees exactly; four return targets meet nearer first-hit Mesh instead. These
 projected points are not rendered corners. Safe complete pairs in failed reports
 remain explicitly selected; guard/own-origin failures are preserved. Full rear
 boundary/height and continuous whole-map footprint remain unresolved. Gate1 FAIL.
+
+B rear independent-height checkpoint: B_REAR_HEIGHT_CHECKS retains16 prospective
+tests (12 agree/four reject) and two bounded local upper-face elevations. Report009
+has96 repeated observations and matching two-origin brackets at eachX. Numerical
+elevation bounds include.01native allowance; local rendered cap correspondence
+passes atX-1456, palm overlap atX-1496 unresolved. Front010 confirms nonuniform
+upper components: westZ240 gravel behind face, eastZ240 still front concrete;
+higher samples meet remote Hull and exceed current camera markerZ230. Full rear
+height/body and continuous footprint remain unresolved; Gate1 FAIL.
