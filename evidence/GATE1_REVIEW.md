@@ -198,3 +198,6 @@ B tunnel exit: six repeated transverse passage/stone-mouth sections accepted atY
 
 
 PLAN_SECTION_SWEEPS now preserves96 distinct horizontal first-hit directions (192 observations) across B Site, CT Spawn and Upper chamber. Native endpoints/surface repeats, rangefinder distances and original-pose restore checks pass. Calibrated point CSV and two height-layer SVG rendered/inspected. Materials/remote portal hits stay explicit; no angular gap, connected boundary or footprint accepted. Gate1 remains FAIL.
+
+
+Horizontal-section survey expanded to eight surveyed areas:256 distinct directions/512 repeated observations now committed in PLAN_SECTION_SWEEPS, with exact native height, pose, surface and rangefinder evidence. Long chamber portals, Lower east/Xbox, Top Mid connections and Outside Long south rays explicitly cross areas; A Site includes cover/returns and open routes. Two-layer point figure rendered/inspected. First-hit points do not become joined wall/floor boundaries.96 fresh midpoint validation rays are planned privately, not executed or accepted. Gate1 FAIL.

@@ -168,8 +168,17 @@ Plan section batch01 completed/registered:96 distinct repeated directions across
 B Site, CT Spawn and Upper chamber; source restored and independently read back.
 Active serial controller probe_plan_sections_02.py, private plan_sections_02:
 15 named positions,32 repeated directions each, sequential per-area reports.
-Last observed Long chamber in progress; inspect status/process after any timeout.
+First five batch02 areas registered (Long chamber, Lower passage, A Site,
+Top Mid, Outside Long). Long Corner complete private/unregistered; Pit in
+progress at last inspection. Inspect every report/status/process after timeout.
 Do not duplicate reports or start another pose controller. Each area restores
 source camera -1984,2100,50p0/y-90. Native overlay visible.
 
 PLAN_SECTION_SWEEPS now preserves96 distinct horizontal first-hit directions (192 observations) across B Site, CT Spawn and Upper chamber. Native endpoints/surface repeats, rangefinder distances and original-pose restore checks pass. Calibrated point CSV and two height-layer SVG rendered/inspected. Materials/remote portal hits stay explicit; no angular gap, connected boundary or footprint accepted. Gate1 remains FAIL.
+
+
+Horizontal-section survey expanded to eight surveyed areas:256 distinct directions/512 repeated observations now committed in PLAN_SECTION_SWEEPS, with exact native height, pose, surface and rangefinder evidence. Long chamber portals, Lower east/Xbox, Top Mid connections and Outside Long south rays explicitly cross areas; A Site includes cover/returns and open routes. Two-layer point figure rendered/inspected. First-hit points do not become joined wall/floor boundaries.96 fresh midpoint validation rays are planned privately, not executed or accepted. Gate1 FAIL.
+Private plan_section_checks_01/validation_plan.json fixes96 midpoint predictions
+before new native capture against first three reports. Configs are unexecuted.
+After active batch02 ends, review partial/failed reports, register completions,
+then run withheld checks serially; never overlap pose controllers.
