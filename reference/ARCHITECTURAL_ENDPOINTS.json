@@ -70368,6 +70368,870 @@
       "architectural_review": {
         "scope": "Two agreeing origin bracketsZ[240,240.078125]; on concrete frontMeshY2880, final off recessed gravelMeshY2895.55. Earlier coarseZ241.25 gravelY2924.85 remains separate. Separately named013 resolves intermediate component rejected in012, preserving failed report. Local front-face termination only, not complete roof/cap/body."
       }
+    },
+    {
+      "id": "B_COURTYARD_LONGITUDINAL_PREFLIGHT_001",
+      "source_build": "25640462",
+      "area": "B Site",
+      "source_map": "de_dust2",
+      "timestamp_utc": "2026-10-02T15:37:49.202496+00:00",
+      "unit": "source_units",
+      "config": {
+        "id": "B_COURTYARD_LONGITUDINAL_PREFLIGHT_001",
+        "build": "25640462",
+        "area": "B Site longitudinal structural section preflight",
+        "stations": [
+          {
+            "id": "B_COURT_NS_X1800_Y2450_Z220",
+            "pose": [
+              -1800,
+              2450,
+              156
+            ],
+            "yaws": [
+              90,
+              -90
+            ]
+          },
+          {
+            "id": "B_COURT_NS_X1800_Y2500_Z220",
+            "pose": [
+              -1800,
+              2500,
+              156
+            ],
+            "yaws": [
+              90,
+              -90
+            ]
+          },
+          {
+            "id": "B_COURT_NS_X1700_Y2450_Z220",
+            "pose": [
+              -1700,
+              2450,
+              156
+            ],
+            "yaws": [
+              90,
+              -90
+            ]
+          },
+          {
+            "id": "B_COURT_NS_X1700_Y2500_Z220",
+            "pose": [
+              -1700,
+              2500,
+              156
+            ],
+            "yaws": [
+              90,
+              -90
+            ]
+          }
+        ],
+        "scope": "Two independent interior origins for eachX at declared horizontal-eyeZ220 above common low covers. North native front control expectedY2880; south first-hit component unknown and must be inspected. No full room rectangle, floor polygon or minimum walking clearance inferred."
+      },
+      "observations": [
+        {
+          "station_id": "B_COURT_NS_X1800_Y2450_Z220",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact -1800.000000 2450.000000 156.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -1800,
+            2450,
+            220
+          ],
+          "hit": [
+            -1800.0,
+            2880.0,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119868"
+          ],
+          "rangefinder_reply": "DISTANCE: 430.00 inches ( 35.83 feet)"
+        },
+        {
+          "station_id": "B_COURT_NS_X1800_Y2450_Z220",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact -1800.000000 2450.000000 156.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -1800,
+            2450,
+            220
+          ],
+          "hit": [
+            -1800.0,
+            2880.0,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119868"
+          ],
+          "rangefinder_reply": "DISTANCE: 430.00 inches ( 35.83 feet)"
+        },
+        {
+          "station_id": "B_COURT_NS_X1800_Y2450_Z220",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -1800.000000 2450.000000 156.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1800,
+            2450,
+            220
+          ],
+          "hit": [
+            -1800.0,
+            1791.98,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 96081"
+          ],
+          "rangefinder_reply": "DISTANCE: 658.02 inches ( 54.83 feet)"
+        },
+        {
+          "station_id": "B_COURT_NS_X1800_Y2450_Z220",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact -1800.000000 2450.000000 156.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1800,
+            2450,
+            220
+          ],
+          "hit": [
+            -1800.0,
+            1791.98,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 96081"
+          ],
+          "rangefinder_reply": "DISTANCE: 658.02 inches ( 54.83 feet)"
+        },
+        {
+          "station_id": "B_COURT_NS_X1800_Y2500_Z220",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact -1800.000000 2500.000000 156.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -1800,
+            2500,
+            220
+          ],
+          "hit": [
+            -1800.0,
+            2880.0,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119868"
+          ],
+          "rangefinder_reply": "DISTANCE: 380.00 inches ( 31.67 feet)"
+        },
+        {
+          "station_id": "B_COURT_NS_X1800_Y2500_Z220",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact -1800.000000 2500.000000 156.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -1800,
+            2500,
+            220
+          ],
+          "hit": [
+            -1800.0,
+            2880.0,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119868"
+          ],
+          "rangefinder_reply": "DISTANCE: 380.00 inches ( 31.67 feet)"
+        },
+        {
+          "station_id": "B_COURT_NS_X1800_Y2500_Z220",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -1800.000000 2500.000000 156.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1800,
+            2500,
+            220
+          ],
+          "hit": [
+            -1800.0,
+            1791.98,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 96081"
+          ],
+          "rangefinder_reply": "DISTANCE: 708.02 inches ( 59.00 feet)"
+        },
+        {
+          "station_id": "B_COURT_NS_X1800_Y2500_Z220",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact -1800.000000 2500.000000 156.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1800,
+            2500,
+            220
+          ],
+          "hit": [
+            -1800.0,
+            1791.98,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 96081"
+          ],
+          "rangefinder_reply": "DISTANCE: 708.02 inches ( 59.00 feet)"
+        },
+        {
+          "station_id": "B_COURT_NS_X1700_Y2450_Z220",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact -1700.000000 2450.000000 156.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -1700,
+            2450,
+            220
+          ],
+          "hit": [
+            -1700.0,
+            2880.0,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119989"
+          ],
+          "rangefinder_reply": "DISTANCE: 430.00 inches ( 35.83 feet)"
+        },
+        {
+          "station_id": "B_COURT_NS_X1700_Y2450_Z220",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact -1700.000000 2450.000000 156.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -1700,
+            2450,
+            220
+          ],
+          "hit": [
+            -1700.0,
+            2880.0,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119989"
+          ],
+          "rangefinder_reply": "DISTANCE: 430.00 inches ( 35.83 feet)"
+        },
+        {
+          "station_id": "B_COURT_NS_X1700_Y2450_Z220",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -1700.000000 2450.000000 156.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1700,
+            2450,
+            220
+          ],
+          "hit": [
+            -1700.0,
+            1600.0,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95489"
+          ],
+          "rangefinder_reply": "DISTANCE: 850.00 inches ( 70.83 feet)"
+        },
+        {
+          "station_id": "B_COURT_NS_X1700_Y2450_Z220",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact -1700.000000 2450.000000 156.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1700,
+            2450,
+            220
+          ],
+          "hit": [
+            -1700.0,
+            1600.0,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95489"
+          ],
+          "rangefinder_reply": "DISTANCE: 850.00 inches ( 70.83 feet)"
+        },
+        {
+          "station_id": "B_COURT_NS_X1700_Y2500_Z220",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact -1700.000000 2500.000000 156.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -1700,
+            2500,
+            220
+          ],
+          "hit": [
+            -1700.0,
+            2880.0,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119989"
+          ],
+          "rangefinder_reply": "DISTANCE: 380.00 inches ( 31.67 feet)"
+        },
+        {
+          "station_id": "B_COURT_NS_X1700_Y2500_Z220",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact -1700.000000 2500.000000 156.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -1700,
+            2500,
+            220
+          ],
+          "hit": [
+            -1700.0,
+            2880.0,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119989"
+          ],
+          "rangefinder_reply": "DISTANCE: 380.00 inches ( 31.67 feet)"
+        },
+        {
+          "station_id": "B_COURT_NS_X1700_Y2500_Z220",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -1700.000000 2500.000000 156.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1700,
+            2500,
+            220
+          ],
+          "hit": [
+            -1700.0,
+            1600.0,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95489"
+          ],
+          "rangefinder_reply": "DISTANCE: 900.00 inches ( 75.00 feet)"
+        },
+        {
+          "station_id": "B_COURT_NS_X1700_Y2500_Z220",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact -1700.000000 2500.000000 156.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1700,
+            2500,
+            220
+          ],
+          "hit": [
+            -1700.0,
+            1600.0,
+            220.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95489"
+          ],
+          "rangefinder_reply": "DISTANCE: 900.00 inches ( 75.00 feet)"
+        }
+      ],
+      "status": "complete; architectural interpretation pending",
+      "original_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_requested_area": "B Site longitudinal structural section preflight",
+      "review": {
+        "scope": "Four individually inspected south context images at exact trace-camera origins, image centers in expected plaster surfaces. Native north ends match independently surveyed rear wall. Context is component association, not pixel-derived metric calibration or whole courtyard acceptance.",
+        "visual_evidence_ids": [
+          "QA_B_COURTYARD_NS_X1800_Z220_001",
+          "QA_B_COURTYARD_NS_X1700_Z220_001"
+        ]
+      },
+      "accepted_sections": [
+        {
+          "id": "B_COURTYARD_NS_X1800_Z220",
+          "station_id": "B_COURT_NS_X1800_Y2450_Z220",
+          "axis": 1,
+          "feature": "Opposing rear facade and nearer main-portal facade at sourceX-1800/Z220",
+          "confidence": "confirmed repeated local collision structural section",
+          "notes": "Two independent sourceY2450/2500 origins agree at both ends; clean native QA_B_COURTYARD_NS_X1800_Z220_001 visually corroborates unoccluded southern component at trace height. Different southern depths betweenX-1800/-1700 are a structural step/recess. Upper section only; not rectangular courtyard, ground-level footprint or minimum route clearance.",
+          "independent_origin_station_id": "B_COURT_NS_X1800_Y2500_Z220",
+          "visual_evidence_ids": [
+            "QA_B_COURTYARD_NS_X1800_Z220_001"
+          ]
+        },
+        {
+          "id": "B_COURTYARD_NS_X1700_Z220",
+          "station_id": "B_COURT_NS_X1700_Y2450_Z220",
+          "axis": 1,
+          "feature": "Opposing rear facade and recessed southern plaster behind scaffold region at sourceX-1700/Z220",
+          "confidence": "confirmed repeated local collision structural section",
+          "notes": "Two independent sourceY2450/2500 origins agree at both ends; clean native QA_B_COURTYARD_NS_X1700_Z220_001 visually corroborates unoccluded southern component at trace height. Different southern depths betweenX-1800/-1700 are a structural step/recess. Upper section only; not rectangular courtyard, ground-level footprint or minimum route clearance.",
+          "independent_origin_station_id": "B_COURT_NS_X1700_Y2500_Z220",
+          "visual_evidence_ids": [
+            "QA_B_COURTYARD_NS_X1700_Z220_001"
+          ]
+        }
+      ],
+      "private_raw_path": "C:\\Users\\mikea\\Documents\\Codex\\2026-09-30\\new-chat\\reference_cache\\crash_recovery_survey\\b_courtyard_longitudinal_01"
+    },
+    {
+      "id": "B_COURTYARD_LONGITUDINAL_PREFLIGHT_002",
+      "source_build": "25640462",
+      "area": "B Site",
+      "source_map": "de_dust2",
+      "timestamp_utc": "2026-10-02T15:40:38.166134+00:00",
+      "unit": "source_units",
+      "config": {
+        "id": "B_COURTYARD_LONGITUDINAL_PREFLIGHT_002",
+        "build": "25640462",
+        "area": "B Site lower longitudinal structural section preflight",
+        "stations": [
+          {
+            "id": "B_COURT_NS_X1800_Y2450_Z160",
+            "pose": [
+              -1800,
+              2450,
+              96
+            ],
+            "yaws": [
+              90,
+              -90
+            ]
+          },
+          {
+            "id": "B_COURT_NS_X1800_Y2500_Z160",
+            "pose": [
+              -1800,
+              2500,
+              96
+            ],
+            "yaws": [
+              90,
+              -90
+            ]
+          },
+          {
+            "id": "B_COURT_NS_X1700_Y2450_Z160",
+            "pose": [
+              -1700,
+              2450,
+              96
+            ],
+            "yaws": [
+              90,
+              -90
+            ]
+          },
+          {
+            "id": "B_COURT_NS_X1700_Y2500_Z160",
+            "pose": [
+              -1700,
+              2500,
+              96
+            ],
+            "yaws": [
+              90,
+              -90
+            ]
+          }
+        ],
+        "scope": "Independent lower-eyeZ160 component/depth comparison to completedZ220 rays; sourceX-1700 higher south ray meetsY1600 rather than facadeY1791.98 atX-1800. Inspect whether higher rays pass above nearer wall/cover. No rectangle or whole-route minimum inferred."
+      },
+      "observations": [
+        {
+          "station_id": "B_COURT_NS_X1800_Y2450_Z160",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact -1800.000000 2450.000000 96.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -1800,
+            2450,
+            160
+          ],
+          "hit": [
+            -1800.0,
+            2880.0,
+            160.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119783"
+          ],
+          "rangefinder_reply": "DISTANCE: 430.00 inches ( 35.83 feet)"
+        },
+        {
+          "station_id": "B_COURT_NS_X1800_Y2450_Z160",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact -1800.000000 2450.000000 96.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -1800,
+            2450,
+            160
+          ],
+          "hit": [
+            -1800.0,
+            2880.0,
+            160.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119783"
+          ],
+          "rangefinder_reply": "DISTANCE: 430.00 inches ( 35.83 feet)"
+        },
+        {
+          "station_id": "B_COURT_NS_X1800_Y2450_Z160",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -1800.000000 2450.000000 96.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1800,
+            2450,
+            160
+          ],
+          "hit": [
+            -1800.0,
+            1792.0,
+            160.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95325"
+          ],
+          "rangefinder_reply": "DISTANCE: 658.00 inches ( 54.83 feet)"
+        },
+        {
+          "station_id": "B_COURT_NS_X1800_Y2450_Z160",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact -1800.000000 2450.000000 96.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1800,
+            2450,
+            160
+          ],
+          "hit": [
+            -1800.0,
+            1792.0,
+            160.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95325"
+          ],
+          "rangefinder_reply": "DISTANCE: 658.00 inches ( 54.83 feet)"
+        },
+        {
+          "station_id": "B_COURT_NS_X1800_Y2500_Z160",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact -1800.000000 2500.000000 96.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -1800,
+            2500,
+            160
+          ],
+          "hit": [
+            -1800.0,
+            2880.0,
+            160.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119783"
+          ],
+          "rangefinder_reply": "DISTANCE: 380.00 inches ( 31.67 feet)"
+        },
+        {
+          "station_id": "B_COURT_NS_X1800_Y2500_Z160",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact -1800.000000 2500.000000 96.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -1800,
+            2500,
+            160
+          ],
+          "hit": [
+            -1800.0,
+            2880.0,
+            160.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119783"
+          ],
+          "rangefinder_reply": "DISTANCE: 380.00 inches ( 31.67 feet)"
+        },
+        {
+          "station_id": "B_COURT_NS_X1800_Y2500_Z160",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -1800.000000 2500.000000 96.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1800,
+            2500,
+            160
+          ],
+          "hit": [
+            -1800.0,
+            1792.0,
+            160.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95325"
+          ],
+          "rangefinder_reply": "DISTANCE: 708.00 inches ( 59.00 feet)"
+        },
+        {
+          "station_id": "B_COURT_NS_X1800_Y2500_Z160",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact -1800.000000 2500.000000 96.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1800,
+            2500,
+            160
+          ],
+          "hit": [
+            -1800.0,
+            1792.0,
+            160.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95325"
+          ],
+          "rangefinder_reply": "DISTANCE: 708.00 inches ( 59.00 feet)"
+        },
+        {
+          "station_id": "B_COURT_NS_X1700_Y2450_Z160",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact -1700.000000 2450.000000 96.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -1700,
+            2450,
+            160
+          ],
+          "hit": [
+            -1700.0,
+            2880.0,
+            160.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119947"
+          ],
+          "rangefinder_reply": "DISTANCE: 430.00 inches ( 35.83 feet)"
+        },
+        {
+          "station_id": "B_COURT_NS_X1700_Y2450_Z160",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact -1700.000000 2450.000000 96.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -1700,
+            2450,
+            160
+          ],
+          "hit": [
+            -1700.0,
+            2880.0,
+            160.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119947"
+          ],
+          "rangefinder_reply": "DISTANCE: 430.00 inches ( 35.83 feet)"
+        },
+        {
+          "station_id": "B_COURT_NS_X1700_Y2450_Z160",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -1700.000000 2450.000000 96.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1700,
+            2450,
+            160
+          ],
+          "hit": [
+            -1700.0,
+            1600.0,
+            160.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95488"
+          ],
+          "rangefinder_reply": "DISTANCE: 850.00 inches ( 70.83 feet)"
+        },
+        {
+          "station_id": "B_COURT_NS_X1700_Y2450_Z160",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact -1700.000000 2450.000000 96.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1700,
+            2450,
+            160
+          ],
+          "hit": [
+            -1700.0,
+            1600.0,
+            160.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95488"
+          ],
+          "rangefinder_reply": "DISTANCE: 850.00 inches ( 70.83 feet)"
+        },
+        {
+          "station_id": "B_COURT_NS_X1700_Y2500_Z160",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact -1700.000000 2500.000000 96.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -1700,
+            2500,
+            160
+          ],
+          "hit": [
+            -1700.0,
+            2880.0,
+            160.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119947"
+          ],
+          "rangefinder_reply": "DISTANCE: 380.00 inches ( 31.67 feet)"
+        },
+        {
+          "station_id": "B_COURT_NS_X1700_Y2500_Z160",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact -1700.000000 2500.000000 96.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -1700,
+            2500,
+            160
+          ],
+          "hit": [
+            -1700.0,
+            2880.0,
+            160.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119947"
+          ],
+          "rangefinder_reply": "DISTANCE: 380.00 inches ( 31.67 feet)"
+        },
+        {
+          "station_id": "B_COURT_NS_X1700_Y2500_Z160",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -1700.000000 2500.000000 96.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1700,
+            2500,
+            160
+          ],
+          "hit": [
+            -1700.0,
+            1600.0,
+            160.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95488"
+          ],
+          "rangefinder_reply": "DISTANCE: 900.00 inches ( 75.00 feet)"
+        },
+        {
+          "station_id": "B_COURT_NS_X1700_Y2500_Z160",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact -1700.000000 2500.000000 96.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1700,
+            2500,
+            160
+          ],
+          "hit": [
+            -1700.0,
+            1600.0,
+            160.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95488"
+          ],
+          "rangefinder_reply": "DISTANCE: 900.00 inches ( 75.00 feet)"
+        }
+      ],
+      "status": "complete; architectural interpretation pending",
+      "original_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_requested_area": "B Site lower longitudinal structural section preflight",
+      "review": {
+        "scope": "Four individually inspected south context images at exact trace-camera origins, image centers in expected plaster surfaces. Native north ends match independently surveyed rear wall. Context is component association, not pixel-derived metric calibration or whole courtyard acceptance.",
+        "visual_evidence_ids": [
+          "QA_B_COURTYARD_NS_X1800_Z160_001",
+          "QA_B_COURTYARD_NS_X1700_Z160_001"
+        ]
+      },
+      "accepted_sections": [
+        {
+          "id": "B_COURTYARD_NS_X1800_Z160",
+          "station_id": "B_COURT_NS_X1800_Y2450_Z160",
+          "axis": 1,
+          "feature": "Opposing rear facade and nearer main-portal facade at sourceX-1800/Z160",
+          "confidence": "confirmed repeated local collision structural section",
+          "notes": "Two independent sourceY2450/2500 origins agree at both ends; clean native QA_B_COURTYARD_NS_X1800_Z160_001 visually corroborates unoccluded southern component at trace height. Different southern depths betweenX-1800/-1700 are a structural step/recess. Upper section only; not rectangular courtyard, ground-level footprint or minimum route clearance.",
+          "independent_origin_station_id": "B_COURT_NS_X1800_Y2500_Z160",
+          "visual_evidence_ids": [
+            "QA_B_COURTYARD_NS_X1800_Z160_001"
+          ]
+        },
+        {
+          "id": "B_COURTYARD_NS_X1700_Z160",
+          "station_id": "B_COURT_NS_X1700_Y2450_Z160",
+          "axis": 1,
+          "feature": "Opposing rear facade and recessed southern plaster behind scaffold region at sourceX-1700/Z160",
+          "confidence": "confirmed repeated local collision structural section",
+          "notes": "Two independent sourceY2450/2500 origins agree at both ends; clean native QA_B_COURTYARD_NS_X1700_Z160_001 visually corroborates unoccluded southern component at trace height. Different southern depths betweenX-1800/-1700 are a structural step/recess. Upper section only; not rectangular courtyard, ground-level footprint or minimum route clearance.",
+          "independent_origin_station_id": "B_COURT_NS_X1700_Y2500_Z160",
+          "visual_evidence_ids": [
+            "QA_B_COURTYARD_NS_X1700_Z160_001"
+          ]
+        }
+      ],
+      "private_raw_path": "C:\\Users\\mikea\\Documents\\Codex\\2026-09-30\\new-chat\\reference_cache\\crash_recovery_survey\\b_courtyard_longitudinal_02"
     }
   ],
   "rejected_attempts": [

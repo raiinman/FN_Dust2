@@ -7,7 +7,7 @@ no model override, new chat or agent delegation requested. Criteria unchanged.
 
 ## Authority and preserved work
 
-GitHub main authoritative. Latest pushed checkpoint223bfc8 before this update;
+GitHub main authoritative. Latest pushed checkpointf8f33af before this update;
 latest Git commit pins this checkpoint. Crash baseline35eaa642, dirty work
 preserved4c7df48, mergedab4e484. Active checkout:
 C:/Users/mikea/Documents/Codex/2026-09-30/new-chat/FN_Dust2
@@ -18,15 +18,15 @@ evidence/CRASH_RECOVERY_20261001.md. Inspect dirty work and current main first.
 
 ## Accepted evidence and limits
 
-- 247 individually reviewed JPEGs; eight historical exclusions. Original24 and
-  recovered55 re-inspected. IMAGE_AUDIT247 hashes/native UTC dates PASS. Sixteen
+- 251 individually reviewed JPEGs; eight historical exclusions. Original24 and
+  recovered55 re-inspected. IMAGE_AUDIT251 hashes/native UTC dates PASS. Sixteen
   critical/eleven subarea required view sets PASS; image coverage grants no metric
   acceptance. Native originals, failed/clipped attempts and all metadata retained.
 - Scale2.54cm/native from repeated inch-rangefinder anchors; UE=(2.54x,-2.54y,
   2.54z), inverse/native-right/length checks PASS. Phase2 exporter/editor roundtrip
   remains unverified. Unsaved Hammer128 cube is calibration, not production.
-- 378 bounded physical feature measurements;13 floor datums;54 Short/117 Tunnel
-  stair floor samples;434 connector points;126 local architectural chords.
+- 382 bounded physical feature measurements;13 floor datums;54 Short/117 Tunnel
+  stair floor samples;434 connector points;130 local architectural chords.
   MEASUREMENTS.csv and profile registers retain confidence and explicit limits.
   Local sections/point pairs are not entire room rectangles or route clearances.
 - Listed topology PASS:34 edges/four specials;24 ground paths both directions,
@@ -90,7 +90,18 @@ now extend projection range throughZ290. Whole cap/body still separate. Every co
 
 ## Desktop and current source controller
 
-No active source controller. Front011 completed40 observations/exact restore,
+No active source controller. Courtyard longitudinal001/002 completed16 native
+observations each, exact B-mouth restore. IndependentY2450/2500 origins agree;
+four selected local sections atX-1800/-1700,Z160/220. Main-facade spans2763.52/
+2763.5708cm; recessed southern plaster spans3251.2cm at both heights. Four clean
+context PNG/JPEGs individually inspected and registered;251 image hashes/native
+dates PASS. Native center components unobstructed; low car/scaffold/foreground
+cover limits preserved. No rectangular courtyard, ground footprint or whole-route
+clearance accepted. ARCHITECTURAL_SURVEY_PLAN130 chords rebuilt/rendered/inspected;
+MEASUREMENTS382. Private b_courtyard_context_01/driver_recovery_001 exact source
+and overlay-visible restoration verified. Do not rerun any completed NS/capture
+plan; old native raw reports and original capture attempts preserved.
+Front011 completed40 observations/exact restore,
 two origins agreeZ[239.921875,240] atX-1800. Failed012 intermediate gravel before
 far Hull preserved in rejected_attempts; separately named013 completed24/exact
 restore, two origins agreeZ[240,240.078125] atX-1600. Do not rerun011/012/013.

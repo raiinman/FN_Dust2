@@ -366,3 +366,10 @@ markers in two inspected003 JPEGs validate higher projection without refitting.
 Front rendered cap-band corroboration is distinct from the unresolved exact
 rough gravel/plaster seam or highest cap. Four absolute local elevations feed
 MEASUREMENTS; do not infer full wall heights, uniform roof or hidden body.
+
+B courtyard longitudinal reports001/002 select four structural chords at
+X-1800/-1700,Z160/220 with agreeing independentY2450/2500 origins. Four inspected
+clean south-context JPEGs corroborate main-portal versus recessed plaster
+components. Native same-height lengths differ between theseX; no rectangular
+courtyard, ground polygon or minimum route clearance inferred. Selected rows
+feed MEASUREMENTS and the layered ARCHITECTURAL_SURVEY_PLAN/SECTIONS.
