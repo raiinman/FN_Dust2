@@ -224,3 +224,21 @@ fit independently calibrated1.5px clean-image corner boxes. Annotated native
 frame rebuilt/rendered/inspected.322 calibrated features;229 reviewed JPEGs.
 Acceptance is an exposed local section, not full-height/hidden wall, ground
 perimeter, closed whole-map footprint or playerclip certification. Gate1 FAIL.
+
+
+Thirteen fresh B/Lower stone intrados chords completed/restored:335 physical
+features/126 local architectural chords; profile numerical tables rebuilt and
+rendered/inspected. Lower nativeZ10/20 widths265.4300/266.0904cm are nonmonotone,
+so no smooth symmetric curve accepted. Near-jamb transverse correction entered
+stone; own-origin column rejected and exact wrapper restore retained. Retry
+rotates near-vertical tilt along wall depth; complete jamb/body/curve envelopes
+and rendered offsets remain separate. Gate1 FAIL.
+
+
+All eight depth-axis near-jamb column retries completed/restored exactly;
+repeated sand-floor/concrete-first-intrados endpoints reviewed.343 physical
+feature measurements/126 local architectural chords. B thirteen/Lower ten
+columns,23 width chords and four depths are plotted/table-listed in the rebuilt,
+rendered/inspected stone profile; architectural chord overview also inspected.
+Near-jamb profile is steep/nonuniform; original failure retained, no smooth
+curve, full body, constant depth or continuous footprint certification. Gate1 FAIL.

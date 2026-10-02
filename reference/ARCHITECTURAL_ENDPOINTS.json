@@ -34469,6 +34469,2401 @@
       "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\boundary_transitions_03\\B_WEST_MESH_COMPONENT_TRANSITIONS_004.json",
       "review": "Two repeated component-aware north Mesh-to-Hull and south Mesh-to-remote-recess transitions atZ104. Both independent origins agree; exact restoration reviewed. Calibrated clean image shows exposed facade and adjacent stone/recess. Local exposed section only; no hidden/full-height wall or floor perimeter.",
       "accepted_boundaries": []
+    },
+    {
+      "id": "B_LOWER_STONE_CURVE_WIDTHS_006",
+      "source_build": "25640462",
+      "area": "B/Lower stone curve interpolation and near-apex diagnostics",
+      "source_map": "de_dust2",
+      "timestamp_utc": "2026-10-02T11:41:57.625803+00:00",
+      "unit": "source_units",
+      "config": {
+        "id": "B_LOWER_STONE_CURVE_WIDTHS_006",
+        "build": "25640462",
+        "area": "B/Lower stone curve interpolation and near-apex diagnostics",
+        "stations": [
+          {
+            "id": "B_MOUTH_Y1780_Z140_006",
+            "pose": [
+              -1984,
+              1780,
+              76
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "B_MOUTH_Y1780_Z160_006",
+            "pose": [
+              -1984,
+              1780,
+              96
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "B_MOUTH_Y1780_Z200_006",
+            "pose": [
+              -1984,
+              1780,
+              136
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "B_MOUTH_Y1780_Z235_006",
+            "pose": [
+              -1984,
+              1780,
+              171
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "B_MOUTH_Y1780_Z240_006",
+            "pose": [
+              -1984,
+              1780,
+              176
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "LOWER_MOUTH_X520_Z-80_006",
+            "pose": [
+              -520,
+              1424,
+              -144
+            ],
+            "yaws": [
+              90,
+              -90
+            ]
+          },
+          {
+            "id": "LOWER_MOUTH_X520_Z-20_006",
+            "pose": [
+              -520,
+              1424,
+              -84
+            ],
+            "yaws": [
+              90,
+              -90
+            ]
+          },
+          {
+            "id": "LOWER_MOUTH_X520_Z10_006",
+            "pose": [
+              -520,
+              1424,
+              -54
+            ],
+            "yaws": [
+              90,
+              -90
+            ]
+          },
+          {
+            "id": "LOWER_MOUTH_X520_Z20_006",
+            "pose": [
+              -520,
+              1424,
+              -44
+            ],
+            "yaws": [
+              90,
+              -90
+            ]
+          },
+          {
+            "id": "LOWER_MOUTH_X520_Z30_006",
+            "pose": [
+              -520,
+              1424,
+              -34
+            ],
+            "yaws": [
+              90,
+              -90
+            ]
+          },
+          {
+            "id": "LOWER_MOUTH_X520_Z45_006",
+            "pose": [
+              -520,
+              1424,
+              -19
+            ],
+            "yaws": [
+              90,
+              -90
+            ]
+          },
+          {
+            "id": "LOWER_MOUTH_X520_Z54_006",
+            "pose": [
+              -520,
+              1424,
+              -10
+            ],
+            "yaws": [
+              90,
+              -90
+            ]
+          },
+          {
+            "id": "LOWER_MOUTH_X520_Z55_006",
+            "pose": [
+              -520,
+              1424,
+              -9
+            ],
+            "yaws": [
+              90,
+              -90
+            ]
+          }
+        ],
+        "scope": "Fresh near-jamb/curved/apex section heights selected from previously measured local opening. Original measured apex columns bound source eye heights; preserve own-origin and pose/rangefinder failures. No blind symmetry/circular-arch assumption or automatic continuous curve bound."
+      },
+      "observations": [
+        {
+          "station_id": "B_MOUTH_Y1780_Z140_006",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1780.000000 76.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1780,
+            140
+          ],
+          "hit": [
+            -1925.14,
+            1780.0,
+            140.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  58.86 inches (  4.90 feet)"
+        },
+        {
+          "station_id": "B_MOUTH_Y1780_Z140_006",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1780.000000 76.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1780,
+            140
+          ],
+          "hit": [
+            -1925.14,
+            1780.0,
+            140.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  58.86 inches (  4.90 feet)"
+        },
+        {
+          "station_id": "B_MOUTH_Y1780_Z140_006",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1780.000000 76.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1780,
+            140
+          ],
+          "hit": [
+            -2042.98,
+            1780.0,
+            140.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  58.98 inches (  4.91 feet)"
+        },
+        {
+          "station_id": "B_MOUTH_Y1780_Z140_006",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1780.000000 76.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1780,
+            140
+          ],
+          "hit": [
+            -2042.98,
+            1780.0,
+            140.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  58.98 inches (  4.91 feet)"
+        },
+        {
+          "station_id": "B_MOUTH_Y1780_Z160_006",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1780.000000 96.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1780,
+            160
+          ],
+          "hit": [
+            -1926.81,
+            1780.0,
+            160.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  57.19 inches (  4.77 feet)"
+        },
+        {
+          "station_id": "B_MOUTH_Y1780_Z160_006",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1780.000000 96.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1780,
+            160
+          ],
+          "hit": [
+            -1926.81,
+            1780.0,
+            160.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  57.19 inches (  4.77 feet)"
+        },
+        {
+          "station_id": "B_MOUTH_Y1780_Z160_006",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1780.000000 96.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1780,
+            160
+          ],
+          "hit": [
+            -2041.06,
+            1780.0,
+            160.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  57.06 inches (  4.75 feet)"
+        },
+        {
+          "station_id": "B_MOUTH_Y1780_Z160_006",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1780.000000 96.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1780,
+            160
+          ],
+          "hit": [
+            -2041.06,
+            1780.0,
+            160.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  57.06 inches (  4.75 feet)"
+        },
+        {
+          "station_id": "B_MOUTH_Y1780_Z200_006",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1780.000000 136.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1780,
+            200
+          ],
+          "hit": [
+            -1930.69,
+            1780.0,
+            200.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  53.31 inches (  4.44 feet)"
+        },
+        {
+          "station_id": "B_MOUTH_Y1780_Z200_006",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1780.000000 136.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1780,
+            200
+          ],
+          "hit": [
+            -1930.69,
+            1780.0,
+            200.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  53.31 inches (  4.44 feet)"
+        },
+        {
+          "station_id": "B_MOUTH_Y1780_Z200_006",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1780.000000 136.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1780,
+            200
+          ],
+          "hit": [
+            -2036.93,
+            1780.0,
+            200.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  52.93 inches (  4.41 feet)"
+        },
+        {
+          "station_id": "B_MOUTH_Y1780_Z200_006",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1780.000000 136.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1780,
+            200
+          ],
+          "hit": [
+            -2036.93,
+            1780.0,
+            200.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  52.93 inches (  4.41 feet)"
+        },
+        {
+          "station_id": "B_MOUTH_Y1780_Z235_006",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1780.000000 171.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1780,
+            235
+          ],
+          "hit": [
+            -1965.15,
+            1780.0,
+            235.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  18.85 inches (  1.57 feet)"
+        },
+        {
+          "station_id": "B_MOUTH_Y1780_Z235_006",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1780.000000 171.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1780,
+            235
+          ],
+          "hit": [
+            -1965.15,
+            1780.0,
+            235.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  18.85 inches (  1.57 feet)"
+        },
+        {
+          "station_id": "B_MOUTH_Y1780_Z235_006",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1780.000000 171.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1780,
+            235
+          ],
+          "hit": [
+            -2001.17,
+            1780.0,
+            235.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  17.17 inches (  1.43 feet)"
+        },
+        {
+          "station_id": "B_MOUTH_Y1780_Z235_006",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1780.000000 171.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1780,
+            235
+          ],
+          "hit": [
+            -2001.17,
+            1780.0,
+            235.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  17.17 inches (  1.43 feet)"
+        },
+        {
+          "station_id": "B_MOUTH_Y1780_Z240_006",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1780.000000 176.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1780,
+            240
+          ],
+          "hit": [
+            -1980.77,
+            1780.0,
+            240.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:   3.23 inches (  0.27 feet)"
+        },
+        {
+          "station_id": "B_MOUTH_Y1780_Z240_006",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1780.000000 176.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1780,
+            240
+          ],
+          "hit": [
+            -1980.77,
+            1780.0,
+            240.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:   3.23 inches (  0.27 feet)"
+        },
+        {
+          "station_id": "B_MOUTH_Y1780_Z240_006",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1780.000000 176.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1780,
+            240
+          ],
+          "hit": [
+            -1986.53,
+            1780.0,
+            240.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:   2.53 inches (  0.21 feet)"
+        },
+        {
+          "station_id": "B_MOUTH_Y1780_Z240_006",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1780.000000 176.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1780,
+            240
+          ],
+          "hit": [
+            -1986.53,
+            1780.0,
+            240.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:   2.53 inches (  0.21 feet)"
+        },
+        {
+          "station_id": "LOWER_MOUTH_X520_Z-80_006",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact -520.000000 1424.000000 -144.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -520,
+            1424,
+            -80
+          ],
+          "hit": [
+            -520.0,
+            1482.88,
+            -80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  58.88 inches (  4.91 feet)"
+        },
+        {
+          "station_id": "LOWER_MOUTH_X520_Z-80_006",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact -520.000000 1424.000000 -144.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -520,
+            1424,
+            -80
+          ],
+          "hit": [
+            -520.0,
+            1482.88,
+            -80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  58.88 inches (  4.91 feet)"
+        },
+        {
+          "station_id": "LOWER_MOUTH_X520_Z-80_006",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -520.000000 1424.000000 -144.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -520,
+            1424,
+            -80
+          ],
+          "hit": [
+            -520.0,
+            1365.07,
+            -80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  58.93 inches (  4.91 feet)"
+        },
+        {
+          "station_id": "LOWER_MOUTH_X520_Z-80_006",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact -520.000000 1424.000000 -144.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -520,
+            1424,
+            -80
+          ],
+          "hit": [
+            -520.0,
+            1365.07,
+            -80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  58.93 inches (  4.91 feet)"
+        },
+        {
+          "station_id": "LOWER_MOUTH_X520_Z-20_006",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact -520.000000 1424.000000 -84.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -520,
+            1424,
+            -20
+          ],
+          "hit": [
+            -520.0,
+            1479.92,
+            -20.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  55.92 inches (  4.66 feet)"
+        },
+        {
+          "station_id": "LOWER_MOUTH_X520_Z-20_006",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact -520.000000 1424.000000 -84.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -520,
+            1424,
+            -20
+          ],
+          "hit": [
+            -520.0,
+            1479.92,
+            -20.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  55.92 inches (  4.66 feet)"
+        },
+        {
+          "station_id": "LOWER_MOUTH_X520_Z-20_006",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -520.000000 1424.000000 -84.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -520,
+            1424,
+            -20
+          ],
+          "hit": [
+            -520.0,
+            1367.94,
+            -20.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  56.06 inches (  4.67 feet)"
+        },
+        {
+          "station_id": "LOWER_MOUTH_X520_Z-20_006",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact -520.000000 1424.000000 -84.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -520,
+            1424,
+            -20
+          ],
+          "hit": [
+            -520.0,
+            1367.94,
+            -20.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  56.06 inches (  4.67 feet)"
+        },
+        {
+          "station_id": "LOWER_MOUTH_X520_Z10_006",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact -520.000000 1424.000000 -54.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -520,
+            1424,
+            10
+          ],
+          "hit": [
+            -520.0,
+            1476.33,
+            10.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  52.33 inches (  4.36 feet)"
+        },
+        {
+          "station_id": "LOWER_MOUTH_X520_Z10_006",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact -520.000000 1424.000000 -54.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -520,
+            1424,
+            10
+          ],
+          "hit": [
+            -520.0,
+            1476.33,
+            10.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  52.33 inches (  4.36 feet)"
+        },
+        {
+          "station_id": "LOWER_MOUTH_X520_Z10_006",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -520.000000 1424.000000 -54.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -520,
+            1424,
+            10
+          ],
+          "hit": [
+            -520.0,
+            1371.83,
+            10.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  52.17 inches (  4.35 feet)"
+        },
+        {
+          "station_id": "LOWER_MOUTH_X520_Z10_006",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact -520.000000 1424.000000 -54.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -520,
+            1424,
+            10
+          ],
+          "hit": [
+            -520.0,
+            1371.83,
+            10.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  52.17 inches (  4.35 feet)"
+        },
+        {
+          "station_id": "LOWER_MOUTH_X520_Z20_006",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact -520.000000 1424.000000 -44.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -520,
+            1424,
+            20
+          ],
+          "hit": [
+            -520.0,
+            1476.3,
+            20.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  52.30 inches (  4.36 feet)"
+        },
+        {
+          "station_id": "LOWER_MOUTH_X520_Z20_006",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact -520.000000 1424.000000 -44.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -520,
+            1424,
+            20
+          ],
+          "hit": [
+            -520.0,
+            1476.3,
+            20.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  52.30 inches (  4.36 feet)"
+        },
+        {
+          "station_id": "LOWER_MOUTH_X520_Z20_006",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -520.000000 1424.000000 -44.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -520,
+            1424,
+            20
+          ],
+          "hit": [
+            -520.0,
+            1371.54,
+            20.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  52.46 inches (  4.37 feet)"
+        },
+        {
+          "station_id": "LOWER_MOUTH_X520_Z20_006",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact -520.000000 1424.000000 -44.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -520,
+            1424,
+            20
+          ],
+          "hit": [
+            -520.0,
+            1371.54,
+            20.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  52.46 inches (  4.37 feet)"
+        },
+        {
+          "station_id": "LOWER_MOUTH_X520_Z30_006",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact -520.000000 1424.000000 -34.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -520,
+            1424,
+            30
+          ],
+          "hit": [
+            -520.0,
+            1469.87,
+            30.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  45.87 inches (  3.82 feet)"
+        },
+        {
+          "station_id": "LOWER_MOUTH_X520_Z30_006",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact -520.000000 1424.000000 -34.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -520,
+            1424,
+            30
+          ],
+          "hit": [
+            -520.0,
+            1469.87,
+            30.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  45.87 inches (  3.82 feet)"
+        },
+        {
+          "station_id": "LOWER_MOUTH_X520_Z30_006",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -520.000000 1424.000000 -34.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -520,
+            1424,
+            30
+          ],
+          "hit": [
+            -520.0,
+            1377.93,
+            30.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  46.07 inches (  3.84 feet)"
+        },
+        {
+          "station_id": "LOWER_MOUTH_X520_Z30_006",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact -520.000000 1424.000000 -34.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -520,
+            1424,
+            30
+          ],
+          "hit": [
+            -520.0,
+            1377.93,
+            30.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  46.07 inches (  3.84 feet)"
+        },
+        {
+          "station_id": "LOWER_MOUTH_X520_Z45_006",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact -520.000000 1424.000000 -19.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -520,
+            1424,
+            45
+          ],
+          "hit": [
+            -520.0,
+            1451.4,
+            45.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  27.40 inches (  2.28 feet)"
+        },
+        {
+          "station_id": "LOWER_MOUTH_X520_Z45_006",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact -520.000000 1424.000000 -19.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -520,
+            1424,
+            45
+          ],
+          "hit": [
+            -520.0,
+            1451.4,
+            45.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  27.40 inches (  2.28 feet)"
+        },
+        {
+          "station_id": "LOWER_MOUTH_X520_Z45_006",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -520.000000 1424.000000 -19.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -520,
+            1424,
+            45
+          ],
+          "hit": [
+            -520.0,
+            1395.25,
+            45.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  28.75 inches (  2.40 feet)"
+        },
+        {
+          "station_id": "LOWER_MOUTH_X520_Z45_006",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact -520.000000 1424.000000 -19.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -520,
+            1424,
+            45
+          ],
+          "hit": [
+            -520.0,
+            1395.25,
+            45.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  28.75 inches (  2.40 feet)"
+        },
+        {
+          "station_id": "LOWER_MOUTH_X520_Z54_006",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact -520.000000 1424.000000 -10.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -520,
+            1424,
+            54
+          ],
+          "hit": [
+            -520.0,
+            1430.0,
+            54.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:   6.00 inches (  0.50 feet)"
+        },
+        {
+          "station_id": "LOWER_MOUTH_X520_Z54_006",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact -520.000000 1424.000000 -10.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -520,
+            1424,
+            54
+          ],
+          "hit": [
+            -520.0,
+            1430.0,
+            54.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:   6.00 inches (  0.50 feet)"
+        },
+        {
+          "station_id": "LOWER_MOUTH_X520_Z54_006",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -520.000000 1424.000000 -10.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -520,
+            1424,
+            54
+          ],
+          "hit": [
+            -520.0,
+            1416.95,
+            54.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:   7.05 inches (  0.59 feet)"
+        },
+        {
+          "station_id": "LOWER_MOUTH_X520_Z54_006",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact -520.000000 1424.000000 -10.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -520,
+            1424,
+            54
+          ],
+          "hit": [
+            -520.0,
+            1416.95,
+            54.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:   7.05 inches (  0.59 feet)"
+        },
+        {
+          "station_id": "LOWER_MOUTH_X520_Z55_006",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact -520.000000 1424.000000 -9.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -520,
+            1424,
+            55
+          ],
+          "hit": [
+            -520.0,
+            1427.07,
+            55.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:   3.07 inches (  0.26 feet)"
+        },
+        {
+          "station_id": "LOWER_MOUTH_X520_Z55_006",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact -520.000000 1424.000000 -9.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -520,
+            1424,
+            55
+          ],
+          "hit": [
+            -520.0,
+            1427.07,
+            55.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:   3.07 inches (  0.26 feet)"
+        },
+        {
+          "station_id": "LOWER_MOUTH_X520_Z55_006",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -520.000000 1424.000000 -9.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -520,
+            1424,
+            55
+          ],
+          "hit": [
+            -520.0,
+            1420.25,
+            55.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:   3.75 inches (  0.31 feet)"
+        },
+        {
+          "station_id": "LOWER_MOUTH_X520_Z55_006",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact -520.000000 1424.000000 -9.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -520,
+            1424,
+            55
+          ],
+          "hit": [
+            -520.0,
+            1420.25,
+            55.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:   3.75 inches (  0.31 feet)"
+        }
+      ],
+      "status": "complete; architectural interpretation pending",
+      "original_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "accepted_sections": [
+        {
+          "id": "B_MOUTH_Y1780_Z140_006_WIDTH",
+          "station_id": "B_MOUTH_Y1780_Z140_006",
+          "axis": 0,
+          "feature": "B mouth stone local opening chord",
+          "confidence": "confirmed repeated local concrete intrados chord",
+          "notes": "Curve refinement at exact plane 1780.0 and native Z140.0; first concrete Mesh/Hull hits, not a fitted curve, full apex or player clearance."
+        },
+        {
+          "id": "B_MOUTH_Y1780_Z160_006_WIDTH",
+          "station_id": "B_MOUTH_Y1780_Z160_006",
+          "axis": 0,
+          "feature": "B mouth stone local opening chord",
+          "confidence": "confirmed repeated local concrete intrados chord",
+          "notes": "Curve refinement at exact plane 1780.0 and native Z160.0; first concrete Mesh/Hull hits, not a fitted curve, full apex or player clearance."
+        },
+        {
+          "id": "B_MOUTH_Y1780_Z200_006_WIDTH",
+          "station_id": "B_MOUTH_Y1780_Z200_006",
+          "axis": 0,
+          "feature": "B mouth stone local opening chord",
+          "confidence": "confirmed repeated local concrete intrados chord",
+          "notes": "Curve refinement at exact plane 1780.0 and native Z200.0; first concrete Mesh/Hull hits, not a fitted curve, full apex or player clearance."
+        },
+        {
+          "id": "B_MOUTH_Y1780_Z235_006_WIDTH",
+          "station_id": "B_MOUTH_Y1780_Z235_006",
+          "axis": 0,
+          "feature": "B mouth stone local opening chord",
+          "confidence": "confirmed repeated local concrete intrados chord",
+          "notes": "Curve refinement at exact plane 1780.0 and native Z235.0; first concrete Mesh/Hull hits, not a fitted curve, full apex or player clearance."
+        },
+        {
+          "id": "B_MOUTH_Y1780_Z240_006_WIDTH",
+          "station_id": "B_MOUTH_Y1780_Z240_006",
+          "axis": 0,
+          "feature": "B mouth stone local opening chord",
+          "confidence": "confirmed repeated local concrete intrados chord",
+          "notes": "Curve refinement at exact plane 1780.0 and native Z240.0; first concrete Mesh/Hull hits, not a fitted curve, full apex or player clearance."
+        },
+        {
+          "id": "LOWER_MOUTH_X520_Z-80_006_WIDTH",
+          "station_id": "LOWER_MOUTH_X520_Z-80_006",
+          "axis": 1,
+          "feature": "Lower mouth stone local opening chord",
+          "confidence": "confirmed repeated local concrete intrados chord",
+          "notes": "Curve refinement at exact plane -520.0 and native Z-80.0; first concrete Mesh/Hull hits, not a fitted curve, full apex or player clearance."
+        },
+        {
+          "id": "LOWER_MOUTH_X520_Z-20_006_WIDTH",
+          "station_id": "LOWER_MOUTH_X520_Z-20_006",
+          "axis": 1,
+          "feature": "Lower mouth stone local opening chord",
+          "confidence": "confirmed repeated local concrete intrados chord",
+          "notes": "Curve refinement at exact plane -520.0 and native Z-20.0; first concrete Mesh/Hull hits, not a fitted curve, full apex or player clearance."
+        },
+        {
+          "id": "LOWER_MOUTH_X520_Z10_006_WIDTH",
+          "station_id": "LOWER_MOUTH_X520_Z10_006",
+          "axis": 1,
+          "feature": "Lower mouth stone local opening chord",
+          "confidence": "confirmed repeated local concrete intrados chord",
+          "notes": "Curve refinement at exact plane -520.0 and native Z10.0; first concrete Mesh/Hull hits, not a fitted curve, full apex or player clearance."
+        },
+        {
+          "id": "LOWER_MOUTH_X520_Z20_006_WIDTH",
+          "station_id": "LOWER_MOUTH_X520_Z20_006",
+          "axis": 1,
+          "feature": "Lower mouth stone local opening chord",
+          "confidence": "confirmed repeated local concrete intrados chord",
+          "notes": "Curve refinement at exact plane -520.0 and native Z20.0; first concrete Mesh/Hull hits, not a fitted curve, full apex or player clearance."
+        },
+        {
+          "id": "LOWER_MOUTH_X520_Z30_006_WIDTH",
+          "station_id": "LOWER_MOUTH_X520_Z30_006",
+          "axis": 1,
+          "feature": "Lower mouth stone local opening chord",
+          "confidence": "confirmed repeated local concrete intrados chord",
+          "notes": "Curve refinement at exact plane -520.0 and native Z30.0; first concrete Mesh/Hull hits, not a fitted curve, full apex or player clearance."
+        },
+        {
+          "id": "LOWER_MOUTH_X520_Z45_006_WIDTH",
+          "station_id": "LOWER_MOUTH_X520_Z45_006",
+          "axis": 1,
+          "feature": "Lower mouth stone local opening chord",
+          "confidence": "confirmed repeated local concrete intrados chord",
+          "notes": "Curve refinement at exact plane -520.0 and native Z45.0; first concrete Mesh/Hull hits, not a fitted curve, full apex or player clearance."
+        },
+        {
+          "id": "LOWER_MOUTH_X520_Z54_006_WIDTH",
+          "station_id": "LOWER_MOUTH_X520_Z54_006",
+          "axis": 1,
+          "feature": "Lower mouth stone local opening chord",
+          "confidence": "confirmed repeated local concrete intrados chord",
+          "notes": "Curve refinement at exact plane -520.0 and native Z54.0; first concrete Mesh/Hull hits, not a fitted curve, full apex or player clearance."
+        },
+        {
+          "id": "LOWER_MOUTH_X520_Z55_006_WIDTH",
+          "station_id": "LOWER_MOUTH_X520_Z55_006",
+          "axis": 1,
+          "feature": "Lower mouth stone local opening chord",
+          "confidence": "confirmed repeated local concrete intrados chord",
+          "notes": "Curve refinement at exact plane -520.0 and native Z55.0; first concrete Mesh/Hull hits, not a fitted curve, full apex or player clearance."
+        }
+      ],
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\portal_edges_06\\B_LOWER_STONE_CURVE_WIDTHS_006.json",
+      "review": "All thirteen station pairs have repeated concrete endpoints and restored source pose. Narrow top chords retained as sampled intrados at declared Z, not exact apex/full curve."
+    },
+    {
+      "timestamp_utc": "2026-10-02T11:47:04.163848+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B mouth near-jamb stone edge",
+      "unit": "source_units",
+      "target_xy": [
+        -2042.0,
+        1780.0
+      ],
+      "probe_player_z": 70.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -2042.000000 1716.009766 70.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -2042.0,
+            1780.68,
+            31.98
+          ],
+          "xy_error": 0.6800000000000637,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 94415"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -2042.000000 1715.329712 70.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -2042.0,
+            1780.0,
+            31.98
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 94415"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -2042.000000 1715.329712 70.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -2042.0,
+            1780.0,
+            31.98
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 94415"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -2042.000000 1843.990234 70.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -2042.0,
+            1781.54,
+            159.06
+          ],
+          "xy_error": 1.5399999999999636,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -2042.000000 1842.450195 70.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -2042.0,
+            1779.99,
+            159.04
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -2042.000000 1842.450195 70.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -2042.0,
+            1779.99,
+            159.04
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -2042.0,
+          1780.0,
+          31.98
+        ],
+        "ceiling": [
+          -2042.0,
+          1779.99,
+          159.04
+        ]
+      },
+      "endpoint_xy_separation": 0.009999999999990905,
+      "native_vertical_separation": 127.05999999999999,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_MOUTH_EDGE_X2042_Y1780_007",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\portal_edges_07\\B_MOUTH_EDGE_X2042_Y1780_007.json",
+      "wrapper_restore": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "review": "Near-jamb first sand-floor/concrete-intrados column individually checked. Tilt follows depth axis, avoiding transverse own-origin failure; independent floor/intrados repeats within.02native XY. Nonuniform edge profile retained; no complete smooth curve or constant depth.",
+      "accepted_columns": [
+        {
+          "id": "B_MOUTH_EDGE_X2042_Y1780_007_HEIGHT",
+          "feature": "B mouth near-jamb floor-to-stone height",
+          "confidence": "confirmed repeated selected local stone column",
+          "notes": "Exact surveyed XY only. Near-vertical depth-axis tilt and component identities explicit; no full aperture, smooth curve, full body or rendered-offset bound."
+        }
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-02T11:47:20.226158+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B mouth near-jamb stone edge",
+      "unit": "source_units",
+      "target_xy": [
+        -2040.0,
+        1780.0
+      ],
+      "probe_player_z": 70.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -2040.000000 1716.009766 70.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -2040.0,
+            1780.68,
+            31.97
+          ],
+          "xy_error": 0.6800000000000637,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 94415"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -2040.000000 1715.329712 70.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -2040.0,
+            1780.0,
+            31.97
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 94415"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -2040.000000 1715.329712 70.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -2040.0,
+            1780.0,
+            31.97
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 94415"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -2040.000000 1843.990234 70.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -2040.0,
+            1781.59,
+            162.42
+          ],
+          "xy_error": 1.5899999999999181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -2040.000000 1842.400269 70.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -2040.0,
+            1779.99,
+            161.86
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -2040.000000 1842.400269 70.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -2040.0,
+            1779.99,
+            161.86
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -2040.0,
+          1780.0,
+          31.97
+        ],
+        "ceiling": [
+          -2040.0,
+          1779.99,
+          161.86
+        ]
+      },
+      "endpoint_xy_separation": 0.009999999999990905,
+      "native_vertical_separation": 129.89000000000001,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_MOUTH_EDGE_X2040_Y1780_007",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\portal_edges_07\\B_MOUTH_EDGE_X2040_Y1780_007.json",
+      "wrapper_restore": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "review": "Near-jamb first sand-floor/concrete-intrados column individually checked. Tilt follows depth axis, avoiding transverse own-origin failure; independent floor/intrados repeats within.02native XY. Nonuniform edge profile retained; no complete smooth curve or constant depth.",
+      "accepted_columns": [
+        {
+          "id": "B_MOUTH_EDGE_X2040_Y1780_007_HEIGHT",
+          "feature": "B mouth near-jamb floor-to-stone height",
+          "confidence": "confirmed repeated selected local stone column",
+          "notes": "Exact surveyed XY only. Near-vertical depth-axis tilt and component identities explicit; no full aperture, smooth curve, full body or rendered-offset bound."
+        }
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-02T11:47:36.705278+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B mouth near-jamb stone edge",
+      "unit": "source_units",
+      "target_xy": [
+        -1928.0,
+        1780.0
+      ],
+      "probe_player_z": 70.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1928.000000 1716.009766 70.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1928.0,
+            1780.7,
+            31.28
+          ],
+          "xy_error": 0.7000000000000455,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 94417"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1928.000000 1715.309692 70.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1928.0,
+            1780.0,
+            31.29
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 94417"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1928.000000 1715.309692 70.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1928.0,
+            1780.0,
+            31.29
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 94417"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1928.000000 1843.990234 70.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -1928.0,
+            1781.69,
+            168.01
+          ],
+          "xy_error": 1.6900000000000546,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1928.000000 1842.300293 70.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -1928.0,
+            1780.07,
+            171.71
+          ],
+          "xy_error": 0.06999999999993634,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1928.000000 1842.230225 70.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -1928.0,
+            1780.0,
+            171.86
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 4,
+          "observed_pose": "setpos_exact -1928.000000 1842.230225 70.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -1928.0,
+            1780.0,
+            171.86
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1928.0,
+          1780.0,
+          31.29
+        ],
+        "ceiling": [
+          -1928.0,
+          1780.0,
+          171.86
+        ]
+      },
+      "endpoint_xy_separation": 0.0,
+      "native_vertical_separation": 140.57000000000002,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_MOUTH_EDGE_X1928_Y1780_007",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\portal_edges_07\\B_MOUTH_EDGE_X1928_Y1780_007.json",
+      "wrapper_restore": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "review": "Near-jamb first sand-floor/concrete-intrados column individually checked. Tilt follows depth axis, avoiding transverse own-origin failure; independent floor/intrados repeats within.02native XY. Nonuniform edge profile retained; no complete smooth curve or constant depth.",
+      "accepted_columns": [
+        {
+          "id": "B_MOUTH_EDGE_X1928_Y1780_007_HEIGHT",
+          "feature": "B mouth near-jamb floor-to-stone height",
+          "confidence": "confirmed repeated selected local stone column",
+          "notes": "Exact surveyed XY only. Near-vertical depth-axis tilt and component identities explicit; no full aperture, smooth curve, full body or rendered-offset bound."
+        }
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-02T11:47:54.617326+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B mouth near-jamb stone edge",
+      "unit": "source_units",
+      "target_xy": [
+        -1926.0,
+        1780.0
+      ],
+      "probe_player_z": 70.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1926.000000 1716.009766 70.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1926.0,
+            1780.7,
+            31.23
+          ],
+          "xy_error": 0.7000000000000455,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 94417"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1926.000000 1715.309692 70.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1926.0,
+            1780.0,
+            31.23
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 94417"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1926.000000 1715.309692 70.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1926.0,
+            1780.0,
+            31.23
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 94417"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1926.000000 1843.990234 70.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -1926.0,
+            1781.53,
+            158.61
+          ],
+          "xy_error": 1.5299999999999727,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1926.000000 1842.460205 70.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -1926.0,
+            1780.0,
+            158.62
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1926.000000 1842.460205 70.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -1926.0,
+            1780.0,
+            158.62
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1926.0,
+          1780.0,
+          31.23
+        ],
+        "ceiling": [
+          -1926.0,
+          1780.0,
+          158.62
+        ]
+      },
+      "endpoint_xy_separation": 0.0,
+      "native_vertical_separation": 127.39,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_MOUTH_EDGE_X1926_Y1780_007",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\portal_edges_07\\B_MOUTH_EDGE_X1926_Y1780_007.json",
+      "wrapper_restore": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "review": "Near-jamb first sand-floor/concrete-intrados column individually checked. Tilt follows depth axis, avoiding transverse own-origin failure; independent floor/intrados repeats within.02native XY. Nonuniform edge profile retained; no complete smooth curve or constant depth.",
+      "accepted_columns": [
+        {
+          "id": "B_MOUTH_EDGE_X1926_Y1780_007_HEIGHT",
+          "feature": "B mouth near-jamb floor-to-stone height",
+          "confidence": "confirmed repeated selected local stone column",
+          "notes": "Exact surveyed XY only. Near-vertical depth-axis tilt and component identities explicit; no full aperture, smooth curve, full body or rendered-offset bound."
+        }
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-02T11:48:10.886198+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Lower mouth near-jamb stone edge",
+      "unit": "source_units",
+      "target_xy": [
+        -520.0,
+        1366.0
+      ],
+      "probe_player_z": -105.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -583.990234 1366.000000 -105.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -519.85,
+            1366.0,
+            -112.63
+          ],
+          "xy_error": 0.14999999999997726,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 101837"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -584.140259 1366.000000 -105.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -520.0,
+            1366.0,
+            -112.63
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 101837"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -584.140259 1366.000000 -105.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -520.0,
+            1366.0,
+            -112.63
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 101837"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -456.009766 1366.000000 -105.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -518.64,
+            1366.0,
+            -26.15
+          ],
+          "xy_error": 1.3600000000000136,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -457.369751 1366.000000 -105.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -520.0,
+            1366.0,
+            -26.14
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -457.369751 1366.000000 -105.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -520.0,
+            1366.0,
+            -26.14
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -520.0,
+          1366.0,
+          -112.63
+        ],
+        "ceiling": [
+          -520.0,
+          1366.0,
+          -26.14
+        ]
+      },
+      "endpoint_xy_separation": 0.0,
+      "native_vertical_separation": 86.49,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "LOWER_MOUTH_EDGE_X520_Y1366_007",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\portal_edges_07\\LOWER_MOUTH_EDGE_X520_Y1366_007.json",
+      "wrapper_restore": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "review": "Near-jamb first sand-floor/concrete-intrados column individually checked. Tilt follows depth axis, avoiding transverse own-origin failure; independent floor/intrados repeats within.02native XY. Nonuniform edge profile retained; no complete smooth curve or constant depth.",
+      "accepted_columns": [
+        {
+          "id": "LOWER_MOUTH_EDGE_X520_Y1366_007_HEIGHT",
+          "feature": "Lower mouth near-jamb floor-to-stone height",
+          "confidence": "confirmed repeated selected local stone column",
+          "notes": "Exact surveyed XY only. Near-vertical depth-axis tilt and component identities explicit; no full aperture, smooth curve, full body or rendered-offset bound."
+        }
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-02T11:48:27.474756+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Lower mouth near-jamb stone edge",
+      "unit": "source_units",
+      "target_xy": [
+        -520.0,
+        1367.0
+      ],
+      "probe_player_z": -105.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -583.990234 1367.000000 -105.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -519.85,
+            1367.0,
+            -112.63
+          ],
+          "xy_error": 0.14999999999997726,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 101837"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -584.140259 1367.000000 -105.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -520.0,
+            1367.0,
+            -112.63
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 101837"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -584.140259 1367.000000 -105.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -520.0,
+            1367.0,
+            -112.63
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 101837"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -456.009766 1367.000000 -105.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -518.62,
+            1367.0,
+            -24.77
+          ],
+          "xy_error": 1.3799999999999955,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -457.389771 1367.000000 -105.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -520.0,
+            1367.0,
+            -24.6
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -457.389771 1367.000000 -105.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -520.0,
+            1367.0,
+            -24.6
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -520.0,
+          1367.0,
+          -112.63
+        ],
+        "ceiling": [
+          -520.0,
+          1367.0,
+          -24.6
+        ]
+      },
+      "endpoint_xy_separation": 0.0,
+      "native_vertical_separation": 88.03,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "LOWER_MOUTH_EDGE_X520_Y1367_007",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\portal_edges_07\\LOWER_MOUTH_EDGE_X520_Y1367_007.json",
+      "wrapper_restore": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "review": "Near-jamb first sand-floor/concrete-intrados column individually checked. Tilt follows depth axis, avoiding transverse own-origin failure; independent floor/intrados repeats within.02native XY. Nonuniform edge profile retained; no complete smooth curve or constant depth.",
+      "accepted_columns": [
+        {
+          "id": "LOWER_MOUTH_EDGE_X520_Y1367_007_HEIGHT",
+          "feature": "Lower mouth near-jamb floor-to-stone height",
+          "confidence": "confirmed repeated selected local stone column",
+          "notes": "Exact surveyed XY only. Near-vertical depth-axis tilt and component identities explicit; no full aperture, smooth curve, full body or rendered-offset bound."
+        }
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-02T11:48:43.861152+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Lower mouth near-jamb stone edge",
+      "unit": "source_units",
+      "target_xy": [
+        -520.0,
+        1480.0
+      ],
+      "probe_player_z": -105.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -583.990234 1480.000000 -105.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -519.85,
+            1480.0,
+            -112.47
+          ],
+          "xy_error": 0.14999999999997726,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 102111"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -584.140259 1480.000000 -105.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -520.0,
+            1480.0,
+            -112.47
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 102111"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -584.140259 1480.000000 -105.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -520.0,
+            1480.0,
+            -112.47
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 102111"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -456.009766 1480.000000 -105.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -518.56,
+            1480.0,
+            -21.6
+          ],
+          "xy_error": 1.4400000000000546,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -457.449707 1480.000000 -105.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -520.01,
+            1480.0,
+            -22.15
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -457.449707 1480.000000 -105.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -520.01,
+            1480.0,
+            -22.15
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -520.0,
+          1480.0,
+          -112.47
+        ],
+        "ceiling": [
+          -520.01,
+          1480.0,
+          -22.15
+        ]
+      },
+      "endpoint_xy_separation": 0.009999999999990905,
+      "native_vertical_separation": 90.32,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "LOWER_MOUTH_EDGE_X520_Y1480_007",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\portal_edges_07\\LOWER_MOUTH_EDGE_X520_Y1480_007.json",
+      "wrapper_restore": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "review": "Near-jamb first sand-floor/concrete-intrados column individually checked. Tilt follows depth axis, avoiding transverse own-origin failure; independent floor/intrados repeats within.02native XY. Nonuniform edge profile retained; no complete smooth curve or constant depth.",
+      "accepted_columns": [
+        {
+          "id": "LOWER_MOUTH_EDGE_X520_Y1480_007_HEIGHT",
+          "feature": "Lower mouth near-jamb floor-to-stone height",
+          "confidence": "confirmed repeated selected local stone column",
+          "notes": "Exact surveyed XY only. Near-vertical depth-axis tilt and component identities explicit; no full aperture, smooth curve, full body or rendered-offset bound."
+        }
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-02T11:49:00.379862+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Lower mouth near-jamb stone edge",
+      "unit": "source_units",
+      "target_xy": [
+        -520.0,
+        1482.0
+      ],
+      "probe_player_z": -105.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -583.990234 1482.000000 -105.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -519.85,
+            1482.0,
+            -112.44
+          ],
+          "xy_error": 0.14999999999997726,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 102111"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -584.140259 1482.000000 -105.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -520.0,
+            1482.0,
+            -112.44
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 102111"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -584.140259 1482.000000 -105.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -520.0,
+            1482.0,
+            -112.44
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 102111"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -456.009766 1482.000000 -105.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -518.63,
+            1482.0,
+            -25.65
+          ],
+          "xy_error": 1.3700000000000045,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -457.379761 1482.000000 -105.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -520.0,
+            1482.0,
+            -25.68
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -457.379761 1482.000000 -105.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -520.0,
+            1482.0,
+            -25.68
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -520.0,
+          1482.0,
+          -112.44
+        ],
+        "ceiling": [
+          -520.0,
+          1482.0,
+          -25.68
+        ]
+      },
+      "endpoint_xy_separation": 0.0,
+      "native_vertical_separation": 86.75999999999999,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "LOWER_MOUTH_EDGE_X520_Y1482_007",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\portal_edges_07\\LOWER_MOUTH_EDGE_X520_Y1482_007.json",
+      "wrapper_restore": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "review": "Near-jamb first sand-floor/concrete-intrados column individually checked. Tilt follows depth axis, avoiding transverse own-origin failure; independent floor/intrados repeats within.02native XY. Nonuniform edge profile retained; no complete smooth curve or constant depth.",
+      "accepted_columns": [
+        {
+          "id": "LOWER_MOUTH_EDGE_X520_Y1482_007_HEIGHT",
+          "feature": "Lower mouth near-jamb floor-to-stone height",
+          "confidence": "confirmed repeated selected local stone column",
+          "notes": "Exact surveyed XY only. Near-vertical depth-axis tilt and component identities explicit; no full aperture, smooth curve, full body or rendered-offset bound."
+        }
+      ]
     }
   ],
   "rejected_attempts": [
@@ -35250,6 +37645,117 @@
       ],
       "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\b_exit_structure_03\\B_EXIT_STEP_SIDE_SPANS_003.json",
       "review": "West X-2200 outside-origin rays repeat concrete Hull sideX-2084.03 atY1834Z4. East X-1800 own-origin dirt Hull hit rejected; all later side stations unexecuted. Full original status/observations/restoration retained. No paired width or absent-side inference accepted."
+    },
+    {
+      "timestamp_utc": "2026-10-02T11:44:57.652545+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B mouth near-jamb stone edge",
+      "unit": "source_units",
+      "target_xy": [
+        -2042.0,
+        1780.0
+      ],
+      "probe_player_z": 70.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -2105.990234 1780.000000 70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -2041.32,
+            1780.0,
+            31.98
+          ],
+          "xy_error": 0.6800000000000637,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 94415"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -2106.670166 1780.000000 70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -2042.0,
+            1780.0,
+            31.98
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 94415"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -2106.670166 1780.000000 70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -2042.0,
+            1780.0,
+            31.98
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 94415"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1978.009766 1780.000000 70.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -2040.44,
+            1780.0,
+            160.71
+          ],
+          "xy_error": 1.5599999999999454,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "incomplete; collision hit at ray origin",
+      "failure": {
+        "feature": "ceiling",
+        "iteration": 2,
+        "observed_pose": "setpos_exact -1979.569702 1780.000000 70.000000;setang_exact -88.999901 0.000000 0.000000",
+        "hit": [
+          -2043.56,
+          1780.0,
+          71.12
+        ],
+        "eye_origin": [
+          -2043.5599525599555,
+          1780.0,
+          71.1170645792034
+        ],
+        "reason": "Origin inside collision; no surface endpoint accepted"
+      },
+      "id": "B_MOUTH_EDGE_X2042_Y1780_006",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\portal_edges_06\\B_MOUTH_EDGE_X2042_Y1780_006.json",
+      "wrapper_recovery": {
+        "timestamp_utc": "2026-10-02T11:44:56.768516+00:00",
+        "original_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+        "status": "stopped; preserve reports and inspect before resuming",
+        "completed": [],
+        "error": "Command '['C:\\\\Users\\\\mikea\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe', 'scripts/cs2_probe_column.py', '--area', 'B mouth near-jamb stone edge', '--build', '25640462', '--xy', '-2042', '1780', '--z', '70', '--yaw', '0', '--features', 'floor', 'ceiling', '--session', '..\\\\reference_cache\\\\console_recovery_20261001_01', '--output', '..\\\\reference_cache\\\\crash_recovery_survey\\\\portal_edges_06\\\\B_MOUTH_EDGE_X2042_Y1780_006.json']' returned non-zero exit status 1.",
+        "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+        "restore_numeric_errors": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "review": "Floor repeats at[-2042,1780,31.98] preserved. Ceiling iterative X correction moved eye toX-2043.56 inside stone; own-origin rejected. No accepted full column or zero clearance. All later planned columns unexecuted. Wrapper restored original source pose exactly. Retry changes near-vertical tilt to normal wall-depth axis to keep transverse X fixed."
     }
   ]
 }

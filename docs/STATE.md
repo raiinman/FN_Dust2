@@ -8,7 +8,7 @@ with its configured model; no model override or agent delegation requested.
 ## Authority and preserved work
 
 GitHub main authoritative; fetch/check before resuming. Crash baseline35eaa642,
-dirty work preserved4c7df48, mergedab4e484. Latest pushed checkpoint858d906
+dirty work preserved4c7df48, mergedab4e484. Latest pushed checkpointbc4a2cc
 before this update. Active C:/Users/mikea/Documents/Codex/2026-09-30/new-chat/
 FN_Dust2, branch codex/crash-recovery-20261001 pushes meaningful checkpoints
 to main. OneDrive workspace separate; synced sources/ read-only. Raw/private
@@ -17,15 +17,15 @@ recovery: evidence/CRASH_RECOVERY_20261001.md. Latest Git commit pins checkpoint
 
 ## Accepted evidence and limits
 
-- 226 individually reviewed JPEGs; eight historical exclusions. Original24/
-  recovered55 re-inspected. IMAGE_AUDIT226 hashes/native UTC dates PASS;
+- 229 individually reviewed JPEGs; eight historical exclusions. Original24/
+  recovered55 re-inspected. IMAGE_AUDIT229 hashes/native UTC dates PASS;
   sixteen critical/eleven subarea required view sets PASS. Clipped/overlay/
   nonselected attempts preserved. View coverage never grants metric acceptance.
 - Scale2.54cm/native from two repeated inch-rangefinder anchors. UE=(2.54x,
   -2.54y,2.54z), inverse/length/native-right checks PASS. Phase2 editor/exporter
   roundtrip unverified. Unsaved Hammer128 calibration cube is not production.
 - 13 floor datums;54 Short/54 Tunnel stair samples;434 connector floor/cover/
-  cap points;321 calibrated feature measurements.113 local architectural chords
+  cap points;343 calibrated feature measurements.126 local architectural chords
   never become complete room rectangles or minimum full-route clearances.
 - Short12 rendered/native risers, rise234.3912cm/run359.6132cm sampled; nonuniform.
   Tunnel18 risers/18 local planes/36 independent offsets/16 tread-level widths;
@@ -43,7 +43,7 @@ recovery: evidence/CRASH_RECOVERY_20261001.md. Latest Git commit pins checkpoint
 - Long/Mid/B door profiles, B Window, Upper/Lower passages and Xbox retain local
   point/section/component limits in ARCHITECTURAL_ENDPOINTS and MEASUREMENTS.
   Long inner timber header/stone intrados are separate. B beam-versus-leaf
-  identity unresolved. Three B mouth/three Lower stone columns plus clean
+  identity unresolved. Thirteen B mouth/ten Lower stone columns plus clean
   complementary arch details accepted locally; full arch curves/depth/ends open.
 - A entrance three principal20.32/30.48cm rise/run sections,total60.96/91.44cm.
   Long/Pit43 ramp center/companion samples are not full endpoint bounds. Pit
@@ -149,10 +149,25 @@ plane rounding and calibrated clean-image corner boxes. Exposed Z104 section
 length interval692.99703..693.15382cm accepted;322 physical features. Annotation
 rendered/inspected. No hidden/full-height body or ground footprint acceptance.
 
-ONE ACTIVE source controller: cs2_probe_endpoints.py with portal_edges_06/
-widths_config.json -> B_LOWER_STONE_CURVE_WIDTHS_006.json. Thirteen fresh
-B/Lower curve/near-apex chords; inspect status/material/repeats/restoration before
-another source input. Eight planned near-jamb columns remain unexecuted.
+portal_edges_06 horizontal survey completed/restored exactly:13 new B/Lower
+concrete intrados chords,52 repeated observations.343 physical features/126
+local architectural chords. STONE_PORTAL_PROFILES now23 widths/23 columns/four
+depths; numerical table avoids crowded near-apex labels; rendered/inspected.
+Lower nativeZ10/20 chord widths265.4300/266.0904cm are nonmonotone; preserve
+component relief instead of fitting a symmetric monotone arch.
+
+First near-jamb column006 retained as rejected: repeated floor valid; tilted
+ceiling X correction entered stone/own-origin. Wrapper restored exactly;
+other006 columns were unexecuted. portal_edges_07 completed all eight retry
+columns with B yaw90/Lower yaw0 holding the transverse coordinate fixed. Exact
+source-pose restoration verified; all selected sand-floor/concrete-intrados
+repeats reviewed.343 physical measurements/126 chords. Updated arch table and
+calibrated architectural chord overview rebuilt/rendered/inspected.
+
+ONE ACTIVE source controller: run_high_checks_004.py with private
+high_room_checks_04/plan.json,64 fresh midpoint directions fixed before capture
+for higher Long/Upper sections. Inspect driver_recovery_004/status/repeats/
+restoration before another input; never duplicate completed report IDs.
 
 B-wall calibration captures completed/restored exactly. Eight visually inspected
 fit markers and ten independent three-depth markers pass constrained native-pose
@@ -161,8 +176,9 @@ dates PASS. Two absent marks excluded without invented pixels. Overlapping first
 hold layout and rejected full11parameter matrix (held1.17809px) retained. Clean
 wall view and native corner crops inspected; structural boundary acceptance
 pending component-aware native verification. No full footprint or Gate1 PASS.
-portal_edges_06/columns_plan.json selects eight near-jamb floor/intrados columns;
-never restart completed component reports or camera captures.
+portal_edges_06 columns stopped at first own-origin failure; portal_edges_07
+completed all eight corrected retries. Never restart either original plan or
+completed component reports/camera captures.
 
 Temporary engine_no_focus_sleep0(original20), m_yaw/m_pitch0(original.022).
 Movement released/maxspeed320/noclip1. Restore/read back temporary originals at

@@ -43,7 +43,7 @@ def build(root):
         panels.append((portal,sorted(columns),widths,depths))
     with (ref/'STONE_PORTAL_PROFILE_SAMPLES.csv').open('w',newline='') as f:
         w=csv.DictWriter(f,fieldnames=rows[0]);w.writeheader();w.writerows(rows)
-    parts=['<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="960" viewBox="0 0 1400 960">','<rect width="1400" height="960" fill="#12202b"/>','<g fill="#edf4f8" font-family="Arial">','<text x="35" y="38" font-size="25">B and Lower stone mouths — measured local sections</text>','<text x="35" y="70" font-size="16">Build25640462 · 2.54cm/native · independent floor/intrados, widths and masonry depth</text>']
+    parts=['<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1240" viewBox="0 0 1400 1240">','<rect width="1400" height="1240" fill="#12202b"/>','<g fill="#edf4f8" font-family="Arial">','<text x="35" y="38" font-size="25">B and Lower stone mouths — measured local sections</text>','<text x="35" y="70" font-size="16">Build25640462 · 2.54cm/native · independent floor/intrados, widths and masonry depth</text>']
     for n,(portal,columns,widths,depths) in enumerate(panels):
         left=45+n*680;values=[v for c in columns for v in [c[0]]]+[v for w in widths for v in w[:2]];origin=min(values)-10;sx=lambda x:left+80+(x-origin)*3.4
         zmin=math.floor(min(c[1] for c in columns)/50)*50;zmax=math.ceil(max(c[2] for c in columns)/50)*50;scale=460/(zmax-zmin);sy=lambda z:650-(z-zmin)*scale
@@ -54,11 +54,14 @@ def build(root):
             pts=' '.join(f'{sx(c[0]):.2f},{sy(c[key]):.2f}' for c in columns);parts.append(f'<polyline points="{pts}" fill="none" stroke="{color}" stroke-dasharray="5 5"/>')
             for c in columns:parts.append(f'<circle cx="{sx(c[0]):.2f}" cy="{sy(c[key]):.2f}" r="4" fill="{color}"><title>{escape(c[3])}; native{c[0]},{c[key]}</title></circle>')
         for lo,hi,z,ident in widths:
-            yy=sy(z);parts.append(f'<path d="M{sx(lo):.2f},{yy:.2f}H{sx(hi):.2f}" stroke="#b89bef" stroke-width="2"><title>{escape(ident)}</title></path><text x="{left+540}" y="{yy+4:.2f}" font-size="12" fill="#b89bef">{(hi-lo)*factor:.2f}cm</text>')
+            yy=sy(z);parts.append(f'<path d="M{sx(lo):.2f},{yy:.2f}H{sx(hi):.2f}" stroke="#b89bef" stroke-width="2"><title>{escape(ident)}; Z{z}native; width{(hi-lo)*factor:.4f}cm</title></path>')
         parts.append(f'<text x="{left}" y="700" font-size="15">{len(columns)} columns; {len(widths)} width chords</text>')
         parts.append(f'<text x="{left}" y="730" font-size="15">Local masonry depths(cm): {", ".join(str(v) for v in depths)}</text>')
         parts.append(f'<text x="{left}" y="760" font-size="14">Transverse world axis {"XY"[portal["transverse_axis"]]}; hover points for native coordinates.</text>')
-    parts+=['<text x="35" y="815" font-size="16">Gold: stone intrados. Green: sand floor. Purple: opening chords. Dashed connectors show sample order.</text>','<text x="35" y="846" font-size="16">Sections exclude separate timber roofs, external stair flight and intervening Wood cover.</text>','<text x="35" y="877" font-size="16">Full curve/apex/jamb extents, depth variation and rendered offsets require separate bounded evidence.</text>','<text x="35" y="918" font-size="16">Gate1 FAIL. These local sections do not certify continuous surfaces or the whole-map footprint.</text>','</g></svg>']
+        parts.append(f'<text x="{left}" y="792" font-size="15" fill="#b89bef">Chord elevations (native Z) / widths (cm)</text>')
+        for i,(lo,hi,z,ident) in enumerate(sorted(widths,key=lambda w:w[2])):
+            parts.append(f'<text x="{left+15}" y="{817+i*18}" font-size="14" fill="#b89bef">Z{z:+.2f} / {(hi-lo)*factor:.4f}cm<title>{escape(ident)}</title></text>')
+    parts+=['<text x="35" y="1080" font-size="16">Gold: stone intrados. Green: sand floor. Purple: opening chords. Dashed connectors show sample order.</text>','<text x="35" y="1112" font-size="16">Sections exclude separate timber roofs, external stair flight and intervening Wood cover.</text>','<text x="35" y="1144" font-size="16">Full curve/apex/jamb extents, depth variation and rendered offsets require separate bounded evidence.</text>','<text x="35" y="1190" font-size="16">Gate1 FAIL. These local sections do not certify continuous surfaces or the whole-map footprint.</text>','</g></svg>']
     (ref/'STONE_PORTAL_PROFILES.svg').write_text('\n'.join(parts)+'\n',encoding='utf-8')
     print(len(rows),'reviewed stone portal measurements; sample-only profiles')
 
