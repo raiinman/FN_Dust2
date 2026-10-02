@@ -6,7 +6,7 @@ Baseline: CS2 build 25640462, 2026-10-01 UTC.
 | ID | Unknown | Present bound | Required resolution |
 | --- | --- | --- | --- |
 | U01 | Capture continuity | Old workers did not survive. New single-owner worker verified after VConsole disconnect; 218 area frames reviewed, eight excluded; four native radar crops inspected separately | Keep exact echo checks and rendered-area/pose checks; extend usable route-oriented coverage |
-| U02 | Critical lengths/widths | 224 calibrated collision-feature measurements;13 floor datums,54 Short and54 Tunnel stair points and313 connector surface points. Long/B/Mid local openings, Short flight, Xbox/CT crate/elevator point-pair rises accepted; full architectural bounds incomplete | Structural aperture endpoints, room lengths and remaining route/cover dimensions |
+| U02 | Critical lengths/widths | 244 calibrated collision-feature measurements;13 floor datums,54 Short and54 Tunnel stair points and313 connector surface points. Long/B/Mid local openings, Short flight, Xbox/CT crate/elevator point-pair rises accepted; full architectural bounds incomplete | Structural aperture endpoints, room lengths and remaining route/cover dimensions |
 | U03 | Elevations/slopes/stairs | 13 repeated native floor datums with calibrated conversion; CT floor/overhead separation 167.69 native units; 54 repeated Short floor samples plus12 repeated center riser faces; Short count/rise/run and Tunnel18 count,18 rises/16 axial intervals,16 local widths accepted; full Tunnel sides/terminal edges and remaining slopes unresolved | Floor endpoints, stair counts and rise/run readings |
 | U04 | Map scale and axes | Native rangefinder anchors accept factor2.54cm/source unit; native right-axis tests and Epic documentation fix UE=(2.54x,-2.54y,2.54z), reversible math checks pass | Phase 2 exporter/editor round-trip must preserve convention exactly once; no import accepted yet |
 | U05 | Per-area directional coverage | 218 current-build area captures, eight exclusions; sixteen critical-area view sets and eleven subarea sets accepted; all required directional sets accepted; individual image limitations retained | Preserve complementary view coverage; resolve full structural metric evidence |
@@ -52,7 +52,7 @@ Passage survey:11 additional local wall/cover sections and8 repeated floor/first
 Wood overhead columns registered. Lower local concrete widths219.3/224native,
 Upper narrow passage128native atY1500/1600/1700. B approach sections atY1900/2000
 are separate from roofed passage. ARCHITECTURAL_SURVEY_PLAN is a rendered,
-inspected85-chord layered section plan with13 floor datums; it remains separate
+inspected100-chord layered section plan with13 floor datums; it remains separate
 from continuous architectural footprint acceptance.
 
 Xbox visible face survey: two outside-origin same-height body-depth spans
@@ -80,7 +80,7 @@ X1274/Y550 and eastX1590/Y750 surfaces excluded from ramp floor; one sharp
 boundary failure preserved. Exact terminal/under-cap strips remain unresolved.
 
 
-Pit feature-separated survey:313 connector points and224 calibrated measurements
+Pit feature-separated survey:313 connector points and244 calibrated measurements
 now registered. Repeated inner concrete curb facesX1305.03/1542.97 atY350/500/650
 give three604.3676cm road chords and six nonuniform local curb rises. Twelve
 floor/top columns distinguish side strips. Thirty-eight additional low-origin
@@ -112,7 +112,7 @@ final outer-facade ray started inside collision and was rejected. Original faile
 batch and all completed observations preserved; camera restored/read back.
 Only the three earlier complete repeat sections accepted, not the failed ray,
 full rectangular opening or minimum body clearance. Architectural plan79 chords;
-224 calibrated measurements,313 connector points,218 reviewed registered JPEGs.
+244 calibrated measurements,313 connector points,218 reviewed registered JPEGs.
 Pit side strips independently checked at six local transverse sections: maximum
 observed error.72136cm. Separate from35 road checks(max2.56675cm); no continuous
 side-strip or universal unseen-surface acceptance. Gate1 remains FAIL.
@@ -123,6 +123,16 @@ five repeated floor/first-timber-header columns atY744 with fixed headerZ190.34;
 six local passage chords atY730/744/756 andZ64/160. Exact Wood_Dense leaf versus
 concrete wall identities retained. Two reviewed clean interior/street-side JPEGs
 show header, angled leaves and surrounding arch; crop/hidden floor limits explicit.
-Current224 calibrated measurements,85 local architectural chords,218 reviewed
+Current244 calibrated measurements,85 local architectural chords,218 reviewed
 registered JPEGs,313 connector floor/top points. No full chamber/arch, minimum
 body-clearance envelope or whole-map footprint acceptance. Gate1 remains FAIL.
+
+
+Inner Long arch/chamber checkpoint:5 accepted concrete intrados columns and4
+independent intrados chords distinguish stone curve from timber header. Two
+leaf/jamb failures preserved with explicit restore; unexecuted edge stations
+remain unmeasured. LONG_INNER_PORTAL_PROFILE separates sample components and
+was rendered/inspected. Eleven longitudinal/upper-lateral chamber sections
+include one explicit crate-to-wall gap; low concrete spans about10.46m, high
+recess differs.244 calibrated measurements/100 local chords now registered.
+Full chamber/arch/leaf envelopes and whole-map footprint remain unresolved.
