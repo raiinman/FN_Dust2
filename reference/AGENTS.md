@@ -419,3 +419,9 @@ atY2340/2400 and explicit nearby sameY top points. B_COVER_CONTACT_SECTIONS
 JSON/CSV/SVG bounds their differentX height comparisons; physical rows retain
 that scope. Ground occludes lower timber. Matching independent origins do not
 grant full underside, highest top, rendered seam or entire covered-body envelope.
+
+B_PLATFORM_OVERHEAD_POINTS JSON/SVG projects reviewed repeated ground/covered
+top and report008 timber points into independently checked B_PLATFORM_OVERHEAD_009.
+Rebuild/render/inspect; keep subZ5 ground extrapolation explicit. Overlapping
+height points are not corners. No timber ends, hidden floor or full site boundary
+is accepted from point projections alone.

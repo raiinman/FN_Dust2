@@ -76290,6 +76290,566 @@
       "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\b_cover_contacts_06\\report_Y2400.json",
       "accepted_sections": [],
       "review": "Two outside origins agree local concrete-ground/first-covered-Wood visibility interval. Underlying grade occludes timber below; numerical bounds are not full hidden body base or exact rendered cloth contact. Selected top at differentX is a point-pair height comparison, not highest entire body."
+    },
+    {
+      "id": "B_PLATFORM_FRONT_COMPONENT_PREFLIGHT_007",
+      "source_build": "25640462",
+      "area": "B Site raised central ground and front retaining components",
+      "source_map": "de_dust2",
+      "timestamp_utc": "2026-10-02T16:58:19.621276+00:00",
+      "unit": "source_units",
+      "config": {
+        "id": "B_PLATFORM_FRONT_COMPONENT_PREFLIGHT_007",
+        "build": "25640462",
+        "area": "B Site raised central ground and front retaining components",
+        "stations": [
+          {
+            "id": "X1700_Y2500_Z20",
+            "pose": [
+              -1700,
+              2500,
+              -44
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "X1700_Y2600_Z20",
+            "pose": [
+              -1700,
+              2600,
+              -44
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "X1720_Y2500_Z20",
+            "pose": [
+              -1720,
+              2500,
+              -44
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "X1720_Y2600_Z20",
+            "pose": [
+              -1720,
+              2600,
+              -44
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "X1700_Y2500_Z40",
+            "pose": [
+              -1700,
+              2500,
+              -24
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "X1700_Y2500_Z60",
+            "pose": [
+              -1700,
+              2500,
+              -4
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "X1700_Y2600_Z40",
+            "pose": [
+              -1700,
+              2600,
+              -24
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "X1700_Y2600_Z60",
+            "pose": [
+              -1700,
+              2600,
+              -4
+            ],
+            "yaws": [
+              180
+            ]
+          }
+        ],
+        "scope": "Westward first hits atY2500/2600. IndependentX-1700/-1720 ateyeZ20; higher40/60 tests distinguish raised ground/masonry versus adjoining timber rail/cover. Independently repeated source floors atX-1700 areZ8.77/6.78; eye20 above them, all origins still subject to own-hit guard. Preserve sloped-ground hits and remote walls separately; no assumed vertical platform, full perimeter or constant floor."
+      },
+      "observations": [
+        {
+          "station_id": "X1700_Y2500_Z20",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1700.000000 2500.000000 -44.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1700,
+            2500,
+            20
+          ],
+          "hit": [
+            -1716.11,
+            2500.0,
+            20.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  16.11 inches (  1.34 feet)"
+        },
+        {
+          "station_id": "X1700_Y2500_Z20",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1700.000000 2500.000000 -44.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1700,
+            2500,
+            20
+          ],
+          "hit": [
+            -1716.11,
+            2500.0,
+            20.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  16.11 inches (  1.34 feet)"
+        },
+        {
+          "station_id": "X1700_Y2600_Z20",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1700.000000 2600.000000 -44.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1700,
+            2600,
+            20
+          ],
+          "hit": [
+            -1718.49,
+            2600.0,
+            20.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  18.49 inches (  1.54 feet)"
+        },
+        {
+          "station_id": "X1700_Y2600_Z20",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1700.000000 2600.000000 -44.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1700,
+            2600,
+            20
+          ],
+          "hit": [
+            -1718.49,
+            2600.0,
+            20.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  18.49 inches (  1.54 feet)"
+        },
+        {
+          "station_id": "X1720_Y2500_Z20",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1720.000000 2500.000000 -44.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1720,
+            2500,
+            20
+          ],
+          "hit": [
+            -1720.0,
+            2500.0,
+            20.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:   0.00 inches (  0.00 feet)"
+        }
+      ],
+      "status": "failed; inspect before continuing",
+      "original_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "error": "Ray starts inside collision; own-origin hit is not an endpoint",
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\b_platform_front_07\\report.json",
+      "accepted_sections": [],
+      "accepted_for_production": false,
+      "review": "Two safeZ20 low pairs in failed007 exactly match new fartherX-1680 companions in completed008. FirstWood normalX-1716.11/Y2500 andX-1718.49/Y2600 unchanged atZ40/60. These are timber retaining/front components, not automatically masonry, ground boundary or entire platform. FailedX-1720 own-origin hit excluded; no corner/body/perimeter inference."
+    },
+    {
+      "id": "B_PLATFORM_FRONT_COMPONENT_RESUME_008",
+      "source_build": "25640462",
+      "area": "B Site raised central ground and front timber components",
+      "source_map": "de_dust2",
+      "timestamp_utc": "2026-10-02T17:00:13.201489+00:00",
+      "unit": "source_units",
+      "config": {
+        "id": "B_PLATFORM_FRONT_COMPONENT_RESUME_008",
+        "build": "25640462",
+        "area": "B Site raised central ground and front timber components",
+        "stations": [
+          {
+            "id": "X1680_Y2500_Z20",
+            "pose": [
+              -1680,
+              2500,
+              -44
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "X1680_Y2600_Z20",
+            "pose": [
+              -1680,
+              2600,
+              -44
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "X1700_Y2500_Z40",
+            "pose": [
+              -1700,
+              2500,
+              -24
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "X1700_Y2500_Z60",
+            "pose": [
+              -1700,
+              2500,
+              -4
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "X1700_Y2600_Z40",
+            "pose": [
+              -1700,
+              2600,
+              -24
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "X1700_Y2600_Z60",
+            "pose": [
+              -1700,
+              2600,
+              -4
+            ],
+            "yaws": [
+              180
+            ]
+          }
+        ],
+        "scope": "Separately named completion of missing higher rays plus fresh farther companion. Failed007 preserved two completeX-1700 Z20 pairs: first Wood_Plank Hull atX-1716.11/Y2500 andX-1718.49/Y2600. Its subsequentX-1720 origin lay inside timber, rejected; all0 restore. NewX-1680 low companion is outside the observed first face; do not repeat completedX-1700 low rays. Higher40/60 first hits remain component diagnostics, no vertical platform/ground perimeter inference."
+      },
+      "observations": [
+        {
+          "station_id": "X1680_Y2500_Z20",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2500.000000 -44.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2500,
+            20
+          ],
+          "hit": [
+            -1716.11,
+            2500.0,
+            20.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  36.11 inches (  3.01 feet)"
+        },
+        {
+          "station_id": "X1680_Y2500_Z20",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1680.000000 2500.000000 -44.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2500,
+            20
+          ],
+          "hit": [
+            -1716.11,
+            2500.0,
+            20.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  36.11 inches (  3.01 feet)"
+        },
+        {
+          "station_id": "X1680_Y2600_Z20",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1680.000000 2600.000000 -44.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2600,
+            20
+          ],
+          "hit": [
+            -1718.49,
+            2600.0,
+            20.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  38.49 inches (  3.21 feet)"
+        },
+        {
+          "station_id": "X1680_Y2600_Z20",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1680.000000 2600.000000 -44.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1680,
+            2600,
+            20
+          ],
+          "hit": [
+            -1718.49,
+            2600.0,
+            20.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  38.49 inches (  3.21 feet)"
+        },
+        {
+          "station_id": "X1700_Y2500_Z40",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1700.000000 2500.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1700,
+            2500,
+            40
+          ],
+          "hit": [
+            -1716.11,
+            2500.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  16.11 inches (  1.34 feet)"
+        },
+        {
+          "station_id": "X1700_Y2500_Z40",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1700.000000 2500.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1700,
+            2500,
+            40
+          ],
+          "hit": [
+            -1716.11,
+            2500.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  16.11 inches (  1.34 feet)"
+        },
+        {
+          "station_id": "X1700_Y2500_Z60",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1700.000000 2500.000000 -4.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1700,
+            2500,
+            60
+          ],
+          "hit": [
+            -1716.11,
+            2500.0,
+            60.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  16.11 inches (  1.34 feet)"
+        },
+        {
+          "station_id": "X1700_Y2500_Z60",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1700.000000 2500.000000 -4.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1700,
+            2500,
+            60
+          ],
+          "hit": [
+            -1716.11,
+            2500.0,
+            60.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  16.11 inches (  1.34 feet)"
+        },
+        {
+          "station_id": "X1700_Y2600_Z40",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1700.000000 2600.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1700,
+            2600,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2600.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  18.49 inches (  1.54 feet)"
+        },
+        {
+          "station_id": "X1700_Y2600_Z40",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1700.000000 2600.000000 -24.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1700,
+            2600,
+            40
+          ],
+          "hit": [
+            -1718.49,
+            2600.0,
+            40.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  18.49 inches (  1.54 feet)"
+        },
+        {
+          "station_id": "X1700_Y2600_Z60",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1700.000000 2600.000000 -4.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1700,
+            2600,
+            60
+          ],
+          "hit": [
+            -1718.49,
+            2600.0,
+            60.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  18.49 inches (  1.54 feet)"
+        },
+        {
+          "station_id": "X1700_Y2600_Z60",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1700.000000 2600.000000 -4.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1700,
+            2600,
+            60
+          ],
+          "hit": [
+            -1718.49,
+            2600.0,
+            60.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  18.49 inches (  1.54 feet)"
+        }
+      ],
+      "status": "complete; architectural interpretation pending",
+      "original_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\b_platform_front_resume_08\\report.json",
+      "accepted_sections": [],
+      "review": "Two safeZ20 low pairs in failed007 exactly match new fartherX-1680 companions in completed008. FirstWood normalX-1716.11/Y2500 andX-1718.49/Y2600 unchanged atZ40/60. These are timber retaining/front components, not automatically masonry, ground boundary or entire platform. FailedX-1720 own-origin hit excluded; no corner/body/perimeter inference."
     }
   ],
   "rejected_attempts": [
@@ -78463,6 +79023,228 @@
       "architectural_review": {
         "scope": "Complete pairs preserved; intermediate gravelMesh atZ241.25 contradicts coarse concrete/Hull-only transition. No bracket accepted. Separately named narrow concrete/gravel plan013 uses inspected components and preserves this failure."
       }
+    },
+    {
+      "id": "B_PLATFORM_FRONT_COMPONENT_PREFLIGHT_007",
+      "source_build": "25640462",
+      "area": "B Site raised central ground and front retaining components",
+      "source_map": "de_dust2",
+      "timestamp_utc": "2026-10-02T16:58:19.621276+00:00",
+      "unit": "source_units",
+      "config": {
+        "id": "B_PLATFORM_FRONT_COMPONENT_PREFLIGHT_007",
+        "build": "25640462",
+        "area": "B Site raised central ground and front retaining components",
+        "stations": [
+          {
+            "id": "X1700_Y2500_Z20",
+            "pose": [
+              -1700,
+              2500,
+              -44
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "X1700_Y2600_Z20",
+            "pose": [
+              -1700,
+              2600,
+              -44
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "X1720_Y2500_Z20",
+            "pose": [
+              -1720,
+              2500,
+              -44
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "X1720_Y2600_Z20",
+            "pose": [
+              -1720,
+              2600,
+              -44
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "X1700_Y2500_Z40",
+            "pose": [
+              -1700,
+              2500,
+              -24
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "X1700_Y2500_Z60",
+            "pose": [
+              -1700,
+              2500,
+              -4
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "X1700_Y2600_Z40",
+            "pose": [
+              -1700,
+              2600,
+              -24
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "X1700_Y2600_Z60",
+            "pose": [
+              -1700,
+              2600,
+              -4
+            ],
+            "yaws": [
+              180
+            ]
+          }
+        ],
+        "scope": "Westward first hits atY2500/2600. IndependentX-1700/-1720 ateyeZ20; higher40/60 tests distinguish raised ground/masonry versus adjoining timber rail/cover. Independently repeated source floors atX-1700 areZ8.77/6.78; eye20 above them, all origins still subject to own-hit guard. Preserve sloped-ground hits and remote walls separately; no assumed vertical platform, full perimeter or constant floor."
+      },
+      "observations": [
+        {
+          "station_id": "X1700_Y2500_Z20",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1700.000000 2500.000000 -44.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1700,
+            2500,
+            20
+          ],
+          "hit": [
+            -1716.11,
+            2500.0,
+            20.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  16.11 inches (  1.34 feet)"
+        },
+        {
+          "station_id": "X1700_Y2500_Z20",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1700.000000 2500.000000 -44.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1700,
+            2500,
+            20
+          ],
+          "hit": [
+            -1716.11,
+            2500.0,
+            20.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  16.11 inches (  1.34 feet)"
+        },
+        {
+          "station_id": "X1700_Y2600_Z20",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1700.000000 2600.000000 -44.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1700,
+            2600,
+            20
+          ],
+          "hit": [
+            -1718.49,
+            2600.0,
+            20.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  18.49 inches (  1.54 feet)"
+        },
+        {
+          "station_id": "X1700_Y2600_Z20",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1700.000000 2600.000000 -44.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1700,
+            2600,
+            20
+          ],
+          "hit": [
+            -1718.49,
+            2600.0,
+            20.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  18.49 inches (  1.54 feet)"
+        },
+        {
+          "station_id": "X1720_Y2500_Z20",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1720.000000 2500.000000 -44.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1720,
+            2500,
+            20
+          ],
+          "hit": [
+            -1720.0,
+            2500.0,
+            20.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:   0.00 inches (  0.00 feet)"
+        }
+      ],
+      "status": "failed; inspect before continuing",
+      "original_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "error": "Ray starts inside collision; own-origin hit is not an endpoint",
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\b_platform_front_07\\report.json",
+      "accepted_sections": [],
+      "accepted_for_production": false,
+      "review": "Two safeZ20 low pairs in failed007 exactly match new fartherX-1680 companions in completed008. FirstWood normalX-1716.11/Y2500 andX-1718.49/Y2600 unchanged atZ40/60. These are timber retaining/front components, not automatically masonry, ground boundary or entire platform. FailedX-1720 own-origin hit excluded; no corner/body/perimeter inference."
     }
   ]
 }

@@ -433,3 +433,9 @@ height brackets and selected corrected top points. Rebuild/render/inspect;
 measurement_rows feeds physical register. Top and contact have explicit differentX
 at sameY; preserve .01native numerical allowance per end, nearer ground occlusion
 and hidden-body/rendered-cloth limits. No entire cover height or flat floor inferred.
+
+build_b_platform_overlay.py validates repeated connector ground/cover samples,
+complete independent-origin timber report008, source restoration, native
+rangefinder and checked camera/image hash before writing B_PLATFORM_OVERHEAD_POINTS.
+Rebuild/render/inspect JSON/SVG. Preserve failed007 and its own-origin exclusion;
+no complete timber body, ground interpolation or architectural perimeter inferred.

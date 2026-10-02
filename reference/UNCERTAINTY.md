@@ -411,3 +411,11 @@ give bounded different-X comparisons[249.7709,250.03125]cm and
 Ground occludes timber below; no hidden base, exact cloth contact, whole roof or
 flat floor accepted. Contact sections and failed ground-model SVGs rebuilt/
 rendered/inspected. B cover/platform perimeters and whole-map critical extents open.
+
+B_PLATFORM_OVERHEAD_009 passes8fit/10independent varied-height markers,
+max.220304/.531624px at actualpitch89. Four originals/JPEGs and18 marker crops
+inspected; faint red HOLD04 separately extracted after original reader failure.
+260 image hashes/native dates PASS. B_PLATFORM_OVERHEAD_POINTS rendered/inspected:
+22 ground/covered-top/timber projections, no full boundaries. Failedfront007
+own-origin hit preserved;008 completes12 fresh observations/all0 restore.
+Critical dimensions and bounded whole-map architectural footprint remain FAIL.

@@ -454,3 +454,11 @@ southern plaster spans3251.2cm at both heights. Count382 bounded measurements/
 cover/scaffold ground occlusion retained; no rectangular courtyard, entire ground
 footprint or minimum walking clearance accepted. Platform/cover and continuous
 whole-map architectural bounds still unresolved; Gate1 FAIL.
+
+B_PLATFORM_OVERHEAD_009 passes8fit/10independent varied-height markers,
+max.220304/.531624px at actualpitch89. Four originals/JPEGs and18 marker crops
+inspected; faint red HOLD04 separately extracted after original reader failure.
+260 image hashes/native dates PASS. B_PLATFORM_OVERHEAD_POINTS rendered/inspected:
+22 ground/covered-top/timber projections, no full boundaries. Failedfront007
+own-origin hit preserved;008 completes12 fresh observations/all0 restore.
+Critical dimensions and bounded whole-map architectural footprint remain FAIL.

@@ -7,7 +7,7 @@ no model override, new chat or agent delegation requested. Criteria unchanged.
 
 ## Authority and preserved work
 
-GitHub main authoritative. Latest pushed checkpointae3ca4f before lower-contact survey;
+GitHub main authoritative. Latest checkpoint: calibrated B overhead camera and platform-front review;
 latest Git commit pins this checkpoint. Crash baseline35eaa642, dirty work
 preserved4c7df48, mergedab4e484. Active checkout:
 C:/Users/mikea/Documents/Codex/2026-09-30/new-chat/FN_Dust2
@@ -18,8 +18,8 @@ evidence/CRASH_RECOVERY_20261001.md. Inspect dirty work and current main first.
 
 ## Accepted evidence and limits
 
-- 256 individually reviewed JPEGs; eight historical exclusions. Original24 and
-  recovered55 re-inspected. IMAGE_AUDIT256 hashes/native UTC dates PASS. Sixteen
+- 260 individually reviewed JPEGs; eight historical exclusions. Original24 and
+  recovered55 re-inspected. IMAGE_AUDIT260 hashes/native UTC dates PASS. Sixteen
   critical/eleven subarea required view sets PASS; image coverage grants no metric
   acceptance. Native originals, failed/clipped attempts and all metadata retained.
 - Scale2.54cm/native from repeated inch-rangefinder anchors; UE=(2.54x,-2.54y,
@@ -90,7 +90,19 @@ now extend projection range throughZ290. Whole cap/body still separate. Every co
 
 ## Desktop and current source controller
 
-No active source controller. Ground004/lower005/contact006 completed; all
+No active source controller. Camera009 driver completedfit/hold and exact
+B-mouth restore all0; all images/crops/JPEGs reviewed. B_PLATFORM_OVERHEAD_009
+fit/held maxima.220304/.531624px. Four distinct new native hashes (clean frames
+also differ from prior context),260 reviewed images. B_PLATFORM_OVERHEAD_POINTS
+JSON/SVG rebuilt/rendered/inspected,22 points; no full perimeter acceptance.
+Failedfront007 owns two complete safe low pairs and rejected own-origin timber
+hit, all0 restore. Complete00812obs independently confirm low normals from
+X-1680 and higherZ40/60; both registered.152 architectural reports/14 rejected.
+Worker/socket/process freshly verified; exact FN_PLATFORM_RESUME_20261002_1725
+echo and B-mouth pose confirmed. Do not rerun completed009/007/008 plans.
+Next: preflight timber upper visibility and tangent limits, then independently
+bound actual component ends. Continuous platform/site bounds remain open.
+Ground004/lower005/contact006 completed; all
 exact B-mouth restores all0.150 architectural reports/13 rejected attempts.
 Original ground plane1PASS/3REJECT retained; max10.080168cm, no refit/flat floor.
 B_COVER_GROUND_CHECKS JSON/CSV/SVG rebuilt/rendered/inspected. Four actual ground
