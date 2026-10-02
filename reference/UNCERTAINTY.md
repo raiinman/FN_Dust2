@@ -5,11 +5,11 @@ Baseline: CS2 build 25640462, 2026-10-01 UTC.
 
 | ID | Unknown | Present bound | Required resolution |
 | --- | --- | --- | --- |
-| U01 | Capture continuity | Old workers did not survive. New single-owner worker verified after VConsole disconnect; 223 area frames reviewed, eight excluded; four native radar crops inspected separately | Keep exact echo checks and rendered-area/pose checks; extend usable route-oriented coverage |
-| U02 | Critical lengths/widths | 297 calibrated collision-feature measurements;13 floor datums,54 Short and54 Tunnel stair points and418 connector surface points. Long/B/Mid local openings, Short flight, Xbox/CT crate/elevator point-pair rises accepted; full architectural bounds incomplete | Structural aperture endpoints, room lengths and remaining route/cover dimensions |
+| U01 | Capture continuity | Old workers did not survive. New single-owner worker verified after VConsole disconnect; 226 area frames reviewed, eight excluded; four native radar crops inspected separately | Keep exact echo checks and rendered-area/pose checks; extend usable route-oriented coverage |
+| U02 | Critical lengths/widths | 317 calibrated collision-feature measurements;13 floor datums,54 Short and54 Tunnel stair points and418 connector surface points. Long/B/Mid local openings, Short flight, Xbox/CT crate/elevator point-pair rises accepted; full architectural bounds incomplete | Structural aperture endpoints, room lengths and remaining route/cover dimensions |
 | U03 | Elevations/slopes/stairs | 13 repeated native floor datums with calibrated conversion; CT floor/overhead separation 167.69 native units; 54 repeated Short floor samples plus12 repeated center riser faces; Short count/rise/run and Tunnel18 count,18 rises/16 axial intervals,16 local widths accepted; full Tunnel sides/terminal edges and remaining slopes unresolved | Floor endpoints, stair counts and rise/run readings |
 | U04 | Map scale and axes | Native rangefinder anchors accept factor2.54cm/source unit; native right-axis tests and Epic documentation fix UE=(2.54x,-2.54y,2.54z), reversible math checks pass | Phase 2 exporter/editor round-trip must preserve convention exactly once; no import accepted yet |
-| U05 | Per-area directional coverage | 223 current-build area captures, eight exclusions; sixteen critical-area view sets and eleven subarea sets accepted; all required directional sets accepted; individual image limitations retained | Preserve complementary view coverage; resolve full structural metric evidence |
+| U05 | Per-area directional coverage | 226 current-build area captures, eight exclusions; sixteen critical-area view sets and eleven subarea sets accepted; all required directional sets accepted; individual image limitations retained | Preserve complementary view coverage; resolve full structural metric evidence |
 | U06 | Revision-sensitive traversal | S01 solo forward twice/reverse once; S02 forward; S03 solo climb twice; S04 partner boost twice/reverse drop once | Unsupported E11/E27 reverse jumps blocked twice at surveyed crossings; other launch/partner scope and full geometric launch/landing bounds; indirect walking returns now accepted both ways; preserve direction-specific evidence |
 | U07 | Source image revision | Web radars have no matching installed-build identity | Crosscheck against current local captures |
 | U08 | Current truth-map footprint | Calibrated native overhead8 fit/16 independent holdouts, max.7518px; known-Z1.5px localization allowance. Radar13 floors/24 paths; four anchors within.20px. Four room wall sections accepted; continuous layered outline unsurveyed | Architectural boundary crosschecks and overlapping elevation layers |
@@ -175,3 +175,18 @@ critical dimensional/uncertainty acceptance remain FAIL; Phase2 not started.
 
 
 85 independently repeated route floor points across13 accepted paths completed/restored and registered. Native floor Z replaces feet as origin-independent evidence; TopMid metal Hull support retained separately.26 sampled endpoint elevation/chord measures bring297 physical measurements/418 connector points. Thirteen elevation charts rebuilt/rendered/inspected; dashed sample links grant no continuous floor or actual walking length. Fresh lower-body transverse sections active serially; no full route minimum or continuous architectural footprint accepted. Gate1 FAIL.
+
+
+Latest portal/route checkpoint:317 calibrated physical feature measurements,
+113 local architectural chords and418 connector points. Seven B/Lower near-floor,
+standing and upper-intrados widths, three local masonry depths and nine refined
+stone columns preserve exact component/plane identity. Lower south inside ray
+hit intervening Wood cover; no wall depth accepted from that pair. UnsafeY1495
+column excluded before execution. Derived section plan rendered/inspected.
+Lower-body route-axis diagnostic:85 stations,338 repeated hit observations and
+two no-hit observations;84 paired spans. Native ray-mask playerclip coverage,
+cross-area/cover/grade interpretation and continuous minima remain unresolved.
+No endpoint/distance assigned to missing direction. Gate1 remains FAIL.
+
+Lower south-jamb retry beyond intervening cover independently repeats concrete
+outside face; local depth66.4464cm accepted.317 calibrated measurements.

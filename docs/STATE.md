@@ -8,7 +8,7 @@ with its configured model; no model override or agent delegation requested.
 ## Authority and preserved work
 
 GitHub main authoritative; fetch/check before resuming. Crash baseline35eaa642,
-dirty work preserved4c7df48, mergedab4e484. Latest pushed checkpoint77ff17a
+dirty work preserved4c7df48, mergedab4e484. Latest pushed checkpoint08ad256
 before this update. Active C:/Users/mikea/Documents/Codex/2026-09-30/new-chat/
 FN_Dust2, branch codex/crash-recovery-20261001 pushes meaningful checkpoints
 to main. OneDrive workspace separate; synced sources/ read-only. Raw/private
@@ -25,7 +25,7 @@ recovery: evidence/CRASH_RECOVERY_20261001.md. Latest Git commit pins checkpoint
   -2.54y,2.54z), inverse/length/native-right checks PASS. Phase2 editor/exporter
   roundtrip unverified. Unsaved Hammer128 calibration cube is not production.
 - 13 floor datums;54 Short/54 Tunnel stair samples;418 connector floor/cover/
-  cap points;297 calibrated feature measurements.106 local architectural chords
+  cap points;317 calibrated feature measurements.113 local architectural chords
   never become complete room rectangles or minimum full-route clearances.
 - Short12 rendered/native risers, rise234.3912cm/run359.6132cm sampled; nonuniform.
   Tunnel18 risers/18 local planes/36 independent offsets/16 tread-level widths;
@@ -94,19 +94,25 @@ provide floor elevations; feet only selected origins. The TopMid/OutsideLong
 metal Hull support is explicit, separate from surrounding Mesh floor. Sample
 chord/elevation CSV/SVG rebuilt/rendered/inspected; dashed links do not interpolate
 floor or give actual walking length.26 sampled endpoint elevation/chord measures
-recorded;297 feature measurements/418 connector points. Wrapper completed all85,
+recorded;317 feature measurements/418 connector points. Wrapper completed all85,
 finally restored original source pose, exact independent echo/readback passed.
 
-ONE ACTIVE pose controller: scripts/cs2_probe_endpoints.py against private
-route_sections_02/config.json, output ROUTE_BODY35_AXIS_SECTIONS_002.json.
-85 measured floor XY stations, two opposite axis rays at35native above floor,
-each repeated twice. Dominant local sample direction selects transverse axis;
-diagonal turns are not normal minimum-width sections. First hits may be walls,
-cover, rising floor or remote portal. Explicit repeated no-hit has no endpoint.
-No local spans/whole-route widths accepted until surface/component review.
-Endpoint helper finally restores/verifies original B mouth pose. After any
-interruption inspect actual processes/status/observations and unexecuted stations;
-never restart completed observations or overlap pose/input controllers.
+Lower-body axis survey completed/restored:85 floor-linked stations,338 repeated
+hit observations plus two native misses,84 paired diagnostic spans. Public
+ROUTE_AXIS_SECTIONS/SPANS/OPEN_RAYS preserve material, exact heights and no-hit
+limits. No whole-route minimum or playerclip-mask acceptance. Higher64-native
+comparison route_sections_03/config.json remains planned, unexecuted.
+
+remaining_portals_04 completed/restored:seven local stone opening widths,three
+opposite outside-origin masonry depths and nine additional sand-floor/stone
+intrados columns registered.317 measurements/113 chords; derived section map
+rebuilt/rendered/inspected. Lower south old inside ray first hits Wood cover,
+never a masonry depth; unsafe LowerY1495 column excluded before execution.
+
+No active pose controller. Lower south retry completed/restored: concrete faces
+X-536.96/-510.80 atY1370 Z30 give66.4464cm local depth; original Wood cover-hit
+pair retained diagnostic. Fresh original source-pose readback required before
+next controller. remaining_portals_04 all nine columns completed; never rerun.
 
 Temporary engine_no_focus_sleep0(original20), m_yaw/m_pitch0(original.022).
 Movement released/maxspeed320/noclip1. Restore/read back temporary originals at
@@ -118,8 +124,8 @@ Raw native TGA/PNG retained; upload reviewed JPEGs with provenance/metadata.
 
 ## Next work
 
-Review/register route floors, derive measured elevation profiles and critical
-transverse route sections. Resolve B timber identity, full aperture/body ends/
+Review Lower south depth retry and derive bounded portal profiles. Compare
+route ray heights and verify architectural boundary candidates independently. Resolve B timber identity, full aperture/body ends/
 depths, critical room/cover spans, Tunnel side/terminal footprint, ramp/site
 endpoints and calibrated continuous whole-map outline with overlapping
 elevations. Bound source uncertainty explicitly; modeling tolerance is not

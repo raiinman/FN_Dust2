@@ -283,3 +283,9 @@ against reviewed walking-XY sample plans and source walk IDs. Rebuild/render/
 inspect CSV/SVG after additions. Walking feet select probe origins only, never
 supply floor Z. Dashed sample-chord chains show order, not walking distance,
 interpolated floor, continuous grade or full-route clearance/terminal bounds.
+
+build_route_axis_sections.py validates configured ray heights against measured
+floors, opposite repeated hit/material/rangefinder replies and exact restoration.
+It writes diagnostic native-axis spans and separate open-ray CSVs. Material,
+cover, rising floors, remote portals and unknown playerclip ray-mask coverage
+preclude automatic whole-route minimum or architectural boundary acceptance.

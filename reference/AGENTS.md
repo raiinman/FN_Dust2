@@ -226,3 +226,9 @@ walking XY paths and retains source walk poses only as origin-selection data.
 ROUTE_FLOOR_SAMPLES.csv/SVG derive actual repeated collision Z and sample-order
 chord chains. Player feet never become floor elevations; dashed links never
 grant continuous grade, walking length or transverse/full-endpoint bounds.
+
+ROUTE_AXIS_SECTIONS.json owns repeated opposite rays at declared heights above
+independently measured route floors. ROUTE_AXIS_SPANS.csv diagnoses local native
+first-hit spans; ROUTE_AXIS_OPEN_RAYS.csv separately preserves misses without
+endpoints. Retain materials, cross-area/cover/slope context and ray-mask limits;
+these spans do not automatically become full player clearance or wall edges.
