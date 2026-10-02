@@ -351,3 +351,10 @@ southern plaster spans3251.2cm at both heights. Count382 bounded measurements/
 cover/scaffold ground occlusion retained; no rectangular courtyard, entire ground
 footprint or minimum walking clearance accepted. Platform/cover and continuous
 whole-map architectural bounds still unresolved; Gate1 FAIL.
+
+B courtyard south camera: four new individually inspected JPEGs, eight fit
+and ten independent depth/height markers. Independent maximum.402810px;
+checkedY1600..1800/Z-32..275 at exact[-1800,2100,96,0,-90,0]. Native-depth
+selection, main plaster return and full aperture remain separate. Foreground
+cover/scaffold hides ground; authored negativeZ marker grants no floor. Total255
+reviewed JPEG hashes/native dates PASS; critical extents remain open, Gate1 FAIL.

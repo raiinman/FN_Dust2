@@ -7,7 +7,7 @@ no model override, new chat or agent delegation requested. Criteria unchanged.
 
 ## Authority and preserved work
 
-GitHub main authoritative. Latest pushed checkpointf8f33af before this update;
+GitHub main authoritative. Latest pushed checkpoint8748cd2 before south-camera checkpoint;
 latest Git commit pins this checkpoint. Crash baseline35eaa642, dirty work
 preserved4c7df48, mergedab4e484. Active checkout:
 C:/Users/mikea/Documents/Codex/2026-09-30/new-chat/FN_Dust2
@@ -18,8 +18,8 @@ evidence/CRASH_RECOVERY_20261001.md. Inspect dirty work and current main first.
 
 ## Accepted evidence and limits
 
-- 251 individually reviewed JPEGs; eight historical exclusions. Original24 and
-  recovered55 re-inspected. IMAGE_AUDIT251 hashes/native UTC dates PASS. Sixteen
+- 255 individually reviewed JPEGs; eight historical exclusions. Original24 and
+  recovered55 re-inspected. IMAGE_AUDIT255 hashes/native UTC dates PASS. Sixteen
   critical/eleven subarea required view sets PASS; image coverage grants no metric
   acceptance. Native originals, failed/clipped attempts and all metadata retained.
 - Scale2.54cm/native from repeated inch-rangefinder anchors; UE=(2.54x,-2.54y,
@@ -90,7 +90,17 @@ now extend projection range throughZ290. Whole cap/body still separate. Every co
 
 ## Desktop and current source controller
 
-No active source controller. Courtyard longitudinal001/002 completed16 native
+No active source controller. South camera driver completed fit/hold captures,
+exact B-mouth restore errors all0. Four native PNG/JPEGs and18 cross centers
+individually inspected. B_COURTYARD_SOUTH_FRONTAL_001 accepted at exact pose
+[-1800,2100,96,p0,y-90,roll0]:8 fit max.506316px,10 independent depth/height
+max.402810px. Two clean hashes differ;255 image hashes/native dates PASS.
+KnownY inverse only, checkedY1600..1800/Z-32..275; authored negativeZ marker
+is not a floor datum. Main/left-recess plaster depth and low cover remain separate.
+Private b_courtyard_south_camera_01 retains raw/metadata/plans/crops/recovery;
+do not rerun completed capture plans. Next: bracket main plaster return atZ160
+from independentY2450/2500, using native depth and checked rendered corner.
+Courtyard longitudinal001/002 completed16 native
 observations each, exact B-mouth restore. IndependentY2450/2500 origins agree;
 four selected local sections atX-1800/-1700,Z160/220. Main-facade spans2763.52/
 2763.5708cm; recessed southern plaster spans3251.2cm at both heights. Four clean
@@ -131,7 +141,7 @@ must remain DISCONNECTED to preserve persistent worker ownership.
 
 ONE worker ../reference_cache/console_recovery_20261001_01: last verified
 Python34036/launcher5480/socket57046 to127.0.0.1:29000, connected status and
-exact RECOVER_B_REAR_20261002_1501 echo/current pose. Historical
+exact RECOVER_SOUTH_CAMERA_20261002_1615 echo/current pose. Historical
 ../reference_cache/console_session_02 and ../work/cs2_live_20261001 did not survive.
 Read docs/TOOLING_AND_RECOVERY.md and existing capture scripts before reconnecting.
 Check process/socket/queue and a fresh exact echo before reuse; no duplicate worker

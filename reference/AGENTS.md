@@ -373,3 +373,9 @@ clean south-context JPEGs corroborate main-portal versus recessed plaster
 components. Native same-height lengths differ between theseX; no rectangular
 courtyard, ground polygon or minimum route clearance inferred. Selected rows
 feed MEASUREMENTS and the layered ARCHITECTURAL_SURVEY_PLAN/SECTIONS.
+
+B_COURTYARD_SOUTH_FRONTAL_001 owns eight fit/ten independent depth-height
+markers at its exact native pose. Four inspected JPEGs retain distinct hashes;
+knownY inversion requires separately observed depth. NegativeZ authored marker
+is not a floor datum; car/crates/scaffold obscure ground. Calibration grants no
+selected structural corner, complete portal or continuous courtyard footprint.

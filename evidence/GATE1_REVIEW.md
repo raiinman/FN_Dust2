@@ -1,13 +1,18 @@
 # Gate 1 review - 2026-10-02
 
 **FAIL. Phase 1 remains active. Phase 2 production is prohibited.**
+
+South courtyard camera checkpoint: B_COURTYARD_SOUTH_FRONTAL_001 has8 fit /
+10 withheld depth-height checks (max.506316/.402810px); four native originals,
+JPEGs and18 marker centers individually inspected.255 image hashes/native
+dates PASS. Camera acceptance does not close any structural extent criterion.
 Source: installed CS2 build25640462, de_dust2. GitHub main is durable authority.
 
 | Requirement | Evidence | Result |
 | --- | --- | --- |
 | Provenance and current revision | REFERENCE_MANIFEST.csv; native poses/hashes and build25640462 | PASS for reviewed captured batches |
 | Physical scale and coordinate convention | SCALE_CALIBRATION.json; COORDINATE_TRANSFORM.json | PASS for current-build factor2.54 and reversible UE=(2.54x,-2.54y,2.54z); Phase2 exporter/import validation pending |
-| Every critical area forward/reverse/side/elevation coverage | 251 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | PASS: sixteen critical-area sets and eleven subarea sets accepted; structural metric and traversal remain separate |
+| Every critical area forward/reverse/side/elevation coverage | 255 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | PASS: sixteen critical-area sets and eleven subarea sets accepted; structural metric and traversal remain separate |
 | Unambiguous validated topology | ROUTE_GRAPH.md; TOPOLOGY.json; WALK_PROBES.json; TRAVERSAL_PROBES.json; TOPOLOGY_AUDIT.json | PASS for listed surveyed connections:24 ground paths both directions; B Window both; S01 both, S02/S03 reciprocal routes, S04 partner forward/reverse. E11/E27 direct forward twice, unsupported reverse at surveyed crossing blocked twice, indirect walking returns both. Alternative launches/partners and geometric bounds remain separate |
 | Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; TUNNEL_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 382 calibrated feature measurements;54 Short and117 Tunnel floor samples; full critical register incomplete |
 | Calibrated annotated whole-map truth | RADAR_CALIBRATION.json; MAP_CAMERA_CALIBRATION.json; RADAR_PLAN.svg; MAP_CAMERA_PLAN.svg | FAIL: calibrated native camera, physical grid, floors and paths; continuous architectural boundaries and overlapping elevation layers incomplete |
@@ -15,7 +20,7 @@ Source: installed CS2 build25640462, de_dust2. GitHub main is durable authority.
 
 ## Reference review
 
-IMAGE_REVIEW.json and IMAGE_AUDIT.json verify all251 registered JPEG hashes and
+IMAGE_REVIEW.json and IMAGE_AUDIT.json verify all255 registered JPEG hashes and
 preserve eight excluded historical frames. Original24 and recovered55 images
 were re-inspected, with subsequent CT/Pit/door/site/Short/Catwalk additions
 inspected individually. Clipped, stale or obstructed attempts retain their
@@ -412,7 +417,7 @@ B courtyard checkpoint: four inspected clean south-facing context JPEGs corrobor
 four structural longitudinal sections atX-1800/-1700,Z160/220. NativeY2450/2500
 origins agree at both ends. Main-portal-facade spans2763.52/2763.5708cm; recessed
 southern plaster spans3251.2cm at both heights. Count382 bounded measurements/
-130 architectural chords/251 reviewed JPEGs, hash/native-date audit PASS. Low
+130 architectural chords/255 reviewed JPEGs, hash/native-date audit PASS. Low
 cover/scaffold ground occlusion retained; no rectangular courtyard, entire ground
 footprint or minimum walking clearance accepted. Platform/cover and continuous
 whole-map architectural bounds still unresolved; Gate1 FAIL.
