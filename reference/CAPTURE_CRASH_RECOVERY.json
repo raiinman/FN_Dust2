@@ -3771,6 +3771,60 @@
       "jpeg_sha256": "09025901e47f51283c478dceb0d0f4f788a04a85d67a7d1908b57a5f534afb42",
       "fov_cs_debug_parameter": 90,
       "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_TUNSTAIR_SOUTH_COUNT_002",
+      "timestamp_utc": "2026-10-02T03:08:02.357373+00:00",
+      "engine_capture_basename": "d2_08d5159cef",
+      "pose_command": "setpos_exact -1100.000000 1350.000000 -110.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -1100.0,
+        1350.0,
+        -110.0,
+        0.0,
+        -90.0
+      ],
+      "tga_sha256": "f0dfd75c361b7c0e2b7107f017add7686cc3db895a9a8d9d6f9e06f45bb83bbc",
+      "png_sha256": "2061c60db143b28a796a4248919327af9fe102aa99b05180d4f92dbe0212f99b",
+      "status": "visually inspected; usable stated-direction reference",
+      "area": "Tunnel Stairs",
+      "review": "Nine distinct lower-to-bend riser faces visible at center, individually compared to independent native face sequence. Near arch piers crop side context; not a full-width survey.",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "repository_image_path": "reference/images/tunnel_stairs/QA_TUNSTAIR_SOUTH_COUNT_002.jpg",
+      "jpeg_sha256": "298261addadcf114b2121676e4446cb65bf62daed1985965f8819c2a663a5c84",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_TUNSTAIR_WEST_COUNT_001",
+      "timestamp_utc": "2026-10-02T03:02:26.195980+00:00",
+      "engine_capture_basename": "d2_aaccba0abf",
+      "pose_command": "setpos_exact -1088.000000 1080.000000 -96.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -1088.0,
+        1080.0,
+        -96.0,
+        0.0,
+        180.0
+      ],
+      "tga_sha256": "79125feaf520c430b6e7f2f5464b3ac6e806290d33a9c7d6397ebc4df6ee90d4",
+      "png_sha256": "5a8417cada50c9c86a5361922ff02ea0c7773598ff5f4dbb6e48af3f3113c01f",
+      "status": "visually inspected; usable stated-direction reference",
+      "area": "Tunnel Stairs",
+      "review": "Nine upper branch faces visible through to platform. Selected native image centers are count annotations, never metric camera anchors.",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "repository_image_path": "reference/images/tunnel_stairs/QA_TUNSTAIR_WEST_COUNT_001.jpg",
+      "jpeg_sha256": "a0c75959ad98f30311da78f8a67742ced3316b62436ea58ff3bb1b52a6965aa8",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
     }
   ],
   "rejected_attempts": [
@@ -4529,6 +4583,26 @@
       "png_sha256": "076b018d427f61062860311319a168ddbae31a1e419877a826c8efe06f922915",
       "status": "captured; requires visual area/direction review",
       "reason": "Short platform approach visible but target crate stack clipped at left; reject complete reverse target coverage."
+    },
+    {
+      "id": "QA_TUNSTAIR_SOUTH_COUNT_001",
+      "timestamp_utc": "2026-10-02T03:02:15.696528+00:00",
+      "engine_capture_basename": "d2_2165833fc7",
+      "pose_command": "setpos_exact -1100.000000 1270.000000 -166.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -1100.0,
+        1270.0,
+        -166.0,
+        0.0,
+        -90.0
+      ],
+      "tga_sha256": "f889e1decd38944ce53ef74120d3cad73b6f40cc5e275b3b817f93f634d7c7a0",
+      "png_sha256": "ee2be193ed1a02beeed16627c90429f78bd73242d2ea8059ec7508a8993ae10c",
+      "status": "captured; requires visual area/direction review",
+      "reason": "Rejected full-count target: camera too low; nearer faces obscure some farther center risers and side extent is cropped. Raw detail preserved; no coverage or count acceptance."
     }
   ],
   "gate_1": "FAIL",

@@ -89,6 +89,16 @@ self-captured CS2 study screenshots for the internal benchmark.
   Long arch floor/intrados points and collision chords. The right floor under
   the angled leaf is unmeasured; never interpolate it or equate a chord with
   minimum passable clearance. Rendered decorative borders remain separate.
+- `TUNNEL_STAIR_PROFILE.json` owns repeated L-shaped stair floor samples,
+  rejected own-origin/corner attempts and separately reviewed riser-face rays.
+  `TUNNEL_STAIR_SAMPLES.csv` and `TUNNEL_STAIR_PROFILE.svg` derive point evidence.
+  Curved winder spacing is nonuniform; chart connectors are sample-order guides,
+  never continuous floor surfaces or full stair run/width acceptance.
+  `TUNNEL_STAIR_FLIGHT.csv` retains18 paired floor rises and16 same-axis
+  inter-face intervals; terminal tread edges are separate. `TUNNEL_RISER_PLANES`
+  validates local orientations against withheld offset points, never silently
+  extrapolating full faces. `TUNNEL_STAIR_ANNOTATED` records two inspected native
+  nine-face views; its selected pixel centers are count labels, not calibration.
 
 - `IMAGE_REVIEW.json` owns explicit visual exclusions; `IMAGE_AUDIT.json` independently checks all registered JPEG hashes. Excluded frames remain preserved and never count toward coverage.
 - `CAPTURE_CRASH_RECOVERY.json` preserves the new CT exit view and a stale-frame rejection. Inspect rendered area against pose after foreground changes.

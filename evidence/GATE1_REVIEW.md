@@ -7,15 +7,15 @@ Source: installed CS2 build25640462, de_dust2. GitHub main is durable authority.
 | --- | --- | --- |
 | Provenance and current revision | REFERENCE_MANIFEST.csv; native poses/hashes and build25640462 | PASS for reviewed captured batches |
 | Physical scale and coordinate convention | SCALE_CALIBRATION.json; COORDINATE_TRANSFORM.json | PASS for current-build factor2.54 and reversible UE=(2.54x,-2.54y,2.54z); Phase2 exporter/import validation pending |
-| Every critical area forward/reverse/side/elevation coverage | 202 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | PASS: sixteen critical-area sets and eleven subarea sets accepted; structural metric and traversal remain separate |
+| Every critical area forward/reverse/side/elevation coverage | 204 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | PASS: sixteen critical-area sets and eleven subarea sets accepted; structural metric and traversal remain separate |
 | Unambiguous validated topology | ROUTE_GRAPH.md; TOPOLOGY.json; WALK_PROBES.json | FAIL: twenty-four surveyed paths pass both directions; S01 passes both directions and S02 forward; S03/S04 verified; E11/E27 indirect walking returns pass both ways; direct reverse parapet classifications remain open |
-| Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 79 calibrated feature measurements and54 repeated stair floor samples; full critical register incomplete |
+| Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 130 calibrated feature measurements and54 repeated stair floor samples; full critical register incomplete |
 | Calibrated annotated whole-map truth | RADAR_CALIBRATION.json; MAP_CAMERA_CALIBRATION.json; RADAR_PLAN.svg; MAP_CAMERA_PLAN.svg | FAIL: calibrated native camera, physical grid, floors and paths; continuous architectural boundaries and overlapping elevation layers incomplete |
 | Bounded remaining uncertainty | UNCERTAINTY.md; SURVEY_TASKS.csv | FAIL: unresolved critical extents, full apertures/cover dimensions, stairs and render/collision bounds |
 
 ## Reference review
 
-IMAGE_REVIEW.json and IMAGE_AUDIT.json verify all202 registered JPEG hashes and
+IMAGE_REVIEW.json and IMAGE_AUDIT.json verify all204 registered JPEG hashes and
 preserve eight excluded historical frames. Original24 and recovered55 images
 were re-inspected, with subsequent CT/Pit/door/site/Short/Catwalk additions
 inspected individually. Clipped, stale or obstructed attempts retain their
@@ -90,17 +90,19 @@ certified by this camera. Architectural truth-map requirement remains FAIL.
 S03 solo CT crate climb accepted twice, with collision ON and stable Short
 landing. Twenty-nine repeated CT bay/cover/cap/platform points and five explicit
 sampled rises are accepted; full cover bounds remain unmeasured. Total72 connector
-points and79 calibrated feature measurements. S04 boost passes twice and reverse jump/drop once.
+points and130 calibrated feature measurements. S04 boost passes twice and reverse jump/drop once.
 
 S04 cooperative elevator boost accepted twice, reverse parapet jump/drop once.
 Setup frame shows full locally spawned crouched partner at the native wall;
 player contact, cap crossing and stable landings recorded. Bot removed and
 original bot/team cvars restored/read back; private status confirms no active
 bots. Eleven repeated floor/cap/platform points and two explicit sampled rises
-accepted. Total202 reviewed JPEGs,83 connector points,65 feature measurements.
+accepted. Total204 reviewed JPEGs,83 connector points,65 feature measurements.
 The four named special connections now have observed current-build evidence;
 remaining topology return distinctions and architectural metrics still block Gate1.
 
 Return checkpoint review: two composite walking loops now pass both directions; E11 forward jump/drop repeats twice. Direct reverse E11/E27 parapet traversal remains unverified. Full physical dimensions and architectural footprint remain FAIL.
 
 Long arch checkpoint: six unobstructed floor/intrados columns, three intrados-only right points, and eight repeated width sections reviewed.79 physical-register rows. LONG_ARCH_PROFILE/ANNOTATED are calibrated collision samples over native image; rendered edges, hidden right floor and minimum leaf clearance remain separate. Two rejected Long attempts preserved.
+
+Tunnel stair checkpoint:54 reviewed floor points,18 repeated concrete face planes with36 offset probes,18 rendered risers (two individually inspected count views),16 repeated tread-width chords. Sampled full rise365.7854cm; individual axial face intervals and rises retained, no uniform spacing. TUNNEL_STAIR_FLIGHT/PROFILE/ANNOTATED and TUNNEL_RISER_PLANES derive evidence. High chamber-crossing width diagnostics and five own-origin/exact-corner failures excluded. Full side/terminal footprint and remaining critical architecture remain unresolved; Gate1 FAIL.

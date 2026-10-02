@@ -65,6 +65,9 @@ def probe(a):
                         surface=[s.strip() for s in lines if s.startswith('Hit:')],
                         rangefinder_reply=distances[0]))
                     save()
+                    hit=report['observations'][-1]['hit']
+                    if sum((a-b)**2 for a,b in zip(hit,[x,y,z+64])) < .01:
+                        raise RuntimeError('Ray starts inside collision; own-origin hit is not an endpoint')
         report['status'] = 'complete; architectural interpretation pending'
     except Exception as error:
         report.update(status='failed; inspect before continuing', error=str(error))

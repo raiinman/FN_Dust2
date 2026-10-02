@@ -68,6 +68,9 @@ Blender Python, Unreal automation, validation scripts, manifest processors, and 
   leaf can return its own origin; equal floor/ceiling never defines a column.
   Hits within .1 native units of the tested ray origin are rejected and saved;
   caller must inspect/restore before changing probe height after a failure.
+  The horizontal endpoint helper also rejects own-origin hits before accepting
+  a section and verifies original pose restoration. Both guards were exercised
+  natively inside known entry/leaf collision; expected failures grant no measure.
 - `build_elevation_register.py` derives FLOOR_DATUMS.csv and its SVG point plot
   from reviewed ELEVATION_PROBES.json. It checks repeated endpoints and never
   infers room boundaries or converts source units to centimeters. Reviewed_area
@@ -171,6 +174,16 @@ Blender Python, Unreal automation, validation scripts, manifest processors, and 
   then projects measured intrados/floor samples and section chords. Run it to
   rebuild the annotated Long frame and physical point CSV; it never fills hidden
   floors or substitutes collision samples for decorative rendered edges.
+- `build_tunnel_stair_profile.py` verifies reviewed repeated floor endpoints and
+  surface identity, then writes calibrated point CSV and two branch charts.
+  Run it to rebuild Tunnel stair evidence. No uniform tread spacing, hidden
+  continuation, exact corner endpoint or rendered riser count is inferred.
+  Explicit accepted_center_sections derive18 floor-pair rises and16 inter-face
+  intervals, separately from full curved run/terminal edges. Accepted radial and
+  straight width reports require opposite repeated concrete hits/rangefinder
+  agreement. Local face planes fit center/first offset and withhold the second;
+  pivot extrapolation has a separate .1 native bound. Hash-pinned annotated
+  count views use reviewed pixel labels, never numeric camera anchors.
 
 Prefer small composable tools with clear command usage and dry-run/validation modes where practical.
 

@@ -6034,6 +6034,67 @@
       "status": "in progress",
       "id": "LONG_OUTER_ARCH_X680_Y280_002",
       "review": "Rejected: origin inside angled Wood_Dense leaf returns identical floor/ceiling101.12; no floor or overhead measurement accepted."
+    },
+    {
+      "id": "HORIZONTAL_ORIGIN_GUARD_CHECK_001",
+      "source_build": "25640462",
+      "area": "Long leaf own-origin rejection check",
+      "source_map": "de_dust2",
+      "timestamp_utc": "2026-10-02T03:27:28.090383+00:00",
+      "unit": "source_units",
+      "config": {
+        "id": "HORIZONTAL_ORIGIN_GUARD_CHECK_001",
+        "build": "25640462",
+        "area": "Long leaf own-origin rejection check",
+        "stations": [
+          {
+            "id": "INSIDE_LEAF",
+            "pose": [
+              680,
+              280,
+              100
+            ],
+            "yaws": [
+              0
+            ]
+          }
+        ]
+      },
+      "observations": [
+        {
+          "station_id": "INSIDE_LEAF",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact 680.000000 280.000000 100.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            680,
+            280,
+            164
+          ],
+          "hit": [
+            680.0,
+            280.0,
+            164.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:   0.00 inches (  0.00 feet)"
+        }
+      ],
+      "status": "failed; inspect before continuing",
+      "original_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "error": "Ray starts inside collision; own-origin hit is not an endpoint",
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review": "Expected native verification failure: horizontal ray starts inside angled Wood_Dense leaf, own-origin endpoint rejected; exact original camera restored. No dimension accepted."
     }
   ]
 }
