@@ -1,8 +1,11 @@
 {
-  "status": "provisional; requires current-build traversal validation",
+  "status": "current-build listed connections observed; geometry/footprint Gate1 incomplete",
   "source_ids": [
     "PLAN_CSDB",
-    "PLAN_CALLER"
+    "PLAN_CALLER",
+    "WALK_PROBES",
+    "TRAVERSAL_PROBES",
+    "TOPOLOGY_AUDIT"
   ],
   "nodes": [
     "T Spawn",
@@ -162,12 +165,13 @@
       "from": "T Spawn",
       "to": "Suicide",
       "mode": "direct forward jump/drop",
-      "direction": "forward observed twice; direct reverse unverified",
+      "direction": "forward jump/drop observed twice; unsupported reverse atX-450 blocked twice",
       "elevation": "drop",
       "measurement": "D011",
       "traversal_evidence": "TRAVERSAL_PROBES.json/TSPAWN_SUICIDE_JUMP_DROP",
-      "validation": "Two forward grounded jump/drop observations and stable landing. Indirect composite walking return verified both ways; no claim of direct reverse impossibility. Full architectural bounds pending.",
-      "indirect_walking_return": "WALK_PROBES.json/SUICIDE_TSPAWN_WALK_RETURN_BOTH"
+      "validation": "Forward grounded jump/drop stable twice; reverse unsupported standing jump blocked twice at sampled parapet. Six repeated floor/cap points establish local height. Other launch points or partners not classified; full architectural bounds pending.",
+      "indirect_walking_return": "WALK_PROBES.json/SUICIDE_TSPAWN_WALK_RETURN_BOTH",
+      "reverse_test_evidence": "TRAVERSAL_PROBES.json/SUICIDE_SPAWN_DIRECT_REVERSE_BLOCKED"
     },
     {
       "id": "E12",
@@ -354,12 +358,13 @@
       "from": "Side Pit",
       "to": "Pit",
       "mode": "direct forward jump/drop",
-      "direction": "forward observed twice; direct reverse unverified",
+      "direction": "forward jump/drop observed twice; unsupported reverse atY500 blocked twice",
       "elevation": "down into pit",
       "measurement": "D027",
       "traversal_evidence": "TRAVERSAL_PROBES.json/SIDE_PIT_TO_PIT_JUMP_DROP",
-      "validation": "Two forward grounded jump/drop observations and stable landing. Indirect composite walking return verified both ways; no claim of direct reverse impossibility. Full architectural bounds pending.",
-      "indirect_walking_return": "WALK_PROBES.json/PIT_SIDE_PIT_WALK_RETURN_BOTH"
+      "validation": "Forward grounded jump/drop twice and stable landing; direct unsupported reverse twice blocked atX1571.97, with stable lower landing. Repeated sampled lip/floor/terrace points recorded. Alternative launches/partners not classified; full architectural bounds pending.",
+      "indirect_walking_return": "WALK_PROBES.json/PIT_SIDE_PIT_WALK_RETURN_BOTH",
+      "reverse_test_evidence": "TRAVERSAL_PROBES.json/PIT_SIDE_PIT_DIRECT_REVERSE_BLOCKED"
     },
     {
       "id": "E28",

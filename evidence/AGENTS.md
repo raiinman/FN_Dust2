@@ -25,3 +25,7 @@ A gate cannot be marked complete in `docs/STATE.md` unless its required evidence
 ## Child DOX Index
 
 None.
+
+TOPOLOGY_AUDIT.json is the reproducible evidence-link/precondition audit for
+listed current-build connections. It supplements manual direction/landing review
+in native registers. A topology audit PASS is separate from overall Gate1 PASS.

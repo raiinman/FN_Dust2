@@ -19202,7 +19202,7 @@
       "direction": "both",
       "forward_report": "PIT_TO_LONG_RECOVERY_001",
       "reverse_report": "LONG_TO_PIT_RECOVERY_002",
-      "limits": "Reduced speed80; arrival20 source units; walking only. Actual side-terrace E27 remains untested."
+      "limits": "Reduced speed80; arrival20 source units; walking ramp only. E27 direct parapet traversal is separately recorded in TRAVERSAL_PROBES."
     },
     {
       "id": "LONG_DOORS_BOTH",
@@ -19359,7 +19359,7 @@
         "E07",
         "E08"
       ],
-      "limits": "Collision enabled, speed80, arrival25, start-only teleport. Lower stair flight reaches landing at Y1080 before turning west; earlier premature turn blocked on wall. Full rendered count and architectural profile pending."
+      "limits": "Collision enabled, speed80, arrival25, start-only teleport. Lower stair flight reaches landingY1080 before turning west; earlier premature turn blocked. TUNNEL_STAIR_PROFILE separately records18 rendered/native risers and local dimensions; full side/terminal footprint pending."
     },
     {
       "id": "LOWER_MID_BOTH",
@@ -19464,7 +19464,8 @@
       "reverse_report": "CTMID_TO_B_WINDOW_OUTSIDE_002",
       "edges": [],
       "scope": "Outside B Window rubble landing to CT Mid ground approach only; raised window crossing E19/E20 is separate.",
-      "limits": "Collision ON; speed80; arrival20; start-only teleport. Southward turn around outside wall; native floor/player trajectory not architectural boundary."
+      "limits": "Collision ON; speed80; arrival20; start-only teleport. Southward turn around outside wall; native floor/player trajectory not architectural boundary.",
+      "direction": "both"
     },
     {
       "id": "PIT_SIDE_PIT_WALK_RETURN_BOTH",
@@ -19472,7 +19473,8 @@
       "reverse_report": "SIDE_PIT_PIT_WALK_RETURN_001",
       "edges": [],
       "scope": "Pit ramp via Long Corner and north Side Pit steps; indirect walking return for E27.",
-      "limits": "Collision enabled, speed80/arrival20, start-only teleport. Composite route through intermediate areas; does not prove a direct reverse parapet jump or its impossibility."
+      "limits": "Collision enabled, speed80/arrival20, start-only teleport. Composite route through intermediate areas; does not prove a direct reverse parapet jump or its impossibility.",
+      "direction": "both"
     },
     {
       "id": "SUICIDE_TSPAWN_WALK_RETURN_BOTH",
@@ -19480,7 +19482,8 @@
       "reverse_report": "TSPAWN_SUICIDE_WALK_RETURN_002",
       "edges": [],
       "scope": "Low Mid corridor via Top Mid and Outside Long to T Spawn; indirect walking return for E11.",
-      "limits": "Collision enabled, speed80/arrival20, start-only teleport. Composite route through intermediate areas; does not prove a direct reverse parapet jump or its impossibility."
+      "limits": "Collision enabled, speed80/arrival20, start-only teleport. Composite route through intermediate areas; does not prove a direct reverse parapet jump or its impossibility.",
+      "direction": "both"
     }
   ]
 }

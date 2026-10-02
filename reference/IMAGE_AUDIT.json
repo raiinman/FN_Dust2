@@ -1,7 +1,7 @@
 {
   "review_date": "2026-10-01",
   "source_build": "25640462",
-  "registered_images": 204,
+  "registered_images": 206,
   "coverage_excluded": 8,
   "complete_areas": 16,
   "complete_subareas": 11,
@@ -2303,6 +2303,22 @@
       "sha256": "a0c75959ad98f30311da78f8a67742ced3316b62436ea58ff3bb1b52a6965aa8",
       "coverage_status": "PARTIAL",
       "review": "Nine upper branch faces visible through to platform. Selected native image centers are count annotations, never metric camera anchors."
+    },
+    {
+      "id": "QA_SPAWN_PARAPET_LOWER_001",
+      "area": "Suicide / T Spawn parapet",
+      "image": "reference/images/suicide/QA_SPAWN_PARAPET_LOWER_001.jpg",
+      "sha256": "d2a829feef98da5b6d74754e69f60efa33be06974d694c82e99945d098b1b861",
+      "coverage_status": "PARTIAL",
+      "review": "Unobstructed lower-corridor view of high Spawn parapet face/cap and adjoining walls; no debug overlay. Looks upward, floor outside bottom frame; side/original views supply context. Supports cap/low-floor identity, not full boundary extent."
+    },
+    {
+      "id": "QA_SPAWN_PARAPET_SIDE_001",
+      "area": "Suicide / T Spawn parapet",
+      "image": "reference/images/suicide/QA_SPAWN_PARAPET_SIDE_001.jpg",
+      "sha256": "39f61cec79c05d2cad2a4d0dc0d5736fcc827a6e219957c79e83a74e52c78a6c",
+      "coverage_status": "PARTIAL",
+      "review": "Unobstructed oblique side view of parapet cap, Spawn-side pavement and lower corridor floor; no overlay. Native floor-only points atX-450 are local collision samples; image does not bound render/collision offset or classify other launches."
     }
   ]
 }

@@ -7,15 +7,15 @@ Source: installed CS2 build25640462, de_dust2. GitHub main is durable authority.
 | --- | --- | --- |
 | Provenance and current revision | REFERENCE_MANIFEST.csv; native poses/hashes and build25640462 | PASS for reviewed captured batches |
 | Physical scale and coordinate convention | SCALE_CALIBRATION.json; COORDINATE_TRANSFORM.json | PASS for current-build factor2.54 and reversible UE=(2.54x,-2.54y,2.54z); Phase2 exporter/import validation pending |
-| Every critical area forward/reverse/side/elevation coverage | 204 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | PASS: sixteen critical-area sets and eleven subarea sets accepted; structural metric and traversal remain separate |
-| Unambiguous validated topology | ROUTE_GRAPH.md; TOPOLOGY.json; WALK_PROBES.json | FAIL: twenty-four surveyed paths pass both directions; S01 passes both directions and S02 forward; S03/S04 verified; E11/E27 indirect walking returns pass both ways; direct reverse parapet classifications remain open |
-| Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; TUNNEL_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 134 calibrated feature measurements;54 Short and54 Tunnel floor samples; full critical register incomplete |
+| Every critical area forward/reverse/side/elevation coverage | 206 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | PASS: sixteen critical-area sets and eleven subarea sets accepted; structural metric and traversal remain separate |
+| Unambiguous validated topology | ROUTE_GRAPH.md; TOPOLOGY.json; WALK_PROBES.json; TRAVERSAL_PROBES.json; TOPOLOGY_AUDIT.json | PASS for listed surveyed connections:24 ground paths both directions; B Window both; S01 both, S02/S03 reciprocal routes, S04 partner forward/reverse. E11/E27 direct forward twice, unsupported reverse at surveyed crossing blocked twice, indirect walking returns both. Alternative launches/partners and geometric bounds remain separate |
+| Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; TUNNEL_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 136 calibrated feature measurements;54 Short and54 Tunnel floor samples; full critical register incomplete |
 | Calibrated annotated whole-map truth | RADAR_CALIBRATION.json; MAP_CAMERA_CALIBRATION.json; RADAR_PLAN.svg; MAP_CAMERA_PLAN.svg | FAIL: calibrated native camera, physical grid, floors and paths; continuous architectural boundaries and overlapping elevation layers incomplete |
 | Bounded remaining uncertainty | UNCERTAINTY.md; SURVEY_TASKS.csv | FAIL: unresolved critical extents, full apertures/cover dimensions, stairs and render/collision bounds |
 
 ## Reference review
 
-IMAGE_REVIEW.json and IMAGE_AUDIT.json verify all204 registered JPEG hashes and
+IMAGE_REVIEW.json and IMAGE_AUDIT.json verify all206 registered JPEG hashes and
 preserve eight excluded historical frames. Original24 and recovered55 images
 were re-inspected, with subsequent CT/Pit/door/site/Short/Catwalk additions
 inspected individually. Clipped, stale or obstructed attempts retain their
@@ -34,86 +34,52 @@ No extracted proprietary game assets are used.
 ## Metric and traversal review
 
 Two repeated spatial/axis rangefinder anchors establish engine inches; exact
-inch conversion is2.54cm. The calibration does not claim real-world architecture
-or exporter behavior. TRACE_ORIGIN_DIAGNOSTIC.json supports the rotating64-unit
-ray offset. Repeated endpoints bound output repeatability, not render accuracy.
+conversion is2.54cm. TRACE_ORIGIN_DIAGNOSTIC supports rotating64-unit ray offset.
+The coordinate convention is mathematically reversible; exporter/editor
+round-trip remains a Phase2 validation. Source repeatability is separate from
+rendered-surface accuracy and implementation tolerance.
 
-MEASUREMENTS.csv contains local Pit, Long/B/Mid portal, Short and Catwalk
-samples, plus three local Pit/terrace/lip rises and83 repeated connector points. Short center flight has12 measured face positions and13 floor levels:
-12 risers,359.6132cm horizontal run and234.3912cm sampled rise. Individual
-rise/run values preserve group offsets. SHORT_STAIR_FLIGHT.csv and the rendered,
-inspected SHORT_STAIR_ANNOTATED.svg corroborate the twelve visible risers; width
-interpolation and exact render/collision offsets remain separate. Section widths are not minimum angled-leaf clearance. First wood
-ceiling hits do not independently establish complete structural opening height.
-Thirteen PHYSICAL_FLOOR_DATUMS and54 SHORT_STAIR_SAMPLES are point evidence,
-not continuous surfaces. The Short profile SVG was rendered and inspected;
-player hull standing height is not an architectural floor endpoint.
+MEASUREMENTS has136 calibrated local feature rows;13 PHYSICAL_FLOOR_DATUMS,
+54 SHORT_STAIR_SAMPLES,54 TUNNEL_STAIR_SAMPLES and89 connector points are
+repeated point evidence. Short12 measured/rendered risers,359.6132cm sampled
+run and234.3912cm rise; Tunnel18 measured/rendered risers,18 rises/16 axial
+intervals,16 local widths and365.7854cm sampled rise. Full Tunnel curved run,
+terminal/side footprint and remaining ramp profiles are incomplete.
 
-Accepted both-direction paths: PIT_LONG_RAMP, UPPER_B_BOTH, LONG_DOORS_BOTH,
-B_DOORS_BOTH, LONG_A_SITE_BOTH, SHORT_TOP_SITE_BOTH,
-CATWALK_SHORT_STAIRS_BOTH, TOPMID_CATWALK_BOTH, MID_DOORS_BOTH,
-TOPMID_MID_BOTH, CTMID_CTSPAWN_BOTH, CTSPAWN_UNDERA_LONG_BOTH, TUNNEL_STAIRS_BOTH, LOWER_MID_BOTH
-TSPAWN_OUTSIDE_LONG_BOTH, TSPAWN_OUTSIDE_TUNNELS_BOTH,
-OUTSIDE_UPPER_TUNNELS_BOTH, TOPMID_OUTSIDE_LONG_BOTH,
-LONG_CORNER_LONG_A_BOTH, LONG_CORNER_SIDE_PIT_BOTH, SUICIDE_TOPMID_BOTH
-B_WINDOW_OUTSIDE_CTMID_BOTH (outside approach only), PIT_SIDE_PIT_WALK_RETURN_BOTH
-and SUICIDE_TSPAWN_WALK_RETURN_BOTH. Collision enabled,
-start-only teleport, reduced speed and arrival tolerance recorded in each path.
-Failed/interrupted waypoint plans remain preserved. TRAVERSAL_PROBES accepts
-observed E27 forward jump/drop twice; failed launch/short/reverse attempts retained.
-Observed E11 forward spawn jump/drop repeats twice with stable landing. Direct
-reverse E11/E27 classifications remain open. S03 CT crate climb and S04 crouched
-partner boost repeat twice; S04 reverse drop also passes, with bot cleanup verified.
+Long outer arch has six unobstructed floor/intrados columns, three right
+intrados-only points and eight local width chords. Hidden right floor, angled
+leaf minimum clearance and exact decorative/render offsets remain separate.
+Fifteen cardinal room diagnostic reports retain cover/portal/cross-area limits;
+two T Spawn no-hit attempts excluded. Four local concrete wall sections accepted:
+CT Spawn east/west and north/south, B courtyard east/west, Long chamber east/west.
+These sections never certify full rectangular rooms or longitudinal extents.
 
-RADAR_PLAN.svg was rendered and inspected. Four anchor residuals are below0.20
-pixels; a2-pixel (~92cm) localization allowance does not bound stylized walls.
-Native right-axis observations and inverse/length checks support target convention;
-editor/exporter round-trip is a Phase2 validation, not an accepted import.
+TOPOLOGY_AUDIT.json links all34 listed edges and four special connections to
+reviewed native evidence. Twenty-four ground paths pass both directions with
+collision ON, start-only teleport, reduced speed/tolerance and cleanup recorded.
+B Window crosses both directions. S01 Xbox forward twice/reverse once;
+S02 Short/CT forward, reciprocal S03 CT crate climb twice; S04 crouched-partner
+boost twice/reverse drop once, bot removed and original cvars verified.
 
-## Required next evidence
+E11/E27 direct forward jump/drops repeat twice. Unsupported direct reverse
+standing jumps at surveyedX-450/Y500 are blocked twice each with stable lower
+landing. Six Spawn parapet/corridor points and two native views identify local
+cap/floor; sampled rises379.8062cm/102.3366cm. Pit sampled floor/cap rise454.0758cm.
+Walking return loops pass both directions. These tests classify listed crossings;
+they do not prove global impossibility, all alternate launches or partner boosts.
 
-Complete architectural endpoints/spans/cover and stair/ramp
-profiles, both-direction ordinary and special traversal, and surveyed footprint
-with elevation layers. Update uncertainty bounds and rerun this review.
-DOX owners remain root/reference/scripts/docs/evidence/QA. Acceptance criteria
-are unchanged; this review grants no exception or production advance.
+## Truth-map and remaining work
 
-B Window solo climb/crossing now passes both directions in TRAVERSAL_PROBES,
-with stable landings; outside rubble-to-CT Mid approach now passes both directions.
+Native overhead camera:8 fit/16 withheld markers, max fit.4247px and holdouts
+.4959/.7518px, testedZ-100..1000. Known-Z1.5px localization allowance bounds
+camera/pixel reading only. Pit below validatedZ range is extrapolated. Radar
+four anchors below.20px; stylized outlines are unsurveyed. MAP_CAMERA_PLAN and
+RADAR_PLAN show13 floor points/24 paths, not continuous architectural boundaries.
+Local Long front camera8 fit/16 holdouts, independent maximum.448px; inversion
+requires independently established surface depth and edge identity.
 
-Native overhead camera calibration: eight fit markers and sixteen withheld
-markers at source Z=-100..1000. Max fit0.4247px; independent third-height0.4959px
-and near-floor0.7518px. Native marked/clean captures inspected and hash pinned.
-MAP_CAMERA_PLAN rendered and inspected;13 floor labels and24 accepted paths.
-Localization allowance1.5px remains separate from visible edge selection and
-unknown surface elevation. Roofed interiors and Pit below tested Z are not
-certified by this camera. Architectural truth-map requirement remains FAIL.
-
-S03 solo CT crate climb accepted twice, with collision ON and stable Short
-landing. Twenty-nine repeated CT bay/cover/cap/platform points and five explicit
-sampled rises are accepted; full cover bounds remain unmeasured. Total72 connector
-points and130 calibrated feature measurements. S04 boost passes twice and reverse jump/drop once.
-
-S04 cooperative elevator boost accepted twice, reverse parapet jump/drop once.
-Setup frame shows full locally spawned crouched partner at the native wall;
-player contact, cap crossing and stable landings recorded. Bot removed and
-original bot/team cvars restored/read back; private status confirms no active
-bots. Eleven repeated floor/cap/platform points and two explicit sampled rises
-accepted. Total204 reviewed JPEGs,83 connector points,65 feature measurements.
-The four named special connections now have observed current-build evidence;
-remaining topology return distinctions and architectural metrics still block Gate1.
-
-Return checkpoint review: two composite walking loops now pass both directions; E11 forward jump/drop repeats twice. Direct reverse E11/E27 parapet traversal remains unverified. Full physical dimensions and architectural footprint remain FAIL.
-
-Long arch checkpoint: six unobstructed floor/intrados columns, three intrados-only right points, and eight repeated width sections reviewed.79 physical-register rows. LONG_ARCH_PROFILE/ANNOTATED are calibrated collision samples over native image; rendered edges, hidden right floor and minimum leaf clearance remain separate. Two rejected Long attempts preserved.
-
-Tunnel stair checkpoint:54 reviewed floor points,18 repeated concrete face planes with36 offset probes,18 rendered risers (two individually inspected count views),16 repeated tread-width chords. Sampled full rise365.7854cm; individual axial face intervals and rises retained, no uniform spacing. TUNNEL_STAIR_FLIGHT/PROFILE/ANNOTATED and TUNNEL_RISER_PLANES derive evidence. High chamber-crossing width diagnostics and five own-origin/exact-corner failures excluded. Full side/terminal footprint and remaining critical architecture remain unresolved; Gate1 FAIL.
-
-Room-section review:15 repeated cardinal diagnostic reports registered, with two
-T Spawn no-hit attempts retained as rejected evidence. Four local concrete wall
-sections accepted: CT Spawn east/west and north/south, B courtyard east/west,
-Long chamber east/west. Native views reviewed for surface identity. Cross-area,
-cover and open-portal hits do not establish complete room rectangles or lengths.
-Tunnel18 measured/rendered risers,54 floor points,16 local width chords and
-365.7854cm sampled rise are accepted in TUNNEL_STAIR_PROFILE. Full curved run,
-side/terminal bounds and remaining critical dimensions keep Gate1 FAIL.
+Complete structural apertures, room/route spans, cover dimensions, ramp profiles,
+Tunnel side/terminal geometry and calibrated whole-map architectural footprint
+with overlapping elevation layers. Bound remaining source uncertainty and rerun
+Gate1 review. DOX owners remain root/reference/scripts/docs/evidence/QA.
+Criteria are unchanged; this review grants no exception or production advance.

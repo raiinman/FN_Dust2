@@ -19,7 +19,7 @@ preserve all raw captures, failed attempts and existing work/ directories.
 
 ## Reviewed progress
 
-- 204 registered reviewed JPEGs; eight historical coverage exclusions retained.
+- 206 registered reviewed JPEGs; eight historical coverage exclusions retained.
   Original24 and recovered55 re-inspected; all additions individually inspected.
   IMAGE_REVIEW/IMAGE_AUDIT and capture registers own hashes/provenance/rejections.
 - Sixteen critical-area forward/reverse/side/elevation sets and eleven subarea
@@ -30,7 +30,7 @@ preserve all raw captures, failed attempts and existing work/ directories.
   Phase 2 exporter/editor round-trip remains unverified. Unsaved Hammer128-unit
   cube is an agent-authored calibration fixture, not production or source geometry.
 - 13 repeated floor datums,54 Short floor samples,54 Tunnel stair floor samples,
-  83 connector floor/cover/cap points,134 calibrated feature measurements.
+  89 connector floor/cover/cap points,136 calibrated feature measurements.
   No continuous floors, room outlines or cover bounds inferred from point counts.
 - Short:12 rendered/native risers, individual nonuniform section spacing;
   sampled rise234.3912cm/run359.6132cm. SHORT_STAIR_* preserve endpoint limits.
@@ -48,8 +48,9 @@ preserve all raw captures, failed attempts and existing work/ directories.
 - 24 surveyed ground paths accepted both directions, collision ON, start-only
   teleport, reduced speed80/arrival20 or25 per report. Failed plans preserved.
   Pit/Side Pit and low Mid/T Spawn indirect return loops pass both directions.
-  E11/E27 forward grounded jump/drops each repeat twice; direct reverse parapet
-  classification remains unverified. Indirect returns do not prove impossibility.
+  E11/E27 forward grounded jump/drops each repeat twice; unsupported direct
+  reverse jumps at surveyed crossings blocked twice each. Indirect returns
+  do not prove impossibility. Listed connections audit PASS; dimensions remain open.
 - B Window climb/crossing and its outside CT Mid approach pass both directions.
   S01 Xbox solo forward twice/reverse once; S02 Short-to-CT drop passes;
   S03 CT stepped crate solo climb twice; S04 crouched-partner boost twice and
@@ -87,31 +88,26 @@ the failed controller ends. Never accept a hit at the ray origin as a surface.
 
 ## Current recovery point and next work
 
-At pushed checkpoint44ed4c0 all prior controllers had ended. Restored source camera
-(640,-100,150,p0,y90), FOV90, noclip1, debug overlays visible, movement released.
-Tunnel floor batches01/02 stopped at exact corner(-1100,1100); batch03 completed.
-Original entry own-origin hits excluded/resampled atZ-40. Native own-origin guard
-refusal verified in TUNNEL_ORIGIN_GUARD_CHECK_001, then pose restored exactly.
-HighZ70 wall diagnostics cross above inner platform into Upper chamber and do
-not establish stair widths. Low radial/straight widths independently measured.
-Low south count001 obstructed; replacement002 and west001 inspected/registered.
+Previous pushed room checkpointe87d705:15 cardinal reports and two Spawn no-hit
+attempts registered, four local concrete room sections accepted. Full room
+footprints remain separate. All raw/private attempts are preserved.
 
-Room batches01/02 ended:15 complete reports and two T Spawn no-hit failures
-registered in ARCHITECTURAL_ENDPOINTS. Both failed helpers restored original
-camera exactly; no automatic restart. Four reviewed concrete room sections
-accepted (CT two, B one, Long chamber one). Cover/open-portal/cross-area rays
-retain interpretation limits; no continuous footprint certified.
+Spawn parapet six floor-only points now registered in CONNECTOR_SURFACE_PROFILES;
+capY-640/-620 givesZ150.07/151.27, lower floorY-600..-560 givesZ1.74..1.25.
+Lower/cap sampled rise379.8062cm; Spawn approach/cap sampled rise102.3366cm.
+Two native images individually inspected and registered. Direct unsupported
+reverse atX-450 blocked twice atY-593.97, stable lower landingZ1.883;
+highest sampledZ57.684/57.664. No global reverse impossibility or partner claim.
 
-Spawn floor-only batch completed six repeated points atX-450,Y-660..-560.
-Private spawn_parapet_01 reports not registered yet. CapY-640/-620 gives
-Z150.07/151.27; lower floorY-600..-560 givesZ1.74..1.25.
-test_spawn_reverse.py completed two unsupported direct reverse jumps; both
-blocked atY-593.97 with lower stable landingZ1.883. Highest sampledZ57.684/57.664.
-Attempts and six floor points still private/unregistered; review before topology
-acceptance. All pose controllers ended; source camera restored640,-100,150p0y90.
+Pit unsupported reverse002 completed, matched001: wallX1571.97,Y500;
+highest sampledZ-37.383/-37.703, stable lower landingZ-93.136. Both attempts
+registered; alternate launch/partner scope remains separate. No active pose/input
+controller; restored640,-100,150p0y90 read back independently. Overlay visible.
+FOV90, HUD0/viewmodel0; r_drawpanorama1 restored after capture preflight.
+Native desktop observation still works; no worker duplication or asset extraction.
 
 Next: remaining structural apertures/room spans/cover bounds and ramp profiles;
-full Tunnel side/terminal footprint; direct reverse E11/E27 classification;
+full Tunnel side/terminal footprint; bounded other launch/partner scope;
 calibrated whole-map architectural footprint with overlapping elevation layers.
 Update uncertainty and rerun Gate1 review. Only PASS permits Phase2 geometry.
 
@@ -123,7 +119,8 @@ build/map unchanged. No bot remains. Private plotting dependencies in
 -X utf8 for doc helpers. PowerShell child scripts may be blocked by execution
 policy; do not bypass/change it. Native PNG-to-reviewed-JPEG uses private PIL.
 
-Verification:204-image hash audit,16 critical/11 subarea reviews, physical
-register134 rows, overhead/local calibration checks, Tunnel repeated-point,
+Verification:34-edge/four-special topology evidence audit PASS for listed
+current-build connections,206-image hash audit,16 critical/11 subarea reviews, physical
+register136 rows, overhead/local calibration checks, Tunnel repeated-point,
 floor/face, opposite-ray/rangefinder and withheld-plane checks pass. Derived
 Short/Long/Tunnel/radar/overhead SVGs rendered and inspected. Gate1 still FAIL.

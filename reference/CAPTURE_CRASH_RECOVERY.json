@@ -3825,6 +3825,60 @@
       "jpeg_sha256": "a0c75959ad98f30311da78f8a67742ced3316b62436ea58ff3bb1b52a6965aa8",
       "fov_cs_debug_parameter": 90,
       "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_SPAWN_PARAPET_LOWER_001",
+      "timestamp_utc": "2026-10-02T03:52:27.288446+00:00",
+      "engine_capture_basename": "d2_a37ed7df84",
+      "pose_command": "setpos_exact -450.000000 -430.000000 5.000000;setang_exact -19.999924 -90.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -450.0,
+        -430.0,
+        5.0,
+        -20.0,
+        -90.0
+      ],
+      "tga_sha256": "982999aed1a1a97e5345e9e9fdd359993bd3fa683e1d74dd1b2da22d1be778fb",
+      "png_sha256": "8caaa67864f130ba820e71f1caba24dfe105ef2ea09d686b291fc57429d08900",
+      "status": "visually inspected; usable stated-direction reference",
+      "area": "Suicide / T Spawn parapet",
+      "review": "Unobstructed lower-corridor view of high Spawn parapet face/cap and adjoining walls; no debug overlay. Looks upward, floor outside bottom frame; side/original views supply context. Supports cap/low-floor identity, not full boundary extent.",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "repository_image_path": "reference/images/suicide/QA_SPAWN_PARAPET_LOWER_001.jpg",
+      "jpeg_sha256": "d2a829feef98da5b6d74754e69f60efa33be06974d694c82e99945d098b1b861",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_SPAWN_PARAPET_SIDE_001",
+      "timestamp_utc": "2026-10-02T03:52:37.297873+00:00",
+      "engine_capture_basename": "d2_ea12ce70bd",
+      "pose_command": "setpos_exact -220.000000 -550.000000 100.000000;setang_exact 5.000153 -160.000076 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -220.0,
+        -550.0,
+        100.0,
+        5.0,
+        -160.0
+      ],
+      "tga_sha256": "d2d6be1329ef60e0a3729862a6690c6e96e461a92b6667313ea17f7f9a8bb48e",
+      "png_sha256": "43606b2e35d8bb5a399cb45054e1686da49f90dc825e73a4654a44db7df04e59",
+      "status": "visually inspected; usable stated-direction reference",
+      "area": "Suicide / T Spawn parapet",
+      "review": "Unobstructed oblique side view of parapet cap, Spawn-side pavement and lower corridor floor; no overlay. Native floor-only points atX-450 are local collision samples; image does not bound render/collision offset or classify other launches.",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "repository_image_path": "reference/images/suicide/QA_SPAWN_PARAPET_SIDE_001.jpg",
+      "jpeg_sha256": "39f61cec79c05d2cad2a4d0dc0d5736fcc827a6e219957c79e83a74e52c78a6c",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
     }
   ],
   "rejected_attempts": [

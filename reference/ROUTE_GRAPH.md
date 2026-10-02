@@ -2,9 +2,12 @@
 
 ## Status
 
-provisional; requires current-build traversal validation. Gate 1 has not passed.
+All listed current-build connections have reviewed direction evidence;
+TOPOLOGY_AUDIT passes linkage/preconditions. Gate1 remains FAIL for dimensions
+and architectural footprint. Alternative launch/partner scope stays explicit.
 
-Sources: PLAN_CSDB and PLAN_CALLER in REFERENCE_MANIFEST.csv.
+Sources: PLAN_CSDB/PLAN_CALLER for initial taxonomy; current native WALK_PROBES,
+TRAVERSAL_PROBES and evidence/TOPOLOGY_AUDIT.json govern observed connectivity.
 Nodes describe area relationships; they are not polygon outlines or route lengths.
 
 ## Area adjacency
@@ -21,7 +24,7 @@ Nodes describe area relationships; they are not polygon outlines or route length
 | E08 | Tunnel Stairs | Lower Tunnels | walk | both | lower floor | D008 |
 | E09 | Lower Tunnels | Mid | walk | both | arch survey | D009 |
 | E10 | Outside Long | Top Mid | walk | both | survey | D010 |
-| E11 | T Spawn | Suicide | direct jump/drop; indirect walk loop both ways | forward twice; direct reverse unverified | drop | D011 |
+| E11 | T Spawn | Suicide | direct jump/drop; indirect walk loop both ways | forward twice; unsupported reverse atX-450 blocked twice | drop | D011 |
 | E12 | Suicide | Top Mid | walk | both | survey | D012 |
 | E13 | Top Mid | Mid | walk | both | mid descends toward doors | D013 |
 | E14 | Top Mid | Catwalk | walk | both | survey | D014 |
@@ -37,7 +40,7 @@ Nodes describe area relationships; they are not polygon outlines or route length
 | E24 | Outside Long | Long Doors | walk | both | survey | D024 |
 | E25 | Long Doors | Long Corner | walk | both | two portals with intervening room | D025 |
 | E26 | Long Corner | Side Pit | walk | both | survey | D026 |
-| E27 | Side Pit | Pit | direct jump/drop; indirect walk loop both ways | forward twice; direct reverse unverified | down into pit | D027 |
+| E27 | Side Pit | Pit | direct jump/drop; indirect walk loop both ways | forward twice; unsupported reverse atY500 blocked twice | down into pit | D027 |
 | E28 | Long Corner | Long A | walk | both | survey | D028 |
 | E29 | Long A | A Cross | walk | both | survey | D029 |
 | E30 | A Cross | A Ramp | walk | both | rises toward A | D030 |
@@ -118,18 +121,28 @@ default-speed timing. Failed plans remain preserved.
 | B_WINDOW_OUTSIDE_CTMID_BOTH | outside E19 approach only; raised crossing separate |
 
 TRAVERSAL_PROBES.json separately accepts observed forward E27 grounded jump/drop
-twice, and forward E11 grounded spawn jump/drop once. Stable landings and input
-telemetry are retained; reverse classification remains unresolved. E19/E20 B
+twice, and forward E11 grounded spawn jump/drop twice. Stable landings and input
+telemetry are retained; unsupported direct reverse E11/E27 jumps at surveyed
+crossings are blocked twice each. Other launch/partner scope remains separate. E19/E20 B
 Window climb/crossing passed both directions; outside rubble-to-CT Mid approach
-now passes both directions. S01 Xbox passes both directions, S02 Short-to-CT forward; S03 solo climb passes twice; S04 remains unverified. A failed individual
+now passes both directions. S01 Xbox passes both directions, S02 Short-to-CT forward; S03 solo climb passes twice; S04 crouched-partner boost passes twice/reverse once. A failed individual
 jump is not proof of absent connectivity. Suicide callout bounds remain provisional.
 
 S03 current-build solo climb accepted twice: CT bay low/second/high boxes,
 parapet crossing and stable Short landing. TRAVERSAL_PROBES/CT_CRATE_SHORT_FORWARD.
-S02 independently proves Short-to-CT jump/drop; S04 partner boost remains unverified.
+S02 independently proves Short-to-CT jump/drop; S04 partner boost is separately verified.
 
 S04 elevator boost accepted twice with one stationary crouched practice partner;
 reverse parapet jump/drop accepted once. TRAVERSAL_PROBES owns stable head, cap
 and platform/ground landings. Added partner removed and original cvars verified.
 
-Return-loop review: PIT_SIDE_PIT_WALK_RETURN_BOTH traverses Pit ramp/Long Corner/north Side Pit steps. SUICIDE_TSPAWN_WALK_RETURN_BOTH traverses low Mid/Top Mid/Outside Long. Both pass each direction with collision enabled and no route teleports. These are composite paths, not direct reverse E11/E27 jumps; direct reverse classification remains unverified. Spawn forward jump/drop now repeats twice.
+Return-loop review: PIT_SIDE_PIT_WALK_RETURN_BOTH traverses Pit ramp/Long Corner/north Side Pit steps. SUICIDE_TSPAWN_WALK_RETURN_BOTH traverses low Mid/Top Mid/Outside Long. Both pass each direction with collision enabled and no route teleports. These are composite paths, not direct reverse E11/E27 jumps; direct unsupported reverse jumps atX-450/Y500 are blocked twice each. Other launch/partner scope remains separate. Spawn forward jump/drop repeats twice.
+
+E11 direct reverse atX-450: two collision-enabled unsupported standing jumps
+blocked atY-593.97 and returned to lower floor. Repeated cap/floor samples and
+QA_SPAWN_PARAPET_LOWER/SIDE views identify the tested crossing. No claim about
+other launch points or partner boosts. TRAVERSAL_PROBES owns exact telemetry.
+
+E27 direct unsupported reverse atY500 blocked twice with stable Pit landing.
+TRAVERSAL_PROBES/PIT_SIDE_PIT_DIRECT_REVERSE_BLOCKED pins observed scope;
+local cap/floor rises do not certify the entire wall or every launch point.

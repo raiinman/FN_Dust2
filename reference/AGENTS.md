@@ -149,3 +149,7 @@ Cardinal area diagnostics in ARCHITECTURAL_ENDPOINTS retain repeated hits and
 per-report cover/portal/cross-area interpretation. Only explicit accepted_sections
 grant local wall chords. Four first hits never silently become room rectangles;
 failed no-hit attempts remain rejected evidence with exact restore records.
+
+Listed-route topology is audited by scripts/audit_route_topology.py against
+WALK_PROBES/TRAVERSAL_PROBES. Unsupported reverse jumps at surveyed crossings
+are direction-specific tests, never exhaustive alternate-launch/boost absence.

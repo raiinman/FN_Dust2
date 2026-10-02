@@ -198,3 +198,9 @@ None.
 - build_physical_register.py derives reviewed centimeter samples from SCALE_CALIBRATION, architectural endpoints and native floor datums. Reviewed sections may use native X or Y; reviewed columns require repeated same-XY floor/first-overhead endpoints. Local clearance is not full-opening acceptance. Never silently overwrite future manually accepted measurement rows; extend the reviewed source evidence first. Accepted Short floor point-pair rises come from SHORT_STAIR_PROFILE.json and require repeated corrected endpoints. Explicit accepted_flight adds individual center-section rise/run and full-flight outer endpoint values through shared flight_rows validation.
 
 Physical-register column acceptance permits floor/overhead XY separation within .04 native units; both corrected repeated endpoints must individually meet .02 tolerance. It retains original coordinates and vertical difference, never forces coincidence.
+
+audit_route_topology.py checks reviewed WALK_PROBES/TRAVERSAL_PROBES links for
+all34 listed edges/four specials and writes evidence/TOPOLOGY_AUDIT.json. Run
+it after direction/evidence changes. Collision/no-route-teleport/cleanup checks
+supplement manual landing review; it never infers untested launches or grants
+dimensional/footprint acceptance. Two-direction paths explicitly carry direction.

@@ -6285,6 +6285,456 @@
       "restored_pose": "setpos_exact 1105.342407 2228.039062 9.711787;setang_exact 0.000000 -90.000000 0.000000",
       "id": "ELEVATOR_X1100_Y2380_001",
       "surface_semantics": "A-site upper platform collision floor sample behind the elevator wall."
+    },
+    {
+      "timestamp_utc": "2026-10-02T03:48:43.567206+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "T Spawn / Suicide parapet",
+      "unit": "source_units",
+      "target_xy": [
+        -450.0,
+        -660.0
+      ],
+      "probe_player_z": 240.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -450.000000 -723.990234 240.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -450.0,
+            -657.71,
+            109.79
+          ],
+          "xy_error": 2.2899999999999636,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 55504"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -450.000000 -726.280273 240.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -450.0,
+            -660.0,
+            109.78
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 55507"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -450.000000 -726.280273 240.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -450.0,
+            -660.0,
+            109.78
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 55507"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -450.0,
+          -660.0,
+          109.78
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "SPAWN_PARAPET_X450_Y660_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/spawn_parapet_01/SPAWN_PARAPET_X450_Y660_001.json",
+      "surface_semantics": "Spawn-side approach pavement collision sample"
+    },
+    {
+      "timestamp_utc": "2026-10-02T03:48:52.591974+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "T Spawn / Suicide parapet",
+      "unit": "source_units",
+      "target_xy": [
+        -450.0,
+        -640.0
+      ],
+      "probe_player_z": 240.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -450.000000 -703.990234 240.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -450.0,
+            -638.42,
+            150.52
+          ],
+          "xy_error": 1.580000000000041,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -450.000000 -705.570251 240.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -450.0,
+            -639.99,
+            150.07
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -450.000000 -705.570251 240.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -450.0,
+            -639.99,
+            150.07
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -450.0,
+          -639.99,
+          150.07
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "SPAWN_PARAPET_X450_Y640_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/spawn_parapet_01/SPAWN_PARAPET_X450_Y640_001.json",
+      "surface_semantics": "Rock-hull parapet cap collision sample, visually corroborated by QA_SPAWN_PARAPET_SIDE_001"
+    },
+    {
+      "timestamp_utc": "2026-10-02T03:49:01.317461+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "T Spawn / Suicide parapet",
+      "unit": "source_units",
+      "target_xy": [
+        -450.0,
+        -620.0
+      ],
+      "probe_player_z": 240.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -450.000000 -683.990234 240.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -450.0,
+            -618.42,
+            150.83
+          ],
+          "xy_error": 1.580000000000041,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -450.000000 -685.570251 240.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -450.0,
+            -620.01,
+            151.27
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -450.000000 -685.570251 240.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -450.0,
+            -620.01,
+            151.27
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -450.0,
+          -620.01,
+          151.27
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "SPAWN_PARAPET_X450_Y620_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/spawn_parapet_01/SPAWN_PARAPET_X450_Y620_001.json",
+      "surface_semantics": "Rock-hull parapet cap collision sample, visually corroborated by QA_SPAWN_PARAPET_SIDE_001"
+    },
+    {
+      "timestamp_utc": "2026-10-02T03:49:10.141640+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "T Spawn / Suicide parapet",
+      "unit": "source_units",
+      "target_xy": [
+        -450.0,
+        -600.0
+      ],
+      "probe_player_z": 240.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -450.000000 -663.990234 240.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -450.0,
+            -595.82,
+            1.7
+          ],
+          "xy_error": 4.17999999999995,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 55481"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -450.000000 -668.170227 240.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -450.0,
+            -600.0,
+            1.74
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 55481"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -450.000000 -668.170227 240.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -450.0,
+            -600.0,
+            1.74
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 55481"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -450.0,
+          -600.0,
+          1.74
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "SPAWN_PARAPET_X450_Y600_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/spawn_parapet_01/SPAWN_PARAPET_X450_Y600_001.json",
+      "surface_semantics": "Lower Suicide-candidate corridor floor collision sample below Spawn parapet"
+    },
+    {
+      "timestamp_utc": "2026-10-02T03:49:19.170088+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "T Spawn / Suicide parapet",
+      "unit": "source_units",
+      "target_xy": [
+        -450.0,
+        -580.0
+      ],
+      "probe_player_z": 240.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -450.000000 -643.990234 240.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -450.0,
+            -575.82,
+            1.45
+          ],
+          "xy_error": 4.17999999999995,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 55526"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -450.000000 -648.170227 240.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -450.0,
+            -580.0,
+            1.5
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 55526"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -450.000000 -648.170227 240.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -450.0,
+            -580.0,
+            1.5
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 55526"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -450.0,
+          -580.0,
+          1.5
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "SPAWN_PARAPET_X450_Y580_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/spawn_parapet_01/SPAWN_PARAPET_X450_Y580_001.json",
+      "surface_semantics": "Lower Suicide-candidate corridor floor collision sample below Spawn parapet"
+    },
+    {
+      "timestamp_utc": "2026-10-02T03:49:28.095056+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "T Spawn / Suicide parapet",
+      "unit": "source_units",
+      "target_xy": [
+        -450.0,
+        -560.0
+      ],
+      "probe_player_z": 240.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -450.000000 -623.990234 240.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -450.0,
+            -555.81,
+            1.19
+          ],
+          "xy_error": 4.190000000000055,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 55526"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -450.000000 -628.180237 240.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -450.0,
+            -560.0,
+            1.25
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 55526"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -450.000000 -628.180237 240.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -450.0,
+            -560.0,
+            1.25
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 55526"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -450.0,
+          -560.0,
+          1.25
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "SPAWN_PARAPET_X450_Y560_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/spawn_parapet_01/SPAWN_PARAPET_X450_Y560_001.json",
+      "surface_semantics": "Lower Suicide-candidate corridor floor collision sample below Spawn parapet"
     }
   ],
   "accepted_pairs": [
@@ -6422,6 +6872,24 @@
       "dimension": "rise",
       "feature": "A platform floor sample to front parapet cap",
       "notes": "Distinct-XY repeated point pair, not full wall height or minimum boost clearance. Partner/player collision telemetry remains separate."
+    },
+    {
+      "id": "SPAWN_LOWER_TO_CAP_SAMPLE_RISE",
+      "area": "T Spawn / Suicide",
+      "from_report": "SPAWN_PARAPET_X450_Y600_001",
+      "to_report": "SPAWN_PARAPET_X450_Y620_001",
+      "dimension": "rise",
+      "feature": "Lower corridor floor sample to Spawn parapet cap",
+      "notes": "Distinct-XY repeated point pair atX-450; not full parapet minimum height or reverse boost feasibility. QA_SPAWN_PARAPET_LOWER/SIDE corroborate surface identity; original Spawn views retained."
+    },
+    {
+      "id": "SPAWN_APPROACH_TO_CAP_SAMPLE_RISE",
+      "area": "T Spawn / Suicide",
+      "from_report": "SPAWN_PARAPET_X450_Y660_001",
+      "to_report": "SPAWN_PARAPET_X450_Y640_001",
+      "dimension": "rise",
+      "feature": "Spawn approach pavement sample to parapet cap",
+      "notes": "Distinct-XY repeated point pair atX-450; not full parapet minimum height or reverse boost feasibility. QA_SPAWN_PARAPET_LOWER/SIDE corroborate surface identity; original Spawn views retained."
     }
   ]
 }
