@@ -8,7 +8,7 @@ with its configured model; no model override or agent delegation requested.
 ## Authority and preserved work
 
 GitHub main authoritative; fetch/check before resuming. Crash baseline35eaa642,
-dirty work preserved4c7df48, mergedab4e484. Latest pushed checkpoint08ad256
+dirty work preserved4c7df48, mergedab4e484. Latest pushed checkpoint5a3d7db
 before this update. Active C:/Users/mikea/Documents/Codex/2026-09-30/new-chat/
 FN_Dust2, branch codex/crash-recovery-20261001 pushes meaningful checkpoints
 to main. OneDrive workspace separate; synced sources/ read-only. Raw/private
@@ -101,7 +101,9 @@ Lower-body axis survey completed/restored:85 floor-linked stations,338 repeated
 hit observations plus two native misses,84 paired diagnostic spans. Public
 ROUTE_AXIS_SECTIONS/SPANS/OPEN_RAYS preserve material, exact heights and no-hit
 limits. No whole-route minimum or playerclip-mask acceptance. Higher64-native
-comparison route_sections_03/config.json remains planned, unexecuted.
+comparison route_sections_03/config.json is now the ONE ACTIVE controller;
+output ROUTE_BODY64_AXIS_SECTIONS_003.json. Inspect status/observations and
+restoration before any additional source input; preserve partial evidence.
 
 remaining_portals_04 completed/restored:seven local stone opening widths,three
 opposite outside-origin masonry depths and nine additional sand-floor/stone
@@ -109,10 +111,13 @@ intrados columns registered.317 measurements/113 chords; derived section map
 rebuilt/rendered/inspected. Lower south old inside ray first hits Wood cover,
 never a masonry depth; unsafe LowerY1495 column excluded before execution.
 
-No active pose controller. Lower south retry completed/restored: concrete faces
+Lower south retry completed/restored: concrete faces
 X-536.96/-510.80 atY1370 Z30 give66.4464cm local depth; original Wood cover-hit
 pair retained diagnostic. Fresh original source-pose readback required before
 next controller. remaining_portals_04 all nine columns completed; never rerun.
+STONE_PORTAL_PROFILES selects15 columns,10 widths and4 masonry depths; its
+CSV/SVG rebuilt/rendered/inspected. axis_wall_checks_02/plan.json fixes110 fresh
+midpoint predictions over14 areas; unexecuted until active route survey ends.
 
 Temporary engine_no_focus_sleep0(original20), m_yaw/m_pitch0(original.022).
 Movement released/maxspeed320/noclip1. Restore/read back temporary originals at

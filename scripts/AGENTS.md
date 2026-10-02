@@ -289,3 +289,8 @@ floors, opposite repeated hit/material/rangefinder replies and exact restoration
 It writes diagnostic native-axis spans and separate open-ray CSVs. Material,
 cover, rising floors, remote portals and unknown playerclip ray-mask coverage
 preclude automatic whole-route minimum or architectural boundary acceptance.
+
+build_stone_portal_profiles.py validates selected repeated sand-floor/concrete
+intrados columns, opposite local opening chords and outside-origin depths.
+Rebuild/render/inspect its CSV/SVG after selection changes. Separate stone,
+timber, stairs and cover; sample-order links never certify continuous geometry.

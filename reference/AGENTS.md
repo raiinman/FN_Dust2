@@ -232,3 +232,9 @@ independently measured route floors. ROUTE_AXIS_SPANS.csv diagnoses local native
 first-hit spans; ROUTE_AXIS_OPEN_RAYS.csv separately preserves misses without
 endpoints. Retain materials, cross-area/cover/slope context and ray-mask limits;
 these spans do not automatically become full player clearance or wall edges.
+
+STONE_PORTAL_PROFILES.json selects B/Lower repeated stone columns, opening
+chords and outside-origin masonry depths from ARCHITECTURAL_ENDPOINTS.
+STONE_PORTAL_PROFILE_SAMPLES.csv and STONE_PORTAL_PROFILES.svg keep exact planes,
+components and calibrated values. Dashed links show order, never fit a continuous
+curve or certify apex/jamb ends, constant depth or rendered offsets.

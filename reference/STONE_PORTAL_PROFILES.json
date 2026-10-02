@@ -1,0 +1,101 @@
+{
+  "source_build": "25640462",
+  "limits": "Reviewed repeated local collision sections, selected planes/components only. Sample-order connectors do not fit unseen surface, certify exact apex/jamb ends or bound rendered offsets. Timber roofs, external stairs and intervening cover remain separate.",
+  "portals": [
+    {
+      "id": "B",
+      "label": "B tunnel mouth",
+      "transverse_axis": 0,
+      "section_plane_native": 1780,
+      "columns": [
+        "B_TUNNEL_MOUTH_INTRADOS_X1958_Y1780_001",
+        "B_TUNNEL_MOUTH_INTRADOS_X1984_Y1780_001",
+        "B_TUNNEL_MOUTH_INTRADOS_X2010_Y1780_001",
+        "B_MOUTH_CURVE_X2034_Y1780_004",
+        "B_MOUTH_CURVE_X2022_Y1780_004",
+        "B_MOUTH_CURVE_X1998_Y1780_004",
+        "B_MOUTH_CURVE_X1970_Y1780_004",
+        "B_MOUTH_CURVE_X1946_Y1780_004",
+        "B_MOUTH_CURVE_X1934_Y1780_004"
+      ],
+      "widths": [
+        {
+          "report": "B_TUNNEL_MOUTH_WIDTH_SECTIONS_001",
+          "section": "B_TUNNEL_MOUTH_WIDTH_Y1780_Z80"
+        },
+        {
+          "report": "B_TUNNEL_MOUTH_WIDTH_SECTIONS_001",
+          "section": "B_TUNNEL_MOUTH_WIDTH_Y1780_Z180"
+        },
+        {
+          "report": "B_TUNNEL_MOUTH_WIDTH_SECTIONS_001",
+          "section": "B_TUNNEL_MOUTH_WIDTH_Y1780_Z220"
+        },
+        {
+          "report": "B_LOWER_ARCH_BODY_WIDTHS_004",
+          "section": "B_MOUTH_Y1780_EYE35_004_SPAN"
+        },
+        {
+          "report": "B_LOWER_ARCH_BODY_WIDTHS_004",
+          "section": "B_MOUTH_Y1780_EYE105_004_SPAN"
+        }
+      ],
+      "depths": [
+        {
+          "report": "B_LOWER_ARCH_MASONRY_DEPTHS_004",
+          "span": "B_MOUTH_LOCAL_MASONRY_DEPTH_X2030_Z230_004"
+        },
+        {
+          "report": "B_LOWER_ARCH_MASONRY_DEPTHS_004",
+          "span": "B_MOUTH_LOCAL_MASONRY_DEPTH_X1938_Z230_004"
+        }
+      ]
+    },
+    {
+      "id": "LOWER",
+      "label": "Lower Mid-side arch",
+      "transverse_axis": 1,
+      "section_plane_native": -520,
+      "columns": [
+        "LOWER_ARCH_X520_Y1370_001",
+        "LOWER_ARCH_X520_Y1424_001",
+        "LOWER_ARCH_X520_Y1470_001",
+        "LOWER_ARCH_CURVE_X520_Y1395_004",
+        "LOWER_ARCH_CURVE_X520_Y1440_004",
+        "LOWER_ARCH_CURVE_X520_Y1455_004"
+      ],
+      "widths": [
+        {
+          "report": "B_LOWER_ARCH_BODY_WIDTHS_004",
+          "section": "LOWER_MOUTH_X520_EYEm105_004_SPAN"
+        },
+        {
+          "report": "B_LOWER_ARCH_BODY_WIDTHS_004",
+          "section": "LOWER_MOUTH_X520_EYEm40_004_SPAN"
+        },
+        {
+          "report": "B_LOWER_ARCH_BODY_WIDTHS_004",
+          "section": "LOWER_MOUTH_X520_EYE0_004_SPAN"
+        },
+        {
+          "report": "B_LOWER_ARCH_BODY_WIDTHS_004",
+          "section": "LOWER_MOUTH_X520_EYE40_004_SPAN"
+        },
+        {
+          "report": "B_LOWER_ARCH_BODY_WIDTHS_004",
+          "section": "LOWER_MOUTH_X520_EYE50_004_SPAN"
+        }
+      ],
+      "depths": [
+        {
+          "report": "B_LOWER_ARCH_MASONRY_DEPTHS_004",
+          "span": "LOWER_MOUTH_NORTH_MASONRY_DEPTH_Y1470_Z50_004"
+        },
+        {
+          "report": "LOWER_MOUTH_SOUTH_MASONRY_DEPTH_005",
+          "span": "LOWER_MOUTH_SOUTH_MASONRY_DEPTH_Y1370_Z30_005"
+        }
+      ]
+    }
+  ]
+}
