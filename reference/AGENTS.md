@@ -258,3 +258,7 @@ on/off-plane rays, plane/material tolerance, angular search history and projecte
 conditional interval. Different source origins may shift an occluding shadow;
 never equate a single-origin visibility change with the actual end of a wall.
 Independent origin checks and component review precede architectural acceptance.
+LOCAL_CAMERA_CALIBRATIONS permits a declared fixed X/Y/Z plane and a constrained
+native-pose local model only after fresh held-out markers pass at the exact pose.
+Retain failed unconstrained extrapolation, overlapping marker layouts and absent
+marks explicitly; never promote independent validation markers into the fit.

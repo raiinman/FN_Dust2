@@ -204,3 +204,13 @@ rendered and inspected; successful midpoint checks do not grant continuous
 wall identity/full ends, rendered offsets or closed layered footprint. Gate1 FAIL.
 
 Latest checkpoint:321 calibrated features/434 connector supports. Xbox16-point cover/rock upper-joint profile separately preserves first-hit material/elevation break; local point-pair rises144.272/138.8364cm and XY intervals5.1054/5.08cm never become exact vertical-face or hidden-body extents. Higher LongZ300/UpperZ200 sections bring20 horizontal reports/638 directions, plus2 native misses; point-only layered figure rendered/inspected. First B-west conditional angular visibility brackets restored exactly; nearer protrusion/remote return and second-origin requirement remain explicit. No new continuous footprint or Gate1 acceptance.
+
+
+B-west camera:229 reviewed JPEGs, all hashes/original native dates PASS.
+Eight fit/ten withheld markers validate the constrained native-pose local camera,
+maximum held residual .43495px. Original overlapping validation and full11parameter
+matrix failure1.17809px preserved; two invisible markers excluded. Plane-only
+north transition hits adjacent Hull under the .05native classifier tolerance,
+so no Mesh endpoint accepted from those brackets. Component-aware two-origin
+native refinement is required. Local rendered corners visually agree but do not
+certify hidden body, full-height wall or complete architectural footprint. Gate1 FAIL.

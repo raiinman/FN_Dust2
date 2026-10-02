@@ -138,10 +138,21 @@ Boundary-transition helper live-tested: first B-west origin48 native observation
 two conditional projected Y intervals2704.898..2704.986 and2431.940..2432.005 at
 planeX-2128.005 Z104; exact original pose restored/read back. Original report
 registered diagnostic in ARCHITECTURAL_ENDPOINTS; no actual full wall end accepted.
-ONE ACTIVE pose controller: cs2_probe_boundary_transition.py with private
-boundary_transitions_02/b_west_config.json; second originX-1900Y2500 to check
-occluding-protrusion shifts. Output B_WEST_FIRST_HIT_TRANSITIONS_SECOND_ORIGIN_002.
-Inspect actual process/status/rays/restoration before source input after interruption.
+Second-origin B-west plane-only transition completed/restored exactly. Native
+north boundary on/off samples both hit adjacent concrete Hull, not plaster Mesh;
+the .05 plane-tolerance crossing is diagnostic, not an actual Mesh endpoint.
+ONE ACTIVE pose controller: component-aware boundary_transitions_03/
+B_WEST_MESH_COMPONENT_TRANSITIONS_003_config.json, requiring Mesh on-plane.
+Inspect observations/status/restoration before starting second-origin004 or any
+other source input. Original plane-only reports remain preserved.
+
+B-wall calibration captures completed/restored exactly. Eight visually inspected
+fit markers and ten independent three-depth markers pass constrained native-pose
+projection (max held .43495px);229 individually reviewed JPEGs/hashes/native
+dates PASS. Two absent marks excluded without invented pixels. Overlapping first
+hold layout and rejected full11parameter matrix (held1.17809px) retained. Clean
+wall view and native corner crops inspected; structural boundary acceptance
+pending component-aware native verification. No full footprint or Gate1 PASS.
 Planned unexecuted portal_edges_06/widths_config.json selects13 curve/near-apex
 widths; columns_plan.json selects eight near-jamb floor/intrados columns.
 

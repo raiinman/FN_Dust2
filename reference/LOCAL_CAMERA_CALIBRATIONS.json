@@ -847,6 +847,787 @@
           "maximum_axis_1_5_pixel_displacement_cm": 2.8851927666469535
         }
       ]
+    },
+    {
+      "id": "B_WEST_FRONTAL_001",
+      "camera_pose": [
+        -1800,
+        2500,
+        40,
+        0,
+        180
+      ],
+      "observed_pose": [
+        -1800,
+        2500,
+        40,
+        0,
+        -180,
+        0
+      ],
+      "image_size": [
+        1280,
+        720
+      ],
+      "status": "accepted constrained local projection; local collision-wall component review separate",
+      "model": "constrained native pose",
+      "normal_axis": 0,
+      "bound_planes_native": [
+        -2128.005,
+        -2080,
+        -2020
+      ],
+      "captures": [
+        {
+          "id": "QA_BWEST_CAMERA_FIT_001_MARKED",
+          "timestamp_utc": "2026-10-02T11:15:51.869215+00:00",
+          "engine_capture_basename": "d2_b742619a9b",
+          "pose_command": "setpos_exact -1800.000000 2500.000000 40.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "pose_unit": "source_units",
+          "width": 1280,
+          "height": 720,
+          "requested_pose": [
+            -1800,
+            2500,
+            40,
+            0,
+            180
+          ],
+          "source_build": "25640462",
+          "source_map": "de_dust2",
+          "tga_sha256": "9508aadf7cf368d63f4826aebaacbe8b439d54d40cdfd855893bc65f5bf080c2",
+          "png_sha256": "d6d01e70832624245b88244a5bfb1d8ed552ae6c2f177e9e410e9e855498e352",
+          "anchors": [
+            {
+              "id": "FIT_X2080_Y2400_Z64",
+              "point": [
+                -2080,
+                2400,
+                64
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FIT_X2080_Y2400_Z164",
+              "point": [
+                -2080,
+                2400,
+                164
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FIT_X2080_Y2600_Z64",
+              "point": [
+                -2080,
+                2600,
+                64
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FIT_X2080_Y2600_Z164",
+              "point": [
+                -2080,
+                2600,
+                164
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FIT_X2128_Y2400_Z64",
+              "point": [
+                -2128,
+                2400,
+                64
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FIT_X2128_Y2400_Z164",
+              "point": [
+                -2128,
+                2400,
+                164
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FIT_X2128_Y2600_Z64",
+              "point": [
+                -2128,
+                2600,
+                64
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FIT_X2128_Y2600_Z164",
+              "point": [
+                -2128,
+                2600,
+                164
+              ],
+              "half_size": 10
+            }
+          ],
+          "status": "captured; requires native image and projection review",
+          "marker_plane": "YZ",
+          "repository_image_path": "reference/images/crash_recovery/QA_BWEST_CAMERA_FIT_001_MARKED.jpg",
+          "jpeg_sha256": "704e4d320dd9cdb2fcaf430d017325b88dd9512009aa029622e6049f960df0ad"
+        },
+        {
+          "id": "QA_BWEST_CAMERA_FIT_001_CLEAN",
+          "timestamp_utc": "2026-10-02T11:15:58.477121+00:00",
+          "engine_capture_basename": "d2_1524096f2b",
+          "pose_command": "setpos_exact -1800.000000 2500.000000 40.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "pose_unit": "source_units",
+          "width": 1280,
+          "height": 720,
+          "requested_pose": [
+            -1800,
+            2500,
+            40,
+            0,
+            180
+          ],
+          "source_build": "25640462",
+          "source_map": "de_dust2",
+          "tga_sha256": "f895445b0df0f0bf0c9a65e3de8d3d00807faba84575c8811f847a226e3f429b",
+          "png_sha256": "906fe3adc694ae2f396b8795556aa031ce50a076a30fc094c6580a1ee1a0f373",
+          "anchors": [],
+          "status": "captured; requires native image and projection review",
+          "marker_plane": "YZ",
+          "repository_image_path": "reference/images/crash_recovery/QA_BWEST_CAMERA_FIT_001_CLEAN.jpg",
+          "jpeg_sha256": "47d5e7fe24d98a5c64deb052940131fb91185c1e8e37f202f93a3ece46e8785b"
+        },
+        {
+          "id": "QA_BWEST_CAMERA_HOLD_002_MARKED",
+          "timestamp_utc": "2026-10-02T11:30:21.524474+00:00",
+          "engine_capture_basename": "d2_4b44598292",
+          "pose_command": "setpos_exact -1800.000000 2500.000000 40.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "pose_unit": "source_units",
+          "width": 1280,
+          "height": 720,
+          "requested_pose": [
+            -1800,
+            2500,
+            40,
+            0,
+            180
+          ],
+          "source_build": "25640462",
+          "source_map": "de_dust2",
+          "tga_sha256": "8bb1ce58ef820bec99872ad4700be2cea4a2d152e7477a729469d23cdb2a3fb6",
+          "png_sha256": "87f6f0466473fc35b4a47914f5ca0b51f9dca46b0f094e70d9e07bc7bf9a84e5",
+          "anchors": [
+            {
+              "id": "HOLD2_X2020_Y2420_Z104",
+              "point": [
+                -2020,
+                2420,
+                104
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "HOLD2_X2020_Y2420_Z204",
+              "point": [
+                -2020,
+                2420,
+                204
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "HOLD2_X2020_Y2580_Z104",
+              "point": [
+                -2020,
+                2580,
+                104
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "HOLD2_X2020_Y2580_Z204",
+              "point": [
+                -2020,
+                2580,
+                204
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "HOLD2_X2080_Y2455_Z54",
+              "point": [
+                -2080,
+                2455,
+                54
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "HOLD2_X2080_Y2455_Z134",
+              "point": [
+                -2080,
+                2455,
+                134
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "HOLD2_X2080_Y2545_Z54",
+              "point": [
+                -2080,
+                2545,
+                54
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "HOLD2_X2080_Y2545_Z134",
+              "point": [
+                -2080,
+                2545,
+                134
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "HOLD2_X2128_Y2435_Z94",
+              "point": [
+                -2128,
+                2435,
+                94
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "HOLD2_X2128_Y2435_Z194",
+              "point": [
+                -2128,
+                2435,
+                194
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "HOLD2_X2128_Y2700_Z94",
+              "point": [
+                -2128,
+                2700,
+                94
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "HOLD2_X2128_Y2700_Z194",
+              "point": [
+                -2128,
+                2700,
+                194
+              ],
+              "half_size": 10
+            }
+          ],
+          "status": "captured; requires native image and projection review",
+          "marker_plane": "YZ",
+          "repository_image_path": "reference/images/crash_recovery/QA_BWEST_CAMERA_HOLD_002_MARKED.jpg",
+          "jpeg_sha256": "3505c26daf7014c7512737632c743a086f8e9dab5882a26189a4e04a034cfb09"
+        }
+      ],
+      "groups": [
+        {
+          "role": "fit",
+          "capture_id": "QA_BWEST_CAMERA_FIT_001_MARKED",
+          "anchors": [
+            {
+              "id": "FIT_X2080_Y2400_Z64",
+              "world": [
+                -2080,
+                2400,
+                64
+              ],
+              "pixel": [
+                468.0,
+                428.0
+              ],
+              "search_guess": [
+                468.57142857142856,
+                428.57142857142856
+              ],
+              "analytic_model_residual_px": 0.10101525445519811,
+              "projected_pixel": [
+                468.19740909484386,
+                428.0215516959886
+              ],
+              "residual_px": 0.19858203928618004
+            },
+            {
+              "id": "FIT_X2080_Y2400_Z164",
+              "world": [
+                -2080,
+                2400,
+                164
+              ],
+              "pixel": [
+                468.0,
+                256.5
+              ],
+              "search_guess": [
+                468.57142857142856,
+                257.1428571428571
+              ],
+              "analytic_model_residual_px": 0.15971914124994868,
+              "projected_pixel": [
+                468.19740909484386,
+                256.59691370924975
+              ],
+              "residual_px": 0.21991502396975493
+            },
+            {
+              "id": "FIT_X2080_Y2600_Z64",
+              "world": [
+                -2080,
+                2600,
+                64
+              ],
+              "pixel": [
+                811.0,
+                428.0
+              ],
+              "search_guess": [
+                811.4285714285713,
+                428.57142857142856
+              ],
+              "analytic_model_residual_px": 0.1010152544552785,
+              "projected_pixel": [
+                810.9276652435447,
+                428.0215516959886
+              ],
+              "residual_px": 0.07547709978158385
+            },
+            {
+              "id": "FIT_X2080_Y2600_Z164",
+              "world": [
+                -2080,
+                2600,
+                164
+              ],
+              "pixel": [
+                811.0,
+                256.5
+              ],
+              "search_guess": [
+                811.4285714285713,
+                257.1428571428571
+              ],
+              "analytic_model_residual_px": 0.1597191412499995,
+              "projected_pixel": [
+                810.9276652435447,
+                256.59691370924975
+              ],
+              "residual_px": 0.12093214639622957
+            },
+            {
+              "id": "FIT_X2128_Y2400_Z64",
+              "world": [
+                -2128,
+                2400,
+                64
+              ],
+              "pixel": [
+                493.49152542372883,
+                418.0
+              ],
+              "search_guess": [
+                493.6585365853658,
+                418.5365853658537
+              ],
+              "analytic_model_residual_px": 0.33499262002168506,
+              "projected_pixel": [
+                493.2752327154814,
+                417.98693874066726
+              ],
+              "residual_px": 0.21668671425898667
+            },
+            {
+              "id": "FIT_X2128_Y2400_Z164",
+              "world": [
+                -2128,
+                2400,
+                164
+              ],
+              "pixel": [
+                493.5,
+                271.50847457627117
+              ],
+              "search_guess": [
+                493.6585365853658,
+                272.1951219512195
+              ],
+              "analytic_model_residual_px": 0.3891458673925968,
+              "projected_pixel": [
+                493.2752327154814,
+                271.6488331422317
+              ],
+              "residual_px": 0.2649921871081304
+            },
+            {
+              "id": "FIT_X2128_Y2600_Z64",
+              "world": [
+                -2128,
+                2600,
+                64
+              ],
+              "pixel": [
+                786.0,
+                418.0
+              ],
+              "search_guess": [
+                786.3414634146341,
+                418.5365853658537
+              ],
+              "analytic_model_residual_px": 0.16270322029430995,
+              "projected_pixel": [
+                785.8498416229088,
+                417.98693874066726
+              ],
+              "residual_px": 0.15072536185400529
+            },
+            {
+              "id": "FIT_X2128_Y2600_Z164",
+              "world": [
+                -2128,
+                2600,
+                164
+              ],
+              "pixel": [
+                785.5087719298245,
+                272.0
+              ],
+              "search_guess": [
+                786.3414634146341,
+                272.1951219512195
+              ],
+              "analytic_model_residual_px": 0.45125851647693244,
+              "projected_pixel": [
+                785.8498416229088,
+                271.6488331422317
+              ],
+              "residual_px": 0.4895372279361908
+            }
+          ],
+          "maximum_residual_px": 0.4895372279361908
+        },
+        {
+          "role": "independent three-depth holdout",
+          "capture_id": "QA_BWEST_CAMERA_HOLD_002_MARKED",
+          "anchors": [
+            {
+              "id": "HOLD2_X2020_Y2580_Z104",
+              "world": [
+                -2020,
+                2580,
+                104
+              ],
+              "pixel": [
+                814.0,
+                359.5
+              ],
+              "search_guess": [
+                814.5454545454545,
+                360.0
+              ],
+              "analytic_model_residual_px": 0.045454545454504114,
+              "projected_pixel": [
+                814.0433948448965,
+                359.4516965012929
+              ],
+              "residual_px": 0.06493335468726188
+            },
+            {
+              "id": "HOLD2_X2020_Y2580_Z204",
+              "world": [
+                -2020,
+                2580,
+                204
+              ],
+              "pixel": [
+                814.0,
+                141.5
+              ],
+              "search_guess": [
+                814.5454545454545,
+                141.8181818181818
+              ],
+              "analytic_model_residual_px": 0.18741389207352502,
+              "projected_pixel": [
+                814.0433948448965,
+                141.2748845181703
+              ],
+              "residual_px": 0.22925988031710212
+            },
+            {
+              "id": "HOLD2_X2080_Y2455_Z54",
+              "world": [
+                -2080,
+                2455,
+                54
+              ],
+              "pixel": [
+                562.5079365079365,
+                445.0
+              ],
+              "search_guess": [
+                562.8571428571428,
+                445.7142857142857
+              ],
+              "analytic_model_residual_px": 0.26202498443210276,
+              "projected_pixel": [
+                562.4482295357361,
+                445.1640154946624
+              ],
+              "residual_px": 0.17454513748223488
+            },
+            {
+              "id": "HOLD2_X2080_Y2455_Z134",
+              "world": [
+                -2080,
+                2455,
+                134
+              ],
+              "pixel": [
+                562.5,
+                308.0
+              ],
+              "search_guess": [
+                562.8571428571428,
+                308.57142857142856
+              ],
+              "analytic_model_residual_px": 0.15971914125005035,
+              "projected_pixel": [
+                562.4482295357361,
+                308.02430510527114
+              ],
+              "residual_px": 0.05719194971618854
+            },
+            {
+              "id": "HOLD2_X2080_Y2545_Z54",
+              "world": [
+                -2080,
+                2545,
+                54
+              ],
+              "pixel": [
+                716.5,
+                445.5
+              ],
+              "search_guess": [
+                717.1428571428571,
+                445.7142857142857
+              ],
+              "analytic_model_residual_px": 0.31943828249994816,
+              "projected_pixel": [
+                716.6768448026525,
+                445.1640154946624
+              ],
+              "residual_px": 0.3796836473330551
+            },
+            {
+              "id": "HOLD2_X2080_Y2545_Z134",
+              "world": [
+                -2080,
+                2545,
+                134
+              ],
+              "pixel": [
+                716.5,
+                308.0
+              ],
+              "search_guess": [
+                717.1428571428571,
+                308.57142857142856
+              ],
+              "analytic_model_residual_px": 0.15971914124994868,
+              "projected_pixel": [
+                716.6768448026525,
+                308.02430510527114
+              ],
+              "residual_px": 0.17850720536557205
+            },
+            {
+              "id": "HOLD2_X2128_Y2435_Z94",
+              "world": [
+                -2128,
+                2435,
+                94
+              ],
+              "pixel": [
+                544.5084745762712,
+                374.5
+              ],
+              "search_guess": [
+                544.8780487804877,
+                374.6341463414634
+              ],
+              "analytic_model_residual_px": 0.38840672969242523,
+              "projected_pixel": [
+                544.475789274281,
+                374.08550706113647
+              ],
+              "residual_px": 0.41577965959617663
+            },
+            {
+              "id": "HOLD2_X2128_Y2435_Z194",
+              "world": [
+                -2128,
+                2435,
+                194
+              ],
+              "pixel": [
+                544.5,
+                228.0
+              ],
+              "search_guess": [
+                544.8780487804877,
+                228.29268292682926
+              ],
+              "analytic_model_residual_px": 0.2405254015039219,
+              "projected_pixel": [
+                544.475789274281,
+                227.74740146270085
+              ],
+              "residual_px": 0.2537561433453543
+            },
+            {
+              "id": "HOLD2_X2128_Y2700_Z94",
+              "world": [
+                -2128,
+                2700,
+                94
+              ],
+              "pixel": [
+                932.4912280701755,
+                374.0
+              ],
+              "search_guess": [
+                932.6829268292682,
+                374.6341463414634
+              ],
+              "analytic_model_residual_px": 0.3362214985287882,
+              "projected_pixel": [
+                932.1371460766226,
+                374.08550706113647
+              ],
+              "residual_px": 0.36426023069033847
+            },
+            {
+              "id": "HOLD2_X2128_Y2700_Z194",
+              "world": [
+                -2128,
+                2700,
+                194
+              ],
+              "pixel": [
+                932.4912280701755,
+                228.0
+              ],
+              "search_guess": [
+                932.6829268292682,
+                228.29268292682926
+              ],
+              "analytic_model_residual_px": 0.3715239211316143,
+              "projected_pixel": [
+                932.1371460766226,
+                227.74740146270085
+              ],
+              "residual_px": 0.43494836383650526
+            }
+          ],
+          "maximum_residual_px": 0.43494836383650526
+        }
+      ],
+      "method": "Eight fit and ten independently withheld 3D markers; all native cross crops inspected. Native pose +64 camera_up constrained model; only four intrinsic parameters fitted. Excluded marks and prior calibration failures retained explicitly.",
+      "excluded_markers": {
+        "ids": [
+          "HOLD2_X2020_Y2420_Z104",
+          "HOLD2_X2020_Y2420_Z204"
+        ],
+        "reason": "Requested native marks not visible; no intersections measured. Cause not established."
+      },
+      "rejected_unconstrained_camera": {
+        "status": "rejected unconstrained camera",
+        "maximum_independent_residual_px": 1.178085872143077,
+        "projection_matrix": [
+          [
+            -2.128665608554461,
+            1.5828160257682913,
+            0.003679416528186627,
+            -7796.48545575212
+          ],
+          [
+            -1.197137331161227,
+            0.0032379698405476985,
+            -1.5759747865431026,
+            -2003.573269543205
+          ],
+          [
+            -0.0033248615925028664,
+            7.492925238094246e-06,
+            7.792109989243237e-06,
+            -6.0151294042600405
+          ]
+        ],
+        "reason": "Full11parameter fit extrapolates beyond narrow fit markers; independent maximum exceeds1px. All raw/pixel observations retained. No held markers promoted into fit."
+      },
+      "rejected_overlapping_capture": {
+        "id": "QA_BWEST_CAMERA_HOLD_001_MARKED",
+        "status": "rejected for camera validation",
+        "reason": "Individually inspected native crosses at similar projected coordinates overlap. Preserve native captures; no measured intersections accepted and no fit or held validation uses these markers."
+      },
+      "limits": "Projection tested only at this exact native pose/build/settings. Known collision X planes require independent ray evidence. Pixel displacement bounds do not establish arbitrary surface depth, hidden geometry or a full map footprint.",
+      "intrinsics": {
+        "fx": 479.8223586081806,
+        "fy": 479.9889863628689,
+        "cx": 639.5625371691942,
+        "cy": 359.4516965012926
+      },
+      "fit_algorithm": "Native zero-roll pose +64 camera_up; only fx/fy/cx/cy fit from fit-group pixels. Independent groups excluded. Explicit native holdouts required at this exact pose.",
+      "projection_matrix": [
+        [
+          -639.5625371691943,
+          479.82235860818054,
+          0.0,
+          -2350768.463425001
+        ],
+        [
+          -359.4516965012926,
+          -4.402013695683938e-14,
+          -479.9889863628689,
+          -597094.1991205881
+        ],
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          -0.0,
+          -1799.9999999999998
+        ]
+      ],
+      "sampled_pixel_localization_bounds": [
+        {
+          "source_x": -2128.005,
+          "maximum_axis_1_5_pixel_displacement_cm": 2.6045035784201627
+        },
+        {
+          "source_x": -2080,
+          "maximum_axis_1_5_pixel_displacement_cm": 2.2233228211691585
+        },
+        {
+          "source_x": -2020,
+          "maximum_axis_1_5_pixel_displacement_cm": 1.7468965023476084
+        }
+      ]
     }
   ]
 }

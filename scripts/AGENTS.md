@@ -167,7 +167,9 @@ Blender Python, Unreal automation, validation scripts, manifest processors, and 
   promote that context to a completed architectural truth map.
 - `build_local_camera.py` fits centered native coordinates using only each
   camera's fit group, checks all image hashes and independent holdouts below
-  one pixel, and verifies fixed-Y inverse round trips. Run the script to rebuild
+  one pixel, and verifies declared fixed-plane inverse round trips. Optional
+  constrained native-pose model fits only four intrinsics with fresh independent
+  holdouts at the exact pose; preserve rejected unconstrained matrices. Run the script to rebuild
   LOCAL_CAMERA_CALIBRATIONS. Surface depth and architectural edge identity need
   separate evidence; never use the pixel bound as their uncertainty bound.
 - `build_long_arch_profile.py` verifies repeated points and clean-image hash,
@@ -311,3 +313,6 @@ exact echo/pose/rangefinder checks; saves partial output and finally restores.
 Its projected bracket presumes one transition and may be caused by occluding
 returns/cover. Independent origins and component review are needed before any
 architectural endpoint interpretation. Never grant full wall ends automatically.
+Optional required_shape_type separates Mesh and Hull components while preserving
+the original plane/material classification and every native observation. A
+plane-only tolerance transition into an adjacent Hull is not a Mesh endpoint.

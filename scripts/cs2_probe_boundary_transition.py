@@ -1,7 +1,8 @@
 """Bound a conditional first-hit angular transition at a known local plane.
 
 One verified persistent worker, one source pose, independent repeated rays.
-Config brackets an on-plane and off-plane direction. The projected bracket
+Config brackets an on-plane and off-plane direction. Optional required_shape_type
+separates a concrete Mesh facade from an adjacent concrete Hull return. The projected bracket
 localizes a visibility transition only; occluding returns/cover may hide a wall
 that continues beyond it. No exact full wall endpoint or polygon acceptance.
 """
@@ -39,6 +40,9 @@ def probe(a):
             observation=dict(yaw=angle,repeat=repeat,pose=p,eye_origin=eye,hit=hit,surface=surface,rangefinder_reply=dist[0]);r['observations'].append(observation);pair.append(observation);save()
         assert pair[0]['hit']==pair[1]['hit'] and pair[0]['surface']==pair[1]['surface'],'Inconsistent native repeats'
         on=abs(pair[1]['hit'][axis]-config['plane_native'])<=config['on_plane_tolerance_native'] and 'surfaceprop concrete,' in str(surface)
+        if config.get('required_shape_type'):
+            assert config['required_shape_type'] in ['Mesh', 'Hull']
+            on = on and ('shape type: '+config['required_shape_type']+',') in str(surface)
         return dict(yaw=angle,on_plane=on,projected_plane_coordinate_native=plane_coordinate(angle),observation_index=len(r['observations'])-1)
     original=pose();r['original_pose']=original;save()
     try:
