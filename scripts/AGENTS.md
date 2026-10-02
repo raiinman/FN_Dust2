@@ -477,3 +477,22 @@ visibility intervals atfixedZ0 and hash-pinned014/015 clean componentcontexts.
 Keep westSandMesh/eastconcreteHull offhits and utilitypole cornerocclusion
 explicit; contextposes are uncalibrated. Rebuild/render/inspect JSON/SVG.
 Facingvisibility bounds never automatically grant fullheight body/floor ends.
+
+PIT_RETAINING_HEIGHT_REVIEW selects019/020 independent-origin firstMesh/Rock
+heightbounds and optional021 corrected cap/ground points.
+build_pit_retaining_heights.py validates exactnative repeats, poses, components,
+normalbands, rangefinder, source restores and originalcorrectedfloor samples;
+writes PIT_RETAINING_HEIGHTS JSON/CSV/SVG and two absoluteelevation rows consumed
+by build_physical_register.py. Rebuild/render/inspect. Bounds are sourceZ0
+firstface elevations, not highestcap/groundrelativeheight/fullbody. Planned
+CAP IDs atX1240/1620 hit outsideground: preserve IDs/actualmaterials and explicit
+not_cap_reports in connector pit_retaining_cap_ground_review. Two accepted
+cap-ground rises retain differentX, sameY, hiddenbase/fullcap limits.
+PIT_UPPER_SIDE_CHECKS optional016 heightpoints retain local/remote Mesh hits
+and actual nativeface IDs; no automatic cap, extrusion or footprint acceptance.
+
+PIT_RETAINING_HEIGHTS optionally validates022 opposinglocalRockcap sections
+against independent outside-origin companionfaces. Two accepted_endpoint_spans
+feed physicalregister as sampledsolidcap chords atwestZ30/eastZ52, notuniform
+fullcap/body thickness. NativeXZ figure keeps measuredtops, outsideground,
+adjacentground and firstMesh/Rock interfaces separate. Rebuild/render/inspect.

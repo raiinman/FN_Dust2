@@ -7,8 +7,8 @@ no model override, new chat or agent delegation requested. Criteria unchanged.
 
 ## Authority and preserved work
 
-GitHub main is authoritative. Latest checkpoint: Pit upper first-facing bounds
-and five reviewed context images; preceding pushed commit6f06842. Current Git
+GitHub main is authoritative. Latest checkpoint: Pit upper plaster/Rock interfaces, cap/ground points
+and sampledcapbody widths; preceding pushed commite69d0d9. Current Git
 commit pins the checkpoint. Crash baseline35eaa642; dirty work preserved4c7df48,
 mergedab4e484. Active checkout:
 C:/Users/mikea/Documents/Codex/2026-09-30/new-chat/FN_Dust2
@@ -26,9 +26,9 @@ evidence/CRASH_RECOVERY_20261001.md. Inspect dirty work/current main first.
 - Scale2.54cm/native from repeated inch-rangefinder anchors. UE=(2.54x,-2.54y,
   2.54z), inverse/right-axis/length checks PASS. Phase2 exporter/editor roundtrip
   unverified; unsaved Hammer128 cube is calibration, not production.
-- 404 bounded physical features;13 floor datums;54 Short/117 Tunnel stair floor
-  samples;459 connector points;135 local architectural chords.176 raw
-  architectural reports/24 rejected attempts. MEASUREMENTS/profile registers own
+- 410 bounded physical features;13 floor datums;54 Short/117 Tunnel stair floor
+  samples;465 connector points;135 local architectural chords.182 raw
+  architectural reports/26 rejected attempts. MEASUREMENTS/profile registers own
   confidence/limits. Chords cross open space; they are not wall/polygon edges.
 - Listed topology PASS:34 edges/four specials.24 ground paths both directions;
   B Window both; Xbox forward twice/reverse; reciprocal Short-drop/CT-crate;
@@ -75,11 +75,16 @@ rendered/inspected. Context014 three/015 two images inspected/registered; pole
 still overlaps exact westcorner. Contextposes have no metric camera calibration.
 These are first-facing limits, not full-height structural ends/floor perimeter.
 
-ONE active source controller: scripts/cs2_probe_endpoints.py with private
-../reference_cache/crash_recovery_survey/pit_upper_heights_16/config.json
--> report.json (Y750, twoXorigins, sixfixed rayheights). Inspect status, every
-complete/failed pair, unexecuted stations and exact finally restore before new
-input. Never rerun an existing output or start another pose controller.
+016 complete48obs/all0 exactrestore. TwoXorigins agree westlocalMesh throughZ20
+butremote at40, eastlocalthrough40 butremoteat64. No highestcap acceptance.
+West017 failed6obs on nearRockHullX1267.96/Z30/Y750; probe/driver exactrestores all0. East018 neverexecuted by serialdriver. East018 failed6obs on nearRockHullZ52; exactrestore all0. Bothoriginal017/018failures preserved. 019/020 complete36obs each/all0 exactrestore; twoXorigins agreeMesh-to-Rock interfacesZ[23.90625,23.984375] west/[47.5,47.59375] east atY750. PIT_RETAINING_HEIGHT_REVIEW selects sourceZ0 firstfacebound only. 021 completes6 correctednativecolumns/all0restore. Rockcap samples westX1259.99/Z32.06
+and eastX1603.99/Z55.54; plannedfarcapX1240/1620 hit outsidegroundZ7.27/9.03,
+explicitly excludedcap identity butvalidground points. AdjacentgroundX1274/Z-12.5,
+X1590/Z-13.85. Registered465connectorpoints/two different-X cap-ground rises.
+022 completes16obs/all0restore. Twooutsideorigins perface agree westRockcap
+X1251.77..1267.96/Z30 and eastX1591.07..1617.21/Z52 atY750. Twoaccepted
+localcapbody chords, differentwidths, notuniformfullcap/body thickness.
+No active sourcecontroller; inspect latestcheckpoint/rawstatus before input.
 
 ## Desktop and console recovery
 

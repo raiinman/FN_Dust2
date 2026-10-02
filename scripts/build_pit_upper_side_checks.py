@@ -7,6 +7,26 @@ not measured continuous walls; first-hit changes never certify body endpoints.
 import csv,hashlib,json,math,re
 from pathlib import Path
 
+def height_points(arch):
+ r=next((r for r in arch['reports'] if r['id']=='PIT_UPPER_Y750_HEIGHT_PREFLIGHT_016'),None)
+ if r is None:return []
+ assert r['source_build']=='25640462' and r['status'].startswith('complete;') and max(r['restore_numeric_errors'])<=.01
+ result=[]
+ for i in range(0,len(r['observations']),2):
+  a,o=r['observations'][i:i+2]
+  assert a['repeat']==1 and o['repeat']==2 and a['hit']==o['hit'] and a['surface']==o['surface'] and a['pose']==o['pose']
+  station=next(s for s in r['config']['stations'] if s['id']==o['station_id'])
+  v=[float(x) for x in re.findall(r'-?\d+(?:\.\d+)?',o['pose'])];eye=v[:2]+[v[2]+64]
+  assert len(v)==6 and math.dist(v[:3],station['pose'])<=.01 and math.dist(eye,o['eye_origin'])<=.01
+  assert abs(v[3])<=.01 and abs(v[5])<=.01 and abs((v[4]-o['yaw']+180)%360-180)<=.01
+  assert abs(eye[1]-750)<=.01 and abs(o['hit'][1]-750)<=.02 and abs(o['hit'][2]-eye[2])<=.02
+  assert math.dist(eye,o['hit'])>.1 and abs(float(o['rangefinder_reply'].split()[1])-math.dist(eye,o['hit']))<=.02
+  normal=1592 if o['yaw']==0 else 1272
+  local=abs(o['hit'][0]-normal)<=.02 and 'surfaceprop concrete,' in str(o['surface']) and 'shape type: Mesh,' in str(o['surface'])
+  result.append(dict(report=r['id'],station=o['station_id'],yaw=o['yaw'],eye=eye,hit=o['hit'],local_mesh=local,surface=o['surface']))
+ assert len(result)==24
+ return result
+
 def facing_limits(arch):
  result=[]
  for side,num,off_material,off_shape in [('WEST','012','sand','Mesh'),('EAST','013','concrete','Hull')]:
@@ -67,11 +87,12 @@ def main():
   if c is None:continue
   assert c['source_build']=='25640462' and hashlib.sha256(Path(c['repository_image_path']).read_bytes()).hexdigest()==c['jpeg_sha256']
   contexts.append({key:c[key] for key in ['id','repository_image_path','jpeg_sha256','pose_command','review']})
- result=dict(source_build='25640462',points=rows,facing_limits=limits,reviewed_component_contexts=contexts,context_limits='Ground images corroborate retaining-body/cap/curb association. Utility pole overlaps precise west terminal. New context poses have no camera calibration; no metric image inversion accepted.',scope='At Y750 high64 west misses lowMesh while low20 and fixedZ0 see it. Other upper stations reach separate terrain/barrel/remote masonry. Same ray height is required for longitudinal facing-limit comparison. No far-hit width, continuous wall, actual body end or closed footprint inferred.',gate1='FAIL')
+ heights=height_points(arch)
+ result=dict(source_build='25640462',points=rows,height_points=heights,facing_limits=limits,reviewed_component_contexts=contexts,context_limits='Ground images corroborate retaining-body/cap/curb association. Utility pole overlaps precise west terminal. New context poses have no camera calibration; no metric image inversion accepted.',scope='At Y750 high64 west misses lowMesh while low20 and fixedZ0 see it. Other upper stations reach separate terrain/barrel/remote masonry. Same ray height is required for longitudinal facing-limit comparison. No far-hit width, continuous wall, actual body end or closed footprint inferred.',gate1='FAIL')
  (ref/'PIT_UPPER_SIDE_CHECKS.json').write_text(json.dumps(result,indent=2)+'\n')
  with (ref/'PIT_UPPER_SIDE_CHECKS.csv').open('w',newline='') as f:
   w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
- svg=['<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1150"><rect width="1400" height="1150" fill="#14202e"/><g font-family="Arial" fill="white"><text x="30" y="40" font-size="25">Pit upper sides / measured height comparison</text><text x="30" y="74" font-size="17">Actual repeated native first hits. Points at separate elevations; no continuous wall or footprint acceptance.</text>']
+ svg=['<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1450"><rect width="1400" height="1450" fill="#14202e"/><g font-family="Arial" fill="white"><text x="30" y="40" font-size="25">Pit upper sides / measured height comparison</text><text x="30" y="74" font-size="17">Actual repeated native first hits. Points at separate elevations; no continuous wall or footprint acceptance.</text>']
  groups=[('005 / floor+64',rows[:8]),('006 / floor+20',rows[8:16]),('007 / fixed Z0',rows[16:])]
  for j,(label,points) in enumerate(groups):
   y0=125+j*280;sx=lambda x:100+(x-450)*.6;sy=lambda y:y0+210-(y-740)*1.1
@@ -84,6 +105,14 @@ def main():
  svg.append('<text x="30" y="995" font-size="16">Dashed X1272/1592 references are comparison axes only. Numeric file retains every component and exact eye/hit Z.</text>')
  for j,limit in enumerate(limits):
   low,high=limit['native_y_interval'];svg.append(f'<text x="30" y="{1030+j*30}" font-size="16">{limit["side"]}: first-facing limit Y[{low:.8f},{high:.8f}] atZ0, two independent X origins. Body end remains separate.</text>')
+ if heights:
+  sx=lambda x:100+(x-450)*.6;sz=lambda z:1360-z*1.5
+  svg.append('<text x="30" y="1105" font-size="20">016 / fixed Y750 height checks, both X origins</text>')
+  for x in [1272,1592]:svg.append(f'<path d="M{sx(x)},1140V1380" stroke="#8296a7" stroke-dasharray="5 5"/>')
+  for z in [0,20,40,64,96,128]:svg.append(f'<text x="30" y="{sz(z)+5}" font-size="15">Z{z}</text>')
+  for p in heights:
+   color='#49f6e0' if p['local_mesh'] else '#ff926e';svg.append(f'<circle cx="{sx(p["hit"][0])}" cy="{sz(p["hit"][2])}" r="4" fill="{color}"/>')
+  svg.append('<text x="30" y="1410" font-size="16">Local firstMesh limits differ by side; remote upper hits are separate architecture. Highest cap and ground contact remain separate.</text>')
  svg.append('</g></svg>')
  (ref/'PIT_UPPER_SIDE_CHECKS.svg').write_text('\n'.join(svg)+'\n')
  print(f'{len(rows)} repeated first-hit points; no new physical rows; Gate1 FAIL')

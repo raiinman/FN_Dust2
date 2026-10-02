@@ -1,0 +1,67 @@
+{
+  "source_build": "25640462",
+  "numerical_allowance_native": 0.01,
+  "selections": [
+    {
+      "side": "WEST",
+      "report": "PIT_WEST_Y750_FIRST_MESH_TO_ROCK_019",
+      "measurement_id": "PIT_WEST_Y750_FIRST_MESH_ROCK_ELEVATION",
+      "cap_ground_reports": [
+        "PIT_WEST_CAP_X1260_Y750_021",
+        "PIT_WEST_CAP_X1240_Y750_021",
+        "PIT_WEST_ADJACENTGROUND_X1274_Y750_021"
+      ],
+      "cap_section": {
+        "report": "PIT_Y750_LOCAL_ROCK_CAP_SECTIONS_022",
+        "measurement_id": "PIT_WEST_ROCK_CAP_Y750_Z30_SECTION_WIDTH",
+        "low": {
+          "station_id": "WEST_OUTER_X1200_Z30",
+          "yaw": 0
+        },
+        "high": {
+          "station_id": "WEST_INNER_X1400_Z30",
+          "yaw": 180
+        },
+        "low_check": {
+          "station_id": "WEST_OUTER_X1176_Z30",
+          "yaw": 0
+        },
+        "high_check": {
+          "station_id": "WEST_INNER_X1424_Z30",
+          "yaw": 180
+        }
+      }
+    },
+    {
+      "side": "EAST",
+      "report": "PIT_EAST_Y750_FIRST_MESH_TO_ROCK_020",
+      "measurement_id": "PIT_EAST_Y750_FIRST_MESH_ROCK_ELEVATION",
+      "cap_ground_reports": [
+        "PIT_EAST_CAP_X1604_Y750_021",
+        "PIT_EAST_CAP_X1620_Y750_021",
+        "PIT_EAST_ADJACENTGROUND_X1590_Y750_021"
+      ],
+      "cap_section": {
+        "report": "PIT_Y750_LOCAL_ROCK_CAP_SECTIONS_022",
+        "measurement_id": "PIT_EAST_ROCK_CAP_Y750_Z52_SECTION_WIDTH",
+        "low": {
+          "station_id": "EAST_INNER_X1400_Z52",
+          "yaw": 0
+        },
+        "high": {
+          "station_id": "EAST_OUTER_X1680_Z52",
+          "yaw": 180
+        },
+        "low_check": {
+          "station_id": "EAST_INNER_X1424_Z52",
+          "yaw": 0
+        },
+        "high_check": {
+          "station_id": "EAST_OUTER_X1704_Z52",
+          "yaw": 180
+        }
+      }
+    }
+  ],
+  "scope": "Explicittwoorigin repeatedlocal firstMesh/Rock capfacing interface selection. Not entirewallheight/highestcap/ground-contact or fullfootprint."
+}

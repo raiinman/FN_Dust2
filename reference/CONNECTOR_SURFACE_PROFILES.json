@@ -34566,6 +34566,456 @@
       "source_requested_area": "Pit road near closed southern face",
       "surface_semantics": "Repeated sand Mesh road floor2native infront of corresponding low closed southface. Point-specific slope, not exact contact or sharedflat threshold.",
       "private_filename": "..\\reference_cache\\crash_recovery_survey\\pit_south_ground_02\\PIT_SOUTH_GROUND_X1542_002.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T18:48:50.501558+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Pit upper retaining cap or adjacentground diagnostic",
+      "unit": "source_units",
+      "target_xy": [
+        1260.0,
+        750.0
+      ],
+      "probe_player_z": 200.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1196.009766 750.000000 200.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1262.96,
+            750.0,
+            31.29
+          ],
+          "xy_error": 2.9600000000000364,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1193.049805 750.000000 200.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1259.99,
+            750.0,
+            32.06
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1193.049805 750.000000 200.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1259.99,
+            750.0,
+            32.06
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1259.99,
+          750.0,
+          32.06
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "PIT_WEST_CAP_X1260_Y750_021",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\pit_cap_ground_columns_21\\PIT_WEST_CAP_X1260_Y750_021.json",
+      "surface_semantics": "Reviewed local retaining Rock Hull cap first-down point atY750, distinct from plasterMesh facing and adjacentmain/strip ground. Pointnot highestenvelope, fullcap/body or continuoussurface."
+    },
+    {
+      "timestamp_utc": "2026-10-02T18:49:00.173546+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Pit upper retaining cap or adjacentground diagnostic",
+      "unit": "source_units",
+      "target_xy": [
+        1240.0,
+        750.0
+      ],
+      "probe_player_z": 200.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1176.009766 750.000000 200.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1243.38,
+            750.0,
+            7.29
+          ],
+          "xy_error": 3.380000000000109,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 81965"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1172.629761 750.000000 200.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1240.0,
+            750.0,
+            7.27
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 81965"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1172.629761 750.000000 200.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1240.0,
+            750.0,
+            7.27
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 81965"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1240.0,
+          750.0,
+          7.27
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "PIT_WEST_CAP_X1240_Y750_021",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\pit_cap_ground_columns_21\\PIT_WEST_CAP_X1240_Y750_021.json",
+      "surface_semantics": "Ground/raised-strip firstdown point atY750. OriginalCAP name atX1240/1620 is planning intent only: actualfirsthit is outside ground, explicitly excluded from cap identity. X1274/1590 are separate2native-infront adjacentground points, below overhangingcap; not exactwall floorcontact."
+    },
+    {
+      "timestamp_utc": "2026-10-02T18:49:10.042912+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Pit upper retaining cap or adjacentground diagnostic",
+      "unit": "source_units",
+      "target_xy": [
+        1604.0,
+        750.0
+      ],
+      "probe_player_z": 200.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1540.009766 750.000000 200.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1606.55,
+            750.0,
+            54.87
+          ],
+          "xy_error": 2.5499999999999545,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1537.459717 750.000000 200.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1603.99,
+            750.0,
+            55.54
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1537.459717 750.000000 200.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1603.99,
+            750.0,
+            55.54
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1603.99,
+          750.0,
+          55.54
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "PIT_EAST_CAP_X1604_Y750_021",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\pit_cap_ground_columns_21\\PIT_EAST_CAP_X1604_Y750_021.json",
+      "surface_semantics": "Reviewed local retaining Rock Hull cap first-down point atY750, distinct from plasterMesh facing and adjacentmain/strip ground. Pointnot highestenvelope, fullcap/body or continuoussurface."
+    },
+    {
+      "timestamp_utc": "2026-10-02T18:49:19.860307+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Pit upper retaining cap or adjacentground diagnostic",
+      "unit": "source_units",
+      "target_xy": [
+        1620.0,
+        750.0
+      ],
+      "probe_player_z": 200.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1556.009766 750.000000 200.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1623.35,
+            750.0,
+            9.03
+          ],
+          "xy_error": 3.349999999999909,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1552.659790 750.000000 200.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1620.0,
+            750.0,
+            9.03
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1552.659790 750.000000 200.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1620.0,
+            750.0,
+            9.03
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1620.0,
+          750.0,
+          9.03
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "PIT_EAST_CAP_X1620_Y750_021",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\pit_cap_ground_columns_21\\PIT_EAST_CAP_X1620_Y750_021.json",
+      "surface_semantics": "Ground/raised-strip firstdown point atY750. OriginalCAP name atX1240/1620 is planning intent only: actualfirsthit is outside ground, explicitly excluded from cap identity. X1274/1590 are separate2native-infront adjacentground points, below overhangingcap; not exactwall floorcontact."
+    },
+    {
+      "timestamp_utc": "2026-10-02T18:49:29.714971+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Pit upper retaining cap or adjacentground diagnostic",
+      "unit": "source_units",
+      "target_xy": [
+        1274.0,
+        750.0
+      ],
+      "probe_player_z": 0.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1210.009766 750.000000 0.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1274.24,
+            750.0,
+            -12.54
+          ],
+          "xy_error": 0.2400000000000091,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 83259"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1209.769775 750.000000 0.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1274.0,
+            750.0,
+            -12.5
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 83259"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1209.769775 750.000000 0.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1274.0,
+            750.0,
+            -12.5
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 83259"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1274.0,
+          750.0,
+          -12.5
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "PIT_WEST_ADJACENTGROUND_X1274_Y750_021",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\pit_cap_ground_columns_21\\PIT_WEST_ADJACENTGROUND_X1274_Y750_021.json",
+      "surface_semantics": "Ground/raised-strip firstdown point atY750. OriginalCAP name atX1240/1620 is planning intent only: actualfirsthit is outside ground, explicitly excluded from cap identity. X1274/1590 are separate2native-infront adjacentground points, below overhangingcap; not exactwall floorcontact."
+    },
+    {
+      "timestamp_utc": "2026-10-02T18:49:39.185059+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Pit upper retaining cap or adjacentground diagnostic",
+      "unit": "source_units",
+      "target_xy": [
+        1590.0,
+        750.0
+      ],
+      "probe_player_z": 0.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1526.009766 750.000000 0.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1590.26,
+            750.0,
+            -13.82
+          ],
+          "xy_error": 0.2599999999999909,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 83489"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1525.749756 750.000000 0.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1590.0,
+            750.0,
+            -13.85
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 83489"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1525.749756 750.000000 0.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1590.0,
+            750.0,
+            -13.85
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 83489"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1590.0,
+          750.0,
+          -13.85
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "PIT_EAST_ADJACENTGROUND_X1590_Y750_021",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\pit_cap_ground_columns_21\\PIT_EAST_ADJACENTGROUND_X1590_Y750_021.json",
+      "surface_semantics": "Ground/raised-strip firstdown point atY750. OriginalCAP name atX1240/1620 is planning intent only: actualfirsthit is outside ground, explicitly excluded from cap identity. X1274/1590 are separate2native-infront adjacentground points, below overhangingcap; not exactwall floorcontact."
     }
   ],
   "accepted_pairs": [
@@ -35189,6 +35639,24 @@
       "dimension": "horizontal_interval",
       "feature": "Selected near-closed-door floor to street sample horizontal interval",
       "notes": "Nearback floorY172.93 is2native infront of closedWood faceY170.93, not exact floorwall contact. Other endpointY750.01 atstreet approach sample; point-pair interval not walkingdistance, exact curve/rampends or full continuous floor acceptance. Existing80anchor/35hold road-grid evidence separately bounds sampled interpolation."
+    },
+    {
+      "id": "PIT_WEST_Y750_CAP_TO_ADJACENTGROUND_POINT_RISE_021",
+      "area": "Pit",
+      "from_report": "PIT_WEST_ADJACENTGROUND_X1274_Y750_021",
+      "to_report": "PIT_WEST_CAP_X1260_Y750_021",
+      "dimension": "rise",
+      "feature": "WEST local cap versus adjacent raised-ground elevation difference",
+      "notes": "DifferentX atsameY750; measured RockHull cap sample versus separate2native-before plasterface sandground. Groundsample nothiddenbodybase; capsample notfullhighesttop. Pointpair difference only, not entire wallheight/exactcontact or fullfootprint."
+    },
+    {
+      "id": "PIT_EAST_Y750_CAP_TO_ADJACENTGROUND_POINT_RISE_021",
+      "area": "Pit",
+      "from_report": "PIT_EAST_ADJACENTGROUND_X1590_Y750_021",
+      "to_report": "PIT_EAST_CAP_X1604_Y750_021",
+      "dimension": "rise",
+      "feature": "EAST local cap versus adjacent raised-ground elevation difference",
+      "notes": "DifferentX atsameY750; measured RockHull cap sample versus separate2native-before plasterface sandground. Groundsample nothiddenbodybase; capsample notfullhighesttop. Pointpair difference only, not entire wallheight/exactcontact or fullfootprint."
     }
   ],
   "rejected_attempts": [
@@ -35871,5 +36339,118 @@
     },
     "south_face_report": "PIT_SOUTH_LOW_FACE_001",
     "scope": "Measured low southfirstfaces atX1306 concreteY175.93, centerWoodY170.93, X1542 concreteY176.03. Three direct floor points2native infront of eachface, not exact floor-wall contact. SourceZ-100 below overhead cap but above nearback knownfloor-187; actual floor/firsthit semantics and correctedXY required. No flat southern plane or fullPit closure inferred."
+  },
+  "pit_retaining_cap_ground_review": {
+    "plan": {
+      "build": "25640462",
+      "cases": [
+        {
+          "id": "PIT_WEST_CAP_X1260_Y750_021",
+          "xy": [
+            1260,
+            750
+          ],
+          "z": 200,
+          "area": "Pit upper retaining cap or adjacentground diagnostic",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "PIT_WEST_CAP_X1240_Y750_021",
+          "xy": [
+            1240,
+            750
+          ],
+          "z": 200,
+          "area": "Pit upper retaining cap or adjacentground diagnostic",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "PIT_EAST_CAP_X1604_Y750_021",
+          "xy": [
+            1604,
+            750
+          ],
+          "z": 200,
+          "area": "Pit upper retaining cap or adjacentground diagnostic",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "PIT_EAST_CAP_X1620_Y750_021",
+          "xy": [
+            1620,
+            750
+          ],
+          "z": 200,
+          "area": "Pit upper retaining cap or adjacentground diagnostic",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "PIT_WEST_ADJACENTGROUND_X1274_Y750_021",
+          "xy": [
+            1274,
+            750
+          ],
+          "z": 0,
+          "area": "Pit upper retaining cap or adjacentground diagnostic",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "PIT_EAST_ADJACENTGROUND_X1590_Y750_021",
+          "xy": [
+            1590,
+            750
+          ],
+          "z": 0,
+          "area": "Pit upper retaining cap or adjacentground diagnostic",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        }
+      ],
+      "scope": "Sourceobserved wallnormals1272/1592 atY750/Z0. Two selected insidecapXY positions perbody and separate2nativeinside-ramp adjacentgroundcasts with originsbelowcaps/above measuredcenterfloor. Top firstdownray mayhit rock/concrete relief; inspectactualcomponents, do not inferfullhiddenbody or call differentX topminusground a completeverticalheight. Correctedfloor is a queryfeature name only; localcap is not mainwalkableground."
+    },
+    "driver_recovery": {
+      "timestamp_utc": "2026-10-02T18:48:49.716694+00:00",
+      "original_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "status": "completed serial columns; semantic review pending",
+      "completed": [
+        "PIT_WEST_CAP_X1260_Y750_021",
+        "PIT_WEST_CAP_X1240_Y750_021",
+        "PIT_EAST_CAP_X1604_Y750_021",
+        "PIT_EAST_CAP_X1620_Y750_021",
+        "PIT_WEST_ADJACENTGROUND_X1274_Y750_021",
+        "PIT_EAST_ADJACENTGROUND_X1590_Y750_021"
+      ],
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "not_cap_reports": [
+      "PIT_WEST_CAP_X1240_Y750_021",
+      "PIT_EAST_CAP_X1620_Y750_021"
+    ],
+    "scope": "Sixactual correctedpoints retained; two plannedcap positions hit outsideground. Do not relabel raw IDs or infer capcontinuity across ground."
   }
 }

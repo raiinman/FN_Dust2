@@ -1,0 +1,244 @@
+{
+  "source_build": "25640462",
+  "sections": [
+    {
+      "id": "PIT_WEST_Y750_FIRST_MESH_ROCK_ELEVATION",
+      "side": "WEST",
+      "report": "PIT_WEST_Y750_FIRST_MESH_TO_ROCK_019",
+      "native_y": 750,
+      "facing_interface_z_interval": [
+        23.90625,
+        23.984375
+      ],
+      "elevation_interval_cm": [
+        60.696475,
+        60.945712500000006
+      ],
+      "interface_points": [
+        {
+          "origin": "X1400",
+          "component": "on",
+          "point": [
+            1272.0,
+            750.0,
+            23.91
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 83279"
+          ]
+        },
+        {
+          "origin": "X1400",
+          "component": "off",
+          "point": [
+            1273.58,
+            750.0,
+            23.98
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "origin": "X1424",
+          "component": "on",
+          "point": [
+            1272.0,
+            750.0,
+            23.91
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 83279"
+          ]
+        },
+        {
+          "origin": "X1424",
+          "component": "off",
+          "point": [
+            1273.58,
+            750.0,
+            23.98
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "cap_ground_points": [
+        {
+          "report": "PIT_WEST_CAP_X1260_Y750_021",
+          "point": [
+            1259.99,
+            750.0,
+            32.06
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "semantics": "Reviewed local retaining Rock Hull cap first-down point atY750, distinct from plasterMesh facing and adjacentmain/strip ground. Pointnot highestenvelope, fullcap/body or continuoussurface."
+        },
+        {
+          "report": "PIT_WEST_CAP_X1240_Y750_021",
+          "point": [
+            1240.0,
+            750.0,
+            7.27
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 81965"
+          ],
+          "semantics": "Ground/raised-strip firstdown point atY750. OriginalCAP name atX1240/1620 is planning intent only: actualfirsthit is outside ground, explicitly excluded from cap identity. X1274/1590 are separate2native-infront adjacentground points, below overhangingcap; not exactwall floorcontact."
+        },
+        {
+          "report": "PIT_WEST_ADJACENTGROUND_X1274_Y750_021",
+          "point": [
+            1274.0,
+            750.0,
+            -12.5
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 83259"
+          ],
+          "semantics": "Ground/raised-strip firstdown point atY750. OriginalCAP name atX1240/1620 is planning intent only: actualfirsthit is outside ground, explicitly excluded from cap identity. X1274/1590 are separate2native-infront adjacentground points, below overhangingcap; not exactwall floorcontact."
+        }
+      ],
+      "cap_chord": {
+        "report": "PIT_Y750_LOCAL_ROCK_CAP_SECTIONS_022",
+        "measurement_id": "PIT_WEST_ROCK_CAP_Y750_Z30_SECTION_WIDTH",
+        "low": [
+          1251.77,
+          750.0,
+          30.0
+        ],
+        "high": [
+          1267.96,
+          750.0,
+          30.0
+        ],
+        "width_cm": 41.12260000000014,
+        "scope": "Bothopposing RockHull endpoints independently agree fromtwo sourcepositions; directcap/top/nearbyground observations21 separate. Nativegroundviews identify retainingcap but precise westernterminal overlapsutilitypole. Sampledsolidcap chord, notuniformcap/bodythickness/highestenvelope or fullgroundperimeter."
+      },
+      "scope": "Absolute sourceZ0-referenced local firstMesh/Rock facing interface. Cap overhang/relief can occlude continuation; not highest cap or floor-to-top/full body height. Native cap/ground points retain differentX."
+    },
+    {
+      "id": "PIT_EAST_Y750_FIRST_MESH_ROCK_ELEVATION",
+      "side": "EAST",
+      "report": "PIT_EAST_Y750_FIRST_MESH_TO_ROCK_020",
+      "native_y": 750,
+      "facing_interface_z_interval": [
+        47.5,
+        47.59375
+      ],
+      "elevation_interval_cm": [
+        120.6246,
+        120.91352499999999
+      ],
+      "interface_points": [
+        {
+          "origin": "X1400",
+          "component": "on",
+          "point": [
+            1592.0,
+            750.0,
+            47.5
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 83714"
+          ]
+        },
+        {
+          "origin": "X1400",
+          "component": "off",
+          "point": [
+            1590.8,
+            750.0,
+            47.59
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "origin": "X1424",
+          "component": "on",
+          "point": [
+            1592.0,
+            750.0,
+            47.5
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 83714"
+          ]
+        },
+        {
+          "origin": "X1424",
+          "component": "off",
+          "point": [
+            1590.8,
+            750.0,
+            47.59
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "cap_ground_points": [
+        {
+          "report": "PIT_EAST_CAP_X1604_Y750_021",
+          "point": [
+            1603.99,
+            750.0,
+            55.54
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "semantics": "Reviewed local retaining Rock Hull cap first-down point atY750, distinct from plasterMesh facing and adjacentmain/strip ground. Pointnot highestenvelope, fullcap/body or continuoussurface."
+        },
+        {
+          "report": "PIT_EAST_CAP_X1620_Y750_021",
+          "point": [
+            1620.0,
+            750.0,
+            9.03
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "semantics": "Ground/raised-strip firstdown point atY750. OriginalCAP name atX1240/1620 is planning intent only: actualfirsthit is outside ground, explicitly excluded from cap identity. X1274/1590 are separate2native-infront adjacentground points, below overhangingcap; not exactwall floorcontact."
+        },
+        {
+          "report": "PIT_EAST_ADJACENTGROUND_X1590_Y750_021",
+          "point": [
+            1590.0,
+            750.0,
+            -13.85
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 83489"
+          ],
+          "semantics": "Ground/raised-strip firstdown point atY750. OriginalCAP name atX1240/1620 is planning intent only: actualfirsthit is outside ground, explicitly excluded from cap identity. X1274/1590 are separate2native-infront adjacentground points, below overhangingcap; not exactwall floorcontact."
+        }
+      ],
+      "cap_chord": {
+        "report": "PIT_Y750_LOCAL_ROCK_CAP_SECTIONS_022",
+        "measurement_id": "PIT_EAST_ROCK_CAP_Y750_Z52_SECTION_WIDTH",
+        "low": [
+          1591.07,
+          750.0,
+          52.0
+        ],
+        "high": [
+          1617.21,
+          750.0,
+          52.0
+        ],
+        "width_cm": 66.39560000000026,
+        "scope": "Bothopposing RockHull endpoints independently agree fromtwo sourcepositions; directcap/top/nearbyground observations21 separate. Nativegroundviews identify retainingcap but precise westernterminal overlapsutilitypole. Sampledsolidcap chord, notuniformcap/bodythickness/highestenvelope or fullgroundperimeter."
+      },
+      "scope": "Absolute sourceZ0-referenced local firstMesh/Rock facing interface. Cap overhang/relief can occlude continuation; not highest cap or floor-to-top/full body height. Native cap/ground points retain differentX."
+    }
+  ],
+  "gate1": "FAIL"
+}
