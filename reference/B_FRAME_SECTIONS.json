@@ -1,0 +1,108 @@
+{
+  "source_build": "25640462",
+  "transition_report": "B_JAMB_PARALLEL_MATERIAL_TRANSITIONS_002",
+  "height_report": "B_JAMB_INDEPENDENT_HEIGHT_CHECKS_005",
+  "height_cases": [
+    {
+      "height_native": 140,
+      "origin_id": "B_INSIDE",
+      "end_id": "NORTH",
+      "on_station": "B_FRAME_Z140_B_INSIDE_NORTH_MASONRY_ON_005",
+      "off_station": "B_FRAME_Z140_B_INSIDE_NORTH_TIMBER_OFF_005",
+      "requested_interval": [
+        2308.5,
+        2308.53
+      ],
+      "prediction": "Independent narrow.03native material brackets fixed afterZ80 refinement, before native capture at this height. Low outside source moves behind observed Wood_Panel cover; own-origin/component inspection mandatory, not presumed clear."
+    },
+    {
+      "height_native": 140,
+      "origin_id": "B_INSIDE",
+      "end_id": "SOUTH",
+      "on_station": "B_FRAME_Z140_B_INSIDE_SOUTH_MASONRY_ON_005",
+      "off_station": "B_FRAME_Z140_B_INSIDE_SOUTH_TIMBER_OFF_005",
+      "requested_interval": [
+        2101.47,
+        2101.5
+      ],
+      "prediction": "Independent narrow.03native material brackets fixed afterZ80 refinement, before native capture at this height. Low outside source moves behind observed Wood_Panel cover; own-origin/component inspection mandatory, not presumed clear."
+    },
+    {
+      "height_native": 140,
+      "origin_id": "CT_OUTSIDE",
+      "end_id": "NORTH",
+      "on_station": "B_FRAME_Z140_CT_OUTSIDE_NORTH_MASONRY_ON_005",
+      "off_station": "B_FRAME_Z140_CT_OUTSIDE_NORTH_TIMBER_OFF_005",
+      "requested_interval": [
+        2308.5,
+        2308.53
+      ],
+      "prediction": "Independent narrow.03native material brackets fixed afterZ80 refinement, before native capture at this height. Low outside source moves behind observed Wood_Panel cover; own-origin/component inspection mandatory, not presumed clear."
+    },
+    {
+      "height_native": 140,
+      "origin_id": "CT_OUTSIDE",
+      "end_id": "SOUTH",
+      "on_station": "B_FRAME_Z140_CT_OUTSIDE_SOUTH_MASONRY_ON_005",
+      "off_station": "B_FRAME_Z140_CT_OUTSIDE_SOUTH_TIMBER_OFF_005",
+      "requested_interval": [
+        2101.47,
+        2101.5
+      ],
+      "prediction": "Independent narrow.03native material brackets fixed afterZ80 refinement, before native capture at this height. Low outside source moves behind observed Wood_Panel cover; own-origin/component inspection mandatory, not presumed clear."
+    },
+    {
+      "height_native": 40,
+      "origin_id": "B_INSIDE",
+      "end_id": "NORTH",
+      "on_station": "B_FRAME_Z40_B_INSIDE_NORTH_MASONRY_ON_005",
+      "off_station": "B_FRAME_Z40_B_INSIDE_NORTH_TIMBER_OFF_005",
+      "requested_interval": [
+        2308.5,
+        2308.53
+      ],
+      "prediction": "Independent narrow.03native material brackets fixed afterZ80 refinement, before native capture at this height. Low outside source moves behind observed Wood_Panel cover; own-origin/component inspection mandatory, not presumed clear."
+    },
+    {
+      "height_native": 40,
+      "origin_id": "B_INSIDE",
+      "end_id": "SOUTH",
+      "on_station": "B_FRAME_Z40_B_INSIDE_SOUTH_MASONRY_ON_005",
+      "off_station": "B_FRAME_Z40_B_INSIDE_SOUTH_TIMBER_OFF_005",
+      "requested_interval": [
+        2101.47,
+        2101.5
+      ],
+      "prediction": "Independent narrow.03native material brackets fixed afterZ80 refinement, before native capture at this height. Low outside source moves behind observed Wood_Panel cover; own-origin/component inspection mandatory, not presumed clear."
+    },
+    {
+      "height_native": 40,
+      "origin_id": "CT_OUTSIDE",
+      "end_id": "NORTH",
+      "on_station": "B_FRAME_Z40_CT_OUTSIDE_NORTH_MASONRY_ON_005",
+      "off_station": "B_FRAME_Z40_CT_OUTSIDE_NORTH_TIMBER_OFF_005",
+      "requested_interval": [
+        2308.5,
+        2308.53
+      ],
+      "prediction": "Independent narrow.03native material brackets fixed afterZ80 refinement, before native capture at this height. Low outside source moves behind observed Wood_Panel cover; own-origin/component inspection mandatory, not presumed clear."
+    },
+    {
+      "height_native": 40,
+      "origin_id": "CT_OUTSIDE",
+      "end_id": "SOUTH",
+      "on_station": "B_FRAME_Z40_CT_OUTSIDE_SOUTH_MASONRY_ON_005",
+      "off_station": "B_FRAME_Z40_CT_OUTSIDE_SOUTH_TIMBER_OFF_005",
+      "requested_interval": [
+        2101.47,
+        2101.5
+      ],
+      "prediction": "Independent narrow.03native material brackets fixed afterZ80 refinement, before native capture at this height. Low outside source moves behind observed Wood_Panel cover; own-origin/component inspection mandatory, not presumed clear."
+    }
+  ],
+  "camera_id": "B_DOOR_OUTSIDE_FRONTAL_001",
+  "clean_image_path": "reference/images/b_doors/QA_B_PORTAL_OUTSIDE_DETAIL_001.jpg",
+  "clean_jpeg_sha256": "51cc5a58b61d3486bf500d49598775303fd684aa798adf1f5454be2d0f7447f3",
+  "limits": "Only opposed first-material sections at nativeZ40/80/140. Lateral span delimits masonry-to-timber collision interfaces, not inner post edges, moving leaf gap, minimum walking clearance, continuous height interpolation, hidden solid body or complete aperture. Normal spans pair actual same-tangent first faces with printed endpoint rounding. Visual fixed-post association does not prove shared entity/hull identity; rendered/collision offsets remain unbounded separately.",
+  "render_review": "Calibrated outside view and four native nearest-neighbor corner crops inspected. North native projected material interface lies near visible timber/plaster edge; south visible seam appears a few pixels farther left. Retain offset as unresolved, without inventing renderer depth or accepting an exact1.5px edge box. Three native section heights have agreeing opposed materials and depths; annotation marks native projections only."
+}

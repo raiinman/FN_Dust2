@@ -328,3 +328,9 @@ on-masonry/off-timber bracket; preserve partial output and verify exact source
 restore. A first material interface may be occlusion, never automatic structural
 opening, minimum leaf clearance or shared solid-wall extent. Native rangefinder,
 own-origin, expected component and observed-pose checks precede interpretation.
+
+build_b_frame_sections.py validates opposed repeated material transitions, fresh
+height checks, native rangefinder/pose/restoration, clean JPEG hash and held-out
+camera residuals. Rebuild its JSON/CSV/SVG, render and inspect; physical-register
+rows are local collision-material sections, never complete opening/minimum
+leaf clearance or exact renderer correspondence.

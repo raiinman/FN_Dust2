@@ -9,7 +9,7 @@ Source: installed CS2 build25640462, de_dust2. GitHub main is durable authority.
 | Physical scale and coordinate convention | SCALE_CALIBRATION.json; COORDINATE_TRANSFORM.json | PASS for current-build factor2.54 and reversible UE=(2.54x,-2.54y,2.54z); Phase2 exporter/import validation pending |
 | Every critical area forward/reverse/side/elevation coverage | 232 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | PASS: sixteen critical-area sets and eleven subarea sets accepted; structural metric and traversal remain separate |
 | Unambiguous validated topology | ROUTE_GRAPH.md; TOPOLOGY.json; WALK_PROBES.json; TRAVERSAL_PROBES.json; TOPOLOGY_AUDIT.json | PASS for listed surveyed connections:24 ground paths both directions; B Window both; S01 both, S02/S03 reciprocal routes, S04 partner forward/reverse. E11/E27 direct forward twice, unsupported reverse at surveyed crossing blocked twice, indirect walking returns both. Alternative launches/partners and geometric bounds remain separate |
-| Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; TUNNEL_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 343 calibrated feature measurements;54 Short and54 Tunnel floor samples; full critical register incomplete |
+| Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; TUNNEL_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 358 calibrated feature measurements;54 Short and54 Tunnel floor samples; full critical register incomplete |
 | Calibrated annotated whole-map truth | RADAR_CALIBRATION.json; MAP_CAMERA_CALIBRATION.json; RADAR_PLAN.svg; MAP_CAMERA_PLAN.svg | FAIL: calibrated native camera, physical grid, floors and paths; continuous architectural boundaries and overlapping elevation layers incomplete |
 | Bounded remaining uncertainty | UNCERTAINTY.md; SURVEY_TASKS.csv | FAIL: unresolved critical extents, full apertures/cover dimensions, stairs and render/collision bounds |
 
@@ -39,7 +39,7 @@ The coordinate convention is mathematically reversible; exporter/editor
 round-trip remains a Phase2 validation. Source repeatability is separate from
 rendered-surface accuracy and implementation tolerance.
 
-MEASUREMENTS has343 calibrated local feature rows;13 PHYSICAL_FLOOR_DATUMS,
+MEASUREMENTS has358 calibrated local feature rows;13 PHYSICAL_FLOOR_DATUMS,
 54 SHORT_STAIR_SAMPLES,54 TUNNEL_STAIR_SAMPLES and434 connector points are
 repeated point evidence. Short12 measured/rendered risers,359.6132cm sampled
 run and234.3912cm rise; Tunnel18 measured/rendered risers,18 rises/16 axial
@@ -321,3 +321,9 @@ native capture dates PASS. Opposing normal preflight finds different southern
 return/northern facade faces and Wood_Dense within gate region. Parallel native
 material-transition refinement active; no structural opening, shared wall body,
 minimum leaf gap or continuous footprint acceptance from preflight. Gate1 FAIL.
+
+B frame local material sections: opposed transitions and independentZ40/140
+checks agree withZ80;15 new bounded lateral/normal spans bring the register to358.
+B_FRAME_SECTIONS.svg calibrated native projections rendered/inspected. South
+rendered seam offset, inner post/leaf clearance, full height/body and complete
+architectural footprint remain unresolved. Gate1 FAIL; Phase2 not started.

@@ -272,3 +272,10 @@ door cameras and independent first-downward upper observations. Rendered-region
 association is separate from entity/hull identity; a concrete roof/crown hit
 never becomes a timber cap or a top-minus-bottom timber thickness. Tagged
 frames are component diagnostics, not extra ordinary directional coverage.
+
+B_FRAME_SECTIONS.json selects opposed masonry/Wood_Dense first-material interfaces
+at nativeZ40/80/140 from repeated transition and independent height reports.
+B_FRAME_SECTION_MEASUREMENTS JSON/CSV and B_FRAME_SECTIONS.svg derive bounded
+lateral material-region/normal first-face spans. The calibrated annotation marks
+native projections; unresolved rendered seam offsets, leaf gaps, hidden body,
+inner post edges and continuous height interpolation remain separate.

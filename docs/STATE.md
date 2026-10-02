@@ -8,7 +8,7 @@ with its configured model; no model override or agent delegation requested.
 ## Authority and preserved work
 
 GitHub main authoritative; fetch/check before resuming. Crash baseline35eaa642,
-dirty work preserved4c7df48, mergedab4e484. Latest pushed checkpointb25309e
+dirty work preserved4c7df48, mergedab4e484. Latest pushed checkpoint2cb6293
 before this update. Active C:/Users/mikea/Documents/Codex/2026-09-30/new-chat/
 FN_Dust2, branch codex/crash-recovery-20261001 pushes meaningful checkpoints
 to main. OneDrive workspace separate; synced sources/ read-only. Raw/private
@@ -25,7 +25,7 @@ recovery: evidence/CRASH_RECOVERY_20261001.md. Latest Git commit pins checkpoint
   -2.54y,2.54z), inverse/length/native-right checks PASS. Phase2 editor/exporter
   roundtrip unverified. Unsaved Hammer128 calibration cube is not production.
 - 13 floor datums;54 Short/54 Tunnel stair samples;434 connector floor/cover/
-  cap points;343 calibrated feature measurements.126 local architectural chords
+  cap points;358 calibrated feature measurements.126 local architectural chords
   never become complete room rectangles or minimum full-route clearances.
 - Short12 rendered/native risers, rise234.3912cm/run359.6132cm sampled; nonuniform.
   Tunnel18 risers/18 local planes/36 independent offsets/16 tread-level widths;
@@ -194,11 +194,21 @@ B_jamb_boundaries_01 eight opposite-normal preflight stations completed/restored
 southY2050 has first concrete facesX-1376/-1232; northY2400X-1343.5/-1296.
 Y2150/2300 first Wood_Dense from both sides. Different southern return/northern
 facade depths stay explicit; no mixed-component body dimension accepted.
-ONE ACTIVE source controller: cs2_probe_parallel_transition.py with private
-b_jamb_boundaries_02/config.json, output B_JAMB_PARALLEL_MATERIAL_TRANSITIONS_002.
-Opposing safe origins bracket two masonry/timber interfaces atZ80. Inspect
-observations/status/echo/restore before any new source input or resume; never
-rerun a partial/completed output path. Component/raster review still required.
+No active source pose/input controller. b_jamb_boundaries_02 completed/restored
+120 observations: identical opposed material intervals atZ80; south
+[2101.4770508,2101.4892578], north[2308.5083008,2308.5205078]native.
+b_jamb_heights_03 preserved foreground Wood_Panel occlusion at low outside
+Y2050/2150. Never misclassify it as masonry. b_jamb_height_checks_05 completed
+32 observations/restored exactly: narrow predeclared intervals atZ40/140 agree
+from both sides; lower outsideX-1240 bypasses observed cover. Superseded private
+b_jamb_height_holds_04 plans were never executed; do not start them.
+B_FRAME_SECTIONS JSON and derived15 local measurement rows/CSV/SVG validated,
+rendered and inspected. Z80 lateral material span525.8030..525.9158cm;
+Z40/140525.7546..525.9578cm. Adjacent timber normal faces130.9624cm;
+masonry121.92cm except northZ140121.8438cm. These are first-material sections,
+not inner post edges, leaf gap, minimum clearance or full frame body. Calibrated
+native projections match fixed-post vicinity; south rendered seam has unresolved
+few-pixel offset. No exact renderer/collision alignment accepted.
 
 B-wall calibration captures completed/restored exactly. Eight visually inspected
 fit markers and ten independent three-depth markers pass constrained native-pose
@@ -221,7 +231,9 @@ Raw native TGA/PNG retained; upload reviewed JPEGs with provenance/metadata.
 
 ## Next work
 
-Review Lower south depth retry and derive bounded portal profiles. Compare
+Continue B fixed-post inner edges/leaf extent and preserve separately bounded
+render offsets. Lower south depth retry is already represented in accepted local
+stone profiles; do not duplicate it. Compare
 route ray heights and verify architectural boundary candidates independently. Resolve B timber identity, full aperture/body ends/
 depths, critical room/cover spans, Tunnel side/terminal footprint, ramp/site
 endpoints and calibrated continuous whole-map outline with overlapping
