@@ -8,7 +8,7 @@ with its configured model; no model override or agent delegation requested.
 ## Authority and preserved work
 
 GitHub main authoritative; fetch/check before resuming. Crash baseline35eaa642,
-dirty work preserved4c7df48, mergedab4e484. Latest pushed checkpoint5799817
+dirty work preserved4c7df48, mergedab4e484. Latest pushed checkpoint7b6ea12
 before this update. Active C:/Users/mikea/Documents/Codex/2026-09-30/new-chat/
 FN_Dust2, branch codex/crash-recovery-20261001 pushes meaningful checkpoints
 to main. OneDrive workspace separate; synced sources/ read-only. Raw/private
@@ -17,8 +17,8 @@ recovery: evidence/CRASH_RECOVERY_20261001.md. Latest Git commit pins checkpoint
 
 ## Accepted evidence and limits
 
-- 239 individually reviewed JPEGs; eight historical exclusions. Original24/
-  recovered55 re-inspected. IMAGE_AUDIT239 hashes/native UTC dates PASS;
+- 245 individually reviewed JPEGs; eight historical exclusions. Original24/
+  recovered55 re-inspected. IMAGE_AUDIT245 hashes/native UTC dates PASS;
   sixteen critical/eleven subarea required view sets PASS. Clipped/overlay/
   nonselected attempts preserved. View coverage never grants metric acceptance.
 - Scale2.54cm/native from two repeated inch-rangefinder anchors. UE=(2.54x,
@@ -194,11 +194,16 @@ B_jamb_boundaries_01 eight opposite-normal preflight stations completed/restored
 southY2050 has first concrete facesX-1376/-1232; northY2400X-1343.5/-1296.
 Y2150/2300 first Wood_Dense from both sides. Different southern return/northern
 facade depths stay explicit; no mixed-component body dimension accepted.
-ONE active source controller: cs2_probe_endpoints.py private
-b_rear_corner_side_preflight_06/config.json -> B_REAR_CORNER_SIDE_PREFLIGHT_006;
-14 east-facing stations fromX-1920/-1950 near west rear return;28 expected
-repeat observations. Inspect partial/status/components/exact restore before input. Inspect status/
-components/restoration before source input; preserve partials/own-origin rejects.
+No active source controller. B rear camera fit/hold/depth wrappers and
+b_rear_camera_visibility_07 completed; exact B-mouth restore errors all zero.
+Do not rerun completed plans. Private b_rear_camera_01 holds original PNGs,
+marker crops and driver reports. B_REAR_FRONTAL_001 accepts8fit/10held/6fresh
+depth checks (max.650143px), checkedY2800..2950/Z60..230 at exact camera
+[-1740,2600,40,p0,y90]. Six individually inspected JPEGs registered;245 hashes/
+native dates PASS. B_REAR_FACADE_POINTS43 repeated Mesh points/12 exclusions
+rebuilt/rendered/inspected. Camera-origin007 front control agrees exactly;
+four return targets encounter nearer Mesh by3.8851..82.5183cm. Projected
+return points do not certify visible corners. Full rear boundary remains open.
 B rear first preflight36observations completed/restored exactly; two origins
 agree, westMesh/Hull join bracketX-1880/-1890, eastX-1520 stillfacade.
 East preflight02 stopped at own-origin Dirt Hull X-1376/Y2700; six earlier
@@ -212,9 +217,11 @@ local normal guard without imposingflatY2880; actual endpoints remain explicit.
 Westtransition05 guard rejected deeperMeshY2907.67 atX-1887.34375.
 Originalpartial preserved; exactrestore. Front facade wraps a return, so
 Mesh/Hull componentend is not its front corner. Do not rerun03/05 or broaden
-guards to invent a flat facade end; independent side-normal diagnostic06 active.
-Private b_rear_camera_01 prepared/unexecuted;
-never run concurrently with active east preflight. Tunnel controllers completed. tunnel_terminal_floor_checks_05 completed15
+guards to invent a flat facade end; independent side-normal diagnostic06 completed/restored.
+Sidepreflight06 completed28 observations/restored. Two origins agree within
+.01native; Y2885..2910 firstMesh returnX-1886.34..-1887.37, Y2860/2875 hits
+remoteeastreturn, Y2880 grazes front atX-1813. No source corner accepted.
+All Tunnel controllers completed. tunnel_terminal_floor_checks_05 completed15
 columns/restored exactly; six close point-pair rises registered (lower entry
 X-1130/-1100/-1040:19.2278/19.9390/18.8976cm; upperY1040/1080/1130:20.32cm).
 Sand landing slopes; points.20native each side are not exact coincident contact.
@@ -311,7 +318,7 @@ few-pixel offset. No exact renderer/collision alignment accepted.
 
 B-wall calibration captures completed/restored exactly. Eight visually inspected
 fit markers and ten independent three-depth markers pass constrained native-pose
-projection (max held .43495px);239 individually reviewed JPEGs/hashes/native
+projection (max held .43495px);245 individually reviewed JPEGs/hashes/native
 dates PASS. Two absent marks excluded without invented pixels. Overlapping first
 hold layout and rejected full11parameter matrix (held1.17809px) retained. Clean
 wall view and native corner crops inspected; structural boundary acceptance

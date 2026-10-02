@@ -7,7 +7,7 @@ Source: installed CS2 build25640462, de_dust2. GitHub main is durable authority.
 | --- | --- | --- |
 | Provenance and current revision | REFERENCE_MANIFEST.csv; native poses/hashes and build25640462 | PASS for reviewed captured batches |
 | Physical scale and coordinate convention | SCALE_CALIBRATION.json; COORDINATE_TRANSFORM.json | PASS for current-build factor2.54 and reversible UE=(2.54x,-2.54y,2.54z); Phase2 exporter/import validation pending |
-| Every critical area forward/reverse/side/elevation coverage | 239 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | PASS: sixteen critical-area sets and eleven subarea sets accepted; structural metric and traversal remain separate |
+| Every critical area forward/reverse/side/elevation coverage | 245 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | PASS: sixteen critical-area sets and eleven subarea sets accepted; structural metric and traversal remain separate |
 | Unambiguous validated topology | ROUTE_GRAPH.md; TOPOLOGY.json; WALK_PROBES.json; TRAVERSAL_PROBES.json; TOPOLOGY_AUDIT.json | PASS for listed surveyed connections:24 ground paths both directions; B Window both; S01 both, S02/S03 reciprocal routes, S04 partner forward/reverse. E11/E27 direct forward twice, unsupported reverse at surveyed crossing blocked twice, indirect walking returns both. Alternative launches/partners and geometric bounds remain separate |
 | Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; TUNNEL_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 374 calibrated feature measurements;54 Short and117 Tunnel floor samples; full critical register incomplete |
 | Calibrated annotated whole-map truth | RADAR_CALIBRATION.json; MAP_CAMERA_CALIBRATION.json; RADAR_PLAN.svg; MAP_CAMERA_PLAN.svg | FAIL: calibrated native camera, physical grid, floors and paths; continuous architectural boundaries and overlapping elevation layers incomplete |
@@ -15,7 +15,7 @@ Source: installed CS2 build25640462, de_dust2. GitHub main is durable authority.
 
 ## Reference review
 
-IMAGE_REVIEW.json and IMAGE_AUDIT.json verify all239 registered JPEG hashes and
+IMAGE_REVIEW.json and IMAGE_AUDIT.json verify all245 registered JPEG hashes and
 preserve eight excluded historical frames. Original24 and recovered55 images
 were re-inspected, with subsequent CT/Pit/door/site/Short/Catwalk additions
 inspected individually. Clipped, stale or obstructed attempts retain their
@@ -380,3 +380,12 @@ match six safeY2750 pairs exactly, with an angled return fromX-1504/Y2880 to
 X-1440/Y2840.8. X-1376/Y2700 is own-origin Dirt Hull, rejected/restored and
 never retried. Full rear corner/footprint still unresolved; independent side
 rays and calibrated rendered review are required. Gate1 remains FAIL.
+
+B rear facade checkpoint: six individually inspected native calibration JPEGs,
+8fit/10held/6fresh depth checks, maximum held error.650143px. Discrete43 Mesh
+point observations and12 exclusions in B_REAR_FACADE_POINTS distinguish front,
+angled eastern return and west wrap. Camera-origin diagnostic007 front control
+agrees exactly; four return targets meet nearer first-hit Mesh instead. These
+projected points are not rendered corners. Safe complete pairs in failed reports
+remain explicitly selected; guard/own-origin failures are preserved. Full rear
+boundary/height and continuous whole-map footprint remain unresolved. Gate1 FAIL.

@@ -385,3 +385,10 @@ render/inspect JSON/CSV/SVG; retain sloped sand versus concrete and.20native
 offsets each side, without claiming exact contact or full landing boundaries.
 Tunnel fresh floor/side/riser/terminal annotations use the wider independently
 checked TUNNEL_STAIR_OVERHEAD_002 camera; older raw/native evidence is preserved.
+
+build_b_rear_facade_points.py derives B_REAR_FACADE_POINTS JSON/CSV/SVG from
+explicit repeated concrete Mesh selections, including safe pairs in preserved
+failed reports. Validate native distances, exact restoration, camera checks and
+image hashes; render and inspect. Exclude unpaired own-origin, recessed Hull and
+remote/grazing side observations. Projected points do not certify visibility:
+camera-origin first-hit diagnostics must remain separate from rendered corners.

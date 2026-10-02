@@ -343,3 +343,10 @@ A first-Mesh component can continue around a corner; its eventual Mesh/Hull
 interface is not automatically the front facade endpoint. Preserve normal-band
 guard rejections and own-origin Dirt Hull evidence; use independent side rays
 and checked rendered correspondence before structural corner acceptance.
+
+B_REAR_FACADE_POINTS JSON/CSV/SVG owns43 explicitly selected repeated Mesh
+points and12 excluded selections. B_REAR_FRONTAL_001 is an8fit/10held/6fresh
+depth camera, exact pose only, checkedY2800..2950/Z60..230. Six inspected
+marked/clean JPEGs retain individual hashes. Camera-origin diagnostic007 finds
+one agreeing front control and four nearer intervening Mesh hits; projected
+return points are not visible-corner evidence. No full rear boundary accepted.
