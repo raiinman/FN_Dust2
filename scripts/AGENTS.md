@@ -277,3 +277,9 @@ It derives sampled rise/run CSV/SVG and three physical inter-face intervals.
 Rebuild/render/inspect after selections change. The first ground sample is
 .17native before the face; do not assume uniform rise or certify unsampled
 ground contact, full curved sides, terminal extent or rendered offsets.
+
+build_route_floor_profiles.py validates corrected repeated floor coordinates
+against reviewed walking-XY sample plans and source walk IDs. Rebuild/render/
+inspect CSV/SVG after additions. Walking feet select probe origins only, never
+supply floor Z. Dashed sample-chord chains show order, not walking distance,
+interpolated floor, continuous grade or full-route clearance/terminal bounds.

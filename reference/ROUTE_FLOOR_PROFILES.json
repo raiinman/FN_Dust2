@@ -1,0 +1,2079 @@
+{
+  "source_build": "25640462",
+  "review_date": "2026-10-02",
+  "scope": "Native repeated floor samples on accepted walking XY paths. Feet selected origins only, never supply elevation. Sample-order charts do not interpolate floor or give actual walking distance.",
+  "groups": [
+    {
+      "route": "B_DOORS_BOTH",
+      "source_walk_report": "B_DOORS_B_TO_CT_RECOVERY_002",
+      "points": [
+        {
+          "id": "ROUTE_FLOOR_B_DOORS_BOTH_00_001",
+          "xy": [
+            -1550.0,
+            2200.0
+          ],
+          "probe_z": 18.142456,
+          "nominal_waypoint": [
+            -1550,
+            2200
+          ],
+          "offset_from_nominal_native": 0.0,
+          "source_walk_pose": [
+            -1550.0,
+            2200.0,
+            -1.857544,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_B_DOORS_BOTH_01_001",
+          "xy": [
+            -1449.503784,
+            2200.0
+          ],
+          "probe_z": 20.051506,
+          "nominal_waypoint": [
+            -1450,
+            2200
+          ],
+          "offset_from_nominal_native": 0.496216000000004,
+          "source_walk_pose": [
+            -1449.503784,
+            2200.0,
+            0.051506,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_B_DOORS_BOTH_02_001",
+          "xy": [
+            -1406.983765,
+            2191.412598
+          ],
+          "probe_z": 20.177451,
+          "nominal_waypoint": [
+            -1400,
+            2190
+          ],
+          "offset_from_nominal_native": 7.125195203278852,
+          "source_walk_pose": [
+            -1406.983765,
+            2191.412598,
+            0.177451,
+            0.0,
+            -11.420288,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_B_DOORS_BOTH_03_001",
+          "xy": [
+            -1311.177856,
+            2191.198486
+          ],
+          "probe_z": 22.338849,
+          "nominal_waypoint": [
+            -1300,
+            2190
+          ],
+          "offset_from_nominal_native": 11.241923031622832,
+          "source_walk_pose": [
+            -1311.177856,
+            2191.198486,
+            2.338849,
+            0.0,
+            -0.769043,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_B_DOORS_BOTH_04_001",
+          "xy": [
+            -1198.278442,
+            2189.329346
+          ],
+          "probe_z": 23.590649,
+          "nominal_waypoint": [
+            -1200,
+            2190
+          ],
+          "offset_from_nominal_native": 1.847576449048828,
+          "source_walk_pose": [
+            -1198.278442,
+            2189.329346,
+            3.590649,
+            0.0,
+            -20.825958,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_B_DOORS_BOTH_05_001",
+          "xy": [
+            -1054.750732,
+            2199.643799
+          ],
+          "probe_z": 0.5396730000000005,
+          "nominal_waypoint": [
+            -1050,
+            2200
+          ],
+          "offset_from_nominal_native": 4.764066927345245,
+          "source_walk_pose": [
+            -1054.750732,
+            2199.643799,
+            -19.460327,
+            0.0,
+            4.108551,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_B_DOORS_BOTH_06_001",
+          "xy": [
+            -805.166199,
+            2248.991211
+          ],
+          "probe_z": -82.976807,
+          "nominal_waypoint": [
+            -800,
+            2250
+          ],
+          "offset_from_nominal_native": 5.263769310496236,
+          "source_walk_pose": [
+            -805.166199,
+            2248.991211,
+            -102.976807,
+            0.0,
+            11.185791,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_B_DOORS_BOTH_07_001",
+          "xy": [
+            -499.082764,
+            2300.143311
+          ],
+          "probe_z": -92.083862,
+          "nominal_waypoint": [
+            -500,
+            2300
+          ],
+          "offset_from_nominal_native": 0.9283641109052799,
+          "source_walk_pose": [
+            -499.082764,
+            2300.143311,
+            -112.083862,
+            0.0,
+            9.480515,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        }
+      ],
+      "floor_reports": [
+        "ROUTE_FLOOR_B_DOORS_BOTH_00_001",
+        "ROUTE_FLOOR_B_DOORS_BOTH_01_001",
+        "ROUTE_FLOOR_B_DOORS_BOTH_02_001",
+        "ROUTE_FLOOR_B_DOORS_BOTH_03_001",
+        "ROUTE_FLOOR_B_DOORS_BOTH_04_001",
+        "ROUTE_FLOOR_B_DOORS_BOTH_05_001",
+        "ROUTE_FLOOR_B_DOORS_BOTH_06_001",
+        "ROUTE_FLOOR_B_DOORS_BOTH_07_001"
+      ],
+      "status": "reviewed repeated point evidence; no continuous floor or full-route width acceptance"
+    },
+    {
+      "route": "SHORT_TOP_SITE_BOTH",
+      "source_walk_report": "SHORT_TOP_TO_A_SITE_RECOVERY_003",
+      "points": [
+        {
+          "id": "ROUTE_FLOOR_SHORT_TOP_SITE_BOTH_00_001",
+          "xy": [
+            300.0,
+            1800.0
+          ],
+          "probe_z": 116.290352,
+          "nominal_waypoint": [
+            300,
+            1800
+          ],
+          "offset_from_nominal_native": 0.0,
+          "source_walk_pose": [
+            300.0,
+            1800.0,
+            96.290352,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_SHORT_TOP_SITE_BOTH_01_001",
+          "xy": [
+            357.122437,
+            1800.0
+          ],
+          "probe_z": 117.278831,
+          "nominal_waypoint": [
+            380,
+            1800
+          ],
+          "offset_from_nominal_native": 22.87756300000001,
+          "source_walk_pose": [
+            357.122437,
+            1800.0,
+            97.278831,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_SHORT_TOP_SITE_BOTH_02_001",
+          "xy": [
+            398.743073,
+            1994.151855
+          ],
+          "probe_z": 116.03125,
+          "nominal_waypoint": [
+            400,
+            2000
+          ],
+          "offset_from_nominal_native": 5.981694193483419,
+          "source_walk_pose": [
+            398.743073,
+            1994.151855,
+            96.03125,
+            0.0,
+            77.932892,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_SHORT_TOP_SITE_BOTH_03_001",
+          "xy": [
+            499.874878,
+            2252.043213
+          ],
+          "probe_z": 118.0644,
+          "nominal_waypoint": [
+            500,
+            2250
+          ],
+          "offset_from_nominal_native": 2.0470405170031882,
+          "source_walk_pose": [
+            499.874878,
+            2252.043213,
+            98.0644,
+            0.0,
+            64.386063,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_SHORT_TOP_SITE_BOTH_04_001",
+          "xy": [
+            499.973785,
+            2475.551025
+          ],
+          "probe_z": 115.944725,
+          "nominal_waypoint": [
+            500,
+            2500
+          ],
+          "offset_from_nominal_native": 24.448989054290973,
+          "source_walk_pose": [
+            499.973785,
+            2475.551025,
+            95.944725,
+            0.0,
+            89.939575,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_SHORT_TOP_SITE_BOTH_05_001",
+          "xy": [
+            697.069092,
+            2499.645508
+          ],
+          "probe_z": 115.910881,
+          "nominal_waypoint": [
+            700,
+            2500
+          ],
+          "offset_from_nominal_native": 2.9522679896188655,
+          "source_walk_pose": [
+            697.069092,
+            2499.645508,
+            95.910881,
+            0.0,
+            6.924133,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_SHORT_TOP_SITE_BOTH_06_001",
+          "xy": [
+            951.434326,
+            2500.002441
+          ],
+          "probe_z": 116.423454,
+          "nominal_waypoint": [
+            950,
+            2500
+          ],
+          "offset_from_nominal_native": 1.434328077099922,
+          "source_walk_pose": [
+            951.434326,
+            2500.002441,
+            96.423454,
+            0.0,
+            0.063171,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_SHORT_TOP_SITE_BOTH_07_001",
+          "xy": [
+            950.129639,
+            2727.224365
+          ],
+          "probe_z": 117.41761,
+          "nominal_waypoint": [
+            950,
+            2750
+          ],
+          "offset_from_nominal_native": 22.77600394984916,
+          "source_walk_pose": [
+            950.129639,
+            2727.224365,
+            97.41761,
+            0.0,
+            90.327881,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        }
+      ],
+      "floor_reports": [
+        "ROUTE_FLOOR_SHORT_TOP_SITE_BOTH_00_001",
+        "ROUTE_FLOOR_SHORT_TOP_SITE_BOTH_01_001",
+        "ROUTE_FLOOR_SHORT_TOP_SITE_BOTH_02_001",
+        "ROUTE_FLOOR_SHORT_TOP_SITE_BOTH_03_001",
+        "ROUTE_FLOOR_SHORT_TOP_SITE_BOTH_04_001",
+        "ROUTE_FLOOR_SHORT_TOP_SITE_BOTH_05_001",
+        "ROUTE_FLOOR_SHORT_TOP_SITE_BOTH_06_001",
+        "ROUTE_FLOOR_SHORT_TOP_SITE_BOTH_07_001"
+      ],
+      "status": "reviewed repeated point evidence; no continuous floor or full-route width acceptance"
+    },
+    {
+      "route": "TOPMID_CATWALK_BOTH",
+      "source_walk_report": "UPPER_MID_TO_CATWALK_RECOVERY_002",
+      "points": [
+        {
+          "id": "ROUTE_FLOOR_TOPMID_CATWALK_BOTH_00_001",
+          "xy": [
+            -450.0,
+            300.0
+          ],
+          "probe_z": 17.654419,
+          "nominal_waypoint": [
+            -450,
+            300
+          ],
+          "offset_from_nominal_native": 0.0,
+          "source_walk_pose": [
+            -450.0,
+            300.0,
+            -2.345581,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_TOPMID_CATWALK_BOTH_01_001",
+          "xy": [
+            -137.553711,
+            504.881073
+          ],
+          "probe_z": 19.826233,
+          "nominal_waypoint": [
+            -145,
+            500
+          ],
+          "offset_from_nominal_native": 8.903487715656727,
+          "source_walk_pose": [
+            -137.553711,
+            504.881073,
+            -0.173767,
+            0.0,
+            33.207886,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_TOPMID_CATWALK_BOTH_02_001",
+          "xy": [
+            -149.071716,
+            598.893311
+          ],
+          "probe_z": 22.031251,
+          "nominal_waypoint": [
+            -145,
+            600
+          ],
+          "offset_from_nominal_native": 4.219435000966005,
+          "source_walk_pose": [
+            -149.071716,
+            598.893311,
+            2.031251,
+            0.0,
+            74.061584,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_TOPMID_CATWALK_BOTH_03_001",
+          "xy": [
+            -180.002563,
+            800.01532
+          ],
+          "probe_z": 21.887029,
+          "nominal_waypoint": [
+            -180,
+            800
+          ],
+          "offset_from_nominal_native": 0.015532912444202405,
+          "source_walk_pose": [
+            -180.002563,
+            800.01532,
+            1.887029,
+            0.0,
+            98.724182,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_TOPMID_CATWALK_BOTH_04_001",
+          "xy": [
+            -179.990479,
+            1086.877441
+          ],
+          "probe_z": 20.390381,
+          "nominal_waypoint": [
+            -180,
+            1100
+          ],
+          "offset_from_nominal_native": 13.122562453953863,
+          "source_walk_pose": [
+            -179.990479,
+            1086.877441,
+            0.390381,
+            0.0,
+            89.997925,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_TOPMID_CATWALK_BOTH_05_001",
+          "xy": [
+            -179.995483,
+            1404.614502
+          ],
+          "probe_z": 19.753723,
+          "nominal_waypoint": [
+            -180,
+            1400
+          ],
+          "offset_from_nominal_native": 4.614504210778455,
+          "source_walk_pose": [
+            -179.995483,
+            1404.614502,
+            -0.246277,
+            0.0,
+            89.993134,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_TOPMID_CATWALK_BOTH_06_001",
+          "xy": [
+            249.477448,
+            1400.01355
+          ],
+          "probe_z": 20.093999,
+          "nominal_waypoint": [
+            250,
+            1400
+          ],
+          "offset_from_nominal_native": 0.5227276491673145,
+          "source_walk_pose": [
+            249.477448,
+            1400.01355,
+            0.093999,
+            0.0,
+            -0.564423,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        }
+      ],
+      "floor_reports": [
+        "ROUTE_FLOOR_TOPMID_CATWALK_BOTH_00_001",
+        "ROUTE_FLOOR_TOPMID_CATWALK_BOTH_01_001",
+        "ROUTE_FLOOR_TOPMID_CATWALK_BOTH_02_001",
+        "ROUTE_FLOOR_TOPMID_CATWALK_BOTH_03_001",
+        "ROUTE_FLOOR_TOPMID_CATWALK_BOTH_04_001",
+        "ROUTE_FLOOR_TOPMID_CATWALK_BOTH_05_001",
+        "ROUTE_FLOOR_TOPMID_CATWALK_BOTH_06_001"
+      ],
+      "status": "reviewed repeated point evidence; no continuous floor or full-route width acceptance"
+    },
+    {
+      "route": "MID_DOORS_BOTH",
+      "source_walk_report": "MID_DOOR_MID_TO_CT_RECOVERY_001",
+      "points": [
+        {
+          "id": "ROUTE_FLOOR_MID_DOORS_BOTH_00_001",
+          "xy": [
+            -420.0,
+            1300.0
+          ],
+          "probe_z": -101.136902,
+          "nominal_waypoint": [
+            -420,
+            1300
+          ],
+          "offset_from_nominal_native": 0.0,
+          "source_walk_pose": [
+            -420.0,
+            1300.0,
+            -121.136902,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_MID_DOORS_BOTH_01_001",
+          "xy": [
+            -372.119507,
+            1496.024902
+          ],
+          "probe_z": -106.089966,
+          "nominal_waypoint": [
+            -370,
+            1500
+          ],
+          "offset_from_nominal_native": 4.504854496279775,
+          "source_walk_pose": [
+            -372.119507,
+            1496.024902,
+            -126.089966,
+            0.0,
+            75.964966,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_MID_DOORS_BOTH_02_001",
+          "xy": [
+            -370.116821,
+            1585.265625
+          ],
+          "probe_z": -106.697388,
+          "nominal_waypoint": [
+            -370,
+            1590
+          ],
+          "offset_from_nominal_native": 4.7358160634325746,
+          "source_walk_pose": [
+            -370.116821,
+            1585.265625,
+            -126.697388,
+            0.0,
+            88.663086,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_MID_DOORS_BOTH_03_001",
+          "xy": [
+            -445.315186,
+            1633.382568
+          ],
+          "probe_z": -105.735474,
+          "nominal_waypoint": [
+            -440,
+            1630
+          ],
+          "offset_from_nominal_native": 6.300235589977549,
+          "source_walk_pose": [
+            -445.315186,
+            1633.382568,
+            -125.735474,
+            0.0,
+            147.404236,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_MID_DOORS_BOTH_04_001",
+          "xy": [
+            -420.805176,
+            1746.275513
+          ],
+          "probe_z": -106.913696,
+          "nominal_waypoint": [
+            -420,
+            1750
+          ],
+          "offset_from_nominal_native": 3.8105264471126143,
+          "source_walk_pose": [
+            -420.805176,
+            1746.275513,
+            -126.913696,
+            0.0,
+            77.74234,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_MID_DOORS_BOTH_05_001",
+          "xy": [
+            -499.888062,
+            1899.723145
+          ],
+          "probe_z": -102.044434,
+          "nominal_waypoint": [
+            -500,
+            1900
+          ],
+          "offset_from_nominal_native": 0.2986282084282061,
+          "source_walk_pose": [
+            -499.888062,
+            1899.723145,
+            -122.044434,
+            0.0,
+            117.237518,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_MID_DOORS_BOTH_06_001",
+          "xy": [
+            -499.969177,
+            2133.218994
+          ],
+          "probe_z": -104.219788,
+          "nominal_waypoint": [
+            -500,
+            2150
+          ],
+          "offset_from_nominal_native": 16.781034307496377,
+          "source_walk_pose": [
+            -499.969177,
+            2133.218994,
+            -124.219788,
+            0.0,
+            90.052521,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_MID_DOORS_BOTH_07_001",
+          "xy": [
+            -500.007202,
+            2304.599854
+          ],
+          "probe_z": -91.235779,
+          "nominal_waypoint": [
+            -500,
+            2300
+          ],
+          "offset_from_nominal_native": 4.599859638089021,
+          "source_walk_pose": [
+            -500.007202,
+            2304.599854,
+            -111.235779,
+            0.0,
+            90.005829,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        }
+      ],
+      "floor_reports": [
+        "ROUTE_FLOOR_MID_DOORS_BOTH_00_001",
+        "ROUTE_FLOOR_MID_DOORS_BOTH_01_001",
+        "ROUTE_FLOOR_MID_DOORS_BOTH_02_001",
+        "ROUTE_FLOOR_MID_DOORS_BOTH_03_001",
+        "ROUTE_FLOOR_MID_DOORS_BOTH_04_001",
+        "ROUTE_FLOOR_MID_DOORS_BOTH_05_001",
+        "ROUTE_FLOOR_MID_DOORS_BOTH_06_001",
+        "ROUTE_FLOOR_MID_DOORS_BOTH_07_001"
+      ],
+      "status": "reviewed repeated point evidence; no continuous floor or full-route width acceptance"
+    },
+    {
+      "route": "TOPMID_MID_BOTH",
+      "source_walk_report": "TOPMID_TO_MID_RECOVERY_001",
+      "points": [
+        {
+          "id": "ROUTE_FLOOR_TOPMID_MID_BOTH_00_001",
+          "xy": [
+            -450.0,
+            300.0
+          ],
+          "probe_z": 17.654419,
+          "nominal_waypoint": [
+            -450,
+            300
+          ],
+          "offset_from_nominal_native": 0.0,
+          "source_walk_pose": [
+            -450.0,
+            300.0,
+            -2.345581,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_TOPMID_MID_BOTH_01_001",
+          "xy": [
+            -449.995605,
+            505.991943
+          ],
+          "probe_z": 18.136414,
+          "nominal_waypoint": [
+            -450,
+            500
+          ],
+          "offset_from_nominal_native": 5.991944611832949,
+          "source_walk_pose": [
+            -449.995605,
+            505.991943,
+            -1.863586,
+            0.0,
+            90.02713,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_TOPMID_MID_BOTH_02_001",
+          "xy": [
+            -403.630127,
+            732.276611
+          ],
+          "probe_z": 20.031249,
+          "nominal_waypoint": [
+            -400,
+            750
+          ],
+          "offset_from_nominal_native": 18.091333275395986,
+          "source_walk_pose": [
+            -403.630127,
+            732.276611,
+            0.031249,
+            0.0,
+            78.448547,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_TOPMID_MID_BOTH_03_001",
+          "xy": [
+            -400.095459,
+            994.130981
+          ],
+          "probe_z": -32.417725,
+          "nominal_waypoint": [
+            -400,
+            1000
+          ],
+          "offset_from_nominal_native": 5.869795264150341,
+          "source_walk_pose": [
+            -400.095459,
+            994.130981,
+            -52.417725,
+            0.0,
+            89.169861,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_TOPMID_MID_BOTH_04_001",
+          "xy": [
+            -419.031006,
+            1285.336548
+          ],
+          "probe_z": -100.069275,
+          "nominal_waypoint": [
+            -420,
+            1300
+          ],
+          "offset_from_nominal_native": 14.695433778161847,
+          "source_walk_pose": [
+            -419.031006,
+            1285.336548,
+            -120.069275,
+            0.0,
+            93.738434,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        }
+      ],
+      "floor_reports": [
+        "ROUTE_FLOOR_TOPMID_MID_BOTH_00_001",
+        "ROUTE_FLOOR_TOPMID_MID_BOTH_01_001",
+        "ROUTE_FLOOR_TOPMID_MID_BOTH_02_001",
+        "ROUTE_FLOOR_TOPMID_MID_BOTH_03_001",
+        "ROUTE_FLOOR_TOPMID_MID_BOTH_04_001"
+      ],
+      "status": "reviewed repeated point evidence; no continuous floor or full-route width acceptance"
+    },
+    {
+      "route": "CTMID_CTSPAWN_BOTH",
+      "source_walk_report": "CTMID_TO_CTSPAWN_RECOVERY_002",
+      "points": [
+        {
+          "id": "ROUTE_FLOOR_CTMID_CTSPAWN_BOTH_00_001",
+          "xy": [
+            -500.0,
+            2300.0
+          ],
+          "probe_z": -92.120972,
+          "nominal_waypoint": [
+            -500,
+            2300
+          ],
+          "offset_from_nominal_native": 0.0,
+          "source_walk_pose": [
+            -500.0,
+            2300.0,
+            -112.120972,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_CTMID_CTSPAWN_BOTH_01_001",
+          "xy": [
+            -397.248047,
+            2094.505127
+          ],
+          "probe_z": -108.90033,
+          "nominal_waypoint": [
+            -400,
+            2100
+          ],
+          "offset_from_nominal_native": 6.145475945794528,
+          "source_walk_pose": [
+            -397.248047,
+            2094.505127,
+            -128.90033,
+            0.0,
+            -63.443642,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_CTMID_CTSPAWN_BOTH_02_001",
+          "xy": [
+            -107.905762,
+            2099.856689
+          ],
+          "probe_z": -105.445557,
+          "nominal_waypoint": [
+            -100,
+            2100
+          ],
+          "offset_from_nominal_native": 7.907060822035257,
+          "source_walk_pose": [
+            -107.905762,
+            2099.856689,
+            -125.445557,
+            0.0,
+            1.077698,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_CTMID_CTSPAWN_BOTH_03_001",
+          "xy": [
+            95.586479,
+            2099.988281
+          ],
+          "probe_z": -103.480164,
+          "nominal_waypoint": [
+            100,
+            2100
+          ],
+          "offset_from_nominal_native": 4.413536558407784,
+          "source_walk_pose": [
+            95.586479,
+            2099.988281,
+            -123.480164,
+            0.0,
+            0.054932,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_CTMID_CTSPAWN_BOTH_04_001",
+          "xy": [
+            159.856628,
+            2369.398438
+          ],
+          "probe_z": -99.891846,
+          "nominal_waypoint": [
+            160,
+            2370
+          ],
+          "offset_from_nominal_native": 0.6184111659954048,
+          "source_walk_pose": [
+            159.856628,
+            2369.398438,
+            -119.891846,
+            0.0,
+            76.593262,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        }
+      ],
+      "floor_reports": [
+        "ROUTE_FLOOR_CTMID_CTSPAWN_BOTH_00_001",
+        "ROUTE_FLOOR_CTMID_CTSPAWN_BOTH_01_001",
+        "ROUTE_FLOOR_CTMID_CTSPAWN_BOTH_02_001",
+        "ROUTE_FLOOR_CTMID_CTSPAWN_BOTH_03_001",
+        "ROUTE_FLOOR_CTMID_CTSPAWN_BOTH_04_001"
+      ],
+      "status": "reviewed repeated point evidence; no continuous floor or full-route width acceptance"
+    },
+    {
+      "route": "CTSPAWN_UNDERA_LONG_BOTH",
+      "source_walk_report": "CTSPAWN_TO_LONG_CROSS_RECOVERY_001",
+      "points": [
+        {
+          "id": "ROUTE_FLOOR_CTSPAWN_UNDERA_LONG_BOTH_00_001",
+          "xy": [
+            160.0,
+            2370.0
+          ],
+          "probe_z": -99.906311,
+          "nominal_waypoint": [
+            160,
+            2370
+          ],
+          "offset_from_nominal_native": 0.0,
+          "source_walk_pose": [
+            160.0,
+            2370.0,
+            -119.906311,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_CTSPAWN_UNDERA_LONG_BOTH_01_001",
+          "xy": [
+            160.000839,
+            2152.742188
+          ],
+          "probe_z": -104.205811,
+          "nominal_waypoint": [
+            160,
+            2150
+          ],
+          "offset_from_nominal_native": 2.742188128350411,
+          "source_walk_pose": [
+            160.000839,
+            2152.742188,
+            -124.205811,
+            0.0,
+            -90.01339,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_CTSPAWN_UNDERA_LONG_BOTH_02_001",
+          "xy": [
+            390.984741,
+            2150.129883
+          ],
+          "probe_z": -105.500061,
+          "nominal_waypoint": [
+            400,
+            2150
+          ],
+          "offset_from_nominal_native": 9.016194564824469,
+          "source_walk_pose": [
+            390.984741,
+            2150.129883,
+            -125.500061,
+            0.0,
+            -0.685608,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_CTSPAWN_UNDERA_LONG_BOTH_03_001",
+          "xy": [
+            595.777588,
+            2150.004883
+          ],
+          "probe_z": -79.773682,
+          "nominal_waypoint": [
+            600,
+            2150
+          ],
+          "offset_from_nominal_native": 4.2224148234668615,
+          "source_walk_pose": [
+            595.777588,
+            2150.004883,
+            -99.773682,
+            0.0,
+            -0.065582,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_CTSPAWN_UNDERA_LONG_BOTH_04_001",
+          "xy": [
+            885.139404,
+            2149.991211
+          ],
+          "probe_z": -1.9035639999999994,
+          "nominal_waypoint": [
+            900,
+            2150
+          ],
+          "offset_from_nominal_native": 14.860598599038216,
+          "source_walk_pose": [
+            885.139404,
+            2149.991211,
+            -21.903564,
+            0.0,
+            -0.003433,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_CTSPAWN_UNDERA_LONG_BOTH_05_001",
+          "xy": [
+            1205.376221,
+            2149.996094
+          ],
+          "probe_z": 21.483773,
+          "nominal_waypoint": [
+            1200,
+            2150
+          ],
+          "offset_from_nominal_native": 5.376222418918032,
+          "source_walk_pose": [
+            1205.376221,
+            2149.996094,
+            1.483773,
+            0.0,
+            -0.008926,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_CTSPAWN_UNDERA_LONG_BOTH_06_001",
+          "xy": [
+            1402.480469,
+            2200.633301
+          ],
+          "probe_z": 14.013123,
+          "nominal_waypoint": [
+            1400,
+            2200
+          ],
+          "offset_from_nominal_native": 2.560038401384289,
+          "source_walk_pose": [
+            1402.480469,
+            2200.633301,
+            -5.986877,
+            0.0,
+            14.420242,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        }
+      ],
+      "floor_reports": [
+        "ROUTE_FLOOR_CTSPAWN_UNDERA_LONG_BOTH_00_001",
+        "ROUTE_FLOOR_CTSPAWN_UNDERA_LONG_BOTH_01_001",
+        "ROUTE_FLOOR_CTSPAWN_UNDERA_LONG_BOTH_02_001",
+        "ROUTE_FLOOR_CTSPAWN_UNDERA_LONG_BOTH_03_001",
+        "ROUTE_FLOOR_CTSPAWN_UNDERA_LONG_BOTH_04_001",
+        "ROUTE_FLOOR_CTSPAWN_UNDERA_LONG_BOTH_05_001",
+        "ROUTE_FLOOR_CTSPAWN_UNDERA_LONG_BOTH_06_001"
+      ],
+      "status": "reviewed repeated point evidence; no continuous floor or full-route width acceptance"
+    },
+    {
+      "route": "TSPAWN_OUTSIDE_LONG_BOTH",
+      "source_walk_report": "TSPAWN_TO_OUTSIDE_LONG_RECOVERY_001",
+      "points": [
+        {
+          "id": "ROUTE_FLOOR_TSPAWN_OUTSIDE_LONG_BOTH_00_001",
+          "xy": [
+            -500.0,
+            -900.0
+          ],
+          "probe_z": 131.149948,
+          "nominal_waypoint": [
+            -500,
+            -900
+          ],
+          "offset_from_nominal_native": 0.0,
+          "source_walk_pose": [
+            -500.0,
+            -900.0,
+            111.149948,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_TSPAWN_OUTSIDE_LONG_BOTH_01_001",
+          "xy": [
+            -96.393311,
+            -900.0
+          ],
+          "probe_z": 38.924735999999996,
+          "nominal_waypoint": [
+            -100,
+            -900
+          ],
+          "offset_from_nominal_native": 3.606689000000003,
+          "source_walk_pose": [
+            -96.393311,
+            -900.0,
+            18.924736,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_TSPAWN_OUTSIDE_LONG_BOTH_02_001",
+          "xy": [
+            294.71463,
+            -900.0
+          ],
+          "probe_z": 10.691711,
+          "nominal_waypoint": [
+            300,
+            -900
+          ],
+          "offset_from_nominal_native": 5.28537,
+          "source_walk_pose": [
+            294.71463,
+            -900.0,
+            -9.308289,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_TSPAWN_OUTSIDE_LONG_BOTH_03_001",
+          "xy": [
+            299.831299,
+            -610.508789
+          ],
+          "probe_z": 22.5214,
+          "nominal_waypoint": [
+            300,
+            -600
+          ],
+          "offset_from_nominal_native": 10.510143018718706,
+          "source_walk_pose": [
+            299.831299,
+            -610.508789,
+            2.5214,
+            0.0,
+            89.002655,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_TSPAWN_OUTSIDE_LONG_BOTH_04_001",
+          "xy": [
+            299.97348,
+            -318.647217
+          ],
+          "probe_z": 20.765152,
+          "nominal_waypoint": [
+            300,
+            -300
+          ],
+          "offset_from_nominal_native": 18.647235858311266,
+          "source_walk_pose": [
+            299.97348,
+            -318.647217,
+            0.765152,
+            0.0,
+            89.934753,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_TSPAWN_OUTSIDE_LONG_BOTH_05_001",
+          "xy": [
+            300.003448,
+            2.839493
+          ],
+          "probe_z": 18.908081,
+          "nominal_waypoint": [
+            300,
+            0
+          ],
+          "offset_from_nominal_native": 2.8394950934546443,
+          "source_walk_pose": [
+            300.003448,
+            2.839493,
+            -1.091919,
+            0.0,
+            90.021973,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        }
+      ],
+      "floor_reports": [
+        "ROUTE_FLOOR_TSPAWN_OUTSIDE_LONG_BOTH_00_001",
+        "ROUTE_FLOOR_TSPAWN_OUTSIDE_LONG_BOTH_01_001",
+        "ROUTE_FLOOR_TSPAWN_OUTSIDE_LONG_BOTH_02_001",
+        "ROUTE_FLOOR_TSPAWN_OUTSIDE_LONG_BOTH_03_001",
+        "ROUTE_FLOOR_TSPAWN_OUTSIDE_LONG_BOTH_04_001",
+        "ROUTE_FLOOR_TSPAWN_OUTSIDE_LONG_BOTH_05_001"
+      ],
+      "status": "reviewed repeated point evidence; no continuous floor or full-route width acceptance"
+    },
+    {
+      "route": "TSPAWN_OUTSIDE_TUNNELS_BOTH",
+      "source_walk_report": "TSPAWN_TO_OUTSIDE_TUNNELS_RECOVERY_003",
+      "points": [
+        {
+          "id": "ROUTE_FLOOR_TSPAWN_OUTSIDE_TUNNELS_BOTH_00_001",
+          "xy": [
+            -500.0,
+            -900.0
+          ],
+          "probe_z": 131.149948,
+          "nominal_waypoint": [
+            -500,
+            -900
+          ],
+          "offset_from_nominal_native": 0.0,
+          "source_walk_pose": [
+            -500.0,
+            -900.0,
+            111.149948,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_TSPAWN_OUTSIDE_TUNNELS_BOTH_01_001",
+          "xy": [
+            -1004.102905,
+            -899.990417
+          ],
+          "probe_z": 139.759842,
+          "nominal_waypoint": [
+            -1000,
+            -900
+          ],
+          "offset_from_nominal_native": 4.102916191309994,
+          "source_walk_pose": [
+            -1004.102905,
+            -899.990417,
+            119.759842,
+            0.0,
+            179.999329,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_TSPAWN_OUTSIDE_TUNNELS_BOTH_02_001",
+          "xy": [
+            -1499.456665,
+            -899.999146
+          ],
+          "probe_z": 137.187386,
+          "nominal_waypoint": [
+            -1500,
+            -900
+          ],
+          "offset_from_nominal_native": 0.5433356711472901,
+          "source_walk_pose": [
+            -1499.456665,
+            -899.999146,
+            117.187386,
+            0.0,
+            -179.984558,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_TSPAWN_OUTSIDE_TUNNELS_BOTH_03_001",
+          "xy": [
+            -1699.101685,
+            -750.681274
+          ],
+          "probe_z": 139.66218600000002,
+          "nominal_waypoint": [
+            -1700,
+            -750
+          ],
+          "offset_from_nominal_native": 1.1274325267176224,
+          "source_walk_pose": [
+            -1699.101685,
+            -750.681274,
+            119.662186,
+            0.0,
+            143.254517,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_TSPAWN_OUTSIDE_TUNNELS_BOTH_04_001",
+          "xy": [
+            -2048.085693,
+            -749.994263
+          ],
+          "probe_z": 139.50791900000002,
+          "nominal_waypoint": [
+            -2050,
+            -750
+          ],
+          "offset_from_nominal_native": 1.9143155966083623,
+          "source_walk_pose": [
+            -2048.085693,
+            -749.994263,
+            119.507919,
+            0.0,
+            179.926514,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_TSPAWN_OUTSIDE_TUNNELS_BOTH_05_001",
+          "xy": [
+            -2049.984619,
+            -402.260132
+          ],
+          "probe_z": 101.097244,
+          "nominal_waypoint": [
+            -2050,
+            -400
+          ],
+          "offset_from_nominal_native": 2.2601843359746123,
+          "source_walk_pose": [
+            -2049.984619,
+            -402.260132,
+            81.097244,
+            0.0,
+            90.307617,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_TSPAWN_OUTSIDE_TUNNELS_BOTH_06_001",
+          "xy": [
+            -1951.107666,
+            -4.457947
+          ],
+          "probe_z": 23.293145,
+          "nominal_waypoint": [
+            -1950,
+            0
+          ],
+          "offset_from_nominal_native": 4.593497079825483,
+          "source_walk_pose": [
+            -1951.107666,
+            -4.457947,
+            3.293145,
+            0.0,
+            76.06076,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_TSPAWN_OUTSIDE_TUNNELS_BOTH_07_001",
+          "xy": [
+            -1899.867554,
+            401.018372
+          ],
+          "probe_z": 24.108678,
+          "nominal_waypoint": [
+            -1900,
+            400
+          ],
+          "offset_from_nominal_native": 1.0269486225220898,
+          "source_walk_pose": [
+            -1899.867554,
+            401.018372,
+            4.108678,
+            0.0,
+            82.811157,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_TSPAWN_OUTSIDE_TUNNELS_BOTH_08_001",
+          "xy": [
+            -1705.450928,
+            591.169373
+          ],
+          "probe_z": 51.894161,
+          "nominal_waypoint": [
+            -1700,
+            600
+          ],
+          "offset_from_nominal_native": 10.377504000207065,
+          "source_walk_pose": [
+            -1705.450928,
+            591.169373,
+            31.894161,
+            0.0,
+            58.237839,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        }
+      ],
+      "floor_reports": [
+        "ROUTE_FLOOR_TSPAWN_OUTSIDE_TUNNELS_BOTH_00_001",
+        "ROUTE_FLOOR_TSPAWN_OUTSIDE_TUNNELS_BOTH_01_001",
+        "ROUTE_FLOOR_TSPAWN_OUTSIDE_TUNNELS_BOTH_02_001",
+        "ROUTE_FLOOR_TSPAWN_OUTSIDE_TUNNELS_BOTH_03_001",
+        "ROUTE_FLOOR_TSPAWN_OUTSIDE_TUNNELS_BOTH_04_001",
+        "ROUTE_FLOOR_TSPAWN_OUTSIDE_TUNNELS_BOTH_05_001",
+        "ROUTE_FLOOR_TSPAWN_OUTSIDE_TUNNELS_BOTH_06_001",
+        "ROUTE_FLOOR_TSPAWN_OUTSIDE_TUNNELS_BOTH_07_001",
+        "ROUTE_FLOOR_TSPAWN_OUTSIDE_TUNNELS_BOTH_08_001"
+      ],
+      "status": "reviewed repeated point evidence; no continuous floor or full-route width acceptance"
+    },
+    {
+      "route": "OUTSIDE_UPPER_TUNNELS_BOTH",
+      "source_walk_report": "OUTSIDE_TO_UPPER_TUNNELS_RECOVERY_001",
+      "points": [
+        {
+          "id": "ROUTE_FLOOR_OUTSIDE_UPPER_TUNNELS_BOTH_00_001",
+          "xy": [
+            -1700.0,
+            600.0
+          ],
+          "probe_z": 51.697925999999995,
+          "nominal_waypoint": [
+            -1700,
+            600
+          ],
+          "offset_from_nominal_native": 0.0,
+          "source_walk_pose": [
+            -1700.0,
+            600.0,
+            31.697926,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_OUTSIDE_UPPER_TUNNELS_BOTH_01_001",
+          "xy": [
+            -1699.987183,
+            776.366821
+          ],
+          "probe_z": 52.514961,
+          "nominal_waypoint": [
+            -1700,
+            800
+          ],
+          "offset_from_nominal_native": 23.633182475526482,
+          "source_walk_pose": [
+            -1699.987183,
+            776.366821,
+            32.514961,
+            0.0,
+            89.999664,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_OUTSIDE_UPPER_TUNNELS_BOTH_02_001",
+          "xy": [
+            -1699.989624,
+            997.3573
+          ],
+          "probe_z": 52.83889,
+          "nominal_waypoint": [
+            -1700,
+            1000
+          ],
+          "offset_from_nominal_native": 2.6427203695010846,
+          "source_walk_pose": [
+            -1699.989624,
+            997.3573,
+            32.83889,
+            0.0,
+            89.999664,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_OUTSIDE_UPPER_TUNNELS_BOTH_03_001",
+          "xy": [
+            -1595.210327,
+            1104.900146
+          ],
+          "probe_z": 54.065224,
+          "nominal_waypoint": [
+            -1600,
+            1100
+          ],
+          "offset_from_nominal_native": 6.852182007816521,
+          "source_walk_pose": [
+            -1595.210327,
+            1104.900146,
+            34.065224,
+            0.0,
+            45.718567,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_OUTSIDE_UPPER_TUNNELS_BOTH_04_001",
+          "xy": [
+            -1599.822632,
+            1196.520508
+          ],
+          "probe_z": 53.68309,
+          "nominal_waypoint": [
+            -1600,
+            1200
+          ],
+          "offset_from_nominal_native": 3.484009756801424,
+          "source_walk_pose": [
+            -1599.822632,
+            1196.520508,
+            33.68309,
+            0.0,
+            92.826904,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_OUTSIDE_UPPER_TUNNELS_BOTH_05_001",
+          "xy": [
+            -1947.556763,
+            1199.972534
+          ],
+          "probe_z": 51.707685,
+          "nominal_waypoint": [
+            -1950,
+            1200
+          ],
+          "offset_from_nominal_native": 2.443391376616684,
+          "source_walk_pose": [
+            -1947.556763,
+            1199.972534,
+            31.707685,
+            0.0,
+            179.423889,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        }
+      ],
+      "floor_reports": [
+        "ROUTE_FLOOR_OUTSIDE_UPPER_TUNNELS_BOTH_00_001",
+        "ROUTE_FLOOR_OUTSIDE_UPPER_TUNNELS_BOTH_01_001",
+        "ROUTE_FLOOR_OUTSIDE_UPPER_TUNNELS_BOTH_02_001",
+        "ROUTE_FLOOR_OUTSIDE_UPPER_TUNNELS_BOTH_03_001",
+        "ROUTE_FLOOR_OUTSIDE_UPPER_TUNNELS_BOTH_04_001",
+        "ROUTE_FLOOR_OUTSIDE_UPPER_TUNNELS_BOTH_05_001"
+      ],
+      "status": "reviewed repeated point evidence; no continuous floor or full-route width acceptance"
+    },
+    {
+      "route": "TOPMID_OUTSIDE_LONG_BOTH",
+      "source_walk_report": "TOPMID_TO_OUTSIDE_LONG_RECOVERY_001",
+      "points": [
+        {
+          "id": "ROUTE_FLOOR_TOPMID_OUTSIDE_LONG_BOTH_00_001",
+          "xy": [
+            -450.0,
+            300.0
+          ],
+          "probe_z": 17.654419,
+          "nominal_waypoint": [
+            -450,
+            300
+          ],
+          "offset_from_nominal_native": 0.0,
+          "source_walk_pose": [
+            -450.0,
+            300.0,
+            -2.345581,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_TOPMID_OUTSIDE_LONG_BOTH_01_001",
+          "xy": [
+            -196.755066,
+            308.07666
+          ],
+          "probe_z": 22.160105,
+          "nominal_waypoint": [
+            -200,
+            300
+          ],
+          "offset_from_nominal_native": 8.704138867226101,
+          "source_walk_pose": [
+            -196.755066,
+            308.07666,
+            2.160105,
+            0.0,
+            -15.094879,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_TOPMID_OUTSIDE_LONG_BOTH_02_001",
+          "xy": [
+            35.427986,
+            308.041931
+          ],
+          "probe_z": 20.542006,
+          "nominal_waypoint": [
+            50,
+            300
+          ],
+          "offset_from_nominal_native": 16.643805040463455,
+          "source_walk_pose": [
+            35.427986,
+            308.041931,
+            0.542006,
+            0.0,
+            -6.316452,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_TOPMID_OUTSIDE_LONG_BOTH_03_001",
+          "xy": [
+            300.927338,
+            299.96228
+          ],
+          "probe_z": 19.550415,
+          "nominal_waypoint": [
+            300,
+            300
+          ],
+          "offset_from_nominal_native": 0.9281048241680655,
+          "source_walk_pose": [
+            300.927338,
+            299.96228,
+            -0.449585,
+            0.0,
+            -2.229538,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_TOPMID_OUTSIDE_LONG_BOTH_04_001",
+          "xy": [
+            300.036285,
+            8.100842
+          ],
+          "probe_z": 18.882935,
+          "nominal_waypoint": [
+            300,
+            0
+          ],
+          "offset_from_nominal_native": 8.100923262825603,
+          "source_walk_pose": [
+            300.036285,
+            8.100842,
+            -1.117065,
+            0.0,
+            -90.195694,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        }
+      ],
+      "floor_reports": [
+        "ROUTE_FLOOR_TOPMID_OUTSIDE_LONG_BOTH_00_001",
+        "ROUTE_FLOOR_TOPMID_OUTSIDE_LONG_BOTH_01_001",
+        "ROUTE_FLOOR_TOPMID_OUTSIDE_LONG_BOTH_02_001",
+        "ROUTE_FLOOR_TOPMID_OUTSIDE_LONG_BOTH_03_001",
+        "ROUTE_FLOOR_TOPMID_OUTSIDE_LONG_BOTH_04_001"
+      ],
+      "status": "reviewed repeated point evidence; no continuous floor or full-route width acceptance"
+    },
+    {
+      "route": "LONG_CORNER_SIDE_PIT_BOTH",
+      "source_walk_report": "LONG_CORNER_TO_SIDE_PIT_RECOVERY_001",
+      "points": [
+        {
+          "id": "ROUTE_FLOOR_LONG_CORNER_SIDE_PIT_BOTH_00_001",
+          "xy": [
+            1200.0,
+            950.0
+          ],
+          "probe_z": 19.661621,
+          "nominal_waypoint": [
+            1200,
+            950
+          ],
+          "offset_from_nominal_native": 0.0,
+          "source_walk_pose": [
+            1200.0,
+            950.0,
+            -0.338379,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_LONG_CORNER_SIDE_PIT_BOTH_01_001",
+          "xy": [
+            1488.111938,
+            950.0
+          ],
+          "probe_z": 12.259827,
+          "nominal_waypoint": [
+            1500,
+            950
+          ],
+          "offset_from_nominal_native": 11.88806199999999,
+          "source_walk_pose": [
+            1488.111938,
+            950.0,
+            -7.740173,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_LONG_CORNER_SIDE_PIT_BOTH_02_001",
+          "xy": [
+            1696.603638,
+            950.0
+          ],
+          "probe_z": 19.407471,
+          "nominal_waypoint": [
+            1700,
+            950
+          ],
+          "offset_from_nominal_native": 3.3963619999999537,
+          "source_walk_pose": [
+            1696.603638,
+            950.0,
+            -0.592529,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_LONG_CORNER_SIDE_PIT_BOTH_03_001",
+          "xy": [
+            1699.967407,
+            801.14563
+          ],
+          "probe_z": 20.438757,
+          "nominal_waypoint": [
+            1700,
+            800
+          ],
+          "offset_from_nominal_native": 1.1460935391794835,
+          "source_walk_pose": [
+            1699.967407,
+            801.14563,
+            0.438757,
+            0.0,
+            -88.614693,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_LONG_CORNER_SIDE_PIT_BOTH_04_001",
+          "xy": [
+            1700.001709,
+            651.026245
+          ],
+          "probe_z": 75.991444,
+          "nominal_waypoint": [
+            1700,
+            650
+          ],
+          "offset_from_nominal_native": 1.0262464229930524,
+          "source_walk_pose": [
+            1700.001709,
+            651.026245,
+            55.991444,
+            0.0,
+            -89.989357,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_LONG_CORNER_SIDE_PIT_BOTH_05_001",
+          "xy": [
+            1699.994263,
+            502.187408
+          ],
+          "probe_z": 75.333454,
+          "nominal_waypoint": [
+            1700,
+            500
+          ],
+          "offset_from_nominal_native": 2.187415523313534,
+          "source_walk_pose": [
+            1699.994263,
+            502.187408,
+            55.333454,
+            0.0,
+            -90.003777,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        }
+      ],
+      "floor_reports": [
+        "ROUTE_FLOOR_LONG_CORNER_SIDE_PIT_BOTH_00_001",
+        "ROUTE_FLOOR_LONG_CORNER_SIDE_PIT_BOTH_01_001",
+        "ROUTE_FLOOR_LONG_CORNER_SIDE_PIT_BOTH_02_001",
+        "ROUTE_FLOOR_LONG_CORNER_SIDE_PIT_BOTH_03_001",
+        "ROUTE_FLOOR_LONG_CORNER_SIDE_PIT_BOTH_04_001",
+        "ROUTE_FLOOR_LONG_CORNER_SIDE_PIT_BOTH_05_001"
+      ],
+      "status": "reviewed repeated point evidence; no continuous floor or full-route width acceptance"
+    },
+    {
+      "route": "SUICIDE_TOPMID_BOTH",
+      "source_walk_report": "SUICIDE_FLOOR_TO_TOPMID_002",
+      "points": [
+        {
+          "id": "ROUTE_FLOOR_SUICIDE_TOPMID_BOTH_00_001",
+          "xy": [
+            -450.0,
+            -500.0
+          ],
+          "probe_z": 20.906593,
+          "nominal_waypoint": [
+            -450,
+            -500
+          ],
+          "offset_from_nominal_native": 0.0,
+          "source_walk_pose": [
+            -450.0,
+            -500.0,
+            0.906593,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_SUICIDE_TOPMID_BOTH_01_001",
+          "xy": [
+            -399.744629,
+            -298.948364
+          ],
+          "probe_z": 21.213836,
+          "nominal_waypoint": [
+            -400,
+            -300
+          ],
+          "offset_from_nominal_native": 1.0821980521775842,
+          "source_walk_pose": [
+            -399.744629,
+            -298.948364,
+            1.213836,
+            0.0,
+            75.980072,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_SUICIDE_TOPMID_BOTH_02_001",
+          "xy": [
+            -405.072021,
+            -97.630554
+          ],
+          "probe_z": 19.348999,
+          "nominal_waypoint": [
+            -400,
+            -100
+          ],
+          "offset_from_nominal_native": 5.598184649630364,
+          "source_walk_pose": [
+            -405.072021,
+            -97.630554,
+            -0.651001,
+            0.0,
+            83.524231,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_SUICIDE_TOPMID_BOTH_03_001",
+          "xy": [
+            -405.07605,
+            108.249481
+          ],
+          "probe_z": 20.233191,
+          "nominal_waypoint": [
+            -400,
+            100
+          ],
+          "offset_from_nominal_native": 9.686083851168187,
+          "source_walk_pose": [
+            -405.07605,
+            108.249481,
+            0.233191,
+            0.0,
+            78.561157,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        },
+        {
+          "id": "ROUTE_FLOOR_SUICIDE_TOPMID_BOTH_04_001",
+          "xy": [
+            -452.340332,
+            309.99472
+          ],
+          "probe_z": 17.782593,
+          "nominal_waypoint": [
+            -450,
+            300
+          ],
+          "offset_from_nominal_native": 10.265066085935512,
+          "source_walk_pose": [
+            -452.340332,
+            309.99472,
+            -2.217407,
+            0.0,
+            103.235107,
+            0.0
+          ],
+          "semantics": "Planned actual-XY near route waypoint; player support telemetry selects a safe probe start only. Floor height must come from independent corrected repeated ray, never these player feet."
+        }
+      ],
+      "floor_reports": [
+        "ROUTE_FLOOR_SUICIDE_TOPMID_BOTH_00_001",
+        "ROUTE_FLOOR_SUICIDE_TOPMID_BOTH_01_001",
+        "ROUTE_FLOOR_SUICIDE_TOPMID_BOTH_02_001",
+        "ROUTE_FLOOR_SUICIDE_TOPMID_BOTH_03_001",
+        "ROUTE_FLOOR_SUICIDE_TOPMID_BOTH_04_001"
+      ],
+      "status": "reviewed repeated point evidence; no continuous floor or full-route width acceptance"
+    }
+  ]
+}

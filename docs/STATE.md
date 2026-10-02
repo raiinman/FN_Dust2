@@ -24,8 +24,8 @@ recovery: evidence/CRASH_RECOVERY_20261001.md. Latest Git commit pins checkpoint
 - Scale2.54cm/native from two repeated inch-rangefinder anchors. UE=(2.54x,
   -2.54y,2.54z), inverse/length/native-right checks PASS. Phase2 editor/exporter
   roundtrip unverified. Unsaved Hammer128 calibration cube is not production.
-- 13 floor datums;54 Short/54 Tunnel stair samples;333 connector floor/cover/
-  cap points;271 calibrated feature measurements.106 local architectural chords
+- 13 floor datums;54 Short/54 Tunnel stair samples;418 connector floor/cover/
+  cap points;297 calibrated feature measurements.106 local architectural chords
   never become complete room rectangles or minimum full-route clearances.
 - Short12 rendered/native risers, rise234.3912cm/run359.6132cm sampled; nonuniform.
   Tunnel18 risers/18 local planes/36 independent offsets/16 tread-level widths;
@@ -88,14 +88,25 @@ All aperture/section/midpoint/B side/ground controllers ended. Original source
 camera independently restored/read back -1984,2100,50p0/y-90 before current batch;
 overlay visible restored. Native coordinates are not centimeters before scaling.
 
-ONE ACTIVE pose controller: private run_planned_columns_01.py against
-route_floor_profiles_01/plan.json.85 floor-only points along13 accepted walking
-paths. driver_recovery_001.json records completed IDs/status; individual JSONs
-preserve repeats/semantics. Feet select origin only, never floor elevation.
-Wrapper refuses existing files and finally restores/verifies original source
-pose. After interruption inspect processes/status/reports, then resume only
-remaining IDs through separately named plan; never restart completed batch.
-Do not overlap pose/input controllers or change UI focus during walking tests.
+85 route floor points on13 accepted paths completed and registered in
+ROUTE_FLOOR_PROFILES and CONNECTOR_SURFACE_PROFILES. Native repeated readings
+provide floor elevations; feet only selected origins. The TopMid/OutsideLong
+metal Hull support is explicit, separate from surrounding Mesh floor. Sample
+chord/elevation CSV/SVG rebuilt/rendered/inspected; dashed links do not interpolate
+floor or give actual walking length.26 sampled endpoint elevation/chord measures
+recorded;297 feature measurements/418 connector points. Wrapper completed all85,
+finally restored original source pose, exact independent echo/readback passed.
+
+ONE ACTIVE pose controller: scripts/cs2_probe_endpoints.py against private
+route_sections_02/config.json, output ROUTE_BODY35_AXIS_SECTIONS_002.json.
+85 measured floor XY stations, two opposite axis rays at35native above floor,
+each repeated twice. Dominant local sample direction selects transverse axis;
+diagonal turns are not normal minimum-width sections. First hits may be walls,
+cover, rising floor or remote portal. Explicit repeated no-hit has no endpoint.
+No local spans/whole-route widths accepted until surface/component review.
+Endpoint helper finally restores/verifies original B mouth pose. After any
+interruption inspect actual processes/status/observations and unexecuted stations;
+never restart completed observations or overlap pose/input controllers.
 
 Temporary engine_no_focus_sleep0(original20), m_yaw/m_pitch0(original.022).
 Movement released/maxspeed320/noclip1. Restore/read back temporary originals at

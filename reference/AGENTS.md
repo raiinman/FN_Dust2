@@ -220,3 +220,9 @@ full outside rendered count. Its CSV/SVG are sampled center-section evidence.
 Diagnostic Y1816 Mesh points are explicitly excluded from tread levels; native
 side own-origin rejection remains in ARCHITECTURAL_ENDPOINTS. Full curved sides,
 exact terminal contacts/upper landing and rendered offsets remain separate.
+
+ROUTE_FLOOR_PROFILES.json selects reviewed connector floor samples on accepted
+walking XY paths and retains source walk poses only as origin-selection data.
+ROUTE_FLOOR_SAMPLES.csv/SVG derive actual repeated collision Z and sample-order
+chord chains. Player feet never become floor elevations; dashed links never
+grant continuous grade, walking length or transverse/full-endpoint bounds.
