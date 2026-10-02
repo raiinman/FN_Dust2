@@ -34324,6 +34324,248 @@
       "source_requested_area": "B Site timber retaining strip top first-down diagnostic",
       "surface_semantics": "Repeated gravel Mesh upper point slightly behind timberfront; local top/filled strip sample, not main platform floor or a sharedplane. Source column floor field only names ray direction.",
       "private_filename": "..\\reference_cache\\crash_recovery_survey\\b_platform_top_18\\B_TIMBER_TOP_Y2600_018.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T17:45:16.838024+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Pit",
+      "unit": "source_units",
+      "target_xy": [
+        1306.0,
+        177.93
+      ],
+      "probe_player_z": -100.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1242.009766 177.929993 -100.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1307.55,
+            177.93,
+            -187.4
+          ],
+          "xy_error": 1.5499999999999545,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82622"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1240.459717 177.929993 -100.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1306.0,
+            177.93,
+            -187.43
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82622"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1240.459717 177.929993 -100.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1306.0,
+            177.93,
+            -187.43
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82622"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1306.0,
+          177.93,
+          -187.43
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "PIT_SOUTH_GROUND_X1306_002",
+      "source_requested_area": "Pit road near closed southern face",
+      "surface_semantics": "Repeated sand Mesh road floor2native infront of corresponding low closed southface. Point-specific slope, not exact contact or sharedflat threshold.",
+      "private_filename": "..\\reference_cache\\crash_recovery_survey\\pit_south_ground_02\\PIT_SOUTH_GROUND_X1306_002.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T17:45:26.307302+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Pit",
+      "unit": "source_units",
+      "target_xy": [
+        1400.0,
+        172.93
+      ],
+      "probe_player_z": -100.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1336.009766 172.929993 -100.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1401.54,
+            172.93,
+            -187.28
+          ],
+          "xy_error": 1.5399999999999636,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82628"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1334.469727 172.929993 -100.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1400.0,
+            172.93,
+            -187.29
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82628"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1334.469727 172.929993 -100.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1400.0,
+            172.93,
+            -187.29
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82628"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1400.0,
+          172.93,
+          -187.29
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "PIT_SOUTH_GROUND_X1400_002",
+      "source_requested_area": "Pit road near closed southern face",
+      "surface_semantics": "Repeated sand Mesh road floor2native infront of corresponding low closed southface. Point-specific slope, not exact contact or sharedflat threshold.",
+      "private_filename": "..\\reference_cache\\crash_recovery_survey\\pit_south_ground_02\\PIT_SOUTH_GROUND_X1400_002.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T17:45:35.474047+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Pit",
+      "unit": "source_units",
+      "target_xy": [
+        1542.0,
+        178.03
+      ],
+      "probe_player_z": -100.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1478.009766 178.029999 -100.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1543.49,
+            178.03,
+            -184.51
+          ],
+          "xy_error": 1.490000000000009,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1476.519775 178.029999 -100.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1542.05,
+            178.03,
+            -187.25
+          ],
+          "xy_error": 0.049999999999954525,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82644"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1476.469727 178.029999 -100.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1542.0,
+            178.03,
+            -187.25
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82644"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 4,
+          "observed_pose": "setpos_exact 1476.469727 178.029999 -100.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1542.0,
+            178.03,
+            -187.25
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 82644"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1542.0,
+          178.03,
+          -187.25
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "PIT_SOUTH_GROUND_X1542_002",
+      "source_requested_area": "Pit road near closed southern face",
+      "surface_semantics": "Repeated sand Mesh road floor2native infront of corresponding low closed southface. Point-specific slope, not exact contact or sharedflat threshold.",
+      "private_filename": "..\\reference_cache\\crash_recovery_survey\\pit_south_ground_02\\PIT_SOUTH_GROUND_X1542_002.json"
     }
   ],
   "accepted_pairs": [
@@ -34929,6 +35171,24 @@
       "dimension": "rise",
       "feature": "Covered mass selected top-to-adjoining west ground point rise",
       "notes": "Explicit different XY points: measured elevation comparison, not exact body height/contact/base or minimum clearance. Four top points varyZ102.35..102.98, three adjoining ground pointsZ1.33..4.71. Hidden ground below covered mass and full top/body envelope unmeasured."
+    },
+    {
+      "id": "PIT_NEAR_BACK_TO_STREET_RISE_002",
+      "area": "Pit",
+      "from_report": "PIT_SOUTH_GROUND_X1400_002",
+      "to_report": "PIT_CENTER_X1400_Y750_001",
+      "dimension": "rise",
+      "feature": "Selected near-closed-door floor to street sample rise",
+      "notes": "Nearback floorY172.93 is2native infront of closedWood faceY170.93, not exact floorwall contact. Other endpointY750.01 atstreet approach sample; point-pair interval not walkingdistance, exact curve/rampends or full continuous floor acceptance. Existing80anchor/35hold road-grid evidence separately bounds sampled interpolation."
+    },
+    {
+      "id": "PIT_NEAR_BACK_TO_STREET_HORIZONTAL_INTERVAL_002",
+      "area": "Pit",
+      "from_report": "PIT_SOUTH_GROUND_X1400_002",
+      "to_report": "PIT_CENTER_X1400_Y750_001",
+      "dimension": "horizontal_interval",
+      "feature": "Selected near-closed-door floor to street sample horizontal interval",
+      "notes": "Nearback floorY172.93 is2native infront of closedWood faceY170.93, not exact floorwall contact. Other endpointY750.01 atstreet approach sample; point-pair interval not walkingdistance, exact curve/rampends or full continuous floor acceptance. Existing80anchor/35hold road-grid evidence separately bounds sampled interpolation."
     }
   ],
   "rejected_attempts": [
@@ -35543,5 +35803,73 @@
     },
     "camera_id": "B_PLATFORM_OVERHEAD_009",
     "scope": "Two direct first-down top checks slightly inside independently measured timber-front normals. Ground/wood/gravel identity must be reviewed; column feature floor is transport field, not evidence of walkable floor. No sharedtopplane or fullstrip envelope."
+  },
+  "pit_south_ground_review": {
+    "plan": {
+      "build": "25640462",
+      "cases": [
+        {
+          "id": "PIT_SOUTH_GROUND_X1306_002",
+          "xy": [
+            1306,
+            177.93
+          ],
+          "z": -100,
+          "area": "Pit road near closed southern face",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "PIT_SOUTH_GROUND_X1400_002",
+          "xy": [
+            1400,
+            172.93
+          ],
+          "z": -100,
+          "area": "Pit road near closed southern face",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "PIT_SOUTH_GROUND_X1542_002",
+          "xy": [
+            1542,
+            178.03
+          ],
+          "z": -100,
+          "area": "Pit road near closed southern face",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        }
+      ],
+      "scope": "Measured low southfirstfaces atX1306 concreteY175.93, centerWoodY170.93, X1542 concreteY176.03. Three direct floor points2native infront of eachface, not exact floor-wall contact. SourceZ-100 below overhead cap but above nearback knownfloor-187; actual floor/firsthit semantics and correctedXY required. No flat southern plane or fullPit closure inferred."
+    },
+    "driver_recovery": {
+      "timestamp_utc": "2026-10-02T17:45:15.833384+00:00",
+      "original_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "status": "completed serial columns; semantic review pending",
+      "completed": [
+        "PIT_SOUTH_GROUND_X1306_002",
+        "PIT_SOUTH_GROUND_X1400_002",
+        "PIT_SOUTH_GROUND_X1542_002"
+      ],
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "south_face_report": "PIT_SOUTH_LOW_FACE_001",
+    "scope": "Measured low southfirstfaces atX1306 concreteY175.93, centerWoodY170.93, X1542 concreteY176.03. Three direct floor points2native infront of eachface, not exact floor-wall contact. SourceZ-100 below overhead cap but above nearback knownfloor-187; actual floor/firsthit semantics and correctedXY required. No flat southern plane or fullPit closure inferred."
   }
 }

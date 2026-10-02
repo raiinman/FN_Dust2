@@ -41,7 +41,7 @@ Source: installed CS2 build25640462, de_dust2. GitHub main is durable authority.
 | Physical scale and coordinate convention | SCALE_CALIBRATION.json; COORDINATE_TRANSFORM.json | PASS for current-build factor2.54 and reversible UE=(2.54x,-2.54y,2.54z); Phase2 exporter/import validation pending |
 | Every critical area forward/reverse/side/elevation coverage | 256 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | PASS: sixteen critical-area sets and eleven subarea sets accepted; structural metric and traversal remain separate |
 | Unambiguous validated topology | ROUTE_GRAPH.md; TOPOLOGY.json; WALK_PROBES.json; TRAVERSAL_PROBES.json; TOPOLOGY_AUDIT.json | PASS for listed surveyed connections:24 ground paths both directions; B Window both; S01 both, S02/S03 reciprocal routes, S04 partner forward/reverse. E11/E27 direct forward twice, unsupported reverse at surveyed crossing blocked twice, indirect walking returns both. Alternative launches/partners and geometric bounds remain separate |
-| Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; TUNNEL_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 396 calibrated feature measurements;54 Short and117 Tunnel floor samples; full critical register incomplete |
+| Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; TUNNEL_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 399 calibrated feature measurements;54 Short and117 Tunnel floor samples; full critical register incomplete |
 | Calibrated annotated whole-map truth | RADAR_CALIBRATION.json; MAP_CAMERA_CALIBRATION.json; RADAR_PLAN.svg; MAP_CAMERA_PLAN.svg | FAIL: calibrated native camera, physical grid, floors and paths; continuous architectural boundaries and overlapping elevation layers incomplete |
 | Bounded remaining uncertainty | UNCERTAINTY.md; SURVEY_TASKS.csv | FAIL: unresolved critical extents, full apertures/cover dimensions, stairs and render/collision bounds |
 
@@ -483,3 +483,22 @@ identify farMetalPanel and nearWood as different components.164 architectural
 reports/20 rejected.396 measurements/456 connector points unchanged. Gate1 FAIL;
 fullmixedstrip/ground/wholemap extents open. Next broaden architectural footprint,
 using existing Pit floor/camera and measured walls; do not rerun completedB plans.
+
+Pit southlow001 complete12obs/all0restore: twoYorigins agree low center
+WoodY170.93 vsflanking concreteY175.93/176.03 atZ-160. Southground002 three
+corrected repeatedsand Mesh floors2native before faces: Z-187.43/-187.29/-187.25.
+Nearback-to-street selectedcenter sample rise418.2618cm/horizontal1465.7832cm;
+398 measurements/459 connectorpoints. PIT_BOUNDARY_EVIDENCE JSON/SVG validates
+three ground-view hashes/poses and16 existing side-wall checks, rendered/inspected.
+Closed timberleaf, masonryreturns and gradedground stay separate; overheadcap
+hides nearbackfloor.165 architecturalreports/20rejected. Fullcurvedreturns,
+wallcontacts/ends, entirePit outline and continuouswholemap footprint remain open.
+
+Pit southleaf003 complete80obs/all0restore. Two independentYorigins agree
+lowerWood/concrete interfacesX[1312.375,1312.46875] and[1535.2109375,
+1535.296875] atZ-160. PIT_LOW_LEAF_REVIEW + build_pit_boundary_evidence derive
+bounded lowerclosedWood facingwidth[565.71435625,566.2723625]cm, including
+.01native allowance perend.399 physicalmeasurements/459 connectorpoints;
+166 architecturalreports/20rejected. UpdatedPit JSON/SVG rendered/inspected.
+This decorativeclosedleaf is not traversalclearance/fullarchedbody. Curved
+returns, exactcontacts/fullfloor and continuouswholemap footprint remain open.

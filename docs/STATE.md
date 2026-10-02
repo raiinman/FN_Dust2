@@ -7,7 +7,7 @@ no model override, new chat or agent delegation requested. Criteria unchanged.
 
 ## Authority and preserved work
 
-GitHub main authoritative. Latest checkpoint: B near-facing interface review; previous pushed1ea659a;
+GitHub main authoritative. Latest checkpoint: Pit low closingboundary/floor/leaf evidence; previous pushedd97c312;
 latest Git commit pins this checkpoint. Crash baseline35eaa642, dirty work
 preserved4c7df48, mergedab4e484. Active checkout:
 C:/Users/mikea/Documents/Codex/2026-09-30/new-chat/FN_Dust2
@@ -25,8 +25,8 @@ evidence/CRASH_RECOVERY_20261001.md. Inspect dirty work and current main first.
 - Scale2.54cm/native from repeated inch-rangefinder anchors; UE=(2.54x,-2.54y,
   2.54z), inverse/native-right/length checks PASS. Phase2 exporter/editor roundtrip
   remains unverified. Unsaved Hammer128 cube is calibration, not production.
-- 396 bounded physical feature measurements;13 floor datums;54 Short/117 Tunnel
-  stair floor samples;456 connector points;130 local architectural chords.
+- 399 bounded physical feature measurements;13 floor datums;54 Short/117 Tunnel
+  stair floor samples;459 connector points;130 local architectural chords.
   MEASUREMENTS.csv and profile registers retain confidence and explicit limits.
   Local sections/point pairs are not entire room rectangles or route clearances.
 - Listed topology PASS:34 edges/four specials;24 ground paths both directions,
@@ -90,13 +90,13 @@ now extend projection range throughZ290. Whole cap/body still separate. Every co
 
 ## Desktop and current source controller
 
-No active source controller. B nearstrip022 completes24 observations/all0restore: independentX-1680/
+Pit southlow001 completed12obs/all0restore; twoY originsagree, sides concreteY175.93/176.03 and centralWoodY170.93 atZ-160. Southground002 completed3columns/all0restore, sandMeshZ-187.43/-187.29/-187.25, each2native before correspondingface. Threepoints/two samplednearback-to-street pairs registered:459 connectors/398 measurements. PIT_BOUNDARY_EVIDENCE JSON/SVG rendered/inspected. Southleaf003 complete80obs/all0restore; twoYorigins agree lowerWood limitsX[1312.375,1312.46875]/[1535.2109375,1535.296875]. PIT_LOW_LEAF_REVIEW registered; physical399, updated SVG rendered/inspected. ONE active source controller: southsections004 four low opposite-side return sectionsY180/190/200/220. Inspect material/pose/restoration before acceptance; no fullPolygon inferred. B nearstrip022 completes24 observations/all0restore: independentX-1680/
 -1660 agree firstWood/Dirt interfaceY[2426.34765625,2426.40625] atZ40.
 WoodX-1718.49; DirtX-1723.15, neither automatic fullbodycorner nor topend.
 B_TIMBER_LOCAL_SECTIONS updated/rendered/inspected. Failed019 own-originRock
 Y2878 and failed020/021 intermediateRock/Dirt preserved; safe paired019 rays
 identify farMetalPanel and nearWood as different components.164 architectural
-reports/20 rejected.396 measurements/456 connector points unchanged. Gate1 FAIL;
+reports/20 rejected.396 measurements/459 connector points unchanged. Gate1 FAIL;
 fullmixedstrip/ground/wholemap extents open. Next broaden architectural footprint,
 using existing Pit floor/camera and measured walls; do not rerun completedB plans.
 Previous pushed checkpoint: B timber upper/back/top010..018 reviewed: complete012/017 independent
@@ -104,7 +104,7 @@ origins bound upper first-Wood atY2500Z[65,65.078125] andY2600
 Z[62.578125,62.65625]. Complete016 opposite faces give sampledZ40 thicknesses
 78.6892/68.4276cm. B_TIMBER_LOCAL_SECTIONS JSON/CSV/SVG rebuilt/rendered/inspected;
 four new physical rows,396 total. Two corrected018 first-down points: Wood
-Z62.67 slightly behindY2500 face, gravelZ61.94 behindY2600;456 connector points.
+Z62.67 slightly behindY2500 face, gravelZ61.94 behindY2600;459 connector points.
 No sharedflat cap/constant thickness. Failed011/014/015 actual intermediate
 Wood_Panel/rock/gravel classifications preserved;160 architectural reports/
 17 rejected. All executed controllers exact B-mouth restore all0. Full timber

@@ -435,3 +435,15 @@ B_TIMBER_LOCAL_SECTIONS also validates optional022 two-origin firstWood/Dirt
 near-facing limit. Preserve failed019/020/021 and unsafeY2878 own-origin hit.
 Mixed MetalPanel/Wood/Dirt interfaces never automatically define fullstrip
 body/corner. Rebuild/render/inspect updated JSON/SVG; physical rows unchanged.
+
+PIT_BOUNDARY_EVIDENCE JSON/SVG joins low three-position/two-origin closing
+faces, nearby graded roadfloors and existing16wall-line checks. Ground-view
+hashes/poses identify closedtimberleaf and masonryreturns; calibratedoverhead
+cap hides nearbackfloor. No fullPit polygon, sharedsouthplane or floorcontact
+inferred. CONNECTOR_SURFACE_PROFILES.pit_south_ground_review owns sourceplan.
+
+PIT_LOW_LEAF_REVIEW owns explicitlowerclosedWood/masonry material bracket
+selection and .01native perend allowance. build_pit_boundary_evidence validates
+twoorigin normalbands, native southray pose/rangefinder/repeats and material
+identity, derives localwidth and feeds physicalregister. Rebuild/render/inspect
+updated JSON/SVG; fullarchedleaf/body and traversalclearance remain separate.

@@ -211,6 +211,9 @@ def build(root):
     if (ref / 'B_TIMBER_LOCAL_SECTIONS.json').exists():
         from build_b_timber_sections import measurement_rows
         measurements.extend(measurement_rows(ref))
+    if (ref / 'PIT_LOW_LEAF_REVIEW.json').exists():
+        from build_pit_boundary_evidence import measurement_rows
+        measurements.extend(measurement_rows(ref))
     if tunnel_path.exists():
         profile=json.loads(tunnel_path.read_text())
         if profile.get('accepted_terminal_pairs'):

@@ -450,3 +450,15 @@ B_TIMBER_LOCAL_SECTIONS also validates optional022 two-origin firstWood/Dirt
 near-facing limit. Preserve failed019/020/021 and unsafeY2878 own-origin hit.
 Mixed MetalPanel/Wood/Dirt interfaces never automatically define fullstrip
 body/corner. Rebuild/render/inspect updated JSON/SVG; physical rows unchanged.
+
+build_pit_boundary_evidence.py validates repeated southnormal rays/pose/rangefinder,
+three corrected sandfloorcolumns2native beforefaces, exactsource restores and
+three ground-image hashes/poses. Rebuild/render/inspect JSON/SVG. The16existing
+checkedwall points are not continuousbodybounds; point-pair rise/run not walking
+distance or exactrampends. Ground-relativecontact and roofocclusion stay explicit.
+
+PIT_LOW_LEAF_REVIEW owns explicitlowerclosedWood/masonry material bracket
+selection and .01native perend allowance. build_pit_boundary_evidence validates
+twoorigin normalbands, native southray pose/rangefinder/repeats and material
+identity, derives localwidth and feeds physicalregister. Rebuild/render/inspect
+updated JSON/SVG; fullarchedleaf/body and traversalclearance remain separate.
