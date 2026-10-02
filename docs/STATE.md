@@ -76,9 +76,10 @@ No survey capture controller remains active. Outer connector and Xbox/CT crate
 replacement batches completed and were individually inspected. Fifteen additions
 registered, seven new clipped/misdirected target attempts rejected and preserved;
 four additional subarea sets accepted. Parent Connector composite now accepted with explicit transition ownership.
-B_WINDOW_INTERIOR_CLIMB_001 walked to the first rock but stopped atY2565.94;
-configured B_WINDOW_CLIMB_JUMP_001 is the next live attempt. Check its private JSON
-and live process before continuing. No simultaneous pose controllers.
+B Window solo climb/crossing passed both directions with stable landings;
+TRAVERSAL_PROBES records accepted004/reverse001 and five rejected/partial attempts.
+Outside rubble-to-CT Mid ground approach is next; inspect current live controller
+and its private JSON before starting any other pose/input controller.
 
 1. Finish remaining connector views, resolve Pit reverse classification, Suicide and
  B Window, then test all four special jump/drop/boost connections.

@@ -16366,6 +16366,146 @@
         "settled_start_pose": "setpos_exact -500.000000 -900.000000 111.149948;setang_exact 0.000000 0.000000 0.000000",
         "restored_speed": 320.0
       }
+    },
+    {
+      "private_filename": "B_WINDOW_INTERIOR_CLIMB_001.json",
+      "report": {
+        "id": "B_WINDOW_INTERIOR_CLIMB_001",
+        "source_build": "25640462",
+        "source_map": "de_dust2",
+        "timestamp_utc": "2026-10-01T23:54:44.197914+00:00",
+        "unit": "source_units",
+        "config": {
+          "id": "B_WINDOW_INTERIOR_CLIMB_001",
+          "build": "25640462",
+          "start": [
+            -1600,
+            2650,
+            50
+          ],
+          "waypoints": [
+            [
+              -1500,
+              2550
+            ],
+            [
+              -1450,
+              2550
+            ],
+            [
+              -1400,
+              2580
+            ],
+            [
+              -1370,
+              2650
+            ],
+            [
+              -1330,
+              2670
+            ],
+            [
+              -1250,
+              2670
+            ],
+            [
+              -1150,
+              2670
+            ]
+          ],
+          "maxspeed": 80,
+          "arrival_radius": 20
+        },
+        "teleports_during_route": 0,
+        "observations": [
+          {
+            "waypoint": 1,
+            "step": 1,
+            "before_pose": "setpos_exact -1600.000000 2650.000000 5.602148;setang_exact 0.000000 0.000000 0.000000",
+            "after_pose": "setpos_exact -1558.712036 2608.706787 4.209264;setang_exact 0.000000 -45.000000 0.000000",
+            "requested_yaw": -45.0,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 58.39371017210625
+          },
+          {
+            "waypoint": 1,
+            "step": 2,
+            "before_pose": "setpos_exact -1558.712036 2608.706787 4.209264;setang_exact 0.000000 -45.000000 0.000000",
+            "after_pose": "setpos_exact -1518.307983 2568.297607 2.712139;setang_exact 0.000000 -44.997589 0.000000",
+            "requested_yaw": -44.99743869390981,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 57.143584107026484
+          },
+          {
+            "waypoint": 1,
+            "step": 3,
+            "before_pose": "setpos_exact -1518.307983 2568.297607 2.712139;setang_exact 0.000000 -44.997589 0.000000",
+            "after_pose": "setpos_exact -1494.696167 2544.701416 1.867260;setang_exact 0.000000 -44.983856 0.000000",
+            "requested_yaw": -44.98375928396994,
+            "requested_hold_seconds": 0.05,
+            "progress_toward_target": 18.387020081746737
+          },
+          {
+            "waypoint": 2,
+            "step": 1,
+            "before_pose": "setpos_exact -1494.696167 2544.701416 1.867260;setang_exact 0.000000 -44.983856 0.000000",
+            "after_pose": "setpos_exact -1447.900391 2550.234375 2.394938;setang_exact 0.000000 6.760712 0.000000",
+            "requested_yaw": 6.760674572110269,
+            "requested_hold_seconds": 0.23761420186496235,
+            "progress_toward_target": 42.896486250726724
+          },
+          {
+            "waypoint": 3,
+            "step": 1,
+            "before_pose": "setpos_exact -1447.900391 2550.234375 2.394938;setang_exact 0.000000 6.760712 0.000000",
+            "after_pose": "setpos_exact -1394.569702 2565.921875 3.608169;setang_exact 0.000000 31.857269 0.000000",
+            "requested_yaw": 31.857095803003887,
+            "requested_hold_seconds": 0.37994236129557696,
+            "progress_toward_target": 41.306262358864686
+          },
+          {
+            "waypoint": 4,
+            "step": 1,
+            "before_pose": "setpos_exact -1394.569702 2565.921875 3.608169;setang_exact 0.000000 31.857269 0.000000",
+            "after_pose": "setpos_exact -1384.717285 2565.920654 3.700577;setang_exact 0.000000 73.710358 0.000000",
+            "requested_yaw": 73.71033523067328,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 2.2368401339449093
+          },
+          {
+            "waypoint": 4,
+            "step": 2,
+            "before_pose": "setpos_exact -1384.717285 2565.920654 3.700577;setang_exact 0.000000 73.710358 0.000000",
+            "after_pose": "setpos_exact -1381.483643 2565.937012 3.831504;setang_exact 0.000000 80.071442 0.000000",
+            "requested_yaw": 80.07150679352951,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 0.513949237548232
+          },
+          {
+            "waypoint": 4,
+            "step": 3,
+            "before_pose": "setpos_exact -1381.483643 2565.937012 3.831504;setang_exact 0.000000 80.071442 0.000000",
+            "after_pose": "setpos_exact -1379.106689 2565.937256 3.955173;setang_exact 0.000000 82.221008 0.000000",
+            "requested_yaw": 82.22111154778925,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 0.28916045644479027
+          },
+          {
+            "waypoint": 4,
+            "step": 4,
+            "before_pose": "setpos_exact -1379.106689 2565.937256 3.955173;setang_exact 0.000000 82.221008 0.000000",
+            "after_pose": "setpos_exact -1377.347290 2565.937256 4.046712;setang_exact 0.000000 83.817108 0.000000",
+            "requested_yaw": 83.81714277084157,
+            "requested_hold_seconds": 0.4,
+            "progress_toward_target": 0.17135960519088655
+          }
+        ],
+        "status": "blocked; path requires inspection",
+        "collision_mode_reply": "noclip OFF",
+        "settled_start_pose": "setpos_exact -1600.000000 2650.000000 5.602148;setang_exact 0.000000 0.000000 0.000000",
+        "restored_speed": 320.0
+      },
+      "review": "Blocked at south timber face; no crossing accepted. Later two-jump route approaches stones from west."
     }
   ],
   "acceptance": "21 reviewed surveyed paths passed both directions with collision enabled; reduced speed and tolerances recorded per path. Remaining routes and special traversals require verification.",

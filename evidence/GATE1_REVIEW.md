@@ -74,3 +74,6 @@ profiles, both-direction ordinary and special traversal, and surveyed footprint
 with elevation layers. Update uncertainty bounds and rerun this review.
 DOX owners remain root/reference/scripts/docs/evidence/QA. Acceptance criteria
 are unchanged; this review grants no exception or production advance.
+
+B Window solo climb/crossing now passes both directions in TRAVERSAL_PROBES,
+with stable landings; outside rubble-to-CT Mid approach remains pending.
