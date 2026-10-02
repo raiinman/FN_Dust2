@@ -11630,6 +11630,375 @@
           "notes": "QA_LOWTUN_G1_PX_001/QA_LOWTUN_SIDE_RECOVERY_002 or QA_UPTUN_G1_PY_001 show floor and wooden roof context. Explicit same-XY repeated endpoints; local height, not complete arch aperture or whole route minimum ceiling."
         }
       ]
+    },
+    {
+      "id": "XBOX_VISIBLE_FACE_SAMPLES_001",
+      "source_build": "25640462",
+      "area": "Xbox cover",
+      "source_map": "de_dust2",
+      "timestamp_utc": "2026-10-02T04:18:15.548393+00:00",
+      "unit": "source_units",
+      "config": {
+        "id": "XBOX_VISIBLE_FACE_SAMPLES_001",
+        "build": "25640462",
+        "area": "Xbox cover",
+        "stations": [
+          {
+            "id": "WEST_Y1400",
+            "pose": [
+              -420,
+              1400,
+              -114
+            ],
+            "yaws": [
+              0
+            ]
+          },
+          {
+            "id": "WEST_Y1420",
+            "pose": [
+              -420,
+              1420,
+              -114
+            ],
+            "yaws": [
+              0
+            ]
+          },
+          {
+            "id": "SOUTH_X300",
+            "pose": [
+              -300,
+              1320,
+              -114
+            ],
+            "yaws": [
+              90
+            ]
+          },
+          {
+            "id": "SOUTH_X320",
+            "pose": [
+              -320,
+              1320,
+              -114
+            ],
+            "yaws": [
+              90
+            ]
+          },
+          {
+            "id": "NORTH_X300",
+            "pose": [
+              -300,
+              1500,
+              -114
+            ],
+            "yaws": [
+              -90
+            ]
+          },
+          {
+            "id": "NORTH_X320",
+            "pose": [
+              -320,
+              1500,
+              -114
+            ],
+            "yaws": [
+              -90
+            ]
+          }
+        ],
+        "scope": "Repeated visible west/south/north plastic cover faces atZ-50; pallet below this height. East cover face adjoins Catwalk wall and is not assumed measurable or inferred. No full object bbox or hidden side acceptance."
+      },
+      "observations": [
+        {
+          "station_id": "WEST_Y1400",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -420.000000 1400.000000 -114.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -420,
+            1400,
+            -50
+          ],
+          "hit": [
+            -354.31,
+            1400.0,
+            -50.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  65.69 inches (  5.47 feet)"
+        },
+        {
+          "station_id": "WEST_Y1400",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -420.000000 1400.000000 -114.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -420,
+            1400,
+            -50
+          ],
+          "hit": [
+            -354.31,
+            1400.0,
+            -50.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  65.69 inches (  5.47 feet)"
+        },
+        {
+          "station_id": "WEST_Y1420",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -420.000000 1420.000000 -114.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -420,
+            1420,
+            -50
+          ],
+          "hit": [
+            -345.03,
+            1420.0,
+            -50.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  74.97 inches (  6.25 feet)"
+        },
+        {
+          "station_id": "WEST_Y1420",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -420.000000 1420.000000 -114.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -420,
+            1420,
+            -50
+          ],
+          "hit": [
+            -345.03,
+            1420.0,
+            -50.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  74.97 inches (  6.25 feet)"
+        },
+        {
+          "station_id": "SOUTH_X300",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact -300.000000 1320.000000 -114.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -300,
+            1320,
+            -50
+          ],
+          "hit": [
+            -300.0,
+            1375.89,
+            -50.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop plastic, contents 400004c1, shape type: Mesh, face: 6507"
+          ],
+          "rangefinder_reply": "DISTANCE:  55.89 inches (  4.66 feet)"
+        },
+        {
+          "station_id": "SOUTH_X300",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact -300.000000 1320.000000 -114.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -300,
+            1320,
+            -50
+          ],
+          "hit": [
+            -300.0,
+            1375.89,
+            -50.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop plastic, contents 400004c1, shape type: Mesh, face: 6507"
+          ],
+          "rangefinder_reply": "DISTANCE:  55.89 inches (  4.66 feet)"
+        },
+        {
+          "station_id": "SOUTH_X320",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact -320.000000 1320.000000 -114.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -320,
+            1320,
+            -50
+          ],
+          "hit": [
+            -320.0,
+            1375.69,
+            -50.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop plastic, contents 400004c1, shape type: Mesh, face: 6450"
+          ],
+          "rangefinder_reply": "DISTANCE:  55.69 inches (  4.64 feet)"
+        },
+        {
+          "station_id": "SOUTH_X320",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact -320.000000 1320.000000 -114.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -320,
+            1320,
+            -50
+          ],
+          "hit": [
+            -320.0,
+            1375.69,
+            -50.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop plastic, contents 400004c1, shape type: Mesh, face: 6450"
+          ],
+          "rangefinder_reply": "DISTANCE:  55.69 inches (  4.64 feet)"
+        },
+        {
+          "station_id": "NORTH_X300",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -300.000000 1500.000000 -114.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -300,
+            1500,
+            -50
+          ],
+          "hit": [
+            -300.0,
+            1476.02,
+            -50.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  23.98 inches (  2.00 feet)"
+        },
+        {
+          "station_id": "NORTH_X300",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact -300.000000 1500.000000 -114.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -300,
+            1500,
+            -50
+          ],
+          "hit": [
+            -300.0,
+            1476.02,
+            -50.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  23.98 inches (  2.00 feet)"
+        },
+        {
+          "station_id": "NORTH_X320",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -320.000000 1500.000000 -114.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -320,
+            1500,
+            -50
+          ],
+          "hit": [
+            -320.0,
+            1476.02,
+            -50.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  23.98 inches (  2.00 feet)"
+        },
+        {
+          "station_id": "NORTH_X320",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact -320.000000 1500.000000 -114.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -320,
+            1500,
+            -50
+          ],
+          "hit": [
+            -320.0,
+            1476.02,
+            -50.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  23.98 inches (  2.00 feet)"
+        }
+      ],
+      "status": "complete; architectural interpretation pending",
+      "original_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "private_raw_path": "../reference_cache/crash_recovery_survey/xbox_faces_01/XBOX_VISIBLE_FACE_SAMPLES_001.json",
+      "review": "QA_XBOX_SIDE_RECOVERY_001/QA_XBOX_PLAN_DETAIL_RECOVERY_001/QA_XBOX_SOUTH_DETAIL_RECOVERY_001 show offset crates/cloth surface and adjacent Catwalk wall. West samples hit Wood_Panel atX-354.31/-345.03; south plastic Mesh atY1375.89/1375.69; north Wood_Panel atY1476.02. Native cl_ent_bbox/text picked combined basemodelentity with unrelated origin, not a usable single-cover bound; toggles explicitly cleared. No entity/asset data extracted. East joint hidden at Catwalk wall remains unmeasured.",
+      "accepted_endpoint_spans": [
+        {
+          "id": "XBOX_BODY_DEPTH_X300_001",
+          "axis": 1,
+          "low": {
+            "station_id": "SOUTH_X300",
+            "yaw": 90
+          },
+          "high": {
+            "station_id": "NORTH_X300",
+            "yaw": -90
+          },
+          "feature": "Xbox cover south cloth to north wooden collision-face span atX-300 Z-50",
+          "confidence": "confirmed sampled cover collision extent",
+          "notes": "Opposing outside-origin rays because no cast may start inside cover. Repeated native rangefinder crosschecks retained. Local same-height depth only; west staggered faces, hidden east joint, complete footprint/base and cloth render offsets remain separate."
+        },
+        {
+          "id": "XBOX_BODY_DEPTH_X320_001",
+          "axis": 1,
+          "low": {
+            "station_id": "SOUTH_X320",
+            "yaw": 90
+          },
+          "high": {
+            "station_id": "NORTH_X320",
+            "yaw": -90
+          },
+          "feature": "Xbox cover south cloth to north wooden collision-face span atX-320 Z-50",
+          "confidence": "confirmed sampled cover collision extent",
+          "notes": "Opposing outside-origin rays because no cast may start inside cover. Repeated native rangefinder crosschecks retained. Local same-height depth only; west staggered faces, hidden east joint, complete footprint/base and cloth render offsets remain separate."
+        }
+      ]
     }
   ],
   "rejected_attempts": [

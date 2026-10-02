@@ -210,3 +210,9 @@ converts endpoint XYZ/chord lengths and draws ray-height panels with floor/colum
 points. Rebuild and render/inspect after endpoint changes. It produces no inferred
 wall edges or continuous footprint. accepted_columns require separate local
 surface review; first overhead Wood can be roof/beam, not minimum route height.
+
+build_physical_register.py also validates accepted_endpoint_spans using opposite
+outside-origin repeated rays, same other coordinates and rangefinder/eye-origin
+distance agreement within.02 native. Solid-cover interiors cannot be ray origins;
+do not rename independent stations into a fictitious single station or infer
+hidden cover bounds from a combined native entity bbox.

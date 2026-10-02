@@ -30,7 +30,7 @@ preserve all raw captures, failed attempts and existing work/ directories.
   Phase 2 exporter/editor round-trip remains unverified. Unsaved Hammer128-unit
   cube is an agent-authored calibration fixture, not production or source geometry.
 - 13 repeated floor datums,54 Short floor samples,54 Tunnel stair floor samples,
-  89 connector floor/cover/cap points,155 calibrated feature measurements.
+  89 connector floor/cover/cap points,157 calibrated feature measurements.
   No continuous floors, room outlines or cover bounds inferred from point counts.
 - Short:12 rendered/native risers, individual nonuniform section spacing;
   sampled rise234.3912cm/run359.6132cm. SHORT_STAIR_* preserve endpoint limits.
@@ -101,10 +101,18 @@ ARCHITECTURAL_SECTIONS.csv and ARCHITECTURAL_SURVEY_PLAN.svg derive43 reviewed
 horizontal chords,13 floor datums and column locations in two ray-height panels.
 Rendered/inspected: labels/grid clear, no lines certified as boundary walls.
 
-Active serial XBOX_VISIBLE_FACE_SAMPLES_001: private xbox_faces_01 folder,
-repeated west/south/north rays atZ-50. East hidden joint at Catwalk wall unmeasured.
-Inspect process/latest report before another pose/input controller. New faces
-still private/unregistered; no full cover bbox or hidden side inferred.
+Xbox visible-face batch completed12 observations; two outside-origin local
+cover depths254.3302/254.8382cm accepted. West Wood_Panel faces varyX-354.31/
+-345.03; south cloth MeshY1375.89/1375.69 and north WoodY1476.02. Full footprint,
+east wall joint and base remain separate. Native bbox/text identified combined
+basemodel entity, not useful cover bounds; overlays explicitly toggled OFF.
+Restored front source camera/read back before next controller.
+
+Active serial probe_long_pit_floor_profiles_01.py, private
+long_pit_floor_profiles_01 folder:18 Pit and14 Long centerline floor-only columns
+atX1400, yaw90. Low Pit casts start beneath gate canopy. Inspect process/partial
+reports before another pose/input controller. These new reports still private,
+not accepted as continuous surfaces or complete ramp endpoints. Preserve plan.json.
 
 Next: remaining structural apertures/room spans/cover bounds and ramp profiles;
 full Tunnel side/terminal footprint; bounded other launch/partner scope;
@@ -121,6 +129,6 @@ policy; do not bypass/change it. Native PNG-to-reviewed-JPEG uses private PIL.
 
 Verification:34-edge/four-special topology evidence audit PASS for listed
 current-build connections,206-image hash audit,16 critical/11 subarea reviews, physical
-register155 rows, overhead/local calibration checks, Tunnel repeated-point,
+register157 rows, overhead/local calibration checks, Tunnel repeated-point,
 floor/face, opposite-ray/rangefinder and withheld-plane checks pass. Derived
 Short/Long/Tunnel/radar/overhead/architectural-section SVGs rendered and inspected. Gate1 still FAIL.

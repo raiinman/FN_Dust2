@@ -2,6 +2,7 @@
 import csv
 import json
 import math
+import re
 from pathlib import Path
 
 
@@ -55,6 +56,32 @@ def build(root):
             tolerance='.0508 cm output rounding; render/collision offset not independently bounded',
             notes='Sample interval, not complete ramp endpoints or total Pit rise. Horizontal sample interval 889 cm.'))
     for report in endpoint_reports[1:]:
+        # Solid cover cannot be measured by casting outward from inside it.
+        # Reviewed opposite outside-origin rays instead define a local extent.
+        for span in report.get('accepted_endpoint_spans', []):
+            axis=span['axis'];assert axis in (0,1)
+            endpoints=[]
+            for key in ['low','high']:
+                selector=span[key]
+                samples=[o for o in report['observations']
+                    if o['station_id']==selector['station_id'] and o['yaw']==selector['yaw']]
+                assert len(samples)==2 and samples[0]['hit']==samples[1]['hit']
+                for sample in samples:
+                    distance=re.search(r'DISTANCE:\s+(-?\d+(?:\.\d+)?) inches',sample['rangefinder_reply'])
+                    assert distance and abs(float(distance.group(1))-math.dist(sample['eye_origin'],sample['hit']))<=.02
+                    assert math.dist(sample['eye_origin'],sample['hit'])>=.1
+                endpoints.append(samples[0]['hit'])
+            low,high=endpoints
+            assert all(low[i]==high[i] for i in range(3) if i!=axis)
+            assert high[axis]>low[axis]
+            assert span['low']['yaw']==(0 if axis==0 else 90)
+            assert span['high']['yaw']==(180 if axis==0 else -90)
+            measurements.append(dict(id=span['id'],area=report['area'],feature=span['feature'],
+                value=round(math.dist(low,high)*factor,4),unit='cm',
+                method='two repeated opposite outside-origin collision endpoints; native rangefinder crosscheck; SCALE_CALIBRATION',
+                source_id='ARCHITECTURAL_ENDPOINTS/'+report['id']+'/'+span['id'],
+                confidence=span['confidence'],
+                tolerance='.0508 cm output rounding; sampled extent; render offsets separate',notes=span['notes']))
         for section in report.get('accepted_sections', []):
             observations = [o for o in report['observations'] if o['station_id'] == section['station_id']]
             axis = section.get('axis',0)

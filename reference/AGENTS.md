@@ -158,3 +158,8 @@ ARCHITECTURAL_SECTIONS.csv and ARCHITECTURAL_SURVEY_PLAN.svg derive explicit
 reviewed local horizontal chords, floor datums and column locations. Ray-height
 panels are evidence grouping, not certified floor stories. Lines cross open space;
 never reinterpret them as walls/polygon edges or full footprint acceptance.
+
+Reviewed accepted_endpoint_spans in ARCHITECTURAL_ENDPOINTS pair opposite
+outside-origin rays for solid cover. Each selector keeps original station/yaw,
+repeated native endpoint and rangefinder crosscheck. A sampled face-to-face body
+extent never becomes a full bbox, hidden joint/base or uniform rectangular prop.
