@@ -7,15 +7,15 @@ Source: installed CS2 build25640462, de_dust2. GitHub main is durable authority.
 | --- | --- | --- |
 | Provenance and current revision | REFERENCE_MANIFEST.csv; native poses/hashes and build25640462 | PASS for reviewed captured batches |
 | Physical scale and coordinate convention | SCALE_CALIBRATION.json; COORDINATE_TRANSFORM.json | PASS for current-build factor2.54 and reversible UE=(2.54x,-2.54y,2.54z); Phase2 exporter/import validation pending |
-| Every critical area forward/reverse/side/elevation coverage | 195 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | PASS: sixteen critical-area sets and eleven subarea sets accepted; structural metric and traversal remain separate |
-| Unambiguous validated topology | ROUTE_GRAPH.md; TOPOLOGY.json; WALK_PROBES.json | FAIL: twenty-two surveyed paths pass both directions; S01 passes both directions and S02 forward; S04 and E11/E27 reverse classifications incomplete |
-| Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 63 calibrated feature measurements and54 repeated stair floor samples; full critical register incomplete |
+| Every critical area forward/reverse/side/elevation coverage | 198 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | PASS: sixteen critical-area sets and eleven subarea sets accepted; structural metric and traversal remain separate |
+| Unambiguous validated topology | ROUTE_GRAPH.md; TOPOLOGY.json; WALK_PROBES.json | FAIL: twenty-two surveyed paths pass both directions; S01 passes both directions and S02 forward; S03/S04 verified; E11/E27 return classifications incomplete |
+| Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 65 calibrated feature measurements and54 repeated stair floor samples; full critical register incomplete |
 | Calibrated annotated whole-map truth | RADAR_CALIBRATION.json; MAP_CAMERA_CALIBRATION.json; RADAR_PLAN.svg; MAP_CAMERA_PLAN.svg | FAIL: calibrated native camera, physical grid, floors and paths; continuous architectural boundaries and overlapping elevation layers incomplete |
 | Bounded remaining uncertainty | UNCERTAINTY.md; SURVEY_TASKS.csv | FAIL: unresolved critical extents, full apertures/cover dimensions, stairs and render/collision bounds |
 
 ## Reference review
 
-IMAGE_REVIEW.json and IMAGE_AUDIT.json verify all195 registered JPEG hashes and
+IMAGE_REVIEW.json and IMAGE_AUDIT.json verify all198 registered JPEG hashes and
 preserve eight excluded historical frames. Original24 and recovered55 images
 were re-inspected, with subsequent CT/Pit/door/site/Short/Catwalk additions
 inspected individually. Clipped, stale or obstructed attempts retain their
@@ -39,7 +39,7 @@ or exporter behavior. TRACE_ORIGIN_DIAGNOSTIC.json supports the rotating64-unit
 ray offset. Repeated endpoints bound output repeatability, not render accuracy.
 
 MEASUREMENTS.csv contains local Pit, Long/B/Mid portal, Short and Catwalk
-samples, plus three local Pit/terrace/lip rises and72 repeated connector points. Short center flight has12 measured face positions and13 floor levels:
+samples, plus three local Pit/terrace/lip rises and83 repeated connector points. Short center flight has12 measured face positions and13 floor levels:
 12 risers,359.6132cm horizontal run and234.3912cm sampled rise. Individual
 rise/run values preserve group offsets. SHORT_STAIR_FLIGHT.csv and the rendered,
 inspected SHORT_STAIR_ANNOTATED.svg corroborate the twelve visible risers; width
@@ -90,4 +90,13 @@ certified by this camera. Architectural truth-map requirement remains FAIL.
 S03 solo CT crate climb accepted twice, with collision ON and stable Short
 landing. Twenty-nine repeated CT bay/cover/cap/platform points and five explicit
 sampled rises are accepted; full cover bounds remain unmeasured. Total72 connector
-points and63 calibrated feature measurements. S04 boost remains unverified.
+points and65 calibrated feature measurements. S04 boost passes twice and reverse jump/drop once.
+
+S04 cooperative elevator boost accepted twice, reverse parapet jump/drop once.
+Setup frame shows full locally spawned crouched partner at the native wall;
+player contact, cap crossing and stable landings recorded. Bot removed and
+original bot/team cvars restored/read back; private status confirms no active
+bots. Eleven repeated floor/cap/platform points and two explicit sampled rises
+accepted. Total198 reviewed JPEGs,83 connector points,65 feature measurements.
+The four named special connections now have observed current-build evidence;
+remaining topology return distinctions and architectural metrics still block Gate1.

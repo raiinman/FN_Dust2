@@ -11,7 +11,7 @@ old dirty checkout preserved in4c7df48, baseline merged inab4e484. See
 [evidence/CRASH_RECOVERY_20261001.md](../evidence/CRASH_RECOVERY_20261001.md).
 The latest repository commit pins this checkpoint; fetch/check main before resume.
 
-- 195 reviewed study JPEGs, eight historical coverage exclusions preserved.
+- 198 reviewed study JPEGs, eight historical coverage exclusions preserved.
  Original24 and recovered55 re-inspected; all additions inspected individually.
  IMAGE_REVIEW/IMAGE_AUDIT/CAPTURE_CRASH_RECOVERY own hashes and rejection reasons.
 - 16 critical-area required-view sets accepted in AREA_VIEW_REVIEW, including
@@ -20,14 +20,14 @@ The latest repository commit pins this checkpoint; fetch/check main before resum
 - 2.54cm/native unit accepted from two repeated spatial/axis rangefinder anchors.
  UE=(2.54x,-2.54y,2.54z), inverse/length checks and native right-axis evidence pass.
  Exporter/editor round-trip is a Phase 2 check; no import accepted yet.
-- 13 repeated floor datums,54 repeated Short floor samples and63 calibrated
+- 13 repeated floor datums,54 repeated Short floor samples and65 calibrated
  feature measurements. Short has12 independently counted rendered risers and
  repeated center face rays; center run359.6132cm, sampled rise234.3912cm.
  SHORT_STAIR_FLIGHT/ANNOTATED retain individual spacing and limits.
 - 22 surveyed paths accepted both directions in WALK_PROBES, including Mid,
  CT Spawn/Under A, Tunnel Stairs, Lower Tunnels-to-Mid and T Spawn-to-Outside Long.
  Reduced speed80 and arrival tolerance recorded. Failed plans are preserved.
- S01 Xbox passes both directions; S02 Short-to-CT passes forward. S03 CT climb passes twice; S04 elevator boost remains unverified.
+ S01 Xbox passes both directions; S02 Short-to-CT passes forward. S03 CT climb passes twice; S04 partner boost passes twice, reverse jump/drop once.
 - RADAR_PLAN has four native calibration anchors, a physical grid,13 floor
  labels and accepted player paths. It is context, not surveyed wall boundaries.
  One native HUD crop confirms Top of Mid at source(-450,300,5), not Suicide bounds.
@@ -59,7 +59,7 @@ Twenty-two ground paths pass both directions. Direct Side Pit-to-Pit jump/drop
 passed twice from continuous grounded approach (private003/004), stable landing;
 reverse001 jump did not clear wall. Invalid initial start001 and short002 attempt
 preserved. TRAVERSAL_PROBES.json accepts observed forward E27 jump/drop; reverse physical
-classification still pending. S01 passes both directions and S02 forward; S04 remains unverified.
+classification still pending. S01 passes both directions and S02 forward; S04 forward partner boost passes twice and reverse jump/drop once.
 
 Connector additions: eleven reviewed Window/Pit/Suicide images registered;
 two close-wall/misdirected attempts rejected. Eleven subarea view sets accepted.
@@ -88,7 +88,7 @@ Two inspected detail images registered. Low Wood_Plank pallet point at(-320,
 S01 now passes forward twice via south pallet, crate and grounded parapet
 approach; reverse jump/drop lands Mid. S02 Short-to-CT parapet jump/drop passes
 through crate bay then south/west to stable CT hall. TRAVERSAL_PROBES preserves
-all partial/rejected approaches; S04 remains unverified.
+all partial/rejected approaches; S04 forward partner boost passes twice and reverse jump/drop once.
 No pose/input controller is active. CT grid02/03/04 completed (29 repeated points),
 visually corroborated by two reviewed detail images. CONNECTOR_SURFACE_PROFILES
 now72 points; five sampled CT box/platform/cap rises bring MEASUREMENTS to63.
@@ -99,8 +99,9 @@ S03 CT bay-to-Short solo climb passes twice: grounded start(700,2240,-66.16),
 north hops on low/second boxes, west hop to high box stableZ67.031, north jump
 across parapet cap127.031, stable Short floors(604.033,2470.995,96.742) and
 (591.946,2470.995,96.731). Partial001 stops high box; accepted002/003 preserved.
-S02 independently proves Short-to-CT jump/drop reverse connection. S04 boost and
-E11/E27 reverse classifications still require proof.
+S02 independently proves Short-to-CT jump/drop reverse connection. S04 forward
+partner boost now passes twice; reverse parapet jump/drop once. E11/E27 return
+classifications still require explicit graph review.
 
 MAP_CAMERA_CALIBRATION fits eight native markers and validates sixteen independent
 markers, including near-floor elevations. Max residuals: fit0.4247px, third-height
@@ -113,13 +114,13 @@ separate architectural edge-selection uncertainty.
 
 Capture004 returned the preceding marker frame; preserve it as rejected for new
 marker calibration. Helper now settles drawline primitives before requesting
-screenshot. Current camera is(670,2160,-55),pitch0,yaw90; overlays HIDDEN for clean
+screenshot. Current camera is(1105.342,2228.039,9.712),pitch0,yaw-90; overlays HIDDEN for clean
 CT detail captures. Restore original visible state at closeout.
 Single worker34036/socket57046->29000 and empty queue verified with fresh echo.
 Do not start another worker. Temporary engine_no_focus_sleep0 (original20),
 m_yaw/m_pitch0 (original.022) still need restoration/readback at closeout.
 
-1. Resolve Pit/Suicide reverse classification and test S04 partner boost.
+1. Resolve Pit/Suicide return classification, then finish structural metrics.
 2. Complete structural endpoints, room/cover
  spans, tunnel stairs and ramp profiles. D044 Short count/center rise/run now
  accepted; width interpolation and render/collision bounds remain separate.
@@ -134,3 +135,14 @@ m_yaw/m_pitch originally0.022, temporarily0 to prevent drift; restore/read back
 Preserve the unsaved agent-authored128-unit cube in Hammer; no source or
 production geometry. Private matplotlib dependencies are in
 ../reference_cache/plot_dependencies; do not install system packages.
+
+S04 checkpoint: crouched local practice partner supports stable climber Z69.055;
+second jump crosses A cap127.125 and stable platform97.205.001 attempted uncrouch
+did not raise player;002 omits it. Reverse drop stable lower ground9.712.
+Three inspected elevator/setup JPEGs uploaded; eleven repeated corner ground/
+cap/platform samples bring connector count83; two local rises bring measures65.
+Full cover/wall geometry remains incomplete. No controller active. Added bot
+Telsen removed; bot_stop0/crouchFalse/dont_shootFalse, mp_limitteams2 and
+autoteambalanceTrue restored/read back. bot_quota1, modefill; private status
+confirmed zero active BOT rows. Local match restarted once to spawn partner;
+installed map/build and independent metric evidence unchanged.

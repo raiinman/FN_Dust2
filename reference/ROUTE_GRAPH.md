@@ -53,7 +53,7 @@ Nodes describe area relationships; they are not polygon outlines or route length
 | S01 | Mid | Catwalk | solo pallet/crate/parapet climb; reverse jump/drop | forward twice; reverse once in TRAVERSAL_PROBES | D035 |
 | S02 | A Short | CT Spawn | parapet jump/drop through CT bay | forward observed; reverse connection S03 independently verified | D036 |
 | S03 | CT Spawn | A Short | solo stepped crate/parapet climb | forward observed twice; reverse connection S02 | D037 |
-| S04 | Under A | A Site | elevator boost | requires independent traversal proof | D038 |
+| S04 | Under A | A Site | partner boost forward; parapet jump/drop reverse | forward observed twice; reverse once | D038 |
 
 ## Required topology checks
 
@@ -127,3 +127,7 @@ jump is not proof of absent connectivity. Suicide callout bounds remain provisio
 S03 current-build solo climb accepted twice: CT bay low/second/high boxes,
 parapet crossing and stable Short landing. TRAVERSAL_PROBES/CT_CRATE_SHORT_FORWARD.
 S02 independently proves Short-to-CT jump/drop; S04 partner boost remains unverified.
+
+S04 elevator boost accepted twice with one stationary crouched practice partner;
+reverse parapet jump/drop accepted once. TRAVERSAL_PROBES owns stable head, cap
+and platform/ground landings. Added partner removed and original cvars verified.

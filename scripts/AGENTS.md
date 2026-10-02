@@ -130,6 +130,11 @@ Blender Python, Unreal automation, validation scripts, manifest processors, and 
   it releases short input before telemetry so the pose query does not prolong it.
   Command timestamps and observed trajectory remain authoritative, not requested
   hold duration alone.
+  Optional partner_setup_evidence is limited to an observed stationary local
+  practice bot. It additionally permits only bot_crouch 0/1, verifies stopped,
+  non-shooting and initially crouched cvars, and restores crouch for repeated
+  tests. No partner teleport is permitted during an attempt. Caller owns
+  initial bot placement, visual verification, removal and original cvar cleanup.
 - Keep configuration/data separate from hard-coded editor coordinates when practical.
 - A script that changes production geometry must leave inspectable inputs and outputs.
 - Do not embed credentials or licensed/proprietary source content.

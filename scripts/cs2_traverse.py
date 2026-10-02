@@ -17,9 +17,13 @@ NUMBER=r'-?\d+(?:\.\d+)?'
 def run(a):
     if a.output.exists():raise FileExistsError(a.output)
     config=json.loads(a.config.read_text());start=config['start'];bounds=config['expected_start']
+    partner=config.get('partner_setup_evidence')
+    allowed=ALLOWED|({'bot_crouch 0','bot_crouch 1'} if partner else set())
+    if partner:
+        assert partner.get('type')=='stationary local practice bot' and partner.get('capture_id')
     assert len(start)==5 and 0<bounds['xy_radius']<=25 and bounds['z_min']<=bounds['z_max']
     for action in config['actions']:
-        assert all(c.strip() in ALLOWED for c in action['command'].split(';'))
+        assert all(c.strip() in allowed for c in action['command'].split(';'))
         if action.get('stop_before_pose'):
             assert all(c.strip() in ALLOWED and c.strip().startswith('-') for c in action['stop_before_pose'].split(';'))
         assert .05<=action['seconds']<=2
@@ -42,6 +46,11 @@ def run(a):
     try:
         send('-forward; -back; -left; -right; -jump; -duck; noclip 1',.3)
         send('sv_gravity; sv_jump_impulse; sv_maxspeed',.3)
+        if partner:
+            lines=send('bot_stop; bot_dont_shoot; bot_crouch',.3)
+            for expected in ['bot_stop = 1','bot_dont_shoot = true','bot_crouch = true']:
+                assert any(s.strip()==expected for s in lines),'Partner setup not verified: '+expected
+            r['partner_preflight']='stationary/non-shooting/crouched cvars verified; capture requires visual review'
         send(f'setpos_exact {start[0]} {start[1]} {start[2]}; setang_exact {start[3]} {start[4]} 0',.3)
         lines=send('noclip 0',.7)
         if not any('noclip OFF' in s for s in lines):raise RuntimeError('Collision not verified')
@@ -66,6 +75,9 @@ def run(a):
             lines=send('-forward; -back; -left; -right; -jump; -duck; noclip 1',.3)
             if not any('noclip ON' in s for s in lines):raise RuntimeError('Noclip cleanup not verified')
             r['cleanup']='movement released; noclip ON verified';save()
+            if partner:
+                send('bot_crouch 1',.3)
+                r['partner_cleanup']='crouch restored for local repeated test; bot removal/global originals remain caller responsibility';save()
         except Exception as e:r['cleanup_error']=str(e);save()
     print(json.dumps(dict(id=r['id'],status=r['status'])))
 if __name__=='__main__':

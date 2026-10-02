@@ -1,7 +1,7 @@
 {
   "review_date": "2026-10-01",
   "source_build": "25640462",
-  "registered_images": 195,
+  "registered_images": 198,
   "coverage_excluded": 8,
   "complete_areas": 16,
   "complete_subareas": 11,
@@ -2231,6 +2231,30 @@
       "sha256": "a833c071c04db47f6bd4cfaf1b7b1bade7b8bd03f44c580d9d2fdfd2ea01fea8",
       "coverage_status": "PARTIAL",
       "review": "Native CT bay north-facing crate approach. Low sloped boxes, intermediate and high stacked crates, Short retaining wall and cap visible. Low cover fills foreground; full base footprint still needs independent endpoint survey."
+    },
+    {
+      "id": "QA_ELEVATOR_DISCOVERY_RECOVERY_001",
+      "area": "A elevator corner",
+      "image": "reference/images/elevator/QA_ELEVATOR_DISCOVERY_RECOVERY_001.jpg",
+      "sha256": "9dc3d0cce930dc4bb25442cc979708846c773e82d4040c9b3ece2630f145055b",
+      "coverage_status": "PARTIAL",
+      "review": "Native elevator wall from lower cross/Under A slope; wall corner and adjacent Short/CT crate context visible. Nearby CT crate clipped at left outside the elevator target; not full platform geometry."
+    },
+    {
+      "id": "QA_ELEVATOR_PLAN_RECOVERY_001",
+      "area": "A elevator corner",
+      "image": "reference/images/elevator/QA_ELEVATOR_PLAN_RECOVERY_001.jpg",
+      "sha256": "4c44202b1c681f319c7759423807728dac41f34b8a0dd7b3a9a25c28c2a9ff16",
+      "coverage_status": "PARTIAL",
+      "review": "Native overhead detail of A-site front retaining wall, platform, planting covers and CT/Short adjacency. Target elevator wall/corner visible; adjoining site/Short extents leave frame."
+    },
+    {
+      "id": "QA_ELEVATOR_PARTNER_SETUP_RECOVERY_001",
+      "area": "A elevator corner",
+      "image": "reference/images/elevator/QA_ELEVATOR_PARTNER_SETUP_RECOVERY_001.jpg",
+      "sha256": "554c2c84f76dc4e619d4d156b80384f45bd479206dfacb9084f34de8c9fb924a",
+      "coverage_status": "PARTIAL",
+      "review": "Full locally spawned crouched partner and A-site retaining wall visible. Hash-pinned setup validation for cooperative boost; bot is test apparatus, not persistent map geometry."
     }
   ]
 }

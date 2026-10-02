@@ -5482,6 +5482,809 @@
       "restored_pose": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
       "id": "CTCRATE_X580_Y2380_004",
       "surface_semantics": "CT crate arrangement Wood_Panel Hull top sample, confirmed by inspected overhead detail and continuous climbing telemetry. No entire cover bounds inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T01:26:13.070398+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A elevator corner",
+      "unit": "source_units",
+      "target_xy": [
+        1000.0,
+        2200.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 1000.000000 2150.000000 10.000000;setang_exact 0.000000 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 936.009766 2200.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1004.36,
+            2200.0,
+            1.08
+          ],
+          "xy_error": 4.360000000000014,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 161959"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 931.649719 2200.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1000.01,
+            2200.0,
+            0.6
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 161959"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 931.649719 2200.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1000.01,
+            2200.0,
+            0.6
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 161959"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1000.01,
+          2200.0,
+          0.6
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 1000.000000 2150.000000 10.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "ELEVATOR_X1000_Y2200_001",
+      "surface_semantics": "Lower elevator/cross sloping ground collision sample south of A platform wall; no planar interpolation or full wall base inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T01:26:21.786897+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A elevator corner",
+      "unit": "source_units",
+      "target_xy": [
+        1000.0,
+        2250.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 1000.000000 2150.000000 10.000000;setang_exact 0.000000 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 936.009766 2250.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1004.23,
+            2250.0,
+            8.55
+          ],
+          "xy_error": 4.230000000000018,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 161971"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 931.779724 2250.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1000.02,
+            2250.0,
+            7.93
+          ],
+          "xy_error": 0.01999999999998181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 161971"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 931.779724 2250.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1000.02,
+            2250.0,
+            7.93
+          ],
+          "xy_error": 0.01999999999998181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 161971"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1000.02,
+          2250.0,
+          7.93
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 1000.000000 2150.000000 10.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "ELEVATOR_X1000_Y2250_001",
+      "surface_semantics": "Lower elevator/cross sloping ground collision sample south of A platform wall; no planar interpolation or full wall base inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T01:26:30.085528+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A elevator corner",
+      "unit": "source_units",
+      "target_xy": [
+        1000.0,
+        2300.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 1000.000000 2150.000000 10.000000;setang_exact 0.000000 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 936.009766 2300.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1004.1,
+            2300.0,
+            16.19
+          ],
+          "xy_error": 4.100000000000023,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162080"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 931.909729 2300.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1000.02,
+            2300.0,
+            15.15
+          ],
+          "xy_error": 0.01999999999998181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162080"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 931.909729 2300.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1000.02,
+            2300.0,
+            15.15
+          ],
+          "xy_error": 0.01999999999998181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162080"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1000.02,
+          2300.0,
+          15.15
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 1000.000000 2150.000000 10.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "ELEVATOR_X1000_Y2300_001",
+      "surface_semantics": "Lower elevator/cross sloping ground collision sample south of A platform wall; no planar interpolation or full wall base inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T01:26:38.786881+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A elevator corner",
+      "unit": "source_units",
+      "target_xy": [
+        1050.0,
+        2200.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 1000.000000 2150.000000 10.000000;setang_exact 0.000000 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 986.009766 2200.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1054.29,
+            2200.0,
+            5.11
+          ],
+          "xy_error": 4.289999999999964,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162265"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 981.719727 2200.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1050.01,
+            2200.0,
+            4.98
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162185"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 981.719727 2200.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1050.01,
+            2200.0,
+            4.98
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162185"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1050.01,
+          2200.0,
+          4.98
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 1000.000000 2150.000000 10.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "ELEVATOR_X1050_Y2200_001",
+      "surface_semantics": "Lower elevator/cross sloping ground collision sample south of A platform wall; no planar interpolation or full wall base inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T01:26:47.288072+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A elevator corner",
+      "unit": "source_units",
+      "target_xy": [
+        1050.0,
+        2250.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 1000.000000 2150.000000 10.000000;setang_exact 0.000000 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 986.009766 2250.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1054.16,
+            2250.0,
+            12.6
+          ],
+          "xy_error": 4.160000000000082,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162188"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 981.849731 2250.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1050.01,
+            2250.0,
+            12.43
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162188"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 981.849731 2250.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1050.01,
+            2250.0,
+            12.43
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162188"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1050.01,
+          2250.0,
+          12.43
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 1000.000000 2150.000000 10.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "ELEVATOR_X1050_Y2250_001",
+      "surface_semantics": "Lower elevator/cross sloping ground collision sample south of A platform wall; no planar interpolation or full wall base inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T01:26:56.081866+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A elevator corner",
+      "unit": "source_units",
+      "target_xy": [
+        1050.0,
+        2300.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 1000.000000 2150.000000 10.000000;setang_exact 0.000000 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 986.009766 2300.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1054.04,
+            2300.0,
+            19.65
+          ],
+          "xy_error": 4.039999999999964,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162190"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 981.969727 2300.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1050.0,
+            2300.0,
+            19.84
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162190"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 981.969727 2300.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1050.0,
+            2300.0,
+            19.84
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162190"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1050.0,
+          2300.0,
+          19.84
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 1000.000000 2150.000000 10.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "ELEVATOR_X1050_Y2300_001",
+      "surface_semantics": "Lower elevator/cross sloping ground collision sample south of A platform wall; no planar interpolation or full wall base inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T01:27:04.484001+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A elevator corner",
+      "unit": "source_units",
+      "target_xy": [
+        1100.0,
+        2200.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 1000.000000 2150.000000 10.000000;setang_exact 0.000000 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1036.009766 2200.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1104.3,
+            2200.0,
+            4.56
+          ],
+          "xy_error": 4.2999999999999545,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162263"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1031.709717 2200.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1100.0,
+            2200.0,
+            4.59
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162263"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1031.709717 2200.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1100.0,
+            2200.0,
+            4.59
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162263"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1100.0,
+          2200.0,
+          4.59
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 1000.000000 2150.000000 10.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "ELEVATOR_X1100_Y2200_001",
+      "surface_semantics": "Lower elevator/cross sloping ground collision sample south of A platform wall; no planar interpolation or full wall base inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T01:27:13.080958+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A elevator corner",
+      "unit": "source_units",
+      "target_xy": [
+        1100.0,
+        2250.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 1000.000000 2150.000000 10.000000;setang_exact 0.000000 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1036.009766 2250.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1104.21,
+            2250.0,
+            10.0
+          ],
+          "xy_error": 4.210000000000036,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162275"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1031.799805 2250.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1099.99,
+            2250.0,
+            10.31
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162277"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1031.799805 2250.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1099.99,
+            2250.0,
+            10.31
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162277"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1099.99,
+          2250.0,
+          10.31
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 1000.000000 2150.000000 10.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "ELEVATOR_X1100_Y2250_001",
+      "surface_semantics": "Lower elevator/cross sloping ground collision sample south of A platform wall; no planar interpolation or full wall base inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T01:27:21.773070+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A elevator corner",
+      "unit": "source_units",
+      "target_xy": [
+        1100.0,
+        2300.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 1000.000000 2150.000000 10.000000;setang_exact 0.000000 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1036.009766 2300.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1104.16,
+            2300.0,
+            12.94
+          ],
+          "xy_error": 4.160000000000082,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162283"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1031.849731 2300.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1099.98,
+            2300.0,
+            13.69
+          ],
+          "xy_error": 0.01999999999998181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162283"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1031.849731 2300.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1099.98,
+            2300.0,
+            13.69
+          ],
+          "xy_error": 0.01999999999998181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162283"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1099.98,
+          2300.0,
+          13.69
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 1000.000000 2150.000000 10.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "ELEVATOR_X1100_Y2300_001",
+      "surface_semantics": "Lower elevator/cross sloping ground collision sample south of A platform wall; no planar interpolation or full wall base inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T01:29:13.739812+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A elevator corner",
+      "unit": "source_units",
+      "target_xy": [
+        1100.0,
+        2320.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 1100.000000 2360.000000 450.000000;setang_exact 88.999908 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1036.009766 2320.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1102.19,
+            2320.0,
+            125.93
+          ],
+          "xy_error": 2.1900000000000546,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1033.819702 2320.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1099.99,
+            2320.0,
+            125.96
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1033.819702 2320.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1099.99,
+            2320.0,
+            125.96
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1099.99,
+          2320.0,
+          125.96
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 1100.000000 2360.000000 450.000000;setang_exact 88.999908 90.000000 0.000000",
+      "id": "ELEVATOR_X1100_Y2320_001",
+      "surface_semantics": "A-site front parapet cap collision sample, visually corroborated by overhead/front views; not whole cap profile."
+    },
+    {
+      "timestamp_utc": "2026-10-02T01:44:37.360842+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A elevator corner",
+      "unit": "source_units",
+      "target_xy": [
+        1100.0,
+        2380.0
+      ],
+      "probe_player_z": 200.0,
+      "initial_pose": "setpos_exact 1105.342407 2228.039062 9.711787;setang_exact 0.000000 -90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1036.009766 2380.000000 200.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1101.84,
+            2380.0,
+            95.99
+          ],
+          "xy_error": 1.8399999999999181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 162714"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1034.169800 2380.000000 200.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1099.99,
+            2380.0,
+            96.0
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162716"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1034.169800 2380.000000 200.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1099.99,
+            2380.0,
+            96.0
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162716"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1099.99,
+          2380.0,
+          96.0
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 1105.342407 2228.039062 9.711787;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "ELEVATOR_X1100_Y2380_001",
+      "surface_semantics": "A-site upper platform collision floor sample behind the elevator wall."
     }
   ],
   "accepted_pairs": [
@@ -5601,6 +6404,24 @@
       "dimension": "rise",
       "feature": "Short platform floor to parapet cap",
       "notes": "Explicit distinct-XY samples; not exact crate base, minimum jump clearance or interpolated surface. Player hull landing is separate."
+    },
+    {
+      "id": "ELEVATOR_GROUND_TO_CAP_SAMPLE_RISE",
+      "area": "A elevator corner",
+      "from_report": "ELEVATOR_X1100_Y2300_001",
+      "to_report": "ELEVATOR_X1100_Y2320_001",
+      "dimension": "rise",
+      "feature": "Lower elevator ground sample to front parapet cap",
+      "notes": "Distinct-XY repeated point pair, not full wall height or minimum boost clearance. Partner/player collision telemetry remains separate."
+    },
+    {
+      "id": "ELEVATOR_PLATFORM_TO_CAP_SAMPLE_RISE",
+      "area": "A elevator corner",
+      "from_report": "ELEVATOR_X1100_Y2380_001",
+      "to_report": "ELEVATOR_X1100_Y2320_001",
+      "dimension": "rise",
+      "feature": "A platform floor sample to front parapet cap",
+      "notes": "Distinct-XY repeated point pair, not full wall height or minimum boost clearance. Partner/player collision telemetry remains separate."
     }
   ]
 }
