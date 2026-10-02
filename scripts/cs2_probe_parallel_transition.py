@@ -4,6 +4,9 @@ Config contains fixed height, normal axis, opposite safe normal origins and
 on-masonry/off-timber tangent intervals. Preserve every repeat and component;
 a material interface can be occlusion, never automatic structural opening,
 minimum passage or a shared wall-body extent. One persistent worker/controller.
+Optional normal_band_is_classifier explicitly distinguishes same-material
+first faces by their measured normal coordinates; such an interface can still
+be a leaf occlusion, not an exact fixed-post edge without independent review.
 """
 import argparse,json,math,re
 from datetime import datetime,timezone
@@ -39,8 +42,13 @@ def probe(a):
             assert abs(float(distance.group(1))-math.dist(eye,hit))<=.02 and abs(hit[1-axis]-coordinate)<=.02 and abs(hit[2]-height)<=.02
         assert pair[0]['hit']==pair[1]['hit'] and pair[0]['surface']==pair[1]['surface']
         description=str(pair[-1]['surface']);on='surfaceprop '+config['on_material']+',' in description and 'shape type: '+config['on_shape']+',' in description
+        if config.get('normal_band_is_classifier'):
+            on=on and origin['on_normal_band'][0]<=pair[-1]['hit'][axis]<=origin['on_normal_band'][1]
         if on:assert origin['on_normal_band'][0]<=pair[-1]['hit'][axis]<=origin['on_normal_band'][1], 'Unexpected masonry depth; inspect component'
-        else:assert 'surfaceprop '+config['off_material']+',' in description, 'Unexpected off-component; no interface classification'
+        else:
+            assert 'surfaceprop '+config['off_material']+',' in description, 'Unexpected off-component; no interface classification'
+            if config.get('off_shape'):
+                assert 'shape type: '+config['off_shape']+',' in description, 'Unexpected off-component shape'
         return dict(coordinate=coordinate,on_component=on,observation_index=len(report['observations'])-1)
     original=pose();report['original_pose']=original;save()
     try:

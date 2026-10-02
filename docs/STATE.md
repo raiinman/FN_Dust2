@@ -8,7 +8,7 @@ with its configured model; no model override or agent delegation requested.
 ## Authority and preserved work
 
 GitHub main authoritative; fetch/check before resuming. Crash baseline35eaa642,
-dirty work preserved4c7df48, mergedab4e484. Latest pushed checkpoint2cb6293
+dirty work preserved4c7df48, mergedab4e484. Latest pushed checkpoint2f0a651
 before this update. Active C:/Users/mikea/Documents/Codex/2026-09-30/new-chat/
 FN_Dust2, branch codex/crash-recovery-20261001 pushes meaningful checkpoints
 to main. OneDrive workspace separate; synced sources/ read-only. Raw/private
@@ -194,7 +194,21 @@ B_jamb_boundaries_01 eight opposite-normal preflight stations completed/restored
 southY2050 has first concrete facesX-1376/-1232; northY2400X-1343.5/-1296.
 Y2150/2300 first Wood_Dense from both sides. Different southern return/northern
 facade depths stay explicit; no mixed-component body dimension accepted.
-No active source pose/input controller. b_jamb_boundaries_02 completed/restored
+ONE ACTIVE source controller: cs2_probe_endpoints.py with private
+b_leaf_plane_height_holds_08/config.json; output
+B_LEAF_PLANE_INDEPENDENT_HEIGHT_HOLDS_008. Independent predictions fixed before
+capture in predictions_fixed_before_capture.json. Inspect partial/status/restore
+before further source input; never restart existing output.
+b_inner_post_transitions_07 completed92 observations/restored exactly; opposing
+origins give identical south[2112.265625,2112.28125] and north
+[2297.724609375,2297.73828125]native intervals atZ80. Explicit normal-coordinate
+classifier distinguishes first Wood post vs leaf faces, not material identity.
+Independent height/component checks needed before inner post span acceptance.
+b_inner_frame_leaf_06 completed48 observations/restored exactly. Y2104/2112/2304
+hit opposed flat timber post caps; interiorY2120..2160 and2240..2290 hit slanted
+leaf faces. Y2200 rays reach remote surfaces through opening, not local aperture.
+No full frame/post/leaf dimensions accepted from first-hit diagnostics alone.
+b_jamb_boundaries_02 completed/restored
 120 observations: identical opposed material intervals atZ80; south
 [2101.4770508,2101.4892578], north[2308.5083008,2308.5205078]native.
 b_jamb_heights_03 preserved foreground Wood_Panel occlusion at low outside

@@ -279,3 +279,9 @@ B_FRAME_SECTION_MEASUREMENTS JSON/CSV and B_FRAME_SECTIONS.svg derive bounded
 lateral material-region/normal first-face spans. The calibrated annotation marks
 native projections; unresolved rendered seam offsets, leaf gaps, hidden body,
 inner post edges and continuous height interpolation remain separate.
+
+Parallel transition config may explicitly enable normal_band_is_classifier to
+distinguish same-material first faces by measured normal-coordinate bands.
+Optional off_shape requires the expected native off-component shape. Such
+interfaces remain subject to opposing-origin/height/component review; a leaf
+occlusion is not an exact fixed-post inner edge. Preserve all diagnostic rays.

@@ -334,3 +334,9 @@ height checks, native rangefinder/pose/restoration, clean JPEG hash and held-out
 camera residuals. Rebuild its JSON/CSV/SVG, render and inspect; physical-register
 rows are local collision-material sections, never complete opening/minimum
 leaf clearance or exact renderer correspondence.
+
+Parallel transition config may explicitly enable normal_band_is_classifier to
+distinguish same-material first faces by measured normal-coordinate bands.
+Optional off_shape requires the expected native off-component shape. Such
+interfaces remain subject to opposing-origin/height/component review; a leaf
+occlusion is not an exact fixed-post inner edge. Preserve all diagnostic rays.
