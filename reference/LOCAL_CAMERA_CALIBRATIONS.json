@@ -6358,6 +6358,533 @@
           "maximum_axis_1_5_pixel_displacement_cm": 2.381714816570325
         }
       ]
+    },
+    {
+      "id": "ASITE_OVERHEAD_031",
+      "camera_pose": [
+        1000.0,
+        2600.0,
+        1250.0,
+        88.999908,
+        90.0
+      ],
+      "observed_pose": [
+        1000.0,
+        2600.0,
+        1250.0,
+        88.999908,
+        90.0,
+        0.0
+      ],
+      "image_size": [
+        1280,
+        720
+      ],
+      "model": "constrained native pose",
+      "normal_axis": 2,
+      "bound_planes_native": [
+        -120,
+        100,
+        160,
+        320
+      ],
+      "status": "accepted independently checked wider A Site overhead projection; structural selection separate",
+      "method": "Eight knownXY fit markers atZ160; ten independent depth/elevation markers excluded from fit. All four native/JPEG frames and18 isolated marker crops individually inspected. Original030 four clipped frames rejected/preserved, no calibration transfer. Approximate native model locates search windows only.",
+      "tested_marker_x_range": [
+        350,
+        1500
+      ],
+      "tested_marker_y_range": [
+        2050,
+        3250
+      ],
+      "tested_marker_z_range": [
+        -120,
+        320
+      ],
+      "excluded_markers": [],
+      "limits": "Exact actualpitch88.999908 pose/FOV only. Fixed-Z inverse requires independently established surface elevation. Platforms, caps, stacked cover, floors, roofs and vegetation remain separate; authors markers belowroof are not floor measurements. No entire floor/body or whole-map boundary acceptance.",
+      "captures": [
+        {
+          "id": "QA_ASITE_CAMERA_FIT_031_MARKED",
+          "repository_image_path": "reference/images/a_site/QA_ASITE_CAMERA_FIT_031_MARKED.jpg",
+          "jpeg_sha256": "54304b955dbc5c5d719e9c396e07a9deb56aa9abed7f33299ffc2b79dc26c063",
+          "png_sha256": "9a4a0c4f6a4c3b64972debf6ddf5fab1f2398484c97d2eb25e7a0b70f78f3788"
+        },
+        {
+          "id": "QA_ASITE_CAMERA_FIT_031_CLEAN",
+          "repository_image_path": "reference/images/a_site/QA_ASITE_CAMERA_FIT_031_CLEAN.jpg",
+          "jpeg_sha256": "7e5184a83f898804640186a3ded06df530f11eb4da42b20b14d480987bb80f70",
+          "png_sha256": "5fade697d1cd35ecbf4a38c104ccb7fc3d9b3152d61099e28f9e54cde281e29a"
+        },
+        {
+          "id": "QA_ASITE_CAMERA_HOLD_031_MARKED",
+          "repository_image_path": "reference/images/a_site/QA_ASITE_CAMERA_HOLD_031_MARKED.jpg",
+          "jpeg_sha256": "0a2a82d151f1fcd0cad28570c4a1eef84bc7d4e18dc5c5d2d9e7012f9ae18587",
+          "png_sha256": "dcd5b679ed535f68fa06daaca97a3d2192ffde83236f8685c54492ca71cfd9fc"
+        },
+        {
+          "id": "QA_ASITE_CAMERA_HOLD_031_CLEAN",
+          "repository_image_path": "reference/images/a_site/QA_ASITE_CAMERA_HOLD_031_CLEAN.jpg",
+          "jpeg_sha256": "d6362c79f9013130023b2ea8fd4c94ccfb72584c847d812e8dcda45a1342f57f",
+          "png_sha256": "af89651b8d6f805073899998327383c0e9a6c77ef5430ba0eec744c1ab61e5e7"
+        }
+      ],
+      "groups": [
+        {
+          "role": "fit",
+          "anchors": [
+            {
+              "id": "ASITE_FIT01",
+              "world": [
+                350,
+                2050,
+                160
+              ],
+              "pixel": [
+                350.5090909090909,
+                640.5185185185185
+              ],
+              "search_guess": [
+                351.174001415841,
+                641.2451405429911
+              ],
+              "analytic_model_residual_px": 0.2802731118260116,
+              "projected_pixel": [
+                350.7011224095857,
+                640.5092592592592
+              ],
+              "residual_px": 0.19225459959209473
+            },
+            {
+              "id": "ASITE_FIT02",
+              "world": [
+                350,
+                3200,
+                160
+              ],
+              "pixel": [
+                356.0,
+                134.0
+              ],
+              "search_guess": [
+                356.4423704142089,
+                134.5125762033691
+              ],
+              "analytic_model_residual_px": 0.05898584618056055,
+              "projected_pixel": [
+                355.9686288098315,
+                133.99999999999997
+              ],
+              "residual_px": 0.03137119016849965
+            },
+            {
+              "id": "ASITE_FIT03",
+              "world": [
+                700,
+                2050,
+                160
+              ],
+              "pixel": [
+                506.4909090909091,
+                640.5
+              ],
+              "search_guess": [
+                506.6956929611574,
+                641.2451405429911
+              ],
+              "analytic_model_residual_px": 0.38372705023690395,
+              "projected_pixel": [
+                506.1831790677468,
+                640.5092592592592
+              ],
+              "residual_px": 0.3078692921314377
+            },
+            {
+              "id": "ASITE_FIT04",
+              "world": [
+                700,
+                3200,
+                160
+              ],
+              "pixel": [
+                508.50943396226415,
+                134.0
+              ],
+              "search_guess": [
+                509.127247883481,
+                134.5125762033691
+              ],
+              "analytic_model_residual_px": 0.11848325165892014,
+              "projected_pixel": [
+                508.6143358678602,
+                133.99999999999997
+              ],
+              "residual_px": 0.10490190559602297
+            },
+            {
+              "id": "ASITE_FIT05",
+              "world": [
+                1100,
+                2050,
+                160
+              ],
+              "pixel": [
+                684.0,
+                640.5
+              ],
+              "search_guess": [
+                684.4347690129475,
+                641.2451405429911
+              ],
+              "analytic_model_residual_px": 0.25367098275087524,
+              "projected_pixel": [
+                683.8769581056451,
+                640.5092592592592
+              ],
+              "residual_px": 0.12338979556049705
+            },
+            {
+              "id": "ASITE_FIT06",
+              "world": [
+                1100,
+                3200,
+                160
+              ],
+              "pixel": [
+                683.0,
+                134.0
+              ],
+              "search_guess": [
+                683.6242507055063,
+                134.5125762033691
+              ],
+              "analytic_model_residual_px": 0.12488554243779847,
+              "projected_pixel": [
+                683.0665725056074,
+                133.99999999999997
+              ],
+              "residual_px": 0.06657250560738248
+            },
+            {
+              "id": "ASITE_FIT07",
+              "world": [
+                1500,
+                2050,
+                160
+              ],
+              "pixel": [
+                861.4909090909091,
+                640.5185185185185
+              ],
+              "search_guess": [
+                862.1738450647376,
+                641.2451405429911
+              ],
+              "analytic_model_residual_px": 0.2912440771872444,
+              "projected_pixel": [
+                861.5707371435435,
+                640.5092592592592
+              ],
+              "residual_px": 0.08036324949522737
+            },
+            {
+              "id": "ASITE_FIT08",
+              "world": [
+                1500,
+                3200,
+                160
+              ],
+              "pixel": [
+                857.5,
+                134.0
+              ],
+              "search_guess": [
+                858.1212535275316,
+                134.5125762033691
+              ],
+              "analytic_model_residual_px": 0.12190397380742946,
+              "projected_pixel": [
+                857.5188091433545,
+                133.99999999999997
+              ],
+              "residual_px": 0.018809143354474145
+            }
+          ],
+          "maximum_residual_px": 0.3078692921314377
+        },
+        {
+          "role": "independent depth/height",
+          "anchors": [
+            {
+              "id": "ASITE_HOLD01",
+              "world": [
+                400,
+                2150,
+                -120
+              ],
+              "pixel": [
+                428.0,
+                549.0
+              ],
+              "search_guess": [
+                428.53659207406895,
+                549.556242810891
+              ],
+              "analytic_model_residual_px": 0.06709868599005653,
+              "projected_pixel": [
+                428.0440578034569,
+                548.8606432134865
+              ],
+              "residual_px": 0.1461554104124243
+            },
+            {
+              "id": "ASITE_HOLD02",
+              "world": [
+                650,
+                2400,
+                100
+              ],
+              "pixel": [
+                493.0,
+                478.5
+              ],
+              "search_guess": [
+                493.4459014150994,
+                478.9348508405347
+              ],
+              "analytic_model_residual_px": 0.08468216971289437,
+              "projected_pixel": [
+                492.93684299619315,
+                478.2703097216577
+              ],
+              "residual_px": 0.23821509417921097
+            },
+            {
+              "id": "ASITE_HOLD03",
+              "world": [
+                1000,
+                2700,
+                130
+              ],
+              "pixel": [
+                639.5,
+                352.5
+              ],
+              "search_guess": [
+                640.0,
+                352.9650018374004
+              ],
+              "analytic_model_residual_px": 0.03499816259960653,
+              "projected_pixel": [
+                639.4535133461704,
+                352.35594843050256
+              ],
+              "residual_px": 0.15136665306118063
+            },
+            {
+              "id": "ASITE_HOLD04",
+              "world": [
+                1150,
+                2850,
+                200
+              ],
+              "pixel": [
+                707.5090909090909,
+                283.49056603773585
+              ],
+              "search_guess": [
+                708.2980295088332,
+                283.6715350658616
+              ],
+              "analytic_model_residual_px": 0.4304256909573307,
+              "projected_pixel": [
+                707.7340551864019,
+                283.09305014587983
+              ],
+              "residual_px": 0.4567579340790119
+            },
+            {
+              "id": "ASITE_HOLD05",
+              "world": [
+                1300,
+                3000,
+                300
+              ],
+              "pixel": [
+                790.0,
+                199.49180327868854
+              ],
+              "search_guess": [
+                790.4959668308795,
+                199.79238197330156
+              ],
+              "analytic_model_residual_px": 0.19946208535809593,
+              "projected_pixel": [
+                789.9109020671027,
+                199.25094444609
+              ],
+              "residual_px": 0.2568100833053582
+            },
+            {
+              "id": "ASITE_HOLD06",
+              "world": [
+                1400,
+                3150,
+                320
+              ],
+              "pixel": [
+                844.0,
+                119.5
+              ],
+              "search_guess": [
+                844.3733382213895,
+                120.0220190141537
+              ],
+              "analytic_model_residual_px": 0.12856143723943128,
+              "projected_pixel": [
+                843.7744076128743,
+                119.5158575337264
+              ],
+              "residual_px": 0.22614903604697378
+            },
+            {
+              "id": "ASITE_HOLD07",
+              "world": [
+                750,
+                3250,
+                80
+              ],
+              "pixel": [
+                538.0,
+                129.51020408163265
+              ],
+              "search_guess": [
+                538.4054625179461,
+                130.20059849497784
+              ],
+              "analytic_model_residual_px": 0.2125732065575079,
+              "projected_pixel": [
+                537.8850401634714,
+                129.68992837392526
+              ],
+              "residual_px": 0.2133461629717061
+            },
+            {
+              "id": "ASITE_HOLD08",
+              "world": [
+                1050,
+                2350,
+                240
+              ],
+              "pixel": [
+                663.5,
+                517.5084745762712
+              ],
+              "search_guess": [
+                663.8691239108562,
+                518.2947090104967
+              ],
+              "analytic_model_residual_px": 0.3147359243016373,
+              "projected_pixel": [
+                663.3165441990088,
+                517.6128502773079
+              ],
+              "residual_px": 0.2110694622256244
+            },
+            {
+              "id": "ASITE_HOLD09",
+              "world": [
+                1250,
+                2750,
+                96
+              ],
+              "pixel": [
+                743.5,
+                332.48
+              ],
+              "search_guess": [
+                743.7665438485536,
+                332.67325614885345
+              ],
+              "analytic_model_residual_px": 0.3854783584903029,
+              "projected_pixel": [
+                743.1935057339905,
+                332.073150819053
+              ],
+              "residual_px": 0.50937706184511
+            },
+            {
+              "id": "ASITE_HOLD10",
+              "world": [
+                1450,
+                2100,
+                160
+              ],
+              "pixel": [
+                839.5090909090909,
+                618.4905660377359
+              ],
+              "search_guess": [
+                839.7950649291948,
+                618.822061867272
+              ],
+              "analytic_model_residual_px": 0.2723981929715761,
+              "projected_pixel": [
+                839.1976452991207,
+                618.0960256301416
+              ],
+              "residual_px": 0.5026534603425544
+            }
+          ],
+          "maximum_residual_px": 0.50937706184511
+        }
+      ],
+      "intrinsics": {
+        "fx": 479.8772656019814,
+        "fy": 479.7884311100905,
+        "cx": 639.4535133461704,
+        "cy": 359.387074579954
+      },
+      "fit_algorithm": "Native zero-roll pose +64 camera_up; only fx/fy/cx/cy fit from fit-group pixels. Independent groups excluded. Explicit native holdouts required at this exact pose.",
+      "projection_matrix": [
+        [
+          479.8772656019814,
+          11.161029228637801,
+          -639.3561035583523,
+          290299.1878515007
+        ],
+        [
+          -2.898999806739897e-14,
+          -473.4425972873638,
+          -367.7065611000361,
+          1721290.413913237
+        ],
+        [
+          1.0687499900123295e-18,
+          0.017454011895616513,
+          -0.9998476671317225,
+          1204.42915298605
+        ]
+      ],
+      "sampled_pixel_localization_bounds": [
+        {
+          "source_z": -120,
+          "maximum_axis_1_5_pixel_displacement_cm": 11.04841197876467
+        },
+        {
+          "source_z": 100,
+          "maximum_axis_1_5_pixel_displacement_cm": 9.301955227208365
+        },
+        {
+          "source_z": 160,
+          "maximum_axis_1_5_pixel_displacement_cm": 8.825657683652349
+        },
+        {
+          "source_z": 320,
+          "maximum_axis_1_5_pixel_displacement_cm": 7.555558185245249
+        }
+      ]
     }
   ]
 }

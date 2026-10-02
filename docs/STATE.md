@@ -7,8 +7,8 @@ no model override, new chat or agent delegation requested. Criteria unchanged.
 
 ## Authority and preserved work
 
-GitHub main is authoritative. Latest pushed checkpoint0a691e7: calibrated Pit frontal cameras and reviewed Z0 joins.
-Current work adds checked frontal cameras, Z0 joins and rendered component review;
+GitHub main is authoritative. Latest pushed checkpointaf21255: lower Pit joins and bounded native facing lengths.
+Current work adds checked wider A Site overhead camera and retains clipped030 rejection;
 current Git commit pins that evidence checkpoint. Crash baseline35eaa642; dirty work preserved4c7df48,
 mergedab4e484. Active checkout:
 C:/Users/mikea/Documents/Codex/2026-09-30/new-chat/FN_Dust2
@@ -19,8 +19,8 @@ evidence/CRASH_RECOVERY_20261001.md. Inspect dirty work/current main first.
 
 ## Accepted evidence and remaining limits
 
-- 273 individually reviewed JPEGs; eight historical exclusions. Original24 and
-  recovered55 re-inspected. IMAGE_AUDIT273 hashes/native UTC dates PASS. Sixteen
+- 277 individually reviewed JPEGs; eight historical exclusions. Original24 and
+  recovered55 re-inspected. IMAGE_AUDIT277 hashes/native UTC dates PASS. Sixteen
   critical/eleven subarea required-view sets PASS; image coverage is separate
   from numeric acceptance. Native originals/failed frames/metadata retained.
 - Scale2.54cm/native from repeated inch-rangefinder anchors. UE=(2.54x,-2.54y,
@@ -89,7 +89,13 @@ from188 through767.96875, separate southernHull at176..184. No smoothcurve/
 fullheight extrusion accepted. 024/025 complete44obs each/all0exactrestore. TwoXorigins agree southjoin westY[183.875,183.8828125], eastY[184,184.0078125] atZ0. NativeUI preflight observed the authored white cross at the west camera;
 source B-mouth exactly restored before captures. Camera026/027 controller COMPLETE:
 eight marked/clean frames, final B-mouth pose/all0 errors, overlay restored visible.
-NO ACTIVE source controller. Report028 COMPLETE48/all0; report029 COMPLETE32/all0.
+NO ACTIVE source controller. A Site031 four nativeframes COMPLETE/all0;
+native/JPEGs and18 marker crops individually inspected; accepted wider model
+8fit/10independent markers at observedpitch88.999908. Southern platform target
+fits frame; held maximum .509377px.277 registered hash/native-date audit PASS.
+Hiddenfloor/roof/cover elevation distinctions remain explicit.
+Camera030 clipped native batch remains rejected with original metadata/raw.
+Do not issue competing inputs. Report028 COMPLETE48/all0; report029 COMPLETE32/all0.
 OriginalZ0 on/off brackets independently match atZ-80/-40 from twoXorigins;
 all four lower seam crops inspected/corroborated. Do not rerun camera driver/preflight/plans. Private folder
 pit_wall_cameras_26_27 owns original plans, captures and extraction failures.

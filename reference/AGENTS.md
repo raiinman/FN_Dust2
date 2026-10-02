@@ -497,3 +497,10 @@ validates every repeat, pose/rangefinder, component bracket and independent
 source origin; hash-pinned northZ0 and southZ-80/-40 rendered selections remain
 separate. Physical rows retain occluded southZ0/hidden-body/floor limits. Render
 and inspect after rebuilding; dashed image extents are component sections only.
+
+ASITE_OVERHEAD_031 in LOCAL_CAMERA_CALIBRATIONS owns eight fit/ten independent
+elevation-depth markers at its exact actualpitch88.999908. Four native/JPEGs and
+18 marker crops inspected; complete visible platform target fits wider frame.
+Original030 four clipped frames are rejected/preserved privately with metadata
+in CAPTURE_CRASH_RECOVERY.rejected_attempts. No calibration transfer or hidden
+floor/cover/body perimeter acceptance. Fixed-Z inverse needs measured elevation.
