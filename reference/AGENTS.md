@@ -297,3 +297,17 @@ normal-band transitions checked atZ40/80/140. B_POST_CAP_MEASUREMENTS JSON/CSV
 and B_POST_CAP_SECTIONS.svg enclose sampled flat cap widths and separation.
 Inset hinge timber remains distinct from central leaf planes; cap separation
 is not aperture clearance and no entire post body/height interpolation is granted.
+
+Parallel transition tangent_axis2 optionally varies horizontal ray eye height
+at explicitly declared per-origin fixed_lateral_native. Existing fixed-height
+behavior is unchanged. Preflight both material/shape endpoint components;
+first-Wood upper interface is separate from hidden complete body top/rendered
+seam. Inspect opposing origins and preserve remote/roof first-hit diagnostics.
+
+B_FRAME_SECTIONS additionally selects opposed upper first-Wood height intervals
+and retains absolute source-referenced elevation separately from floor-to-top
+height/hidden body. TUNNEL_STAIR_OVERHEAD_001 in LOCAL_CAMERA_CALIBRATIONS owns
+the checked exact local stair camera; lower floor depth extrapolation and crate/
+room-edge occlusion remain explicit. Duplicate clean control frames do not
+increase reference count. No camera acceptance grants staircase side/terminal
+selection or continuous architectural footprints.

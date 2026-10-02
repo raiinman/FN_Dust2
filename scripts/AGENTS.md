@@ -351,3 +351,14 @@ build_b_post_caps.py validates opposed normal-band/outer material transitions
 and independent height brackets, checking shared flat first-Wood cap normals.
 Rebuild/render/inspect JSON/CSV/SVG; three physical rows enclose all sampled
 heights, without granting full post/body, unseen height continuity or clearance.
+
+Parallel transition tangent_axis2 optionally varies horizontal ray eye height
+at explicitly declared per-origin fixed_lateral_native. Existing fixed-height
+behavior is unchanged. Preflight both material/shape endpoint components;
+first-Wood upper interface is separate from hidden complete body top/rendered
+seam. Inspect opposing origins and preserve remote/roof first-hit diagnostics.
+
+build_b_frame_sections.py also validates optional upper_height_report using
+opposed horizontal-eye-height material brackets. Absolute source-referenced
+elevation rows are distinct from floor-to-top height or hidden timber body.
+Rebuild/render/inspect the updated upper native-point annotation.

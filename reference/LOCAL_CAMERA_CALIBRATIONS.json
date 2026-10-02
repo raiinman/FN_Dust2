@@ -2313,6 +2313,686 @@
           "maximum_axis_1_5_pixel_displacement_cm": 2.7320759395323044
         }
       ]
+    },
+    {
+      "id": "TUNNEL_STAIR_OVERHEAD_001",
+      "camera_pose": [
+        -1152,
+        1088,
+        160,
+        89,
+        90
+      ],
+      "observed_pose": [
+        -1152,
+        1088,
+        160,
+        88.999908,
+        90,
+        0
+      ],
+      "image_size": [
+        1280,
+        720
+      ],
+      "status": "accepted constrained local overhead projection; staircase side and terminal boundaries require separate evidence",
+      "model": "constrained native pose",
+      "normal_axis": 2,
+      "bound_planes_native": [
+        -112.4,
+        -55.97,
+        32.03
+      ],
+      "captures": [
+        {
+          "id": "QA_TUNSTAIR_CAMERA_FIT_001_MARKED",
+          "timestamp_utc": "2026-10-02T13:23:25.227410+00:00",
+          "engine_capture_basename": "d2_bc795737b2",
+          "pose_command": "setpos_exact -1152.000000 1088.000000 160.000000;setang_exact 88.999908 90.000000 0.000000",
+          "pose_unit": "source_units",
+          "width": 1280,
+          "height": 720,
+          "requested_pose": [
+            -1152,
+            1088,
+            160,
+            89,
+            90
+          ],
+          "source_build": "25640462",
+          "source_map": "de_dust2",
+          "tga_sha256": "f2ba1025fb23a0ffd8fa9194b84218945bd90f7b13afea8722345fc06787d050",
+          "png_sha256": "18ac5168ed92967176dc914efc61bd907a4e6298daaee4c42ca3c67f577540f9",
+          "anchors": [
+            {
+              "id": "FIT_01",
+              "point": [
+                -1100,
+                1260,
+                -92.19
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FIT_02",
+              "point": [
+                -1090,
+                1220,
+                -79.97
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FIT_03",
+              "point": [
+                -1130,
+                1190,
+                -59.97
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FIT_04",
+              "point": [
+                -1080,
+                1150,
+                -39.97
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FIT_05",
+              "point": [
+                -1110,
+                1090,
+                -10
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FIT_06",
+              "point": [
+                -1190,
+                1080,
+                10
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FIT_07",
+              "point": [
+                -1270,
+                1100,
+                42
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "FIT_08",
+              "point": [
+                -1230,
+                1120,
+                28
+              ],
+              "half_size": 10
+            }
+          ],
+          "status": "visually inspected; usable stated-direction reference",
+          "marker_plane": "XY",
+          "area": "Tunnel Stairs",
+          "review": "Native PNG individually inspected; original1280x720 JPEG derivative individually inspected. Exact overhead pose frames18 principal stair-face sample locations and bend; per-face visibility remains separate from accepted principal count evidence; outer wall/floor junction and inner cap partly visible, upper platform crates obscure part of cap. Image edges clip surrounding rooms, not declared local camera markers. Authored known-world cross positions calibrate camera only; not ordinary coverage or geometry endpoints. All crop centers individually inspected.",
+          "repository_image_path": "reference/images/tunnel_stairs/QA_TUNSTAIR_CAMERA_FIT_001_MARKED.jpg",
+          "jpeg_sha256": "7f6359fed918127e631655bd3b01bc14a662f44b241c0df1981972beeeb0f6db",
+          "fov_cs_debug_parameter": 90,
+          "aspect_ratio": "16:9"
+        },
+        {
+          "id": "QA_TUNSTAIR_CAMERA_FIT_001_CLEAN",
+          "timestamp_utc": "2026-10-02T13:23:31.951230+00:00",
+          "engine_capture_basename": "d2_f0e2462323",
+          "pose_command": "setpos_exact -1152.000000 1088.000000 160.000000;setang_exact 88.999908 90.000000 0.000000",
+          "pose_unit": "source_units",
+          "width": 1280,
+          "height": 720,
+          "requested_pose": [
+            -1152,
+            1088,
+            160,
+            89,
+            90
+          ],
+          "source_build": "25640462",
+          "source_map": "de_dust2",
+          "tga_sha256": "5ef65dc9d86740dddf06c45a568fae686a90131a7628e1c48b5cda334acdb927",
+          "png_sha256": "d547ac4862902442a0b76ce0f6ee8701e638a9b98057962c6b0827e85cb7d4e6",
+          "anchors": [],
+          "status": "visually inspected; usable stated-direction reference",
+          "marker_plane": "XY",
+          "area": "Tunnel Stairs",
+          "review": "Native PNG individually inspected; original1280x720 JPEG derivative individually inspected. Exact overhead pose frames18 principal stair-face sample locations and bend; per-face visibility remains separate from accepted principal count evidence; outer wall/floor junction and inner cap partly visible, upper platform crates obscure part of cap. Image edges clip surrounding rooms, not declared local camera markers. Clean frame without debug overlays. Per-point calibration must precede numeric pixel interpretation; full side/terminal architectural bounds remain unresolved.",
+          "repository_image_path": "reference/images/tunnel_stairs/QA_TUNSTAIR_CAMERA_FIT_001_CLEAN.jpg",
+          "jpeg_sha256": "1f463b38a1c376c09424cbc172de12acffe62db5a31387a8c2e2dfed934ba882",
+          "fov_cs_debug_parameter": 90,
+          "aspect_ratio": "16:9"
+        },
+        {
+          "id": "QA_TUNSTAIR_CAMERA_HOLD_001_MARKED",
+          "timestamp_utc": "2026-10-02T13:23:40.490689+00:00",
+          "engine_capture_basename": "d2_aeccff8485",
+          "pose_command": "setpos_exact -1152.000000 1088.000000 160.000000;setang_exact 88.999908 90.000000 0.000000",
+          "pose_unit": "source_units",
+          "width": 1280,
+          "height": 720,
+          "requested_pose": [
+            -1152,
+            1088,
+            160,
+            89,
+            90
+          ],
+          "source_build": "25640462",
+          "source_map": "de_dust2",
+          "tga_sha256": "93205817555e18cbc11008d4349ad3c12c0e6dc615c375244283ffd8a0e058fa",
+          "png_sha256": "2de665e6f02af9d4f46dec40fbceb7e5c802c68dda796a4750be5baaf8461095",
+          "anchors": [
+            {
+              "id": "HOLD_01",
+              "point": [
+                -1140,
+                1272,
+                -88
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "HOLD_02",
+              "point": [
+                -1060,
+                1220,
+                -65
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "HOLD_03",
+              "point": [
+                -1070,
+                1180,
+                -45
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "HOLD_04",
+              "point": [
+                -1140,
+                1160,
+                -45
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "HOLD_05",
+              "point": [
+                -1110,
+                1120,
+                -20
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "HOLD_06",
+              "point": [
+                -1140,
+                1070,
+                5
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "HOLD_07",
+              "point": [
+                -1180,
+                1110,
+                10
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "HOLD_08",
+              "point": [
+                -1220,
+                1085,
+                30
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "HOLD_09",
+              "point": [
+                -1280,
+                1100,
+                50
+              ],
+              "half_size": 10
+            },
+            {
+              "id": "HOLD_10",
+              "point": [
+                -1190,
+                1160,
+                45
+              ],
+              "half_size": 10
+            }
+          ],
+          "status": "visually inspected; usable stated-direction reference",
+          "marker_plane": "XY",
+          "area": "Tunnel Stairs",
+          "review": "Native PNG individually inspected; original1280x720 JPEG derivative individually inspected. Exact overhead pose frames18 principal stair-face sample locations and bend; per-face visibility remains separate from accepted principal count evidence; outer wall/floor junction and inner cap partly visible, upper platform crates obscure part of cap. Image edges clip surrounding rooms, not declared local camera markers. Authored known-world cross positions calibrate camera only; not ordinary coverage or geometry endpoints. All crop centers individually inspected.",
+          "repository_image_path": "reference/images/tunnel_stairs/QA_TUNSTAIR_CAMERA_HOLD_001_MARKED.jpg",
+          "jpeg_sha256": "03c3a6d6bae07c87eedbf8e5302ffe12b057bf0995955c250434887c9e1a5e06",
+          "fov_cs_debug_parameter": 90,
+          "aspect_ratio": "16:9"
+        }
+      ],
+      "groups": [
+        {
+          "role": "fit",
+          "capture_id": "QA_TUNSTAIR_CAMERA_FIT_001_MARKED",
+          "anchors": [
+            {
+              "id": "FIT_01",
+              "world": [
+                -1100,
+                1260,
+                -92.19
+              ],
+              "pixel": [
+                737.5,
+                164.5
+              ],
+              "review": "Native33x33 crop individually inspected in full-size per-marker sheet: one unambiguous authored XY crossing; extracted center agrees with observed stroke intersection. HOLD01 red/white crossing explicit, not excluded or invented.",
+              "projected_pixel": [
+                737.3450464715299,
+                164.51187283994616
+              ],
+              "residual_px": 0.1554077228251827
+            },
+            {
+              "id": "FIT_02",
+              "world": [
+                -1090,
+                1220,
+                -79.97
+              ],
+              "pixel": [
+                762.5,
+                233.0
+              ],
+              "review": "Native33x33 crop individually inspected in full-size per-marker sheet: one unambiguous authored XY crossing; extracted center agrees with observed stroke intersection. HOLD01 red/white crossing explicit, not excluded or invented.",
+              "projected_pixel": [
+                762.388665178774,
+                232.9645818108286
+              ],
+              "residual_px": 0.11683274601588084
+            },
+            {
+              "id": "FIT_03",
+              "world": [
+                -1130,
+                1190,
+                -59.97
+              ],
+              "pixel": [
+                687.0,
+                285.5
+              ],
+              "review": "Native33x33 crop individually inspected in full-size per-marker sheet: one unambiguous authored XY crossing; extracted center agrees with observed stroke intersection. HOLD01 red/white crossing explicit, not excluded or invented.",
+              "projected_pixel": [
+                687.1252681618109,
+                285.4593922334861
+              ],
+              "residual_px": 0.13168562208813678
+            },
+            {
+              "id": "FIT_04",
+              "world": [
+                -1080,
+                1150,
+                -39.97
+              ],
+              "pixel": [
+                811.5,
+                372.5
+              ],
+              "review": "Native33x33 crop individually inspected in full-size per-marker sheet: one unambiguous authored XY crossing; extracted center agrees with observed stroke intersection. HOLD01 red/white crossing explicit, not excluded or invented.",
+              "projected_pixel": [
+                811.4798623496603,
+                372.5328431870736
+              ],
+              "residual_px": 0.03852531503252957
+            },
+            {
+              "id": "FIT_05",
+              "world": [
+                -1110,
+                1090,
+                -10
+              ],
+              "pixel": [
+                758.0,
+                543.0
+              ],
+              "review": "Native33x33 crop individually inspected in full-size per-marker sheet: one unambiguous authored XY crossing; extracted center agrees with observed stroke intersection. HOLD01 red/white crossing explicit, not excluded or invented.",
+              "projected_pixel": [
+                758.1138115637469,
+                542.8669189584862
+              ],
+              "residual_px": 0.1751103527862625
+            },
+            {
+              "id": "FIT_06",
+              "world": [
+                -1190,
+                1080,
+                10
+              ],
+              "pixel": [
+                517.5,
+                598.5
+              ],
+              "review": "Native33x33 crop individually inspected in full-size per-marker sheet: one unambiguous authored XY crossing; extracted center agrees with observed stroke intersection. HOLD01 red/white crossing explicit, not excluded or invented.",
+              "projected_pixel": [
+                517.6817305075037,
+                598.4845340256928
+              ],
+              "residual_px": 0.18238742752404435
+            },
+            {
+              "id": "FIT_07",
+              "world": [
+                -1270,
+                1100,
+                42
+              ],
+              "pixel": [
+                160.0,
+                579.0
+              ],
+              "review": "Native33x33 crop individually inspected in full-size per-marker sheet: one unambiguous authored XY crossing; extracted center agrees with observed stroke intersection. HOLD01 red/white crossing explicit, not excluded or invented.",
+              "projected_pixel": [
+                160.01526465873562,
+                579.0017123907242
+              ],
+              "residual_px": 0.015360406515031351
+            },
+            {
+              "id": "FIT_08",
+              "world": [
+                -1230,
+                1120,
+                28
+              ],
+              "pixel": [
+                357.0,
+                483.5
+              ],
+              "review": "Native33x33 crop individually inspected in full-size per-marker sheet: one unambiguous authored XY crossing; extracted center agrees with observed stroke intersection. HOLD01 red/white crossing explicit, not excluded or invented.",
+              "projected_pixel": [
+                356.8503511082359,
+                483.67814455376066
+              ],
+              "residual_px": 0.23265913444524972
+            }
+          ],
+          "maximum_residual_px": 0.23265913444524972
+        },
+        {
+          "role": "independent varied-depth holdout",
+          "capture_id": "QA_TUNSTAIR_CAMERA_HOLD_001_MARKED",
+          "anchors": [
+            {
+              "id": "HOLD_01",
+              "world": [
+                -1140,
+                1272,
+                -88
+              ],
+              "pixel": [
+                662.5,
+                138.52941176470588
+              ],
+              "review": "Native33x33 crop individually inspected in full-size per-marker sheet: one unambiguous authored XY crossing; extracted center agrees with observed stroke intersection. HOLD01 red/white crossing explicit, not excluded or invented.",
+              "projected_pixel": [
+                662.4171201450739,
+                138.35005377821741
+              ],
+              "residual_px": 0.19758126851948227
+            },
+            {
+              "id": "HOLD_02",
+              "world": [
+                -1060,
+                1220,
+                -65
+              ],
+              "pixel": [
+                834.0,
+                224.5
+              ],
+              "review": "Native33x33 crop individually inspected in full-size per-marker sheet: one unambiguous authored XY crossing; extracted center agrees with observed stroke intersection. HOLD01 red/white crossing explicit, not excluded or invented.",
+              "projected_pixel": [
+                833.8757567938952,
+                224.0858767284158
+              ],
+              "residual_px": 0.4323591774564264
+            },
+            {
+              "id": "HOLD_03",
+              "world": [
+                -1070,
+                1180,
+                -45
+              ],
+              "pixel": [
+                830.0,
+                302.5
+              ],
+              "review": "Native33x33 crop individually inspected in full-size per-marker sheet: one unambiguous authored XY crossing; extracted center agrees with observed stroke intersection. HOLD01 red/white crossing explicit, not excluded or invented.",
+              "projected_pixel": [
+                830.103822831417,
+                302.67019803108985
+              ],
+              "residual_px": 0.19936536838254199
+            },
+            {
+              "id": "HOLD_04",
+              "world": [
+                -1140,
+                1160,
+                -45
+              ],
+              "pixel": [
+                667.5,
+                349.5
+              ],
+              "review": "Native33x33 crop individually inspected in full-size per-marker sheet: one unambiguous authored XY crossing; extracted center agrees with observed stroke intersection. HOLD01 red/white crossing explicit, not excluded or invented.",
+              "projected_pixel": [
+                667.4178440902855,
+                349.12858298046115
+              ],
+              "residual_px": 0.38039478953338013
+            },
+            {
+              "id": "HOLD_05",
+              "world": [
+                -1110,
+                1120,
+                -20
+              ],
+              "pixel": [
+                751.4590163934427,
+                453.0
+              ],
+              "review": "Native33x33 crop individually inspected in full-size per-marker sheet: one unambiguous authored XY crossing; extracted center agrees with observed stroke intersection. HOLD01 red/white crossing explicit, not excluded or invented.",
+              "projected_pixel": [
+                751.1989653803014,
+                452.86725052348686
+              ],
+              "residual_px": 0.29197423336710915
+            },
+            {
+              "id": "HOLD_06",
+              "world": [
+                -1140,
+                1070,
+                5
+              ],
+              "pixel": [
+                676.5,
+                622.5
+              ],
+              "review": "Native33x33 crop individually inspected in full-size per-marker sheet: one unambiguous authored XY crossing; extracted center agrees with observed stroke intersection. HOLD01 red/white crossing explicit, not excluded or invented.",
+              "projected_pixel": [
+                676.7342819743735,
+                622.3347615469078
+              ],
+              "residual_px": 0.28669110536719783
+            },
+            {
+              "id": "HOLD_07",
+              "world": [
+                -1180,
+                1110,
+                10
+              ],
+              "pixel": [
+                550.0,
+                502.0
+              ],
+              "review": "Native33x33 crop individually inspected in full-size per-marker sheet: one unambiguous authored XY crossing; extracted center agrees with observed stroke intersection. HOLD01 red/white crossing explicit, not excluded or invented.",
+              "projected_pixel": [
+                550.0447134987033,
+                501.87548116110946
+              ],
+              "residual_px": 0.1323035834924425
+            },
+            {
+              "id": "HOLD_08",
+              "world": [
+                -1220,
+                1085,
+                30
+              ],
+              "pixel": [
+                388.5,
+                615.5
+              ],
+              "review": "Native33x33 crop individually inspected in full-size per-marker sheet: one unambiguous authored XY crossing; extracted center agrees with observed stroke intersection. HOLD01 red/white crossing explicit, not excluded or invented.",
+              "projected_pixel": [
+                388.13348878197087,
+                615.3583023009751
+              ],
+              "residual_px": 0.3929487381964136
+            },
+            {
+              "id": "HOLD_09",
+              "world": [
+                -1280,
+                1100,
+                50
+              ],
+              "pixel": [
+                82.0,
+                594.5
+              ],
+              "review": "Native33x33 crop individually inspected in full-size per-marker sheet: one unambiguous authored XY crossing; extracted center agrees with observed stroke intersection. HOLD01 red/white crossing explicit, not excluded or invented.",
+              "projected_pixel": [
+                81.63035732787982,
+                594.3341858423653
+              ],
+              "residual_px": 0.4051296581642174
+            },
+            {
+              "id": "HOLD_10",
+              "world": [
+                -1190,
+                1160,
+                45
+              ],
+              "pixel": [
+                482.5,
+                334.5
+              ],
+              "review": "Native33x33 crop individually inspected in full-size per-marker sheet: one unambiguous authored XY crossing; extracted center agrees with observed stroke intersection. HOLD01 red/white crossing explicit, not excluded or invented.",
+              "projected_pixel": [
+                482.47843168882883,
+                334.69062057248055
+              ],
+              "residual_px": 0.19183689608516544
+            }
+          ],
+          "maximum_residual_px": 0.4323591774564264
+        }
+      ],
+      "method": "Eight synthetic known-world XY crosses fit four native-pose intrinsics; ten different tangent/depth markers remain withheld. Every native PNG/JPEG and all18 marker crops individually inspected. Approximate480px proposal locates ROIs only; no guessed pixels accepted.",
+      "excluded_markers": [],
+      "unexecuted_rejected_layout": {
+        "private_path": "../reference_cache/crash_recovery_survey/tunnel_stair_camera_01/hold_plan_initial_unexecuted_rejected.json",
+        "reason": "One proposed marker could clip bottom, two crowded fit centers. Layout revised before native capture; no old plan executed."
+      },
+      "duplicate_clean_companion": {
+        "id": "QA_TUNSTAIR_CAMERA_HOLD_001_CLEAN",
+        "png_sha256": "d547ac4862902442a0b76ce0f6ee8701e638a9b98057962c6b0827e85cb7d4e6",
+        "review": "Individually inspected; hash identical to registered fit clean. Preserved privately as held subtraction control, not an additional JPEG/reference count."
+      },
+      "tested_marker_z_range": [
+        -92.19,
+        50
+      ],
+      "limits": "Exact pose/FOV only. Known-Z inversion requires independent source surface elevation. Lower floorZ-112.4 extrapolates20.21native below lowest marker elevation; this is an explicit depth extrapolation, not withheld floor-boundary validation. Curved wall first hitsZ-83.97..4.03 lie within tested marker Z range. Crates obscure part of inner platform; surrounding room/terminal context clips frame edges. Camera point localization does not certify side/terminal selection, renderer/collision offsets, complete footprint or unseen surface continuity.",
+      "intrinsics": {
+        "fx": 480.23623113901806,
+        "fy": 480.1083493073888,
+        "cx": 639.4735022210278,
+        "cy": 359.3976279548763
+      },
+      "fit_algorithm": "Native zero-roll pose +64 camera_up; only fx/fy/cx/cy fit from fit-group pixels. Independent groups excluded. Explicit native holdouts required at this exact pose.",
+      "projection_matrix": [
+        [
+          480.23623113901806,
+          11.161378114697342,
+          -639.376089388247,
+          643388.7331854776
+        ],
+        [
+          -2.900957314419482e-14,
+          -473.762282551874,
+          -367.72269672335375,
+          605015.9292478483
+        ],
+        [
+          1.0687499900123295e-18,
+          0.017454011895616513,
+          -0.9998476671317225,
+          140.9856617986448
+        ]
+      ],
+      "sampled_pixel_localization_bounds": [
+        {
+          "source_z": -112.4,
+          "maximum_axis_1_5_pixel_displacement_cm": 2.203379458115278
+        },
+        {
+          "source_z": -55.97,
+          "maximum_axis_1_5_pixel_displacement_cm": 1.7557126904790008
+        },
+        {
+          "source_z": 32.03,
+          "maximum_axis_1_5_pixel_displacement_cm": 1.057654907922113
+        }
+      ]
     }
   ]
 }

@@ -86,6 +86,38 @@ def measurement_rows(ref):
         add(f'B_FRAME_Z{h}_MATERIAL_WIDTH',f'Masonry-to-timber lateral material-region span at native Z{h}',section['width_interval_cm'])
         for depth in section['depths']:
             add(f'B_FRAME_Z{h}_{depth["end"].upper()}_{depth["material"].upper()}_DEPTH',f'{depth["end"]} {depth["material"]} opposite first-face normal span at native Z{h}',depth['interval_cm'])
+    for upper in upper_rows(ref):
+        add(f'B_FRAME_Y{upper["tangent_y_native"]}_UPPER_FIRST_WOOD_ELEVATION',f'Upper first-Wood material-interface elevation relative native Z0 at Y{upper["tangent_y_native"]}',upper['elevation_interval_cm'])
+        result[-1]['notes']='Exposed first-Wood upper height interval from opposed horizontal rays. Absolute source-referenced elevation, not floor-to-top height, hidden full timber top/body or exact rendered edge. '+config['limits']
+        result[-1]['source_id']='B_FRAME_SECTIONS/'+upper['report_id']
+        result[-1]['method']='opposing repeated horizontal rays varying eye height at three tangent locations; SCALE_CALIBRATION'
+        result[-1]['confidence']='bounded local first-material elevation interval'
+    return result
+
+
+def upper_rows(ref):
+    config=json.loads((ref/'B_FRAME_SECTIONS.json').read_text())
+    if not config.get('upper_height_report'):return []
+    report=next(r for r in json.loads((ref/'ARCHITECTURAL_ENDPOINTS.json').read_text())['reports'] if r['id']==config['upper_height_report'])
+    assert report['status'].startswith('complete;') and report['source_build']==config['source_build']
+    assert max(report['restore_numeric_errors'])<=.01 and not report.get('restore_error')
+    assert report['config']['normal_axis']==0 and report['config']['tangent_axis']==2
+    result=[]
+    for y in [2110,2225,2300]:
+        intervals=[];observations=[]
+        for side in ['B_INSIDE','CT_OUTSIDE']:
+            bracket=next(b for b in report['brackets'] if b['origin_id']==f'{side}_Y{y}')
+            assert bracket['id']=='upper_timber_to_masonry'
+            for role in ['on','off']:
+                o=repeated(report,bracket[role]['observation_index'])
+                assert o['eye_origin'][1]==y and abs(o['eye_origin'][2]-bracket[role]['coordinate'])<=.01
+                material,shape=('Wood_Dense','Hull') if role=='on' else ('concrete','Mesh')
+                assert 'surfaceprop '+material+',' in str(o['surface']) and 'shape type: '+shape+',' in str(o['surface'])
+                observations.append(dict(side=side,role=role,point=o['hit']))
+            interval=bracket['tangent_interval_native'];assert 0<interval[1]-interval[0]<=.1;intervals.append(interval)
+        assert max(i[0] for i in intervals)<=min(i[1] for i in intervals)
+        interval=[min(i[0] for i in intervals)-.005,max(i[1] for i in intervals)+.005]
+        result.append(dict(tangent_y_native=y,report_id=report['id'],opposing_raw_intervals=intervals,height_interval_native=interval,elevation_interval_cm=[v*2.54 for v in interval],native_bracket_points=observations,scope='exposed first-Wood upper material bound only; no hidden complete body top or rendered seam acceptance'))
     return result
 
 
@@ -100,7 +132,8 @@ def build(root):
         for end in section['ends']:
             for material,point in end['faces']['CT_OUTSIDE'].items():
                 annotation.append(dict(height_native=section['height_native'],end=end['end'],material=material,point=point,pixel=project(camera['projection_matrix'],point)))
-    (ref/'B_FRAME_SECTION_MEASUREMENTS.json').write_text(json.dumps(dict(source_build=config['source_build'],sections=sections,projected_native_points=annotation,limits=config['limits'],render_review=config['render_review'],gate1='FAIL'),indent=2)+'\n')
+    upper=upper_rows(ref)
+    (ref/'B_FRAME_SECTION_MEASUREMENTS.json').write_text(json.dumps(dict(source_build=config['source_build'],sections=sections,upper_first_material_bounds=upper,projected_native_points=annotation,limits=config['limits'],render_review=config['render_review'],gate1='FAIL'),indent=2)+'\n')
     measurements=measurement_rows(ref)
     with (ref/'B_FRAME_SECTION_MEASUREMENTS.csv').open('w',newline='') as f:
         w=csv.DictWriter(f,fieldnames=measurements[0].keys());w.writeheader();w.writerows(measurements)
@@ -109,10 +142,16 @@ def build(root):
     for item in annotation:
         u,v=item['pixel'];color='#39e5cd' if item['material']=='masonry' else '#ffb45e'
         svg.append(f'<circle cx="{u:.3f}" cy="{v+100:.3f}" r="4" fill="none" stroke="{color}" stroke-width="1.5"/>')
+    for bound in upper:
+        p=next(o['point'] for o in bound['native_bracket_points'] if o['side']=='CT_OUTSIDE' and o['role']=='on')
+        u,v=project(camera['projection_matrix'],p)
+        svg.append(f'<circle cx="{u:.3f}" cy="{v+100:.3f}" r="5" fill="none" stroke="#eac5ff" stroke-width="2"/>')
     for i,section in enumerate(sections):
         interval=section['width_interval_cm']
         svg.append(f'<text x="25" y="{850+i*27}" font-size="17">Native Z{section["height_native"]}: material-region lateral span [{interval[0]:.4f}, {interval[1]:.4f}] cm</text>')
-    svg.extend(['<text x="25" y="950" font-size="16">Three sampled sections only; no continuous frame body, leaf gap, minimum clearance or full aperture acceptance.</text>','<text x="25" y="980" font-size="16">South visible edge has a separate unresolved few-pixel offset. Gate1 FAIL; production geometry has not started.</text></g></svg>'])
+    if upper:
+        interval=upper[0]['elevation_interval_cm'];svg.append(f'<text x="25" y="932" font-size="16">Purple: upper first-Wood bounds at Y2110/2225/2300; [{interval[0]:.4f},{interval[1]:.4f}]cm relative nativeZ0.</text>')
+    svg.extend(['<text x="25" y="957" font-size="16">Sampled sections only; no continuous frame body, leaf gap, minimum clearance or full aperture acceptance.</text>','<text x="25" y="985" font-size="16">South visible seam offset and full hidden top remain separate. Gate1 FAIL; production geometry has not started.</text></g></svg>'])
     (ref/'B_FRAME_SECTIONS.svg').write_text('\n'.join(svg)+'\n')
     print(f'{len(measurements)} bounded local material/face-span measurements; Gate1 FAIL')
 

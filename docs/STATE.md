@@ -8,7 +8,7 @@ with its configured model; no model override or agent delegation requested.
 ## Authority and preserved work
 
 GitHub main authoritative; fetch/check before resuming. Crash baseline35eaa642,
-dirty work preserved4c7df48, mergedab4e484. Latest pushed checkpointaf39b54
+dirty work preserved4c7df48, mergedab4e484. Latest pushed checkpoint9541e12
 before this update. Active C:/Users/mikea/Documents/Codex/2026-09-30/new-chat/
 FN_Dust2, branch codex/crash-recovery-20261001 pushes meaningful checkpoints
 to main. OneDrive workspace separate; synced sources/ read-only. Raw/private
@@ -17,15 +17,15 @@ recovery: evidence/CRASH_RECOVERY_20261001.md. Latest Git commit pins checkpoint
 
 ## Accepted evidence and limits
 
-- 232 individually reviewed JPEGs; eight historical exclusions. Original24/
-  recovered55 re-inspected. IMAGE_AUDIT232 hashes/native UTC dates PASS;
+- 235 individually reviewed JPEGs; eight historical exclusions. Original24/
+  recovered55 re-inspected. IMAGE_AUDIT235 hashes/native UTC dates PASS;
   sixteen critical/eleven subarea required view sets PASS. Clipped/overlay/
   nonselected attempts preserved. View coverage never grants metric acceptance.
 - Scale2.54cm/native from two repeated inch-rangefinder anchors. UE=(2.54x,
   -2.54y,2.54z), inverse/length/native-right checks PASS. Phase2 editor/exporter
   roundtrip unverified. Unsaved Hammer128 calibration cube is not production.
 - 13 floor datums;54 Short/54 Tunnel stair samples;434 connector floor/cover/
-  cap points;363 calibrated feature measurements.126 local architectural chords
+  cap points;368 calibrated feature measurements.126 local architectural chords
   never become complete room rectangles or minimum full-route clearances.
 - Short12 rendered/native risers, rise234.3912cm/run359.6132cm sampled; nonuniform.
   Tunnel18 risers/18 local planes/36 independent offsets/16 tread-level widths;
@@ -194,11 +194,28 @@ B_jamb_boundaries_01 eight opposite-normal preflight stations completed/restored
 southY2050 has first concrete facesX-1376/-1232; northY2400X-1343.5/-1296.
 Y2150/2300 first Wood_Dense from both sides. Different southern return/northern
 facade depths stay explicit; no mixed-component body dimension accepted.
-ONE ACTIVE source controller: cs2_probe_endpoints.py with private
-b_frame_upper_preflight_10/config.json; output B_FRAME_UPPER_FIRST_FACES_PREFLIGHT_010.
-Four upper heights/two post locations/central header, opposing normal rays.
-Explicit native misses allowed as diagnostics without endpoints. Inspect partial
-report/status/restore before new source input; never rerun existing output.
+No active source pose/input controller. b_frame_upper_transitions_11 completed
+120 observations/restored exactly. Allsix opposing Y2110/2225/2300 upper
+first-Wood intervals[216.25,216.328125]native agree; numerical padded absolute
+source-referenced elevations549.2623..549.4861cm. Three upper elevation rows
+and two center opposed first-Wood chords atZ180/200 bring measurements to368.
+Header normals vary with height/components; local chords are not shared body
+thickness. B_FRAME_SECTIONS outputs rebuilt/rendered/inspected.
+b_frame_upper_preflight_10 completed48 observations/restored exactly. Z180/200
+Wood_Dense Hull normals vary by post/header; Z220 all three locations opposite
+Mesh concreteX-1344/-1296. Z240 side rays hit remote surfaces through air; center
+hits concrete crown Hull. No remote hit accepted as local timber top/body depth.
+tunnel_stair_camera_01 fit/hold serial native captures completed. Four original
+PNGs, three JPEGs and all18 marker crops individually inspected; duplicate held
+clean hash matches registered fit clean, preserved privately without extra count.
+TUNNEL_STAIR_OVERHEAD_0018fit/10 withheld max.43236px (fitmax.23266) accepted at
+exact[-1152,1088,160,p88.999908,y90,roll0], fixed-Z inverse checked. FloorZ-112.4
+extrapolates20.21native below marker Z range[-92.19,50]; side hitsZ-83.97..4.03
+inside range. Camera never grants full side/terminal boundaries or floor continuity.
+Initial clipped/crowded proposed hold layout rejected before capture; never run.
+Wrapper driver_recovery_001 restored exact pre-preview B-mouth target from
+B_FRAME_UPPER_MATERIAL_HEIGHT_TRANSITIONS_011; no movement/pose controller active.
+235 JPEG hashes/native dates PASS, eight historical exclusions unchanged.
 b_leaf_plane_height_holds_08 completed
 32 observations/restored exactly;16 fresh Z40/140 tangent/height directions
 pass Z80-only plane predictions (max.005native). B_LEAF_PLANES selects2fit points
@@ -238,7 +255,7 @@ few-pixel offset. No exact renderer/collision alignment accepted.
 
 B-wall calibration captures completed/restored exactly. Eight visually inspected
 fit markers and ten independent three-depth markers pass constrained native-pose
-projection (max held .43495px);232 individually reviewed JPEGs/hashes/native
+projection (max held .43495px);235 individually reviewed JPEGs/hashes/native
 dates PASS. Two absent marks excluded without invented pixels. Overlapping first
 hold layout and rejected full11parameter matrix (held1.17809px) retained. Clean
 wall view and native corner crops inspected; structural boundary acceptance

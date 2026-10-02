@@ -7,6 +7,10 @@ minimum passage or a shared wall-body extent. One persistent worker/controller.
 Optional normal_band_is_classifier explicitly distinguishes same-material
 first faces by their measured normal coordinates; such an interface can still
 be a leaf occlusion, not an exact fixed-post edge without independent review.
+Optional tangent_axis=2 varies ray height while the camera remains horizontal;
+each origin must declare fixed_lateral_native. The default tangent axis and
+fixed-height behavior are unchanged. First-material height bounds likewise
+require opposed-origin/component review; they are not hidden full-body tops.
 """
 import argparse,json,math,re
 from datetime import datetime,timezone
@@ -19,7 +23,9 @@ NUMBER=r'-?\d+(?:\.\d+)?'
 def probe(a):
     assert not a.output.exists(), 'Preserve partial/completed reports before separately named resume'
     config=json.loads(a.config.read_text());axis=config['normal_axis'];assert axis in [0,1]
-    height=config['height_native'];assert 0<config['maximum_bracket_native']<=.1
+    tangent=config.get('tangent_axis',1-axis);assert tangent in [1-axis,2]
+    if tangent!=2:height=config['height_native']
+    assert 0<config['maximum_bracket_native']<=.1
     report=dict(id=config['id'],source_build=config['build'],source_map='de_dust2',timestamp_utc=datetime.now(timezone.utc).isoformat(),config=config,unit='source_units',observations=[],brackets=[],status='in progress',scope=__doc__)
     serial=0
     def save():a.output.parent.mkdir(parents=True,exist_ok=True);a.output.write_text(json.dumps(report,indent=2)+'\n')
@@ -30,16 +36,19 @@ def probe(a):
         lines=[s.strip() for s in send('getpos_exact') if s.startswith('setpos_exact ')];assert len(lines)==1;return lines[0]
     def values(text):return [float(v) for v in re.findall(NUMBER,text)]
     def sample(origin,coordinate):
-        xyz=[0,0,height-64];xyz[axis]=origin['normal_coordinate'];xyz[1-axis]=coordinate;yaw=origin['yaw']
+        ray_height=coordinate if tangent==2 else height
+        xyz=[0,0,ray_height-64];xyz[axis]=origin['normal_coordinate']
+        xyz[1-axis]=origin['fixed_lateral_native'] if tangent==2 else coordinate
+        yaw=origin['yaw']
         assert yaw in ([0,180] if axis==0 else [90,-90]);pair=[]
         for repeat in [1,2]:
             send(f'setpos_exact {xyz[0]} {xyz[1]} {xyz[2]}; setang_exact 0 {yaw} 0');p=pose();v=values(p)
             assert len(v)==6 and max(abs(v[i]-xyz[i]) for i in range(3))<=.01 and abs(v[3])<=.01 and abs(v[5])<=.01 and abs((v[4]-yaw+180)%360-180)<=.01
             lines=send('cast_ray; rangefinder',.6);hits=[m for s in lines if (m:=re.search(r'Hit position: ('+NUMBER+r'), ('+NUMBER+r'), ('+NUMBER+r')',s))];surfaces=[s.strip() for s in lines if s.startswith('Hit:')];distances=[s.strip() for s in lines if s.startswith('DISTANCE:')];assert len(hits)==len(distances)==1 and surfaces
-            hit=[float(hits[0].group(i)) for i in [1,2,3]];eye=xyz[:2]+[height];distance=re.search(r'DISTANCE:\s+('+NUMBER+') inches',distances[0]);assert distance
+            hit=[float(hits[0].group(i)) for i in [1,2,3]];eye=xyz[:2]+[ray_height];distance=re.search(r'DISTANCE:\s+('+NUMBER+') inches',distances[0]);assert distance
             observation=dict(origin_id=origin['id'],requested_tangent=coordinate,repeat=repeat,pose=p,eye_origin=eye,hit=hit,surface=surfaces,rangefinder_reply=distances[0]);report['observations'].append(observation);pair.append(observation);save()
             assert math.dist(eye,hit)>.1, 'Own-origin collision; no endpoint accepted'
-            assert abs(float(distance.group(1))-math.dist(eye,hit))<=.02 and abs(hit[1-axis]-coordinate)<=.02 and abs(hit[2]-height)<=.02
+            assert abs(float(distance.group(1))-math.dist(eye,hit))<=.02 and abs(hit[1-axis]-eye[1-axis])<=.02 and abs(hit[2]-ray_height)<=.02
         assert pair[0]['hit']==pair[1]['hit'] and pair[0]['surface']==pair[1]['surface']
         description=str(pair[-1]['surface']);on='surfaceprop '+config['on_material']+',' in description and 'shape type: '+config['on_shape']+',' in description
         if config.get('normal_band_is_classifier'):
