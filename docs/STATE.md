@@ -30,7 +30,7 @@ preserve all raw captures, failed attempts and existing work/ directories.
   Phase 2 exporter/editor round-trip remains unverified. Unsaved Hammer128-unit
   cube is an agent-authored calibration fixture, not production or source geometry.
 - 13 repeated floor datums,54 Short floor samples,54 Tunnel stair floor samples,
-  89 connector floor/cover/cap points,136 calibrated feature measurements.
+  89 connector floor/cover/cap points,155 calibrated feature measurements.
   No continuous floors, room outlines or cover bounds inferred from point counts.
 - Short:12 rendered/native risers, individual nonuniform section spacing;
   sampled rise234.3912cm/run359.6132cm. SHORT_STAIR_* preserve endpoint limits.
@@ -88,23 +88,23 @@ the failed controller ends. Never accept a hit at the ray origin as a surface.
 
 ## Current recovery point and next work
 
-Previous pushed room checkpointe87d705:15 cardinal reports and two Spawn no-hit
-attempts registered, four local concrete room sections accepted. Full room
-footprints remain separate. All raw/private attempts are preserved.
+Previous pushed traversal checkpoint29e75af. No worker duplication; all old
+controllers ended. Passage section batch and8 column batch completed and
+restored exact640,-100,150p0y90; independently read back before next batch.
 
-Spawn parapet six floor-only points now registered in CONNECTOR_SURFACE_PROFILES;
-capY-640/-620 givesZ150.07/151.27, lower floorY-600..-560 givesZ1.74..1.25.
-Lower/cap sampled rise379.8062cm; Spawn approach/cap sampled rise102.3366cm.
-Two native images individually inspected and registered. Direct unsupported
-reverse atX-450 blocked twice atY-593.97, stable lower landingZ1.883;
-highest sampledZ57.684/57.664. No global reverse impossibility or partner claim.
+LOWER_PASSAGE_WALL_SECTIONS_001 and UPPER_B_PASSAGE_WALL_SECTIONS_001:
+11 reviewed local wall/cover sections plus8 repeated floor/first-overhead columns
+registered in ARCHITECTURAL_ENDPOINTS. LowerX1100 hits stair riser; X800 cover;
+UpperY1400/1800/2100/2200 cover/open-portal diagnostics retained. No full arch
+height, minimum clearance or hidden wall interpolation inferred.
+ARCHITECTURAL_SECTIONS.csv and ARCHITECTURAL_SURVEY_PLAN.svg derive43 reviewed
+horizontal chords,13 floor datums and column locations in two ray-height panels.
+Rendered/inspected: labels/grid clear, no lines certified as boundary walls.
 
-Pit unsupported reverse002 completed, matched001: wallX1571.97,Y500;
-highest sampledZ-37.383/-37.703, stable lower landingZ-93.136. Both attempts
-registered; alternate launch/partner scope remains separate. No active pose/input
-controller; restored640,-100,150p0y90 read back independently. Overlay visible.
-FOV90, HUD0/viewmodel0; r_drawpanorama1 restored after capture preflight.
-Native desktop observation still works; no worker duplication or asset extraction.
+Active serial XBOX_VISIBLE_FACE_SAMPLES_001: private xbox_faces_01 folder,
+repeated west/south/north rays atZ-50. East hidden joint at Catwalk wall unmeasured.
+Inspect process/latest report before another pose/input controller. New faces
+still private/unregistered; no full cover bbox or hidden side inferred.
 
 Next: remaining structural apertures/room spans/cover bounds and ramp profiles;
 full Tunnel side/terminal footprint; bounded other launch/partner scope;
@@ -121,6 +121,6 @@ policy; do not bypass/change it. Native PNG-to-reviewed-JPEG uses private PIL.
 
 Verification:34-edge/four-special topology evidence audit PASS for listed
 current-build connections,206-image hash audit,16 critical/11 subarea reviews, physical
-register136 rows, overhead/local calibration checks, Tunnel repeated-point,
+register155 rows, overhead/local calibration checks, Tunnel repeated-point,
 floor/face, opposite-ray/rangefinder and withheld-plane checks pass. Derived
-Short/Long/Tunnel/radar/overhead SVGs rendered and inspected. Gate1 still FAIL.
+Short/Long/Tunnel/radar/overhead/architectural-section SVGs rendered and inspected. Gate1 still FAIL.

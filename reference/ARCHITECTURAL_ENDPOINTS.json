@@ -23,7 +23,9 @@
           "surface": [
             "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82858"
           ],
-          "rangefinder_reply": "DISTANCE: 192.00 inches ( 16.00 feet)"
+          "rangefinder_reply": "DISTANCE: 192.00 inches ( 16.00 feet)",
+          "station_id": "PIT350",
+          "yaw": 0
         },
         {
           "side": "east",
@@ -37,7 +39,9 @@
           "surface": [
             "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82858"
           ],
-          "rangefinder_reply": "DISTANCE: 192.00 inches ( 16.00 feet)"
+          "rangefinder_reply": "DISTANCE: 192.00 inches ( 16.00 feet)",
+          "station_id": "PIT350",
+          "yaw": 0
         },
         {
           "side": "west",
@@ -51,7 +55,9 @@
           "surface": [
             "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82543"
           ],
-          "rangefinder_reply": "DISTANCE: 128.00 inches ( 10.67 feet)"
+          "rangefinder_reply": "DISTANCE: 128.00 inches ( 10.67 feet)",
+          "station_id": "PIT350",
+          "yaw": 180
         },
         {
           "side": "west",
@@ -65,11 +71,23 @@
           "surface": [
             "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 82543"
           ],
-          "rangefinder_reply": "DISTANCE: 128.00 inches ( 10.67 feet)"
+          "rangefinder_reply": "DISTANCE: 128.00 inches ( 10.67 feet)",
+          "station_id": "PIT350",
+          "yaw": 180
         }
       ],
       "review": "Opposing Pit side-wall concrete mesh faces at y350 z-90; corresponding visible retaining walls in Pit forward/reverse/side views. Cross-section only, not minimum route clearance.",
-      "id": "PIT_WALL_ENDPOINTS_001"
+      "id": "PIT_WALL_ENDPOINTS_001",
+      "accepted_sections": [
+        {
+          "id": "PIT_WALL_SECTION_350",
+          "station_id": "PIT350",
+          "axis": 0,
+          "feature": "Opposing Pit retaining-wall concrete collision faces at y350 z-90",
+          "confidence": "confirmed local collision wall section",
+          "notes": "Opposing Pit side-wall concrete mesh faces at y350 z-90; corresponding visible retaining walls in Pit forward/reverse/side views. Cross-section only, not minimum route clearance. No full footprint or minimum body clearance certification."
+        }
+      ]
     },
     {
       "id": "LONG_DOORS_CROSS_SECTIONS_001",
@@ -8946,6 +8964,2672 @@
       "private_raw_path": "../reference_cache/crash_recovery_survey/area_wall_sections_01/AREA_SECTION_OUTSIDE_LONG_001.json",
       "review": "North passes through both Long portals to Long Corner wall; south distant metalpanel. East/west concrete local endpoints await explicit wall-footprint review.",
       "accepted_sections": []
+    },
+    {
+      "id": "LOWER_PASSAGE_WALL_SECTIONS_001",
+      "source_build": "25640462",
+      "area": "Lower Tunnels / Mid",
+      "source_map": "de_dust2",
+      "timestamp_utc": "2026-10-02T04:05:52.828309+00:00",
+      "unit": "source_units",
+      "config": {
+        "id": "LOWER_PASSAGE_WALL_SECTIONS_001",
+        "area": "Lower Tunnels / Mid",
+        "stations": [
+          {
+            "id": "X1100",
+            "pose": [
+              -1100,
+              1450,
+              -112
+            ],
+            "yaws": [
+              90,
+              -90
+            ]
+          },
+          {
+            "id": "X1000",
+            "pose": [
+              -1000,
+              1450,
+              -112
+            ],
+            "yaws": [
+              90,
+              -90
+            ]
+          },
+          {
+            "id": "X900",
+            "pose": [
+              -900,
+              1450,
+              -112
+            ],
+            "yaws": [
+              90,
+              -90
+            ]
+          },
+          {
+            "id": "X800",
+            "pose": [
+              -800,
+              1450,
+              -112
+            ],
+            "yaws": [
+              90,
+              -90
+            ]
+          },
+          {
+            "id": "X700",
+            "pose": [
+              -700,
+              1450,
+              -112
+            ],
+            "yaws": [
+              90,
+              -90
+            ]
+          },
+          {
+            "id": "X600",
+            "pose": [
+              -600,
+              1450,
+              -112
+            ],
+            "yaws": [
+              90,
+              -90
+            ]
+          },
+          {
+            "id": "X550",
+            "pose": [
+              -550,
+              1450,
+              -112
+            ],
+            "yaws": [
+              90,
+              -90
+            ]
+          }
+        ],
+        "build": "25640462",
+        "scope": "Repeated local passage first-hit sections at body height. Concrete walls/jambs must be reviewed; cover/portal or own-origin hits never infer whole room or minimum route clearance."
+      },
+      "observations": [
+        {
+          "station_id": "X1100",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact -1100.000000 1450.000000 -112.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -1100,
+            1450,
+            -48
+          ],
+          "hit": [
+            -1100.0,
+            1536.0,
+            -48.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101104"
+          ],
+          "rangefinder_reply": "DISTANCE:  86.00 inches (  7.17 feet)"
+        },
+        {
+          "station_id": "X1100",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact -1100.000000 1450.000000 -112.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -1100,
+            1450,
+            -48
+          ],
+          "hit": [
+            -1100.0,
+            1536.0,
+            -48.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101104"
+          ],
+          "rangefinder_reply": "DISTANCE:  86.00 inches (  7.17 feet)"
+        },
+        {
+          "station_id": "X1100",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -1100.000000 1450.000000 -112.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1100,
+            1450,
+            -48
+          ],
+          "hit": [
+            -1100.0,
+            1127.03,
+            -48.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 322.97 inches ( 26.91 feet)"
+        },
+        {
+          "station_id": "X1100",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact -1100.000000 1450.000000 -112.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1100,
+            1450,
+            -48
+          ],
+          "hit": [
+            -1100.0,
+            1127.03,
+            -48.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 322.97 inches ( 26.91 feet)"
+        },
+        {
+          "station_id": "X1000",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact -1000.000000 1450.000000 -112.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -1000,
+            1450,
+            -48
+          ],
+          "hit": [
+            -1000.0,
+            1536.0,
+            -48.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101114"
+          ],
+          "rangefinder_reply": "DISTANCE:  86.00 inches (  7.17 feet)"
+        },
+        {
+          "station_id": "X1000",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact -1000.000000 1450.000000 -112.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -1000,
+            1450,
+            -48
+          ],
+          "hit": [
+            -1000.0,
+            1536.0,
+            -48.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101114"
+          ],
+          "rangefinder_reply": "DISTANCE:  86.00 inches (  7.17 feet)"
+        },
+        {
+          "station_id": "X1000",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -1000.000000 1450.000000 -112.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1000,
+            1450,
+            -48
+          ],
+          "hit": [
+            -1000.0,
+            1316.7,
+            -48.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 133.30 inches ( 11.11 feet)"
+        },
+        {
+          "station_id": "X1000",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact -1000.000000 1450.000000 -112.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1000,
+            1450,
+            -48
+          ],
+          "hit": [
+            -1000.0,
+            1316.7,
+            -48.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 133.30 inches ( 11.11 feet)"
+        },
+        {
+          "station_id": "X900",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact -900.000000 1450.000000 -112.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -900,
+            1450,
+            -48
+          ],
+          "hit": [
+            -900.0,
+            1536.0,
+            -48.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101481"
+          ],
+          "rangefinder_reply": "DISTANCE:  86.00 inches (  7.17 feet)"
+        },
+        {
+          "station_id": "X900",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact -900.000000 1450.000000 -112.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -900,
+            1450,
+            -48
+          ],
+          "hit": [
+            -900.0,
+            1536.0,
+            -48.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101481"
+          ],
+          "rangefinder_reply": "DISTANCE:  86.00 inches (  7.17 feet)"
+        },
+        {
+          "station_id": "X900",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -900.000000 1450.000000 -112.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -900,
+            1450,
+            -48
+          ],
+          "hit": [
+            -900.0,
+            1312.0,
+            -48.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101421"
+          ],
+          "rangefinder_reply": "DISTANCE: 138.00 inches ( 11.50 feet)"
+        },
+        {
+          "station_id": "X900",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact -900.000000 1450.000000 -112.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -900,
+            1450,
+            -48
+          ],
+          "hit": [
+            -900.0,
+            1312.0,
+            -48.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101421"
+          ],
+          "rangefinder_reply": "DISTANCE: 138.00 inches ( 11.50 feet)"
+        },
+        {
+          "station_id": "X800",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact -800.000000 1450.000000 -112.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -800,
+            1450,
+            -48
+          ],
+          "hit": [
+            -800.0,
+            1536.0,
+            -48.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101502"
+          ],
+          "rangefinder_reply": "DISTANCE:  86.00 inches (  7.17 feet)"
+        },
+        {
+          "station_id": "X800",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact -800.000000 1450.000000 -112.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -800,
+            1450,
+            -48
+          ],
+          "hit": [
+            -800.0,
+            1536.0,
+            -48.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101502"
+          ],
+          "rangefinder_reply": "DISTANCE:  86.00 inches (  7.17 feet)"
+        },
+        {
+          "station_id": "X800",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -800.000000 1450.000000 -112.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -800,
+            1450,
+            -48
+          ],
+          "hit": [
+            -800.0,
+            1384.89,
+            -48.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  65.11 inches (  5.43 feet)"
+        },
+        {
+          "station_id": "X800",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact -800.000000 1450.000000 -112.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -800,
+            1450,
+            -48
+          ],
+          "hit": [
+            -800.0,
+            1384.89,
+            -48.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  65.11 inches (  5.43 feet)"
+        },
+        {
+          "station_id": "X700",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact -700.000000 1450.000000 -112.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -700,
+            1450,
+            -48
+          ],
+          "hit": [
+            -700.0,
+            1536.0,
+            -48.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101507"
+          ],
+          "rangefinder_reply": "DISTANCE:  86.00 inches (  7.17 feet)"
+        },
+        {
+          "station_id": "X700",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact -700.000000 1450.000000 -112.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -700,
+            1450,
+            -48
+          ],
+          "hit": [
+            -700.0,
+            1536.0,
+            -48.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101507"
+          ],
+          "rangefinder_reply": "DISTANCE:  86.00 inches (  7.17 feet)"
+        },
+        {
+          "station_id": "X700",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -700.000000 1450.000000 -112.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -700,
+            1450,
+            -48
+          ],
+          "hit": [
+            -700.0,
+            1312.0,
+            -48.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101433"
+          ],
+          "rangefinder_reply": "DISTANCE: 138.00 inches ( 11.50 feet)"
+        },
+        {
+          "station_id": "X700",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact -700.000000 1450.000000 -112.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -700,
+            1450,
+            -48
+          ],
+          "hit": [
+            -700.0,
+            1312.0,
+            -48.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101433"
+          ],
+          "rangefinder_reply": "DISTANCE: 138.00 inches ( 11.50 feet)"
+        },
+        {
+          "station_id": "X600",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact -600.000000 1450.000000 -112.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -600,
+            1450,
+            -48
+          ],
+          "hit": [
+            -600.0,
+            1536.0,
+            -48.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 102123"
+          ],
+          "rangefinder_reply": "DISTANCE:  86.00 inches (  7.17 feet)"
+        },
+        {
+          "station_id": "X600",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact -600.000000 1450.000000 -112.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -600,
+            1450,
+            -48
+          ],
+          "hit": [
+            -600.0,
+            1536.0,
+            -48.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 102123"
+          ],
+          "rangefinder_reply": "DISTANCE:  86.00 inches (  7.17 feet)"
+        },
+        {
+          "station_id": "X600",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -600.000000 1450.000000 -112.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -600,
+            1450,
+            -48
+          ],
+          "hit": [
+            -600.0,
+            1312.0,
+            -48.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101820"
+          ],
+          "rangefinder_reply": "DISTANCE: 138.00 inches ( 11.50 feet)"
+        },
+        {
+          "station_id": "X600",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact -600.000000 1450.000000 -112.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -600,
+            1450,
+            -48
+          ],
+          "hit": [
+            -600.0,
+            1312.0,
+            -48.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101820"
+          ],
+          "rangefinder_reply": "DISTANCE: 138.00 inches ( 11.50 feet)"
+        },
+        {
+          "station_id": "X550",
+          "yaw": 90,
+          "repeat": 1,
+          "pose": "setpos_exact -550.000000 1450.000000 -112.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -550,
+            1450,
+            -48
+          ],
+          "hit": [
+            -550.0,
+            1536.0,
+            -48.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 102120"
+          ],
+          "rangefinder_reply": "DISTANCE:  86.00 inches (  7.17 feet)"
+        },
+        {
+          "station_id": "X550",
+          "yaw": 90,
+          "repeat": 2,
+          "pose": "setpos_exact -550.000000 1450.000000 -112.000000;setang_exact 0.000000 90.000000 0.000000",
+          "eye_origin": [
+            -550,
+            1450,
+            -48
+          ],
+          "hit": [
+            -550.0,
+            1536.0,
+            -48.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 102120"
+          ],
+          "rangefinder_reply": "DISTANCE:  86.00 inches (  7.17 feet)"
+        },
+        {
+          "station_id": "X550",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -550.000000 1450.000000 -112.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -550,
+            1450,
+            -48
+          ],
+          "hit": [
+            -550.0,
+            1312.0,
+            -48.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101828"
+          ],
+          "rangefinder_reply": "DISTANCE: 138.00 inches ( 11.50 feet)"
+        },
+        {
+          "station_id": "X550",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact -550.000000 1450.000000 -112.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -550,
+            1450,
+            -48
+          ],
+          "hit": [
+            -550.0,
+            1312.0,
+            -48.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 101828"
+          ],
+          "rangefinder_reply": "DISTANCE: 138.00 inches ( 11.50 feet)"
+        }
+      ],
+      "status": "complete; architectural interpretation pending",
+      "original_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "private_raw_path": "../reference_cache/crash_recovery_survey/tunnel_passage_sections_01/LOWER_PASSAGE_WALL_SECTIONS_001.json",
+      "accepted_sections": [
+        {
+          "id": "LOWER_WALL_SECTION_X1000",
+          "station_id": "X1000",
+          "axis": 1,
+          "feature": "Opposing concrete Lower passage wall section at X1000",
+          "confidence": "confirmed local collision section",
+          "notes": "QA_LOWTUN_G1_PX_001 and QA_LOWTUN_SIDE_RECOVERY_002 show continuous passage walls and south stacked cover. X1100 south hits stair riser8, excluded as passage wall width. X800 south Wood_Panel cover gives local horizontal cover/wall gap; other selected opposing concrete samples are local wall sections, not full arch or minimum body clearance. Source endpoint/eye Z retained. Cross-section only; no full width interpolation, whole-body clearance, aperture height or render offset certification."
+        },
+        {
+          "id": "LOWER_WALL_SECTION_X900",
+          "station_id": "X900",
+          "axis": 1,
+          "feature": "Opposing concrete Lower passage wall section at X900",
+          "confidence": "confirmed local collision section",
+          "notes": "QA_LOWTUN_G1_PX_001 and QA_LOWTUN_SIDE_RECOVERY_002 show continuous passage walls and south stacked cover. X1100 south hits stair riser8, excluded as passage wall width. X800 south Wood_Panel cover gives local horizontal cover/wall gap; other selected opposing concrete samples are local wall sections, not full arch or minimum body clearance. Source endpoint/eye Z retained. Cross-section only; no full width interpolation, whole-body clearance, aperture height or render offset certification."
+        },
+        {
+          "id": "LOWER_WALL_SECTION_X700",
+          "station_id": "X700",
+          "axis": 1,
+          "feature": "Opposing concrete Lower passage wall section at X700",
+          "confidence": "confirmed local collision section",
+          "notes": "QA_LOWTUN_G1_PX_001 and QA_LOWTUN_SIDE_RECOVERY_002 show continuous passage walls and south stacked cover. X1100 south hits stair riser8, excluded as passage wall width. X800 south Wood_Panel cover gives local horizontal cover/wall gap; other selected opposing concrete samples are local wall sections, not full arch or minimum body clearance. Source endpoint/eye Z retained. Cross-section only; no full width interpolation, whole-body clearance, aperture height or render offset certification."
+        },
+        {
+          "id": "LOWER_WALL_SECTION_X600",
+          "station_id": "X600",
+          "axis": 1,
+          "feature": "Opposing concrete Lower passage wall section at X600",
+          "confidence": "confirmed local collision section",
+          "notes": "QA_LOWTUN_G1_PX_001 and QA_LOWTUN_SIDE_RECOVERY_002 show continuous passage walls and south stacked cover. X1100 south hits stair riser8, excluded as passage wall width. X800 south Wood_Panel cover gives local horizontal cover/wall gap; other selected opposing concrete samples are local wall sections, not full arch or minimum body clearance. Source endpoint/eye Z retained. Cross-section only; no full width interpolation, whole-body clearance, aperture height or render offset certification."
+        },
+        {
+          "id": "LOWER_WALL_SECTION_X550",
+          "station_id": "X550",
+          "axis": 1,
+          "feature": "Opposing concrete Lower passage wall section at X550",
+          "confidence": "confirmed local collision section",
+          "notes": "QA_LOWTUN_G1_PX_001 and QA_LOWTUN_SIDE_RECOVERY_002 show continuous passage walls and south stacked cover. X1100 south hits stair riser8, excluded as passage wall width. X800 south Wood_Panel cover gives local horizontal cover/wall gap; other selected opposing concrete samples are local wall sections, not full arch or minimum body clearance. Source endpoint/eye Z retained. Cross-section only; no full width interpolation, whole-body clearance, aperture height or render offset certification."
+        },
+        {
+          "id": "LOWER_WALL_SECTION_X800",
+          "station_id": "X800",
+          "axis": 1,
+          "feature": "Lower passage concrete wall to wooden cover local gap at X800",
+          "confidence": "confirmed local collision section",
+          "notes": "QA_LOWTUN_G1_PX_001 and QA_LOWTUN_SIDE_RECOVERY_002 show continuous passage walls and south stacked cover. X1100 south hits stair riser8, excluded as passage wall width. X800 south Wood_Panel cover gives local horizontal cover/wall gap; other selected opposing concrete samples are local wall sections, not full arch or minimum body clearance. Source endpoint/eye Z retained. Cross-section only; no full width interpolation, whole-body clearance, aperture height or render offset certification."
+        }
+      ],
+      "review": "QA_LOWTUN_G1_PX_001 and QA_LOWTUN_SIDE_RECOVERY_002 show continuous passage walls and south stacked cover. X1100 south hits stair riser8, excluded as passage wall width. X800 south Wood_Panel cover gives local horizontal cover/wall gap; other selected opposing concrete samples are local wall sections, not full arch or minimum body clearance."
+    },
+    {
+      "id": "UPPER_B_PASSAGE_WALL_SECTIONS_001",
+      "source_build": "25640462",
+      "area": "Upper Tunnels / B exit",
+      "source_map": "de_dust2",
+      "timestamp_utc": "2026-10-02T04:06:56.804541+00:00",
+      "unit": "source_units",
+      "config": {
+        "id": "UPPER_B_PASSAGE_WALL_SECTIONS_001",
+        "area": "Upper Tunnels / B exit",
+        "stations": [
+          {
+            "id": "Y1400",
+            "pose": [
+              -1950,
+              1400,
+              31.38
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "Y1500",
+            "pose": [
+              -1950,
+              1500,
+              31.38
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "Y1600",
+            "pose": [
+              -1950,
+              1600,
+              31.38
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "Y1700",
+            "pose": [
+              -1950,
+              1700,
+              31.38
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "Y1800",
+            "pose": [
+              -1950,
+              1800,
+              31.38
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "Y1900",
+            "pose": [
+              -1950,
+              1900,
+              31.38
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "Y2000",
+            "pose": [
+              -1950,
+              2000,
+              31.38
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "Y2100",
+            "pose": [
+              -1950,
+              2100,
+              31.38
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          },
+          {
+            "id": "Y2200",
+            "pose": [
+              -1950,
+              2200,
+              31.38
+            ],
+            "yaws": [
+              0,
+              180
+            ]
+          }
+        ],
+        "build": "25640462",
+        "scope": "Repeated local passage first-hit sections at body height. Concrete walls/jambs must be reviewed; cover/portal or own-origin hits never infer whole room or minimum route clearance."
+      },
+      "observations": [
+        {
+          "station_id": "Y1400",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1950.000000 1400.000000 31.379999;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            1400,
+            95.38
+          ],
+          "hit": [
+            -1664.0,
+            1400.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 93060"
+          ],
+          "rangefinder_reply": "DISTANCE: 286.00 inches ( 23.83 feet)"
+        },
+        {
+          "station_id": "Y1400",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1950.000000 1400.000000 31.379999;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            1400,
+            95.38
+          ],
+          "hit": [
+            -1664.0,
+            1400.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 93060"
+          ],
+          "rangefinder_reply": "DISTANCE: 286.00 inches ( 23.83 feet)"
+        },
+        {
+          "station_id": "Y1400",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1950.000000 1400.000000 31.379999;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            1400,
+            95.38
+          ],
+          "hit": [
+            -2086.99,
+            1400.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 136.99 inches ( 11.42 feet)"
+        },
+        {
+          "station_id": "Y1400",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1950.000000 1400.000000 31.379999;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            1400,
+            95.38
+          ],
+          "hit": [
+            -2086.99,
+            1400.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 136.99 inches ( 11.42 feet)"
+        },
+        {
+          "station_id": "Y1500",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1950.000000 1500.000000 31.379999;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            1500,
+            95.38
+          ],
+          "hit": [
+            -1920.0,
+            1500.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 92932"
+          ],
+          "rangefinder_reply": "DISTANCE:  30.00 inches (  2.50 feet)"
+        },
+        {
+          "station_id": "Y1500",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1950.000000 1500.000000 31.379999;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            1500,
+            95.38
+          ],
+          "hit": [
+            -1920.0,
+            1500.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 92932"
+          ],
+          "rangefinder_reply": "DISTANCE:  30.00 inches (  2.50 feet)"
+        },
+        {
+          "station_id": "Y1500",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1950.000000 1500.000000 31.379999;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            1500,
+            95.38
+          ],
+          "hit": [
+            -2048.0,
+            1500.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 92915"
+          ],
+          "rangefinder_reply": "DISTANCE:  98.00 inches (  8.17 feet)"
+        },
+        {
+          "station_id": "Y1500",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1950.000000 1500.000000 31.379999;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            1500,
+            95.38
+          ],
+          "hit": [
+            -2048.0,
+            1500.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 92915"
+          ],
+          "rangefinder_reply": "DISTANCE:  98.00 inches (  8.17 feet)"
+        },
+        {
+          "station_id": "Y1600",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1950.000000 1600.000000 31.379999;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            1600,
+            95.38
+          ],
+          "hit": [
+            -1920.0,
+            1600.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95258"
+          ],
+          "rangefinder_reply": "DISTANCE:  30.00 inches (  2.50 feet)"
+        },
+        {
+          "station_id": "Y1600",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1950.000000 1600.000000 31.379999;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            1600,
+            95.38
+          ],
+          "hit": [
+            -1920.0,
+            1600.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95258"
+          ],
+          "rangefinder_reply": "DISTANCE:  30.00 inches (  2.50 feet)"
+        },
+        {
+          "station_id": "Y1600",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1950.000000 1600.000000 31.379999;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            1600,
+            95.38
+          ],
+          "hit": [
+            -2048.0,
+            1600.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95104"
+          ],
+          "rangefinder_reply": "DISTANCE:  98.00 inches (  8.17 feet)"
+        },
+        {
+          "station_id": "Y1600",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1950.000000 1600.000000 31.379999;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            1600,
+            95.38
+          ],
+          "hit": [
+            -2048.0,
+            1600.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95104"
+          ],
+          "rangefinder_reply": "DISTANCE:  98.00 inches (  8.17 feet)"
+        },
+        {
+          "station_id": "Y1700",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1950.000000 1700.000000 31.379999;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            1700,
+            95.38
+          ],
+          "hit": [
+            -1920.0,
+            1700.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95272"
+          ],
+          "rangefinder_reply": "DISTANCE:  30.00 inches (  2.50 feet)"
+        },
+        {
+          "station_id": "Y1700",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1950.000000 1700.000000 31.379999;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            1700,
+            95.38
+          ],
+          "hit": [
+            -1920.0,
+            1700.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95272"
+          ],
+          "rangefinder_reply": "DISTANCE:  30.00 inches (  2.50 feet)"
+        },
+        {
+          "station_id": "Y1700",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1950.000000 1700.000000 31.379999;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            1700,
+            95.38
+          ],
+          "hit": [
+            -2048.0,
+            1700.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95119"
+          ],
+          "rangefinder_reply": "DISTANCE:  98.00 inches (  8.17 feet)"
+        },
+        {
+          "station_id": "Y1700",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1950.000000 1700.000000 31.379999;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            1700,
+            95.38
+          ],
+          "hit": [
+            -2048.0,
+            1700.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95119"
+          ],
+          "rangefinder_reply": "DISTANCE:  98.00 inches (  8.17 feet)"
+        },
+        {
+          "station_id": "Y1800",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1950.000000 1800.000000 31.379999;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            1800,
+            95.38
+          ],
+          "hit": [
+            -1859.53,
+            1800.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop metalpanel, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  90.47 inches (  7.54 feet)"
+        },
+        {
+          "station_id": "Y1800",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1950.000000 1800.000000 31.379999;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            1800,
+            95.38
+          ],
+          "hit": [
+            -1859.53,
+            1800.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop metalpanel, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  90.47 inches (  7.54 feet)"
+        },
+        {
+          "station_id": "Y1800",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1950.000000 1800.000000 31.379999;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            1800,
+            95.38
+          ],
+          "hit": [
+            -2175.99,
+            1800.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95153"
+          ],
+          "rangefinder_reply": "DISTANCE: 225.99 inches ( 18.83 feet)"
+        },
+        {
+          "station_id": "Y1800",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1950.000000 1800.000000 31.379999;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            1800,
+            95.38
+          ],
+          "hit": [
+            -2175.99,
+            1800.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95153"
+          ],
+          "rangefinder_reply": "DISTANCE: 225.99 inches ( 18.83 feet)"
+        },
+        {
+          "station_id": "Y1900",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1950.000000 1900.000000 31.379999;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            1900,
+            95.38
+          ],
+          "hit": [
+            -1376.41,
+            1900.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 106081"
+          ],
+          "rangefinder_reply": "DISTANCE: 573.59 inches ( 47.80 feet)"
+        },
+        {
+          "station_id": "Y1900",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1950.000000 1900.000000 31.379999;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            1900,
+            95.38
+          ],
+          "hit": [
+            -1376.41,
+            1900.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 106081"
+          ],
+          "rangefinder_reply": "DISTANCE: 573.59 inches ( 47.80 feet)"
+        },
+        {
+          "station_id": "Y1900",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1950.000000 1900.000000 31.379999;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            1900,
+            95.38
+          ],
+          "hit": [
+            -2176.0,
+            1900.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95172"
+          ],
+          "rangefinder_reply": "DISTANCE: 226.00 inches ( 18.83 feet)"
+        },
+        {
+          "station_id": "Y1900",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1950.000000 1900.000000 31.379999;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            1900,
+            95.38
+          ],
+          "hit": [
+            -2176.0,
+            1900.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 95172"
+          ],
+          "rangefinder_reply": "DISTANCE: 226.00 inches ( 18.83 feet)"
+        },
+        {
+          "station_id": "Y2000",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1950.000000 2000.000000 31.379999;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            2000,
+            95.38
+          ],
+          "hit": [
+            -1376.0,
+            2000.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 106137"
+          ],
+          "rangefinder_reply": "DISTANCE: 574.00 inches ( 47.83 feet)"
+        },
+        {
+          "station_id": "Y2000",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1950.000000 2000.000000 31.379999;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            2000,
+            95.38
+          ],
+          "hit": [
+            -1376.0,
+            2000.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 106137"
+          ],
+          "rangefinder_reply": "DISTANCE: 574.00 inches ( 47.83 feet)"
+        },
+        {
+          "station_id": "Y2000",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1950.000000 2000.000000 31.379999;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            2000,
+            95.38
+          ],
+          "hit": [
+            -2176.0,
+            2000.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 96342"
+          ],
+          "rangefinder_reply": "DISTANCE: 226.00 inches ( 18.83 feet)"
+        },
+        {
+          "station_id": "Y2000",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1950.000000 2000.000000 31.379999;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            2000,
+            95.38
+          ],
+          "hit": [
+            -2176.0,
+            2000.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 96342"
+          ],
+          "rangefinder_reply": "DISTANCE: 226.00 inches ( 18.83 feet)"
+        },
+        {
+          "station_id": "Y2100",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1950.000000 2100.000000 31.379999;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            2100,
+            95.38
+          ],
+          "hit": [
+            -1344.0,
+            2100.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 109030"
+          ],
+          "rangefinder_reply": "DISTANCE: 606.00 inches ( 50.50 feet)"
+        },
+        {
+          "station_id": "Y2100",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1950.000000 2100.000000 31.379999;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            2100,
+            95.38
+          ],
+          "hit": [
+            -1344.0,
+            2100.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 109030"
+          ],
+          "rangefinder_reply": "DISTANCE: 606.00 inches ( 50.50 feet)"
+        },
+        {
+          "station_id": "Y2100",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1950.000000 2100.000000 31.379999;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            2100,
+            95.38
+          ],
+          "hit": [
+            -2201.07,
+            2100.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 251.07 inches ( 20.92 feet)"
+        },
+        {
+          "station_id": "Y2100",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1950.000000 2100.000000 31.379999;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            2100,
+            95.38
+          ],
+          "hit": [
+            -2201.07,
+            2100.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 251.07 inches ( 20.92 feet)"
+        },
+        {
+          "station_id": "Y2200",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1950.000000 2200.000000 31.379999;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            2200,
+            95.38
+          ],
+          "hit": [
+            -256.0,
+            2200.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 113521"
+          ],
+          "rangefinder_reply": "DISTANCE: 1694.00 inches (141.17 feet)"
+        },
+        {
+          "station_id": "Y2200",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1950.000000 2200.000000 31.379999;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            2200,
+            95.38
+          ],
+          "hit": [
+            -256.0,
+            2200.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 113521"
+          ],
+          "rangefinder_reply": "DISTANCE: 1694.00 inches (141.17 feet)"
+        },
+        {
+          "station_id": "Y2200",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1950.000000 2200.000000 31.379999;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            2200,
+            95.38
+          ],
+          "hit": [
+            -2201.07,
+            2200.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 251.07 inches ( 20.92 feet)"
+        },
+        {
+          "station_id": "Y2200",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1950.000000 2200.000000 31.379999;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1950,
+            2200,
+            95.38
+          ],
+          "hit": [
+            -2201.07,
+            2200.0,
+            95.38
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 251.07 inches ( 20.92 feet)"
+        }
+      ],
+      "status": "complete; architectural interpretation pending",
+      "original_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "private_raw_path": "../reference_cache/crash_recovery_survey/tunnel_passage_sections_01/UPPER_B_PASSAGE_WALL_SECTIONS_001.json",
+      "accepted_sections": [
+        {
+          "id": "UPPER_B_WALL_SECTION_Y1500",
+          "station_id": "Y1500",
+          "axis": 0,
+          "feature": "Opposing concrete Upper B corridor wall section at Y1500",
+          "confidence": "confirmed local collision section",
+          "notes": "QA_UPTUN_G1_PY_001 shows both narrow concrete corridor walls, wooden roof and end arches. Y1500..1700 local narrow wall sections accepted. QA_BSITE_REVERSE_RECOVERY_001 corroborates exterior approach walls atY1900/2000. Y1400 wooden chamber cover; Y1800 metal prop; Y2100 wooden cover; Y2200 east ray crosses B door opening to CT Mid. Those diagnostics do not establish passage width. Source endpoint/eye Z retained. Cross-section only; no full width interpolation, whole-body clearance, aperture height or render offset certification."
+        },
+        {
+          "id": "UPPER_B_WALL_SECTION_Y1600",
+          "station_id": "Y1600",
+          "axis": 0,
+          "feature": "Opposing concrete Upper B corridor wall section at Y1600",
+          "confidence": "confirmed local collision section",
+          "notes": "QA_UPTUN_G1_PY_001 shows both narrow concrete corridor walls, wooden roof and end arches. Y1500..1700 local narrow wall sections accepted. QA_BSITE_REVERSE_RECOVERY_001 corroborates exterior approach walls atY1900/2000. Y1400 wooden chamber cover; Y1800 metal prop; Y2100 wooden cover; Y2200 east ray crosses B door opening to CT Mid. Those diagnostics do not establish passage width. Source endpoint/eye Z retained. Cross-section only; no full width interpolation, whole-body clearance, aperture height or render offset certification."
+        },
+        {
+          "id": "UPPER_B_WALL_SECTION_Y1700",
+          "station_id": "Y1700",
+          "axis": 0,
+          "feature": "Opposing concrete Upper B corridor wall section at Y1700",
+          "confidence": "confirmed local collision section",
+          "notes": "QA_UPTUN_G1_PY_001 shows both narrow concrete corridor walls, wooden roof and end arches. Y1500..1700 local narrow wall sections accepted. QA_BSITE_REVERSE_RECOVERY_001 corroborates exterior approach walls atY1900/2000. Y1400 wooden chamber cover; Y1800 metal prop; Y2100 wooden cover; Y2200 east ray crosses B door opening to CT Mid. Those diagnostics do not establish passage width. Source endpoint/eye Z retained. Cross-section only; no full width interpolation, whole-body clearance, aperture height or render offset certification."
+        },
+        {
+          "id": "UPPER_B_WALL_SECTION_Y1900",
+          "station_id": "Y1900",
+          "axis": 0,
+          "feature": "Opposing concrete B courtyard approach wall section at Y1900",
+          "confidence": "confirmed local collision section",
+          "notes": "QA_UPTUN_G1_PY_001 shows both narrow concrete corridor walls, wooden roof and end arches. Y1500..1700 local narrow wall sections accepted. QA_BSITE_REVERSE_RECOVERY_001 corroborates exterior approach walls atY1900/2000. Y1400 wooden chamber cover; Y1800 metal prop; Y2100 wooden cover; Y2200 east ray crosses B door opening to CT Mid. Those diagnostics do not establish passage width. Source endpoint/eye Z retained. Cross-section only; no full width interpolation, whole-body clearance, aperture height or render offset certification."
+        },
+        {
+          "id": "UPPER_B_WALL_SECTION_Y2000",
+          "station_id": "Y2000",
+          "axis": 0,
+          "feature": "Opposing concrete B courtyard approach wall section at Y2000",
+          "confidence": "confirmed local collision section",
+          "notes": "QA_UPTUN_G1_PY_001 shows both narrow concrete corridor walls, wooden roof and end arches. Y1500..1700 local narrow wall sections accepted. QA_BSITE_REVERSE_RECOVERY_001 corroborates exterior approach walls atY1900/2000. Y1400 wooden chamber cover; Y1800 metal prop; Y2100 wooden cover; Y2200 east ray crosses B door opening to CT Mid. Those diagnostics do not establish passage width. Source endpoint/eye Z retained. Cross-section only; no full width interpolation, whole-body clearance, aperture height or render offset certification."
+        }
+      ],
+      "review": "QA_UPTUN_G1_PY_001 shows both narrow concrete corridor walls, wooden roof and end arches. Y1500..1700 local narrow wall sections accepted. QA_BSITE_REVERSE_RECOVERY_001 corroborates exterior approach walls atY1900/2000. Y1400 wooden chamber cover; Y1800 metal prop; Y2100 wooden cover; Y2200 east ray crosses B door opening to CT Mid. Those diagnostics do not establish passage width."
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:09:02.381801+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "LOWER tunnel passage",
+      "unit": "source_units",
+      "target_xy": [
+        -1000.0,
+        1450.0
+      ],
+      "probe_player_z": -80.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1000.000000 1386.009766 -80.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1000.0,
+            1450.6,
+            -113.06
+          ],
+          "xy_error": 0.599999999999909,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 101338"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1000.000000 1385.409790 -80.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1000.0,
+            1450.0,
+            -113.08
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 101338"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1000.000000 1385.409790 -80.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1000.0,
+            1450.0,
+            -113.08
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 101338"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1000.000000 1513.990234 -80.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -1000.0,
+            1453.69,
+            132.42
+          ],
+          "xy_error": 3.6900000000000546,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1000.000000 1510.300293 -80.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -1000.0,
+            1450.0,
+            132.42
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1000.000000 1510.300293 -80.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -1000.0,
+            1450.0,
+            132.42
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1000.0,
+          1450.0,
+          -113.08
+        ],
+        "ceiling": [
+          -1000.0,
+          1450.0,
+          132.42
+        ]
+      },
+      "endpoint_xy_separation": 0.0,
+      "native_vertical_separation": 245.5,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "LOWER_PASSAGE_X1000_Y1450_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/tunnel_passage_columns_01/LOWER_PASSAGE_X1000_Y1450_001.json",
+      "review": "Repeated collision floor / first Wood overhead roof or beam hull, within tested rotating camera-up model. Native Lower/Upper passage images show roof/slats/beams; exact decorative render offset and minimum height between columns remain unmeasured.",
+      "accepted_columns": [
+        {
+          "id": "LOWER_PASSAGE_X1000_Y1450_001_HEIGHT",
+          "feature": "Local tunnel passage floor to first wooden overhead collision hull",
+          "confidence": "confirmed sampled collision column",
+          "notes": "QA_LOWTUN_G1_PX_001/QA_LOWTUN_SIDE_RECOVERY_002 or QA_UPTUN_G1_PY_001 show floor and wooden roof context. Explicit same-XY repeated endpoints; local height, not complete arch aperture or whole route minimum ceiling."
+        }
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:10:04.219982+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "LOWER tunnel passage",
+      "unit": "source_units",
+      "target_xy": [
+        -550.0,
+        1450.0
+      ],
+      "probe_player_z": -80.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -550.000000 1386.009766 -80.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -550.0,
+            1450.6,
+            -112.98
+          ],
+          "xy_error": 0.599999999999909,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 102054"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -550.000000 1385.409790 -80.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -550.0,
+            1450.0,
+            -113.01
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 102054"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -550.000000 1385.409790 -80.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -550.0,
+            1450.0,
+            -113.01
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 102054"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -550.000000 1513.990234 -80.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -550.0,
+            1453.69,
+            132.42
+          ],
+          "xy_error": 3.6900000000000546,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -550.000000 1510.300293 -80.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -550.0,
+            1450.0,
+            132.42
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -550.000000 1510.300293 -80.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -550.0,
+            1450.0,
+            132.42
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -550.0,
+          1450.0,
+          -113.01
+        ],
+        "ceiling": [
+          -550.0,
+          1450.0,
+          132.42
+        ]
+      },
+      "endpoint_xy_separation": 0.0,
+      "native_vertical_separation": 245.43,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "LOWER_PASSAGE_X550_Y1450_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/tunnel_passage_columns_01/LOWER_PASSAGE_X550_Y1450_001.json",
+      "review": "Repeated collision floor / first Wood overhead roof or beam hull, within tested rotating camera-up model. Native Lower/Upper passage images show roof/slats/beams; exact decorative render offset and minimum height between columns remain unmeasured.",
+      "accepted_columns": [
+        {
+          "id": "LOWER_PASSAGE_X550_Y1450_001_HEIGHT",
+          "feature": "Local tunnel passage floor to first wooden overhead collision hull",
+          "confidence": "confirmed sampled collision column",
+          "notes": "QA_LOWTUN_G1_PX_001/QA_LOWTUN_SIDE_RECOVERY_002 or QA_UPTUN_G1_PY_001 show floor and wooden roof context. Explicit same-XY repeated endpoints; local height, not complete arch aperture or whole route minimum ceiling."
+        }
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:09:48.969771+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "LOWER tunnel passage",
+      "unit": "source_units",
+      "target_xy": [
+        -600.0,
+        1450.0
+      ],
+      "probe_player_z": -80.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -600.000000 1386.009766 -80.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -600.0,
+            1450.62,
+            -114.28
+          ],
+          "xy_error": 0.6199999999998909,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 102029"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -600.000000 1385.389771 -80.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -600.0,
+            1450.0,
+            -114.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 102029"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -600.000000 1385.389771 -80.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -600.0,
+            1450.0,
+            -114.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 102029"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -600.000000 1513.990234 -80.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -600.0,
+            1453.69,
+            132.42
+          ],
+          "xy_error": 3.6900000000000546,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -600.000000 1510.300293 -80.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -600.0,
+            1450.0,
+            132.42
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -600.000000 1510.300293 -80.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -600.0,
+            1450.0,
+            132.42
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -600.0,
+          1450.0,
+          -114.28
+        ],
+        "ceiling": [
+          -600.0,
+          1450.0,
+          132.42
+        ]
+      },
+      "endpoint_xy_separation": 0.0,
+      "native_vertical_separation": 246.7,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "LOWER_PASSAGE_X600_Y1450_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/tunnel_passage_columns_01/LOWER_PASSAGE_X600_Y1450_001.json",
+      "review": "Repeated collision floor / first Wood overhead roof or beam hull, within tested rotating camera-up model. Native Lower/Upper passage images show roof/slats/beams; exact decorative render offset and minimum height between columns remain unmeasured.",
+      "accepted_columns": [
+        {
+          "id": "LOWER_PASSAGE_X600_Y1450_001_HEIGHT",
+          "feature": "Local tunnel passage floor to first wooden overhead collision hull",
+          "confidence": "confirmed sampled collision column",
+          "notes": "QA_LOWTUN_G1_PX_001/QA_LOWTUN_SIDE_RECOVERY_002 or QA_UPTUN_G1_PY_001 show floor and wooden roof context. Explicit same-XY repeated endpoints; local height, not complete arch aperture or whole route minimum ceiling."
+        }
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:09:33.217062+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "LOWER tunnel passage",
+      "unit": "source_units",
+      "target_xy": [
+        -700.0,
+        1450.0
+      ],
+      "probe_player_z": -80.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -700.000000 1386.009766 -80.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -700.0,
+            1450.61,
+            -113.61
+          ],
+          "xy_error": 0.6099999999999,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 101391"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -700.000000 1385.399780 -80.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -700.0,
+            1450.0,
+            -113.61
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 101391"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -700.000000 1385.399780 -80.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -700.0,
+            1450.0,
+            -113.61
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 101391"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -700.000000 1513.990234 -80.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -700.0,
+            1453.69,
+            132.42
+          ],
+          "xy_error": 3.6900000000000546,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -700.000000 1510.300293 -80.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -700.0,
+            1450.0,
+            132.42
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -700.000000 1510.300293 -80.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -700.0,
+            1450.0,
+            132.42
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -700.0,
+          1450.0,
+          -113.61
+        ],
+        "ceiling": [
+          -700.0,
+          1450.0,
+          132.42
+        ]
+      },
+      "endpoint_xy_separation": 0.0,
+      "native_vertical_separation": 246.02999999999997,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "LOWER_PASSAGE_X700_Y1450_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/tunnel_passage_columns_01/LOWER_PASSAGE_X700_Y1450_001.json",
+      "review": "Repeated collision floor / first Wood overhead roof or beam hull, within tested rotating camera-up model. Native Lower/Upper passage images show roof/slats/beams; exact decorative render offset and minimum height between columns remain unmeasured.",
+      "accepted_columns": [
+        {
+          "id": "LOWER_PASSAGE_X700_Y1450_001_HEIGHT",
+          "feature": "Local tunnel passage floor to first wooden overhead collision hull",
+          "confidence": "confirmed sampled collision column",
+          "notes": "QA_LOWTUN_G1_PX_001/QA_LOWTUN_SIDE_RECOVERY_002 or QA_UPTUN_G1_PY_001 show floor and wooden roof context. Explicit same-XY repeated endpoints; local height, not complete arch aperture or whole route minimum ceiling."
+        }
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:09:17.970592+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "LOWER tunnel passage",
+      "unit": "source_units",
+      "target_xy": [
+        -900.0,
+        1450.0
+      ],
+      "probe_player_z": -80.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -900.000000 1386.009766 -80.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -900.0,
+            1450.6,
+            -112.98
+          ],
+          "xy_error": 0.599999999999909,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 101339"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -900.000000 1385.409790 -80.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -900.0,
+            1449.99,
+            -112.97
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 101339"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -900.000000 1385.409790 -80.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -900.0,
+            1449.99,
+            -112.97
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 101339"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -900.000000 1513.990234 -80.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -900.0,
+            1453.69,
+            132.42
+          ],
+          "xy_error": 3.6900000000000546,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -900.000000 1510.300293 -80.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -900.0,
+            1450.0,
+            132.42
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -900.000000 1510.300293 -80.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -900.0,
+            1450.0,
+            132.42
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -900.0,
+          1449.99,
+          -112.97
+        ],
+        "ceiling": [
+          -900.0,
+          1450.0,
+          132.42
+        ]
+      },
+      "endpoint_xy_separation": 0.009999999999990905,
+      "native_vertical_separation": 245.39,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "LOWER_PASSAGE_X900_Y1450_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/tunnel_passage_columns_01/LOWER_PASSAGE_X900_Y1450_001.json",
+      "review": "Repeated collision floor / first Wood overhead roof or beam hull, within tested rotating camera-up model. Native Lower/Upper passage images show roof/slats/beams; exact decorative render offset and minimum height between columns remain unmeasured.",
+      "accepted_columns": [
+        {
+          "id": "LOWER_PASSAGE_X900_Y1450_001_HEIGHT",
+          "feature": "Local tunnel passage floor to first wooden overhead collision hull",
+          "confidence": "confirmed sampled collision column",
+          "notes": "QA_LOWTUN_G1_PX_001/QA_LOWTUN_SIDE_RECOVERY_002 or QA_UPTUN_G1_PY_001 show floor and wooden roof context. Explicit same-XY repeated endpoints; local height, not complete arch aperture or whole route minimum ceiling."
+        }
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:10:19.767721+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "UPPER_B tunnel passage",
+      "unit": "source_units",
+      "target_xy": [
+        -1984.0,
+        1500.0
+      ],
+      "probe_player_z": 70.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -2047.990234 1500.000000 70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1983.28,
+            1500.0,
+            29.96
+          ],
+          "xy_error": 0.7200000000000273,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 92908"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -2048.710205 1500.000000 70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1500.0,
+            29.91
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 92895"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -2048.710205 1500.000000 70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1500.0,
+            29.91
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 92895"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1920.009766 1500.000000 70.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -1980.95,
+            1500.0,
+            245.61
+          ],
+          "xy_error": 3.0499999999999545,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1923.059692 1500.000000 70.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1500.0,
+            245.61
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1923.059692 1500.000000 70.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1500.0,
+            245.61
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1984.0,
+          1500.0,
+          29.91
+        ],
+        "ceiling": [
+          -1984.0,
+          1500.0,
+          245.61
+        ]
+      },
+      "endpoint_xy_separation": 0.0,
+      "native_vertical_separation": 215.70000000000002,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "UPPER_B_PASSAGE_X1984_Y1500_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/tunnel_passage_columns_01/UPPER_B_PASSAGE_X1984_Y1500_001.json",
+      "review": "Repeated collision floor / first Wood overhead roof or beam hull, within tested rotating camera-up model. Native Lower/Upper passage images show roof/slats/beams; exact decorative render offset and minimum height between columns remain unmeasured.",
+      "accepted_columns": [
+        {
+          "id": "UPPER_B_PASSAGE_X1984_Y1500_001_HEIGHT",
+          "feature": "Local tunnel passage floor to first wooden overhead collision hull",
+          "confidence": "confirmed sampled collision column",
+          "notes": "QA_LOWTUN_G1_PX_001/QA_LOWTUN_SIDE_RECOVERY_002 or QA_UPTUN_G1_PY_001 show floor and wooden roof context. Explicit same-XY repeated endpoints; local height, not complete arch aperture or whole route minimum ceiling."
+        }
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:10:35.319979+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "UPPER_B tunnel passage",
+      "unit": "source_units",
+      "target_xy": [
+        -1984.0,
+        1600.0
+      ],
+      "probe_player_z": 70.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -2047.990234 1600.000000 70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1983.29,
+            1600.0,
+            30.66
+          ],
+          "xy_error": 0.7100000000000364,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 92909"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -2048.700195 1600.000000 70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1600.0,
+            30.6
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 92902"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -2048.700195 1600.000000 70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1600.0,
+            30.6
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop tile, contents 400004c1, shape type: Mesh, face: 92902"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1920.009766 1600.000000 70.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -1980.95,
+            1600.0,
+            245.61
+          ],
+          "xy_error": 3.0499999999999545,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1923.059692 1600.000000 70.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1600.0,
+            245.61
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1923.059692 1600.000000 70.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1600.0,
+            245.61
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1984.0,
+          1600.0,
+          30.6
+        ],
+        "ceiling": [
+          -1984.0,
+          1600.0,
+          245.61
+        ]
+      },
+      "endpoint_xy_separation": 0.0,
+      "native_vertical_separation": 215.01000000000002,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "UPPER_B_PASSAGE_X1984_Y1600_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/tunnel_passage_columns_01/UPPER_B_PASSAGE_X1984_Y1600_001.json",
+      "review": "Repeated collision floor / first Wood overhead roof or beam hull, within tested rotating camera-up model. Native Lower/Upper passage images show roof/slats/beams; exact decorative render offset and minimum height between columns remain unmeasured.",
+      "accepted_columns": [
+        {
+          "id": "UPPER_B_PASSAGE_X1984_Y1600_001_HEIGHT",
+          "feature": "Local tunnel passage floor to first wooden overhead collision hull",
+          "confidence": "confirmed sampled collision column",
+          "notes": "QA_LOWTUN_G1_PX_001/QA_LOWTUN_SIDE_RECOVERY_002 or QA_UPTUN_G1_PY_001 show floor and wooden roof context. Explicit same-XY repeated endpoints; local height, not complete arch aperture or whole route minimum ceiling."
+        }
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:10:51.171475+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "UPPER_B tunnel passage",
+      "unit": "source_units",
+      "target_xy": [
+        -1984.0,
+        1700.0
+      ],
+      "probe_player_z": 70.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -2047.990234 1700.000000 70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1983.3,
+            1700.0,
+            30.83
+          ],
+          "xy_error": 0.7000000000000455,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 94418"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -2048.690186 1700.000000 70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1700.0,
+            30.83
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 94418"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -2048.690186 1700.000000 70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1700.0,
+            30.83
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 94418"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1920.009766 1700.000000 70.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -1980.95,
+            1700.0,
+            245.61
+          ],
+          "xy_error": 3.0499999999999545,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1923.059692 1700.000000 70.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1700.0,
+            245.61
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1923.059692 1700.000000 70.000000;setang_exact -88.999901 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1700.0,
+            245.61
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1984.0,
+          1700.0,
+          30.83
+        ],
+        "ceiling": [
+          -1984.0,
+          1700.0,
+          245.61
+        ]
+      },
+      "endpoint_xy_separation": 0.0,
+      "native_vertical_separation": 214.78000000000003,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "UPPER_B_PASSAGE_X1984_Y1700_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/tunnel_passage_columns_01/UPPER_B_PASSAGE_X1984_Y1700_001.json",
+      "review": "Repeated collision floor / first Wood overhead roof or beam hull, within tested rotating camera-up model. Native Lower/Upper passage images show roof/slats/beams; exact decorative render offset and minimum height between columns remain unmeasured.",
+      "accepted_columns": [
+        {
+          "id": "UPPER_B_PASSAGE_X1984_Y1700_001_HEIGHT",
+          "feature": "Local tunnel passage floor to first wooden overhead collision hull",
+          "confidence": "confirmed sampled collision column",
+          "notes": "QA_LOWTUN_G1_PX_001/QA_LOWTUN_SIDE_RECOVERY_002 or QA_UPTUN_G1_PY_001 show floor and wooden roof context. Explicit same-XY repeated endpoints; local height, not complete arch aperture or whole route minimum ceiling."
+        }
+      ]
     }
   ],
   "rejected_attempts": [

@@ -153,3 +153,8 @@ failed no-hit attempts remain rejected evidence with exact restore records.
 Listed-route topology is audited by scripts/audit_route_topology.py against
 WALK_PROBES/TRAVERSAL_PROBES. Unsupported reverse jumps at surveyed crossings
 are direction-specific tests, never exhaustive alternate-launch/boost absence.
+
+ARCHITECTURAL_SECTIONS.csv and ARCHITECTURAL_SURVEY_PLAN.svg derive explicit
+reviewed local horizontal chords, floor datums and column locations. Ray-height
+panels are evidence grouping, not certified floor stories. Lines cross open space;
+never reinterpret them as walls/polygon edges or full footprint acceptance.

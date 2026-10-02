@@ -204,3 +204,9 @@ all34 listed edges/four specials and writes evidence/TOPOLOGY_AUDIT.json. Run
 it after direction/evidence changes. Collision/no-route-teleport/cleanup checks
 supplement manual landing review; it never infers untested launches or grants
 dimensional/footprint acceptance. Two-direction paths explicitly carry direction.
+
+build_architectural_survey_plan.py validates repeated explicit accepted_sections,
+converts endpoint XYZ/chord lengths and draws ray-height panels with floor/column
+points. Rebuild and render/inspect after endpoint changes. It produces no inferred
+wall edges or continuous footprint. accepted_columns require separate local
+surface review; first overhead Wood can be roof/beam, not minimum route height.
