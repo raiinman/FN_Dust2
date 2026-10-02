@@ -30,7 +30,7 @@ preserve all raw captures, failed attempts and existing work/ directories.
   Phase 2 exporter/editor round-trip remains unverified. Unsaved Hammer128-unit
   cube is an agent-authored calibration fixture, not production or source geometry.
 - 13 repeated floor datums,54 Short floor samples,54 Tunnel stair floor samples,
-  83 connector floor/cover/cap points,130 calibrated feature measurements.
+  83 connector floor/cover/cap points,134 calibrated feature measurements.
   No continuous floors, room outlines or cover bounds inferred from point counts.
 - Short:12 rendered/native risers, individual nonuniform section spacing;
   sampled rise234.3912cm/run359.6132cm. SHORT_STAIR_* preserve endpoint limits.
@@ -87,7 +87,7 @@ the failed controller ends. Never accept a hit at the ray origin as a surface.
 
 ## Current recovery point and next work
 
-No pose/input controller active at this checkpoint. Current source camera
+At pushed checkpoint44ed4c0 all prior controllers had ended. Restored source camera
 (640,-100,150,p0,y90), FOV90, noclip1, debug overlays visible, movement released.
 Tunnel floor batches01/02 stopped at exact corner(-1100,1100); batch03 completed.
 Original entry own-origin hits excluded/resampled atZ-40. Native own-origin guard
@@ -96,10 +96,19 @@ HighZ70 wall diagnostics cross above inner platform into Upper chamber and do
 not establish stair widths. Low radial/straight widths independently measured.
 Low south count001 obstructed; replacement002 and west001 inspected/registered.
 
-Prepared private probe_area_wall_sections_01.py has NOT launched at this
-checkpoint. Inspect live processes/latest raw reports before launching or resuming.
-It measures four cardinal first hits at known stations; covers or neighboring
-areas can shorten/extend a ray. Every section needs explicit architectural review.
+Room batches01/02 ended:15 complete reports and two T Spawn no-hit failures
+registered in ARCHITECTURAL_ENDPOINTS. Both failed helpers restored original
+camera exactly; no automatic restart. Four reviewed concrete room sections
+accepted (CT two, B one, Long chamber one). Cover/open-portal/cross-area rays
+retain interpretation limits; no continuous footprint certified.
+
+Spawn floor-only batch completed six repeated points atX-450,Y-660..-560.
+Private spawn_parapet_01 reports not registered yet. CapY-640/-620 gives
+Z150.07/151.27; lower floorY-600..-560 givesZ1.74..1.25.
+test_spawn_reverse.py completed two unsupported direct reverse jumps; both
+blocked atY-593.97 with lower stable landingZ1.883. Highest sampledZ57.684/57.664.
+Attempts and six floor points still private/unregistered; review before topology
+acceptance. All pose controllers ended; source camera restored640,-100,150p0y90.
 
 Next: remaining structural apertures/room spans/cover bounds and ramp profiles;
 full Tunnel side/terminal footprint; direct reverse E11/E27 classification;
@@ -115,6 +124,6 @@ build/map unchanged. No bot remains. Private plotting dependencies in
 policy; do not bypass/change it. Native PNG-to-reviewed-JPEG uses private PIL.
 
 Verification:204-image hash audit,16 critical/11 subarea reviews, physical
-register130 rows, overhead/local calibration checks, Tunnel repeated-point,
+register134 rows, overhead/local calibration checks, Tunnel repeated-point,
 floor/face, opposite-ray/rangefinder and withheld-plane checks pass. Derived
 Short/Long/Tunnel/radar/overhead SVGs rendered and inspected. Gate1 still FAIL.
