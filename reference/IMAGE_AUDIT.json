@@ -1,8 +1,8 @@
 {
   "review_date": "2026-10-02",
   "source_build": "25640462",
-  "registered_images": 220,
-  "native_timestamp_dates_checked": 220,
+  "registered_images": 222,
+  "native_timestamp_dates_checked": 222,
   "coverage_excluded": 8,
   "complete_areas": 16,
   "complete_subareas": 11,
@@ -2432,6 +2432,22 @@
       "sha256": "97bd8ec1dc1439a657a1ea60144f327796b13604bf4bea09357fab15bcea7d2f",
       "coverage_status": "PARTIAL",
       "review": "Clean full-resolution CT-side Mid portal view. Full curved timber header, both angled leaves, threshold and adjoining masonry visible. Portal context only; sides continue beyond crop. Header clearance measured independently, not read from uncalibrated pixels."
+    },
+    {
+      "id": "QA_B_PORTAL_INSIDE_DETAIL_001",
+      "area": "B Doors",
+      "image": "reference/images/b_doors/QA_B_PORTAL_INSIDE_DETAIL_001.jpg",
+      "sha256": "b643df9685bfc3034bfc283deea6be41ae9d9304151a5354917f8a7afd1bdfb1",
+      "coverage_status": "PARTIAL",
+      "review": "Clean full-resolution B-side view; both leaves, curved timber assembly and threshold fully framed. Barrels complete; outer facade continues beyond crop. No full site, wall footprint or minimum-body envelope claim."
+    },
+    {
+      "id": "QA_B_PORTAL_OUTSIDE_DETAIL_001",
+      "area": "B Doors",
+      "image": "reference/images/b_doors/QA_B_PORTAL_OUTSIDE_DETAIL_001.jpg",
+      "sha256": "51cc5a58b61d3486bf500d49598775303fd684aa798adf1f5454be2d0f7447f3",
+      "coverage_status": "PARTIAL",
+      "review": "Clean full-resolution CT-side view; both leaves, timber curve and threshold fully framed. Foreground left crate and upper battlement crop are context limits; target unobstructed. Component assignment uses independent collision evidence, not uncalibrated pixels."
     }
   ]
 }

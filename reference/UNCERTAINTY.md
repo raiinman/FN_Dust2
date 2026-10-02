@@ -147,3 +147,6 @@ JPEGs; IMAGE_AUDIT checks all220 hashes and native dates.21 placeholder manifest
 dates corrected against original UTC captures; original images/poses/hashes
 preserved. Coverage matrix reconciled to accepted traversal/metric progress;
 all complete structural coverage still FAIL. Gate1 remains FAIL.
+
+
+B Doors: three repeated local floor/first-timber columns, one independent old-height repeat; two new heights and two outside-origin north masonry spans120.65cm recorded. Two clean inside/outside detail JPEGs individually inspected. Exact timber beam-versus-leaf identity, complete aperture/body envelope and full site footprint remain unresolved.251 calibrated measurements,222 registered JPEGs; all hashes/native dates checked. Gate1 remains FAIL.

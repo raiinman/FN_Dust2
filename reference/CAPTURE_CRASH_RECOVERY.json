@@ -4431,6 +4431,60 @@
       "jpeg_sha256": "97bd8ec1dc1439a657a1ea60144f327796b13604bf4bea09357fab15bcea7d2f",
       "fov_cs_debug_parameter": 90,
       "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_B_PORTAL_INSIDE_DETAIL_001",
+      "timestamp_utc": "2026-10-02T07:30:50.679228+00:00",
+      "engine_capture_basename": "d2_8c429d6033",
+      "pose_command": "setpos_exact -1600.000000 2200.000000 30.000000;setang_exact 0.000000 0.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -1600.0,
+        2200.0,
+        30.0,
+        0.0,
+        0.0
+      ],
+      "tga_sha256": "fb77232c0d16cff89a9bc5084ef5aa0d96bded75366c1d823128e76cb4990474",
+      "png_sha256": "34e50902f09c7adb678e29ac37b9f35356efa00ef82704cf6ceb9ba7cee8e0bb",
+      "status": "visually inspected; usable stated-direction reference",
+      "area": "B Doors",
+      "review": "Clean full-resolution B-side view; both leaves, curved timber assembly and threshold fully framed. Barrels complete; outer facade continues beyond crop. No full site, wall footprint or minimum-body envelope claim.",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "repository_image_path": "reference/images/b_doors/QA_B_PORTAL_INSIDE_DETAIL_001.jpg",
+      "jpeg_sha256": "b643df9685bfc3034bfc283deea6be41ae9d9304151a5354917f8a7afd1bdfb1",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_B_PORTAL_OUTSIDE_DETAIL_001",
+      "timestamp_utc": "2026-10-02T07:31:00.764754+00:00",
+      "engine_capture_basename": "d2_63ac7874cc",
+      "pose_command": "setpos_exact -1000.000000 2225.000000 -30.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -1000.0,
+        2225.0,
+        -30.0,
+        0.0,
+        180.0
+      ],
+      "tga_sha256": "a9e99804247e9e0952c9ac8de95f5d174489ec1c2f64a00d4c3301fb87a4747a",
+      "png_sha256": "de4a25ad044eb6f8b1c7a74f0bb55c6b4bcfe4736a26f3855efe4cfa1a02aaeb",
+      "status": "visually inspected; usable stated-direction reference",
+      "area": "B Doors",
+      "review": "Clean full-resolution CT-side view; both leaves, timber curve and threshold fully framed. Foreground left crate and upper battlement crop are context limits; target unobstructed. Component assignment uses independent collision evidence, not uncalibrated pixels.",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "repository_image_path": "reference/images/b_doors/QA_B_PORTAL_OUTSIDE_DETAIL_001.jpg",
+      "jpeg_sha256": "51cc5a58b61d3486bf500d49598775303fd684aa798adf1f5454be2d0f7447f3",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
     }
   ],
   "rejected_attempts": [

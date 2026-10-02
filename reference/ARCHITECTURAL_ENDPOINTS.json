@@ -24448,6 +24448,656 @@
           "notes": "LeftX-540 normal rays each repeat concrete Mesh facesY1536/1648, giving local western masonry block span112native. Right frontX-290 repeats concreteY1536.17, but far right origin is inside adjoining CT-side building and was rejected. Whole failed batch preserved, restore independently read back. Accept only complete left outside-origin span, not right wall thickness, full gate depth or uniform block."
         }
       ]
+    },
+    {
+      "timestamp_utc": "2026-10-02T07:26:07.402694+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Doors curved-header local diagnostic",
+      "unit": "source_units",
+      "target_xy": [
+        -1312.0,
+        2190.0
+      ],
+      "probe_player_z": 60.0,
+      "initial_pose": "setpos_exact -1550.000000 2200.000000 80.000000;setang_exact 0.000000 0.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1312.000000 2126.009766 60.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1312.0,
+            2191.04,
+            1.71
+          ],
+          "xy_error": 1.0399999999999636,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 108915"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1312.000000 2124.969727 60.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1312.0,
+            2190.0,
+            1.69
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 108915"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1312.000000 2124.969727 60.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1312.0,
+            2190.0,
+            1.69
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 108915"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1312.000000 2253.990234 60.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -1312.0,
+            2192.07,
+            179.53
+          ],
+          "xy_error": 2.0700000000001637,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1312.000000 2251.920166 60.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -1312.0,
+            2189.99,
+            179.4
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1312.000000 2251.920166 60.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -1312.0,
+            2189.99,
+            179.4
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1312.0,
+          2190.0,
+          1.69
+        ],
+        "ceiling": [
+          -1312.0,
+          2189.99,
+          179.4
+        ]
+      },
+      "endpoint_xy_separation": 0.010000000000218279,
+      "native_vertical_separation": 177.71,
+      "restored_pose": "setpos_exact -1550.000000 2200.000000 80.000000;setang_exact 0.000000 0.000000 0.000000",
+      "id": "B_PORTAL_X1312_Y2190_003",
+      "private_raw_path": "C:\\Users\\mikea\\Documents\\Codex\\2026-09-30\\new-chat\\reference_cache\\crash_recovery_survey\\b_portal_01\\B_PORTAL_X1312_Y2190_003.json",
+      "review": "Repeated floor and first Wood_Dense curved timber assembly at three B Doors positions. Y2225 independently repeats B_DOORS_HEADER_COLUMN_002 without duplicate measurement. Clean inside/outside images show curved timber and angled leaves; exact beam-versus-leaf component identity and full body-clearance envelope remain unresolved.",
+      "accepted_columns": [
+        {
+          "id": "B_PORTAL_X1312_Y2190_003_HEIGHT",
+          "feature": "B Doors local floor-to-first-timber at[-1312.0, 2190.0]",
+          "confidence": "confirmed repeated first-overhead collision column",
+          "notes": "Repeated floor and first Wood_Dense curved timber assembly at three B Doors positions. Y2225 independently repeats B_DOORS_HEADER_COLUMN_002 without duplicate measurement. Clean inside/outside images show curved timber and angled leaves; exact beam-versus-leaf component identity and full body-clearance envelope remain unresolved."
+        }
+      ]
+    },
+    {
+      "timestamp_utc": "2026-10-02T07:26:23.268508+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Doors curved-header local diagnostic",
+      "unit": "source_units",
+      "target_xy": [
+        -1312.0,
+        2225.0
+      ],
+      "probe_player_z": 60.0,
+      "initial_pose": "setpos_exact -1550.000000 2200.000000 80.000000;setang_exact 0.000000 0.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1312.000000 2161.009766 60.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1312.0,
+            2226.04,
+            1.3
+          ],
+          "xy_error": 1.0399999999999636,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 108928"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1312.000000 2159.969727 60.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1312.0,
+            2225.0,
+            1.33
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 108928"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1312.000000 2159.969727 60.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1312.0,
+            2225.0,
+            1.33
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 108928"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1312.000000 2288.990234 60.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -1312.0,
+            2227.06,
+            178.97
+          ],
+          "xy_error": 2.0599999999999454,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1312.000000 2286.930176 60.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -1312.0,
+            2225.0,
+            179.09
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1312.000000 2286.930176 60.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -1312.0,
+            2225.0,
+            179.09
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1312.0,
+          2225.0,
+          1.33
+        ],
+        "ceiling": [
+          -1312.0,
+          2225.0,
+          179.09
+        ]
+      },
+      "endpoint_xy_separation": 0.0,
+      "native_vertical_separation": 177.76,
+      "restored_pose": "setpos_exact -1550.000000 2200.000000 80.000000;setang_exact 0.000000 0.000000 0.000000",
+      "id": "B_PORTAL_X1312_Y2225_003",
+      "private_raw_path": "C:\\Users\\mikea\\Documents\\Codex\\2026-09-30\\new-chat\\reference_cache\\crash_recovery_survey\\b_portal_01\\B_PORTAL_X1312_Y2225_003.json",
+      "review": "Repeated floor and first Wood_Dense curved timber assembly at three B Doors positions. Y2225 independently repeats B_DOORS_HEADER_COLUMN_002 without duplicate measurement. Clean inside/outside images show curved timber and angled leaves; exact beam-versus-leaf component identity and full body-clearance envelope remain unresolved.",
+      "accepted_columns": []
+    },
+    {
+      "timestamp_utc": "2026-10-02T07:26:38.905156+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Doors curved-header local diagnostic",
+      "unit": "source_units",
+      "target_xy": [
+        -1312.0,
+        2250.0
+      ],
+      "probe_player_z": 60.0,
+      "initial_pose": "setpos_exact -1550.000000 2200.000000 80.000000;setang_exact 0.000000 0.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1312.000000 2186.009766 60.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1312.0,
+            2251.05,
+            0.86
+          ],
+          "xy_error": 1.050000000000182,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 108936"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1312.000000 2184.959717 60.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1312.0,
+            2250.0,
+            0.84
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 108939"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1312.000000 2184.959717 60.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1312.0,
+            2250.0,
+            0.84
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 108939"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1312.000000 2313.990234 60.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -1312.0,
+            2251.99,
+            175.28
+          ],
+          "xy_error": 1.9899999999997817,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1312.000000 2312.000244 60.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -1312.0,
+            2250.01,
+            175.61
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "ceiling",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1312.000000 2312.000244 60.000000;setang_exact -88.999901 90.000000 0.000000",
+          "hit": [
+            -1312.0,
+            2250.01,
+            175.61
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Dense, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1312.0,
+          2250.0,
+          0.84
+        ],
+        "ceiling": [
+          -1312.0,
+          2250.01,
+          175.61
+        ]
+      },
+      "endpoint_xy_separation": 0.010000000000218279,
+      "native_vertical_separation": 174.77,
+      "restored_pose": "setpos_exact -1550.000000 2200.000000 80.000000;setang_exact 0.000000 0.000000 0.000000",
+      "id": "B_PORTAL_X1312_Y2250_003",
+      "private_raw_path": "C:\\Users\\mikea\\Documents\\Codex\\2026-09-30\\new-chat\\reference_cache\\crash_recovery_survey\\b_portal_01\\B_PORTAL_X1312_Y2250_003.json",
+      "review": "Repeated floor and first Wood_Dense curved timber assembly at three B Doors positions. Y2225 independently repeats B_DOORS_HEADER_COLUMN_002 without duplicate measurement. Clean inside/outside images show curved timber and angled leaves; exact beam-versus-leaf component identity and full body-clearance envelope remain unresolved.",
+      "accepted_columns": [
+        {
+          "id": "B_PORTAL_X1312_Y2250_003_HEIGHT",
+          "feature": "B Doors local floor-to-first-timber at[-1312.0, 2250.0]",
+          "confidence": "confirmed repeated first-overhead collision column",
+          "notes": "Repeated floor and first Wood_Dense curved timber assembly at three B Doors positions. Y2225 independently repeats B_DOORS_HEADER_COLUMN_002 without duplicate measurement. Clean inside/outside images show curved timber and angled leaves; exact beam-versus-leaf component identity and full body-clearance envelope remain unresolved."
+        }
+      ]
+    },
+    {
+      "id": "B_PORTAL_NORTH_MASONRY_DEPTH_001",
+      "source_build": "25640462",
+      "area": "B portal north adjoining masonry normal spans",
+      "source_map": "de_dust2",
+      "timestamp_utc": "2026-10-02T07:26:53.681860+00:00",
+      "unit": "source_units",
+      "config": {
+        "id": "B_PORTAL_NORTH_MASONRY_DEPTH_001",
+        "build": "25640462",
+        "area": "B portal north adjoining masonry normal spans",
+        "stations": [
+          {
+            "id": "B_MASONRY_X1550_Y2380",
+            "pose": [
+              -1550,
+              2380,
+              16
+            ],
+            "yaws": [
+              0
+            ]
+          },
+          {
+            "id": "B_MASONRY_X1100_Y2380",
+            "pose": [
+              -1100,
+              2380,
+              16
+            ],
+            "yaws": [
+              180
+            ]
+          },
+          {
+            "id": "B_MASONRY_X1550_Y2440",
+            "pose": [
+              -1550,
+              2440,
+              16
+            ],
+            "yaws": [
+              0
+            ]
+          },
+          {
+            "id": "B_MASONRY_X1100_Y2440",
+            "pose": [
+              -1100,
+              2440,
+              16
+            ],
+            "yaws": [
+              180
+            ]
+          }
+        ],
+        "scope": "Opposite outside-origin local block normal rays north of opening. First cover/tower/buttress hits retain identities; no full wall/portal rectangle or minimum leaf clearance."
+      },
+      "observations": [
+        {
+          "station_id": "B_MASONRY_X1550_Y2380",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1550.000000 2380.000000 16.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1550,
+            2380,
+            80
+          ],
+          "hit": [
+            -1343.5,
+            2380.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 109061"
+          ],
+          "rangefinder_reply": "DISTANCE: 206.50 inches ( 17.21 feet)"
+        },
+        {
+          "station_id": "B_MASONRY_X1550_Y2380",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1550.000000 2380.000000 16.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1550,
+            2380,
+            80
+          ],
+          "hit": [
+            -1343.5,
+            2380.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 109061"
+          ],
+          "rangefinder_reply": "DISTANCE: 206.50 inches ( 17.21 feet)"
+        },
+        {
+          "station_id": "B_MASONRY_X1100_Y2380",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1100.000000 2380.000000 16.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1100,
+            2380,
+            80
+          ],
+          "hit": [
+            -1296.0,
+            2380.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 109062"
+          ],
+          "rangefinder_reply": "DISTANCE: 196.00 inches ( 16.33 feet)"
+        },
+        {
+          "station_id": "B_MASONRY_X1100_Y2380",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1100.000000 2380.000000 16.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1100,
+            2380,
+            80
+          ],
+          "hit": [
+            -1296.0,
+            2380.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 109062"
+          ],
+          "rangefinder_reply": "DISTANCE: 196.00 inches ( 16.33 feet)"
+        },
+        {
+          "station_id": "B_MASONRY_X1550_Y2440",
+          "yaw": 0,
+          "repeat": 1,
+          "pose": "setpos_exact -1550.000000 2440.000000 16.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1550,
+            2440,
+            80
+          ],
+          "hit": [
+            -1343.85,
+            2440.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 109059"
+          ],
+          "rangefinder_reply": "DISTANCE: 206.15 inches ( 17.18 feet)"
+        },
+        {
+          "station_id": "B_MASONRY_X1550_Y2440",
+          "yaw": 0,
+          "repeat": 2,
+          "pose": "setpos_exact -1550.000000 2440.000000 16.000000;setang_exact 0.000000 0.000000 0.000000",
+          "eye_origin": [
+            -1550,
+            2440,
+            80
+          ],
+          "hit": [
+            -1343.85,
+            2440.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 109059"
+          ],
+          "rangefinder_reply": "DISTANCE: 206.15 inches ( 17.18 feet)"
+        },
+        {
+          "station_id": "B_MASONRY_X1100_Y2440",
+          "yaw": 180,
+          "repeat": 1,
+          "pose": "setpos_exact -1100.000000 2440.000000 16.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1100,
+            2440,
+            80
+          ],
+          "hit": [
+            -1296.35,
+            2440.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 109060"
+          ],
+          "rangefinder_reply": "DISTANCE: 196.35 inches ( 16.36 feet)"
+        },
+        {
+          "station_id": "B_MASONRY_X1100_Y2440",
+          "yaw": 180,
+          "repeat": 2,
+          "pose": "setpos_exact -1100.000000 2440.000000 16.000000;setang_exact 0.000000 -180.000000 0.000000",
+          "eye_origin": [
+            -1100,
+            2440,
+            80
+          ],
+          "hit": [
+            -1296.35,
+            2440.0,
+            80.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 109060"
+          ],
+          "rangefinder_reply": "DISTANCE: 196.35 inches ( 16.36 feet)"
+        }
+      ],
+      "status": "complete; architectural interpretation pending",
+      "original_pose": "setpos_exact -1550.000000 2200.000000 80.000000;setang_exact 0.000000 0.000000 0.000000",
+      "restored_pose": "setpos_exact -1550.000000 2200.000000 80.000000;setang_exact 0.000000 0.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "private_raw_path": "C:\\Users\\mikea\\Documents\\Codex\\2026-09-30\\new-chat\\reference_cache\\crash_recovery_survey\\b_portal_01\\B_PORTAL_NORTH_MASONRY_DEPTH_001.json",
+      "review": "Two opposite outside-origin concrete Mesh spans north of B opening, each47.5native/120.65cm atZ80. Endpoints slightly shift with Y; these are local adjoining masonry spans, not uniform gate depth or full block footprint.",
+      "accepted_endpoint_spans": [
+        {
+          "id": "B_NORTH_MASONRY_LOCAL_DEPTH_Y2380_Z80",
+          "axis": 0,
+          "low": {
+            "station_id": "B_MASONRY_X1550_Y2380",
+            "yaw": 0
+          },
+          "high": {
+            "station_id": "B_MASONRY_X1100_Y2380",
+            "yaw": 180
+          },
+          "feature": "B north adjoining masonry local normal span atY2380 Z80",
+          "confidence": "confirmed repeated opposite outside-origin collision span",
+          "notes": "Two opposite outside-origin concrete Mesh spans north of B opening, each47.5native/120.65cm atZ80. Endpoints slightly shift with Y; these are local adjoining masonry spans, not uniform gate depth or full block footprint."
+        },
+        {
+          "id": "B_NORTH_MASONRY_LOCAL_DEPTH_Y2440_Z80",
+          "axis": 0,
+          "low": {
+            "station_id": "B_MASONRY_X1550_Y2440",
+            "yaw": 0
+          },
+          "high": {
+            "station_id": "B_MASONRY_X1100_Y2440",
+            "yaw": 180
+          },
+          "feature": "B north adjoining masonry local normal span atY2440 Z80",
+          "confidence": "confirmed repeated opposite outside-origin collision span",
+          "notes": "Two opposite outside-origin concrete Mesh spans north of B opening, each47.5native/120.65cm atZ80. Endpoints slightly shift with Y; these are local adjoining masonry spans, not uniform gate depth or full block footprint."
+        }
+      ]
     }
   ],
   "rejected_attempts": [
