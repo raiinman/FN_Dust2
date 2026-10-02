@@ -267,3 +267,8 @@ transitions, independent source origins and hash-pinned rendered corner review.
 ARCHITECTURAL_BOUNDARY_SECTIONS JSON/CSV and ARCHITECTURAL_BOUNDARIES.svg derive
 numeric bounds at the declared height only. Mesh-to-Hull relief remains a local
 exposed join; never promote it into a full wall end or closed ground footprint.
+B_TIMBER_COMPONENT_REVIEW.json records native first-Wood tags in both exact
+door cameras and independent first-downward upper observations. Rendered-region
+association is separate from entity/hull identity; a concrete roof/crown hit
+never becomes a timber cap or a top-minus-bottom timber thickness. Tagged
+frames are component diagnostics, not extra ordinary directional coverage.

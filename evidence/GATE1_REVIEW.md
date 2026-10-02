@@ -7,15 +7,15 @@ Source: installed CS2 build25640462, de_dust2. GitHub main is durable authority.
 | --- | --- | --- |
 | Provenance and current revision | REFERENCE_MANIFEST.csv; native poses/hashes and build25640462 | PASS for reviewed captured batches |
 | Physical scale and coordinate convention | SCALE_CALIBRATION.json; COORDINATE_TRANSFORM.json | PASS for current-build factor2.54 and reversible UE=(2.54x,-2.54y,2.54z); Phase2 exporter/import validation pending |
-| Every critical area forward/reverse/side/elevation coverage | 226 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | PASS: sixteen critical-area sets and eleven subarea sets accepted; structural metric and traversal remain separate |
+| Every critical area forward/reverse/side/elevation coverage | 231 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | PASS: sixteen critical-area sets and eleven subarea sets accepted; structural metric and traversal remain separate |
 | Unambiguous validated topology | ROUTE_GRAPH.md; TOPOLOGY.json; WALK_PROBES.json; TRAVERSAL_PROBES.json; TOPOLOGY_AUDIT.json | PASS for listed surveyed connections:24 ground paths both directions; B Window both; S01 both, S02/S03 reciprocal routes, S04 partner forward/reverse. E11/E27 direct forward twice, unsupported reverse at surveyed crossing blocked twice, indirect walking returns both. Alternative launches/partners and geometric bounds remain separate |
-| Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; TUNNEL_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 321 calibrated feature measurements;54 Short and54 Tunnel floor samples; full critical register incomplete |
+| Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; TUNNEL_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 343 calibrated feature measurements;54 Short and54 Tunnel floor samples; full critical register incomplete |
 | Calibrated annotated whole-map truth | RADAR_CALIBRATION.json; MAP_CAMERA_CALIBRATION.json; RADAR_PLAN.svg; MAP_CAMERA_PLAN.svg | FAIL: calibrated native camera, physical grid, floors and paths; continuous architectural boundaries and overlapping elevation layers incomplete |
 | Bounded remaining uncertainty | UNCERTAINTY.md; SURVEY_TASKS.csv | FAIL: unresolved critical extents, full apertures/cover dimensions, stairs and render/collision bounds |
 
 ## Reference review
 
-IMAGE_REVIEW.json and IMAGE_AUDIT.json verify all226 registered JPEG hashes and
+IMAGE_REVIEW.json and IMAGE_AUDIT.json verify all231 registered JPEG hashes and
 preserve eight excluded historical frames. Original24 and recovered55 images
 were re-inspected, with subsequent CT/Pit/door/site/Short/Catwalk additions
 inspected individually. Clipped, stale or obstructed attempts retain their
@@ -39,8 +39,8 @@ The coordinate convention is mathematically reversible; exporter/editor
 round-trip remains a Phase2 validation. Source repeatability is separate from
 rendered-surface accuracy and implementation tolerance.
 
-MEASUREMENTS has247 calibrated local feature rows;13 PHYSICAL_FLOOR_DATUMS,
-54 SHORT_STAIR_SAMPLES,54 TUNNEL_STAIR_SAMPLES and313 connector points are
+MEASUREMENTS has343 calibrated local feature rows;13 PHYSICAL_FLOOR_DATUMS,
+54 SHORT_STAIR_SAMPLES,54 TUNNEL_STAIR_SAMPLES and434 connector points are
 repeated point evidence. Short12 measured/rendered risers,359.6132cm sampled
 run and234.3912cm rise; Tunnel18 measured/rendered risers,18 rises/16 axial
 intervals,16 local widths and365.7854cm sampled rise. Full Tunnel curved run,
@@ -301,3 +301,15 @@ columns,23 width chords and four depths are plotted/table-listed in the rebuilt,
 rendered/inspected stone profile; architectural chord overview also inspected.
 Near-jamb profile is steep/nonuniform; original failure retained, no smooth
 curve, full body, constant depth or continuous footprint certification. Gate1 FAIL.
+
+
+Higher Long/Upper64 fresh midpoint directions completed/restored:270 independent
+directions across19 report models. Long21/32 and Upper23/32 chords reject,
+maximum53.7102cm/4675.2182cm; relief/portal failures remain explicit.137 axis-flat
+candidates now all checked;130 agree at point/seven reject. Canonical-area
+two-height legend rebuilt/rendered/inspected; no boundary acceptance from checks.
+B native first-Wood tags reviewed in both exact cameras;231 images all hashes/
+native dates PASS. Outside fixed-timber association/inside leaf overlap explicit.
+Three upper first-hit columns are concreteZ232/270.24, not Wood caps; no timber
+thickness subtraction accepted. Structural portal/body bounds and complete
+layered footprint remain open. Gate1 FAIL; Phase2 not started.

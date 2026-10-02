@@ -4862,6 +4862,174 @@
       "jpeg_sha256": "3505c26daf7014c7512737632c743a086f8e9dab5882a26189a4e04a034cfb09",
       "fov_cs_debug_parameter": 90,
       "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_B_TIMBER_TAGS_OUTSIDE_001_MARKED",
+      "timestamp_utc": "2026-10-02T11:56:21.004393+00:00",
+      "engine_capture_basename": "d2_f0fe4e205d",
+      "pose_command": "setpos_exact -1000.000000 2225.000000 -30.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -1000.0,
+        2225.0,
+        -30.0,
+        0.0,
+        180.0
+      ],
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "tga_sha256": "fd79b87c3f294f37fe0ae10cfc376c5c994ebb24dc2b866f5d0cd2515bf878fb",
+      "png_sha256": "4b2862270bc2a6749278933717de08c35820c8154d5f6d5185c4516187045479",
+      "anchors": [
+        {
+          "id": "FIRST_WOOD_2190",
+          "point": [
+            -1312.0,
+            2189.99,
+            179.4
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "LOWER_CONTEXT_2190",
+          "point": [
+            -1312.0,
+            2189.99,
+            80
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "FIRST_WOOD_2225",
+          "point": [
+            -1312.0,
+            2225.0,
+            179.09
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "LOWER_CONTEXT_2225",
+          "point": [
+            -1312.0,
+            2225.0,
+            80
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "FIRST_WOOD_2250",
+          "point": [
+            -1312.0,
+            2250.01,
+            175.61
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "LOWER_CONTEXT_2250",
+          "point": [
+            -1312.0,
+            2250.01,
+            80
+          ],
+          "half_size": 10
+        }
+      ],
+      "status": "visually inspected; usable stated-direction reference",
+      "marker_plane": "YZ",
+      "area": "B Doors",
+      "review": "Native marked/clean PNG and marked JPEG individually inspected. Six intended point tags at three measured first-Wood heights and lower context; no image-derived numeric dimensions. Outside upper tags align with fixed curved timber region; inside view includes leaf overlap. Incidental historical ray marks visible on adjacent walls in outside view, unrelated to target. Not additional ordinary direction coverage or full component/body acceptance.",
+      "repository_image_path": "reference/images/b_doors/QA_B_TIMBER_TAGS_OUTSIDE_001_MARKED.jpg",
+      "jpeg_sha256": "c27f9099ebaf3f891246b8c438c3993b3edda66dcdf78f5d192fa01cfe0ec018",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_B_TIMBER_TAGS_INSIDE_001_MARKED",
+      "timestamp_utc": "2026-10-02T11:56:35.758206+00:00",
+      "engine_capture_basename": "d2_56e7ed94d4",
+      "pose_command": "setpos_exact -1600.000000 2200.000000 30.000000;setang_exact 0.000000 0.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -1600.0,
+        2200.0,
+        30.0,
+        0.0,
+        0.0
+      ],
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "tga_sha256": "226adaa6f7b3edf44524b265ca3949884c9b88683b26659bcb8494b00a417991",
+      "png_sha256": "d867c9760a30f39ba329c7985ca238475a384501eac7aefce377f348a6906198",
+      "anchors": [
+        {
+          "id": "FIRST_WOOD_2190",
+          "point": [
+            -1312.0,
+            2189.99,
+            179.4
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "LOWER_CONTEXT_2190",
+          "point": [
+            -1312.0,
+            2189.99,
+            80
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "FIRST_WOOD_2225",
+          "point": [
+            -1312.0,
+            2225.0,
+            179.09
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "LOWER_CONTEXT_2225",
+          "point": [
+            -1312.0,
+            2225.0,
+            80
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "FIRST_WOOD_2250",
+          "point": [
+            -1312.0,
+            2250.01,
+            175.61
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "LOWER_CONTEXT_2250",
+          "point": [
+            -1312.0,
+            2250.01,
+            80
+          ],
+          "half_size": 10
+        }
+      ],
+      "status": "visually inspected; usable stated-direction reference",
+      "marker_plane": "YZ",
+      "area": "B Doors",
+      "review": "Native marked/clean PNG and marked JPEG individually inspected. Six intended point tags at three measured first-Wood heights and lower context; no image-derived numeric dimensions. Outside upper tags align with fixed curved timber region; inside view includes leaf overlap. Incidental historical ray marks visible on adjacent walls in outside view, unrelated to target. Not additional ordinary direction coverage or full component/body acceptance.",
+      "repository_image_path": "reference/images/b_doors/QA_B_TIMBER_TAGS_INSIDE_001_MARKED.jpg",
+      "jpeg_sha256": "647d1b0259e3718e410cf46e58b88c8fe497bb8cd359c2cee19e7570de77907c",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
     }
   ],
   "rejected_attempts": [
@@ -5901,6 +6069,54 @@
       "status": "captured; requires native image and projection review",
       "marker_plane": "YZ",
       "reason": "Redundant clean companion preserved privately; used only for native pixel subtraction."
+    },
+    {
+      "id": "QA_B_TIMBER_TAGS_OUTSIDE_001_CLEAN",
+      "timestamp_utc": "2026-10-02T11:56:27.520525+00:00",
+      "engine_capture_basename": "d2_0f896510af",
+      "pose_command": "setpos_exact -1000.000000 2225.000000 -30.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -1000.0,
+        2225.0,
+        -30.0,
+        0.0,
+        180.0
+      ],
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "tga_sha256": "0885e7f8c3250a88894c7c5d38e19f194dce1f1ef7b74894e1cd94f472862343",
+      "png_sha256": "7fe59d608f87893facebfa442a448b0da19ffab2073415399233cc9a75f2f691",
+      "anchors": [],
+      "status": "captured; requires native image and projection review",
+      "marker_plane": "YZ",
+      "reason": "Duplicate clean reference direction preserved privately; paired subtraction/context only, not extra image coverage."
+    },
+    {
+      "id": "QA_B_TIMBER_TAGS_INSIDE_001_CLEAN",
+      "timestamp_utc": "2026-10-02T11:56:42.268264+00:00",
+      "engine_capture_basename": "d2_2361339d84",
+      "pose_command": "setpos_exact -1600.000000 2200.000000 30.000000;setang_exact 0.000000 0.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -1600.0,
+        2200.0,
+        30.0,
+        0.0,
+        0.0
+      ],
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "tga_sha256": "4d83688bcb4ab71e639eaa3c72393d00f52d19c32c5064613cc676eb1a2ab95a",
+      "png_sha256": "2f88533ee7112e02487bb6635c881710c5946fc24da3a45fdfaf4f9ddc93b34f",
+      "anchors": [],
+      "status": "captured; requires native image and projection review",
+      "marker_plane": "YZ",
+      "reason": "Duplicate clean reference direction preserved privately; paired subtraction/context only, not extra image coverage."
     }
   ],
   "gate_1": "FAIL",

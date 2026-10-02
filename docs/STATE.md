@@ -8,7 +8,7 @@ with its configured model; no model override or agent delegation requested.
 ## Authority and preserved work
 
 GitHub main authoritative; fetch/check before resuming. Crash baseline35eaa642,
-dirty work preserved4c7df48, mergedab4e484. Latest pushed checkpointbc4a2cc
+dirty work preserved4c7df48, mergedab4e484. Latest pushed checkpoint7485ae4
 before this update. Active C:/Users/mikea/Documents/Codex/2026-09-30/new-chat/
 FN_Dust2, branch codex/crash-recovery-20261001 pushes meaningful checkpoints
 to main. OneDrive workspace separate; synced sources/ read-only. Raw/private
@@ -17,8 +17,8 @@ recovery: evidence/CRASH_RECOVERY_20261001.md. Latest Git commit pins checkpoint
 
 ## Accepted evidence and limits
 
-- 229 individually reviewed JPEGs; eight historical exclusions. Original24/
-  recovered55 re-inspected. IMAGE_AUDIT229 hashes/native UTC dates PASS;
+- 231 individually reviewed JPEGs; eight historical exclusions. Original24/
+  recovered55 re-inspected. IMAGE_AUDIT231 hashes/native UTC dates PASS;
   sixteen critical/eleven subarea required view sets PASS. Clipped/overlay/
   nonselected attempts preserved. View coverage never grants metric acceptance.
 - Scale2.54cm/native from two repeated inch-rangefinder anchors. UE=(2.54x,
@@ -115,8 +115,8 @@ X-536.96/-510.80 atY1370 Z30 give66.4464cm local depth; original Wood cover-hit
 pair retained diagnostic. Fresh original source-pose readback required before
 next controller. remaining_portals_04 all nine columns completed; never rerun.
 STONE_PORTAL_PROFILES selects15 columns,10 widths and4 masonry depths; its
-CSV/SVG rebuilt/rendered/inspected. WALL_BOUNDARY_CHECKS derives123 axis-flat candidate segments, all independently
-checked:118 agree at tested point only, five rejected.110 fresh checks over14
+CSV/SVG rebuilt/rendered/inspected. WALL_BOUNDARY_CHECKS derives137 axis-flat candidate segments, all independently
+checked:130 agree at tested point only, seven rejected.110 fresh checks over14
 areas completed/restored; total206 independent midpoint directions/17 area
 models in PLAN_SECTION_CHECKS. Calibrated overhead figure rebuilt/rendered/
 inspected. No component/full-boundary or closed-footprint acceptance.
@@ -164,14 +164,28 @@ source-pose restoration verified; all selected sand-floor/concrete-intrados
 repeats reviewed.343 physical measurements/126 chords. Updated arch table and
 calibrated architectural chord overview rebuilt/rendered/inspected.
 
-ONE ACTIVE source controller: run_high_checks_004.py with private
-high_room_checks_04/plan.json,64 fresh midpoint directions fixed before capture
-for higher Long/Upper sections. Inspect driver_recovery_004/status/repeats/
-restoration before another input; never duplicate completed report IDs.
+No active source pose/input controller. high_room_checks_04 completed/restored
+both reports,128 native observations/64 new independent midpoint directions.
+PLAN_SECTION_CHECKS now270 directions/19 report models. Higher Long21/32 and
+Upper23/32 candidate chords reject (max53.7102cm/4675.2182cm); cross-area/relief
+failures retained. WALL_BOUNDARY_CHECKS137 candidates all independently tested:
+130 agree at point/seven reject. Canonical-area legend groups same XY at both
+heights; rebuilt/rendered/inspected, no clipped third legend column or marker
+overprint. Numerical point checks do not accept full walls/footprint.
+
+B timber tags captured in both original cameras; all four native PNGs and two
+marked JPEGs individually inspected.231 image hashes/native dates PASS. Outside
+upper tags associate with fixed curved timber region; inside leaf overlap is
+explicit. No exact entity/complete hull or rendered intrados accepted.
+b_timber_top_02 three first-downward columns completed/restored: Y2190/2250
+Mesh concreteZ232, centerY2225.02 concrete HullZ270.24. Masonry/crown occludes
+timber tops; these are not Wood caps and no timber thickness is accepted.
+All three diagnostic reports preserved in ARCHITECTURAL_ENDPOINTS and linked
+in B_TIMBER_COMPONENT_REVIEW. No complete structural portal/body acceptance.
 
 B-wall calibration captures completed/restored exactly. Eight visually inspected
 fit markers and ten independent three-depth markers pass constrained native-pose
-projection (max held .43495px);229 individually reviewed JPEGs/hashes/native
+projection (max held .43495px);231 individually reviewed JPEGs/hashes/native
 dates PASS. Two absent marks excluded without invented pixels. Overlapping first
 hold layout and rejected full11parameter matrix (held1.17809px) retained. Clean
 wall view and native corner crops inspected; structural boundary acceptance

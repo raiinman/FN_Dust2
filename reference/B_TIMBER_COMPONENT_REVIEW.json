@@ -1,0 +1,234 @@
+{
+  "source_build": "25640462",
+  "source_map": "de_dust2",
+  "status": "native hit-to-rendered-region association reviewed; full component hull/body remains unresolved",
+  "first_overhead_points": [
+    {
+      "report": "B_PORTAL_X1312_Y2190_003",
+      "point": [
+        -1312.0,
+        2189.99,
+        179.4
+      ],
+      "semantics": "first Wood_Dense collision hull overhead; not an exact rendered intrados point"
+    },
+    {
+      "report": "B_PORTAL_X1312_Y2225_003",
+      "point": [
+        -1312.0,
+        2225.0,
+        179.09
+      ],
+      "semantics": "first Wood_Dense collision hull overhead; not an exact rendered intrados point"
+    },
+    {
+      "report": "B_PORTAL_X1312_Y2250_003",
+      "point": [
+        -1312.0,
+        2250.01,
+        175.61
+      ],
+      "semantics": "first Wood_Dense collision hull overhead; not an exact rendered intrados point"
+    }
+  ],
+  "captures": [
+    {
+      "id": "QA_B_TIMBER_TAGS_OUTSIDE_001_MARKED",
+      "timestamp_utc": "2026-10-02T11:56:21.004393+00:00",
+      "engine_capture_basename": "d2_f0fe4e205d",
+      "pose_command": "setpos_exact -1000.000000 2225.000000 -30.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -1000.0,
+        2225.0,
+        -30.0,
+        0.0,
+        180.0
+      ],
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "tga_sha256": "fd79b87c3f294f37fe0ae10cfc376c5c994ebb24dc2b866f5d0cd2515bf878fb",
+      "png_sha256": "4b2862270bc2a6749278933717de08c35820c8154d5f6d5185c4516187045479",
+      "anchors": [
+        {
+          "id": "FIRST_WOOD_2190",
+          "point": [
+            -1312.0,
+            2189.99,
+            179.4
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "LOWER_CONTEXT_2190",
+          "point": [
+            -1312.0,
+            2189.99,
+            80
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "FIRST_WOOD_2225",
+          "point": [
+            -1312.0,
+            2225.0,
+            179.09
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "LOWER_CONTEXT_2225",
+          "point": [
+            -1312.0,
+            2225.0,
+            80
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "FIRST_WOOD_2250",
+          "point": [
+            -1312.0,
+            2250.01,
+            175.61
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "LOWER_CONTEXT_2250",
+          "point": [
+            -1312.0,
+            2250.01,
+            80
+          ],
+          "half_size": 10
+        }
+      ],
+      "status": "captured; requires native image and projection review",
+      "marker_plane": "YZ",
+      "repository_image_path": "reference/images/b_doors/QA_B_TIMBER_TAGS_OUTSIDE_001_MARKED.jpg",
+      "jpeg_sha256": "c27f9099ebaf3f891246b8c438c3993b3edda66dcdf78f5d192fa01cfe0ec018"
+    },
+    {
+      "id": "QA_B_TIMBER_TAGS_INSIDE_001_MARKED",
+      "timestamp_utc": "2026-10-02T11:56:35.758206+00:00",
+      "engine_capture_basename": "d2_56e7ed94d4",
+      "pose_command": "setpos_exact -1600.000000 2200.000000 30.000000;setang_exact 0.000000 0.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -1600.0,
+        2200.0,
+        30.0,
+        0.0,
+        0.0
+      ],
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "tga_sha256": "226adaa6f7b3edf44524b265ca3949884c9b88683b26659bcb8494b00a417991",
+      "png_sha256": "d867c9760a30f39ba329c7985ca238475a384501eac7aefce377f348a6906198",
+      "anchors": [
+        {
+          "id": "FIRST_WOOD_2190",
+          "point": [
+            -1312.0,
+            2189.99,
+            179.4
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "LOWER_CONTEXT_2190",
+          "point": [
+            -1312.0,
+            2189.99,
+            80
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "FIRST_WOOD_2225",
+          "point": [
+            -1312.0,
+            2225.0,
+            179.09
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "LOWER_CONTEXT_2225",
+          "point": [
+            -1312.0,
+            2225.0,
+            80
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "FIRST_WOOD_2250",
+          "point": [
+            -1312.0,
+            2250.01,
+            175.61
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "LOWER_CONTEXT_2250",
+          "point": [
+            -1312.0,
+            2250.01,
+            80
+          ],
+          "half_size": 10
+        }
+      ],
+      "status": "captured; requires native image and projection review",
+      "marker_plane": "YZ",
+      "repository_image_path": "reference/images/b_doors/QA_B_TIMBER_TAGS_INSIDE_001_MARKED.jpg",
+      "jpeg_sha256": "647d1b0259e3718e410cf46e58b88c8fe497bb8cd359c2cee19e7570de77907c"
+    }
+  ],
+  "review": "Both exact original outside/inside camera poses repeated. Outside upper markers fall in the curved fixed timber assembly region; gap-facing central/north marks are above the rendered leaves. Inside perspective overlaps the nearer leaf at some tags. This is visual association, not entity identity or proof of a shared complete hull. Existing local floor-to-first-Wood heights retained; no minimum opening/curved render height or full timber thickness inferred.",
+  "limits": "Marker points identify native collision samples. No fitted camera or pixel numeric dimensions used. Depth/leaf occlusion and render/collision offsets still require independent bound. First downward top survey at three matching XY points planned separately.",
+  "upper_collision_reports": [
+    {
+      "id": "B_TIMBER_FIRST_TOP_X1312_Y2190_002",
+      "point": [
+        -1312.0,
+        2190.0,
+        232.0
+      ],
+      "surface": [
+        "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 109346"
+      ]
+    },
+    {
+      "id": "B_TIMBER_FIRST_TOP_X1312_Y2225_002",
+      "point": [
+        -1312.0,
+        2225.02,
+        270.24
+      ],
+      "surface": [
+        "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+      ]
+    },
+    {
+      "id": "B_TIMBER_FIRST_TOP_X1312_Y2250_002",
+      "point": [
+        -1312.0,
+        2250.0,
+        232.0
+      ],
+      "surface": [
+        "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 109369"
+      ]
+    }
+  ],
+  "upper_review": "All three first downward hits are concrete, not Wood_Dense. Masonry/crown occludes requested timber tops. No timber thickness accepted or rejected timber cap replaced by roof height."
+}

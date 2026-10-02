@@ -38,7 +38,8 @@ def build(root):
                 result='unexecuted independent check' if check is None else ('agrees at checked point only' if error<=checks['local_agreement_threshold_native'] else 'candidate axis line rejected')
                 ident=f'AXIS_CANDIDATE_{report["area"]}_{yaw}_{axis}'
                 candidate=dict(id=ident,source_report=report['id'],area=report['area'],source_pose=station['pose'],axis=axis,from_yaw=yaw,to_yaw=next_yaw,from_point=a['hit'],to_point=b['hit'],midpoint_yaw=midpoint,check_report=model['check_report']['id'] if check else None,check=check,check_axis_error_native=error,result=result,architectural_component='unreviewed; concrete material alone does not establish wall/cover/graded-floor identity')
-                candidates.append(candidate);areas.setdefault(report['area'],station['pose'])
+                candidate['reviewed_area']=report.get('reviewed_area',report['area'])
+                candidates.append(candidate);areas.setdefault(candidate['reviewed_area'],[]).append(candidate)
                 rows.append(dict(id=ident,area=report['area'],source_report=report['id'],axis='XY'[axis],ray_z_cm=a['hit'][2]*2.54,from_native=str(a['hit']),to_native=str(b['hit']),sampled_endpoint_chord_cm=round(math.dist(a['hit'],b['hit'])*2.54,4),check_report=candidate['check_report'] or '',check_yaw=midpoint,check_axis_error_cm=round(error*2.54,6) if error is not None else '',result=result,limits='Local candidate only; midpoint agreement does not locate exact ends, close angular gaps, identify component or certify continuous architectural footprint.'))
     assert candidates and len({c['id'] for c in candidates})==len(candidates)
     data=dict(source_build=source['source_build'],status='Native axis-line validation candidates; no architectural boundary acceptance',diagnostic_axis_agreement_threshold_native=checks['local_agreement_threshold_native'],accepted_boundaries=[],candidates=candidates)
@@ -51,10 +52,13 @@ def build(root):
         parts.append(f'<path d="M{a[0]:.3f},{a[1]:.3f}L{b[0]:.3f},{b[1]:.3f}" fill="none" stroke="#071018" stroke-width="4"/><path d="M{a[0]:.3f},{a[1]:.3f}L{b[0]:.3f},{b[1]:.3f}" fill="none" stroke="{color}" stroke-width="2" stroke-dasharray="4 3"><title>{label}</title></path>')
         if c['check']:
             u,v=project(c['check']['hit']);parts.append(f'<circle cx="{u:.3f}" cy="{v:.3f}" r="2.2" fill="{color}" stroke="#071018"/>')
-    for i,(area,pose) in enumerate(areas.items(),1):
+    legend_rows=math.ceil(len(areas)/2)
+    for i,(area,rr) in enumerate(areas.items(),1):
+        pose=rr[0]['source_pose'];assert all(c['source_pose'][:2]==pose[:2] for c in rr)
         u,v=project([pose[0],pose[1],pose[2]+64]);parts.append(f'<circle cx="{u}" cy="{v}" r="9" fill="#071018" stroke="#ffe48b"/><text x="{u}" y="{v+4}" text-anchor="middle" fill="#fff" font-family="Arial" font-size="12">{i}</text>')
-        x=40+(i-1)//9*680;y=846+(i-1)%9*23;rr=[c for c in candidates if c['area']==area];checked=sum(c['check'] is not None for c in rr)
-        parts.append(f'<text x="{x}" y="{y}" fill="#edf3f8" font-family="Arial" font-size="14">{i}. {escape(area)} · rayZ{(pose[2]+64)*2.54/100:+.3f}m · {checked}/{len(rr)} midpoint checks</text>')
+        x=40+(i-1)//legend_rows*680;y=846+(i-1)%legend_rows*23;checked=sum(c['check'] is not None for c in rr)
+        heights='/'.join(f'{z*2.54/100:+.3f}' for z in sorted({c['source_pose'][2]+64 for c in rr}))
+        parts.append(f'<text x="{x}" y="{y}" fill="#edf3f8" font-family="Arial" font-size="14">{i}. {escape(area)} · rayZ{heights}m · {checked}/{len(rr)} midpoint checks</text>')
     parts+=['<g fill="#edf3f8" font-family="Arial" font-size="16">','<text x="40" y="1080">Green: checked point agrees. Red: line rejected. Gray: check unexecuted. Hover for IDs; exact values are in CSV.</text>','<text x="40" y="1110">Roof/cover occlusion, portals, unseen corners and render/collision offsets remain separate from camera calibration.</text>','<text x="40" y="1140">No polygon closure or full wall extents inferred. Ray-height labels are not surveyed floor-story boundaries.</text>','<text x="40" y="1170">Gate1 FAIL: semantic boundary/end-point review and continuous layered footprint remain incomplete.</text>','</g></svg>']
     (ref/'WALL_BOUNDARY_CHECKS.svg').write_text('\n'.join(parts)+'\n',encoding='utf-8');print(len(candidates),'candidate lines;',sum(c['check'] is not None for c in candidates),'independent checks; no boundaries accepted')
 
