@@ -76,14 +76,14 @@ def build(root):
                 notes=section['notes']))
         for column in report.get('accepted_columns', []):
             floor,overhead = [report['endpoints'][name] for name in ('floor','ceiling')]
-            assert floor[:2] == overhead[:2] and overhead[2] > floor[2]
+            assert math.dist(floor[:2],overhead[:2]) <= .04 and overhead[2] > floor[2]
             for feature,endpoint in [('floor',floor),('ceiling',overhead)]:
                 samples = [o for o in report['observations'] if o['feature'] == feature]
                 assert len(samples) >= 2 and samples[-1]['hit'] == samples[-2]['hit'] == endpoint
                 assert samples[-1]['xy_error'] <= .02
             measurements.append(dict(id=column['id'],area=report['area'],feature=column['feature'],
                 value=round((overhead[2]-floor[2])*factor,4),unit='cm',
-                method='repeated corrected same-XY floor/first-overhead endpoints; SCALE_CALIBRATION',
+                method='repeated corrected floor/first-overhead endpoints within .04 native XY; SCALE_CALIBRATION',
                 source_id='ARCHITECTURAL_ENDPOINTS/'+report['id'],confidence=column['confidence'],
                 tolerance='.0508 cm output rounding; component interpretation bounded to first collision hull',
                 notes=column['notes']))

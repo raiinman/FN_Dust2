@@ -6,7 +6,7 @@ Baseline: CS2 build 25640462, 2026-10-01 UTC.
 | ID | Unknown | Present bound | Required resolution |
 | --- | --- | --- | --- |
 | U01 | Capture continuity | Old workers did not survive. New single-owner worker verified after VConsole disconnect; 202 area frames reviewed, eight excluded; four native radar crops inspected separately | Keep exact echo checks and rendered-area/pose checks; extend usable route-oriented coverage |
-| U02 | Critical lengths/widths | 65 calibrated collision-feature measurements;13 floor datums,54 Short stair points and83 connector surface points. Long/B/Mid local openings, Short flight, Xbox/CT crate/elevator point-pair rises accepted; full architectural bounds incomplete | Structural aperture endpoints, room lengths and remaining route/cover dimensions |
+| U02 | Critical lengths/widths | 79 calibrated collision-feature measurements;13 floor datums,54 Short stair points and83 connector surface points. Long/B/Mid local openings, Short flight, Xbox/CT crate/elevator point-pair rises accepted; full architectural bounds incomplete | Structural aperture endpoints, room lengths and remaining route/cover dimensions |
 | U03 | Elevations/slopes/stairs | 13 repeated native floor datums with calibrated conversion; CT floor/overhead separation 167.69 native units; 54 repeated Short floor samples plus12 repeated center riser faces; Short count/rise/run accepted, remaining stairs/slopes unresolved | Floor endpoints, stair counts and rise/run readings |
 | U04 | Map scale and axes | Native rangefinder anchors accept factor2.54cm/source unit; native right-axis tests and Epic documentation fix UE=(2.54x,-2.54y,2.54z), reversible math checks pass | Phase 2 exporter/editor round-trip must preserve convention exactly once; no import accepted yet |
 | U05 | Per-area directional coverage | 202 current-build area captures, eight exclusions; sixteen critical-area view sets and eleven subarea sets accepted; all required directional sets accepted; individual image limitations retained | Preserve complementary view coverage; resolve full structural metric evidence |
@@ -46,3 +46,5 @@ points/player paths without claiming wall boundaries. Capture004 preceding-frame
 markers rejected; delayed005 independently validates near-floor projection.
 
 Long outer front camera accepted: eight fit crosses and sixteen withheld intersections; max independent0.448px. Native wall-face rays repeatY263.49, not jamb endpoints or render/collision offset. Four native camera JPEGs registered; arch/leaf/plane edge distinctions remain unresolved.
+
+Long arch checkpoint: six unobstructed floor/intrados columns, three intrados-only right points, and eight repeated width sections reviewed.79 physical-register rows. LONG_ARCH_PROFILE/ANNOTATED are calibrated collision samples over native image; rendered edges, hidden right floor and minimum leaf clearance remain separate. Two rejected Long attempts preserved.

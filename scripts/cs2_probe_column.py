@@ -4,6 +4,8 @@ Use only at an inspected interior with a safe Z; never equates units to cm.
 Example: --area 'CT Spawn' --build 25640462 --xy 160.122742 2369.676270
          --z -40 --session QUEUE --output JSON
 Iteratively corrects actual hit XY, repeats settled endpoints and restores pose.
+Optional --yaw rotates the near-vertical ray offset to avoid crossing a sharp
+surface boundary while converging. Known camera-up convention remains unchanged.
 """
 import argparse
 from datetime import datetime, timezone
@@ -35,6 +37,7 @@ def survey(a):
     report=dict(timestamp_utc=datetime.now(timezone.utc).isoformat(),
         source_build=a.build,source_map='de_dust2',area=a.area,unit='source_units',
         target_xy=a.xy,probe_player_z=a.z,initial_pose=initial,
+        probe_yaw=a.yaw,
         model='getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md',
         xy_tolerance=.02,observations=[],accepted_for_production=False,
         status='in progress')
@@ -45,15 +48,19 @@ def survey(a):
     endpoints={}
     for feature in a.features:
         pitch=89 if feature=='floor' else -89
-        x=a.xy[0]-64*math.sin(math.radians(pitch))
-        y=a.xy[1]
+        offset=64*math.sin(math.radians(pitch))
+        x=a.xy[0]-offset*math.cos(math.radians(a.yaw))
+        y=a.xy[1]-offset*math.sin(math.radians(a.yaw))
         for iteration in range(5):
-            send(f'setpos_exact {x} {y} {a.z}; setang_exact {pitch} 0 0')
+            send(f'setpos_exact {x} {y} {a.z}; setang_exact {pitch} {a.yaw} 0')
             observed,v=pose()
-            if max(abs(v[i]-[x,y,a.z,pitch,0,0][i]) for i in range(6))>.01:
+            expected=[x,y,a.z,pitch,a.yaw,0]
+            errors=[abs(v[i]-expected[i]) for i in range(6)]
+            errors[4]=abs((v[4]-a.yaw+180)%360-180)
+            if max(errors)>.01:
                 report.update(status='incomplete; inspect before another command',
                     failure=dict(feature=feature,iteration=iteration+1,
-                        expected_pose=[x,y,a.z,pitch,0,0],observed_pose=observed,
+                        expected_pose=[x,y,a.z,pitch,a.yaw,0],observed_pose=observed,
                         reason='Pose mismatch'))
                 save()
                 raise RuntimeError('Pose mismatch; stop')
@@ -67,6 +74,16 @@ def survey(a):
                 save()
                 raise RuntimeError('No unique collision hit; inspect before retrying')
             hit=[float(hits[0].group(i)) for i in (1,2,3)]
+            eye=[v[0]+64*math.sin(math.radians(v[3]))*math.cos(math.radians(v[4])),
+                 v[1]+64*math.sin(math.radians(v[3]))*math.sin(math.radians(v[4])),
+                 v[2]+64*math.cos(math.radians(v[3]))]
+            if math.dist(hit,eye)<.1:
+                report.update(status='incomplete; collision hit at ray origin',
+                    failure=dict(feature=feature,iteration=iteration+1,
+                        observed_pose=observed,hit=hit,eye_origin=eye,
+                        reason='Origin inside collision; no surface endpoint accepted'))
+                save()
+                raise RuntimeError('Collision hit at origin; inspect before changing probe Z')
             error=math.hypot(hit[0]-a.xy[0],hit[1]-a.xy[1])
             item=dict(feature=feature,iteration=iteration+1,observed_pose=observed,
                 hit=hit,xy_error=error,
@@ -82,6 +99,9 @@ def survey(a):
             else:
                 x-=hit[0]-a.xy[0];y-=hit[1]-a.xy[1]
         else:
+            report.update(status='incomplete; column failed to converge/repeat',
+                          failure=dict(feature=feature,reason='Sharp surface boundary or unstable collision endpoint; no acceptance'))
+            save()
             raise RuntimeError('Column failed to converge/repeat; stop')
     separation=None
     vertical=None
@@ -109,5 +129,6 @@ if __name__=='__main__':
     p.add_argument('--build',required=True)
     p.add_argument('--xy',type=float,nargs=2,required=True)
     p.add_argument('--z',type=float,required=True)
+    p.add_argument('--yaw',type=float,choices=[0,90,180,-90],default=0)
     p.add_argument('--features',nargs='+',choices=['floor','ceiling'],default=['floor','ceiling'])
     survey(p.parse_args())

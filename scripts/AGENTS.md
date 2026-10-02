@@ -62,6 +62,12 @@ Blender Python, Unreal automation, validation scripts, manifest processors, and 
   Pose mismatches are saved with requested/observed values before stopping.
   Use safe inspected interior Z; an origin below
   the floor can return no hit. Inspect before changing Z or restoring after failure.
+  Optional yaw rotates the near-vertical camera-up offset while preserving its
+  tested64-unit model. Yaw90 is live-verified for recessed Long arch edges; sharp
+  boundary convergence failures are saved explicitly. A ray starting inside a
+  leaf can return its own origin; equal floor/ceiling never defines a column.
+  Hits within .1 native units of the tested ray origin are rejected and saved;
+  caller must inspect/restore before changing probe height after a failure.
 - `build_elevation_register.py` derives FLOOR_DATUMS.csv and its SVG point plot
   from reviewed ELEVATION_PROBES.json. It checks repeated endpoints and never
   infers room boundaries or converts source units to centimeters. Reviewed_area
@@ -161,6 +167,10 @@ Blender Python, Unreal automation, validation scripts, manifest processors, and 
   one pixel, and verifies fixed-Y inverse round trips. Run the script to rebuild
   LOCAL_CAMERA_CALIBRATIONS. Surface depth and architectural edge identity need
   separate evidence; never use the pixel bound as their uncertainty bound.
+- `build_long_arch_profile.py` verifies repeated points and clean-image hash,
+  then projects measured intrados/floor samples and section chords. Run it to
+  rebuild the annotated Long frame and physical point CSV; it never fills hidden
+  floors or substitutes collision samples for decorative rendered edges.
 
 Prefer small composable tools with clear command usage and dry-run/validation modes where practical.
 
@@ -173,3 +183,5 @@ Every production script should document expected inputs, outputs, and a basic ve
 None.
 
 - build_physical_register.py derives reviewed centimeter samples from SCALE_CALIBRATION, architectural endpoints and native floor datums. Reviewed sections may use native X or Y; reviewed columns require repeated same-XY floor/first-overhead endpoints. Local clearance is not full-opening acceptance. Never silently overwrite future manually accepted measurement rows; extend the reviewed source evidence first. Accepted Short floor point-pair rises come from SHORT_STAIR_PROFILE.json and require repeated corrected endpoints. Explicit accepted_flight adds individual center-section rise/run and full-flight outer endpoint values through shared flight_rows validation.
+
+Physical-register column acceptance permits floor/overhead XY separation within .04 native units; both corrected repeated endpoints must individually meet .02 tolerance. It retains original coordinates and vertical difference, never forces coincidence.

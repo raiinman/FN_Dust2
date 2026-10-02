@@ -85,6 +85,10 @@ self-captured CS2 study screenshots for the internal benchmark.
   independently inspected withheld marker pixels. Its fixed-Y inverse requires
   an independently established surface plane. Pixel localization bounds do not
   validate selected architectural edges or render/collision plane agreement.
+- `LONG_ARCH_PROFILE.csv` and `LONG_ARCH_ANNOTATED.svg` derive reviewed recessed
+  Long arch floor/intrados points and collision chords. The right floor under
+  the angled leaf is unmeasured; never interpolate it or equate a chord with
+  minimum passable clearance. Rendered decorative borders remain separate.
 
 - `IMAGE_REVIEW.json` owns explicit visual exclusions; `IMAGE_AUDIT.json` independently checks all registered JPEG hashes. Excluded frames remain preserved and never count toward coverage.
 - `CAPTURE_CRASH_RECOVERY.json` preserves the new CT exit view and a stale-frame rejection. Inspect rendered area against pose after foreground changes.

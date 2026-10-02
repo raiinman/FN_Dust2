@@ -20,7 +20,7 @@ The latest repository commit pins this checkpoint; fetch/check main before resum
 - 2.54cm/native unit accepted from two repeated spatial/axis rangefinder anchors.
  UE=(2.54x,-2.54y,2.54z), inverse/length checks and native right-axis evidence pass.
  Exporter/editor round-trip is a Phase 2 check; no import accepted yet.
-- 13 repeated floor datums,54 repeated Short floor samples and65 calibrated
+- 13 repeated floor datums,54 repeated Short floor samples and79 calibrated
  feature measurements. Short has12 independently counted rendered risers and
  repeated center face rays; center run359.6132cm, sampled rise234.3912cm.
  SHORT_STAIR_FLIGHT/ANNOTATED retain individual spacing and limits.
@@ -152,3 +152,7 @@ No pose/input controller remains active. Current camera(640,-100,150,p0,y90), FO
 Long outer facade repeated rays establish Y263.49 at four wall-face stations. Private front calibration003 fit markers and004 independent markers individually inspected, including both clean frames; accepted empirical projection now registered in LOCAL_CAMERA_CALIBRATIONS;003 fit max0.0043px,004 near holdouts0.4480px and005 wall-depth holdouts0.3712px. Four inspected JPEGs uploaded. Structural edge selection remains pending. Private ambiguous calibration002 preserved. Read local drafts before duplicating.
 
 Verification: image audit202 registered/eight exclusions/16 critical sets; overhead and local camera fit/independent checks pass.24-path calibrated overhead/radar diagrams rebuilt and inspected. Gate1 remains FAIL; Phase2 prohibited.
+
+Active serial batch continue_arch_and_tunnel_01.py: Long arch width sections001, right intrados-only680/700/715 sourceZ200, then Tunnel stair floor profile001 (54 requested points; existing completed files checked before skip). Inspect process and partial reports before any other camera/input controller. Six completed Long arch floor/ceiling columns reviewed; jamb-edge failure and inside-leaf failure preserved/excluded. Pose restored exactly640,-100,150,p0,y90 before batch. No production geometry.
+
+Long arch checkpoint: six unobstructed floor/intrados columns, three intrados-only right points, and eight repeated width sections reviewed.79 physical-register rows. LONG_ARCH_PROFILE/ANNOTATED are calibrated collision samples over native image; rendered edges, hidden right floor and minimum leaf clearance remain separate. Two rejected Long attempts preserved.
