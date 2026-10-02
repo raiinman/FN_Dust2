@@ -322,3 +322,7 @@ TUNNEL_WINDER_SIDE_CHECKS JSON/CSV/SVG derives72 prospective checks against
 unchanged original three-point circles. Keep off-frame points and source
 component/elevation distinctions; empirical point residuals never certify
 unseen continuation or exact rendered-surface offsets.
+TUNNEL_RISER_LATERAL_CHECKS JSON/CSV/SVG derives36 fresh near-side checks from
+ARCHITECTURAL_ENDPOINTS against original local face planes. Preserve sampled
+chords, exact heights, off-frame points and original prediction thresholds;
+tested point agreement is separate from full-width endpoints/terminal bounds.

@@ -8,7 +8,7 @@ with its configured model; no model override or agent delegation requested.
 ## Authority and preserved work
 
 GitHub main authoritative; fetch/check before resuming. Crash baseline35eaa642,
-dirty work preserved4c7df48, mergedab4e484. Latest pushed checkpoint6d07e55
+dirty work preserved4c7df48, mergedab4e484. Latest pushed checkpointfee2d19
 before this update. Active C:/Users/mikea/Documents/Codex/2026-09-30/new-chat/
 FN_Dust2, branch codex/crash-recovery-20261001 pushes meaningful checkpoints
 to main. OneDrive workspace separate; synced sources/ read-only. Raw/private
@@ -194,7 +194,16 @@ B_jamb_boundaries_01 eight opposite-normal preflight stations completed/restored
 southY2050 has first concrete facesX-1376/-1232; northY2400X-1343.5/-1296.
 Y2150/2300 first Wood_Dense from both sides. Different southern return/northern
 facade depths stay explicit; no mixed-component body dimension accepted.
-No active source controller. tunnel_winder_height_checks_03 completed48
+ONE active source controller: private run_planned_columns_01.py using
+tunnel_terminal_floor_checks_05/plan.json;15 close lateral floor checks before/
+after first/last risers and top landing. Inspect driver_recovery_001, individual
+reports and exact restore before other source input; do not rerun completed cases.
+tunnel_riser_lateral_checks_04 completed72 observations/restored exactly;
+36 fresh near-side Hull/concrete points match unchanged original32native-strip
+planes, max.08018cm. Derived TUNNEL_RISER_LATERAL_CHECKS JSON/CSV/SVG rebuilt,
+rendered/inspected; four off-frame points retained numerically. Sampled chords
+are not entire riser endpoints or unseen continuous plane acceptance.
+tunnel_winder_height_checks_03 completed48
 observations/restored exactly. Twelve opposite common-eyeZ10 stations give24
 fresh component checks against unchanged circle models, fixed-before-capture
 1native threshold; max outer2.0361cm/inner2.0108cm. Together with fresh angles,

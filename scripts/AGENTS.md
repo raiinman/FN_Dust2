@@ -373,3 +373,8 @@ build_tunnel_side_checks.py validates original three-point circle fits and72
 prospective angle/height checks without refitting, deriving diagnostic JSON/CSV/
 SVG. Rebuild/render/inspect; projected off-frame points remain in numeric files.
 No continuous wall, entire side/terminal or complete footprint acceptance.
+
+build_tunnel_riser_checks.py validates36 fresh near-side concrete Hull rays
+against unchanged local32native-strip face planes and predeclared predictions.
+Rebuild/render/inspect TUNNEL_RISER_LATERAL_CHECKS JSON/CSV/SVG; sampled chords
+do not certify entire riser endpoints/widths or unseen plane continuation.

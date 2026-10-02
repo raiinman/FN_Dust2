@@ -355,3 +355,9 @@ TUNNEL_WINDER_FLOOR_CHECKS and TUNNEL_WINDER_SIDE_CHECKS are reproducible,
 rendered/inspected point diagnostics; seven off-frame wall points retained in
 numeric registers. Full riser sides/terminal edges and unseen continuity remain
 unresolved. Gate1 rerun remains FAIL under unchanged criteria.
+
+Fresh near-side riser checks:36 independent concrete Hull points on18 risers
+match original local plane fits within.08018cm. TUNNEL_RISER_LATERAL_CHECKS
+JSON/CSV/SVG rebuilt/rendered/inspected; four off-frame points retained.
+These chords extend sampled evidence toward the sides; complete endpoints and
+unseen continuation remain separate. Gate1 remains FAIL.

@@ -294,3 +294,7 @@ match original three-point circles within2.3178cm, with expected concrete
 Mesh/Hull components. Full riser sides, side/terminal continuity and rendered
 offsets remain unbounded; diagnostic residuals are sampled evidence, not an
 unseen-surface guarantee. See TUNNEL_WINDER_FLOOR_CHECKS/SIDE_CHECKS JSON/CSV/SVG.
+
+TUNNEL_RISER_LATERAL_CHECKS adds36 independent near-side points across18 faces;
+original local planes predict them within.08018cm. Full side endpoints and
+unseen plane continuation remain separate; no nominal uniform winder geometry.
