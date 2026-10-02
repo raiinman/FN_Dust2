@@ -8,7 +8,7 @@ with its configured model; no model override or agent delegation requested.
 ## Authority and preserved work
 
 GitHub main authoritative; fetch/check before resuming. Crash baseline35eaa642,
-dirty work preserved4c7df48, mergedab4e484. Latest pushed checkpoint109a6d2
+dirty work preserved4c7df48, mergedab4e484. Latest pushed checkpoint5799817
 before this update. Active C:/Users/mikea/Documents/Codex/2026-09-30/new-chat/
 FN_Dust2, branch codex/crash-recovery-20261001 pushes meaningful checkpoints
 to main. OneDrive workspace separate; synced sources/ read-only. Raw/private
@@ -194,7 +194,27 @@ B_jamb_boundaries_01 eight opposite-normal preflight stations completed/restored
 southY2050 has first concrete facesX-1376/-1232; northY2400X-1343.5/-1296.
 Y2150/2300 first Wood_Dense from both sides. Different southern return/northern
 facade depths stay explicit; no mixed-component body dimension accepted.
-No active source controller. tunnel_terminal_floor_checks_05 completed15
+ONE active source controller: cs2_probe_endpoints.py private
+b_rear_corner_side_preflight_06/config.json -> B_REAR_CORNER_SIDE_PREFLIGHT_006;
+14 east-facing stations fromX-1920/-1950 near west rear return;28 expected
+repeat observations. Inspect partial/status/components/exact restore before input. Inspect status/
+components/restoration before source input; preserve partials/own-origin rejects.
+B rear first preflight36observations completed/restored exactly; two origins
+agree, westMesh/Hull join bracketX-1880/-1890, eastX-1520 stillfacade.
+East preflight02 stopped at own-origin Dirt Hull X-1376/Y2700; six earlier
+ray pairs retained, exact B-mouth restoration verified. Failed report preserved
+in ARCHITECTURAL_ENDPOINTS.rejected_attempts. Do not rerun02 or X-1376.
+Eastpreflight04 completed12 observations/restored, allsix origins match.
+Westtransition03 stopped after five repeated rays: Meshcorner reliefY2883.06
+exceeds original2native normal guard; exact restore. Preservedrejected report,
+no false wall-end acceptance. Narrow05 uses Mesh/Hull components and broader
+local normal guard without imposingflatY2880; actual endpoints remain explicit.
+Westtransition05 guard rejected deeperMeshY2907.67 atX-1887.34375.
+Originalpartial preserved; exactrestore. Front facade wraps a return, so
+Mesh/Hull componentend is not its front corner. Do not rerun03/05 or broaden
+guards to invent a flat facade end; independent side-normal diagnostic06 active.
+Private b_rear_camera_01 prepared/unexecuted;
+never run concurrently with active east preflight. Tunnel controllers completed. tunnel_terminal_floor_checks_05 completed15
 columns/restored exactly; six close point-pair rises registered (lower entry
 X-1130/-1100/-1040:19.2278/19.9390/18.8976cm; upperY1040/1080/1130:20.32cm).
 Sand landing slopes; points.20native each side are not exact coincident contact.

@@ -306,3 +306,12 @@ three distinct first-rise samples19.2278/19.9390/18.8976cm; upper20.32cm repeats
 overhead8fit/10held max.34433px frames full stair and all checked points; four
 inspected JPEGs bring total239. Lowest ground extrapolates1.82native below marker
 range. Full side/landing footprint and rendered/collision offsets remain open.
+
+B rear facade diagnostics:18 repeated wall-normal stations agree fromY2700/2750;
+west firstMesh relief reachesY2883.06..2907.67 overX-1886.25..-1887.34375,
+wrapping a return. Two normal guard rejections preserved; an eventual Mesh/Hull
+interface is not the visible front corner. East six completedY2700 ray pairs
+match six safeY2750 pairs exactly, with an angled return fromX-1504/Y2880 to
+X-1440/Y2840.8. X-1376/Y2700 is own-origin Dirt Hull, rejected/restored and
+never retried. Full rear corner/footprint still unresolved; independent side
+rays and calibrated rendered review are required. Gate1 remains FAIL.

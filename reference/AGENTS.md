@@ -336,3 +336,10 @@ ground1.82native depth extrapolation remains explicit. Four inspected native
 derivative images are registered; different clean-frame hashes cannot be called
 duplicates. New Tunnel annotations use this wider camera without discarding
 old camera reports or source points formerly outside its image frame.
+
+Rear facade diagnostics in ARCHITECTURAL_ENDPOINTS distinguish exposed front
+Mesh, relief wrapping a return, distant recessed Hull and eastern angled wall.
+A first-Mesh component can continue around a corner; its eventual Mesh/Hull
+interface is not automatically the front facade endpoint. Preserve normal-band
+guard rejections and own-origin Dirt Hull evidence; use independent side rays
+and checked rendered correspondence before structural corner acceptance.
