@@ -35016,6 +35016,348 @@
       "id": "PIT_EAST_ADJACENTGROUND_X1590_Y750_021",
       "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\pit_cap_ground_columns_21\\PIT_EAST_ADJACENTGROUND_X1590_Y750_021.json",
       "surface_semantics": "Ground/raised-strip firstdown point atY750. OriginalCAP name atX1240/1620 is planning intent only: actualfirsthit is outside ground, explicitly excluded from cap identity. X1274/1590 are separate2native-infront adjacentground points, below overhangingcap; not exactwall floorcontact."
+    },
+    {
+      "timestamp_utc": "2026-10-02T20:03:42.412611+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A Site east retaining candidate top; component review required",
+      "unit": "source_units",
+      "target_xy": [
+        1276.0,
+        2320.0
+      ],
+      "probe_player_z": 450.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1212.009766 2320.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1281.73,
+            2320.0,
+            122.91
+          ],
+          "xy_error": 5.730000000000018,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1206.279785 2320.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1275.97,
+            2320.0,
+            124.48
+          ],
+          "xy_error": 0.029999999999972715,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1206.309692 2320.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1276.0,
+            2320.0,
+            124.47
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 4,
+          "observed_pose": "setpos_exact 1206.309692 2320.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1276.0,
+            2320.0,
+            124.47
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1276.0,
+          2320.0,
+          124.47
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "ASITE_EAST_TOP_X1276_Y2320_034",
+      "surface_semantics": "Repeated corrected first-downward Rock Hull top near separately measured eastretainingMeshX1280. Calibrated031 shows local stonecoping region; top at thisXY only, not floor/highest wholecap/constanttop or hiddenbase.",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/asite_cap_columns_034/ASITE_EAST_TOP_X1276_Y2320_034.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T20:03:54.199375+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A Site east retaining candidate top; component review required",
+      "unit": "source_units",
+      "target_xy": [
+        1276.0,
+        2450.0
+      ],
+      "probe_player_z": 450.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1212.009766 2450.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1281.73,
+            2450.0,
+            122.93
+          ],
+          "xy_error": 5.730000000000018,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1206.279785 2450.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1275.97,
+            2450.0,
+            124.75
+          ],
+          "xy_error": 0.029999999999972715,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1206.309692 2450.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1276.0,
+            2450.0,
+            124.74
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 4,
+          "observed_pose": "setpos_exact 1206.309692 2450.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1276.0,
+            2450.0,
+            124.74
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1276.0,
+          2450.0,
+          124.74
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "ASITE_EAST_TOP_X1276_Y2450_034",
+      "surface_semantics": "Repeated corrected first-downward Rock Hull top near separately measured eastretainingMeshX1280. Calibrated031 shows local stonecoping region; top at thisXY only, not floor/highest wholecap/constanttop or hiddenbase.",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/asite_cap_columns_034/ASITE_EAST_TOP_X1276_Y2450_034.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T20:04:06.084061+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A Site east retaining candidate top; component review required",
+      "unit": "source_units",
+      "target_xy": [
+        1276.0,
+        2650.0
+      ],
+      "probe_player_z": 450.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1212.009766 2650.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1281.72,
+            2650.0,
+            123.42
+          ],
+          "xy_error": 5.720000000000027,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1206.289795 2650.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1275.97,
+            2650.0,
+            124.98
+          ],
+          "xy_error": 0.029999999999972715,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1206.319702 2650.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1276.0,
+            2650.0,
+            124.97
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 4,
+          "observed_pose": "setpos_exact 1206.319702 2650.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1276.0,
+            2650.0,
+            124.97
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1276.0,
+          2650.0,
+          124.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "ASITE_EAST_TOP_X1276_Y2650_034",
+      "surface_semantics": "Repeated corrected first-downward Rock Hull top near separately measured eastretainingMeshX1280. Calibrated031 shows local stonecoping region; top at thisXY only, not floor/highest wholecap/constanttop or hiddenbase.",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/asite_cap_columns_034/ASITE_EAST_TOP_X1276_Y2650_034.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T20:04:17.471631+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A Site east retaining candidate top; component review required",
+      "unit": "source_units",
+      "target_xy": [
+        1276.0,
+        2750.0
+      ],
+      "probe_player_z": 450.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1212.009766 2750.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1281.72,
+            2750.0,
+            123.25
+          ],
+          "xy_error": 5.720000000000027,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1206.289795 2750.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1275.98,
+            2750.0,
+            124.83
+          ],
+          "xy_error": 0.01999999999998181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1206.289795 2750.000000 450.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1275.98,
+            2750.0,
+            124.83
+          ],
+          "xy_error": 0.01999999999998181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1275.98,
+          2750.0,
+          124.83
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "ASITE_EAST_TOP_X1276_Y2750_034",
+      "surface_semantics": "Repeated corrected first-downward Rock Hull top near separately measured eastretainingMeshX1280. Calibrated031 shows local stonecoping region; top at thisXY only, not floor/highest wholecap/constanttop or hiddenbase.",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/asite_cap_columns_034/ASITE_EAST_TOP_X1276_Y2750_034.json"
     }
   ],
   "accepted_pairs": [
@@ -35657,6 +35999,24 @@
       "dimension": "rise",
       "feature": "EAST local cap versus adjacent raised-ground elevation difference",
       "notes": "DifferentX atsameY750; measured RockHull cap sample versus separate2native-before plasterface sandground. Groundsample nothiddenbodybase; capsample notfullhighesttop. Pointpair difference only, not entire wallheight/exactcontact or fullfootprint."
+    },
+    {
+      "id": "ASITE_EAST_CAP_TO_LONG_ROAD_Y2450_SAMPLED_RISE",
+      "area": "A Site / Long A",
+      "feature": "East retaining Rock top versus adjoining Long road sample atY2450",
+      "dimension": "rise",
+      "from_report": "LONG_A_CENTER_X1400_Y2450_001",
+      "to_report": "ASITE_EAST_TOP_X1276_Y2450_034",
+      "notes": "Different measuredX1276 top versusX1400 road, sameY. Native top/ground point-pair rise only; intervening curb/terrain and hidden wall base remain separate. No exact retainingwall height, fullcap/body or uniform floor inferred."
+    },
+    {
+      "id": "ASITE_EAST_CAP_TO_LONG_ROAD_Y2650_SAMPLED_RISE",
+      "area": "A Site / Long A",
+      "feature": "East retaining Rock top versus adjoining Long road sample atY2650",
+      "dimension": "rise",
+      "from_report": "LONG_A_CENTER_X1400_Y2650_001",
+      "to_report": "ASITE_EAST_TOP_X1276_Y2650_034",
+      "notes": "Different measuredX1276 top versusX1400 road, sameY. Native top/ground point-pair rise only; intervening curb/terrain and hidden wall base remain separate. No exact retainingwall height, fullcap/body or uniform floor inferred."
     }
   ],
   "rejected_attempts": [
@@ -36452,5 +36812,86 @@
       "PIT_EAST_CAP_X1620_Y750_021"
     ],
     "scope": "Sixactual correctedpoints retained; two plannedcap positions hit outsideground. Do not relabel raw IDs or infer capcontinuity across ground."
+  },
+  "asite_retaining_cap_review": {
+    "plan": {
+      "build": "25640462",
+      "cases": [
+        {
+          "id": "ASITE_EAST_TOP_X1276_Y2320_034",
+          "xy": [
+            1276,
+            2320
+          ],
+          "z": 450,
+          "area": "A Site east retaining candidate top; component review required",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "ASITE_EAST_TOP_X1276_Y2450_034",
+          "xy": [
+            1276,
+            2450
+          ],
+          "z": 450,
+          "area": "A Site east retaining candidate top; component review required",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "ASITE_EAST_TOP_X1276_Y2650_034",
+          "xy": [
+            1276,
+            2650
+          ],
+          "z": 450,
+          "area": "A Site east retaining candidate top; component review required",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "ASITE_EAST_TOP_X1276_Y2750_034",
+          "xy": [
+            1276,
+            2750
+          ],
+          "z": 450,
+          "area": "A Site east retaining candidate top; component review required",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        }
+      ],
+      "scope": "Four repeated corrected first-downward columns near measuredMeshX1280. Candidate top identity requires native material/shape and calibrated renderedcontext review; cover/higherbody firsthit cannot be called cap or floor. Different heights in032/033 demonstrate terrain occlusion, not bodyend. No uniformtop/full-height extrusion/hidden base assumed."
+    },
+    "driver_recovery": {
+      "timestamp_utc": "2026-10-02T20:03:41.628674+00:00",
+      "original_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "status": "completed serial columns; semantic review pending",
+      "completed": [
+        "ASITE_EAST_TOP_X1276_Y2320_034",
+        "ASITE_EAST_TOP_X1276_Y2450_034",
+        "ASITE_EAST_TOP_X1276_Y2650_034",
+        "ASITE_EAST_TOP_X1276_Y2750_034"
+      ],
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "scope": "Four explicitly reviewed RockHull top points near eastretainingMesh, component distinction separate from entire capbody/elevations; calibrated031 context. No uniform top or under-cap floor."
   }
 }

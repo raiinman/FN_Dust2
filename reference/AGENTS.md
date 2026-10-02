@@ -504,3 +504,15 @@ elevation-depth markers at its exact actualpitch88.999908. Four native/JPEGs and
 Original030 four clipped frames are rejected/preserved privately with metadata
 in CAPTURE_CRASH_RECOVERY.rejected_attempts. No calibration transfer or hidden
 floor/cover/body perimeter acceptance. Fixed-Z inverse needs measured elevation.
+
+A_SITE_SURVEY_POINTS JSON/SVG, owned by build_a_site_survey_points.py, projects
+reviewed elevator ground/cap, entry tread/Long road points and032 native first-hit
+faces into ASITE_OVERHEAD_031. Validate repeated corrected floors, native
+poses/rangefinder/restores and camera/image hash; preserve out-of-frame remote
+hit and roof/cap occlusion. Render/inspect. No connected polygon or flat floor.
+Upper033 retains deeperMesh behind lower032 Hull atY2650; changing first hit
+with ray height is not automatically a whole retaining-body endpoint.
+CONNECTOR_SURFACE_PROFILES.asite_retaining_cap_review owns034 four corrected
+RockHull top points and original plan/driver. A_SITE_SURVEY_POINTS optionally
+validates and overlays them; two different-X top/Longroad rise rows retain
+intervening curb/ground/hidden-base limits. No constant wholecap or wallheight.

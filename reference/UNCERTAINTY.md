@@ -3,10 +3,17 @@
 **Gate 1: FAIL.** These are blockers, not accepted exceptions.
 Baseline: CS2 build 25640462, 2026-10-01 UTC.
 
+Latest A Site checks032/033: two outsideXorigins confirm MeshX1280 atY2650/Z110
+behind nearerHull1319.9 atZ90. Preserve lower height-dependent occlusion; no
+whole-body endpoint from a first-hit change. NorthernX1000/Z180 reaches remote
+Y3845.33 vsX1050 localY3080; westcourtyard and southoutside faces remain separate.
+A_SITE_SURVEY_POINTS28 reviewed projections (one out of frame) rendered/inspected;
+camera031 maxheld .509377px. Full site/retaining/continuous layered bounds open.
+
 | ID | Unknown | Present bound | Required resolution |
 | --- | --- | --- | --- |
 | U01 | Capture continuity | Old workers did not survive. New single-owner worker verified after VConsole disconnect; 277 reference frames reviewed, eight excluded; four native radar crops inspected separately | Keep exact echo checks and rendered-area/pose checks; extend usable route-oriented coverage |
-| U02 | Critical lengths/widths | 412 calibrated collision-feature measurements;13 floor datums,54 Short and117 Tunnel stair points and465 connector surface points. Long/B/Mid local openings, Short flight, Xbox/CT crate/elevator point-pair rises accepted; full architectural bounds incomplete | Structural aperture endpoints, room lengths and remaining route/cover dimensions |
+| U02 | Critical lengths/widths | 414 calibrated collision-feature measurements;13 floor datums,54 Short and117 Tunnel stair points and469 connector surface points. Long/B/Mid local openings, Short flight, Xbox/CT crate/elevator point-pair rises accepted; full architectural bounds incomplete | Structural aperture endpoints, room lengths and remaining route/cover dimensions |
 | U03 | Elevations/slopes/stairs | 13 repeated native floor datums with calibrated conversion; CT floor/overhead separation 167.69 native units; 54 repeated Short floor samples plus12 repeated center riser faces; Short count/rise/run and Tunnel18 count,18 rises/16 axial intervals,16 local widths accepted; full Tunnel sides/terminal edges and remaining slopes unresolved | Floor endpoints, stair counts and rise/run readings |
 | U04 | Map scale and axes | Native rangefinder anchors accept factor2.54cm/source unit; native right-axis tests and Epic documentation fix UE=(2.54x,-2.54y,2.54z), reversible math checks pass | Phase 2 exporter/editor round-trip must preserve convention exactly once; no import accepted yet |
 | U05 | Per-area directional coverage | 277 current-build reference captures, eight exclusions; sixteen critical-area view sets and eleven subarea sets accepted; all required directional sets accepted; individual image limitations retained | Preserve complementary view coverage; resolve full structural metric evidence |

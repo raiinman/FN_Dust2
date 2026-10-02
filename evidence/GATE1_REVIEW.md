@@ -2,6 +2,21 @@
 
 **FAIL. Phase 1 remains active. Phase 2 production is prohibited.**
 
+A Site034 four corrected repeated RockHull tops COMPLETE/all0: atX1276,
+Y2320Z124.47,2450Z124.74,2650Z124.97,2750Z124.83 (lastactualX1275.98).
+469 connector points;414 physical features. Two different-X top/Longroad sample
+rises231.2924/108.458cm retain intervening curb/terrain and hiddenbase limits;
+not exact wholewall height or highest/constant cap. A_SITE_SURVEY_POINTS now32
+unique points, one out of frame; updated SVG rendered/inspected. Gate1 FAIL.
+
+A Site032/033 each complete28 observations/all0 restores. A_SITE_SURVEY_POINTS
+projects28 unique reviewed ground/cap/first-hit face points into checked031;
+one remote north hit out of frame retained. Annotated SVG rendered/inspected.
+Upper033 atZ110 confirms deeperMeshX1280/Y2650 behind032 nearerHull atZ90;
+first-hit change cannot define entire retaining-body end.189 architectural
+reports/26 preserved rejects;412 physical features unchanged. Mixed component
+and ray-height evidence does not close full platform/courtyard/whole-map extents.
+
 A Site camera031 passes8fit/10independent elevation-depth markers, maximum
 .307869/.509377px. Four native/JPEGs and18 marker crops individually inspected;
 277 registered image hashes/native dates PASS. Wider frame includes platform
@@ -67,7 +82,7 @@ Source: installed CS2 build25640462, de_dust2. GitHub main is durable authority.
 | Physical scale and coordinate convention | SCALE_CALIBRATION.json; COORDINATE_TRANSFORM.json | PASS for current-build factor2.54 and reversible UE=(2.54x,-2.54y,2.54z); Phase2 exporter/import validation pending |
 | Every critical area forward/reverse/side/elevation coverage | 277 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | PASS: sixteen critical-area sets and eleven subarea sets accepted; structural metric and traversal remain separate |
 | Unambiguous validated topology | ROUTE_GRAPH.md; TOPOLOGY.json; WALK_PROBES.json; TRAVERSAL_PROBES.json; TOPOLOGY_AUDIT.json | PASS for listed surveyed connections:24 ground paths both directions; B Window both; S01 both, S02/S03 reciprocal routes, S04 partner forward/reverse. E11/E27 direct forward twice, unsupported reverse at surveyed crossing blocked twice, indirect walking returns both. Alternative launches/partners and geometric bounds remain separate |
-| Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; TUNNEL_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 412 calibrated feature measurements;54 Short and117 Tunnel floor samples; full critical register incomplete |
+| Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; TUNNEL_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 414 calibrated feature measurements;54 Short and117 Tunnel floor samples; full critical register incomplete |
 | Calibrated annotated whole-map truth | RADAR_CALIBRATION.json; MAP_CAMERA_CALIBRATION.json; RADAR_PLAN.svg; MAP_CAMERA_PLAN.svg | FAIL: calibrated native camera, physical grid, floors and paths; continuous architectural boundaries and overlapping elevation layers incomplete |
 | Bounded remaining uncertainty | UNCERTAINTY.md; SURVEY_TASKS.csv | FAIL: unresolved critical extents, full apertures/cover dimensions, stairs and render/collision bounds |
 

@@ -7,7 +7,7 @@ no model override, new chat or agent delegation requested. Criteria unchanged.
 
 ## Authority and preserved work
 
-GitHub main is authoritative. Latest pushed checkpointaf21255: lower Pit joins and bounded native facing lengths.
+GitHub main is authoritative. Latest pushed checkpointd572fa0: calibrated wider A Site camera and clipped030 rejection.
 Current work adds checked wider A Site overhead camera and retains clipped030 rejection;
 current Git commit pins that evidence checkpoint. Crash baseline35eaa642; dirty work preserved4c7df48,
 mergedab4e484. Active checkout:
@@ -26,8 +26,8 @@ evidence/CRASH_RECOVERY_20261001.md. Inspect dirty work/current main first.
 - Scale2.54cm/native from repeated inch-rangefinder anchors. UE=(2.54x,-2.54y,
   2.54z), inverse/right-axis/length checks PASS. Phase2 exporter/editor roundtrip
   unverified; unsaved Hammer128 cube is calibration, not production.
-- 412 bounded physical features;13 floor datums;54 Short/117 Tunnel stair floor
-  samples;465 connector points;135 local architectural chords.187 raw
+- 414 bounded physical features;13 floor datums;54 Short/117 Tunnel stair floor
+  samples;469 connector points;135 local architectural chords.189 raw
   architectural reports/26 rejected attempts. MEASUREMENTS/profile registers own
   confidence/limits. Chords cross open space; they are not wall/polygon edges.
 - Listed topology PASS:34 edges/four specials.24 ground paths both directions;
@@ -89,12 +89,21 @@ from188 through767.96875, separate southernHull at176..184. No smoothcurve/
 fullheight extrusion accepted. 024/025 complete44obs each/all0exactrestore. TwoXorigins agree southjoin westY[183.875,183.8828125], eastY[184,184.0078125] atZ0. NativeUI preflight observed the authored white cross at the west camera;
 source B-mouth exactly restored before captures. Camera026/027 controller COMPLETE:
 eight marked/clean frames, final B-mouth pose/all0 errors, overlay restored visible.
-NO ACTIVE source controller. A Site031 four nativeframes COMPLETE/all0;
-native/JPEGs and18 marker crops individually inspected; accepted wider model
-8fit/10independent markers at observedpitch88.999908. Southern platform target
-fits frame; held maximum .509377px.277 registered hash/native-date audit PASS.
-Hiddenfloor/roof/cover elevation distinctions remain explicit.
-Camera030 clipped native batch remains rejected with original metadata/raw.
+NO ACTIVE source controller. A Site034 four corrected repeated RockHull tops
+COMPLETE/all0: X1276/Y2320Z124.47,2450Z124.74,2650Z124.97,2750Z124.83
+(lastactualX1275.98).469 connectorpoints; two different-X top/Longroad rises
+231.2924/108.458cm, not exactwallheight/fullbody. Sourceplan/driver preserved.
+A Site032 COMPLETE28/all0 and033 COMPLETE28/all0,
+both registered.033 confirms deeperMeshX1280/Y2650/Z110 behind032 nearerHull
+atZ90; MeshX1280 throughY2700, reliefX1279.4/Y2320, firstHull1319.96/Y2750.
+No false endpoint/wholebody acceptance from lower first-hit change.
+A_SITE_SURVEY_POINTS JSON/SVG validates32 unique ground/cap/first-face points
+against checked031/hash; one remote northpoint outsideframe kept explicitly.
+Rendered/inspected after label spacing correction; no inferred rectangle/polygon.
+WestMeshX256/Y2450/Z160; courtyardnorthY2784 atX900/950 vsX1050 local3080
+andX1000 remote3845.33/Z180. SouthoutsideMeshY2304/Z24. EastMeshX1280/Y2450/Z60
+vsHullX1319.9/Y2650/Z90: road/ground occlusion and distinct heights stay explicit.
+No complete site/retaining rectangle accepted. A Site031 COMPLETE/all0,277 audit PASS.
 Do not issue competing inputs. Report028 COMPLETE48/all0; report029 COMPLETE32/all0.
 OriginalZ0 on/off brackets independently match atZ-80/-40 from twoXorigins;
 all four lower seam crops inspected/corroborated. Do not rerun camera driver/preflight/plans. Private folder

@@ -453,6 +453,17 @@ checks, repeats/poses/rangefinder, exact camera/hash and selected pixel boxes.
 Southern rendered checks atZ-80/-40 do not clear the separate Z0 roof occlusion.
 Rebuild/render/inspect; no full-body, full-height or ground-polygon acceptance.
 
+build_a_site_survey_points.py owns A_SITE_SURVEY_POINTS JSON/SVG. Inputs:
+CONNECTOR_SURFACE_PROFILES elevator/entry/Long points, ARCHITECTURAL_ENDPOINTS
+032 first-hit faces and checked ASITE_OVERHEAD_031 clean image. Validate native
+repeat/pose/rangefinder/restoration and hash; preserve distinct ground/cap/face
+semantics and out-of-frame remote hit. Render/inspect; no continuous boundary,
+hidden floor, full courtyard or source/render correspondence acceptance.
+Optional connector asite_retaining_cap_review validates034 RockHull top
+components and exact driver restore before adding four cap projections. Two
+accepted_pairs feed physical register as different-X top/road sampled rises;
+do not equate them with full wallheight or a constant cap.
+
 B_TIMBER_LOCAL_SECTIONS also validates optional022 two-origin firstWood/Dirt
 near-facing limit. Preserve failed019/020/021 and unsafeY2878 own-origin hit.
 Mixed MetalPanel/Wood/Dirt interfaces never automatically define fullstrip
