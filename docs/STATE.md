@@ -11,7 +11,7 @@ old dirty checkout preserved in4c7df48, baseline merged inab4e484. See
 [evidence/CRASH_RECOVERY_20261001.md](../evidence/CRASH_RECOVERY_20261001.md).
 The latest repository commit pins this checkpoint; fetch/check main before resume.
 
-- 187 reviewed study JPEGs, eight historical coverage exclusions preserved.
+- 189 reviewed study JPEGs, eight historical coverage exclusions preserved.
  Original24 and recovered55 re-inspected; all additions inspected individually.
  IMAGE_REVIEW/IMAGE_AUDIT/CAPTURE_CRASH_RECOVERY own hashes and rejection reasons.
 - 16 critical-area required-view sets accepted in AREA_VIEW_REVIEW, including
@@ -20,7 +20,7 @@ The latest repository commit pins this checkpoint; fetch/check main before resum
 - 2.54cm/native unit accepted from two repeated spatial/axis rangefinder anchors.
  UE=(2.54x,-2.54y,2.54z), inverse/length checks and native right-axis evidence pass.
  Exporter/editor round-trip is a Phase 2 check; no import accepted yet.
-- 13 repeated floor datums,54 repeated Short floor samples and53 calibrated
+- 13 repeated floor datums,54 repeated Short floor samples and58 calibrated
  feature measurements. Short has12 independently counted rendered risers and
  repeated center face rays; center run359.6132cm, sampled rise234.3912cm.
  SHORT_STAIR_FLIGHT/ANNOTATED retain individual spacing and limits.
@@ -80,9 +80,14 @@ B Window solo climb/crossing passed both directions with stable landings;
 TRAVERSAL_PROBES records accepted004/reverse001 and five rejected/partial attempts.
 Outside rubble-to-CT Mid approach now passes both directions around south wall
 corner (private002 pair,17/16 steps); initial embedded/blocked start001 preserved.
-Current serial controller: probe_xbox_cover.py, private xbox_metrics/ with9 XY
-columns. Inspect live process, each completed report and plan before resume;
-do not start another pose/input controller while it runs.
+Twenty-four repeated Xbox/Catwalk floor, cover-top, low pallet and parapet-cap
+points bring CONNECTOR_SURFACE_PROFILES to43 samples. Five explicit point-pair
+rises bring MEASUREMENTS to58; sampled rise is not exact cover-base height.
+Two inspected detail images registered. Low Wood_Plank pallet point at(-320,
+1375,-75.65) lies below crate top(-320,1390,-28.93); direct front jump001 failed.
+Current serial controller: XBOX_CATWALK_SIDE_CLIMB_001, private config/report in
+crash_recovery_survey/. Inspect live process and report before continuing.
+Xbox probe grids and detail capture batches completed; raw attempts preserved.
 
 1. Resolve Pit/Suicide reverse classification and test S01-S04 special traversal.
 2. Complete structural endpoints, room/cover
