@@ -14,8 +14,8 @@ The latest repository commit pins this checkpoint; fetch/check main before resum
 - 187 reviewed study JPEGs, eight historical coverage exclusions preserved.
  Original24 and recovered55 re-inspected; all additions inspected individually.
  IMAGE_REVIEW/IMAGE_AUDIT/CAPTURE_CRASH_RECOVERY own hashes and rejection reasons.
-- 15 critical-area required-view sets accepted in AREA_VIEW_REVIEW; only
- Connectors remains incomplete. Eleven component subarea sets remain separately
+- 16 critical-area required-view sets accepted in AREA_VIEW_REVIEW, including
+ an explicit eight-component Connector review. Eleven component subarea sets remain separately
  recorded. View acceptance does not certify structural metric or traversal.
 - 2.54cm/native unit accepted from two repeated spatial/axis rangefinder anchors.
  UE=(2.54x,-2.54y,2.54z), inverse/length checks and native right-axis evidence pass.
@@ -75,7 +75,7 @@ TRAVERSAL_PROBES records observed forward E11, repeat/reverse still pending.
 No survey capture controller remains active. Outer connector and Xbox/CT crate
 replacement batches completed and were individually inspected. Fifteen additions
 registered, seven new clipped/misdirected target attempts rejected and preserved;
-four additional subarea sets accepted. Parent Connector taxonomy review remains.
+four additional subarea sets accepted. Parent Connector composite now accepted with explicit transition ownership.
 B_WINDOW_INTERIOR_CLIMB_001 walked to the first rock but stopped atY2565.94;
 configured B_WINDOW_CLIMB_JUMP_001 is the next live attempt. Check its private JSON
 and live process before continuing. No simultaneous pose controllers.

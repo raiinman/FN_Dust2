@@ -21,7 +21,7 @@ Nodes describe area relationships; they are not polygon outlines or route length
 | E08 | Tunnel Stairs | Lower Tunnels | walk | both | lower floor | D008 |
 | E09 | Lower Tunnels | Mid | walk | both | arch survey | D009 |
 | E10 | Outside Long | Top Mid | walk | both | survey | D010 |
-| E11 | T Spawn | Suicide | drop; reverse uncertain | forward | drop | D011 |
+| E11 | T Spawn | Suicide | observed jump/drop; reverse unverified | forward observed | drop | D011 |
 | E12 | Suicide | Top Mid | walk | both | survey | D012 |
 | E13 | Top Mid | Mid | walk | both | mid descends toward doors | D013 |
 | E14 | Top Mid | Catwalk | walk | both | survey | D014 |
@@ -37,7 +37,7 @@ Nodes describe area relationships; they are not polygon outlines or route length
 | E24 | Outside Long | Long Doors | walk | both | survey | D024 |
 | E25 | Long Doors | Long Corner | walk | both | two portals with intervening room | D025 |
 | E26 | Long Corner | Side Pit | walk | both | survey | D026 |
-| E27 | Side Pit | Pit | walk | both | down into pit | D027 |
+| E27 | Side Pit | Pit | observed jump/drop; reverse unverified | forward observed | down into pit | D027 |
 | E28 | Long Corner | Long A | walk | both | survey | D028 |
 | E29 | Long A | A Cross | walk | both | survey | D029 |
 | E30 | A Cross | A Ramp | walk | both | rises toward A | D030 |
@@ -85,30 +85,39 @@ CAPTURE_GATE1_SURVEY.json. Portal-face screenshots do not validate walking
 clearance or both traversal directions. Upper Mid approach images are not yet
 used to assert the exact Top Mid/Suicide callout boundary.
 
-## Collision walking recovery
+## Current-build collision traversal evidence
 
-WALK_PROBES.json records PIT_LONG_RAMP in both directions with no route teleports,
-collision on, reduced speed 80 and arrival 20. This links Pit ramp lower station
-to Long A approach; it does not validate the raised Side Pit terrace edge E27.
-E05/E06 now have completed Upper Tunnels-to-B exit walks in both directions.
-E24/E25 have completed walks through both Long Doors portals and the intervening
-chamber in both directions. Those tests used speed 80 and arrival radius 25.
-The initial 15-unit Long endpoint tolerance caused oscillation; attempt 004 is
-preserved as a controller failure, superseded by completed 005. No special
-traversal is accepted. Scale is calibrated; the critical metric register is incomplete.
+WALK_PROBES.json owns twenty-one accepted both-direction surveyed paths. Start
+is the only teleport, collision stays on, speed80 and arrival20/25 are recorded
+per report. Ground-path acceptance is independent of complete width/height or
+default-speed timing. Failed plans remain preserved.
 
-E17/E18 pass B-side approach through B Doors to CT Mid in both directions;
-the reverse path bends around the angled leaf. E29/E30/E31 pass Long A through
-the cross/ramp to A Site in both directions using the outer street around site
-cover. WALK_PROBES.json owns reduced-speed paths and failed plans. These do
-not accept complete B courtyard, Under A, or special traversal.
+| Accepted path | Edges / scope |
+| --- | --- |
+| PIT_LONG_RAMP | supplemental surveyed path |
+| LONG_DOORS_BOTH | E24, E25 |
+| UPPER_B_BOTH | E05, E06 |
+| B_DOORS_BOTH | E17, E18 |
+| LONG_A_SITE_BOTH | E29, E30, E31 |
+| SHORT_TOP_SITE_BOTH | E34 |
+| CATWALK_SHORT_STAIRS_BOTH | E32, E33 |
+| TOPMID_CATWALK_BOTH | E14 |
+| MID_DOORS_BOTH | E15, E16 |
+| TOPMID_MID_BOTH | E13 |
+| CTMID_CTSPAWN_BOTH | E21 |
+| CTSPAWN_UNDERA_LONG_BOTH | E22, E23 |
+| TUNNEL_STAIRS_BOTH | E07, E08 |
+| LOWER_MID_BOTH | E09 |
+| TSPAWN_OUTSIDE_LONG_BOTH | E01 |
+| TSPAWN_OUTSIDE_TUNNELS_BOTH | E02, E03 |
+| OUTSIDE_UPPER_TUNNELS_BOTH | E04 |
+| TOPMID_OUTSIDE_LONG_BOTH | E10 |
+| LONG_CORNER_LONG_A_BOTH | E28 |
+| LONG_CORNER_SIDE_PIT_BOTH | E26 |
+| SUICIDE_TOPMID_BOTH | E12 |
 
-E32/E33 pass the full lower Catwalk approach-to-Short upper landing stair route
-in both directions. E34 passes Short upper landing-to-A Site in both directions.
-Speed80/arrival25; start-only teleport. Earlier wall/parapet-blocked plans remain
-preserved. These paths do not certify tread dimensions or special traversal.
-
-E14 now passes Top of Mid-to-Catwalk lower Short approach both directions.
-Entrance barrels require a bend in the reverse path; wall/parapet-blocked
-plans preserved. Speed80, forward arrival20/reverse25. Mid/Xbox jump remains
-separate unverified traversal.
+TRAVERSAL_PROBES.json separately accepts observed forward E27 grounded jump/drop
+twice, and forward E11 grounded spawn jump/drop once. Stable landings and input
+telemetry are retained; reverse classification remains unresolved. E19/E20 B
+Window and S01-S04 special traversals remain unverified. A failed individual
+jump is not proof of absent connectivity. Suicide callout bounds remain provisional.

@@ -2,7 +2,7 @@
 
 Inputs: --config JSON --session PRIVATE_QUEUE --output NEW_JSON. Config includes
 id/build/start[x,y,z,pitch,yaw], expected_start{xy_radius,z_min,z_max}, actions
-[{command,seconds,label}]. Commands are limited to movement input; each action
+[{command,seconds,label,stop_before_pose?}]. Commands are limited to movement input; each action
 is followed by timestamped pose telemetry. Start is the only teleport. Settled
 start must match its configured region before any traversal input. A completed
 attempt requires independent review; it never grants topology acceptance.
@@ -20,6 +20,8 @@ def run(a):
     assert len(start)==5 and 0<bounds['xy_radius']<=25 and bounds['z_min']<=bounds['z_max']
     for action in config['actions']:
         assert all(c.strip() in ALLOWED for c in action['command'].split(';'))
+        if action.get('stop_before_pose'):
+            assert all(c.strip() in ALLOWED and c.strip().startswith('-') for c in action['stop_before_pose'].split(';'))
         assert .05<=action['seconds']<=2
     now=lambda:datetime.now(timezone.utc).isoformat()
     r=dict(id=config['id'],source_build=config['build'],source_map='de_dust2',unit='source_units',config=config,timestamp_utc=now(),teleports_during_route=0,commands=[],observations=[],status='in progress')
@@ -48,7 +50,12 @@ def run(a):
             raise RuntimeError('Settled start outside reviewed region; no traversal input sent')
         r['collision_mode_reply']='noclip OFF'
         for action in config['actions']:
-            send(action['command'],action['seconds']);pose(action['label'])
+            send(action['command'],action['seconds'])
+            # Optional release prevents telemetry latency extending a short input.
+            # Preserve the release and actual timestamps as part of the evidence.
+            if action.get('stop_before_pose'):
+                send(action['stop_before_pose'],.05)
+            pose(action['label'])
         send('-forward; -back; -left; -right; -jump; -duck',.3)
         pose('landing check 1');send('-forward',1);pose('landing check 2')
         r['status']='completed attempt; landing and traversal require review';save()

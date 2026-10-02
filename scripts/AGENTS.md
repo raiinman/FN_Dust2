@@ -118,6 +118,10 @@ Blender Python, Unreal automation, validation scripts, manifest processors, and 
   and verifies noclip cleanup; preserve failed start checks. Completed attempt
   status is not topology acceptance. Review direction, launch, crossing and
   stable landing; failed individual jumps do not prove a connection absent.
+  Optional per-action stop_before_pose contains release-only movement commands;
+  it releases short input before telemetry so the pose query does not prolong it.
+  Command timestamps and observed trajectory remain authoritative, not requested
+  hold duration alone.
 - Keep configuration/data separate from hard-coded editor coordinates when practical.
 - A script that changes production geometry must leave inspectable inputs and outputs.
 - Do not embed credentials or licensed/proprietary source content.

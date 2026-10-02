@@ -3,7 +3,7 @@
   "source_build": "25640462",
   "registered_images": 187,
   "coverage_excluded": 8,
-  "complete_areas": 15,
+  "complete_areas": 16,
   "complete_subareas": 11,
   "declared_view_sets": [
     {
@@ -604,6 +604,69 @@
       },
       "review": "Combined individually inspected views cover route directions, side arrangement and elevation. Elevated reverse views show cover tops and approach; ground sides supply bases and faces. Individual occlusion limits retained.",
       "remaining": "Structural dimensions and special traversal remain separate; no parent Connector acceptance."
+    },
+    {
+      "area": "Connectors",
+      "taxonomy_scope": "critical_area",
+      "status": "accepted required views",
+      "component_sets": [
+        "Mid Doors",
+        "Under A",
+        "B Window",
+        "Suicide",
+        "T Ramp",
+        "Outside Tunnels",
+        "Xbox",
+        "CT crate climb"
+      ],
+      "views": {
+        "forward": [
+          "QA_MIDDOORS_FORWARD_RECOVERY_001",
+          "QA_UNDERA_FORWARD_RECOVERY_002",
+          "QA_UNDERA_FORWARD_RECOVERY_001",
+          "QA_BWINDOW_INSIDE_RECOVERY_003",
+          "QA_SUICIDE_FORWARD_RECOVERY_001",
+          "QA_TRAMP_FORWARD_RECOVERY_001",
+          "QA_OUTTUN_FORWARD_RECOVERY_002",
+          "QA_XBOX_FORWARD_RECOVERY_002",
+          "QA_UNDERA_SIDE_RECOVERY_001"
+        ],
+        "reverse": [
+          "QA_MIDDOORS_REVERSE_RECOVERY_002",
+          "QA_UNDERA_REVERSE_RECOVERY_001",
+          "QA_BWINDOW_OUTSIDE_RECOVERY_002",
+          "QA_SUICIDE_TOPMID_RECOVERY_001",
+          "QA_SUICIDE_SPAWN_RECOVERY_002",
+          "QA_TRAMP_REVERSE_RECOVERY_001",
+          "QA_OUTTUN_REVERSE_RECOVERY_001",
+          "QA_XBOX_REVERSE_RECOVERY_002",
+          "QA_CTCRATES_REVERSE_RECOVERY_003"
+        ],
+        "wall_read": [
+          "QA_MIDDOORS_SIDE_RECOVERY_001",
+          "QA_UNDERA_SIDE_RECOVERY_001",
+          "QA_BWINDOW_SIDE_RECOVERY_001",
+          "QA_SUICIDE_FORWARD_RECOVERY_001",
+          "QA_SUICIDE_TOPMID_RECOVERY_001",
+          "QA_TRAMP_SIDE_RECOVERY_001",
+          "QA_OUTTUN_SIDE_RECOVERY_001",
+          "QA_XBOX_SIDE_RECOVERY_001",
+          "QA_CTCRATES_SIDE_RECOVERY_001"
+        ],
+        "elevation": [
+          "QA_MIDDOORS_ELEVATION_RECOVERY_002",
+          "QA_UNDERA_ELEVATION_RECOVERY_002",
+          "QA_BWINDOW_ELEVATION_RECOVERY_001",
+          "QA_SUICIDE_ELEVATION_RECOVERY_001",
+          "QA_SUICIDE_SPAWN_RECOVERY_002",
+          "QA_TRAMP_ELEVATION_RECOVERY_001",
+          "QA_OUTTUN_ELEVATION_RECOVERY_001",
+          "QA_XBOX_ELEVATION_RECOVERY_002",
+          "QA_CTCRATES_ELEVATION_RECOVERY_001"
+        ]
+      },
+      "review": "Explicit composite of eight individually reviewed component sets: western spawn/tunnel transitions, Mid portal, narrow spawn-to-Mid corridor, B Window, under-A passage, Xbox and CT crate climb. Ground views supply faces hidden in elevated views; all individual limits remain. Other named transitions are covered by their adjacent critical-area sets: Tunnel Stairs by Upper/Lower Tunnels, B exit by Upper/B Site, Short flight by Short/Catwalk, A Cross/Ramp by Long A/A Site, and Side Pit/Pit by Pit/Long A. No image count or radar silhouette supplies acceptance.",
+      "remaining": "Complete structural bounds, cover/aperture dimensions and special traversal remain unresolved; composite view acceptance does not certify geometry or topology."
     }
   ],
   "scope": "Image integrity and declared combined-view reviews; no metric or topology acceptance",
