@@ -195,3 +195,10 @@ timestamp_utc dates. Keep review dates separate from source capture dates;
 never insert a shared placeholder batch date. IMAGE_AUDIT checks manifest image
 paths and native timestamp dates alongside hashes. Correcting date metadata
 never changes image or geometric acceptance.
+
+PLAN_SECTION_SWEEPS.json owns reviewed native horizontal angular first-hit
+reports. PLAN_SECTION_POINTS.csv and PLAN_SECTION_SWEEPS.svg derive calibrated
+points with material and exact ray-height layers. A repeated direction point is
+not a wall segment, floor boundary, full cover body or closed footprint. Preserve
+cross-area rays, cover hits and angular gaps; independent withheld checks and
+manual semantic review must precede any boundary interpretation.

@@ -195,6 +195,12 @@ Every production script should document expected inputs, outputs, and a basic ve
 
 None.
 
+build_plan_section_sweeps.py validates two identical endpoint/surface repeats,
+native rangefinder distance, horizontal ray Z and original-pose restoration.
+It derives point CSV/SVG from PLAN_SECTION_SWEEPS; it never connects neighboring
+rays or grants a continuous footprint. Material colors alone do not identify
+walls versus pillars, floors, facade returns or sightline cover.
+
 - build_physical_register.py derives reviewed centimeter samples from SCALE_CALIBRATION, architectural endpoints and native floor datums. Reviewed sections may use native X or Y; reviewed columns require repeated same-XY floor/first-overhead endpoints. Local clearance is not full-opening acceptance. Never silently overwrite future manually accepted measurement rows; extend the reviewed source evidence first. Accepted Short floor point-pair rises come from SHORT_STAIR_PROFILE.json and require repeated corrected endpoints. Explicit accepted_flight adds individual center-section rise/run and full-flight outer endpoint values through shared flight_rows validation.
 
 Physical-register column acceptance permits floor/overhead XY separation within .04 native units; both corrected repeated endpoints must individually meet .02 tolerance. It retains original coordinates and vertical difference, never forces coincidence.

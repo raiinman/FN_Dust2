@@ -164,8 +164,12 @@ B Doors: three repeated local floor/first-timber columns, one independent old-he
 
 B tunnel exit: six repeated transverse passage/stone-mouth sections accepted atY1740/1780 Z80/180/220. LaterY1800..1840 hits cross exterior courtyard/cover and remain diagnostics. Outside image frames full arch and steps; inside apex-clipped attempt rejected and preserved.257 physical measurements,106 local chords,223 reviewed JPEGs. Full arch height/step flight and continuous architectural footprint pending; Gate1 FAIL.
 
-Active serial controller probe_plan_sections_01.py:32 repeated angular rays at
-B Site, CT Spawn and Upper chamber, private plan_sections_01. B Site64
-observations complete; CT Spawn then Upper run sequentially. Inspect report
-status/process before next pose controller; all three restore original B tunnel
+Plan section batch01 completed/registered:96 distinct repeated directions across
+B Site, CT Spawn and Upper chamber; source restored and independently read back.
+Active serial controller probe_plan_sections_02.py, private plan_sections_02:
+15 named positions,32 repeated directions each, sequential per-area reports.
+Last observed Long chamber in progress; inspect status/process after any timeout.
+Do not duplicate reports or start another pose controller. Each area restores
 source camera -1984,2100,50p0/y-90. Native overlay visible.
+
+PLAN_SECTION_SWEEPS now preserves96 distinct horizontal first-hit directions (192 observations) across B Site, CT Spawn and Upper chamber. Native endpoints/surface repeats, rangefinder distances and original-pose restore checks pass. Calibrated point CSV and two height-layer SVG rendered/inspected. Materials/remote portal hits stay explicit; no angular gap, connected boundary or footprint accepted. Gate1 remains FAIL.
