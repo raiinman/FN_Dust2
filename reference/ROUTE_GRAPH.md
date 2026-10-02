@@ -51,8 +51,8 @@ Nodes describe area relationships; they are not polygon outlines or route length
 | ID | From | To | Mode | Uncertainty | Survey task |
 | --- | --- | --- | --- | --- | --- |
 | S01 | Mid | Catwalk | solo pallet/crate/parapet climb; reverse jump/drop | forward twice; reverse once in TRAVERSAL_PROBES | D035 |
-| S02 | A Short | CT Spawn | parapet jump/drop through CT bay | forward observed; reverse S03 pending | D036 |
-| S03 | CT Spawn | A Short | crate climb/boost | revision-sensitive; do not infer from pre-2024 imagery | D037 |
+| S02 | A Short | CT Spawn | parapet jump/drop through CT bay | forward observed; reverse connection S03 independently verified | D036 |
+| S03 | CT Spawn | A Short | solo stepped crate/parapet climb | forward observed twice; reverse connection S02 | D037 |
 | S04 | Under A | A Site | elevator boost | requires independent traversal proof | D038 |
 
 ## Required topology checks
@@ -121,6 +121,9 @@ TRAVERSAL_PROBES.json separately accepts observed forward E27 grounded jump/drop
 twice, and forward E11 grounded spawn jump/drop once. Stable landings and input
 telemetry are retained; reverse classification remains unresolved. E19/E20 B
 Window climb/crossing passed both directions; outside rubble-to-CT Mid approach
-now passes both directions. S01 Xbox passes both directions, S02 Short-to-CT forward; S03/S04 remain
-unverified. A failed individual
+now passes both directions. S01 Xbox passes both directions, S02 Short-to-CT forward; S03 solo climb passes twice; S04 remains unverified. A failed individual
 jump is not proof of absent connectivity. Suicide callout bounds remain provisional.
+
+S03 current-build solo climb accepted twice: CT bay low/second/high boxes,
+parapet crossing and stable Short landing. TRAVERSAL_PROBES/CT_CRATE_SHORT_FORWARD.
+S02 independently proves Short-to-CT jump/drop; S04 partner boost remains unverified.

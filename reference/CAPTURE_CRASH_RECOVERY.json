@@ -3301,6 +3301,60 @@
       "jpeg_sha256": "d493f83eae43d7d3a5a05f644ec5216fc3990c0fd1ece63cd22d01b8622b9764",
       "fov_cs_debug_parameter": 90,
       "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_CTCRATE_PLAN_DETAIL_RECOVERY_001",
+      "timestamp_utc": "2026-10-02T01:17:02.241974+00:00",
+      "engine_capture_basename": "d2_5bee45b3ae",
+      "pose_command": "setpos_exact 600.000000 2350.000000 400.000000;setang_exact 88.999908 90.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        600.0,
+        2350.0,
+        400.0,
+        89.0,
+        90.0
+      ],
+      "tga_sha256": "26ac38174cea8c4079f2fc950cff33aea5427d4ac0855f67a3ae0d78b6f70ecc",
+      "png_sha256": "02abcf08abb45e1443308450ca1f9d184a3698402b8852477563d2c3803e1343",
+      "status": "visually inspected; usable stated-direction reference",
+      "area": "CT crate climb",
+      "review": "Native overhead detail of stepped CT crate arrangement and Short parapet. Entire climb cover assembly visible; adjoining platform clipped at right outside target. No full map bounds inferred.",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "repository_image_path": "reference/images/ct_crate/QA_CTCRATE_PLAN_DETAIL_RECOVERY_001.jpg",
+      "jpeg_sha256": "c463945aa602d16befb10db76d448aa9a4e069296ffaca81141a5d86d0eb2c67",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_CTCRATE_APPROACH_DETAIL_RECOVERY_001",
+      "timestamp_utc": "2026-10-02T01:21:32.854683+00:00",
+      "engine_capture_basename": "d2_228fdf047f",
+      "pose_command": "setpos_exact 670.000000 2160.000000 -55.000000;setang_exact 0.000000 90.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        670.0,
+        2160.0,
+        -55.0,
+        0.0,
+        90.0
+      ],
+      "tga_sha256": "b62629e175c014bdcc1c5280715d668dba6120fc3b9672cc067dcd2eaa1a31e9",
+      "png_sha256": "48092e195c55e9879ef45aa880c3faad13daf2fa302271e1638bc8c223cf8ec4",
+      "status": "visually inspected; usable stated-direction reference",
+      "area": "CT crate climb",
+      "review": "Native CT bay north-facing crate approach. Low sloped boxes, intermediate and high stacked crates, Short retaining wall and cap visible. Low cover fills foreground; full base footprint still needs independent endpoint survey.",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "repository_image_path": "reference/images/ct_crate/QA_CTCRATE_APPROACH_DETAIL_RECOVERY_001.jpg",
+      "jpeg_sha256": "a833c071c04db47f6bd4cfaf1b7b1bade7b8bd03f44c580d9d2fdfd2ea01fea8",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
     }
   ],
   "rejected_attempts": [

@@ -7558,6 +7558,1617 @@
         "cleanup": "movement released; noclip ON verified"
       },
       "review": "Accepted observed S02 forward: grounded Short(450,2250,96.027), approacheslip499.969/97.934, jump crossescap127.05, drops toCTbay(622.909,2240.460,-89.661), then continuous south/west input through CT arch to stable(351.091,2119.142,-125.134). Native observation confirms CT hall/arch. Existing CT ground path joins spawn. Reverse requires separate S03 current-build climb."
+    },
+    {
+      "private_filename": "CTCRATE_SHORT_CLIMB_001.json",
+      "report": {
+        "id": "CTCRATE_SHORT_CLIMB_001",
+        "source_build": "25640462",
+        "source_map": "de_dust2",
+        "unit": "source_units",
+        "config": {
+          "id": "CTCRATE_SHORT_CLIMB_001",
+          "build": "25640462",
+          "start": [
+            700,
+            2240,
+            -50,
+            0,
+            90
+          ],
+          "expected_start": {
+            "xy_radius": 5,
+            "z_min": -85,
+            "z_max": -60
+          },
+          "actions": [
+            {
+              "command": "+forward",
+              "seconds": 0.08,
+              "label": "grounded north approach"
+            },
+            {
+              "command": "+jump; +duck",
+              "seconds": 0.1,
+              "label": "north jump toward low crate"
+            },
+            {
+              "command": "-jump",
+              "seconds": 0.15,
+              "label": "advance over first crate edge"
+            },
+            {
+              "command": "-forward; -duck",
+              "seconds": 0.6,
+              "label": "settle first crate"
+            },
+            {
+              "command": "+forward; +jump; +duck",
+              "seconds": 0.1,
+              "label": "north jump toward second box"
+            },
+            {
+              "command": "-jump",
+              "seconds": 0.1,
+              "label": "cross second crate edge"
+            },
+            {
+              "command": "-forward; -duck",
+              "seconds": 0.6,
+              "label": "settle second box"
+            },
+            {
+              "command": "+left",
+              "seconds": 0.2,
+              "label": "grounded west approach on box",
+              "stop_before_pose": "-left"
+            },
+            {
+              "command": "+left; +jump; +duck",
+              "seconds": 0.1,
+              "label": "west jump toward higher box"
+            },
+            {
+              "command": "-jump",
+              "seconds": 0.15,
+              "label": "cross west box edge"
+            },
+            {
+              "command": "-left; -duck",
+              "seconds": 0.6,
+              "label": "settle west stage"
+            }
+          ]
+        },
+        "timestamp_utc": "2026-10-02T01:17:47.715190+00:00",
+        "teleports_during_route": 0,
+        "commands": [
+          {
+            "command": "-forward; -back; -left; -right; -jump; -duck; noclip 1",
+            "requested_hold_seconds": 0.3,
+            "sent_utc": "2026-10-02T01:17:47.715190+00:00",
+            "returned_utc": "2026-10-02T01:17:48.121422+00:00",
+            "received_prints": [
+              "FN_TRAV_1\n"
+            ]
+          },
+          {
+            "command": "sv_gravity; sv_jump_impulse; sv_maxspeed",
+            "requested_hold_seconds": 0.3,
+            "sent_utc": "2026-10-02T01:17:48.123427+00:00",
+            "returned_utc": "2026-10-02T01:17:48.630574+00:00",
+            "received_prints": [
+              "sv_gravity = 800\n",
+              "sv_jump_impulse = 301.99338\n",
+              "sv_maxspeed = 320\n",
+              "FN_TRAV_2\n"
+            ]
+          },
+          {
+            "command": "setpos_exact 700 2240 -50; setang_exact 0 90 0",
+            "requested_hold_seconds": 0.3,
+            "sent_utc": "2026-10-02T01:17:48.631575+00:00",
+            "returned_utc": "2026-10-02T01:17:49.141236+00:00",
+            "received_prints": [
+              "FN_TRAV_3\n"
+            ]
+          },
+          {
+            "command": "noclip 0",
+            "requested_hold_seconds": 0.7,
+            "sent_utc": "2026-10-02T01:17:49.142237+00:00",
+            "returned_utc": "2026-10-02T01:17:50.151497+00:00",
+            "received_prints": [
+              "FN_TRAV_4\n",
+              "noclip OFF\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:17:50.152498+00:00",
+            "returned_utc": "2026-10-02T01:17:50.563219+00:00",
+            "received_prints": [
+              "setpos_exact 700.000000 2240.000000 -66.164551;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_5\n"
+            ]
+          },
+          {
+            "command": "+forward",
+            "requested_hold_seconds": 0.08,
+            "sent_utc": "2026-10-02T01:17:50.565736+00:00",
+            "returned_utc": "2026-10-02T01:17:50.875871+00:00",
+            "received_prints": [
+              "FN_TRAV_6\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:17:50.876871+00:00",
+            "returned_utc": "2026-10-02T01:17:51.285578+00:00",
+            "received_prints": [
+              "setpos_exact 700.004333 2275.968750 -60.945679;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_7\n"
+            ]
+          },
+          {
+            "command": "+jump; +duck",
+            "requested_hold_seconds": 0.1,
+            "sent_utc": "2026-10-02T01:17:51.288082+00:00",
+            "returned_utc": "2026-10-02T01:17:51.599646+00:00",
+            "received_prints": [
+              "FN_TRAV_8\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:17:51.600647+00:00",
+            "returned_utc": "2026-10-02T01:17:52.013197+00:00",
+            "received_prints": [
+              "setpos_exact 700.009766 2283.968262 5.015625;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_9\n"
+            ]
+          },
+          {
+            "command": "-jump",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:17:52.014700+00:00",
+            "returned_utc": "2026-10-02T01:17:52.320398+00:00",
+            "received_prints": [
+              "FN_TRAV_10\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:17:52.321398+00:00",
+            "returned_utc": "2026-10-02T01:17:52.731506+00:00",
+            "received_prints": [
+              "setpos_exact 700.020874 2309.858398 -26.968750;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_11\n"
+            ]
+          },
+          {
+            "command": "-forward; -duck",
+            "requested_hold_seconds": 0.6,
+            "sent_utc": "2026-10-02T01:17:52.733507+00:00",
+            "returned_utc": "2026-10-02T01:17:53.541142+00:00",
+            "received_prints": [
+              "FN_TRAV_12\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:17:53.542143+00:00",
+            "returned_utc": "2026-10-02T01:17:53.853546+00:00",
+            "received_prints": [
+              "setpos_exact 700.022339 2314.954590 -26.968750;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_13\n"
+            ]
+          },
+          {
+            "command": "+forward; +jump; +duck",
+            "requested_hold_seconds": 0.1,
+            "sent_utc": "2026-10-02T01:17:53.855567+00:00",
+            "returned_utc": "2026-10-02T01:17:54.266235+00:00",
+            "received_prints": [
+              "FN_TRAV_14\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:17:54.267235+00:00",
+            "returned_utc": "2026-10-02T01:17:54.579285+00:00",
+            "received_prints": [
+              "setpos_exact 700.027466 2322.323730 38.644531;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_15\n"
+            ]
+          },
+          {
+            "command": "-jump",
+            "requested_hold_seconds": 0.1,
+            "sent_utc": "2026-10-02T01:17:54.580285+00:00",
+            "returned_utc": "2026-10-02T01:17:54.987400+00:00",
+            "received_prints": [
+              "FN_TRAV_16\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:17:54.988401+00:00",
+            "returned_utc": "2026-10-02T01:17:55.297647+00:00",
+            "received_prints": [
+              "setpos_exact 700.038940 2348.934326 23.089272;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_17\n"
+            ]
+          },
+          {
+            "command": "-forward; -duck",
+            "requested_hold_seconds": 0.6,
+            "sent_utc": "2026-10-02T01:17:55.299648+00:00",
+            "returned_utc": "2026-10-02T01:17:56.207975+00:00",
+            "received_prints": [
+              "FN_TRAV_18\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:17:56.208976+00:00",
+            "returned_utc": "2026-10-02T01:17:56.520102+00:00",
+            "received_prints": [
+              "setpos_exact 700.046997 2377.825684 23.090334;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_19\n"
+            ]
+          },
+          {
+            "command": "+left",
+            "requested_hold_seconds": 0.2,
+            "sent_utc": "2026-10-02T01:17:56.521604+00:00",
+            "returned_utc": "2026-10-02T01:17:57.029381+00:00",
+            "received_prints": [
+              "FN_TRAV_20\n"
+            ]
+          },
+          {
+            "command": "-left",
+            "requested_hold_seconds": 0.05,
+            "sent_utc": "2026-10-02T01:17:57.030381+00:00",
+            "returned_utc": "2026-10-02T01:17:57.436322+00:00",
+            "received_prints": [
+              "FN_TRAV_21\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:17:57.437323+00:00",
+            "returned_utc": "2026-10-02T01:17:57.747459+00:00",
+            "received_prints": [
+              "setpos_exact 649.876038 2378.591309 1.656472;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_22\n"
+            ]
+          },
+          {
+            "command": "+left; +jump; +duck",
+            "requested_hold_seconds": 0.1,
+            "sent_utc": "2026-10-02T01:17:57.749460+00:00",
+            "returned_utc": "2026-10-02T01:17:58.159940+00:00",
+            "received_prints": [
+              "FN_TRAV_23\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:17:58.161940+00:00",
+            "returned_utc": "2026-10-02T01:17:58.471818+00:00",
+            "received_prints": [
+              "setpos_exact 644.957703 2379.937012 67.089844;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_24\n"
+            ]
+          },
+          {
+            "command": "-jump",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:17:58.473819+00:00",
+            "returned_utc": "2026-10-02T01:17:58.880525+00:00",
+            "received_prints": [
+              "FN_TRAV_25\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:17:58.881525+00:00",
+            "returned_utc": "2026-10-02T01:17:59.192979+00:00",
+            "received_prints": [
+              "setpos_exact 627.019836 2379.948242 67.031250;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_26\n"
+            ]
+          },
+          {
+            "command": "-left; -duck",
+            "requested_hold_seconds": 0.6,
+            "sent_utc": "2026-10-02T01:17:59.194979+00:00",
+            "returned_utc": "2026-10-02T01:18:00.007914+00:00",
+            "received_prints": [
+              "FN_TRAV_27\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:18:00.008914+00:00",
+            "returned_utc": "2026-10-02T01:18:00.419723+00:00",
+            "received_prints": [
+              "setpos_exact 602.916992 2379.956055 67.031250;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_28\n"
+            ]
+          },
+          {
+            "command": "-forward; -back; -left; -right; -jump; -duck",
+            "requested_hold_seconds": 0.3,
+            "sent_utc": "2026-10-02T01:18:00.422226+00:00",
+            "returned_utc": "2026-10-02T01:18:00.929324+00:00",
+            "received_prints": [
+              "FN_TRAV_29\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:18:00.930324+00:00",
+            "returned_utc": "2026-10-02T01:18:01.240308+00:00",
+            "received_prints": [
+              "setpos_exact 602.916992 2379.956055 67.031250;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_30\n"
+            ]
+          },
+          {
+            "command": "-forward",
+            "requested_hold_seconds": 1,
+            "sent_utc": "2026-10-02T01:18:01.242309+00:00",
+            "returned_utc": "2026-10-02T01:18:02.554909+00:00",
+            "received_prints": [
+              "FN_TRAV_31\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:18:02.555412+00:00",
+            "returned_utc": "2026-10-02T01:18:02.967561+00:00",
+            "received_prints": [
+              "setpos_exact 602.916992 2379.956055 67.031250;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_32\n"
+            ]
+          },
+          {
+            "command": "-forward; -back; -left; -right; -jump; -duck; noclip 1",
+            "requested_hold_seconds": 0.3,
+            "sent_utc": "2026-10-02T01:18:02.970562+00:00",
+            "returned_utc": "2026-10-02T01:18:03.477699+00:00",
+            "received_prints": [
+              "FN_TRAV_33\n",
+              "noclip ON\n"
+            ]
+          }
+        ],
+        "observations": [
+          {
+            "label": "settled start",
+            "timestamp_utc": "2026-10-02T01:17:50.564723+00:00",
+            "pose": "setpos_exact 700.000000 2240.000000 -66.164551;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "grounded north approach",
+            "timestamp_utc": "2026-10-02T01:17:51.287081+00:00",
+            "pose": "setpos_exact 700.004333 2275.968750 -60.945679;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "north jump toward low crate",
+            "timestamp_utc": "2026-10-02T01:17:52.013197+00:00",
+            "pose": "setpos_exact 700.009766 2283.968262 5.015625;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "advance over first crate edge",
+            "timestamp_utc": "2026-10-02T01:17:52.732507+00:00",
+            "pose": "setpos_exact 700.020874 2309.858398 -26.968750;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "settle first crate",
+            "timestamp_utc": "2026-10-02T01:17:53.855050+00:00",
+            "pose": "setpos_exact 700.022339 2314.954590 -26.968750;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "north jump toward second box",
+            "timestamp_utc": "2026-10-02T01:17:54.580285+00:00",
+            "pose": "setpos_exact 700.027466 2322.323730 38.644531;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "cross second crate edge",
+            "timestamp_utc": "2026-10-02T01:17:55.298648+00:00",
+            "pose": "setpos_exact 700.038940 2348.934326 23.089272;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "settle second box",
+            "timestamp_utc": "2026-10-02T01:17:56.520102+00:00",
+            "pose": "setpos_exact 700.046997 2377.825684 23.090334;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "grounded west approach on box",
+            "timestamp_utc": "2026-10-02T01:17:57.748460+00:00",
+            "pose": "setpos_exact 649.876038 2378.591309 1.656472;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "west jump toward higher box",
+            "timestamp_utc": "2026-10-02T01:17:58.472818+00:00",
+            "pose": "setpos_exact 644.957703 2379.937012 67.089844;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "cross west box edge",
+            "timestamp_utc": "2026-10-02T01:17:59.193979+00:00",
+            "pose": "setpos_exact 627.019836 2379.948242 67.031250;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "settle west stage",
+            "timestamp_utc": "2026-10-02T01:18:00.420724+00:00",
+            "pose": "setpos_exact 602.916992 2379.956055 67.031250;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "landing check 1",
+            "timestamp_utc": "2026-10-02T01:18:01.241309+00:00",
+            "pose": "setpos_exact 602.916992 2379.956055 67.031250;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "landing check 2",
+            "timestamp_utc": "2026-10-02T01:18:02.969561+00:00",
+            "pose": "setpos_exact 602.916992 2379.956055 67.031250;setang_exact 0.000000 90.000000 0.000000"
+          }
+        ],
+        "status": "completed attempt; landing and traversal require review",
+        "collision_mode_reply": "noclip OFF",
+        "cleanup": "movement released; noclip ON verified"
+      },
+      "review": "Accepted partial climb only: north hops reach low/second boxes; west jump settles high box at Z67.031. No Short crossing."
+    },
+    {
+      "private_filename": "CTCRATE_SHORT_CLIMB_002.json",
+      "report": {
+        "id": "CTCRATE_SHORT_CLIMB_002",
+        "source_build": "25640462",
+        "source_map": "de_dust2",
+        "unit": "source_units",
+        "config": {
+          "id": "CTCRATE_SHORT_CLIMB_002",
+          "build": "25640462",
+          "start": [
+            700,
+            2240,
+            -50,
+            0,
+            90
+          ],
+          "expected_start": {
+            "xy_radius": 5,
+            "z_min": -85,
+            "z_max": -60
+          },
+          "actions": [
+            {
+              "command": "+forward",
+              "seconds": 0.08,
+              "label": "grounded north approach"
+            },
+            {
+              "command": "+jump; +duck",
+              "seconds": 0.1,
+              "label": "north jump toward low crate"
+            },
+            {
+              "command": "-jump",
+              "seconds": 0.15,
+              "label": "advance over first crate edge"
+            },
+            {
+              "command": "-forward; -duck",
+              "seconds": 0.6,
+              "label": "settle first crate"
+            },
+            {
+              "command": "+forward; +jump; +duck",
+              "seconds": 0.1,
+              "label": "north jump toward second box"
+            },
+            {
+              "command": "-jump",
+              "seconds": 0.1,
+              "label": "cross second crate edge"
+            },
+            {
+              "command": "-forward; -duck",
+              "seconds": 0.6,
+              "label": "settle second box"
+            },
+            {
+              "command": "+left",
+              "seconds": 0.2,
+              "label": "grounded west approach on box",
+              "stop_before_pose": "-left"
+            },
+            {
+              "command": "+left; +jump; +duck",
+              "seconds": 0.1,
+              "label": "west jump toward higher box"
+            },
+            {
+              "command": "-jump",
+              "seconds": 0.15,
+              "label": "cross west box edge"
+            },
+            {
+              "command": "-left; -duck",
+              "seconds": 0.6,
+              "label": "settle west stage"
+            },
+            {
+              "command": "+forward; +jump; +duck",
+              "seconds": 0.15,
+              "label": "north jump from high box over parapet"
+            },
+            {
+              "command": "-jump",
+              "seconds": 0.2,
+              "label": "cross Short cap"
+            },
+            {
+              "command": "-forward; -duck",
+              "seconds": 0.7,
+              "label": "settle Short platform"
+            }
+          ]
+        },
+        "timestamp_utc": "2026-10-02T01:18:57.328716+00:00",
+        "teleports_during_route": 0,
+        "commands": [
+          {
+            "command": "-forward; -back; -left; -right; -jump; -duck; noclip 1",
+            "requested_hold_seconds": 0.3,
+            "sent_utc": "2026-10-02T01:18:57.328716+00:00",
+            "returned_utc": "2026-10-02T01:18:57.835286+00:00",
+            "received_prints": [
+              "FN_TRAV_1\n"
+            ]
+          },
+          {
+            "command": "sv_gravity; sv_jump_impulse; sv_maxspeed",
+            "requested_hold_seconds": 0.3,
+            "sent_utc": "2026-10-02T01:18:57.836287+00:00",
+            "returned_utc": "2026-10-02T01:18:58.342551+00:00",
+            "received_prints": [
+              "sv_gravity = 800\n",
+              "sv_jump_impulse = 301.99338\n",
+              "sv_maxspeed = 320\n",
+              "FN_TRAV_2\n"
+            ]
+          },
+          {
+            "command": "setpos_exact 700 2240 -50; setang_exact 0 90 0",
+            "requested_hold_seconds": 0.3,
+            "sent_utc": "2026-10-02T01:18:58.343552+00:00",
+            "returned_utc": "2026-10-02T01:18:58.850981+00:00",
+            "received_prints": [
+              "FN_TRAV_3\n"
+            ]
+          },
+          {
+            "command": "noclip 0",
+            "requested_hold_seconds": 0.7,
+            "sent_utc": "2026-10-02T01:18:58.851983+00:00",
+            "returned_utc": "2026-10-02T01:18:59.761734+00:00",
+            "received_prints": [
+              "FN_TRAV_4\n",
+              "noclip OFF\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:18:59.762735+00:00",
+            "returned_utc": "2026-10-02T01:19:00.068827+00:00",
+            "received_prints": [
+              "setpos_exact 700.000000 2240.000000 -66.164551;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_5\n"
+            ]
+          },
+          {
+            "command": "+forward",
+            "requested_hold_seconds": 0.08,
+            "sent_utc": "2026-10-02T01:19:00.070829+00:00",
+            "returned_utc": "2026-10-02T01:19:00.376492+00:00",
+            "received_prints": [
+              "FN_TRAV_6\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:19:00.376492+00:00",
+            "returned_utc": "2026-10-02T01:19:00.782990+00:00",
+            "received_prints": [
+              "setpos_exact 700.004333 2275.968750 -60.945679;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_7\n"
+            ]
+          },
+          {
+            "command": "+jump; +duck",
+            "requested_hold_seconds": 0.1,
+            "sent_utc": "2026-10-02T01:19:00.784990+00:00",
+            "returned_utc": "2026-10-02T01:19:01.090587+00:00",
+            "received_prints": [
+              "FN_TRAV_8\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:19:01.090587+00:00",
+            "returned_utc": "2026-10-02T01:19:01.502405+00:00",
+            "received_prints": [
+              "setpos_exact 700.009338 2283.089355 4.480469;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_9\n"
+            ]
+          },
+          {
+            "command": "-jump",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:19:01.503406+00:00",
+            "returned_utc": "2026-10-02T01:19:01.809926+00:00",
+            "received_prints": [
+              "FN_TRAV_10\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:19:01.810927+00:00",
+            "returned_utc": "2026-10-02T01:19:02.221911+00:00",
+            "received_prints": [
+              "setpos_exact 700.020447 2308.459229 -26.968750;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_11\n"
+            ]
+          },
+          {
+            "command": "-forward; -duck",
+            "requested_hold_seconds": 0.6,
+            "sent_utc": "2026-10-02T01:19:02.223912+00:00",
+            "returned_utc": "2026-10-02T01:19:03.032707+00:00",
+            "received_prints": [
+              "FN_TRAV_12\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:19:03.033707+00:00",
+            "returned_utc": "2026-10-02T01:19:03.340152+00:00",
+            "received_prints": [
+              "setpos_exact 700.022339 2314.954590 -26.968750;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_13\n"
+            ]
+          },
+          {
+            "command": "+forward; +jump; +duck",
+            "requested_hold_seconds": 0.1,
+            "sent_utc": "2026-10-02T01:19:03.342153+00:00",
+            "returned_utc": "2026-10-02T01:19:03.748523+00:00",
+            "received_prints": [
+              "FN_TRAV_14\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:19:03.749523+00:00",
+            "returned_utc": "2026-10-02T01:19:04.159263+00:00",
+            "received_prints": [
+              "setpos_exact 700.027771 2322.909668 38.953125;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_15\n"
+            ]
+          },
+          {
+            "command": "-jump",
+            "requested_hold_seconds": 0.1,
+            "sent_utc": "2026-10-02T01:19:04.161264+00:00",
+            "returned_utc": "2026-10-02T01:19:04.466549+00:00",
+            "received_prints": [
+              "FN_TRAV_16\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:19:04.467549+00:00",
+            "returned_utc": "2026-10-02T01:19:04.876962+00:00",
+            "received_prints": [
+              "setpos_exact 700.039001 2349.238770 23.089283;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_17\n"
+            ]
+          },
+          {
+            "command": "-forward; -duck",
+            "requested_hold_seconds": 0.6,
+            "sent_utc": "2026-10-02T01:19:04.878962+00:00",
+            "returned_utc": "2026-10-02T01:19:05.686137+00:00",
+            "received_prints": [
+              "FN_TRAV_18\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:19:05.687137+00:00",
+            "returned_utc": "2026-10-02T01:19:05.993219+00:00",
+            "received_prints": [
+              "setpos_exact 700.046997 2377.825684 23.090334;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_19\n"
+            ]
+          },
+          {
+            "command": "+left",
+            "requested_hold_seconds": 0.2,
+            "sent_utc": "2026-10-02T01:19:05.995766+00:00",
+            "returned_utc": "2026-10-02T01:19:06.601944+00:00",
+            "received_prints": [
+              "FN_TRAV_20\n"
+            ]
+          },
+          {
+            "command": "-left",
+            "requested_hold_seconds": 0.05,
+            "sent_utc": "2026-10-02T01:19:06.602945+00:00",
+            "returned_utc": "2026-10-02T01:19:06.908705+00:00",
+            "received_prints": [
+              "FN_TRAV_21\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:19:06.909208+00:00",
+            "returned_utc": "2026-10-02T01:19:07.316052+00:00",
+            "received_prints": [
+              "setpos_exact 649.876038 2378.591309 1.656472;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_22\n"
+            ]
+          },
+          {
+            "command": "+left; +jump; +duck",
+            "requested_hold_seconds": 0.1,
+            "sent_utc": "2026-10-02T01:19:07.318054+00:00",
+            "returned_utc": "2026-10-02T01:19:07.622856+00:00",
+            "received_prints": [
+              "FN_TRAV_23\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:19:07.624858+00:00",
+            "returned_utc": "2026-10-02T01:19:08.037794+00:00",
+            "received_prints": [
+              "setpos_exact 644.945679 2379.937012 67.070312;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_24\n"
+            ]
+          },
+          {
+            "command": "-jump",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:19:08.039794+00:00",
+            "returned_utc": "2026-10-02T01:19:08.344896+00:00",
+            "received_prints": [
+              "FN_TRAV_25\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:19:08.345905+00:00",
+            "returned_utc": "2026-10-02T01:19:08.655091+00:00",
+            "received_prints": [
+              "setpos_exact 627.778931 2379.947754 67.031250;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_26\n"
+            ]
+          },
+          {
+            "command": "-left; -duck",
+            "requested_hold_seconds": 0.6,
+            "sent_utc": "2026-10-02T01:19:08.657101+00:00",
+            "returned_utc": "2026-10-02T01:19:09.465979+00:00",
+            "received_prints": [
+              "FN_TRAV_27\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:19:09.466980+00:00",
+            "returned_utc": "2026-10-02T01:19:09.677993+00:00",
+            "received_prints": [
+              "setpos_exact 604.003601 2379.955811 67.031250;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_28\n"
+            ]
+          },
+          {
+            "command": "+forward; +jump; +duck",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:19:09.679993+00:00",
+            "returned_utc": "2026-10-02T01:19:10.091718+00:00",
+            "received_prints": [
+              "FN_TRAV_29\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:19:10.092718+00:00",
+            "returned_utc": "2026-10-02T01:19:10.402519+00:00",
+            "received_prints": [
+              "setpos_exact 604.008789 2381.291016 132.660156;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_30\n"
+            ]
+          },
+          {
+            "command": "-jump",
+            "requested_hold_seconds": 0.2,
+            "sent_utc": "2026-10-02T01:19:10.405022+00:00",
+            "returned_utc": "2026-10-02T01:19:10.917026+00:00",
+            "received_prints": [
+              "FN_TRAV_31\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:19:10.918027+00:00",
+            "returned_utc": "2026-10-02T01:19:11.330036+00:00",
+            "received_prints": [
+              "setpos_exact 604.022400 2421.395020 127.031250;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_32\n"
+            ]
+          },
+          {
+            "command": "-forward; -duck",
+            "requested_hold_seconds": 0.7,
+            "sent_utc": "2026-10-02T01:19:11.332037+00:00",
+            "returned_utc": "2026-10-02T01:19:12.245517+00:00",
+            "received_prints": [
+              "FN_TRAV_33\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:19:12.246518+00:00",
+            "returned_utc": "2026-10-02T01:19:12.657981+00:00",
+            "received_prints": [
+              "setpos_exact 604.033447 2470.995117 96.742256;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_34\n"
+            ]
+          },
+          {
+            "command": "-forward; -back; -left; -right; -jump; -duck",
+            "requested_hold_seconds": 0.3,
+            "sent_utc": "2026-10-02T01:19:12.659982+00:00",
+            "returned_utc": "2026-10-02T01:19:13.171228+00:00",
+            "received_prints": [
+              "FN_TRAV_35\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:19:13.172228+00:00",
+            "returned_utc": "2026-10-02T01:19:13.583490+00:00",
+            "received_prints": [
+              "setpos_exact 604.033447 2470.995117 96.742256;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_36\n"
+            ]
+          },
+          {
+            "command": "-forward",
+            "requested_hold_seconds": 1,
+            "sent_utc": "2026-10-02T01:19:13.587004+00:00",
+            "returned_utc": "2026-10-02T01:19:14.800500+00:00",
+            "received_prints": [
+              "FN_TRAV_37\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:19:14.802501+00:00",
+            "returned_utc": "2026-10-02T01:19:15.214990+00:00",
+            "received_prints": [
+              "setpos_exact 604.033447 2470.995117 96.742256;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_38\n"
+            ]
+          },
+          {
+            "command": "-forward; -back; -left; -right; -jump; -duck; noclip 1",
+            "requested_hold_seconds": 0.3,
+            "sent_utc": "2026-10-02T01:19:15.218148+00:00",
+            "returned_utc": "2026-10-02T01:19:15.730471+00:00",
+            "received_prints": [
+              "FN_TRAV_39\n",
+              "noclip ON\n"
+            ]
+          }
+        ],
+        "observations": [
+          {
+            "label": "settled start",
+            "timestamp_utc": "2026-10-02T01:19:00.069828+00:00",
+            "pose": "setpos_exact 700.000000 2240.000000 -66.164551;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "grounded north approach",
+            "timestamp_utc": "2026-10-02T01:19:00.783990+00:00",
+            "pose": "setpos_exact 700.004333 2275.968750 -60.945679;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "north jump toward low crate",
+            "timestamp_utc": "2026-10-02T01:19:01.503406+00:00",
+            "pose": "setpos_exact 700.009338 2283.089355 4.480469;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "advance over first crate edge",
+            "timestamp_utc": "2026-10-02T01:19:02.222912+00:00",
+            "pose": "setpos_exact 700.020447 2308.459229 -26.968750;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "settle first crate",
+            "timestamp_utc": "2026-10-02T01:19:03.341153+00:00",
+            "pose": "setpos_exact 700.022339 2314.954590 -26.968750;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "north jump toward second box",
+            "timestamp_utc": "2026-10-02T01:19:04.160264+00:00",
+            "pose": "setpos_exact 700.027771 2322.909668 38.953125;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "cross second crate edge",
+            "timestamp_utc": "2026-10-02T01:19:04.877962+00:00",
+            "pose": "setpos_exact 700.039001 2349.238770 23.089283;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "settle second box",
+            "timestamp_utc": "2026-10-02T01:19:05.994721+00:00",
+            "pose": "setpos_exact 700.046997 2377.825684 23.090334;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "grounded west approach on box",
+            "timestamp_utc": "2026-10-02T01:19:07.317053+00:00",
+            "pose": "setpos_exact 649.876038 2378.591309 1.656472;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "west jump toward higher box",
+            "timestamp_utc": "2026-10-02T01:19:08.038794+00:00",
+            "pose": "setpos_exact 644.945679 2379.937012 67.070312;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "cross west box edge",
+            "timestamp_utc": "2026-10-02T01:19:08.656100+00:00",
+            "pose": "setpos_exact 627.778931 2379.947754 67.031250;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "settle west stage",
+            "timestamp_utc": "2026-10-02T01:19:09.678993+00:00",
+            "pose": "setpos_exact 604.003601 2379.955811 67.031250;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "north jump from high box over parapet",
+            "timestamp_utc": "2026-10-02T01:19:10.403519+00:00",
+            "pose": "setpos_exact 604.008789 2381.291016 132.660156;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "cross Short cap",
+            "timestamp_utc": "2026-10-02T01:19:11.331037+00:00",
+            "pose": "setpos_exact 604.022400 2421.395020 127.031250;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "settle Short platform",
+            "timestamp_utc": "2026-10-02T01:19:12.658981+00:00",
+            "pose": "setpos_exact 604.033447 2470.995117 96.742256;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "landing check 1",
+            "timestamp_utc": "2026-10-02T01:19:13.584993+00:00",
+            "pose": "setpos_exact 604.033447 2470.995117 96.742256;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "landing check 2",
+            "timestamp_utc": "2026-10-02T01:19:15.216147+00:00",
+            "pose": "setpos_exact 604.033447 2470.995117 96.742256;setang_exact 0.000000 90.000000 0.000000"
+          }
+        ],
+        "status": "completed attempt; landing and traversal require review",
+        "collision_mode_reply": "noclip OFF",
+        "cleanup": "movement released; noclip ON verified"
+      },
+      "review": "Accepted observed forward S03 solo climb: grounded CT bay start; north jumps on low and second boxes; west jump to high box stable Z67.031; north crouch jump crosses Short cap Z127.031 and lands stable upper platform. Collision enabled, start-only teleport. Raw surface samples and player hull height remain distinct."
+    },
+    {
+      "private_filename": "CTCRATE_SHORT_CLIMB_003.json",
+      "report": {
+        "id": "CTCRATE_SHORT_CLIMB_003",
+        "source_build": "25640462",
+        "source_map": "de_dust2",
+        "unit": "source_units",
+        "config": {
+          "id": "CTCRATE_SHORT_CLIMB_003",
+          "build": "25640462",
+          "start": [
+            700,
+            2240,
+            -50,
+            0,
+            90
+          ],
+          "expected_start": {
+            "xy_radius": 5,
+            "z_min": -85,
+            "z_max": -60
+          },
+          "actions": [
+            {
+              "command": "+forward",
+              "seconds": 0.08,
+              "label": "grounded north approach"
+            },
+            {
+              "command": "+jump; +duck",
+              "seconds": 0.1,
+              "label": "north jump toward low crate"
+            },
+            {
+              "command": "-jump",
+              "seconds": 0.15,
+              "label": "advance over first crate edge"
+            },
+            {
+              "command": "-forward; -duck",
+              "seconds": 0.6,
+              "label": "settle first crate"
+            },
+            {
+              "command": "+forward; +jump; +duck",
+              "seconds": 0.1,
+              "label": "north jump toward second box"
+            },
+            {
+              "command": "-jump",
+              "seconds": 0.1,
+              "label": "cross second crate edge"
+            },
+            {
+              "command": "-forward; -duck",
+              "seconds": 0.6,
+              "label": "settle second box"
+            },
+            {
+              "command": "+left",
+              "seconds": 0.2,
+              "label": "grounded west approach on box",
+              "stop_before_pose": "-left"
+            },
+            {
+              "command": "+left; +jump; +duck",
+              "seconds": 0.1,
+              "label": "west jump toward higher box"
+            },
+            {
+              "command": "-jump",
+              "seconds": 0.15,
+              "label": "cross west box edge"
+            },
+            {
+              "command": "-left; -duck",
+              "seconds": 0.6,
+              "label": "settle west stage"
+            },
+            {
+              "command": "+forward; +jump; +duck",
+              "seconds": 0.15,
+              "label": "north jump from high box over parapet"
+            },
+            {
+              "command": "-jump",
+              "seconds": 0.2,
+              "label": "cross Short cap"
+            },
+            {
+              "command": "-forward; -duck",
+              "seconds": 0.7,
+              "label": "settle Short platform"
+            }
+          ]
+        },
+        "timestamp_utc": "2026-10-02T01:20:09.567839+00:00",
+        "teleports_during_route": 0,
+        "commands": [
+          {
+            "command": "-forward; -back; -left; -right; -jump; -duck; noclip 1",
+            "requested_hold_seconds": 0.3,
+            "sent_utc": "2026-10-02T01:20:09.567839+00:00",
+            "returned_utc": "2026-10-02T01:20:10.074841+00:00",
+            "received_prints": [
+              "FN_TRAV_1\n"
+            ]
+          },
+          {
+            "command": "sv_gravity; sv_jump_impulse; sv_maxspeed",
+            "requested_hold_seconds": 0.3,
+            "sent_utc": "2026-10-02T01:20:10.075851+00:00",
+            "returned_utc": "2026-10-02T01:20:10.582798+00:00",
+            "received_prints": [
+              "sv_gravity = 800\n",
+              "sv_jump_impulse = 301.99338\n",
+              "sv_maxspeed = 320\n",
+              "FN_TRAV_2\n"
+            ]
+          },
+          {
+            "command": "setpos_exact 700 2240 -50; setang_exact 0 90 0",
+            "requested_hold_seconds": 0.3,
+            "sent_utc": "2026-10-02T01:20:10.583798+00:00",
+            "returned_utc": "2026-10-02T01:20:11.190543+00:00",
+            "received_prints": [
+              "FN_TRAV_3\n"
+            ]
+          },
+          {
+            "command": "noclip 0",
+            "requested_hold_seconds": 0.7,
+            "sent_utc": "2026-10-02T01:20:11.191544+00:00",
+            "returned_utc": "2026-10-02T01:20:12.101636+00:00",
+            "received_prints": [
+              "FN_TRAV_4\n",
+              "noclip OFF\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:20:12.102636+00:00",
+            "returned_utc": "2026-10-02T01:20:12.507849+00:00",
+            "received_prints": [
+              "setpos_exact 700.000000 2240.000000 -66.164551;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_5\n"
+            ]
+          },
+          {
+            "command": "+forward",
+            "requested_hold_seconds": 0.08,
+            "sent_utc": "2026-10-02T01:20:12.509850+00:00",
+            "returned_utc": "2026-10-02T01:20:12.815962+00:00",
+            "received_prints": [
+              "FN_TRAV_6\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:20:12.816963+00:00",
+            "returned_utc": "2026-10-02T01:20:13.223118+00:00",
+            "received_prints": [
+              "setpos_exact 700.004333 2275.968750 -60.945679;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_7\n"
+            ]
+          },
+          {
+            "command": "+jump; +duck",
+            "requested_hold_seconds": 0.1,
+            "sent_utc": "2026-10-02T01:20:13.224620+00:00",
+            "returned_utc": "2026-10-02T01:20:13.529608+00:00",
+            "received_prints": [
+              "FN_TRAV_8\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:20:13.530609+00:00",
+            "returned_utc": "2026-10-02T01:20:13.941327+00:00",
+            "received_prints": [
+              "setpos_exact 700.009460 2283.323730 4.691406;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_9\n"
+            ]
+          },
+          {
+            "command": "-jump",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:20:13.943327+00:00",
+            "returned_utc": "2026-10-02T01:20:14.248693+00:00",
+            "received_prints": [
+              "FN_TRAV_10\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:20:14.249694+00:00",
+            "returned_utc": "2026-10-02T01:20:14.661822+00:00",
+            "received_prints": [
+              "setpos_exact 700.020691 2309.254639 -26.968750;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_11\n"
+            ]
+          },
+          {
+            "command": "-forward; -duck",
+            "requested_hold_seconds": 0.6,
+            "sent_utc": "2026-10-02T01:20:14.662822+00:00",
+            "returned_utc": "2026-10-02T01:20:15.471684+00:00",
+            "received_prints": [
+              "FN_TRAV_12\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:20:15.472683+00:00",
+            "returned_utc": "2026-10-02T01:20:15.778192+00:00",
+            "received_prints": [
+              "setpos_exact 700.022339 2314.954590 -26.968750;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_13\n"
+            ]
+          },
+          {
+            "command": "+forward; +jump; +duck",
+            "requested_hold_seconds": 0.1,
+            "sent_utc": "2026-10-02T01:20:15.780192+00:00",
+            "returned_utc": "2026-10-02T01:20:16.186320+00:00",
+            "received_prints": [
+              "FN_TRAV_14\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:20:16.187321+00:00",
+            "returned_utc": "2026-10-02T01:20:16.492448+00:00",
+            "received_prints": [
+              "setpos_exact 700.027466 2322.323730 38.644531;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_15\n"
+            ]
+          },
+          {
+            "command": "-jump",
+            "requested_hold_seconds": 0.1,
+            "sent_utc": "2026-10-02T01:20:16.494951+00:00",
+            "returned_utc": "2026-10-02T01:20:16.900418+00:00",
+            "received_prints": [
+              "FN_TRAV_16\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:20:16.901418+00:00",
+            "returned_utc": "2026-10-02T01:20:17.210206+00:00",
+            "received_prints": [
+              "setpos_exact 700.038574 2347.739746 23.089224;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_17\n"
+            ]
+          },
+          {
+            "command": "-forward; -duck",
+            "requested_hold_seconds": 0.6,
+            "sent_utc": "2026-10-02T01:20:17.213206+00:00",
+            "returned_utc": "2026-10-02T01:20:18.120614+00:00",
+            "received_prints": [
+              "FN_TRAV_18\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:20:18.121617+00:00",
+            "returned_utc": "2026-10-02T01:20:18.432211+00:00",
+            "received_prints": [
+              "setpos_exact 700.046509 2375.377930 23.090271;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_19\n"
+            ]
+          },
+          {
+            "command": "+left",
+            "requested_hold_seconds": 0.2,
+            "sent_utc": "2026-10-02T01:20:18.433211+00:00",
+            "returned_utc": "2026-10-02T01:20:18.940442+00:00",
+            "received_prints": [
+              "FN_TRAV_20\n"
+            ]
+          },
+          {
+            "command": "-left",
+            "requested_hold_seconds": 0.05,
+            "sent_utc": "2026-10-02T01:20:18.942443+00:00",
+            "returned_utc": "2026-10-02T01:20:19.348144+00:00",
+            "received_prints": [
+              "FN_TRAV_21\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:20:19.349145+00:00",
+            "returned_utc": "2026-10-02T01:20:19.658757+00:00",
+            "received_prints": [
+              "setpos_exact 650.042969 2376.180176 1.671648;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_22\n"
+            ]
+          },
+          {
+            "command": "+left; +jump; +duck",
+            "requested_hold_seconds": 0.1,
+            "sent_utc": "2026-10-02T01:20:19.660758+00:00",
+            "returned_utc": "2026-10-02T01:20:20.066869+00:00",
+            "received_prints": [
+              "FN_TRAV_23\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:20:20.067870+00:00",
+            "returned_utc": "2026-10-02T01:20:20.377473+00:00",
+            "received_prints": [
+              "setpos_exact 645.091370 2378.766113 67.474609;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_24\n"
+            ]
+          },
+          {
+            "command": "-jump",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:20:20.379474+00:00",
+            "returned_utc": "2026-10-02T01:20:20.786052+00:00",
+            "received_prints": [
+              "FN_TRAV_25\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:20:20.787052+00:00",
+            "returned_utc": "2026-10-02T01:20:21.096279+00:00",
+            "received_prints": [
+              "setpos_exact 620.661011 2379.227295 67.031250;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_26\n"
+            ]
+          },
+          {
+            "command": "-left; -duck",
+            "requested_hold_seconds": 0.6,
+            "sent_utc": "2026-10-02T01:20:21.099281+00:00",
+            "returned_utc": "2026-10-02T01:20:22.007591+00:00",
+            "received_prints": [
+              "FN_TRAV_27\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:20:22.009592+00:00",
+            "returned_utc": "2026-10-02T01:20:22.319643+00:00",
+            "received_prints": [
+              "setpos_exact 591.916077 2379.251221 67.031250;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_28\n"
+            ]
+          },
+          {
+            "command": "+forward; +jump; +duck",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:20:22.323147+00:00",
+            "returned_utc": "2026-10-02T01:20:22.728966+00:00",
+            "received_prints": [
+              "FN_TRAV_29\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:20:22.729967+00:00",
+            "returned_utc": "2026-10-02T01:20:23.040081+00:00",
+            "received_prints": [
+              "setpos_exact 591.921326 2381.395020 132.757812;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_30\n"
+            ]
+          },
+          {
+            "command": "-jump",
+            "requested_hold_seconds": 0.2,
+            "sent_utc": "2026-10-02T01:20:23.043082+00:00",
+            "returned_utc": "2026-10-02T01:20:23.550136+00:00",
+            "received_prints": [
+              "FN_TRAV_31\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:20:23.551136+00:00",
+            "returned_utc": "2026-10-02T01:20:23.962140+00:00",
+            "received_prints": [
+              "setpos_exact 591.935059 2422.332520 127.031250;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_32\n"
+            ]
+          },
+          {
+            "command": "-forward; -duck",
+            "requested_hold_seconds": 0.7,
+            "sent_utc": "2026-10-02T01:20:23.964643+00:00",
+            "returned_utc": "2026-10-02T01:20:24.973356+00:00",
+            "received_prints": [
+              "FN_TRAV_33\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:20:24.975867+00:00",
+            "returned_utc": "2026-10-02T01:20:25.284915+00:00",
+            "received_prints": [
+              "setpos_exact 591.945923 2470.995117 96.731461;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_34\n"
+            ]
+          },
+          {
+            "command": "-forward; -back; -left; -right; -jump; -duck",
+            "requested_hold_seconds": 0.3,
+            "sent_utc": "2026-10-02T01:20:25.286931+00:00",
+            "returned_utc": "2026-10-02T01:20:25.792909+00:00",
+            "received_prints": [
+              "FN_TRAV_35\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:20:25.793910+00:00",
+            "returned_utc": "2026-10-02T01:20:26.204759+00:00",
+            "received_prints": [
+              "setpos_exact 591.945923 2470.995117 96.731461;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_36\n"
+            ]
+          },
+          {
+            "command": "-forward",
+            "requested_hold_seconds": 1,
+            "sent_utc": "2026-10-02T01:20:26.206772+00:00",
+            "returned_utc": "2026-10-02T01:20:27.417097+00:00",
+            "received_prints": [
+              "FN_TRAV_37\n"
+            ]
+          },
+          {
+            "command": "getpos_exact",
+            "requested_hold_seconds": 0.15,
+            "sent_utc": "2026-10-02T01:20:27.418097+00:00",
+            "returned_utc": "2026-10-02T01:20:27.828338+00:00",
+            "received_prints": [
+              "setpos_exact 591.945923 2470.995117 96.731461;setang_exact 0.000000 90.000000 0.000000\n",
+              "FN_TRAV_38\n"
+            ]
+          },
+          {
+            "command": "-forward; -back; -left; -right; -jump; -duck; noclip 1",
+            "requested_hold_seconds": 0.3,
+            "sent_utc": "2026-10-02T01:20:27.831339+00:00",
+            "returned_utc": "2026-10-02T01:20:28.338022+00:00",
+            "received_prints": [
+              "FN_TRAV_39\n",
+              "noclip ON\n"
+            ]
+          }
+        ],
+        "observations": [
+          {
+            "label": "settled start",
+            "timestamp_utc": "2026-10-02T01:20:12.509850+00:00",
+            "pose": "setpos_exact 700.000000 2240.000000 -66.164551;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "grounded north approach",
+            "timestamp_utc": "2026-10-02T01:20:13.223118+00:00",
+            "pose": "setpos_exact 700.004333 2275.968750 -60.945679;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "north jump toward low crate",
+            "timestamp_utc": "2026-10-02T01:20:13.942327+00:00",
+            "pose": "setpos_exact 700.009460 2283.323730 4.691406;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "advance over first crate edge",
+            "timestamp_utc": "2026-10-02T01:20:14.662822+00:00",
+            "pose": "setpos_exact 700.020691 2309.254639 -26.968750;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "settle first crate",
+            "timestamp_utc": "2026-10-02T01:20:15.779194+00:00",
+            "pose": "setpos_exact 700.022339 2314.954590 -26.968750;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "north jump toward second box",
+            "timestamp_utc": "2026-10-02T01:20:16.493449+00:00",
+            "pose": "setpos_exact 700.027466 2322.323730 38.644531;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "cross second crate edge",
+            "timestamp_utc": "2026-10-02T01:20:17.212207+00:00",
+            "pose": "setpos_exact 700.038574 2347.739746 23.089224;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "settle second box",
+            "timestamp_utc": "2026-10-02T01:20:18.433211+00:00",
+            "pose": "setpos_exact 700.046509 2375.377930 23.090271;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "grounded west approach on box",
+            "timestamp_utc": "2026-10-02T01:20:19.659758+00:00",
+            "pose": "setpos_exact 650.042969 2376.180176 1.671648;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "west jump toward higher box",
+            "timestamp_utc": "2026-10-02T01:20:20.378474+00:00",
+            "pose": "setpos_exact 645.091370 2378.766113 67.474609;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "cross west box edge",
+            "timestamp_utc": "2026-10-02T01:20:21.097280+00:00",
+            "pose": "setpos_exact 620.661011 2379.227295 67.031250;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "settle west stage",
+            "timestamp_utc": "2026-10-02T01:20:22.321644+00:00",
+            "pose": "setpos_exact 591.916077 2379.251221 67.031250;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "north jump from high box over parapet",
+            "timestamp_utc": "2026-10-02T01:20:23.042082+00:00",
+            "pose": "setpos_exact 591.921326 2381.395020 132.757812;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "cross Short cap",
+            "timestamp_utc": "2026-10-02T01:20:23.963140+00:00",
+            "pose": "setpos_exact 591.935059 2422.332520 127.031250;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "settle Short platform",
+            "timestamp_utc": "2026-10-02T01:20:25.285920+00:00",
+            "pose": "setpos_exact 591.945923 2470.995117 96.731461;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "landing check 1",
+            "timestamp_utc": "2026-10-02T01:20:26.205772+00:00",
+            "pose": "setpos_exact 591.945923 2470.995117 96.731461;setang_exact 0.000000 90.000000 0.000000"
+          },
+          {
+            "label": "landing check 2",
+            "timestamp_utc": "2026-10-02T01:20:27.829338+00:00",
+            "pose": "setpos_exact 591.945923 2470.995117 96.731461;setang_exact 0.000000 90.000000 0.000000"
+          }
+        ],
+        "status": "completed attempt; landing and traversal require review",
+        "collision_mode_reply": "noclip OFF",
+        "cleanup": "movement released; noclip ON verified"
+      },
+      "review": "Accepted observed forward S03 solo climb: grounded CT bay start; north jumps on low and second boxes; west jump to high box stable Z67.031; north crouch jump crosses Short cap Z127.031 and lands stable upper platform. Collision enabled, start-only teleport. Raw surface samples and player hull height remain distinct."
     }
   ],
   "accepted_directions": [
@@ -7638,6 +9249,17 @@
       ],
       "status": "accepted observed forward jump/drop",
       "limits": "One continuous pass, stable CT hall floor landing. Reverse is separate S03 climb, still pending; full launch/drop geometry unmeasured."
+    },
+    {
+      "id": "CT_CRATE_SHORT_FORWARD",
+      "special_edge": "S03",
+      "direction": "CT bay via stepped crate arrangement and parapet to A Short",
+      "reports": [
+        "CTCRATE_SHORT_CLIMB_002",
+        "CTCRATE_SHORT_CLIMB_003"
+      ],
+      "status": "accepted observed solo climb twice",
+      "limits": "Specific local current-build box route; full cover bounds unmeasured. Short-to-CT reverse connection is independently observed S02 jump/drop. No boost needed on this tested route."
     }
   ]
 }

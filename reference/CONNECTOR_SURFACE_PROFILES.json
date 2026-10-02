@@ -3225,6 +3225,2263 @@
       "restored_pose": "setpos_exact -330.000000 1200.000000 -90.000000;setang_exact 0.000000 90.000000 0.000000",
       "id": "XBOX_Xm340_Y1420_001",
       "surface_semantics": "Upper wooden crate rim collision sample beside plastic-covered top; no continuous rim inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T00:35:50.800575+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "CT crate climb",
+      "unit": "source_units",
+      "target_xy": [
+        560.0,
+        2200.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 351.090973 2119.142090 -125.134338;setang_exact 0.000000 0.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 496.009735 2200.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            566.44,
+            2200.0,
+            -117.57
+          ],
+          "xy_error": 6.440000000000055,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 161479"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 489.569733 2200.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            560.02,
+            2200.0,
+            -119.06
+          ],
+          "xy_error": 0.01999999999998181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 161479"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 489.569733 2200.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            560.02,
+            2200.0,
+            -119.06
+          ],
+          "xy_error": 0.01999999999998181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 161479"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          560.02,
+          2200.0,
+          -119.06
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 351.090973 2119.142090 -125.134338;setang_exact 0.000000 0.000000 0.000000",
+      "id": "CTCRATE_X560_Y2200_002",
+      "surface_semantics": "CT bay sloping ground Mesh sample south of cover; separate floor point, not the exact cover base."
+    },
+    {
+      "timestamp_utc": "2026-10-02T00:35:59.516148+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "CT crate climb",
+      "unit": "source_units",
+      "target_xy": [
+        560.0,
+        2250.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 351.090973 2119.142090 -125.134338;setang_exact 0.000000 0.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 496.009735 2250.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            566.34,
+            2250.0,
+            -112.2
+          ],
+          "xy_error": 6.340000000000032,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 161484"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 489.669739 2250.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            560.04,
+            2250.0,
+            -114.12
+          ],
+          "xy_error": 0.03999999999996362,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 161484"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 489.629761 2250.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            560.0,
+            2250.0,
+            -114.13
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 161484"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 4,
+          "observed_pose": "setpos_exact 489.629761 2250.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            560.0,
+            2250.0,
+            -114.13
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 161484"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          560.0,
+          2250.0,
+          -114.13
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 351.090973 2119.142090 -125.134338;setang_exact 0.000000 0.000000 0.000000",
+      "id": "CTCRATE_X560_Y2250_002",
+      "surface_semantics": "CT bay sloping ground Mesh sample south of cover; separate floor point, not the exact cover base."
+    },
+    {
+      "timestamp_utc": "2026-10-02T00:36:10.475513+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "CT crate climb",
+      "unit": "source_units",
+      "target_xy": [
+        560.0,
+        2300.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 351.090973 2119.142090 -125.134338;setang_exact 0.000000 0.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 496.009735 2300.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            564.89,
+            2300.0,
+            -29.24
+          ],
+          "xy_error": 4.889999999999986,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 491.119751 2300.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            560.03,
+            2300.0,
+            -30.54
+          ],
+          "xy_error": 0.029999999999972715,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 491.089752 2300.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            560.0,
+            2300.0,
+            -30.55
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 4,
+          "observed_pose": "setpos_exact 491.089752 2300.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            560.0,
+            2300.0,
+            -30.55
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          560.0,
+          2300.0,
+          -30.55
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 351.090973 2119.142090 -125.134338;setang_exact 0.000000 0.000000 0.000000",
+      "id": "CTCRATE_X560_Y2300_002",
+      "surface_semantics": "CT crate arrangement Wood_Panel Hull top sample, confirmed by inspected overhead detail and continuous climbing telemetry. No entire cover bounds inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T00:36:21.321396+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "CT crate climb",
+      "unit": "source_units",
+      "target_xy": [
+        560.0,
+        2350.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 351.090973 2119.142090 -125.134338;setang_exact 0.000000 0.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 496.009735 2350.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            563.9,
+            2350.0,
+            27.9
+          ],
+          "xy_error": 3.8999999999999773,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 492.109741 2350.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            560.0,
+            2350.0,
+            27.9
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 492.109741 2350.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            560.0,
+            2350.0,
+            27.9
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          560.0,
+          2350.0,
+          27.9
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 351.090973 2119.142090 -125.134338;setang_exact 0.000000 0.000000 0.000000",
+      "id": "CTCRATE_X560_Y2350_002",
+      "surface_semantics": "CT crate arrangement Wood_Panel Hull top sample, confirmed by inspected overhead detail and continuous climbing telemetry. No entire cover bounds inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T00:36:30.027567+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "CT crate climb",
+      "unit": "source_units",
+      "target_xy": [
+        600.0,
+        2200.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 351.090973 2119.142090 -125.134338;setang_exact 0.000000 0.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 536.009766 2200.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            606.23,
+            2200.0,
+            -105.7
+          ],
+          "xy_error": 6.230000000000018,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 161500"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 529.779724 2200.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            600.03,
+            2200.0,
+            -107.62
+          ],
+          "xy_error": 0.029999999999972715,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 161501"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 529.749756 2200.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            600.0,
+            2200.0,
+            -107.63
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 161501"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 4,
+          "observed_pose": "setpos_exact 529.749756 2200.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            600.0,
+            2200.0,
+            -107.63
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 161501"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          600.0,
+          2200.0,
+          -107.63
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 351.090973 2119.142090 -125.134338;setang_exact 0.000000 0.000000 0.000000",
+      "id": "CTCRATE_X600_Y2200_002",
+      "surface_semantics": "CT bay sloping ground Mesh sample south of cover; separate floor point, not the exact cover base."
+    },
+    {
+      "timestamp_utc": "2026-10-02T00:36:40.965452+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "CT crate climb",
+      "unit": "source_units",
+      "target_xy": [
+        600.0,
+        2250.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 351.090973 2119.142090 -125.134338;setang_exact 0.000000 0.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 536.009766 2250.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            606.13,
+            2250.0,
+            -100.01
+          ],
+          "xy_error": 6.1299999999999955,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 161519"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 529.879761 2250.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            600.03,
+            2250.0,
+            -101.88
+          ],
+          "xy_error": 0.029999999999972715,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 161519"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 529.849731 2250.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            600.0,
+            2250.0,
+            -101.89
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 161519"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 4,
+          "observed_pose": "setpos_exact 529.849731 2250.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            600.0,
+            2250.0,
+            -101.89
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 161519"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          600.0,
+          2250.0,
+          -101.89
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 351.090973 2119.142090 -125.134338;setang_exact 0.000000 0.000000 0.000000",
+      "id": "CTCRATE_X600_Y2250_002",
+      "surface_semantics": "CT bay sloping ground Mesh sample south of cover; separate floor point, not the exact cover base."
+    },
+    {
+      "timestamp_utc": "2026-10-02T00:36:51.896836+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "CT crate climb",
+      "unit": "source_units",
+      "target_xy": [
+        600.0,
+        2300.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 351.090973 2119.142090 -125.134338;setang_exact 0.000000 0.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 536.009766 2300.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            604.71,
+            2300.0,
+            -18.57
+          ],
+          "xy_error": 4.710000000000036,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 531.299744 2300.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            600.02,
+            2300.0,
+            -19.82
+          ],
+          "xy_error": 0.01999999999998181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 531.299744 2300.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            600.02,
+            2300.0,
+            -19.82
+          ],
+          "xy_error": 0.01999999999998181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          600.02,
+          2300.0,
+          -19.82
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 351.090973 2119.142090 -125.134338;setang_exact 0.000000 0.000000 0.000000",
+      "id": "CTCRATE_X600_Y2300_002",
+      "surface_semantics": "CT crate arrangement Wood_Panel Hull top sample, confirmed by inspected overhead detail and continuous climbing telemetry. No entire cover bounds inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T00:37:00.588392+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "CT crate climb",
+      "unit": "source_units",
+      "target_xy": [
+        600.0,
+        2350.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 351.090973 2119.142090 -125.134338;setang_exact 0.000000 0.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 536.009766 2350.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            603.9,
+            2350.0,
+            27.9
+          ],
+          "xy_error": 3.8999999999999773,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 532.109741 2350.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            600.89,
+            2350.0,
+            -23.19
+          ],
+          "xy_error": 0.8899999999999864,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 531.219727 2350.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            600.0,
+            2350.0,
+            -23.19
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 4,
+          "observed_pose": "setpos_exact 531.219727 2350.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            600.0,
+            2350.0,
+            -23.19
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          600.0,
+          2350.0,
+          -23.19
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 351.090973 2119.142090 -125.134338;setang_exact 0.000000 0.000000 0.000000",
+      "id": "CTCRATE_X600_Y2350_002",
+      "surface_semantics": "CT crate arrangement Wood_Panel Hull top sample, confirmed by inspected overhead detail and continuous climbing telemetry. No entire cover bounds inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T00:37:11.423912+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "CT crate climb",
+      "unit": "source_units",
+      "target_xy": [
+        650.0,
+        2200.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 351.090973 2119.142090 -125.134338;setang_exact 0.000000 0.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 586.009766 2200.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            655.98,
+            2200.0,
+            -91.38
+          ],
+          "xy_error": 5.980000000000018,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 161766"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 580.029724 2200.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            650.03,
+            2200.0,
+            -93.15
+          ],
+          "xy_error": 0.029999999999972715,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 161766"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 579.999756 2200.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            650.0,
+            2200.0,
+            -93.16
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 161766"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 4,
+          "observed_pose": "setpos_exact 579.999756 2200.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            650.0,
+            2200.0,
+            -93.16
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 161766"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          650.0,
+          2200.0,
+          -93.16
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 351.090973 2119.142090 -125.134338;setang_exact 0.000000 0.000000 0.000000",
+      "id": "CTCRATE_X650_Y2200_002",
+      "surface_semantics": "CT bay sloping ground Mesh sample south of cover; separate floor point, not the exact cover base."
+    },
+    {
+      "timestamp_utc": "2026-10-02T00:37:22.056919+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "CT crate climb",
+      "unit": "source_units",
+      "target_xy": [
+        650.0,
+        2250.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 351.090973 2119.142090 -125.134338;setang_exact 0.000000 0.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 586.009766 2250.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            655.88,
+            2250.0,
+            -85.82
+          ],
+          "xy_error": 5.8799999999999955,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 161771"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 580.129761 2250.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            650.03,
+            2250.0,
+            -87.52
+          ],
+          "xy_error": 0.029999999999972715,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 161771"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 580.099731 2250.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            650.0,
+            2250.0,
+            -87.53
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 161771"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 4,
+          "observed_pose": "setpos_exact 580.099731 2250.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            650.0,
+            2250.0,
+            -87.53
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 161771"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          650.0,
+          2250.0,
+          -87.53
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 351.090973 2119.142090 -125.134338;setang_exact 0.000000 0.000000 0.000000",
+      "id": "CTCRATE_X650_Y2250_002",
+      "surface_semantics": "CT bay sloping ground Mesh sample south of cover; separate floor point, not the exact cover base."
+    },
+    {
+      "timestamp_utc": "2026-10-02T00:37:32.901791+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "CT crate climb",
+      "unit": "source_units",
+      "target_xy": [
+        650.0,
+        2300.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 351.090973 2119.142090 -125.134338;setang_exact 0.000000 0.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 586.009766 2300.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            655.12,
+            2300.0,
+            -41.96
+          ],
+          "xy_error": 5.1200000000000045,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 580.889771 2300.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            650.02,
+            2300.0,
+            -43.33
+          ],
+          "xy_error": 0.01999999999998181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 580.889771 2300.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            650.02,
+            2300.0,
+            -43.33
+          ],
+          "xy_error": 0.01999999999998181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          650.02,
+          2300.0,
+          -43.33
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 351.090973 2119.142090 -125.134338;setang_exact 0.000000 0.000000 0.000000",
+      "id": "CTCRATE_X650_Y2300_002",
+      "surface_semantics": "CT crate arrangement Wood_Panel Hull top sample, confirmed by inspected overhead detail and continuous climbing telemetry. No entire cover bounds inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T00:37:41.406282+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "CT crate climb",
+      "unit": "source_units",
+      "target_xy": [
+        650.0,
+        2350.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 351.090973 2119.142090 -125.134338;setang_exact 0.000000 0.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 586.009766 2350.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            654.39,
+            2350.0,
+            -0.17
+          ],
+          "xy_error": 4.389999999999986,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 581.619751 2350.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            650.0,
+            2350.0,
+            -0.59
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 581.619751 2350.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            650.0,
+            2350.0,
+            -0.59
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          650.0,
+          2350.0,
+          -0.59
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 351.090973 2119.142090 -125.134338;setang_exact 0.000000 0.000000 0.000000",
+      "id": "CTCRATE_X650_Y2350_002",
+      "surface_semantics": "CT crate arrangement Wood_Panel Hull top sample, confirmed by inspected overhead detail and continuous climbing telemetry. No entire cover bounds inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T00:37:50.018876+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "CT crate climb",
+      "unit": "source_units",
+      "target_xy": [
+        700.0,
+        2200.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 351.090973 2119.142090 -125.134338;setang_exact 0.000000 0.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 636.009766 2200.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            705.71,
+            2200.0,
+            -76.18
+          ],
+          "xy_error": 5.710000000000036,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 161786"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 630.299744 2200.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            700.03,
+            2200.0,
+            -77.96
+          ],
+          "xy_error": 0.029999999999972715,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 161776"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 630.269775 2200.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            700.0,
+            2200.0,
+            -77.97
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 161776"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 4,
+          "observed_pose": "setpos_exact 630.269775 2200.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            700.0,
+            2200.0,
+            -77.97
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 161776"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          700.0,
+          2200.0,
+          -77.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 351.090973 2119.142090 -125.134338;setang_exact 0.000000 0.000000 0.000000",
+      "id": "CTCRATE_X700_Y2200_002",
+      "surface_semantics": "CT bay sloping ground Mesh sample south of cover; separate floor point, not the exact cover base."
+    },
+    {
+      "timestamp_utc": "2026-10-02T00:38:00.863772+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "CT crate climb",
+      "unit": "source_units",
+      "target_xy": [
+        700.0,
+        2250.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 351.090973 2119.142090 -125.134338;setang_exact 0.000000 0.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 636.009766 2250.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            705.61,
+            2250.0,
+            -70.52
+          ],
+          "xy_error": 5.610000000000014,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 161788"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 630.399719 2250.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            700.04,
+            2250.0,
+            -72.31
+          ],
+          "xy_error": 0.03999999999996362,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 161782"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 630.359741 2250.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            700.0,
+            2250.0,
+            -72.32
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 161782"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 4,
+          "observed_pose": "setpos_exact 630.359741 2250.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            700.0,
+            2250.0,
+            -72.32
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 161782"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          700.0,
+          2250.0,
+          -72.32
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 351.090973 2119.142090 -125.134338;setang_exact 0.000000 0.000000 0.000000",
+      "id": "CTCRATE_X700_Y2250_002",
+      "surface_semantics": "CT bay sloping ground Mesh sample south of cover; separate floor point, not the exact cover base."
+    },
+    {
+      "timestamp_utc": "2026-10-02T00:38:11.809270+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "CT crate climb",
+      "unit": "source_units",
+      "target_xy": [
+        700.0,
+        2300.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 351.090973 2119.142090 -125.134338;setang_exact 0.000000 0.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 636.009766 2300.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            704.88,
+            2300.0,
+            -28.63
+          ],
+          "xy_error": 4.8799999999999955,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 631.129761 2300.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            700.03,
+            2300.0,
+            -29.93
+          ],
+          "xy_error": 0.029999999999972715,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 631.099731 2300.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            700.0,
+            2300.0,
+            -29.94
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 4,
+          "observed_pose": "setpos_exact 631.099731 2300.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            700.0,
+            2300.0,
+            -29.94
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          700.0,
+          2300.0,
+          -29.94
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 351.090973 2119.142090 -125.134338;setang_exact 0.000000 0.000000 0.000000",
+      "id": "CTCRATE_X700_Y2300_002",
+      "surface_semantics": "CT crate arrangement Wood_Panel Hull top sample, confirmed by inspected overhead detail and continuous climbing telemetry. No entire cover bounds inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T00:38:22.656504+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "CT crate climb",
+      "unit": "source_units",
+      "target_xy": [
+        700.0,
+        2350.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 351.090973 2119.142090 -125.134338;setang_exact 0.000000 0.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 636.009766 2350.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            704.3,
+            2350.0,
+            4.64
+          ],
+          "xy_error": 4.2999999999999545,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 631.709778 2350.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            700.01,
+            2350.0,
+            4.22
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 631.709778 2350.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            700.01,
+            2350.0,
+            4.22
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          700.01,
+          2350.0,
+          4.22
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 351.090973 2119.142090 -125.134338;setang_exact 0.000000 0.000000 0.000000",
+      "id": "CTCRATE_X700_Y2350_002",
+      "surface_semantics": "CT crate arrangement Wood_Panel Hull top sample, confirmed by inspected overhead detail and continuous climbing telemetry. No entire cover bounds inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T00:47:23.076232+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "CT crate climb",
+      "unit": "source_units",
+      "target_xy": [
+        560.0,
+        2400.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 496.009735 2400.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            562.23,
+            2400.0,
+            123.64
+          ],
+          "xy_error": 2.230000000000018,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 493.779755 2400.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            560.0,
+            2400.0,
+            123.65
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 493.779755 2400.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            560.0,
+            2400.0,
+            123.65
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          560.0,
+          2400.0,
+          123.65
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "id": "CTCRATE_X560_Y2400_003",
+      "surface_semantics": "Short parapet rock Hull cap sample, separated from lower CT bay and upper platform."
+    },
+    {
+      "timestamp_utc": "2026-10-02T00:47:31.597509+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "CT crate climb",
+      "unit": "source_units",
+      "target_xy": [
+        560.0,
+        2450.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 496.009735 2450.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            562.7,
+            2450.0,
+            96.66
+          ],
+          "xy_error": 2.7000000000000455,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162763"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 493.309753 2450.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            560.0,
+            2450.0,
+            96.64
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162763"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 493.309753 2450.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            560.0,
+            2450.0,
+            96.64
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162763"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          560.0,
+          2450.0,
+          96.64
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "id": "CTCRATE_X560_Y2450_003",
+      "surface_semantics": "Short upper platform floor Mesh sample north of parapet; no continuous plane inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T00:47:40.402849+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "CT crate climb",
+      "unit": "source_units",
+      "target_xy": [
+        560.0,
+        2500.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 496.009735 2500.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            562.71,
+            2500.0,
+            95.99
+          ],
+          "xy_error": 2.7100000000000364,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 162770"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 493.299744 2500.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            560.0,
+            2500.0,
+            95.98
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 162769"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 493.299744 2500.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            560.0,
+            2500.0,
+            95.98
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 162769"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          560.0,
+          2500.0,
+          95.98
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "id": "CTCRATE_X560_Y2500_003",
+      "surface_semantics": "Short upper platform floor Mesh sample north of parapet; no continuous plane inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T00:47:49.117469+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "CT crate climb",
+      "unit": "source_units",
+      "target_xy": [
+        600.0,
+        2400.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 536.009766 2400.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            602.23,
+            2400.0,
+            123.57
+          ],
+          "xy_error": 2.230000000000018,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 533.779724 2400.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            600.0,
+            2400.0,
+            123.58
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 533.779724 2400.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            600.0,
+            2400.0,
+            123.58
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          600.0,
+          2400.0,
+          123.58
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "id": "CTCRATE_X600_Y2400_003",
+      "surface_semantics": "Short parapet rock Hull cap sample, separated from lower CT bay and upper platform."
+    },
+    {
+      "timestamp_utc": "2026-10-02T00:47:57.817606+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "CT crate climb",
+      "unit": "source_units",
+      "target_xy": [
+        600.0,
+        2450.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 536.009766 2450.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            602.69,
+            2450.0,
+            96.81
+          ],
+          "xy_error": 2.6900000000000546,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162767"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 533.319763 2450.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            600.0,
+            2450.0,
+            96.8
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162767"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 533.319763 2450.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            600.0,
+            2450.0,
+            96.8
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162767"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          600.0,
+          2450.0,
+          96.8
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "id": "CTCRATE_X600_Y2450_003",
+      "surface_semantics": "Short upper platform floor Mesh sample north of parapet; no continuous plane inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T00:48:06.520559+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "CT crate climb",
+      "unit": "source_units",
+      "target_xy": [
+        600.0,
+        2500.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 536.009766 2500.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            602.71,
+            2500.0,
+            96.14
+          ],
+          "xy_error": 2.7100000000000364,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162771"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 533.299744 2500.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            600.0,
+            2500.0,
+            96.14
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162771"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 533.299744 2500.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            600.0,
+            2500.0,
+            96.14
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162771"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          600.0,
+          2500.0,
+          96.14
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "id": "CTCRATE_X600_Y2500_003",
+      "surface_semantics": "Short upper platform floor Mesh sample north of parapet; no continuous plane inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T00:48:15.228872+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "CT crate climb",
+      "unit": "source_units",
+      "target_xy": [
+        650.0,
+        2400.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 586.009766 2400.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            652.23,
+            2400.0,
+            123.33
+          ],
+          "xy_error": 2.230000000000018,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 583.779724 2400.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            650.0,
+            2400.0,
+            123.38
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 583.779724 2400.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            650.0,
+            2400.0,
+            123.38
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          650.0,
+          2400.0,
+          123.38
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "id": "CTCRATE_X650_Y2400_003",
+      "surface_semantics": "Short parapet rock Hull cap sample, separated from lower CT bay and upper platform."
+    },
+    {
+      "timestamp_utc": "2026-10-02T00:48:23.837754+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "CT crate climb",
+      "unit": "source_units",
+      "target_xy": [
+        650.0,
+        2450.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 586.009766 2450.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            652.7,
+            2450.0,
+            96.72
+          ],
+          "xy_error": 2.7000000000000455,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162764"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 583.309753 2450.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            650.0,
+            2450.0,
+            96.72
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162766"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 583.309753 2450.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            650.0,
+            2450.0,
+            96.72
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162766"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          650.0,
+          2450.0,
+          96.72
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "id": "CTCRATE_X650_Y2450_003",
+      "surface_semantics": "Short upper platform floor Mesh sample north of parapet; no continuous plane inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T00:48:32.540190+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "CT crate climb",
+      "unit": "source_units",
+      "target_xy": [
+        650.0,
+        2500.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 586.009766 2500.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            652.71,
+            2500.0,
+            95.92
+          ],
+          "xy_error": 2.7100000000000364,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162772"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 583.299744 2500.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            650.0,
+            2500.0,
+            95.94
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 162768"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 583.299744 2500.000000 250.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            650.0,
+            2500.0,
+            95.94
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 162768"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          650.0,
+          2500.0,
+          95.94
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "id": "CTCRATE_X650_Y2500_003",
+      "surface_semantics": "Short upper platform floor Mesh sample north of parapet; no continuous plane inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T01:15:59.549838+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "CT crate climb",
+      "unit": "source_units",
+      "target_xy": [
+        555.0,
+        2365.0
+      ],
+      "probe_player_z": 200.0,
+      "initial_pose": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 491.009735 2365.000000 200.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            557.38,
+            2365.0,
+            64.77
+          ],
+          "xy_error": 2.3799999999999955,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 488.629761 2365.000000 200.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            555.0,
+            2365.0,
+            64.77
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 488.629761 2365.000000 200.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            555.0,
+            2365.0,
+            64.77
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          555.0,
+          2365.0,
+          64.77
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "id": "CTCRATE_X555_Y2365_004",
+      "surface_semantics": "CT crate arrangement Wood_Panel Hull top sample, confirmed by inspected overhead detail and continuous climbing telemetry. No entire cover bounds inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T01:16:08.266964+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "CT crate climb",
+      "unit": "source_units",
+      "target_xy": [
+        555.0,
+        2380.0
+      ],
+      "probe_player_z": 200.0,
+      "initial_pose": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 491.009735 2380.000000 200.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            557.38,
+            2380.0,
+            64.77
+          ],
+          "xy_error": 2.3799999999999955,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 488.629761 2380.000000 200.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            555.0,
+            2380.0,
+            64.77
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 488.629761 2380.000000 200.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            555.0,
+            2380.0,
+            64.77
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          555.0,
+          2380.0,
+          64.77
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "id": "CTCRATE_X555_Y2380_004",
+      "surface_semantics": "CT crate arrangement Wood_Panel Hull top sample, confirmed by inspected overhead detail and continuous climbing telemetry. No entire cover bounds inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T01:16:16.973681+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "CT crate climb",
+      "unit": "source_units",
+      "target_xy": [
+        580.0,
+        2365.0
+      ],
+      "probe_player_z": 200.0,
+      "initial_pose": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 516.009766 2365.000000 200.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            582.38,
+            2365.0,
+            64.77
+          ],
+          "xy_error": 2.3799999999999955,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 513.629761 2365.000000 200.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            580.0,
+            2365.0,
+            64.77
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 513.629761 2365.000000 200.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            580.0,
+            2365.0,
+            64.77
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          580.0,
+          2365.0,
+          64.77
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "id": "CTCRATE_X580_Y2365_004",
+      "surface_semantics": "CT crate arrangement Wood_Panel Hull top sample, confirmed by inspected overhead detail and continuous climbing telemetry. No entire cover bounds inferred."
+    },
+    {
+      "timestamp_utc": "2026-10-02T01:16:25.784933+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "CT crate climb",
+      "unit": "source_units",
+      "target_xy": [
+        580.0,
+        2380.0
+      ],
+      "probe_player_z": 200.0,
+      "initial_pose": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 516.009766 2380.000000 200.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            582.38,
+            2380.0,
+            64.77
+          ],
+          "xy_error": 2.3799999999999955,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 513.629761 2380.000000 200.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            580.0,
+            2380.0,
+            64.77
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 513.629761 2380.000000 200.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            580.0,
+            2380.0,
+            64.77
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Panel, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          580.0,
+          2380.0,
+          64.77
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "id": "CTCRATE_X580_Y2380_004",
+      "surface_semantics": "CT crate arrangement Wood_Panel Hull top sample, confirmed by inspected overhead detail and continuous climbing telemetry. No entire cover bounds inferred."
     }
   ],
   "accepted_pairs": [
@@ -3299,6 +5556,51 @@
       "dimension": "rise",
       "feature": "Low pallet point to upper crate point sampled rise",
       "notes": "Explicit different-XY sample pair; not full cover-base dimensions or minimum jump clearance."
+    },
+    {
+      "id": "CT_GROUND_TO_LOW_BOX_SAMPLE_RISE",
+      "area": "CT crate / Short",
+      "from_report": "CTCRATE_X700_Y2250_002",
+      "to_report": "CTCRATE_X700_Y2300_002",
+      "dimension": "rise",
+      "feature": "CT bay adjacent floor to low box top",
+      "notes": "Explicit distinct-XY samples; not exact crate base, minimum jump clearance or interpolated surface. Player hull landing is separate."
+    },
+    {
+      "id": "CT_LOW_TO_SECOND_BOX_SAMPLE_RISE",
+      "area": "CT crate / Short",
+      "from_report": "CTCRATE_X700_Y2300_002",
+      "to_report": "CTCRATE_X700_Y2350_002",
+      "dimension": "rise",
+      "feature": "Low box to sampled second-box top",
+      "notes": "Explicit distinct-XY samples; not exact crate base, minimum jump clearance or interpolated surface. Player hull landing is separate."
+    },
+    {
+      "id": "CT_MID_TO_HIGH_BOX_SAMPLE_RISE",
+      "area": "CT crate / Short",
+      "from_report": "CTCRATE_X560_Y2350_002",
+      "to_report": "CTCRATE_X555_Y2365_004",
+      "dimension": "rise",
+      "feature": "Intermediate box sample to high-box top",
+      "notes": "Explicit distinct-XY samples; not exact crate base, minimum jump clearance or interpolated surface. Player hull landing is separate."
+    },
+    {
+      "id": "CT_HIGH_BOX_TO_SHORT_CAP_SAMPLE_RISE",
+      "area": "CT crate / Short",
+      "from_report": "CTCRATE_X555_Y2380_004",
+      "to_report": "CTCRATE_X560_Y2400_003",
+      "dimension": "rise",
+      "feature": "High box top to Short parapet cap",
+      "notes": "Explicit distinct-XY samples; not exact crate base, minimum jump clearance or interpolated surface. Player hull landing is separate."
+    },
+    {
+      "id": "SHORT_PLATFORM_TO_CT_CAP_SAMPLE_RISE",
+      "area": "CT crate / Short",
+      "from_report": "CTCRATE_X560_Y2450_003",
+      "to_report": "CTCRATE_X560_Y2400_003",
+      "dimension": "rise",
+      "feature": "Short platform floor to parapet cap",
+      "notes": "Explicit distinct-XY samples; not exact crate base, minimum jump clearance or interpolated surface. Player hull landing is separate."
     }
   ]
 }

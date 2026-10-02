@@ -452,7 +452,7 @@
       "from": "A Short",
       "to": "CT Spawn",
       "mode": "parapet jump/drop",
-      "status": "accepted observed forward landing in CT bay/hall; reverse S03 pending",
+      "status": "accepted observed forward landing in CT bay/hall; reverse connection S03 independently accepted",
       "measurement": "D036",
       "traversal_evidence": "TRAVERSAL_PROBES.json/ASHORT_CT_FORWARD"
     },
@@ -460,9 +460,10 @@
       "id": "S03",
       "from": "CT Spawn",
       "to": "A Short",
-      "mode": "crate climb/boost",
-      "status": "revision-sensitive; do not infer from pre-2024 imagery",
-      "measurement": "D037"
+      "mode": "solo stepped crate/parapet climb",
+      "status": "accepted observed forward solo climb twice; reverse connection independently observed S02 jump/drop",
+      "measurement": "D037",
+      "traversal_evidence": "TRAVERSAL_PROBES.json/CT_CRATE_SHORT_FORWARD;ASHORT_CT_FORWARD"
     },
     {
       "id": "S04",

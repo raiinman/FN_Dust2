@@ -1,7 +1,7 @@
 {
   "review_date": "2026-10-01",
   "source_build": "25640462",
-  "registered_images": 193,
+  "registered_images": 195,
   "coverage_excluded": 8,
   "complete_areas": 16,
   "complete_subareas": 11,
@@ -2215,6 +2215,22 @@
       "sha256": "d493f83eae43d7d3a5a05f644ec5216fc3990c0fd1ece63cd22d01b8622b9764",
       "coverage_status": "PARTIAL",
       "review": "Native authored drawline crosses at known source positions; axis intersections individually inspected. Debug annotations are calibration evidence, not map geometry."
+    },
+    {
+      "id": "QA_CTCRATE_PLAN_DETAIL_RECOVERY_001",
+      "area": "CT crate climb",
+      "image": "reference/images/ct_crate/QA_CTCRATE_PLAN_DETAIL_RECOVERY_001.jpg",
+      "sha256": "c463945aa602d16befb10db76d448aa9a4e069296ffaca81141a5d86d0eb2c67",
+      "coverage_status": "PARTIAL",
+      "review": "Native overhead detail of stepped CT crate arrangement and Short parapet. Entire climb cover assembly visible; adjoining platform clipped at right outside target. No full map bounds inferred."
+    },
+    {
+      "id": "QA_CTCRATE_APPROACH_DETAIL_RECOVERY_001",
+      "area": "CT crate climb",
+      "image": "reference/images/ct_crate/QA_CTCRATE_APPROACH_DETAIL_RECOVERY_001.jpg",
+      "sha256": "a833c071c04db47f6bd4cfaf1b7b1bade7b8bd03f44c580d9d2fdfd2ea01fea8",
+      "coverage_status": "PARTIAL",
+      "review": "Native CT bay north-facing crate approach. Low sloped boxes, intermediate and high stacked crates, Short retaining wall and cap visible. Low cover fills foreground; full base footprint still needs independent endpoint survey."
     }
   ]
 }
