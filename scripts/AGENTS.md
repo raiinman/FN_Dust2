@@ -316,3 +316,9 @@ architectural endpoint interpretation. Never grant full wall ends automatically.
 Optional required_shape_type separates Mesh and Hull components while preserving
 the original plane/material classification and every native observation. A
 plane-only tolerance transition into an adjacent Hull is not a Mesh endpoint.
+build_architectural_boundaries.py validates explicitly reviewed exposed sections
+using repeated component-aware transitions from independent origins and calibrated
+clean-image corner boxes. Its CSV/JSON/SVG and physical-register rows contain
+derived intervals including actual-pose/plane rounding; no hidden/full-height
+wall body, floor perimeter or polygon closure is granted. Render and inspect
+the annotation before checkpointing; preserve original plane-only diagnostics.

@@ -262,3 +262,8 @@ LOCAL_CAMERA_CALIBRATIONS permits a declared fixed X/Y/Z plane and a constrained
 native-pose local model only after fresh held-out markers pass at the exact pose.
 Retain failed unconstrained extrapolation, overlapping marker layouts and absent
 marks explicitly; never promote independent validation markers into the fit.
+ARCHITECTURAL_BOUNDARIES.json owns explicit exposed-section selections, component
+transitions, independent source origins and hash-pinned rendered corner review.
+ARCHITECTURAL_BOUNDARY_SECTIONS JSON/CSV and ARCHITECTURAL_BOUNDARIES.svg derive
+numeric bounds at the declared height only. Mesh-to-Hull relief remains a local
+exposed join; never promote it into a full wall end or closed ground footprint.

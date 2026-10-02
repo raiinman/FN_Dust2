@@ -214,3 +214,13 @@ north transition hits adjacent Hull under the .05native classifier tolerance,
 so no Mesh endpoint accepted from those brackets. Component-aware two-origin
 native refinement is required. Local rendered corners visually agree but do not
 certify hidden body, full-height wall or complete architectural footprint. Gate1 FAIL.
+
+
+B-west component-aware two-origin refinement completed:64 repeated native
+observations distinguish exposed plaster Mesh from north concrete Hull relief
+and south recessed Mesh. Derived local section Z104 length interval692.99703..
+693.15382cm includes actual-pose and plane-output rounding; both end selections
+fit independently calibrated1.5px clean-image corner boxes. Annotated native
+frame rebuilt/rendered/inspected.322 calibrated features;229 reviewed JPEGs.
+Acceptance is an exposed local section, not full-height/hidden wall, ground
+perimeter, closed whole-map footprint or playerclip certification. Gate1 FAIL.

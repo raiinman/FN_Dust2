@@ -1,0 +1,101 @@
+{
+  "source_build": "25640462",
+  "sections": [
+    {
+      "id": "B_WEST_EXPOSED_MESH_Z104_001",
+      "area": "B Site",
+      "normal_axis": 0,
+      "plane_native": -2128.005,
+      "height_native": 104,
+      "ends": [
+        {
+          "id": "south recess",
+          "native_interval": [
+            2431.9930426026494,
+            2432.019746346537
+          ],
+          "numeric_padding_native": 0.007054357166836431,
+          "independent_raw_intervals": [
+            [
+              2432.0000969598163,
+              2432.012596858705
+            ],
+            [
+              2432.000192190743,
+              2432.01269198937
+            ]
+          ]
+        },
+        {
+          "id": "north stone joint",
+          "native_interval": [
+            2704.8532242593733,
+            2704.888245804125
+          ],
+          "numeric_padding_native": 0.010397118239439066,
+          "independent_raw_intervals": [
+            [
+              2704.863785383097,
+              2704.8778486858855
+            ],
+            [
+              2704.8636213776126,
+              2704.87768515217
+            ]
+          ]
+        }
+      ],
+      "length_interval_cm": [
+        692.9970338986043,
+        693.1538161317475
+      ],
+      "length_midpoint_cm": 693.0754250151758,
+      "rendered_correspondence": [
+        {
+          "end_id": "south recess",
+          "pixel": [
+            540,
+            359.5
+          ],
+          "native_tangent_interval": [
+            2430.9139790810564,
+            2432.964769300283
+          ],
+          "native_point": [
+            -2128.005,
+            2431.9393741906697,
+            103.96699134866928
+          ],
+          "review": "Native clean image and100x100 nearest-neighbor corner crop individually inspected: vertical exposed-plaster/recess break atx540; corner unobstructed atsectionheight."
+        },
+        {
+          "end_id": "north stone joint",
+          "pixel": [
+            940,
+            359.5
+          ],
+          "native_tangent_interval": [
+            2704.3526749779653,
+            2706.4034651971924
+          ],
+          "native_point": [
+            -2128.005,
+            2705.378070087579,
+            103.96699134866928
+          ],
+          "review": "Native clean image and100x100 nearest-neighbor corner crop individually inspected: plaster joins stepped stone return atx940; first-hit concrete Hull relief explicit."
+        }
+      ],
+      "scope": "exposed local collision-face section only",
+      "clean_image_path": "reference/images/crash_recovery/QA_BWEST_CAMERA_FIT_001_CLEAN.jpg",
+      "clean_jpeg_sha256": "47d5e7fe24d98a5c64deb052940131fb91185c1e8e37f202f93a3ece46e8785b",
+      "camera_id": "B_WEST_FRONTAL_001",
+      "transition_reports": [
+        "B_WEST_MESH_COMPONENT_TRANSITIONS_003",
+        "B_WEST_MESH_COMPONENT_TRANSITIONS_004"
+      ]
+    }
+  ],
+  "gate1": "FAIL",
+  "limits": "Validate explicitly reviewed exposed local collision-face sections.\n\nTwo independent source origins, Mesh/Hull component-aware transition rays and\na separately calibrated clean rendered view are mandatory. Output intervals\ndescribe only the declared section height, never hidden/full-height bodies,\nground perimeter or polygon closure. Retain plane-only failed interpretations.\n"
+}

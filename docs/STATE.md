@@ -141,10 +141,18 @@ registered diagnostic in ARCHITECTURAL_ENDPOINTS; no actual full wall end accept
 Second-origin B-west plane-only transition completed/restored exactly. Native
 north boundary on/off samples both hit adjacent concrete Hull, not plaster Mesh;
 the .05 plane-tolerance crossing is diagnostic, not an actual Mesh endpoint.
-ONE ACTIVE pose controller: component-aware boundary_transitions_03/
-B_WEST_MESH_COMPONENT_TRANSITIONS_003_config.json, requiring Mesh on-plane.
-Inspect observations/status/restoration before starting second-origin004 or any
-other source input. Original plane-only reports remain preserved.
+Both component-aware boundary_transitions_03 reports003/004 completed/restored
+exactly:32 native observations each. North Mesh-to-Hull interval agrees around
+Y2704.864..2704.878; south exposed Mesh-to-recess aroundY2432.000..2432.013.
+ARCHITECTURAL_BOUNDARIES validates two origins, component identity, native pose/
+plane rounding and calibrated clean-image corner boxes. Exposed Z104 section
+length interval692.99703..693.15382cm accepted;322 physical features. Annotation
+rendered/inspected. No hidden/full-height body or ground footprint acceptance.
+
+ONE ACTIVE source controller: cs2_probe_endpoints.py with portal_edges_06/
+widths_config.json -> B_LOWER_STONE_CURVE_WIDTHS_006.json. Thirteen fresh
+B/Lower curve/near-apex chords; inspect status/material/repeats/restoration before
+another source input. Eight planned near-jamb columns remain unexecuted.
 
 B-wall calibration captures completed/restored exactly. Eight visually inspected
 fit markers and ten independent three-depth markers pass constrained native-pose
@@ -153,8 +161,8 @@ dates PASS. Two absent marks excluded without invented pixels. Overlapping first
 hold layout and rejected full11parameter matrix (held1.17809px) retained. Clean
 wall view and native corner crops inspected; structural boundary acceptance
 pending component-aware native verification. No full footprint or Gate1 PASS.
-Planned unexecuted portal_edges_06/widths_config.json selects13 curve/near-apex
-widths; columns_plan.json selects eight near-jamb floor/intrados columns.
+portal_edges_06/columns_plan.json selects eight near-jamb floor/intrados columns;
+never restart completed component reports or camera captures.
 
 Temporary engine_no_focus_sleep0(original20), m_yaw/m_pitch0(original.022).
 Movement released/maxspeed320/noclip1. Restore/read back temporary originals at

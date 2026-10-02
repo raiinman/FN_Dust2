@@ -1,0 +1,57 @@
+{
+  "source_build": "25640462",
+  "source_map": "de_dust2",
+  "status": "reviewed local section selections; continuous layered footprint incomplete",
+  "sections": [
+    {
+      "id": "B_WEST_EXPOSED_MESH_Z104_001",
+      "area": "B Site",
+      "scope": "exposed local collision-face section only",
+      "normal_axis": 0,
+      "plane_native": -2128.005,
+      "plane_rounding_native": 0.005,
+      "height_native": 104,
+      "transition_reports": [
+        "B_WEST_MESH_COMPONENT_TRANSITIONS_003",
+        "B_WEST_MESH_COMPONENT_TRANSITIONS_004"
+      ],
+      "camera_id": "B_WEST_FRONTAL_001",
+      "clean_image_path": "reference/images/crash_recovery/QA_BWEST_CAMERA_FIT_001_CLEAN.jpg",
+      "clean_jpeg_sha256": "47d5e7fe24d98a5c64deb052940131fb91185c1e8e37f202f93a3ece46e8785b",
+      "ends": [
+        {
+          "id": "south recess",
+          "bracket_id": "south_mesh_to_recess",
+          "off_surface_required": "shape type: Mesh,",
+          "off_plane_required": true
+        },
+        {
+          "id": "north stone joint",
+          "bracket_id": "north_mesh_to_hull_joint",
+          "off_surface_required": "shape type: Hull,"
+        }
+      ],
+      "rendered_corner_reviews": [
+        {
+          "end_id": "south recess",
+          "pixel": [
+            540,
+            359.5
+          ],
+          "pixel_radius": 1.5,
+          "review": "Native clean image and100x100 nearest-neighbor corner crop individually inspected: vertical exposed-plaster/recess break atx540; corner unobstructed atsectionheight."
+        },
+        {
+          "end_id": "north stone joint",
+          "pixel": [
+            940,
+            359.5
+          ],
+          "pixel_radius": 1.5,
+          "review": "Native clean image and100x100 nearest-neighbor corner crop individually inspected: plaster joins stepped stone return atx940; first-hit concrete Hull relief explicit."
+        }
+      ],
+      "limits": "The north side is an exposed Mesh-to-Hull join, not the outer end of a complete wall body. South returns to recessed west wall. Declared horizontal section only; no full-height extrapolation or hidden-floor polygon."
+    }
+  ]
+}
