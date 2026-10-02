@@ -202,3 +202,14 @@ points with material and exact ray-height layers. A repeated direction point is
 not a wall segment, floor boundary, full cover body or closed footprint. Preserve
 cross-area rays, cover hits and angular gaps; independent withheld checks and
 manual semantic review must precede any boundary interpretation.
+
+PLAN_SECTION_CHECKS.json owns hash-pinned baseline snapshots, midpoint chord
+predictions fixed before capture and fresh native check reports. Its derived
+CSV preserves every error/rejected chord. A successful local point check does
+not close an angular gap or bound unknown wall corners, portals or rendered
+offsets. Rebuild with build_plan_section_checks.py after reviewed additions.
+
+PLAN_SECTION_OPEN_RAYS.csv separately preserves explicitly configured repeated
+native no-hit directions. Open rays have no endpoint or measured distance and
+must never enter PLAN_SECTION_POINTS or a fitted boundary. Their native miss
+does not establish floor extent, absent player collision or a rendered edge.

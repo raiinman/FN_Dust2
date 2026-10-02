@@ -27,7 +27,7 @@ Raw/private sibling reference_cache/crash_recovery_survey and work/ preserved.
   2.54z), inverse/length/native-right checks pass. Phase2 exporter/editor roundtrip
   unverified. Unsaved Hammer128 cube is authored calibration, not production.
 - 13 repeated floor datums,54 Short stair floor points,54 Tunnel stair points,
-  323 connector floor/cover/cap points,263 calibrated feature measurements.
+  329 connector floor/cover/cap points,266 calibrated feature measurements.
   ARCHITECTURAL_SECTIONS/ARCHITECTURAL_SURVEY_PLAN derive106 local chords;
   they cross space and never become wall outlines or floor-story acceptance.
 - Short12 rendered/native risers, nonuniform individual center sections;
@@ -184,24 +184,47 @@ worker Python34036/socket57046 verified, fresh exact echo and source pose
 work. Old aperture16-column and section controllers all ended/restored. No
 duplicate worker started. GitHub main was4d975a3 at resume, no remote divergence.
 
-ONE current pose controller: native midpoint checks CT_SPAWN_checks_001.json,
-private plan_section_checks_01. B Site32 checks completed/restored:22 candidate chords failed .1native local
-agreement, maximum475.110cm; ten agree only at checked points. Predictions were
-fixed before capture in validation_plan. CT Spawn active; Upper32 unexecuted. Inspect status/process before
-resuming; each endpoint helper restores original B mouth source pose. Do not
-change UI focus or overlap another pose/input controller.
+All96 midpoint checks completed/restored. Candidate chords rejected22/32 B,
+28/32 CT Spawn,24/32 Upper: max475.110/618.177/2335.701cm.
+PLAN_SECTION_CHECKS preserves fixed predictions and every independent error;
+no outline accepted. Aperture clean capture helpers completed/restored overlay
+visible and source pose. Three individually inspected clean JPEGs registered:
+226 images, all226 hashes/native dates pass. Original marker frames retained
+as nonselected clean attempts. Six B-step offsets completed/restored: Y1814/
+1815Z24.03;Y1817/1818Z16.03; X1982/1986Y1816Z.01. Horizontal face atY1816.03
+places the anomalous line .03native outside upper tread. Preserve diagnostic
+Mesh first hit; no minimum full-flight width/ground continuum inferred.
+
+TSpawn open-aware32 survey completed/restored, live verifying explicit branch:
+30 repeated hits and two repeated misses(east0/west180).18 reports total,
+574 first-hit directions plus2 open directions; point-only figure rebuilt,
+rendered/inspected. Native misses have no endpoints and prove no playerclip or
+floor extent. Full raw semantic evidence/no-hit CSV preserved.
+
+B exit lateral face checks complete: atX-2008/-1984/-1960 all four faceY
+1840.03/1828.03/1816.03/1804.03 agree exactly across48native band. Outside-origin
+side attempt failed at eastX-1800Y1834eye4 inside dirt Hull; own-origin rejected,
+west repeated concrete sideX-2084.03 preserved without paired width acceptance.
+Original failed status, unexecuted remaining sides and verified restore retained.
+ONE current pose controller: b_exit_structure_03/plan.json four ground columns,
+run_planned_columns_01 serial wrapper. Inspect reports/driver before resume.
+After its end,85 route floors are unexecuted and ready for serial wrapper.
+
+Current266 physical measurements/329 connector points. Three B exit inter-tread
+point-pair rises accepted20.32cm each; lower ground transition, full step sides
+and terminal extent remain separate. Clean Lower/B arch details registered226
+JPEGs, all226 hashes/native dates PASS. No full aperture/curve accepted.
 
 Private route_floor_profiles_01/plan.json has85 unexecuted repeated floor-only
 probes on13 accepted walking paths. Feet only select probe origin, never supply
 floor elevation. Private run_planned_columns_01.py serially runs reports and
 finally verifies original source restore; refuses existing files/recovery.
-remaining_apertures_01 planned three detail captures remain unexecuted. Its
-16 columns are complete and registered; do not repeat them. B exit Y1816 offset
-checks/riser faces, Lower arch lateral chords and B timber component identity
-remain pending. New optional allow_open_rays branch is unexecuted/unverified;
+remaining_apertures_01 three detail capture targets now have clean reviewed companions. Its
+16 columns are complete and registered; do not repeat them. B exit lower-ground/side extent, Lower arch lateral chords and B timber component identity
+remain pending. New optional allow_open_rays branch is live-verified;
 default failure diagnostics live-tested. Never give missing rays endpoints.
 
 Gate1 FAIL: full critical aperture/body, room/route/cover spans, Tunnel terminal/
 side bounds, ramp/site endpoints, continuous calibrated layered footprint and
-bounded source uncertainty remain required. Image count223/hash audit unchanged;
+bounded source uncertainty remain required. Image count226/hash audit passes;
 listed topology PASS unchanged. Phase2 production has not started.

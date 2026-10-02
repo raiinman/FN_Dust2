@@ -27367,6 +27367,241 @@
           "notes": "Repeated local floor-to-concrete Hull intrados at Lower Mid-side planeX-520. Stone first overhead differs from passage timber roof. Three transverse samples do not locate exact apex/jamb ends or certify full fitted curve, depth or rendered offset; complementary detail images pending."
         }
       ]
+    },
+    {
+      "id": "B_EXIT_RISER_FACES_002",
+      "source_build": "25640462",
+      "area": "B tunnel entrance four visible step riser candidate faces",
+      "source_map": "de_dust2",
+      "timestamp_utc": "2026-10-02T09:17:26.173964+00:00",
+      "unit": "source_units",
+      "config": {
+        "id": "B_EXIT_RISER_FACES_002",
+        "build": "25640462",
+        "area": "B tunnel entrance four visible step riser candidate faces",
+        "stations": [
+          {
+            "id": "B_EXIT_FACE_EYE4",
+            "pose": [
+              -1984,
+              1870,
+              -60
+            ],
+            "yaws": [
+              -90
+            ]
+          },
+          {
+            "id": "B_EXIT_FACE_EYE12",
+            "pose": [
+              -1984,
+              1870,
+              -52
+            ],
+            "yaws": [
+              -90
+            ]
+          },
+          {
+            "id": "B_EXIT_FACE_EYE20",
+            "pose": [
+              -1984,
+              1870,
+              -44
+            ],
+            "yaws": [
+              -90
+            ]
+          },
+          {
+            "id": "B_EXIT_FACE_EYE28",
+            "pose": [
+              -1984,
+              1870,
+              -36
+            ],
+            "yaws": [
+              -90
+            ]
+          }
+        ],
+        "scope": "Horizontal rays at four independently sampled tread-height intervals; repeat concrete first face and floor counterparts separately. No count/side/whole-flight acceptance from configuration."
+      },
+      "observations": [
+        {
+          "station_id": "B_EXIT_FACE_EYE4",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1870.000000 -60.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1870,
+            4
+          ],
+          "hit": [
+            -1984.0,
+            1840.03,
+            4.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  29.97 inches (  2.50 feet)"
+        },
+        {
+          "station_id": "B_EXIT_FACE_EYE4",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1870.000000 -60.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1870,
+            4
+          ],
+          "hit": [
+            -1984.0,
+            1840.03,
+            4.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  29.97 inches (  2.50 feet)"
+        },
+        {
+          "station_id": "B_EXIT_FACE_EYE12",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1870.000000 -52.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1870,
+            12
+          ],
+          "hit": [
+            -1984.0,
+            1828.03,
+            12.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  41.97 inches (  3.50 feet)"
+        },
+        {
+          "station_id": "B_EXIT_FACE_EYE12",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1870.000000 -52.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1870,
+            12
+          ],
+          "hit": [
+            -1984.0,
+            1828.03,
+            12.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  41.97 inches (  3.50 feet)"
+        },
+        {
+          "station_id": "B_EXIT_FACE_EYE20",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1870.000000 -44.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1870,
+            20
+          ],
+          "hit": [
+            -1984.0,
+            1816.03,
+            20.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  53.97 inches (  4.50 feet)"
+        },
+        {
+          "station_id": "B_EXIT_FACE_EYE20",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1870.000000 -44.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1870,
+            20
+          ],
+          "hit": [
+            -1984.0,
+            1816.03,
+            20.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  53.97 inches (  4.50 feet)"
+        },
+        {
+          "station_id": "B_EXIT_FACE_EYE28",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact -1984.000000 1870.000000 -36.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1870,
+            28
+          ],
+          "hit": [
+            -1984.0,
+            1804.03,
+            28.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  65.97 inches (  5.50 feet)"
+        },
+        {
+          "station_id": "B_EXIT_FACE_EYE28",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact -1984.000000 1870.000000 -36.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            -1984,
+            1870,
+            28
+          ],
+          "hit": [
+            -1984.0,
+            1804.03,
+            28.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  65.97 inches (  5.50 feet)"
+        }
+      ],
+      "status": "complete; architectural interpretation pending",
+      "original_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\b_exit_checks_02\\B_EXIT_RISER_FACES_002.json",
+      "review": "Four repeated concrete Hull vertical first-face positions at eyeZ4/12/20/28: Y1840.03/1828.03/1816.03/1804.03. Full outside image shows four principal rendered steps. Native faces corroborate count and center face spacing, not entire lateral planes or lower pavement height. Independent lateral face/side/ground checks pending."
     }
   ],
   "rejected_attempts": [

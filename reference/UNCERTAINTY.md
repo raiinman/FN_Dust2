@@ -169,3 +169,6 @@ no-hit attempts retain exact miss/echo and restoration; no endpoint inferred.
 Point-only layered map rendered/inspected. Fresh B Site midpoint checks active;
 other planned midpoint/floor/detail batches unexecuted. Complete footprint and
 critical dimensional/uncertainty acceptance remain FAIL; Phase2 not started.
+
+
+18 horizontal-section reports preserve574 repeated first-hit directions and2 repeated native no-hit directions; no closed outline accepted.96 fresh midpoint checks reject74 candidate chords; every failure remains explicit. Three clean arch JPEGs individually inspected/registered bring226 images, all hashes/native dates PASS.266 calibrated feature measurements and329 connector points; three B exit inter-tread rises20.32cm each, four center faces independently match two lateral positions. Failed east side own-origin dirt hit rejected/restored; west concrete side point retained without full-width claim. Lower ground/full sides/terminal extent still pending; Gate1 FAIL.

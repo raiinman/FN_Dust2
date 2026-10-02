@@ -7,9 +7,9 @@ Source: installed CS2 build25640462, de_dust2. GitHub main is durable authority.
 | --- | --- | --- |
 | Provenance and current revision | REFERENCE_MANIFEST.csv; native poses/hashes and build25640462 | PASS for reviewed captured batches |
 | Physical scale and coordinate convention | SCALE_CALIBRATION.json; COORDINATE_TRANSFORM.json | PASS for current-build factor2.54 and reversible UE=(2.54x,-2.54y,2.54z); Phase2 exporter/import validation pending |
-| Every critical area forward/reverse/side/elevation coverage | 223 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | PASS: sixteen critical-area sets and eleven subarea sets accepted; structural metric and traversal remain separate |
+| Every critical area forward/reverse/side/elevation coverage | 226 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | PASS: sixteen critical-area sets and eleven subarea sets accepted; structural metric and traversal remain separate |
 | Unambiguous validated topology | ROUTE_GRAPH.md; TOPOLOGY.json; WALK_PROBES.json; TRAVERSAL_PROBES.json; TOPOLOGY_AUDIT.json | PASS for listed surveyed connections:24 ground paths both directions; B Window both; S01 both, S02/S03 reciprocal routes, S04 partner forward/reverse. E11/E27 direct forward twice, unsupported reverse at surveyed crossing blocked twice, indirect walking returns both. Alternative launches/partners and geometric bounds remain separate |
-| Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; TUNNEL_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 247 calibrated feature measurements;54 Short and54 Tunnel floor samples; full critical register incomplete |
+| Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; TUNNEL_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 266 calibrated feature measurements;54 Short and54 Tunnel floor samples; full critical register incomplete |
 | Calibrated annotated whole-map truth | RADAR_CALIBRATION.json; MAP_CAMERA_CALIBRATION.json; RADAR_PLAN.svg; MAP_CAMERA_PLAN.svg | FAIL: calibrated native camera, physical grid, floors and paths; continuous architectural boundaries and overlapping elevation layers incomplete |
 | Bounded remaining uncertainty | UNCERTAINTY.md; SURVEY_TASKS.csv | FAIL: unresolved critical extents, full apertures/cover dimensions, stairs and render/collision bounds |
 
@@ -211,3 +211,14 @@ no-hit attempts retain exact miss/echo and restoration; no endpoint inferred.
 Point-only layered map rendered/inspected. Fresh B Site midpoint checks active;
 other planned midpoint/floor/detail batches unexecuted. Complete footprint and
 critical dimensional/uncertainty acceptance remain FAIL; Phase2 not started.
+
+
+96 fresh angular midpoint checks completed/restored:22/32 B Site,28/32 CT Spawn
+and24/32 Upper chamber candidate chords rejected at .1native diagnostic
+agreement. Maximum errors475.110/618.177/2335.701cm respectively. Failed
+chords cross different returns, cover, portals or nonlinear surfaces and remain
+explicit in PLAN_SECTION_CHECKS; even successful checks are point evidence.
+No continuous outline accepted. Gate1 remains FAIL.
+
+
+18 horizontal-section reports preserve574 repeated first-hit directions and2 repeated native no-hit directions; no closed outline accepted.96 fresh midpoint checks reject74 candidate chords; every failure remains explicit. Three clean arch JPEGs individually inspected/registered bring226 images, all hashes/native dates PASS.266 calibrated feature measurements and329 connector points; three B exit inter-tread rises20.32cm each, four center faces independently match two lateral positions. Failed east side own-origin dirt hit rejected/restored; west concrete side point retained without full-width claim. Lower ground/full sides/terminal extent still pending; Gate1 FAIL.

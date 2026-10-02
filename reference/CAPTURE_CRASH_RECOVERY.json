@@ -4512,6 +4512,87 @@
       "jpeg_sha256": "5e65ebcfef889e774aec9803053d2cfbd834685f2feee603663a4976a1cbc68c",
       "fov_cs_debug_parameter": 90,
       "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_LOWER_ARCH_INSIDE_DETAIL_002",
+      "timestamp_utc": "2026-10-02T09:18:57.963452+00:00",
+      "engine_capture_basename": "d2_2ac3dcd4aa",
+      "pose_command": "setpos_exact -900.000000 1450.000000 -60.000000;setang_exact 0.000000 0.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -900.0,
+        1450.0,
+        -60.0,
+        0.0,
+        0.0
+      ],
+      "tga_sha256": "aae422bac1405124cad7125e6d1be1844afa59e321dc72277fd5cbb703cae3f3",
+      "png_sha256": "8dc6d624207917c02c08b7fd3bbb493d89f0c1b7bd88f96ad03fa76713e2f31e",
+      "status": "visually inspected; usable stated-direction reference",
+      "area": "Lower Tunnels",
+      "review": "Clean full-resolution view frames complete Mid-side intrados, both jambs and threshold. Timber roof and separate right cover contextual; crate beyond portal obscures far Mid space, not target opening. No uncalibrated pixel measurements or entire room bounds.",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "repository_image_path": "reference/images/lower_tunnels/QA_LOWER_ARCH_INSIDE_DETAIL_002.jpg",
+      "jpeg_sha256": "f999e2ddf6a1c43145bfbd703117c84cfb3d6f1a0c7c62afb5da10f4d4c36f37",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_LOWER_ARCH_OUTSIDE_DETAIL_002",
+      "timestamp_utc": "2026-10-02T09:19:08.505215+00:00",
+      "engine_capture_basename": "d2_12f0da2da5",
+      "pose_command": "setpos_exact -360.000000 1150.000000 -70.000000;setang_exact 0.000000 119.999878 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -360.0,
+        1150.0,
+        -70.0,
+        0.0,
+        120.0
+      ],
+      "tga_sha256": "495425e0f6ddc146d357b36988927897d0987da973478571d4fd850d835ee440",
+      "png_sha256": "85549b891d8de396e0e02d2007e36f6cf00638ec16ed5b01db29317c8ac6aa4b",
+      "status": "visually inspected; usable stated-direction reference",
+      "area": "Lower Tunnels",
+      "review": "Clean full-resolution oblique Mid-side view frames entire stone opening and threshold. Mid Doors and foreground crate contextual; foreshortening prevents optical width/height claims without new camera calibration. Target arch unobstructed.",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "repository_image_path": "reference/images/lower_tunnels/QA_LOWER_ARCH_OUTSIDE_DETAIL_002.jpg",
+      "jpeg_sha256": "ff00e5b17c89984b6bfc813c51c3c656977b89e8d32f7be3d38a24bac1b7c48e",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_B_TUNNEL_MOUTH_INSIDE_003",
+      "timestamp_utc": "2026-10-02T09:19:18.861381+00:00",
+      "engine_capture_basename": "d2_42f60054cf",
+      "pose_command": "setpos_exact -1984.000000 1500.000000 50.000000;setang_exact 0.000000 90.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -1984.0,
+        1500.0,
+        50.0,
+        0.0,
+        90.0
+      ],
+      "tga_sha256": "a4ada8d3afb19a834bf5722c68ae5e250b7fe62debcad133da9d31a5944d7771",
+      "png_sha256": "321636f60dfa311b613c8c0f96ec4cb728a362c52302038a67fc5586b7b80bb9",
+      "status": "visually inspected; usable stated-direction reference",
+      "area": "B Tunnel Exit",
+      "review": "Clean full-resolution inside view now frames full arch/apex, jambs and passage floor. Complements full outside arch/step view; further-back pose fixes earlier clipped apex. Exterior cover does not obscure target. Full curve/depth/step sides remain metric work.",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "repository_image_path": "reference/images/b_tunnel_exit/QA_B_TUNNEL_MOUTH_INSIDE_003.jpg",
+      "jpeg_sha256": "137b412dbce9b99e2a1a8adc20f4536ea4b3126934f50e531c8b3c6c8ca5e4a2",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
     }
   ],
   "rejected_attempts": [
@@ -5310,6 +5391,66 @@
       "png_sha256": "8704730e398c16ecc2085b5564517bdbcccccbe12d2ad5a578641a95bebdbb2c",
       "status": "rejected clipped aperture",
       "reason": "Stone aperture apex clipped by top frame; rejected as complete arch reference. Raw pose/hash/TGA/PNG preserved."
+    },
+    {
+      "id": "QA_LOWER_ARCH_INSIDE_DETAIL_001",
+      "timestamp_utc": "2026-10-02T09:16:36.329789+00:00",
+      "engine_capture_basename": "d2_6739a58881",
+      "pose_command": "setpos_exact -900.000000 1450.000000 -60.000000;setang_exact 0.000000 0.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -900.0,
+        1450.0,
+        -60.0,
+        0.0,
+        0.0
+      ],
+      "tga_sha256": "0fd426a1e2d15a8f7c457ad14923cd7a30f967a7a61379e82c102d44a0f1764f",
+      "png_sha256": "bafe106066fb1cf10728a5d062d7ca7711dc34b8bf195044dccf1a08a8ba130f",
+      "status": "not selected as clean reference; native probe overlays visible",
+      "review": "Complete target framed but small native probe markers visible on wall. Original TGA/PNG/pose/hashes preserved privately; clean separately named companion selected. No raw overwrites."
+    },
+    {
+      "id": "QA_LOWER_ARCH_OUTSIDE_DETAIL_001",
+      "timestamp_utc": "2026-10-02T09:16:46.654191+00:00",
+      "engine_capture_basename": "d2_fe8987a78d",
+      "pose_command": "setpos_exact -360.000000 1150.000000 -70.000000;setang_exact 0.000000 119.999878 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -360.0,
+        1150.0,
+        -70.0,
+        0.0,
+        120.0
+      ],
+      "tga_sha256": "9fad22b73d06e3b24bc8621bbe02a6dd424991863050d34cb3c99bea35b924c9",
+      "png_sha256": "768dc6422b968aa385fd2e39ebe8e81f4c302d0a1b18b1c60dcbab82d74cb833",
+      "status": "not selected as clean reference; native probe overlays visible",
+      "review": "Complete target framed but small native probe markers visible on wall. Original TGA/PNG/pose/hashes preserved privately; clean separately named companion selected. No raw overwrites."
+    },
+    {
+      "id": "QA_B_TUNNEL_MOUTH_INSIDE_002",
+      "timestamp_utc": "2026-10-02T09:16:57.320827+00:00",
+      "engine_capture_basename": "d2_bc774b331e",
+      "pose_command": "setpos_exact -1984.000000 1500.000000 50.000000;setang_exact 0.000000 90.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -1984.0,
+        1500.0,
+        50.0,
+        0.0,
+        90.0
+      ],
+      "tga_sha256": "492576249e2971d8bb15fb178b707f7e06a4ee214ffedc8bf4cf2d83fb75e839",
+      "png_sha256": "0226b3e27e8d206c1de2573494e31111c8d89c6f7dd87d80de6a7aa90506ae57",
+      "status": "not selected as clean reference; native probe overlays visible",
+      "review": "Complete target framed but small native probe markers visible on wall. Original TGA/PNG/pose/hashes preserved privately; clean separately named companion selected. No raw overwrites."
     }
   ],
   "gate_1": "FAIL",

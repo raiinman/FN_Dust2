@@ -5,12 +5,18 @@ from html import escape
 
 def build(root):
  ref=root/'reference';data=json.loads((ref/'PLAN_SECTION_SWEEPS.json').read_text());factor=json.loads((ref/'SCALE_CALIBRATION.json').read_text())['cm_per_source_unit'];assert factor==2.54
- rows=[]
+ rows=[];open_rows=[]
  for report in data['reports']:
   assert report['status'].startswith('complete') and max(report['restore_numeric_errors'])<=.01
   for station in report['config']['stations']:
    for yaw in station['yaws']:
     obs=[o for o in report['observations'] if o['station_id']==station['id'] and o['yaw']==yaw]
+    opened=[o for o in report.get('open_observations',[]) if o['station_id']==station['id'] and o['yaw']==yaw]
+    if opened:
+     assert report['config'].get('allow_open_rays') and not obs and len(opened)==2 and {o['repeat'] for o in opened}=={1,2}
+     assert all(o['semantic_reply']==["Rangefinder didn't hit anything"] and o['eye_origin']==[station['pose'][0],station['pose'][1],station['pose'][2]+64] for o in opened)
+     open_rows.append(dict(report=report['id'],area=report['area'],station=station['id'],yaw=yaw,eye_origin_native=str(opened[0]['eye_origin']),semantic_reply="Rangefinder didn't hit anything",limits='No endpoint/distance; does not prove absent player collision, floor extent or rendered boundary'))
+     continue
     assert len(obs)==2 and obs[0]['hit']==obs[1]['hit'] and obs[0]['surface']==obs[1]['surface']
     o=obs[0];distance=math.dist(o['eye_origin'],o['hit']);assert distance>.1
     for v in obs:
@@ -20,6 +26,8 @@ def build(root):
     rows.append(dict(report=report['id'],area=report['area'],station=station['id'],yaw=yaw,x_native=x,y_native=y,z_native=z,x_cm=round(x*factor,4),y_cm=round(y*factor,4),z_cm=round(z*factor,4),distance_cm=round(distance*factor,4),surface=material,confidence='confirmed repeated first-hit point',limits=report['review']))
  assert rows and len({(r['report'],r['station'],r['yaw']) for r in rows})==len(rows)
  with (ref/'PLAN_SECTION_POINTS.csv').open('w',newline='') as f:w=csv.DictWriter(f,fieldnames=rows[0]);w.writeheader();w.writerows(rows)
+ if open_rows:
+  with (ref/'PLAN_SECTION_OPEN_RAYS.csv').open('w',newline='') as f:w=csv.DictWriter(f,fieldnames=open_rows[0]);w.writeheader();w.writerows(open_rows)
  parts=['<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200">','<rect width="1600" height="1200" fill="#101923"/>','<g fill="#edf3f8" font-family="Arial"><text x="40" y="38" font-size="25">Dust II — native horizontal first-hit sections</text><text x="40" y="68" font-size="17">Build25640462 · 2.54cm/native · source X right / Y up · repeated endpoint evidence</text><text x="40" y="96" font-size="16">No lines join neighboring rays: angular gaps, cover occlusion and portals remain unsurveyed.</text></g>']
  # Fixed full-map axes preserve relative position across floor layers.
  scale=.145
@@ -41,7 +49,9 @@ def build(root):
     if (z>=0)!=bool(layer):continue
     u,v=xy(x,y,layer);label=escape(report['area']);parts.append(f'<circle cx="{u}" cy="{v}" r="4" fill="#edf3f8"/><text x="{u+7}" y="{v-7}" fill="#edf3f8" font-family="Arial" font-size="12">{label} · Z{z*factor/100:+.3f}m</text>')
  parts.append(f'<g fill="#edf3f8" font-family="Arial" font-size="16"><text x="45" y="925">{len(rows)} distinct direction points, each repeated twice with native rangefinder crosscheck.</text><text x="45" y="955">Cyan: concrete surface. Gold: other material (often cover); color alone never assigns architectural identity.</text><text x="45" y="985">Z is the exact horizontal collision section, not a floor elevation or full-height wall.</text><text x="45" y="1015">Every point retains pose, surface/shape/face, repetitions and source-build identity in PLAN_SECTION_SWEEPS.</text><text x="45" y="1045">Output rounding ≤.0508cm per span; angular gaps/render-to-collision offsets are NOT bounded by that rounding.</text><text x="45" y="1075">Gate1 FAIL: wall/corner interpretation, independent withheld checks and continuous layered footprint remain pending.</text></g></svg>')
+ if open_rows:
+  parts[-1]=parts[-1].replace('</svg>',f'<text x="45" y="1115" fill="#f0b64c" font-family="Arial" font-size="16">{len(open_rows)} repeated native no-hit directions separately recorded in PLAN_SECTION_OPEN_RAYS; no endpoint/distance.</text><text x="45" y="1145" fill="#f0b64c" font-family="Arial" font-size="16">Native ray misses do not prove absent player collision, floor extent or rendered boundaries.</text></svg>')
  (ref/'PLAN_SECTION_SWEEPS.svg').write_text('\n'.join(parts)+'\n')
- print(f'{len(rows)} repeated native section points; no inferred edges or footprint acceptance')
+ print(f'{len(rows)} repeated native section points;{len(open_rows)} no-hit directions; no inferred edges or footprint acceptance')
 
 if __name__=='__main__':build(Path(__file__).resolve().parent.parent)
