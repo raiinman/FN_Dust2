@@ -368,3 +368,13 @@ Y[1791.59,1792.01], Z[158.9957,160.9252] using observed front relief and1.5px
 selection bounds. Local corner only; exact bevel intersection, vertical extent,
 complete B ground/platform/cover bounds remain open. Annotation rendered/inspected;
 13 existing stone intrados projections retain collision-depth/render-offset limits.
+
+B central platform: nine new repeated corrected down-hit points, eight concrete/
+gravel Mesh ground and one Wood_Plank Hull top at[-1850,2400,102.54]. Ground
+samples varyZ5.21..33.61; no uniform slab accepted. TwoX-1700 toX-2000 point-pair
+rises atY2500/2600 are51.7398/56.6420cm, not exact retaining heights or continuous
+slopes. Native/JPEG overhead context individually inspected at actualpitch89
+(requested90 clamped; guard failure and exact all0 restoration preserved).
+Numeric point plan rebuilt/rendered/inspected.384 bounded measurements/443
+connector points/256 reviewed JPEG hashes/native dates PASS. Platform/cover
+perimeters, contact heights and whole-map architecture remain unresolved.

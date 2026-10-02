@@ -414,3 +414,9 @@ checked camera/image hashes; rebuild/render/inspect. Classifier thresholds are
 diagnostics, never the architectural corner. Local pixel/depth bounds grant no
 full-height extrusion or whole-site footprint; stone sample projections retain
 their separate collision depth and rendered-offset limits.
+
+build_b_platform_samples.py derives B_SITE_SURFACE_SAMPLES.svg from explicitly
+reviewed connector b_platform_column_review cases. Rebuild/render/inspect.
+Keep Wood_Plank cover top separate from concrete/gravel ground; show native XY
+and sourceZ0 elevations, never infer full perimeter, uniform floor or exact
+cover/retaining height from different XY points. Context image is not calibration.

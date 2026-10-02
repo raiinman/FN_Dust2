@@ -6593,6 +6593,33 @@
       "jpeg_sha256": "b3dca994440ae387feadbc76d0ed495ffcafd884c1c1513be2248e54f9e666b3",
       "fov_cs_debug_parameter": 90,
       "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_B_PLATFORM_OVERHEAD_CONTEXT_001",
+      "timestamp_utc": "2026-10-02T16:23:42.073742+00:00",
+      "engine_capture_basename": "d2_36c9dade08",
+      "pose_command": "setpos_exact -1764.000000 2500.000000 600.000000;setang_exact 89.000000 0.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -1764.0,
+        2500.0,
+        600.0,
+        90.0,
+        0.0
+      ],
+      "tga_sha256": "435bed5bcef0272ab5ba6a2d0391d9f1739956c2319234aaf7b268656582fde0",
+      "png_sha256": "b5b41f4c835c1ede3287b65d6c2142b19e62e04a0adf0cfc733a455e0a6e6e02",
+      "status": "visually inspected; usable stated-direction reference",
+      "area": "B Site",
+      "review": "Native1280x720 frame individually inspected; JPEG individually inspected and accepted. Raised central cobbled platform, low retaining strips, wooden crate/covered masses and lower courtyard are clear. Outer surroundings/whole courtyard beyond frame; shadows and cover obscure local ground. Requestedpitch90 clamped to actual89 as recorded; driver pose guard stopped after capture and exact saved B-mouth/overlay restoration verified. Frame accepted for component context only at actual native pose; no checked camera transfer or pixel-derived dimensions.",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "repository_image_path": "reference/images/b_site/QA_B_PLATFORM_OVERHEAD_CONTEXT_001.jpg",
+      "jpeg_sha256": "e735b79681a46596b88c4f6457c1711c1c38e6441e0c9d2568d87d2e2c9b5c1f",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
     }
   ],
   "rejected_attempts": [

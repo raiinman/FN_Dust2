@@ -32638,6 +32638,690 @@
       "id": "XBOX_EAST_JOINT_X250_Y1450_005",
       "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\xbox_joint_05\\XBOX_EAST_JOINT_X250_Y1450_005.json",
       "surface_semantics": "Reviewed repeated first Rock Hull support at Xbox east join to Catwalk raised masonry. This is adjacent cap support, not bare ground, plastic cover or hidden bbox. Exact corrected point and shape/material retained; finite samples do not certify constant cap height, complete joint or rendered offset."
+    },
+    {
+      "timestamp_utc": "2026-10-02T16:21:22.858974+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Site",
+      "unit": "source_units",
+      "target_xy": [
+        -2000.0,
+        2400.0
+      ],
+      "probe_player_z": 320.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -2063.990234 2400.000000 320.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1994.59,
+            2400.0,
+            11.27
+          ],
+          "xy_error": 5.410000000000082,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop gravel, contents 400004c1, shape type: Mesh, face: 98250"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -2069.400146 2400.000000 320.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -2000.0,
+            2400.0,
+            10.94
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop gravel, contents 400004c1, shape type: Mesh, face: 98250"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -2069.400146 2400.000000 320.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -2000.0,
+            2400.0,
+            10.94
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop gravel, contents 400004c1, shape type: Mesh, face: 98250"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -2000.0,
+          2400.0,
+          10.94
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_PLATFORM_X2000_Y2400_001",
+      "source_requested_area": "B Site central raised-ground/cover first-down-hit diagnostic",
+      "surface_semantics": "First-down concrete/gravel Mesh courtyard or raised masonry surface; repeated selected ground point, not uniform platform or continuous floor.",
+      "private_filename": "..\\reference_cache\\crash_recovery_survey\\b_platform_columns_01\\B_PLATFORM_X2000_Y2400_001.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T16:21:31.916417+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Site",
+      "unit": "source_units",
+      "target_xy": [
+        -2000.0,
+        2500.0
+      ],
+      "probe_player_z": 320.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -2063.990234 2500.000000 320.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1994.89,
+            2500.0,
+            28.21
+          ],
+          "xy_error": 5.1099999999999,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 98421"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -2069.100342 2500.000000 320.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -2000.01,
+            2500.0,
+            29.14
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 98421"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -2069.100342 2500.000000 320.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -2000.01,
+            2500.0,
+            29.14
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 98421"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -2000.01,
+          2500.0,
+          29.14
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_PLATFORM_X2000_Y2500_001",
+      "source_requested_area": "B Site central raised-ground/cover first-down-hit diagnostic",
+      "surface_semantics": "First-down concrete/gravel Mesh courtyard or raised masonry surface; repeated selected ground point, not uniform platform or continuous floor.",
+      "private_filename": "..\\reference_cache\\crash_recovery_survey\\b_platform_columns_01\\B_PLATFORM_X2000_Y2500_001.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T16:21:41.363403+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Site",
+      "unit": "source_units",
+      "target_xy": [
+        -2000.0,
+        2600.0
+      ],
+      "probe_player_z": 320.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -2063.990234 2600.000000 320.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1994.9,
+            2600.0,
+            29.0
+          ],
+          "xy_error": 5.099999999999909,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 98427"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -2069.090332 2600.000000 320.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -2000.0,
+            2600.0,
+            29.08
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 98427"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -2069.090332 2600.000000 320.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -2000.0,
+            2600.0,
+            29.08
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 98427"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -2000.0,
+          2600.0,
+          29.08
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_PLATFORM_X2000_Y2600_001",
+      "source_requested_area": "B Site central raised-ground/cover first-down-hit diagnostic",
+      "surface_semantics": "First-down concrete/gravel Mesh courtyard or raised masonry surface; repeated selected ground point, not uniform platform or continuous floor.",
+      "private_filename": "..\\reference_cache\\crash_recovery_survey\\b_platform_columns_01\\B_PLATFORM_X2000_Y2600_001.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T16:21:51.018584+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Site",
+      "unit": "source_units",
+      "target_xy": [
+        -1850.0,
+        2400.0
+      ],
+      "probe_player_z": 320.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1913.990234 2400.000000 320.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1846.18,
+            2400.0,
+            102.57
+          ],
+          "xy_error": 3.8199999999999363,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1917.810303 2400.000000 320.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1850.0,
+            2400.0,
+            102.54
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1917.810303 2400.000000 320.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1850.0,
+            2400.0,
+            102.54
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1850.0,
+          2400.0,
+          102.54
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_PLATFORM_X1850_Y2400_001",
+      "source_requested_area": "B Site central raised-ground/cover first-down-hit diagnostic",
+      "surface_semantics": "First-down Wood_Plank Hull on covered mass; top point only, not ground or complete cover height/body.",
+      "private_filename": "..\\reference_cache\\crash_recovery_survey\\b_platform_columns_01\\B_PLATFORM_X1850_Y2400_001.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T16:21:59.974521+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Site",
+      "unit": "source_units",
+      "target_xy": [
+        -1850.0,
+        2500.0
+      ],
+      "probe_player_z": 320.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1913.990234 2500.000000 320.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1844.9,
+            2500.0,
+            29.11
+          ],
+          "xy_error": 5.099999999999909,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 98720"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1919.090210 2500.000000 320.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1849.99,
+            2500.0,
+            28.57
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 98720"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1919.090210 2500.000000 320.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1849.99,
+            2500.0,
+            28.57
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 98720"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1849.99,
+          2500.0,
+          28.57
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_PLATFORM_X1850_Y2500_001",
+      "source_requested_area": "B Site central raised-ground/cover first-down-hit diagnostic",
+      "surface_semantics": "First-down concrete/gravel Mesh courtyard or raised masonry surface; repeated selected ground point, not uniform platform or continuous floor.",
+      "private_filename": "..\\reference_cache\\crash_recovery_survey\\b_platform_columns_01\\B_PLATFORM_X1850_Y2500_001.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T16:22:08.923823+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Site",
+      "unit": "source_units",
+      "target_xy": [
+        -1850.0,
+        2600.0
+      ],
+      "probe_player_z": 320.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1913.990234 2600.000000 320.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1844.98,
+            2600.0,
+            33.41
+          ],
+          "xy_error": 5.019999999999982,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 98729"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1919.010254 2600.000000 320.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1850.0,
+            2600.0,
+            33.61
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 98729"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1919.010254 2600.000000 320.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1850.0,
+            2600.0,
+            33.61
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 98729"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1850.0,
+          2600.0,
+          33.61
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_PLATFORM_X1850_Y2600_001",
+      "source_requested_area": "B Site central raised-ground/cover first-down-hit diagnostic",
+      "surface_semantics": "First-down concrete/gravel Mesh courtyard or raised masonry surface; repeated selected ground point, not uniform platform or continuous floor.",
+      "private_filename": "..\\reference_cache\\crash_recovery_survey\\b_platform_columns_01\\B_PLATFORM_X1850_Y2600_001.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T16:22:18.484519+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Site",
+      "unit": "source_units",
+      "target_xy": [
+        -1700.0,
+        2400.0
+      ],
+      "probe_player_z": 320.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1763.990234 2400.000000 320.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1694.49,
+            2400.0,
+            5.24
+          ],
+          "xy_error": 5.509999999999991,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop gravel, contents 400004c1, shape type: Mesh, face: 98834"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1769.500244 2400.000000 320.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1700.0,
+            2400.0,
+            5.21
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop gravel, contents 400004c1, shape type: Mesh, face: 98834"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1769.500244 2400.000000 320.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1700.0,
+            2400.0,
+            5.21
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop gravel, contents 400004c1, shape type: Mesh, face: 98834"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1700.0,
+          2400.0,
+          5.21
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_PLATFORM_X1700_Y2400_001",
+      "source_requested_area": "B Site central raised-ground/cover first-down-hit diagnostic",
+      "surface_semantics": "First-down concrete/gravel Mesh courtyard or raised masonry surface; repeated selected ground point, not uniform platform or continuous floor.",
+      "private_filename": "..\\reference_cache\\crash_recovery_survey\\b_platform_columns_01\\B_PLATFORM_X1700_Y2400_001.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T16:22:28.041964+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Site",
+      "unit": "source_units",
+      "target_xy": [
+        -1700.0,
+        2500.0
+      ],
+      "probe_player_z": 320.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1763.990234 2500.000000 320.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1694.54,
+            2500.0,
+            8.39
+          ],
+          "xy_error": 5.460000000000036,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 98845"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1769.450195 2500.000000 320.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1700.01,
+            2500.0,
+            8.77
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 98846"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1769.450195 2500.000000 320.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1700.01,
+            2500.0,
+            8.77
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 98846"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1700.01,
+          2500.0,
+          8.77
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_PLATFORM_X1700_Y2500_001",
+      "source_requested_area": "B Site central raised-ground/cover first-down-hit diagnostic",
+      "surface_semantics": "First-down concrete/gravel Mesh courtyard or raised masonry surface; repeated selected ground point, not uniform platform or continuous floor.",
+      "private_filename": "..\\reference_cache\\crash_recovery_survey\\b_platform_columns_01\\B_PLATFORM_X1700_Y2500_001.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T16:22:37.500450+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Site",
+      "unit": "source_units",
+      "target_xy": [
+        -1700.0,
+        2600.0
+      ],
+      "probe_player_z": 320.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1763.990234 2600.000000 320.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1694.51,
+            2600.0,
+            6.44
+          ],
+          "xy_error": 5.490000000000009,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119206"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1769.480225 2600.000000 320.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1700.0,
+            2600.0,
+            6.78
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119206"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1769.480225 2600.000000 320.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1700.0,
+            2600.0,
+            6.78
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 119206"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1700.0,
+          2600.0,
+          6.78
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_PLATFORM_X1700_Y2600_001",
+      "source_requested_area": "B Site central raised-ground/cover first-down-hit diagnostic",
+      "surface_semantics": "First-down concrete/gravel Mesh courtyard or raised masonry surface; repeated selected ground point, not uniform platform or continuous floor.",
+      "private_filename": "..\\reference_cache\\crash_recovery_survey\\b_platform_columns_01\\B_PLATFORM_X1700_Y2600_001.json"
     }
   ],
   "accepted_pairs": [
@@ -33198,6 +33882,24 @@
       "dimension": "horizontal_interval",
       "feature": "Adjacent cover-top/first-rock-support sampled XY interval",
       "notes": "Adjacent first-plastic-cover-top and first-Rock-Hull support at sameY. Independent repeated/corrected points bracket a local downward-hit material transition. Elevation difference is not exact vertical face height, hidden cover extent or rendered-surface acceptance."
+    },
+    {
+      "id": "B_SITE_X2000_X1700_Y2500_SAMPLED_RISE",
+      "area": "B Site",
+      "from_report": "B_PLATFORM_X1700_Y2500_001",
+      "to_report": "B_PLATFORM_X2000_Y2500_001",
+      "dimension": "rise",
+      "feature": "Sampled central B raised masonry versus lower courtyard elevation atY2500",
+      "notes": "Repeated concrete Mesh points separated300native alongX; point-pair elevation difference only, not exact coincident retaining-face height, uniform platform, slope or entire perimeter. Overhead context reviewed at actual clampedpitch89; no camera transfer acceptance."
+    },
+    {
+      "id": "B_SITE_X2000_X1700_Y2600_SAMPLED_RISE",
+      "area": "B Site",
+      "from_report": "B_PLATFORM_X1700_Y2600_001",
+      "to_report": "B_PLATFORM_X2000_Y2600_001",
+      "dimension": "rise",
+      "feature": "Sampled central B raised masonry versus lower courtyard elevation atY2600",
+      "notes": "Repeated concrete Mesh points separated300native alongX; point-pair elevation difference only, not exact coincident retaining-face height, uniform platform, slope or entire perimeter. Overhead context reviewed at actual clampedpitch89; no camera transfer acceptance."
     }
   ],
   "rejected_attempts": [
@@ -33298,5 +34000,157 @@
       "private_raw_path": "../reference_cache/crash_recovery_survey/pit_floor_grid_01/PIT_GRID_X1274_Y600_001.json",
       "review": "X1274/Y600 oscillates between rock HullZ24.75 and sand MeshZ-61.48 atY598.49/601.51; sharp retaining-edge boundary, no accepted endpoint. Controller stopped; source camera independently restored/read back640,-100,150p0y90."
     }
-  ]
+  ],
+  "b_platform_column_review": {
+    "plan": {
+      "build": "25640462",
+      "cases": [
+        {
+          "id": "B_PLATFORM_X2000_Y2400_001",
+          "xy": [
+            -2000,
+            2400
+          ],
+          "z": 320,
+          "area": "B Site central raised-ground/cover first-down-hit diagnostic",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "B_PLATFORM_X2000_Y2500_001",
+          "xy": [
+            -2000,
+            2500
+          ],
+          "z": 320,
+          "area": "B Site central raised-ground/cover first-down-hit diagnostic",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "B_PLATFORM_X2000_Y2600_001",
+          "xy": [
+            -2000,
+            2600
+          ],
+          "z": 320,
+          "area": "B Site central raised-ground/cover first-down-hit diagnostic",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "B_PLATFORM_X1850_Y2400_001",
+          "xy": [
+            -1850,
+            2400
+          ],
+          "z": 320,
+          "area": "B Site central raised-ground/cover first-down-hit diagnostic",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "B_PLATFORM_X1850_Y2500_001",
+          "xy": [
+            -1850,
+            2500
+          ],
+          "z": 320,
+          "area": "B Site central raised-ground/cover first-down-hit diagnostic",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "B_PLATFORM_X1850_Y2600_001",
+          "xy": [
+            -1850,
+            2600
+          ],
+          "z": 320,
+          "area": "B Site central raised-ground/cover first-down-hit diagnostic",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "B_PLATFORM_X1700_Y2400_001",
+          "xy": [
+            -1700,
+            2400
+          ],
+          "z": 320,
+          "area": "B Site central raised-ground/cover first-down-hit diagnostic",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "B_PLATFORM_X1700_Y2500_001",
+          "xy": [
+            -1700,
+            2500
+          ],
+          "z": 320,
+          "area": "B Site central raised-ground/cover first-down-hit diagnostic",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "B_PLATFORM_X1700_Y2600_001",
+          "xy": [
+            -1700,
+            2600
+          ],
+          "z": 320,
+          "area": "B Site central raised-ground/cover first-down-hit diagnostic",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        }
+      ],
+      "scope": "Nine corrected repeated down-hit points across central B courtyard. Existing native floor[-1800,2500,30.74] and B Window approach[-1550,2670,5.09] show differing elevations; no assumed constant platform or ground plane. Probe from above: Mesh/Hull cover, roof, sand and concrete components require rendered identification before floor/height acceptance; own-origin/convergence guards preserved. No entire footprint or unseen interpolation."
+    },
+    "driver_recovery": {
+      "timestamp_utc": "2026-10-02T16:21:22.071667+00:00",
+      "original_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "status": "completed serial columns; semantic review pending",
+      "completed": [
+        "B_PLATFORM_X2000_Y2400_001",
+        "B_PLATFORM_X2000_Y2500_001",
+        "B_PLATFORM_X2000_Y2600_001",
+        "B_PLATFORM_X1850_Y2400_001",
+        "B_PLATFORM_X1850_Y2500_001",
+        "B_PLATFORM_X1850_Y2600_001",
+        "B_PLATFORM_X1700_Y2400_001",
+        "B_PLATFORM_X1700_Y2500_001",
+        "B_PLATFORM_X1700_Y2600_001"
+      ],
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "context_image_id": "QA_B_PLATFORM_OVERHEAD_CONTEXT_001",
+    "scope": "Nine corrected repeated down-hit points across central B courtyard. Existing native floor[-1800,2500,30.74] and B Window approach[-1550,2670,5.09] show differing elevations; no assumed constant platform or ground plane. Probe from above: Mesh/Hull cover, roof, sand and concrete components require rendered identification before floor/height acceptance; own-origin/convergence guards preserved. No entire footprint or unseen interpolation."
+  }
 }

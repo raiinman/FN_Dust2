@@ -386,3 +386,11 @@ atZ160 and three repeated side points. Preserve001 narrow-band plaster-relief
 threshold and002 side-bevel threshold as rejected corner interpretations. Both
 source-origin pairs agree but thresholds are not architectural endpoints. No
 constant-X return plane, full-height wall or entire courtyard inferred.
+
+CONNECTOR_SURFACE_PROFILES.b_platform_column_review selects nine central B
+first-down-hit points: eight concrete/gravel Mesh ground points and one
+Wood_Plank Hull covered top. B_SITE_SURFACE_SAMPLES.svg is a calibrated numeric
+XY point plan, never interpolated floor or a transferred overhead camera. Two
+ground point-pair rises are separate from exact retaining-face/platform height.
+Overhead context requestedpitch90 was clamped89; captured actual pose reviewed
+and accepted for component context, failed wrapper/restoration preserved.

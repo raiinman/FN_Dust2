@@ -7,7 +7,7 @@ no model override, new chat or agent delegation requested. Criteria unchanged.
 
 ## Authority and preserved work
 
-GitHub main authoritative. Latest pushed checkpointc3840f1 before return survey;
+GitHub main authoritative. Latest pushed checkpointa9729a1 before platform survey;
 latest Git commit pins this checkpoint. Crash baseline35eaa642, dirty work
 preserved4c7df48, mergedab4e484. Active checkout:
 C:/Users/mikea/Documents/Codex/2026-09-30/new-chat/FN_Dust2
@@ -18,15 +18,15 @@ evidence/CRASH_RECOVERY_20261001.md. Inspect dirty work and current main first.
 
 ## Accepted evidence and limits
 
-- 255 individually reviewed JPEGs; eight historical exclusions. Original24 and
-  recovered55 re-inspected. IMAGE_AUDIT255 hashes/native UTC dates PASS. Sixteen
+- 256 individually reviewed JPEGs; eight historical exclusions. Original24 and
+  recovered55 re-inspected. IMAGE_AUDIT256 hashes/native UTC dates PASS. Sixteen
   critical/eleven subarea required view sets PASS; image coverage grants no metric
   acceptance. Native originals, failed/clipped attempts and all metadata retained.
 - Scale2.54cm/native from repeated inch-rangefinder anchors; UE=(2.54x,-2.54y,
   2.54z), inverse/native-right/length checks PASS. Phase2 exporter/editor roundtrip
   remains unverified. Unsaved Hammer128 cube is calibration, not production.
-- 382 bounded physical feature measurements;13 floor datums;54 Short/117 Tunnel
-  stair floor samples;434 connector points;130 local architectural chords.
+- 384 bounded physical feature measurements;13 floor datums;54 Short/117 Tunnel
+  stair floor samples;443 connector points;130 local architectural chords.
   MEASUREMENTS.csv and profile registers retain confidence and explicit limits.
   Local sections/point pairs are not entire room rectangles or route clearances.
 - Listed topology PASS:34 edges/four specials;24 ground paths both directions,
@@ -90,7 +90,18 @@ now extend projection range throughZ290. Whole cap/body still separate. Every co
 
 ## Desktop and current source controller
 
-No active source controller. Return001/002 and side003 completed48/44/12
+No active source controller. Nine B platform columns completed, exact all0
+restore; raw plan/driver/reports preserved in b_platform_columns_01. Eight
+concrete/gravel ground points and one Wood_Plank Hull cover top explicitly
+reviewed. Two ground point-pair rises51.7398/56.6420cm;384 measurements/443
+connector points. B_SITE_SURFACE_SAMPLES numeric XY point plan rebuilt/rendered/
+inspected; no interpolated slab or exact retaining/cover height. One clean
+central overhead PNG/JPEG reviewed/registered at actualpitch89 (requested90
+clamped: context wrapper guard failure preserved, all0 B-mouth/overlay restore).
+Private b_platform_context_01 retains raw and failure; do not rerun to duplicate
+valid context.256 image hashes/native dates PASS. Next: platform retaining faces
+and covered mass local dimensions; entire perimeters remain open.
+Return001/002 and side003 completed48/44/12
 observations, all0 exact B-mouth restoration.001 relief threshold nearX-1779.7
 and002 bevel threshold nearX-1728.66 are rejected corner interpretations.
 B_COURTYARD_RETURN_CHECKS JSON/CSV/SVG derives bounded estimated local corner
