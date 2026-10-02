@@ -137,6 +137,15 @@ Populate `REFERENCE_MANIFEST.csv` first. Complete `MEASUREMENTS.csv` and `ROUTE_
 
 Gate 1 requires a populated manifest, measurement register, annotated top-down truth map, route graph, and bounded uncertainty list.
 
+ASITE_EAST_RETAINING_FRONTAL_036 in LOCAL_CAMERA_CALIBRATIONS owns eight fixedX
+fit/eight independent depth-elevation markers at its exact native pose. Four
+native/JPEG frames and16 marker crops inspected; all holdouts below1px.
+Source035 directed first-hit diagnostics validate eyes/rangefinder/restoration,
+separating overhead RockHull occlusion from candidate frontal target agreement.
+Fixed-X inversion requires measured plane; higherroad, barrels and foreground
+building obscure components. Neither camera nor collision visibility grants
+complete retaining-body/floor bounds or automatic rendered correspondence.
+
 ## Child DOX Index
 
 None.

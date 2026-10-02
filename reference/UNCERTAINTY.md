@@ -3,11 +3,22 @@
 **Gate 1: FAIL.** These are blockers, not accepted exceptions.
 Baseline: CS2 build 25640462, 2026-10-01 UTC.
 
-Latest A Site checks032/033: two outsideXorigins confirm MeshX1280 atY2650/Z110
+Latest035 directed checks: overhead031 rays reach nearer RockHull before two
+eastern face points by68.796973/15.322183 native units; the northern target agrees.
+Candidate east frontal eye[1660,2700,144] reaches allthree declared targets.
+Repeated actual-eye/rangefinder/pose checks and exact restoration pass. Collision
+first-hit agreement selects a view; rendered correspondence and body ends remain open.
+
+Frontal036 maxheld.548522px;281 reviewed registered images. Independently checked
+fixed-X projection can locate visible eastern face selections once plane identity
+is measured. Northern lowerwall remains hidden by rising road/curb, with barrels
+and foreground building separate. Camera localization is not full-body uncertainty.
+
+A Site checks032/033: two outsideXorigins confirm MeshX1280 atY2650/Z110
 behind nearerHull1319.9 atZ90. Preserve lower height-dependent occlusion; no
 whole-body endpoint from a first-hit change. NorthernX1000/Z180 reaches remote
 Y3845.33 vsX1050 localY3080; westcourtyard and southoutside faces remain separate.
-A_SITE_SURVEY_POINTS28 reviewed projections (one out of frame) rendered/inspected;
+A_SITE_SURVEY_POINTS32 reviewed projections (one out of frame) rendered/inspected;
 camera031 maxheld .509377px. Full site/retaining/continuous layered bounds open.
 
 | ID | Unknown | Present bound | Required resolution |

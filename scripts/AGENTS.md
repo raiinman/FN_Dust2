@@ -84,6 +84,13 @@ Blender Python, Unreal automation, validation scripts, manifest processors, and 
 
 ## Local Contracts
 
+- `cs2_probe_target_rays.py` repeats directed rays from declared camera eyes to
+  known targets using the checked64-unit camera-up model. Validate actual eye,
+  settled pose, exact live echoes, repeated native hit/material and rangefinder;
+  preserve partial failures and verify original pose restoration. Inputs own
+  eyes/targets before surveying. First-hit agreement selects useful views;
+  it does not certify rendered visibility, component ends or full body bounds.
+
 - `build_radar_plan.py` rebuilds the current-build HUD context plan from
   hash-pinned screenshot crops and RADAR_CALIBRATION.json. Its grid and floor
   labels are calibrated; stylized radar outlines are not measured wall endpoints.

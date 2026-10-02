@@ -99124,6 +99124,512 @@
       ],
       "accepted_sections": [],
       "review": "Two outsideXorigins agree at everyY. FixedZ110 MeshX1280 holdsY2450..2700; southernY2320 firstMeshX1279.4 is localrelief. Y2750 firstconcreteHullX1319.96. Lower032 firstHullX1319.9 atY2650/Z90 is before a separately demonstrated deeperMeshX1280/Z110; it cannot define a whole-body endpoint. Native observed components/heights remain separate, no rectangular site or full-height extrusion accepted."
+    },
+    {
+      "id": "ASITE_CAMERA_TARGET_FIRST_HIT_CHECKS_035",
+      "source_build": "25640462",
+      "area": "A Site calibrated overview and candidate east frontal first-hit diagnostics",
+      "source_map": "de_dust2",
+      "timestamp_utc": "2026-10-02T20:14:00.149633+00:00",
+      "config": {
+        "id": "ASITE_CAMERA_TARGET_FIRST_HIT_CHECKS_035",
+        "build": "25640462",
+        "area": "A Site calibrated overview and candidate east frontal first-hit diagnostics",
+        "rays": [
+          {
+            "id": "OVERHEAD_TO_POINT_01",
+            "eye": [
+              1000.0,
+              2663.9902506964304,
+              1251.1170567613194
+            ],
+            "target": [
+              1280,
+              2450,
+              60
+            ]
+          },
+          {
+            "id": "OVERHEAD_TO_POINT_02",
+            "eye": [
+              1000.0,
+              2663.9902506964304,
+              1251.1170567613194
+            ],
+            "target": [
+              1280,
+              2650,
+              110
+            ]
+          },
+          {
+            "id": "OVERHEAD_TO_POINT_03",
+            "eye": [
+              1000.0,
+              2663.9902506964304,
+              1251.1170567613194
+            ],
+            "target": [
+              1050,
+              3080,
+              180
+            ]
+          },
+          {
+            "id": "FRONT_CANDIDATE_TO_POINT_01",
+            "eye": [
+              1660,
+              2700,
+              144
+            ],
+            "target": [
+              1280,
+              2450,
+              110
+            ]
+          },
+          {
+            "id": "FRONT_CANDIDATE_TO_POINT_02",
+            "eye": [
+              1660,
+              2700,
+              144
+            ],
+            "target": [
+              1280,
+              2650,
+              110
+            ]
+          },
+          {
+            "id": "FRONT_CANDIDATE_TO_POINT_03",
+            "eye": [
+              1660,
+              2700,
+              144
+            ],
+            "target": [
+              1275.98,
+              2750,
+              124.83
+            ]
+          }
+        ],
+        "scope": "Original known measured target points and calibrated camera eye, plus predeclared candidatefront eye for selecting useful complementary view. Directed native first-hit checks distinguish nearer intervening collision; collision agreement does not automatically certify exact rendered visibility/corners."
+      },
+      "unit": "source_units",
+      "observations": [
+        {
+          "station_id": "OVERHEAD_TO_POINT_01",
+          "repeat": 1,
+          "pose": "setpos_exact 951.239319 2701.255615 1232.959839;setang_exact 73.518448 -37.388885 0.000000",
+          "requested_eye": [
+            1000.0,
+            2663.9902506964304,
+            1251.1170567613194
+          ],
+          "eye_origin": [
+            1000.0000226277579,
+            2663.9902284953414,
+            1251.1170620912212
+          ],
+          "target_point": [
+            1280,
+            2450,
+            60
+          ],
+          "requested_pitch": 73.51841319728022,
+          "requested_yaw": -37.388903470706374,
+          "hit": [
+            1264.49,
+            2461.85,
+            125.97
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 1173.36 inches ( 97.78 feet)",
+          "endpoint_difference_native": 68.79697304387743,
+          "distance_before_target_native": 68.79697298049246
+        },
+        {
+          "station_id": "OVERHEAD_TO_POINT_01",
+          "repeat": 2,
+          "pose": "setpos_exact 951.239319 2701.255615 1232.959839;setang_exact 73.518448 -37.388885 0.000000",
+          "requested_eye": [
+            1000.0,
+            2663.9902506964304,
+            1251.1170567613194
+          ],
+          "eye_origin": [
+            1000.0000226277579,
+            2663.9902284953414,
+            1251.1170620912212
+          ],
+          "target_point": [
+            1280,
+            2450,
+            60
+          ],
+          "requested_pitch": 73.51841319728022,
+          "requested_yaw": -37.388903470706374,
+          "hit": [
+            1264.49,
+            2461.85,
+            125.97
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 1173.36 inches ( 97.78 feet)",
+          "endpoint_difference_native": 68.79697304387743,
+          "distance_before_target_native": 68.79697298049246
+        },
+        {
+          "station_id": "OVERHEAD_TO_POINT_02",
+          "repeat": 1,
+          "pose": "setpos_exact 937.925659 2667.091797 1235.847656;setang_exact 76.197052 -2.860565 0.000000",
+          "requested_eye": [
+            1000.0,
+            2663.9902506964304,
+            1251.1170567613194
+          ],
+          "eye_origin": [
+            1000.0000226118727,
+            2663.990077505157,
+            1251.1169951591228
+          ],
+          "target_point": [
+            1280,
+            2650,
+            110
+          ],
+          "requested_pitch": 76.1969664525822,
+          "requested_yaw": -2.8604152192803807,
+          "hit": [
+            1276.35,
+            2650.18,
+            124.88
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 1159.73 inches ( 96.64 feet)",
+          "endpoint_difference_native": 15.322183264796191,
+          "distance_before_target_native": 15.322183028446489
+        },
+        {
+          "station_id": "OVERHEAD_TO_POINT_02",
+          "repeat": 2,
+          "pose": "setpos_exact 937.925659 2667.091797 1235.847656;setang_exact 76.197052 -2.860565 0.000000",
+          "requested_eye": [
+            1000.0,
+            2663.9902506964304,
+            1251.1170567613194
+          ],
+          "eye_origin": [
+            1000.0000226118727,
+            2663.990077505157,
+            1251.1169951591228
+          ],
+          "target_point": [
+            1280,
+            2650,
+            110
+          ],
+          "requested_pitch": 76.1969664525822,
+          "requested_yaw": -2.8604152192803807,
+          "hit": [
+            1276.35,
+            2650.18,
+            124.88
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 1159.73 inches ( 96.64 feet)",
+          "endpoint_difference_native": 15.322183264796191,
+          "distance_before_target_native": 15.322183028446489
+        },
+        {
+          "station_id": "OVERHEAD_TO_POINT_03",
+          "repeat": 1,
+          "pose": "setpos_exact 992.887634 2604.814209 1227.801758;setang_exact 68.635376 83.146606 0.000000",
+          "requested_eye": [
+            1000.0,
+            2663.9902506964304,
+            1251.1170567613194
+          ],
+          "eye_origin": [
+            999.9998942038975,
+            2663.9903162324777,
+            1251.1170767325923
+          ],
+          "target_point": [
+            1050,
+            3080,
+            180
+          ],
+          "requested_pitch": 68.63536435054958,
+          "requested_yaw": 83.14652391748469,
+          "hit": [
+            1050.0,
+            3080.0,
+            180.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 172336"
+          ],
+          "rangefinder_reply": "DISTANCE: 1150.16 inches ( 95.85 feet)",
+          "endpoint_difference_native": 0.0,
+          "distance_before_target_native": 0.0
+        },
+        {
+          "station_id": "OVERHEAD_TO_POINT_03",
+          "repeat": 2,
+          "pose": "setpos_exact 992.887634 2604.814209 1227.801758;setang_exact 68.635376 83.146606 0.000000",
+          "requested_eye": [
+            1000.0,
+            2663.9902506964304,
+            1251.1170567613194
+          ],
+          "eye_origin": [
+            999.9998942038975,
+            2663.9903162324777,
+            1251.1170767325923
+          ],
+          "target_point": [
+            1050,
+            3080,
+            180
+          ],
+          "requested_pitch": 68.63536435054958,
+          "requested_yaw": 83.14652391748469,
+          "hit": [
+            1050.0,
+            3080.0,
+            180.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 172336"
+          ],
+          "rangefinder_reply": "DISTANCE: 1150.16 inches ( 95.85 feet)",
+          "endpoint_difference_native": 0.0,
+          "distance_before_target_native": 0.0
+        },
+        {
+          "station_id": "FRONT_CANDIDATE_TO_POINT_01",
+          "repeat": 1,
+          "pose": "setpos_exact 1663.985352 2702.622070 80.178047;setang_exact 4.274719 -146.659241 0.000000",
+          "requested_eye": [
+            1660,
+            2700,
+            144
+          ],
+          "eye_origin": [
+            1660.0000152245334,
+            2700.0001327629084,
+            144.0000066683686
+          ],
+          "target_point": [
+            1280,
+            2450,
+            110
+          ],
+          "requested_pitch": 4.2747864082717975,
+          "requested_yaw": -146.659292653523,
+          "hit": [
+            1280.0,
+            2450.0,
+            110.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164332"
+          ],
+          "rangefinder_reply": "DISTANCE: 456.13 inches ( 38.01 feet)",
+          "endpoint_difference_native": 0.0,
+          "distance_before_target_native": 0.0
+        },
+        {
+          "station_id": "FRONT_CANDIDATE_TO_POINT_01",
+          "repeat": 2,
+          "pose": "setpos_exact 1663.985352 2702.622070 80.178047;setang_exact 4.274719 -146.659241 0.000000",
+          "requested_eye": [
+            1660,
+            2700,
+            144
+          ],
+          "eye_origin": [
+            1660.0000152245334,
+            2700.0001327629084,
+            144.0000066683686
+          ],
+          "target_point": [
+            1280,
+            2450,
+            110
+          ],
+          "requested_pitch": 4.2747864082717975,
+          "requested_yaw": -146.659292653523,
+          "hit": [
+            1280.0,
+            2450.0,
+            110.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164332"
+          ],
+          "rangefinder_reply": "DISTANCE: 456.13 inches ( 38.01 feet)",
+          "endpoint_difference_native": 0.0,
+          "distance_before_target_native": 0.0
+        },
+        {
+          "station_id": "FRONT_CANDIDATE_TO_POINT_02",
+          "repeat": 1,
+          "pose": "setpos_exact 1665.606812 2700.737793 80.250343;setang_exact 5.069504 -172.504242 0.000000",
+          "requested_eye": [
+            1660,
+            2700,
+            144
+          ],
+          "eye_origin": [
+            1659.9998345847537,
+            2700.0000427333616,
+            143.99999028380066
+          ],
+          "target_point": [
+            1280,
+            2650,
+            110
+          ],
+          "requested_pitch": 5.069385519269343,
+          "requested_yaw": -172.50414236027015,
+          "hit": [
+            1280.0,
+            2650.0,
+            110.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164364"
+          ],
+          "rangefinder_reply": "DISTANCE: 384.78 inches ( 32.07 feet)",
+          "endpoint_difference_native": 0.0,
+          "distance_before_target_native": 0.0
+        },
+        {
+          "station_id": "FRONT_CANDIDATE_TO_POINT_02",
+          "repeat": 2,
+          "pose": "setpos_exact 1665.606812 2700.737793 80.250343;setang_exact 5.069504 -172.504242 0.000000",
+          "requested_eye": [
+            1660,
+            2700,
+            144
+          ],
+          "eye_origin": [
+            1659.9998345847537,
+            2700.0000427333616,
+            143.99999028380066
+          ],
+          "target_point": [
+            1280,
+            2650,
+            110
+          ],
+          "requested_pitch": 5.069385519269343,
+          "requested_yaw": -172.50414236027015,
+          "hit": [
+            1280.0,
+            2650.0,
+            110.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 164364"
+          ],
+          "rangefinder_reply": "DISTANCE: 384.78 inches ( 32.07 feet)",
+          "endpoint_difference_native": 0.0,
+          "distance_before_target_native": 0.0
+        },
+        {
+          "station_id": "FRONT_CANDIDATE_TO_POINT_03",
+          "repeat": 1,
+          "pose": "setpos_exact 1663.137695 2699.591553 80.078270;setang_exact 2.833786 172.581818 0.000000",
+          "requested_eye": [
+            1660,
+            2700,
+            144
+          ],
+          "eye_origin": [
+            1660.00009858875,
+            2700.000068133224,
+            144.0000081189376
+          ],
+          "target_point": [
+            1275.98,
+            2750,
+            124.83
+          ],
+          "requested_pitch": 2.833911118065715,
+          "requested_yaw": 172.5817320042605,
+          "hit": [
+            1275.98,
+            2750.0,
+            124.83
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 387.73 inches ( 32.31 feet)",
+          "endpoint_difference_native": 0.0,
+          "distance_before_target_native": 0.0
+        },
+        {
+          "station_id": "FRONT_CANDIDATE_TO_POINT_03",
+          "repeat": 2,
+          "pose": "setpos_exact 1663.137695 2699.591553 80.078270;setang_exact 2.833786 172.581818 0.000000",
+          "requested_eye": [
+            1660,
+            2700,
+            144
+          ],
+          "eye_origin": [
+            1660.00009858875,
+            2700.000068133224,
+            144.0000081189376
+          ],
+          "target_point": [
+            1275.98,
+            2750,
+            124.83
+          ],
+          "requested_pitch": 2.833911118065715,
+          "requested_yaw": 172.5817320042605,
+          "hit": [
+            1275.98,
+            2750.0,
+            124.83
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE: 387.73 inches ( 32.31 feet)",
+          "endpoint_difference_native": 0.0,
+          "distance_before_target_native": 0.0
+        }
+      ],
+      "status": "complete; directed first-hit diagnostics; rendered correspondence pending",
+      "scope": "Repeat native rays from declared camera eyes toward known target points.\n\n--config JSON --session QUEUE --output PRIVATE_JSON. Config owns id/build/area\nand rays [{id,eye[x,y,z],target[x,y,z]}]. The empirically checked64 camera_up\nmodel determines the source pose for each directed ray; observed pose/actual\neye, native first hit/material/rangefinder and target discrepancy are saved.\nFirst-hit agreement is collision evidence, not automatic renderer visibility,\narchitectural selection, full-body bounds or playerclip acceptance.\n",
+      "original_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "accepted_sections": [],
+      "review": "Twelve repeated directed observations validate actual eyes and native rangefinder. Overhead031 rays to eastern measured face points first hit nearer RockHull: target differences68.796973 and15.322183 native. Northern point agrees. Candidate east frontal eye[1660,2700,144] hits all three original targets exactly including cap. Use to select complementary view only; no rendered correspondence or body extent inferred from collision first-hit agreement."
     }
   ],
   "rejected_attempts": [

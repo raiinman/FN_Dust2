@@ -2,6 +2,18 @@
 
 **FAIL. Phase 1 remains active. Phase 2 production is prohibited.**
 
+East retaining frontal036 camera passes8fit/8independent depth-elevation markers,
+max.412890/.548522px. Four native/JPEGs and16 marker crops individually inspected;
+281 image hashes/native UTC dates PASS. Exposed southface and cap visible;
+higherroad/cover/barrels/building occlusion retained. Structural/fullbody/layered
+footprint criteria remain unresolved. No Gate1 PASS from a camera calibration.
+
+Source035 completes12 directed observations/all0 restore;190 architectural
+reports/26 preserved rejects. Overhead031 eastern face targets encounter nearer
+RockHull, while a candidate east frontal eye reaches allthree declared targets.
+Actual-eye/rangefinder/native repeats verified. This diagnoses view occlusion;
+rendered face correspondence/full body ends and Gate1 acceptance remain unresolved.
+
 A Site034 four corrected repeated RockHull tops COMPLETE/all0: atX1276,
 Y2320Z124.47,2450Z124.74,2650Z124.97,2750Z124.83 (lastactualX1275.98).
 469 connector points;414 physical features. Two different-X top/Longroad sample

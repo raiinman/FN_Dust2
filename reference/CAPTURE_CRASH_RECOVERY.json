@@ -7839,6 +7839,268 @@
       "jpeg_sha256": "d6362c79f9013130023b2ea8fd4c94ccfb72584c847d812e8dcda45a1342f57f",
       "fov_cs_debug_parameter": 90,
       "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_ASITE_FRONTAL_FIT_036_MARKED",
+      "timestamp_utc": "2026-10-02T20:21:12.268779+00:00",
+      "engine_capture_basename": "d2_d3496fbd2a",
+      "pose_command": "setpos_exact 1660.000000 2700.000000 80.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        1660,
+        2700,
+        80,
+        0,
+        180
+      ],
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "tga_sha256": "3dcc508ac3c9598721958d1c8c273563e381b87c5dccee55ccae03725524e537",
+      "png_sha256": "35a10d007196a70fbe6b3323191f0a477bd91010beaeb38f90216d1f54b16cb4",
+      "anchors": [
+        {
+          "id": "ASITE_FRONT_FIT01",
+          "point": [
+            1280,
+            2330,
+            90
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "ASITE_FRONT_FIT02",
+          "point": [
+            1280,
+            2400,
+            150
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "ASITE_FRONT_FIT03",
+          "point": [
+            1280,
+            2500,
+            90
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "ASITE_FRONT_FIT04",
+          "point": [
+            1280,
+            2600,
+            170
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "ASITE_FRONT_FIT05",
+          "point": [
+            1280,
+            2750,
+            90
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "ASITE_FRONT_FIT06",
+          "point": [
+            1280,
+            2850,
+            160
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "ASITE_FRONT_FIT07",
+          "point": [
+            1280,
+            2950,
+            100
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "ASITE_FRONT_FIT08",
+          "point": [
+            1280,
+            3050,
+            170
+          ],
+          "half_size": 10
+        }
+      ],
+      "status": "visually inspected; usable stated-direction reference",
+      "marker_plane": "YZ",
+      "area": "A Site",
+      "review": "Native PNG and all16 isolated marker crops individually inspected. JPEG individually inspected and accepted for stated context/calibration scope. Retaining southern exposed end/cap and adjoining rising Long road visible. Higher ground hides northern lower face; barrel/nearbuilding/cover occlusion explicit. Eight fit and eight independent depth/elevation markers at exact pose; camera acceptance does not certify entire wallbody/hiddenfloor/cap ends.",
+      "repository_image_path": "reference/images/a_site/QA_ASITE_FRONTAL_FIT_036_MARKED.jpg",
+      "jpeg_sha256": "bfd55998be3039bb8b0b8227ea6a2fdf72770f04329388ab8252de234d372666",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_ASITE_FRONTAL_FIT_036_CLEAN",
+      "timestamp_utc": "2026-10-02T20:21:18.870704+00:00",
+      "engine_capture_basename": "d2_d0ba6b061b",
+      "pose_command": "setpos_exact 1660.000000 2700.000000 80.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        1660,
+        2700,
+        80,
+        0,
+        180
+      ],
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "tga_sha256": "831628026c82fe379bf5f5377bf3c45306cba5764125b8ea5545460c8cf255f0",
+      "png_sha256": "7eb2cb222a58756049bc1f24d8bc1f4f80141af3ed39e154142b6358d393a0cc",
+      "anchors": [],
+      "status": "visually inspected; usable stated-direction reference",
+      "marker_plane": "YZ",
+      "area": "A Site",
+      "review": "Native PNG and all16 isolated marker crops individually inspected. JPEG individually inspected and accepted for stated context/calibration scope. Retaining southern exposed end/cap and adjoining rising Long road visible. Higher ground hides northern lower face; barrel/nearbuilding/cover occlusion explicit. Eight fit and eight independent depth/elevation markers at exact pose; camera acceptance does not certify entire wallbody/hiddenfloor/cap ends.",
+      "repository_image_path": "reference/images/a_site/QA_ASITE_FRONTAL_FIT_036_CLEAN.jpg",
+      "jpeg_sha256": "98e8905e020b063606c0a54d55a1c6b67cfb6fb0889569b006444fe402b71f85",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_ASITE_FRONTAL_HOLD_036_MARKED",
+      "timestamp_utc": "2026-10-02T20:21:27.383881+00:00",
+      "engine_capture_basename": "d2_033ed2486b",
+      "pose_command": "setpos_exact 1660.000000 2700.000000 80.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        1660,
+        2700,
+        80,
+        0,
+        180
+      ],
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "tga_sha256": "ebad3db3852f1b79ca6c43f1099d70d2abfde7ca2fdadf616a539c71ddd4c0fb",
+      "png_sha256": "1c7996f8af09006f67d5102d9e6aa7054c69daf931dc1a426b711bd8388c3ca6",
+      "anchors": [
+        {
+          "id": "ASITE_FRONT_HOLD01",
+          "point": [
+            1280,
+            2360,
+            110
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "ASITE_FRONT_HOLD02",
+          "point": [
+            1288,
+            2450,
+            60
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "ASITE_FRONT_HOLD03",
+          "point": [
+            1276,
+            2550,
+            140
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "ASITE_FRONT_HOLD04",
+          "point": [
+            1284,
+            2670,
+            80
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "ASITE_FRONT_HOLD05",
+          "point": [
+            1272,
+            2770,
+            180
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "ASITE_FRONT_HOLD06",
+          "point": [
+            1280,
+            2830,
+            120
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "ASITE_FRONT_HOLD07",
+          "point": [
+            1288,
+            2910,
+            160
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "ASITE_FRONT_HOLD08",
+          "point": [
+            1276,
+            3010,
+            100
+          ],
+          "half_size": 10
+        }
+      ],
+      "status": "visually inspected; usable stated-direction reference",
+      "marker_plane": "YZ",
+      "area": "A Site",
+      "review": "Native PNG and all16 isolated marker crops individually inspected. JPEG individually inspected and accepted for stated context/calibration scope. Retaining southern exposed end/cap and adjoining rising Long road visible. Higher ground hides northern lower face; barrel/nearbuilding/cover occlusion explicit. Eight fit and eight independent depth/elevation markers at exact pose; camera acceptance does not certify entire wallbody/hiddenfloor/cap ends.",
+      "repository_image_path": "reference/images/a_site/QA_ASITE_FRONTAL_HOLD_036_MARKED.jpg",
+      "jpeg_sha256": "142a0a30ced1dff67c5f1c390d82462bd4ddba68894265cba8515e673dd42972",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_ASITE_FRONTAL_HOLD_036_CLEAN",
+      "timestamp_utc": "2026-10-02T20:21:34.189976+00:00",
+      "engine_capture_basename": "d2_10bf95daee",
+      "pose_command": "setpos_exact 1660.000000 2700.000000 80.000000;setang_exact 0.000000 -180.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        1660,
+        2700,
+        80,
+        0,
+        180
+      ],
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "tga_sha256": "682e3a089a17f515a94b35e644409f6526d693a6ca151531e46667de462b2e06",
+      "png_sha256": "83d9e5b38b2b1df6e59a15840e29d4aa36e9e125c00c4724e94bee288a9e51a1",
+      "anchors": [],
+      "status": "visually inspected; usable stated-direction reference",
+      "marker_plane": "YZ",
+      "area": "A Site",
+      "review": "Native PNG and all16 isolated marker crops individually inspected. JPEG individually inspected and accepted for stated context/calibration scope. Retaining southern exposed end/cap and adjoining rising Long road visible. Higher ground hides northern lower face; barrel/nearbuilding/cover occlusion explicit. Eight fit and eight independent depth/elevation markers at exact pose; camera acceptance does not certify entire wallbody/hiddenfloor/cap ends.",
+      "repository_image_path": "reference/images/a_site/QA_ASITE_FRONTAL_HOLD_036_CLEAN.jpg",
+      "jpeg_sha256": "aadbd0592d1f0e25d03d0fde84e42c85baa86a4ed60608f5d3d9c1d2743bc50d",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
     }
   ],
   "rejected_attempts": [
