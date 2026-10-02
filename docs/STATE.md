@@ -27,7 +27,8 @@ The latest repository commit pins this checkpoint; fetch/check main before resum
 - 22 surveyed paths accepted both directions in WALK_PROBES, including Mid,
  CT Spawn/Under A, Tunnel Stairs, Lower Tunnels-to-Mid and T Spawn-to-Outside Long.
  Reduced speed80 and arrival tolerance recorded. Failed plans are preserved.
- All four special jump/drop/boost connections remain unverified.
+ S01 Xbox passes both directions; S02 Short-to-CT passes forward. S03 CT climb
+ and S04 elevator boost remain unverified.
 - RADAR_PLAN has four native calibration anchors, a physical grid,13 floor
  labels and accepted player paths. It is context, not surveyed wall boundaries.
  One native HUD crop confirms Top of Mid at source(-450,300,5), not Suicide bounds.
@@ -59,7 +60,7 @@ Twenty-two ground paths pass both directions. Direct Side Pit-to-Pit jump/drop
 passed twice from continuous grounded approach (private003/004), stable landing;
 reverse001 jump did not clear wall. Invalid initial start001 and short002 attempt
 preserved. TRAVERSAL_PROBES.json accepts observed forward E27 jump/drop; reverse physical
-classification still pending. All four S01-S04 special connections remain unverified.
+classification still pending. S01 passes both directions and S02 forward; S03/S04 remain unverified.
 
 Connector additions: eleven reviewed Window/Pit/Suicide images registered;
 two close-wall/misdirected attempts rejected. Eleven subarea view sets accepted.
@@ -85,9 +86,13 @@ points bring CONNECTOR_SURFACE_PROFILES to43 samples. Five explicit point-pair
 rises bring MEASUREMENTS to58; sampled rise is not exact cover-base height.
 Two inspected detail images registered. Low Wood_Plank pallet point at(-320,
 1375,-75.65) lies below crate top(-320,1390,-28.93); direct front jump001 failed.
-Current serial controller: XBOX_CATWALK_SIDE_CLIMB_001, private config/report in
-crash_recovery_survey/. Inspect live process and report before continuing.
-Xbox probe grids and detail capture batches completed; raw attempts preserved.
+S01 now passes forward twice via south pallet, crate and grounded parapet
+approach; reverse jump/drop lands Mid. S02 Short-to-CT parapet jump/drop passes
+through crate bay then south/west to stable CT hall. TRAVERSAL_PROBES preserves
+all partial/rejected approaches; S03/S04 remain unverified.
+Current serial controller: probe_ct_crate_grid.py, private ct_crate_metrics/,
+16 first-downward XY columns. Inspect live process and report progress before
+any other pose/input controller. Xbox repeat/Short descent batch completed.
 
 1. Resolve Pit/Suicide reverse classification and test S01-S04 special traversal.
 2. Complete structural endpoints, room/cover

@@ -120,5 +120,6 @@ TRAVERSAL_PROBES.json separately accepts observed forward E27 grounded jump/drop
 twice, and forward E11 grounded spawn jump/drop once. Stable landings and input
 telemetry are retained; reverse classification remains unresolved. E19/E20 B
 Window climb/crossing passed both directions; outside rubble-to-CT Mid approach
-now passes both directions. S01-S04 special traversals remain unverified. A failed individual
+now passes both directions. S01 Xbox passes both directions, S02 Short-to-CT forward; S03/S04 remain
+unverified. A failed individual
 jump is not proof of absent connectivity. Suicide callout bounds remain provisional.

@@ -10,7 +10,7 @@ Baseline: CS2 build 25640462, 2026-10-01 UTC.
 | U03 | Elevations/slopes/stairs | 13 repeated native floor datums with calibrated conversion; CT floor/overhead separation 167.69 native units; 54 repeated Short floor samples plus12 repeated center riser faces; Short count/rise/run accepted, remaining stairs/slopes unresolved | Floor endpoints, stair counts and rise/run readings |
 | U04 | Map scale and axes | Native rangefinder anchors accept factor2.54cm/source unit; native right-axis tests and Epic documentation fix UE=(2.54x,-2.54y,2.54z), reversible math checks pass | Phase 2 exporter/editor round-trip must preserve convention exactly once; no import accepted yet |
 | U05 | Per-area directional coverage | 189 current-build area captures, eight exclusions; sixteen critical-area view sets and eleven subarea sets accepted; all required directional sets accepted; individual image limitations retained | Preserve complementary view coverage; resolve full structural metric evidence |
-| U06 | Revision-sensitive traversal | Four special connections in TOPOLOGY.json unverified | Current-build jump/drop/boost tests; record each direction |
+| U06 | Revision-sensitive traversal | S01 observed forward twice/reverse once; S02 forward accepted; S03/S04 unverified | Current-build jump/drop/boost tests; record each direction |
 | U07 | Source image revision | Web radars have no matching installed-build identity | Crosscheck against current local captures |
 | U08 | Current truth-map footprint | RADAR_PLAN.svg has physical grid and 13 floor samples; four anchors fit within .20 pixels; 2-pixel localization allowance about92cm; stylized outlines are unsurveyed | Architectural boundary crosschecks and overlapping elevation layers |
 

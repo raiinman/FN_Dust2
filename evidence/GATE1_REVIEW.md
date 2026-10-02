@@ -8,7 +8,7 @@ Source: installed CS2 build25640462, de_dust2. GitHub main is durable authority.
 | Provenance and current revision | REFERENCE_MANIFEST.csv; native poses/hashes and build25640462 | PASS for reviewed captured batches |
 | Physical scale and coordinate convention | SCALE_CALIBRATION.json; COORDINATE_TRANSFORM.json | PASS for current-build factor2.54 and reversible UE=(2.54x,-2.54y,2.54z); Phase2 exporter/import validation pending |
 | Every critical area forward/reverse/side/elevation coverage | 189 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | PASS: sixteen critical-area sets and eleven subarea sets accepted; structural metric and traversal remain separate |
-| Unambiguous validated topology | ROUTE_GRAPH.md; TOPOLOGY.json; WALK_PROBES.json | FAIL: twenty-two surveyed paths pass both directions; remaining ordinary routes and all four special traversals incomplete |
+| Unambiguous validated topology | ROUTE_GRAPH.md; TOPOLOGY.json; WALK_PROBES.json | FAIL: twenty-two surveyed paths pass both directions; remaining ordinary routes and S03/S04 and remaining direction classifications incomplete |
 | Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 58 calibrated feature measurements and54 repeated stair floor samples; full critical register incomplete |
 | Calibrated annotated whole-map truth | RADAR_CALIBRATION.json; RADAR_PLAN.svg | FAIL: four native anchors, physical grid and floor labels; stylized architectural outlines and overlapping elevation layers unverified |
 | Bounded remaining uncertainty | UNCERTAINTY.md; SURVEY_TASKS.csv | FAIL: unresolved critical extents, full apertures/cover dimensions, stairs and render/collision bounds |
@@ -61,7 +61,7 @@ start-only teleport, reduced speed and arrival tolerance recorded in each path.
 Failed/interrupted waypoint plans remain preserved. TRAVERSAL_PROBES accepts
 observed E27 forward jump/drop twice; failed launch/short/reverse attempts retained.
 Observed E11 forward spawn jump/drop also has stable landing; reverse remains
-unverified. Reverse classification and all four S01-S04 special connections remain unresolved.
+unverified. Reverse classification and S03/S04 and remaining direction classifications remain unresolved.
 
 RADAR_PLAN.svg was rendered and inspected. Four anchor residuals are below0.20
 pixels; a2-pixel (~92cm) localization allowance does not bound stylized walls.
