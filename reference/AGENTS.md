@@ -246,3 +246,15 @@ axis-flat concrete candidates from PLAN_SECTION_SWEEPS and independently held
 PLAN_SECTION_CHECKS rays. The hash-pinned calibrated overview keeps exact ray
 elevations, rejected and unexecuted checks explicit. Point agreement alone grants
 no component identity, full ends, polygon closure or continuous footprint.
+
+XBOX_UPPER_JOINT_PROFILE.json selects repeated plastic-cover and adjacent Rock
+Hull supports from CONNECTOR_SURFACE_PROFILES. Its CSV/SVG keep components
+separate and record the nearest unlike downward-hit sample interval. Point-pair
+rise is adjacent support elevation difference, never exact vertical face height,
+hidden body/base, constant cap height or rendered-surface certification.
+
+Boundary-transition diagnostics in ARCHITECTURAL_ENDPOINTS retain native
+on/off-plane rays, plane/material tolerance, angular search history and projected
+conditional interval. Different source origins may shift an occluding shadow;
+never equate a single-origin visibility change with the actual end of a wall.
+Independent origin checks and component review precede architectural acceptance.

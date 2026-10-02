@@ -8,7 +8,7 @@ with its configured model; no model override or agent delegation requested.
 ## Authority and preserved work
 
 GitHub main authoritative; fetch/check before resuming. Crash baseline35eaa642,
-dirty work preserved4c7df48, mergedab4e484. Latest pushed checkpointeaacb3b
+dirty work preserved4c7df48, mergedab4e484. Latest pushed checkpoint858d906
 before this update. Active C:/Users/mikea/Documents/Codex/2026-09-30/new-chat/
 FN_Dust2, branch codex/crash-recovery-20261001 pushes meaningful checkpoints
 to main. OneDrive workspace separate; synced sources/ read-only. Raw/private
@@ -24,8 +24,8 @@ recovery: evidence/CRASH_RECOVERY_20261001.md. Latest Git commit pins checkpoint
 - Scale2.54cm/native from two repeated inch-rangefinder anchors. UE=(2.54x,
   -2.54y,2.54z), inverse/length/native-right checks PASS. Phase2 editor/exporter
   roundtrip unverified. Unsaved Hammer128 calibration cube is not production.
-- 13 floor datums;54 Short/54 Tunnel stair samples;418 connector floor/cover/
-  cap points;317 calibrated feature measurements.113 local architectural chords
+- 13 floor datums;54 Short/54 Tunnel stair samples;434 connector floor/cover/
+  cap points;321 calibrated feature measurements.113 local architectural chords
   never become complete room rectangles or minimum full-route clearances.
 - Short12 rendered/native risers, rise234.3912cm/run359.6132cm sampled; nonuniform.
   Tunnel18 risers/18 local planes/36 independent offsets/16 tread-level widths;
@@ -61,7 +61,7 @@ recovery: evidence/CRASH_RECOVERY_20261001.md. Latest Git commit pins checkpoint
   max.5465851px. New poses/settings require fresh checks. Failed transferred
   matrix21.6567px preserved. Known-Z inverse requires independent elevation;
   pixels do not certify hidden floors/selected rendered edges/collision offsets.
-- 18 PLAN_SECTION_SWEEPS reports:574 first-hit directions and2 open directions,
+- 20 PLAN_SECTION_SWEEPS reports:638 first-hit directions and2 open directions,
   each repeated twice; exact ray heights/material/rangefinder evidence. Point-
   only two-height-layer figure rendered/inspected. TSpawn east0/west180 native
   misses have no endpoint/distance and prove no playerclip/floor extent.
@@ -94,7 +94,7 @@ provide floor elevations; feet only selected origins. The TopMid/OutsideLong
 metal Hull support is explicit, separate from surrounding Mesh floor. Sample
 chord/elevation CSV/SVG rebuilt/rendered/inspected; dashed links do not interpolate
 floor or give actual walking length.26 sampled endpoint elevation/chord measures
-recorded;317 feature measurements/418 connector points. Wrapper completed all85,
+recorded;321 feature measurements/434 connector points. Wrapper completed all85,
 finally restored original source pose, exact independent echo/readback passed.
 
 Both route-axis surveys completed/restored and independently read back:85 floor-
@@ -106,7 +106,7 @@ clearance, route minimum or playerclip-mask acceptance.
 
 remaining_portals_04 completed/restored:seven local stone opening widths,three
 opposite outside-origin masonry depths and nine additional sand-floor/stone
-intrados columns registered.317 measurements/113 chords; derived section map
+intrados columns registered.321 measurements/113 chords; derived section map
 rebuilt/rendered/inspected. Lower south old inside ray first hits Wood cover,
 never a masonry depth; unsafe LowerY1495 column excluded before execution.
 
@@ -121,17 +121,29 @@ areas completed/restored; total206 independent midpoint directions/17 area
 models in PLAN_SECTION_CHECKS. Calibrated overhead figure rebuilt/rendered/
 inspected. No component/full-boundary or closed-footprint acceptance.
 
-ONE ACTIVE pose controller: run_planned_columns_01.py with private
-xbox_joint_04/columns_plan.json; six first-surface downward diagnostics atX-280/
--270/-260, Y1390/1450. SourceZ50 above measured adjacent cap; surfaces determine
-cover versus masonry. Inspect driver_recovery_001.json/completed IDs and actual
-restoration after interruption, never rerun completed cases.
+Xbox joint batches04/05 completed/restored and independently read back.
+Six Plastic Mesh cover-top/ten Rock Hull cap points registered,434 connector
+points and321 calibrated feature measurements. Adjacent support rises144.272/
+138.8364cm and XY intervals5.1054/5.08cm retained as point-pair differences,
+not vertical face height or hidden cover body. XBOX_UPPER_JOINT_PROFILE16-point
+CSV/SVG rebuilt/rendered/inspected; preserve discontinuity and component identity.
 
-Planned unexecuted: high_room_sections_03/config.json and serial
-run_high_room_sections_003.py split LongZ300/UpperZ200 into separate native
-32-direction reports with full guards. portal_edges_06/widths_config.json
-selects13 additional curve/near-apex widths; columns_plan.json selects eight
-near-jamb floor/intrados columns. Preserve source units and component limits.
+Higher LongZ300/UpperZ200 sections completed/restored:20 PLAN_SECTION_SWEEPS
+reports/638 distinct hit directions plus2 misses, each repeated twice. Above-
+leaf Long masonry relief and Upper remote southwest metalpanel remain explicit;
+no uniform rectangle or closed chamber outline. Numbered source-marker legend
+fixes overlapping labels; two-height-layer point figure rebuilt/rendered/inspected.
+
+Boundary-transition helper live-tested: first B-west origin48 native observations,
+two conditional projected Y intervals2704.898..2704.986 and2431.940..2432.005 at
+planeX-2128.005 Z104; exact original pose restored/read back. Original report
+registered diagnostic in ARCHITECTURAL_ENDPOINTS; no actual full wall end accepted.
+ONE ACTIVE pose controller: cs2_probe_boundary_transition.py with private
+boundary_transitions_02/b_west_config.json; second originX-1900Y2500 to check
+occluding-protrusion shifts. Output B_WEST_FIRST_HIT_TRANSITIONS_SECOND_ORIGIN_002.
+Inspect actual process/status/rays/restoration before source input after interruption.
+Planned unexecuted portal_edges_06/widths_config.json selects13 curve/near-apex
+widths; columns_plan.json selects eight near-jamb floor/intrados columns.
 
 Temporary engine_no_focus_sleep0(original20), m_yaw/m_pitch0(original.022).
 Movement released/maxspeed320/noclip1. Restore/read back temporary originals at

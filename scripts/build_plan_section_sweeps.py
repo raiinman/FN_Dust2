@@ -28,10 +28,14 @@ def build(root):
  with (ref/'PLAN_SECTION_POINTS.csv').open('w',newline='') as f:w=csv.DictWriter(f,fieldnames=rows[0]);w.writeheader();w.writerows(rows)
  if open_rows:
   with (ref/'PLAN_SECTION_OPEN_RAYS.csv').open('w',newline='') as f:w=csv.DictWriter(f,fieldnames=open_rows[0]);w.writeheader();w.writerows(open_rows)
- parts=['<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200">','<rect width="1600" height="1200" fill="#101923"/>','<g fill="#edf3f8" font-family="Arial"><text x="40" y="38" font-size="25">Dust II — native horizontal first-hit sections</text><text x="40" y="68" font-size="17">Build25640462 · 2.54cm/native · source X right / Y up · repeated endpoint evidence</text><text x="40" y="96" font-size="16">No lines join neighboring rays: angular gaps, cover occlusion and portals remain unsurveyed.</text></g>']
+ parts=['<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1450" viewBox="0 0 1600 1450">','<rect width="1600" height="1450" fill="#101923"/>','<g fill="#edf3f8" font-family="Arial"><text x="40" y="38" font-size="25">Dust II — native horizontal first-hit sections</text><text x="40" y="68" font-size="17">Build25640462 · 2.54cm/native · source X right / Y up · repeated endpoint evidence</text><text x="40" y="96" font-size="16">No lines join neighboring rays: angular gaps, cover occlusion and portals remain unsurveyed.</text></g>']
  # Fixed full-map axes preserve relative position across floor layers.
  scale=.145
  def xy(x,y,layer):return 45+layer*790+(x+2600)*scale,145+(3500-y)*scale
+ locations={}
+ for report in data['reports']:
+  for station in report['config']['stations']:
+   x,y,z=station['pose'];area=report.get('reviewed_area',report['area']);locations.setdefault((x,y,area),set()).add(z+64)
  for layer,title in [(0,'LOWER · ray Z below native datum0'),(1,'UPPER · ray Z at/above native datum0')]:
   left=45+layer*790;parts.append(f'<text x="{left}" y="128" fill="#cbd9e4" font-family="Arial" font-size="19">{title}</text>')
   for x in range(-2500,2001,500):
@@ -43,14 +47,17 @@ def build(root):
    x,y=xy(row['x_native'],row['y_native'],layer);color='#52d0e3' if row['surface']=='concrete' else '#f0b64c'
    title=escape(f"{row['report']} yaw{row['yaw']}: ({row['x_cm']},{row['y_cm']},{row['z_cm']})cm · {row['surface']} · first hit only")
    parts.append(f'<g><title>{title}</title><circle cx="{x}" cy="{y}" r="2.8" fill="{color}"/></g>')
-  for report in data['reports']:
-   for station in report['config']['stations']:
-    x,y,z=station['pose'];z+=64
-    if (z>=0)!=bool(layer):continue
-    u,v=xy(x,y,layer);label=escape(report['area']);parts.append(f'<circle cx="{u}" cy="{v}" r="4" fill="#edf3f8"/><text x="{u+7}" y="{v-7}" fill="#edf3f8" font-family="Arial" font-size="12">{label} · Z{z*factor/100:+.3f}m</text>')
+  for index,((x,y,area),heights) in enumerate(locations.items(),1):
+   if not any((z>=0)==bool(layer) for z in heights):continue
+   u,v=xy(x,y,layer);parts.append(f'<circle cx="{u}" cy="{v}" r="4" fill="#edf3f8"/><text x="{u+7}" y="{v-7}" fill="#edf3f8" stroke="#101923" stroke-width="3" paint-order="stroke" font-family="Arial" font-size="12">{index}</text>')
+ for index,((x,y,area),heights) in enumerate(locations.items()):
+  left=45+(index//9)*790;top=905+(index%9)*25;zlabel='/'.join(f'{z*factor/100:+.3f}' for z in sorted(heights));parts.append(f'<text x="{left}" y="{top}" fill="#edf3f8" font-family="Arial" font-size="14">{index+1}. {escape(area)} · rayZ{zlabel}m</text>')
  parts.append(f'<g fill="#edf3f8" font-family="Arial" font-size="16"><text x="45" y="925">{len(rows)} distinct direction points, each repeated twice with native rangefinder crosscheck.</text><text x="45" y="955">Cyan: concrete surface. Gold: other material (often cover); color alone never assigns architectural identity.</text><text x="45" y="985">Z is the exact horizontal collision section, not a floor elevation or full-height wall.</text><text x="45" y="1015">Every point retains pose, surface/shape/face, repetitions and source-build identity in PLAN_SECTION_SWEEPS.</text><text x="45" y="1045">Output rounding ≤.0508cm per span; angular gaps/render-to-collision offsets are NOT bounded by that rounding.</text><text x="45" y="1075">Gate1 FAIL: wall/corner interpretation, independent withheld checks and continuous layered footprint remain pending.</text></g></svg>')
  if open_rows:
   parts[-1]=parts[-1].replace('</svg>',f'<text x="45" y="1115" fill="#f0b64c" font-family="Arial" font-size="16">{len(open_rows)} repeated native no-hit directions separately recorded in PLAN_SECTION_OPEN_RAYS; no endpoint/distance.</text><text x="45" y="1145" fill="#f0b64c" font-family="Arial" font-size="16">Native ray misses do not prove absent player collision, floor extent or rendered boundaries.</text></svg>')
+ for old in range(925,1146,30):parts[-1]=parts[-1].replace(f'y="{old}"',f'y="{old+245}"')
+ # Open-ray labels use1115/1145 instead of the regular30px sequence.
+ parts[-1]=parts[-1].replace('y="1115"','y="1360"').replace('y="1145"','y="1390"')
  (ref/'PLAN_SECTION_SWEEPS.svg').write_text('\n'.join(parts)+'\n')
  print(f'{len(rows)} repeated native section points;{len(open_rows)} no-hit directions; no inferred edges or footprint acceptance')
 

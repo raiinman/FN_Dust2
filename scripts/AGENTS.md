@@ -301,3 +301,13 @@ build_wall_boundary_checks.py derives concrete axis candidates, validates exact
 baseline/check links and hashes the calibrated overhead source image. Its SVG
 projects only tested-Z-range candidate points. Rebuild/render/inspect after
 checks change; numerical point agreement never accepts a continuous wall.
+
+build_xbox_joint_profile.py validates independently repeated selected cover/cap
+points and derives separate sample chains and material-transition intervals.
+Rebuild/render/inspect its CSV/SVG; never interpolate across the elevation break.
+cs2_probe_boundary_transition.py brackets a conditional on-plane/off-plane
+first-hit angular change using one safe source pose, two native repeats and
+exact echo/pose/rangefinder checks; saves partial output and finally restores.
+Its projected bracket presumes one transition and may be caused by occluding
+returns/cover. Independent origins and component review are needed before any
+architectural endpoint interpretation. Never grant full wall ends automatically.

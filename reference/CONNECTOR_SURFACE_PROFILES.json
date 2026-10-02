@@ -31424,6 +31424,1220 @@
       "id": "ROUTE_FLOOR_SUICIDE_TOPMID_BOTH_04_001",
       "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\route_floor_profiles_01\\ROUTE_FLOOR_SUICIDE_TOPMID_BOTH_04_001.json",
       "surface_semantics": "Reviewed repeated concrete/sand/gravel/tile Mesh floor at accepted collision-walk XY. Source walk SUICIDE_FLOOR_TO_TOPMID_002 corroborates traversable surface; fresh corrected native ray supplies elevation, not player feet. Local floor sample only; surface interpolation, minimum route width and full endpoints remain separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T10:46:19.971163+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Xbox visible upper joint against Catwalk masonry",
+      "unit": "source_units",
+      "target_xy": [
+        -280.0,
+        1390.0
+      ],
+      "probe_player_z": 50.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -343.990234 1390.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -278.6,
+            1390.0,
+            -28.9
+          ],
+          "xy_error": 1.3999999999999773,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop plastic, contents 400004c1, shape type: Mesh, face: 7280"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -345.390259 1390.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -280.0,
+            1390.0,
+            -28.83
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop plastic, contents 400004c1, shape type: Mesh, face: 7280"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -345.390259 1390.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -280.0,
+            1390.0,
+            -28.83
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop plastic, contents 400004c1, shape type: Mesh, face: 7280"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -280.0,
+          1390.0,
+          -28.83
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "XBOX_EAST_JOINT_X280_Y1390_004",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\xbox_joint_04\\XBOX_EAST_JOINT_X280_Y1390_004.json",
+      "surface_semantics": "Reviewed first plastic Mesh cover top at Xbox east upper joint, independently repeated and corrected XY. This is cover support, not bare ground; existing clean Xbox references corroborate visible cloth-covered top. Cover remains exposed throughX-260 at twoY stations. Exact transition/hidden body/base/rendered offsets remain separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T10:46:28.915174+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Xbox visible upper joint against Catwalk masonry",
+      "unit": "source_units",
+      "target_xy": [
+        -270.0,
+        1390.0
+      ],
+      "probe_player_z": 50.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -333.990234 1390.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -268.6,
+            1390.0,
+            -28.95
+          ],
+          "xy_error": 1.3999999999999773,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop plastic, contents 400004c1, shape type: Mesh, face: 7466"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -335.390259 1390.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -270.0,
+            1390.0,
+            -28.95
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop plastic, contents 400004c1, shape type: Mesh, face: 7466"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -335.390259 1390.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -270.0,
+            1390.0,
+            -28.95
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop plastic, contents 400004c1, shape type: Mesh, face: 7466"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -270.0,
+          1390.0,
+          -28.95
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "XBOX_EAST_JOINT_X270_Y1390_004",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\xbox_joint_04\\XBOX_EAST_JOINT_X270_Y1390_004.json",
+      "surface_semantics": "Reviewed first plastic Mesh cover top at Xbox east upper joint, independently repeated and corrected XY. This is cover support, not bare ground; existing clean Xbox references corroborate visible cloth-covered top. Cover remains exposed throughX-260 at twoY stations. Exact transition/hidden body/base/rendered offsets remain separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T10:46:37.654960+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Xbox visible upper joint against Catwalk masonry",
+      "unit": "source_units",
+      "target_xy": [
+        -260.0,
+        1390.0
+      ],
+      "probe_player_z": 50.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -323.990234 1390.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -258.6,
+            1390.0,
+            -28.85
+          ],
+          "xy_error": 1.3999999999999773,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop plastic, contents 400004c1, shape type: Mesh, face: 7674"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -325.390259 1390.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -260.0,
+            1390.0,
+            -28.93
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop plastic, contents 400004c1, shape type: Mesh, face: 7470"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -325.390259 1390.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -260.0,
+            1390.0,
+            -28.93
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop plastic, contents 400004c1, shape type: Mesh, face: 7470"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -260.0,
+          1390.0,
+          -28.93
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "XBOX_EAST_JOINT_X260_Y1390_004",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\xbox_joint_04\\XBOX_EAST_JOINT_X260_Y1390_004.json",
+      "surface_semantics": "Reviewed first plastic Mesh cover top at Xbox east upper joint, independently repeated and corrected XY. This is cover support, not bare ground; existing clean Xbox references corroborate visible cloth-covered top. Cover remains exposed throughX-260 at twoY stations. Exact transition/hidden body/base/rendered offsets remain separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T10:46:46.787946+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Xbox visible upper joint against Catwalk masonry",
+      "unit": "source_units",
+      "target_xy": [
+        -280.0,
+        1450.0
+      ],
+      "probe_player_z": 50.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -343.990234 1450.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -278.6,
+            1450.0,
+            -28.96
+          ],
+          "xy_error": 1.3999999999999773,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop plastic, contents 400004c1, shape type: Mesh, face: 7454"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -345.390259 1450.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -280.0,
+            1450.0,
+            -28.96
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop plastic, contents 400004c1, shape type: Mesh, face: 7457"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -345.390259 1450.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -280.0,
+            1450.0,
+            -28.96
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop plastic, contents 400004c1, shape type: Mesh, face: 7457"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -280.0,
+          1450.0,
+          -28.96
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "XBOX_EAST_JOINT_X280_Y1450_004",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\xbox_joint_04\\XBOX_EAST_JOINT_X280_Y1450_004.json",
+      "surface_semantics": "Reviewed first plastic Mesh cover top at Xbox east upper joint, independently repeated and corrected XY. This is cover support, not bare ground; existing clean Xbox references corroborate visible cloth-covered top. Cover remains exposed throughX-260 at twoY stations. Exact transition/hidden body/base/rendered offsets remain separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T10:46:56.028867+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Xbox visible upper joint against Catwalk masonry",
+      "unit": "source_units",
+      "target_xy": [
+        -270.0,
+        1450.0
+      ],
+      "probe_player_z": 50.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -333.990234 1450.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -268.6,
+            1450.0,
+            -28.98
+          ],
+          "xy_error": 1.3999999999999773,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop plastic, contents 400004c1, shape type: Mesh, face: 7508"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -335.390259 1450.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -270.0,
+            1450.0,
+            -28.98
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop plastic, contents 400004c1, shape type: Mesh, face: 7508"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -335.390259 1450.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -270.0,
+            1450.0,
+            -28.98
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop plastic, contents 400004c1, shape type: Mesh, face: 7508"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -270.0,
+          1450.0,
+          -28.98
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "XBOX_EAST_JOINT_X270_Y1450_004",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\xbox_joint_04\\XBOX_EAST_JOINT_X270_Y1450_004.json",
+      "surface_semantics": "Reviewed first plastic Mesh cover top at Xbox east upper joint, independently repeated and corrected XY. This is cover support, not bare ground; existing clean Xbox references corroborate visible cloth-covered top. Cover remains exposed throughX-260 at twoY stations. Exact transition/hidden body/base/rendered offsets remain separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T10:47:05.368935+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Xbox visible upper joint against Catwalk masonry",
+      "unit": "source_units",
+      "target_xy": [
+        -260.0,
+        1450.0
+      ],
+      "probe_player_z": 50.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -323.990234 1450.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -258.6,
+            1450.0,
+            -28.95
+          ],
+          "xy_error": 1.3999999999999773,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop plastic, contents 400004c1, shape type: Mesh, face: 7737"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -325.390259 1450.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -260.0,
+            1450.0,
+            -28.96
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop plastic, contents 400004c1, shape type: Mesh, face: 7513"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -325.390259 1450.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -260.0,
+            1450.0,
+            -28.96
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop plastic, contents 400004c1, shape type: Mesh, face: 7513"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -260.0,
+          1450.0,
+          -28.96
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "XBOX_EAST_JOINT_X260_Y1450_004",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\xbox_joint_04\\XBOX_EAST_JOINT_X260_Y1450_004.json",
+      "surface_semantics": "Reviewed first plastic Mesh cover top at Xbox east upper joint, independently repeated and corrected XY. This is cover support, not bare ground; existing clean Xbox references corroborate visible cloth-covered top. Cover remains exposed throughX-260 at twoY stations. Exact transition/hidden body/base/rendered offsets remain separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T10:49:01.061117+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Xbox visible upper joint refinement against Catwalk masonry",
+      "unit": "source_units",
+      "target_xy": [
+        -258.0,
+        1390.0
+      ],
+      "probe_player_z": 50.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -321.990234 1390.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -257.6,
+            1390.0,
+            28.34
+          ],
+          "xy_error": 0.39999999999997726,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -322.390259 1390.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -257.99,
+            1390.0,
+            27.87
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -322.390259 1390.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -257.99,
+            1390.0,
+            27.87
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -257.99,
+          1390.0,
+          27.87
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "XBOX_EAST_JOINT_X258_Y1390_005",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\xbox_joint_05\\XBOX_EAST_JOINT_X258_Y1390_005.json",
+      "surface_semantics": "Reviewed repeated first Rock Hull support at Xbox east join to Catwalk raised masonry. This is adjacent cap support, not bare ground, plastic cover or hidden bbox. Exact corrected point and shape/material retained; finite samples do not certify constant cap height, complete joint or rendered offset."
+    },
+    {
+      "timestamp_utc": "2026-10-02T10:49:10.186912+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Xbox visible upper joint refinement against Catwalk masonry",
+      "unit": "source_units",
+      "target_xy": [
+        -256.0,
+        1390.0
+      ],
+      "probe_player_z": 50.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -319.990234 1390.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -255.61,
+            1390.0,
+            28.88
+          ],
+          "xy_error": 0.38999999999998636,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -320.380249 1390.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -256.0,
+            1390.0,
+            28.78
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -320.380249 1390.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -256.0,
+            1390.0,
+            28.78
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -256.0,
+          1390.0,
+          28.78
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "XBOX_EAST_JOINT_X256_Y1390_005",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\xbox_joint_05\\XBOX_EAST_JOINT_X256_Y1390_005.json",
+      "surface_semantics": "Reviewed repeated first Rock Hull support at Xbox east join to Catwalk raised masonry. This is adjacent cap support, not bare ground, plastic cover or hidden bbox. Exact corrected point and shape/material retained; finite samples do not certify constant cap height, complete joint or rendered offset."
+    },
+    {
+      "timestamp_utc": "2026-10-02T10:49:19.514467+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Xbox visible upper joint refinement against Catwalk masonry",
+      "unit": "source_units",
+      "target_xy": [
+        -254.0,
+        1390.0
+      ],
+      "probe_player_z": 50.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -317.990234 1390.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -253.62,
+            1390.0,
+            29.42
+          ],
+          "xy_error": 0.37999999999999545,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -318.370239 1390.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -254.0,
+            1390.0,
+            29.32
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -318.370239 1390.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -254.0,
+            1390.0,
+            29.32
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -254.0,
+          1390.0,
+          29.32
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "XBOX_EAST_JOINT_X254_Y1390_005",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\xbox_joint_05\\XBOX_EAST_JOINT_X254_Y1390_005.json",
+      "surface_semantics": "Reviewed repeated first Rock Hull support at Xbox east join to Catwalk raised masonry. This is adjacent cap support, not bare ground, plastic cover or hidden bbox. Exact corrected point and shape/material retained; finite samples do not certify constant cap height, complete joint or rendered offset."
+    },
+    {
+      "timestamp_utc": "2026-10-02T10:49:28.539994+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Xbox visible upper joint refinement against Catwalk masonry",
+      "unit": "source_units",
+      "target_xy": [
+        -252.0,
+        1390.0
+      ],
+      "probe_player_z": 50.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -315.990234 1390.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -251.63,
+            1390.0,
+            29.96
+          ],
+          "xy_error": 0.37000000000000455,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -316.360229 1390.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -252.0,
+            1390.0,
+            29.86
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -316.360229 1390.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -252.0,
+            1390.0,
+            29.86
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -252.0,
+          1390.0,
+          29.86
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "XBOX_EAST_JOINT_X252_Y1390_005",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\xbox_joint_05\\XBOX_EAST_JOINT_X252_Y1390_005.json",
+      "surface_semantics": "Reviewed repeated first Rock Hull support at Xbox east join to Catwalk raised masonry. This is adjacent cap support, not bare ground, plastic cover or hidden bbox. Exact corrected point and shape/material retained; finite samples do not certify constant cap height, complete joint or rendered offset."
+    },
+    {
+      "timestamp_utc": "2026-10-02T10:49:37.864833+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Xbox visible upper joint refinement against Catwalk masonry",
+      "unit": "source_units",
+      "target_xy": [
+        -250.0,
+        1390.0
+      ],
+      "probe_player_z": 50.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -313.990234 1390.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -249.64,
+            1390.0,
+            30.49
+          ],
+          "xy_error": 0.36000000000001364,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -314.350220 1390.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -250.0,
+            1390.0,
+            30.4
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -314.350220 1390.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -250.0,
+            1390.0,
+            30.4
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -250.0,
+          1390.0,
+          30.4
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "XBOX_EAST_JOINT_X250_Y1390_005",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\xbox_joint_05\\XBOX_EAST_JOINT_X250_Y1390_005.json",
+      "surface_semantics": "Reviewed repeated first Rock Hull support at Xbox east join to Catwalk raised masonry. This is adjacent cap support, not bare ground, plastic cover or hidden bbox. Exact corrected point and shape/material retained; finite samples do not certify constant cap height, complete joint or rendered offset."
+    },
+    {
+      "timestamp_utc": "2026-10-02T10:49:47.196472+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Xbox visible upper joint refinement against Catwalk masonry",
+      "unit": "source_units",
+      "target_xy": [
+        -258.0,
+        1450.0
+      ],
+      "probe_player_z": 50.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -321.990234 1450.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -257.59,
+            1450.0,
+            27.84
+          ],
+          "xy_error": 0.410000000000025,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -322.400269 1450.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -257.97,
+            1450.0,
+            26.08
+          ],
+          "xy_error": 0.029999999999972715,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -322.430298 1450.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -258.0,
+            1450.0,
+            25.7
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 4,
+          "observed_pose": "setpos_exact -322.430298 1450.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -258.0,
+            1450.0,
+            25.7
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -258.0,
+          1450.0,
+          25.7
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "XBOX_EAST_JOINT_X258_Y1450_005",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\xbox_joint_05\\XBOX_EAST_JOINT_X258_Y1450_005.json",
+      "surface_semantics": "Reviewed repeated first Rock Hull support at Xbox east join to Catwalk raised masonry. This is adjacent cap support, not bare ground, plastic cover or hidden bbox. Exact corrected point and shape/material retained; finite samples do not certify constant cap height, complete joint or rendered offset."
+    },
+    {
+      "timestamp_utc": "2026-10-02T10:49:58.668489+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Xbox visible upper joint refinement against Catwalk masonry",
+      "unit": "source_units",
+      "target_xy": [
+        -256.0,
+        1450.0
+      ],
+      "probe_player_z": 50.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -319.990234 1450.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -255.61,
+            1450.0,
+            28.69
+          ],
+          "xy_error": 0.38999999999998636,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -320.380249 1450.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -256.0,
+            1450.0,
+            28.58
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -320.380249 1450.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -256.0,
+            1450.0,
+            28.58
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -256.0,
+          1450.0,
+          28.58
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "XBOX_EAST_JOINT_X256_Y1450_005",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\xbox_joint_05\\XBOX_EAST_JOINT_X256_Y1450_005.json",
+      "surface_semantics": "Reviewed repeated first Rock Hull support at Xbox east join to Catwalk raised masonry. This is adjacent cap support, not bare ground, plastic cover or hidden bbox. Exact corrected point and shape/material retained; finite samples do not certify constant cap height, complete joint or rendered offset."
+    },
+    {
+      "timestamp_utc": "2026-10-02T10:50:07.599178+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Xbox visible upper joint refinement against Catwalk masonry",
+      "unit": "source_units",
+      "target_xy": [
+        -254.0,
+        1450.0
+      ],
+      "probe_player_z": 50.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -317.990234 1450.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -253.62,
+            1450.0,
+            29.25
+          ],
+          "xy_error": 0.37999999999999545,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -318.370239 1450.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -254.0,
+            1450.0,
+            29.14
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -318.370239 1450.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -254.0,
+            1450.0,
+            29.14
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -254.0,
+          1450.0,
+          29.14
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "XBOX_EAST_JOINT_X254_Y1450_005",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\xbox_joint_05\\XBOX_EAST_JOINT_X254_Y1450_005.json",
+      "surface_semantics": "Reviewed repeated first Rock Hull support at Xbox east join to Catwalk raised masonry. This is adjacent cap support, not bare ground, plastic cover or hidden bbox. Exact corrected point and shape/material retained; finite samples do not certify constant cap height, complete joint or rendered offset."
+    },
+    {
+      "timestamp_utc": "2026-10-02T10:50:16.521503+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Xbox visible upper joint refinement against Catwalk masonry",
+      "unit": "source_units",
+      "target_xy": [
+        -252.0,
+        1450.0
+      ],
+      "probe_player_z": 50.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -315.990234 1450.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -251.63,
+            1450.0,
+            29.8
+          ],
+          "xy_error": 0.37000000000000455,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -316.360229 1450.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -252.0,
+            1450.0,
+            29.7
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -316.360229 1450.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -252.0,
+            1450.0,
+            29.7
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -252.0,
+          1450.0,
+          29.7
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "XBOX_EAST_JOINT_X252_Y1450_005",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\xbox_joint_05\\XBOX_EAST_JOINT_X252_Y1450_005.json",
+      "surface_semantics": "Reviewed repeated first Rock Hull support at Xbox east join to Catwalk raised masonry. This is adjacent cap support, not bare ground, plastic cover or hidden bbox. Exact corrected point and shape/material retained; finite samples do not certify constant cap height, complete joint or rendered offset."
+    },
+    {
+      "timestamp_utc": "2026-10-02T10:50:25.859972+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Xbox visible upper joint refinement against Catwalk masonry",
+      "unit": "source_units",
+      "target_xy": [
+        -250.0,
+        1450.0
+      ],
+      "probe_player_z": 50.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -313.990234 1450.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -249.64,
+            1450.0,
+            30.36
+          ],
+          "xy_error": 0.36000000000001364,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -314.350220 1450.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -250.0,
+            1450.0,
+            30.26
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -314.350220 1450.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -250.0,
+            1450.0,
+            30.26
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -250.0,
+          1450.0,
+          30.26
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "XBOX_EAST_JOINT_X250_Y1450_005",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\xbox_joint_05\\XBOX_EAST_JOINT_X250_Y1450_005.json",
+      "surface_semantics": "Reviewed repeated first Rock Hull support at Xbox east join to Catwalk raised masonry. This is adjacent cap support, not bare ground, plastic cover or hidden bbox. Exact corrected point and shape/material retained; finite samples do not certify constant cap height, complete joint or rendered offset."
     }
   ],
   "accepted_pairs": [
@@ -31948,6 +33162,42 @@
       "dimension": "horizontal_interval",
       "feature": "Sampled route straight endpoint XY chord",
       "notes": "Actual repeated floor endpoints at accepted walking XY; straight chord is not walking path length. Endpoint elevation difference is not total climb/minimum grade or a whole-route floor model. Native per-point/surface data retained."
+    },
+    {
+      "id": "XBOX_CONTACT_Y1390_SAMPLED_RISE",
+      "area": "Xbox / Catwalk",
+      "from_report": "XBOX_EAST_JOINT_X260_Y1390_004",
+      "to_report": "XBOX_EAST_JOINT_X258_Y1390_005",
+      "dimension": "rise",
+      "feature": "Adjacent cover-top/first-rock-support elevation difference",
+      "notes": "Adjacent first-plastic-cover-top and first-Rock-Hull support at sameY. Independent repeated/corrected points bracket a local downward-hit material transition. Elevation difference is not exact vertical face height, hidden cover extent or rendered-surface acceptance."
+    },
+    {
+      "id": "XBOX_CONTACT_Y1390_SAMPLED_HORIZONTAL_INTERVAL",
+      "area": "Xbox / Catwalk",
+      "from_report": "XBOX_EAST_JOINT_X260_Y1390_004",
+      "to_report": "XBOX_EAST_JOINT_X258_Y1390_005",
+      "dimension": "horizontal_interval",
+      "feature": "Adjacent cover-top/first-rock-support sampled XY interval",
+      "notes": "Adjacent first-plastic-cover-top and first-Rock-Hull support at sameY. Independent repeated/corrected points bracket a local downward-hit material transition. Elevation difference is not exact vertical face height, hidden cover extent or rendered-surface acceptance."
+    },
+    {
+      "id": "XBOX_CONTACT_Y1450_SAMPLED_RISE",
+      "area": "Xbox / Catwalk",
+      "from_report": "XBOX_EAST_JOINT_X260_Y1450_004",
+      "to_report": "XBOX_EAST_JOINT_X258_Y1450_005",
+      "dimension": "rise",
+      "feature": "Adjacent cover-top/first-rock-support elevation difference",
+      "notes": "Adjacent first-plastic-cover-top and first-Rock-Hull support at sameY. Independent repeated/corrected points bracket a local downward-hit material transition. Elevation difference is not exact vertical face height, hidden cover extent or rendered-surface acceptance."
+    },
+    {
+      "id": "XBOX_CONTACT_Y1450_SAMPLED_HORIZONTAL_INTERVAL",
+      "area": "Xbox / Catwalk",
+      "from_report": "XBOX_EAST_JOINT_X260_Y1450_004",
+      "to_report": "XBOX_EAST_JOINT_X258_Y1450_005",
+      "dimension": "horizontal_interval",
+      "feature": "Adjacent cover-top/first-rock-support sampled XY interval",
+      "notes": "Adjacent first-plastic-cover-top and first-Rock-Hull support at sameY. Independent repeated/corrected points bracket a local downward-hit material transition. Elevation difference is not exact vertical face height, hidden cover extent or rendered-surface acceptance."
     }
   ],
   "rejected_attempts": [
