@@ -386,3 +386,11 @@ Lower northY2457.43 versus upper bodyY2425.09 is adjoining retaining component,
 excluded from covered depth.387 physical rows; no complete box, hidden base,
 ground-contact height or uniform cloth top accepted. Separate top/surround plan
 is active in STATE; review source components before accepting additional heights.
+
+B covered-top003:7 corrected repeated points/all0 restore, four Wood_Plank Hull
+upper pointsZ102.35..102.98 and three adjacent concrete Mesh groundZ1.33..4.71.
+Three explicit different-XY top-to-ground elevation comparisons registered;
+390 bounded measurements/450 connector points. Ground contact/hidden base and
+full top envelope remain unmeasured. A separately named fresh exterior plane
+check is active in STATE; passing points would only support declared estimated
+continuation, not direct hidden-floor measurement. Keep original three fits fixed.

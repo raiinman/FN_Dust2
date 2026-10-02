@@ -25,8 +25,8 @@ evidence/CRASH_RECOVERY_20261001.md. Inspect dirty work and current main first.
 - Scale2.54cm/native from repeated inch-rangefinder anchors; UE=(2.54x,-2.54y,
   2.54z), inverse/native-right/length checks PASS. Phase2 exporter/editor roundtrip
   remains unverified. Unsaved Hammer128 cube is calibration, not production.
-- 387 bounded physical feature measurements;13 floor datums;54 Short/117 Tunnel
-  stair floor samples;443 connector points;130 local architectural chords.
+- 390 bounded physical feature measurements;13 floor datums;54 Short/117 Tunnel
+  stair floor samples;450 connector points;130 local architectural chords.
   MEASUREMENTS.csv and profile registers retain confidence and explicit limits.
   Local sections/point pairs are not entire room rectangles or route clearances.
 - Listed topology PASS:34 edges/four specials;24 ground paths both directions,
@@ -91,14 +91,17 @@ now extend projection range throughZ290. Whole cap/body still separate. Every co
 ## Desktop and current source controller
 
 ONE active source controller: private run_planned_columns_01.py ->
-b_covered_top_surround_03/driver_recovery_001.json, four covered-top and three
-adjoining first-down points fromZ180. Inspect plan/raw semantics and exact
-restoration before reuse; do not duplicate. Covered-face002 completed24
-observations/all0 restore, registered147th architectural report. Four face
-directions atZ80 each independently agree from two origins: sampled width
-256.3368cm/depth261.6200cm. LowerZ60 width256.9464cm; north lower firstWood
-Y2457.43 is nearer retaining component, excluded from cover depth. Three
-physical rows added (387); no complete cover box/height/hidden base accepted.
+b_cover_ground_holds_04/driver_recovery_001.json, four fresh exterior ground
+checks against fixed three-point plane from covered-top-surround003. Declared
+maximum1native error; never refit or widen threshold after capture. Inspect
+raw status/restoration before further input. Top/surround003 completed7 points,
+exact all0 restore, all registered:4 Wood_Plank Hull topZ102.35..102.98,3 concrete
+Mesh adjoining groundZ1.33..4.71. Three measured different-XY elevation comparisons
+added;390 physical measurements/450 connector points. Hidden contact/full top
+body stays separate. Covered-face002 completed24 observations/all0 restore,
+registered147th architectural report. Z80 width256.3368cm/depth261.6200cm from
+two spaced origins per face; lowerZ60 width256.9464cm. Lower northY2457.43
+retaining component excluded from covered depth.
 Nine B platform columns completed, exact all0
 restore; raw plan/driver/reports preserved in b_platform_columns_01. Eight
 concrete/gravel ground points and one Wood_Plank Hull cover top explicitly

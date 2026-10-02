@@ -400,3 +400,10 @@ Wood_Plank Hull face directions ateyeZ80, each checked from two spaced outside
 origins, plus lowerZ60 diagnostics. Three accepted_endpoint_spans are local
 width/depth sections. Exclude lower northY2457.43 retaining component from covered
 depth; shared material does not establish same body. No entire cover or hidden base.
+
+CONNECTOR_SURFACE_PROFILES.b_covered_top_review selects four repeated covered
+top and three adjoining ground points. Top-to-surround accepted_pairs compare
+explicit different XY elevations, not exact cover height/contact. Fresh ground
+models must retain original fit points/coefficients, predeclared tolerance and
+independent checks without refitting. Passing outside points never measure an
+occluded under-body floor; any continuation remains an explicit estimate.

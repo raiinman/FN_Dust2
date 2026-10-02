@@ -33322,6 +33322,538 @@
       "source_requested_area": "B Site central raised-ground/cover first-down-hit diagnostic",
       "surface_semantics": "First-down concrete/gravel Mesh courtyard or raised masonry surface; repeated selected ground point, not uniform platform or continuous floor.",
       "private_filename": "..\\reference_cache\\crash_recovery_survey\\b_platform_columns_01\\B_PLATFORM_X1700_Y2600_001.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T16:34:44.445015+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Site",
+      "unit": "source_units",
+      "target_xy": [
+        -1840.0,
+        2340.0
+      ],
+      "probe_player_z": 180.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1903.990234 2340.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1838.63,
+            2340.0,
+            102.89
+          ],
+          "xy_error": 1.3699999999998909,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1905.360229 2340.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1840.0,
+            2340.0,
+            102.88
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1905.360229 2340.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1840.0,
+            2340.0,
+            102.88
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1840.0,
+          2340.0,
+          102.88
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_COVER_TOP_X1840_Y2340_003",
+      "source_requested_area": "B Site covered mass first-down upper sample",
+      "surface_semantics": "Repeated covered Wood_Plank Hull upper point; nonuniform selected top, not a uniform plane or full highest envelope.",
+      "private_filename": "..\\reference_cache\\crash_recovery_survey\\b_covered_top_surround_03\\B_COVER_TOP_X1840_Y2340_003.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T16:34:53.678635+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Site",
+      "unit": "source_units",
+      "target_xy": [
+        -1840.0,
+        2400.0
+      ],
+      "probe_player_z": 180.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1903.990234 2400.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1838.63,
+            2400.0,
+            102.65
+          ],
+          "xy_error": 1.3699999999998909,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1905.360229 2400.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1840.0,
+            2400.0,
+            102.64
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1905.360229 2400.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1840.0,
+            2400.0,
+            102.64
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1840.0,
+          2400.0,
+          102.64
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_COVER_TOP_X1840_Y2400_003",
+      "source_requested_area": "B Site covered mass first-down upper sample",
+      "surface_semantics": "Repeated covered Wood_Plank Hull upper point; nonuniform selected top, not a uniform plane or full highest envelope.",
+      "private_filename": "..\\reference_cache\\crash_recovery_survey\\b_covered_top_surround_03\\B_COVER_TOP_X1840_Y2400_003.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T16:35:02.711794+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Site",
+      "unit": "source_units",
+      "target_xy": [
+        -1780.0,
+        2340.0
+      ],
+      "probe_player_z": 180.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1843.990234 2340.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1778.64,
+            2340.0,
+            102.96
+          ],
+          "xy_error": 1.3599999999999,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1845.350220 2340.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1780.0,
+            2340.0,
+            102.98
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1845.350220 2340.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1780.0,
+            2340.0,
+            102.98
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1780.0,
+          2340.0,
+          102.98
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_COVER_TOP_X1780_Y2340_003",
+      "source_requested_area": "B Site covered mass first-down upper sample",
+      "surface_semantics": "Repeated covered Wood_Plank Hull upper point; nonuniform selected top, not a uniform plane or full highest envelope.",
+      "private_filename": "..\\reference_cache\\crash_recovery_survey\\b_covered_top_surround_03\\B_COVER_TOP_X1780_Y2340_003.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T16:35:12.041875+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Site",
+      "unit": "source_units",
+      "target_xy": [
+        -1780.0,
+        2400.0
+      ],
+      "probe_player_z": 180.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1843.990234 2400.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1778.62,
+            2400.0,
+            102.34
+          ],
+          "xy_error": 1.3800000000001091,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1845.370239 2400.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1780.01,
+            2400.0,
+            102.35
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1845.370239 2400.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1780.01,
+            2400.0,
+            102.35
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood_Plank, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1780.01,
+          2400.0,
+          102.35
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_COVER_TOP_X1780_Y2400_003",
+      "source_requested_area": "B Site covered mass first-down upper sample",
+      "surface_semantics": "Repeated covered Wood_Plank Hull upper point; nonuniform selected top, not a uniform plane or full highest envelope.",
+      "private_filename": "..\\reference_cache\\crash_recovery_survey\\b_covered_top_surround_03\\B_COVER_TOP_X1780_Y2400_003.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T16:35:20.872540+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Site",
+      "unit": "source_units",
+      "target_xy": [
+        -1880.0,
+        2370.0
+      ],
+      "probe_player_z": 180.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1943.990234 2370.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1876.93,
+            2370.0,
+            5.24
+          ],
+          "xy_error": 3.0699999999999363,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 98286"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1947.060303 2370.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1879.99,
+            2370.0,
+            4.71
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 98286"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1947.060303 2370.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1879.99,
+            2370.0,
+            4.71
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 98286"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1879.99,
+          2370.0,
+          4.71
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_COVER_SURROUND_X1880_Y2370_003",
+      "source_requested_area": "B Site covered mass adjoining first-down surface",
+      "surface_semantics": "Repeated adjoining concrete Mesh ground point outside covered mass; no hidden under-body floor inference.",
+      "private_filename": "..\\reference_cache\\crash_recovery_survey\\b_covered_top_surround_03\\B_COVER_SURROUND_X1880_Y2370_003.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T16:35:30.111582+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Site",
+      "unit": "source_units",
+      "target_xy": [
+        -1810.0,
+        2300.0
+      ],
+      "probe_player_z": 180.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1873.990234 2300.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1806.86,
+            2300.0,
+            1.17
+          ],
+          "xy_error": 3.1400000000001,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 97921"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1877.130249 2300.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1810.0,
+            2300.0,
+            1.33
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 97921"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1877.130249 2300.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1810.0,
+            2300.0,
+            1.33
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 97921"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1810.0,
+          2300.0,
+          1.33
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_COVER_SURROUND_X1810_Y2300_003",
+      "source_requested_area": "B Site covered mass adjoining first-down surface",
+      "surface_semantics": "Repeated adjoining concrete Mesh ground point outside covered mass; no hidden under-body floor inference.",
+      "private_filename": "..\\reference_cache\\crash_recovery_survey\\b_covered_top_surround_03\\B_COVER_SURROUND_X1810_Y2300_003.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T16:35:39.358700+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Site",
+      "unit": "source_units",
+      "target_xy": [
+        -1740.0,
+        2370.0
+      ],
+      "probe_player_z": 180.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1803.990234 2370.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1736.92,
+            2370.0,
+            4.41
+          ],
+          "xy_error": 3.0799999999999272,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 97935"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1807.070312 2370.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1740.0,
+            2370.0,
+            4.58
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 97933"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1807.070312 2370.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1740.0,
+            2370.0,
+            4.58
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 97933"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1740.0,
+          2370.0,
+          4.58
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_COVER_SURROUND_X1740_Y2370_003",
+      "source_requested_area": "B Site covered mass adjoining first-down surface",
+      "surface_semantics": "Repeated adjoining concrete Mesh ground point outside covered mass; no hidden under-body floor inference.",
+      "private_filename": "..\\reference_cache\\crash_recovery_survey\\b_covered_top_surround_03\\B_COVER_SURROUND_X1740_Y2370_003.json"
     }
   ],
   "accepted_pairs": [
@@ -33900,6 +34432,33 @@
       "dimension": "rise",
       "feature": "Sampled central B raised masonry versus lower courtyard elevation atY2600",
       "notes": "Repeated concrete Mesh points separated300native alongX; point-pair elevation difference only, not exact coincident retaining-face height, uniform platform, slope or entire perimeter. Overhead context reviewed at actual clampedpitch89; no camera transfer acceptance."
+    },
+    {
+      "id": "B_COVER_SOUTH_TOP_TO_SURROUND_SAMPLED_RISE_003",
+      "area": "B Site",
+      "from_report": "B_COVER_SURROUND_X1810_Y2300_003",
+      "to_report": "B_COVER_TOP_X1840_Y2340_003",
+      "dimension": "rise",
+      "feature": "Covered mass selected top-to-adjoining south ground point rise",
+      "notes": "Explicit different XY points: measured elevation comparison, not exact body height/contact/base or minimum clearance. Four top points varyZ102.35..102.98, three adjoining ground pointsZ1.33..4.71. Hidden ground below covered mass and full top/body envelope unmeasured."
+    },
+    {
+      "id": "B_COVER_EAST_TOP_TO_SURROUND_SAMPLED_RISE_003",
+      "area": "B Site",
+      "from_report": "B_COVER_SURROUND_X1740_Y2370_003",
+      "to_report": "B_COVER_TOP_X1780_Y2340_003",
+      "dimension": "rise",
+      "feature": "Covered mass selected top-to-adjoining east ground point rise",
+      "notes": "Explicit different XY points: measured elevation comparison, not exact body height/contact/base or minimum clearance. Four top points varyZ102.35..102.98, three adjoining ground pointsZ1.33..4.71. Hidden ground below covered mass and full top/body envelope unmeasured."
+    },
+    {
+      "id": "B_COVER_WEST_TOP_TO_SURROUND_SAMPLED_RISE_003",
+      "area": "B Site",
+      "from_report": "B_COVER_SURROUND_X1880_Y2370_003",
+      "to_report": "B_COVER_TOP_X1840_Y2400_003",
+      "dimension": "rise",
+      "feature": "Covered mass selected top-to-adjoining west ground point rise",
+      "notes": "Explicit different XY points: measured elevation comparison, not exact body height/contact/base or minimum clearance. Four top points varyZ102.35..102.98, three adjoining ground pointsZ1.33..4.71. Hidden ground below covered mass and full top/body envelope unmeasured."
     }
   ],
   "rejected_attempts": [
@@ -34152,5 +34711,129 @@
     },
     "context_image_id": "QA_B_PLATFORM_OVERHEAD_CONTEXT_001",
     "scope": "Nine corrected repeated down-hit points across central B courtyard. Existing native floor[-1800,2500,30.74] and B Window approach[-1550,2670,5.09] show differing elevations; no assumed constant platform or ground plane. Probe from above: Mesh/Hull cover, roof, sand and concrete components require rendered identification before floor/height acceptance; own-origin/convergence guards preserved. No entire footprint or unseen interpolation."
+  },
+  "b_covered_top_review": {
+    "plan": {
+      "build": "25640462",
+      "cases": [
+        {
+          "id": "B_COVER_TOP_X1840_Y2340_003",
+          "xy": [
+            -1840,
+            2340
+          ],
+          "z": 180,
+          "area": "B Site covered mass first-down upper sample",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "B_COVER_TOP_X1840_Y2400_003",
+          "xy": [
+            -1840,
+            2400
+          ],
+          "z": 180,
+          "area": "B Site covered mass first-down upper sample",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "B_COVER_TOP_X1780_Y2340_003",
+          "xy": [
+            -1780,
+            2340
+          ],
+          "z": 180,
+          "area": "B Site covered mass first-down upper sample",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "B_COVER_TOP_X1780_Y2400_003",
+          "xy": [
+            -1780,
+            2400
+          ],
+          "z": 180,
+          "area": "B Site covered mass first-down upper sample",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "B_COVER_SURROUND_X1880_Y2370_003",
+          "xy": [
+            -1880,
+            2370
+          ],
+          "z": 180,
+          "area": "B Site covered mass adjoining first-down surface",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "B_COVER_SURROUND_X1810_Y2300_003",
+          "xy": [
+            -1810,
+            2300
+          ],
+          "z": 180,
+          "area": "B Site covered mass adjoining first-down surface",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "B_COVER_SURROUND_X1740_Y2370_003",
+          "xy": [
+            -1740,
+            2370
+          ],
+          "z": 180,
+          "area": "B Site covered mass adjoining first-down surface",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        }
+      ],
+      "scope": "Four independent corrected top points safely inside higher covered-face X[-1859.43,-1758.51] andY[2322.09,2425.09] sections, plus three adjacent outside first-down surfaces. Do not assume one flat top, exact underside/ground contact or that every surround ray is ground. Existing north lower first-Wood component excluded because retaining strip intervenes. Component/rendered context review mandatory; preserve failures."
+    },
+    "driver_recovery": {
+      "timestamp_utc": "2026-10-02T16:34:43.677406+00:00",
+      "original_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "status": "completed serial columns; semantic review pending",
+      "completed": [
+        "B_COVER_TOP_X1840_Y2340_003",
+        "B_COVER_TOP_X1840_Y2400_003",
+        "B_COVER_TOP_X1780_Y2340_003",
+        "B_COVER_TOP_X1780_Y2400_003",
+        "B_COVER_SURROUND_X1880_Y2370_003",
+        "B_COVER_SURROUND_X1810_Y2300_003",
+        "B_COVER_SURROUND_X1740_Y2370_003"
+      ],
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "context_image_id": "QA_B_PLATFORM_OVERHEAD_CONTEXT_001",
+    "scope": "Four independent corrected top points safely inside higher covered-face X[-1859.43,-1758.51] andY[2322.09,2425.09] sections, plus three adjacent outside first-down surfaces. Do not assume one flat top, exact underside/ground contact or that every surround ray is ground. Existing north lower first-Wood component excluded because retaining strip intervenes. Component/rendered context review mandatory; preserve failures."
   }
 }
