@@ -35878,6 +35878,620 @@
       "id": "ASITE_EAST_TERMINAL_TOP_X1276_Y2792_037",
       "surface_semantics": "Repeated corrected first-down RockHull near eastern retaining cap; localtop point. Northern continuation throughY2792 survives lower road occlusion; exposed lowerface disappearance is not cap/body end. No fullcap endpoint/hiddenbase/constanttop acceptance.",
       "private_raw_path": "../reference_cache/crash_recovery_survey/asite_cap_ends_037/ASITE_EAST_TERMINAL_TOP_X1276_Y2792_037.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T20:47:03.985536+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A Site courtyard/platform first-down sample; component review required",
+      "unit": "source_units",
+      "target_xy": [
+        700.0,
+        2450.0
+      ],
+      "probe_player_z": 600.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 636.009766 2450.000000 600.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            708.8,
+            2450.0,
+            96.77
+          ],
+          "xy_error": 8.799999999999955,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162765"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 627.209778 2450.000000 600.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            700.0,
+            2450.0,
+            96.8
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162765"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 627.209778 2450.000000 600.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            700.0,
+            2450.0,
+            96.8
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162765"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          700.0,
+          2450.0,
+          96.8
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "ASITE_COURTYARD_FIRST_DOWN_X700_Y2450_044",
+      "surface_semantics": "Repeated corrected Sand/concreteMesh ground point in visible A courtyard/platform/northernpassage. Checked031 context and originalnative material retained; no coveredtop attheseXY. Rough ground elevations vary, no constantplane/continuous floor boundary/hiddenfloor inferred.",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/asite_courtyard_columns_044/ASITE_COURTYARD_FIRST_DOWN_X700_Y2450_044.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T20:47:13.348490+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A Site courtyard/platform first-down sample; component review required",
+      "unit": "source_units",
+      "target_xy": [
+        900.0,
+        2450.0
+      ],
+      "probe_player_z": 600.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 836.009766 2450.000000 600.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            908.81,
+            2450.0,
+            96.5
+          ],
+          "xy_error": 8.809999999999945,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162790"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 827.199768 2450.000000 600.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            900.0,
+            2450.0,
+            96.44
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162790"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 827.199768 2450.000000 600.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            900.0,
+            2450.0,
+            96.44
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162790"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          900.0,
+          2450.0,
+          96.44
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "ASITE_COURTYARD_FIRST_DOWN_X900_Y2450_044",
+      "surface_semantics": "Repeated corrected Sand/concreteMesh ground point in visible A courtyard/platform/northernpassage. Checked031 context and originalnative material retained; no coveredtop attheseXY. Rough ground elevations vary, no constantplane/continuous floor boundary/hiddenfloor inferred.",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/asite_courtyard_columns_044/ASITE_COURTYARD_FIRST_DOWN_X900_Y2450_044.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T20:47:22.495645+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A Site courtyard/platform first-down sample; component review required",
+      "unit": "source_units",
+      "target_xy": [
+        1100.0,
+        2450.0
+      ],
+      "probe_player_z": 600.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1036.009766 2450.000000 600.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1108.83,
+            2450.0,
+            95.28
+          ],
+          "xy_error": 8.829999999999927,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 162836"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1027.179688 2450.000000 600.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1100.0,
+            2450.0,
+            95.34
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 162815"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1027.179688 2450.000000 600.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1100.0,
+            2450.0,
+            95.34
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 162815"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1100.0,
+          2450.0,
+          95.34
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "ASITE_COURTYARD_FIRST_DOWN_X1100_Y2450_044",
+      "surface_semantics": "Repeated corrected Sand/concreteMesh ground point in visible A courtyard/platform/northernpassage. Checked031 context and originalnative material retained; no coveredtop attheseXY. Rough ground elevations vary, no constantplane/continuous floor boundary/hiddenfloor inferred.",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/asite_courtyard_columns_044/ASITE_COURTYARD_FIRST_DOWN_X1100_Y2450_044.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T20:47:31.945326+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A Site courtyard/platform first-down sample; component review required",
+      "unit": "source_units",
+      "target_xy": [
+        1250.0,
+        2450.0
+      ],
+      "probe_player_z": 600.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1186.009766 2450.000000 600.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1258.32,
+            2450.0,
+            124.29
+          ],
+          "xy_error": 8.319999999999936,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop rock, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1177.689697 2450.000000 600.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1250.47,
+            2450.0,
+            97.64
+          ],
+          "xy_error": 0.4700000000000273,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162839"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1177.219727 2450.000000 600.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1250.0,
+            2450.0,
+            97.63
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162839"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 4,
+          "observed_pose": "setpos_exact 1177.219727 2450.000000 600.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1250.0,
+            2450.0,
+            97.63
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 162839"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1250.0,
+          2450.0,
+          97.63
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "ASITE_COURTYARD_FIRST_DOWN_X1250_Y2450_044",
+      "surface_semantics": "Repeated corrected Sand/concreteMesh ground point in visible A courtyard/platform/northernpassage. Checked031 context and originalnative material retained; no coveredtop attheseXY. Rough ground elevations vary, no constantplane/continuous floor boundary/hiddenfloor inferred.",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/asite_courtyard_columns_044/ASITE_COURTYARD_FIRST_DOWN_X1250_Y2450_044.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T20:47:43.749265+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A Site courtyard/platform first-down sample; component review required",
+      "unit": "source_units",
+      "target_xy": [
+        1050.0,
+        2900.0
+      ],
+      "probe_player_z": 600.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 986.009766 2900.000000 600.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1058.26,
+            2900.0,
+            127.99
+          ],
+          "xy_error": 8.259999999999991,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163111"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 977.749756 2900.000000 600.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1050.0,
+            2900.0,
+            128.04
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163108"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 977.749756 2900.000000 600.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1050.0,
+            2900.0,
+            128.04
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163108"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1050.0,
+          2900.0,
+          128.04
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "ASITE_COURTYARD_FIRST_DOWN_X1050_Y2900_044",
+      "surface_semantics": "Repeated corrected Sand/concreteMesh ground point in visible A courtyard/platform/northernpassage. Checked031 context and originalnative material retained; no coveredtop attheseXY. Rough ground elevations vary, no constantplane/continuous floor boundary/hiddenfloor inferred.",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/asite_courtyard_columns_044/ASITE_COURTYARD_FIRST_DOWN_X1050_Y2900_044.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T20:47:53.004223+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A Site courtyard/platform first-down sample; component review required",
+      "unit": "source_units",
+      "target_xy": [
+        1150.0,
+        2900.0
+      ],
+      "probe_player_z": 600.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1086.009766 2900.000000 600.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1158.27,
+            2900.0,
+            127.62
+          ],
+          "xy_error": 8.269999999999982,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 163125"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1077.739746 2900.000000 600.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1150.0,
+            2900.0,
+            127.6
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 163125"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1077.739746 2900.000000 600.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1150.0,
+            2900.0,
+            127.6
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 163125"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1150.0,
+          2900.0,
+          127.6
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "ASITE_COURTYARD_FIRST_DOWN_X1150_Y2900_044",
+      "surface_semantics": "Repeated corrected Sand/concreteMesh ground point in visible A courtyard/platform/northernpassage. Checked031 context and originalnative material retained; no coveredtop attheseXY. Rough ground elevations vary, no constantplane/continuous floor boundary/hiddenfloor inferred.",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/asite_courtyard_columns_044/ASITE_COURTYARD_FIRST_DOWN_X1150_Y2900_044.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T20:48:02.657979+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A Site courtyard/platform first-down sample; component review required",
+      "unit": "source_units",
+      "target_xy": [
+        1250.0,
+        2900.0
+      ],
+      "probe_player_z": 600.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1186.009766 2900.000000 600.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1258.27,
+            2900.0,
+            127.65
+          ],
+          "xy_error": 8.269999999999982,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 164428"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1177.739746 2900.000000 600.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1250.0,
+            2900.0,
+            127.58
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 164428"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1177.739746 2900.000000 600.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1250.0,
+            2900.0,
+            127.58
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 164428"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1250.0,
+          2900.0,
+          127.58
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "ASITE_COURTYARD_FIRST_DOWN_X1250_Y2900_044",
+      "surface_semantics": "Repeated corrected Sand/concreteMesh ground point in visible A courtyard/platform/northernpassage. Checked031 context and originalnative material retained; no coveredtop attheseXY. Rough ground elevations vary, no constantplane/continuous floor boundary/hiddenfloor inferred.",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/asite_courtyard_columns_044/ASITE_COURTYARD_FIRST_DOWN_X1250_Y2900_044.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T20:48:12.206925+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A Site courtyard/platform first-down sample; component review required",
+      "unit": "source_units",
+      "target_xy": [
+        1150.0,
+        3040.0
+      ],
+      "probe_player_z": 600.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1086.009766 3040.000000 600.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1158.24,
+            3040.0,
+            128.85
+          ],
+          "xy_error": 8.240000000000009,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 173075"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1077.769775 3040.000000 600.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1150.0,
+            3040.0,
+            129.04
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 173075"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1077.769775 3040.000000 600.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            1150.0,
+            3040.0,
+            129.04
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 173075"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1150.0,
+          3040.0,
+          129.04
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "ASITE_COURTYARD_FIRST_DOWN_X1150_Y3040_044",
+      "surface_semantics": "Repeated corrected Sand/concreteMesh ground point in visible A courtyard/platform/northernpassage. Checked031 context and originalnative material retained; no coveredtop attheseXY. Rough ground elevations vary, no constantplane/continuous floor boundary/hiddenfloor inferred.",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/asite_courtyard_columns_044/ASITE_COURTYARD_FIRST_DOWN_X1150_Y3040_044.json"
     }
   ],
   "accepted_pairs": [
@@ -36537,6 +37151,24 @@
       "from_report": "LONG_A_CENTER_X1400_Y2650_001",
       "to_report": "ASITE_EAST_TOP_X1276_Y2650_034",
       "notes": "Different measuredX1276 top versusX1400 road, sameY. Native top/ground point-pair rise only; intervening curb/terrain and hidden wall base remain separate. No exact retainingwall height, fullcap/body or uniform floor inferred."
+    },
+    {
+      "id": "ASITE_X1250_PLATFORM_TO_UPPERCOURT_POINT_RISE",
+      "area": "A Site",
+      "feature": "SameX1250 platform to uppercourt ground point elevation difference",
+      "dimension": "rise",
+      "from_report": "ASITE_COURTYARD_FIRST_DOWN_X1250_Y2450_044",
+      "to_report": "ASITE_COURTYARD_FIRST_DOWN_X1250_Y2900_044",
+      "notes": "SameX separatedY correctedground endpoints; measuredpoint-pair rise only. Principal stair rise, rough slope, fulltravelprofile and continuousground/wholefootprint remain separate."
+    },
+    {
+      "id": "ASITE_X1150_UPPERCOURT_NORTH_POINT_RISE",
+      "area": "A Site",
+      "feature": "SameX1150 uppercourt northern ground point elevation difference",
+      "dimension": "rise",
+      "from_report": "ASITE_COURTYARD_FIRST_DOWN_X1150_Y2900_044",
+      "to_report": "ASITE_COURTYARD_FIRST_DOWN_X1150_Y3040_044",
+      "notes": "SameX separatedY correctedground endpoints; measuredpoint-pair rise only. Principal stair rise, rough slope, fulltravelprofile and continuousground/wholefootprint remain separate."
     }
   ],
   "rejected_attempts": [
@@ -37522,5 +38154,142 @@
       ]
     },
     "scope": "Six predeclared southern/northern firstdown columns. Y2296 sand outside; Y2304 rockZ123.51,2312Z124.4. Northern2776/2784/2792 rocktops124.96/124.99/125.03. Lowerface hidden by rising road is not capend; fullbody extent pending."
+  },
+  "asite_courtyard_ground_review": {
+    "plan": {
+      "build": "25640462",
+      "cases": [
+        {
+          "id": "ASITE_COURTYARD_FIRST_DOWN_X700_Y2450_044",
+          "xy": [
+            700,
+            2450
+          ],
+          "z": 600,
+          "area": "A Site courtyard/platform first-down sample; component review required",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "ASITE_COURTYARD_FIRST_DOWN_X900_Y2450_044",
+          "xy": [
+            900,
+            2450
+          ],
+          "z": 600,
+          "area": "A Site courtyard/platform first-down sample; component review required",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "ASITE_COURTYARD_FIRST_DOWN_X1100_Y2450_044",
+          "xy": [
+            1100,
+            2450
+          ],
+          "z": 600,
+          "area": "A Site courtyard/platform first-down sample; component review required",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "ASITE_COURTYARD_FIRST_DOWN_X1250_Y2450_044",
+          "xy": [
+            1250,
+            2450
+          ],
+          "z": 600,
+          "area": "A Site courtyard/platform first-down sample; component review required",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "ASITE_COURTYARD_FIRST_DOWN_X1050_Y2900_044",
+          "xy": [
+            1050,
+            2900
+          ],
+          "z": 600,
+          "area": "A Site courtyard/platform first-down sample; component review required",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "ASITE_COURTYARD_FIRST_DOWN_X1150_Y2900_044",
+          "xy": [
+            1150,
+            2900
+          ],
+          "z": 600,
+          "area": "A Site courtyard/platform first-down sample; component review required",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "ASITE_COURTYARD_FIRST_DOWN_X1250_Y2900_044",
+          "xy": [
+            1250,
+            2900
+          ],
+          "z": 600,
+          "area": "A Site courtyard/platform first-down sample; component review required",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        },
+        {
+          "id": "ASITE_COURTYARD_FIRST_DOWN_X1150_Y3040_044",
+          "xy": [
+            1150,
+            3040
+          ],
+          "z": 600,
+          "area": "A Site courtyard/platform first-down sample; component review required",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ]
+        }
+      ],
+      "scope": "Eight predeclared points in visible opencourtyard/platform/northernpassage of checked031. First-down faces mayhitcover/top rather than ground; inspectmaterial/shape and calibrated context. No wholefloor/flatplane/perimeter or hiddenbase accepted from grid."
+    },
+    "driver_recovery": {
+      "timestamp_utc": "2026-10-02T20:47:03.206645+00:00",
+      "original_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "status": "completed serial columns; semantic review pending",
+      "completed": [
+        "ASITE_COURTYARD_FIRST_DOWN_X700_Y2450_044",
+        "ASITE_COURTYARD_FIRST_DOWN_X900_Y2450_044",
+        "ASITE_COURTYARD_FIRST_DOWN_X1100_Y2450_044",
+        "ASITE_COURTYARD_FIRST_DOWN_X1250_Y2450_044",
+        "ASITE_COURTYARD_FIRST_DOWN_X1050_Y2900_044",
+        "ASITE_COURTYARD_FIRST_DOWN_X1150_Y2900_044",
+        "ASITE_COURTYARD_FIRST_DOWN_X1250_Y2900_044",
+        "ASITE_COURTYARD_FIRST_DOWN_X1150_Y3040_044"
+      ],
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "scope": "Eight actual nativeGroundMesh points, four southernY2450 and four uppercourt/northernpassage. Points/elevationdifferences only; no entirefloor plane, bound or undercover extrapolation."
   }
 }

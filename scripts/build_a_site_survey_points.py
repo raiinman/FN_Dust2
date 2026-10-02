@@ -14,6 +14,14 @@ def build(root):
     ref=root/'reference';profile=json.loads((ref/'CONNECTOR_SURFACE_PROFILES.json').read_text());allpoints=points(profile)
     floors=[r for r in profile['reports'] if r['id'].startswith('ELEVATOR_') or r['id'] in ['A_ENTRY_X1100_Y2760_001','A_ENTRY_FINE_X1100_Y2775_001','A_ENTRY_FINE_X1100_Y2790_001','A_ENTRY_FINE_X1100_Y2805_001','A_ENTRY_X1100_Y2840_001','LONG_A_CENTER_X1400_Y2450_001','LONG_A_CENTER_X1400_Y2650_001']]
     rows=[dict(id=r['id'],point=allpoints[r['id']],kind='parapet cap' if r['id']=='ELEVATOR_X1100_Y2320_001' else 'sampled ground/tread',scope=r.get('surface_semantics','Corrected repeated source point; source floor/tread/cap identities remain separate.'),report_id=r['id']) for r in floors]
+    if 'asite_courtyard_ground_review' in profile:
+        selected=profile['asite_courtyard_ground_review'];assert max(selected['driver_recovery']['restore_numeric_errors'])<=.01
+        reports={r['id']:r for r in profile['reports']}
+        for case in selected['plan']['cases']:
+            r=reports[case['id']];pair=[o for o in r['observations'] if o['feature']=='floor'][-2:]
+            assert pair[0]['hit']==pair[1]['hit']==allpoints[r['id']] and max(o['xy_error'] for o in pair)<=.02 and 'shape type: Mesh,' in str(pair[-1]['hit_description'])
+            assert any('surfaceprop '+m+',' in str(pair[-1]['hit_description']) for m in ['sand','concrete'])
+            rows.append(dict(id=r['id'],point=allpoints[r['id']],kind='sampled ground/tread',scope=r['surface_semantics'],report_id=r['id']))
     if 'asite_retaining_cap_review' in profile:
         selected=profile['asite_retaining_cap_review'];assert max(selected['driver_recovery']['restore_numeric_errors'])<=.01
         reports={r['id']:r for r in profile['reports']}
@@ -51,7 +59,7 @@ def build(root):
       'NorthX1050 seesY3080/Z180; X1000 reaches remoteY3845.33 (out of frame), rather than the same local wall.',
       'Two southoutsideYorigins agree MeshY2304/Z24. Pink projections under roof/cap do not validate rendered corners.',
       'Two eastoutsideXorigins agree MeshX1280/Y2450/Z60 versus HullX1319.9/Y2650/Z90; ground occlusion stays open.',
-      'Amber: front sampleZ125.96 and four eastRock topsZ124.47..124.97; nearby ground/treads are differentXY samples.',
+      'Fresh044 ground: lowerY2450Z95.34..97.63; upperY2900Z127.58..128.04 and northY3040Z129.04.',
       'All faces/materials/heights stay separate. No rectangular site, hidden floor or closed layered footprint inferred.',
       'Held camera maximum0.509377px. Source face values do not grant exact renderer/collision correspondence.',
       'Gate1 FAIL: complete critical extents and bounded continuous layered whole-map footprint still required.']

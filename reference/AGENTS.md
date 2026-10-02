@@ -541,3 +541,9 @@ fresh040 exactpoint holdout and1.5px correspondence. SourceY interval includes
 .01native printing allowance perend; absolute coordinate is not a walllength.
 040 fresh8held markers preserve036fit/oldhold unchanged and extend testedY to2304.
 Native/JPEGs/all8crops inspected. Localcorner atthisheight only; no wholebody/floor.
+
+CONNECTOR_SURFACE_PROFILES.asite_courtyard_ground_review owns044 eight corrected
+Sand/concreteMesh ground points and exact serialdriver restore. A_SITE_SURVEY_POINTS
+optionally validates their native components/repeats/XY before projection into031;
+rebuild/render/inspect. Ground elevations and two sameX differentY accepted_pairs
+remain point evidence, separate from fullfloor/slopes/stairtotal/hiddenbase bounds.

@@ -2,6 +2,19 @@
 
 **FAIL. Phase 1 remains active. Phase 2 production is prohibited.**
 
+04532 observations/all0:195 architectural reports; two independentorigins agree
+westMeshX1024/eastMeshX1584 atY2900/Z145. Accepted1422.4cm enclosingwall chord
+crosses uppercourtyard and Longroad above lowcap; not courtyardfloor/minimumwidth.
+417 physicalfeatures;136 localchords. Updated architecturalsection SVG rendered/
+inspected. LowerY2450 WoodBasket/Panel occlusion and lowerMeshY2424 remain separate
+from higher032 southMeshY2016; no rectangular platform/ground perimeter inferred.
+
+044 eight corrected repeated Sand/concreteMesh ground samples COMPLETE/all0:
+483 connectorpoints,416 physicalfeatures. SouthernY2450Z95.34..97.63 and upper
+Y2900Z127.58..128.04/northY3040Z129.04 vary. Two sameX differentY point rises
+76.073/3.6576cm; fullfloor/slopes/stairtotal remain separate. Updated A_SITE_SURVEY_POINTS
+40 unique pointprojections (one remote outsideframe) rebuilt/rendered/inspected.
+
 043 failed10 observations on deeperconcreteMeshX1260.02/Y2304.5/Z80; native
 rangefinder/repeats and all0restore verified. Preserved as27threjection with
 originalnormalguard;194 completearchitectural reports unchanged. LowerMesh/Hull
@@ -116,9 +129,9 @@ Source: installed CS2 build25640462, de_dust2. GitHub main is durable authority.
 | --- | --- | --- |
 | Provenance and current revision | REFERENCE_MANIFEST.csv; native poses/hashes and build25640462 | PASS for reviewed captured batches |
 | Physical scale and coordinate convention | SCALE_CALIBRATION.json; COORDINATE_TRANSFORM.json | PASS for current-build factor2.54 and reversible UE=(2.54x,-2.54y,2.54z); Phase2 exporter/import validation pending |
-| Every critical area forward/reverse/side/elevation coverage | 277 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | PASS: sixteen critical-area sets and eleven subarea sets accepted; structural metric and traversal remain separate |
+| Every critical area forward/reverse/side/elevation coverage | 283 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | PASS: sixteen critical-area sets and eleven subarea sets accepted; structural metric and traversal remain separate |
 | Unambiguous validated topology | ROUTE_GRAPH.md; TOPOLOGY.json; WALK_PROBES.json; TRAVERSAL_PROBES.json; TOPOLOGY_AUDIT.json | PASS for listed surveyed connections:24 ground paths both directions; B Window both; S01 both, S02/S03 reciprocal routes, S04 partner forward/reverse. E11/E27 direct forward twice, unsupported reverse at surveyed crossing blocked twice, indirect walking returns both. Alternative launches/partners and geometric bounds remain separate |
-| Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; TUNNEL_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 414 calibrated feature measurements;54 Short and117 Tunnel floor samples; full critical register incomplete |
+| Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; TUNNEL_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 417 calibrated feature measurements;54 Short and117 Tunnel floor samples; full critical register incomplete |
 | Calibrated annotated whole-map truth | RADAR_CALIBRATION.json; MAP_CAMERA_CALIBRATION.json; RADAR_PLAN.svg; MAP_CAMERA_PLAN.svg | FAIL: calibrated native camera, physical grid, floors and paths; continuous architectural boundaries and overlapping elevation layers incomplete |
 | Bounded remaining uncertainty | UNCERTAINTY.md; SURVEY_TASKS.csv | FAIL: unresolved critical extents, full apertures/cover dimensions, stairs and render/collision bounds |
 

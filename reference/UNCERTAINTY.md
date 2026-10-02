@@ -2,6 +2,17 @@
 
 **Gate 1: FAIL.** These are blockers, not accepted exceptions.
 
+045 two independent uppercourt origins agree enclosingMeshX1024..1584 atY2900/
+Z145,1422.4cm. This height crosses courtyard+Longroad above lowcap, so it is not
+courtyardfloorwidth/minimumclearance.417 physicalfeatures/136 localchords/195
+architecturalreports. Lower045 coverhits and southMeshY2424 remain separate from
+higher032 Y2016. Neither stepped extents nor a closedrectangle inferred.
+
+044 eight repeated corrected groundMesh points COMPLETE/all0,483 connectorpoints
+and416 physicalfeatures; A_SITE_SURVEY_POINTS40 reviewed projections inspected.
+SouthernZ95.34..97.63, uppercourtZ127.58..129.04. SameX groundpoint rises76.073/
+3.6576cm accepted within sampled scope; no continuousfloor/plane/slopes/hiddenbase.
+
 041 prospective exactupper-bracket coordinates atZ40/80 hit deeperconcreteHull
 X1227.02 onbothsides fromtwoorigins.042 nearbyY2308/2312/2320 reaches localMesh
 X1280 atZ40 and1279.35..1279.55 atZ80.194 architectural reports; lower firstface
@@ -48,11 +59,11 @@ camera031 maxheld .509377px. Full site/retaining/continuous layered bounds open.
 
 | ID | Unknown | Present bound | Required resolution |
 | --- | --- | --- | --- |
-| U01 | Capture continuity | Old workers did not survive. New single-owner worker verified after VConsole disconnect; 281 reference frames reviewed, eight excluded; four native radar crops inspected separately | Keep exact echo checks and rendered-area/pose checks; extend usable route-oriented coverage |
-| U02 | Critical lengths/widths | 414 calibrated collision-feature measurements;13 floor datums,54 Short and117 Tunnel stair points and475 connector surface points. Long/B/Mid local openings, Short flight, Xbox/CT crate/elevator point-pair rises accepted; full architectural bounds incomplete | Structural aperture endpoints, room lengths and remaining route/cover dimensions |
+| U01 | Capture continuity | Old workers did not survive. New single-owner worker verified after VConsole disconnect; 283 reference frames reviewed, eight excluded; four native radar crops inspected separately | Keep exact echo checks and rendered-area/pose checks; extend usable route-oriented coverage |
+| U02 | Critical lengths/widths | 417 calibrated collision-feature measurements;13 floor datums,54 Short and117 Tunnel stair points and483 connector surface points. Long/B/Mid local openings, Short flight, Xbox/CT crate/elevator point-pair rises accepted; full architectural bounds incomplete | Structural aperture endpoints, room lengths and remaining route/cover dimensions |
 | U03 | Elevations/slopes/stairs | 13 repeated native floor datums with calibrated conversion; CT floor/overhead separation 167.69 native units; 54 repeated Short floor samples plus12 repeated center riser faces; Short count/rise/run and Tunnel18 count,18 rises/16 axial intervals,16 local widths accepted; full Tunnel sides/terminal edges and remaining slopes unresolved | Floor endpoints, stair counts and rise/run readings |
 | U04 | Map scale and axes | Native rangefinder anchors accept factor2.54cm/source unit; native right-axis tests and Epic documentation fix UE=(2.54x,-2.54y,2.54z), reversible math checks pass | Phase 2 exporter/editor round-trip must preserve convention exactly once; no import accepted yet |
-| U05 | Per-area directional coverage | 281 current-build reference captures, eight exclusions; sixteen critical-area view sets and eleven subarea sets accepted; all required directional sets accepted; individual image limitations retained | Preserve complementary view coverage; resolve full structural metric evidence |
+| U05 | Per-area directional coverage | 283 current-build reference captures, eight exclusions; sixteen critical-area view sets and eleven subarea sets accepted; all required directional sets accepted; individual image limitations retained | Preserve complementary view coverage; resolve full structural metric evidence |
 | U06 | Revision-sensitive traversal | S01 solo forward twice/reverse once; S02 forward; S03 solo climb twice; S04 partner boost twice/reverse drop once | Unsupported E11/E27 reverse jumps blocked twice at surveyed crossings; other launch/partner scope and full geometric launch/landing bounds; indirect walking returns now accepted both ways; preserve direction-specific evidence |
 | U07 | Source image revision | Web radars have no matching installed-build identity | Crosscheck against current local captures |
 | U08 | Current truth-map footprint | Calibrated native overhead8 fit/16 independent holdouts, max.7518px; known-Z1.5px localization allowance. Radar13 floors/24 paths; four anchors within.20px. Four room wall sections accepted; continuous layered outline unsurveyed | Architectural boundary crosschecks and overlapping elevation layers |

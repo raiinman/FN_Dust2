@@ -7,7 +7,7 @@ no model override, new chat or agent delegation requested. Criteria unchanged.
 
 ## Authority and preserved work
 
-GitHub main is authoritative. Latest pushed checkpoint38ac4c5: bounded A southern facing end and retaining context.
+GitHub main is authoritative. Latest pushed checkpointf1791bb: lower A retaining component checks and corner guard failure.
 Current work narrows A retaining lower component joins; clipped030 rejection retained.
 Current Git commit pins the evidence checkpoint. Crash baseline35eaa642; dirty work preserved4c7df48,
 mergedab4e484. Active checkout:
@@ -26,8 +26,8 @@ evidence/CRASH_RECOVERY_20261001.md. Inspect dirty work/current main first.
 - Scale2.54cm/native from repeated inch-rangefinder anchors. UE=(2.54x,-2.54y,
   2.54z), inverse/right-axis/length checks PASS. Phase2 exporter/editor roundtrip
   unverified; unsaved Hammer128 cube is calibration, not production.
-- 414 bounded physical features;13 floor datums;54 Short/117 Tunnel stair floor
-  samples;475 connector points;135 local architectural chords.194 raw
+- 417 bounded physical features;13 floor datums;54 Short/117 Tunnel stair floor
+  samples;483 connector points;136 local architectural chords.195 raw
   architectural reports/27 rejected attempts. MEASUREMENTS/profile registers own
   confidence/limits. Chords cross open space; they are not wall/polygon edges.
 - Listed topology PASS:34 edges/four specials.24 ground paths both directions;
@@ -89,12 +89,16 @@ from188 through767.96875, separate southernHull at176..184. No smoothcurve/
 fullheight extrusion accepted. 024/025 complete44obs each/all0exactrestore. TwoXorigins agree southjoin westY[183.875,183.8828125], eastY[184,184.0078125] atZ0. NativeUI preflight observed the authored white cross at the west camera;
 source B-mouth exactly restored before captures. Camera026/027 controller COMPLETE:
 eight marked/clean frames, final B-mouth pose/all0 errors, overlay restored visible.
-ONE ACTIVE source controller: run_planned_columns_01.py asite_courtyard_columns_044/
-plan.json. Eight predeclared firstdown points; samefolder/driver_recovery_001.json
-owns outcome/cleanup.043 failed10obs on lowerMeshX1260.02 atY2304.5/Z80,
-all0restore; originalclassifier retained/private/report registered as27threject.
-194 completearchitectural reports.041/042 lowercomponent evidence preserved;
-no fullbody lowerend accepted.044 ground versus cover semantics need review.
+ONE ACTIVE source controller: cs2_probe_endpoints.py asite_north_wall_extent_046/
+config.json -> samefolder/report.json.045 COMPLETE32/all0 registered195reports;
+upperY2900/Z145 westMesh1024/eastMesh1584 fromtwoorigins acceptsone1422.4cm
+courtyard-plusLongroad chord, not floor/minimumwidth. Lowercover occlusion retained.
+046 independentYorigins map northcourt face versus adjoiningLongroad atZ180.
+044 eight corrected repeated Sand/concreteMesh
+ground points COMPLETE/all0, registered483 connectorpoints. SouthernY2450
+Z95.34..97.63; uppercourtY2900Z127.58..128.04, northernY3040Z129.04. Two
+sameXground point-pair rises76.073/3.6576cm, separate from completefloors/slopes.
+043 rejectedoriginalguard/deeperMesh preserved/all0,27rejects/194 reports.
 040 two native/JPEGframes/all8crops individually
 inspected; driver COMPLETE/all0. Eight fresh terminalholds excluded from original
 036fit, max.446016px, including exact039onpoint; unchanged originalfit/hold.

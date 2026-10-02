@@ -483,6 +483,11 @@ observed pose, on/off components, rangefinder, unchanged camera fit and fresh
 exactpoint holdout before corroborating localcorner. Absolute sourceY bound
 includes .01native printing allowance perend; no length or fullbody inference.
 
+build_a_site_survey_points.py optionally validates044 groundMesh components,
+repeated correctedXY and serialdriver restore from asite_courtyard_ground_review.
+Eight original points project into031; rebuild/render/inspect. Keep roughground,
+uppercourt and sameX differentY sampled rises separate from continuousfloor.
+
 B_TIMBER_LOCAL_SECTIONS also validates optional022 two-origin firstWood/Dirt
 near-facing limit. Preserve failed019/020/021 and unsafeY2878 own-origin hit.
 Mixed MetalPanel/Wood/Dirt interfaces never automatically define fullstrip
