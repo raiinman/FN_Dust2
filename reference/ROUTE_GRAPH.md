@@ -29,8 +29,8 @@ Nodes describe area relationships; they are not polygon outlines or route length
 | E16 | Mid Doors | CT Mid | walk | both | survey | D016 |
 | E17 | CT Mid | B Doors | walk | both | survey | D017 |
 | E18 | B Doors | B Site | walk | both | survey | D018 |
-| E19 | CT Mid | B Window | climb/jump | both pending validation | raised aperture | D019 |
-| E20 | B Window | B Site | climb/drop | both pending validation | drop into site | D020 |
+| E19 | CT Mid | B Window | climb/jump | both observed; outside approach walked both | raised aperture | D019 |
+| E20 | B Window | B Site | climb/drop | both observed | raised opening | D020 |
 | E21 | CT Mid | CT Spawn | walk | both | survey | D021 |
 | E22 | CT Spawn | Under A | walk | both | below A platform | D022 |
 | E23 | Under A | A Cross | walk | both | survey | D023 |
@@ -50,8 +50,8 @@ Nodes describe area relationships; they are not polygon outlines or route length
 
 | ID | From | To | Mode | Uncertainty | Survey task |
 | --- | --- | --- | --- | --- | --- |
-| S01 | Mid | Catwalk | Xbox climb/jump | unverified current build | D035 |
-| S02 | A Short | CT Spawn | drop | landing and reverse traversal unverified | D036 |
+| S01 | Mid | Catwalk | solo pallet/crate/parapet climb; reverse jump/drop | forward twice; reverse once in TRAVERSAL_PROBES | D035 |
+| S02 | A Short | CT Spawn | parapet jump/drop through CT bay | forward observed; reverse S03 pending | D036 |
 | S03 | CT Spawn | A Short | crate climb/boost | revision-sensitive; do not infer from pre-2024 imagery | D037 |
 | S04 | Under A | A Site | elevator boost | requires independent traversal proof | D038 |
 
@@ -115,6 +115,7 @@ default-speed timing. Failed plans remain preserved.
 | LONG_CORNER_LONG_A_BOTH | E28 |
 | LONG_CORNER_SIDE_PIT_BOTH | E26 |
 | SUICIDE_TOPMID_BOTH | E12 |
+| B_WINDOW_OUTSIDE_CTMID_BOTH | outside E19 approach only; raised crossing separate |
 
 TRAVERSAL_PROBES.json separately accepts observed forward E27 grounded jump/drop
 twice, and forward E11 grounded spawn jump/drop once. Stable landings and input

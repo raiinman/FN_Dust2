@@ -11,7 +11,7 @@ old dirty checkout preserved in4c7df48, baseline merged inab4e484. See
 [evidence/CRASH_RECOVERY_20261001.md](../evidence/CRASH_RECOVERY_20261001.md).
 The latest repository commit pins this checkpoint; fetch/check main before resume.
 
-- 189 reviewed study JPEGs, eight historical coverage exclusions preserved.
+- 193 reviewed study JPEGs, eight historical coverage exclusions preserved.
  Original24 and recovered55 re-inspected; all additions inspected individually.
  IMAGE_REVIEW/IMAGE_AUDIT/CAPTURE_CRASH_RECOVERY own hashes and rejection reasons.
 - 16 critical-area required-view sets accepted in AREA_VIEW_REVIEW, including
@@ -90,9 +90,28 @@ S01 now passes forward twice via south pallet, crate and grounded parapet
 approach; reverse jump/drop lands Mid. S02 Short-to-CT parapet jump/drop passes
 through crate bay then south/west to stable CT hall. TRAVERSAL_PROBES preserves
 all partial/rejected approaches; S03/S04 remain unverified.
-Current serial controller: probe_ct_crate_grid.py, private ct_crate_metrics/,
-16 first-downward XY columns. Inspect live process and report progress before
-any other pose/input controller. Xbox repeat/Short descent batch completed.
+No pose/input controller is active. CT grid02 (16 points) and grid03 (9 points)
+completed privately in crash_recovery_survey/ct_crate_metrics_02 and _03;
+inspect surface identities before adding them to the canonical 43-point profile.
+Old grid01 X550/Y2200 failed at a floor edge and remains preserved. Restored pose
+was verified separately; do not retry its angular edge oscillation blindly.
+
+MAP_CAMERA_CALIBRATION fits eight native markers and validates sixteen independent
+markers, including near-floor elevations. Max residuals: fit0.4247px, third-height
+holdout0.4959px, near-floor0.7518px. Four inspected calibration/context JPEGs
+uploaded; MAP_CAMERA_PLAN rendered and inspected with13 floors and22 paths.
+This is camera/point context, not a complete surveyed architectural footprint.
+Tested source Z=-100..1000; Pit floor below -100 is extrapolation. Roofs obscure
+layered interiors. Use known surface Z, retain1.5px localization allowance and
+separate architectural edge-selection uncertainty.
+
+Capture004 returned the preceding marker frame; preserve it as rejected for new
+marker calibration. Helper now settles drawline primitives before requesting
+screenshot. Current camera is(-300,1200,4500),pitch89,yaw90; overlays VISIBLE
+following calibration005 cleanup. Native hidden/visible state was observed.
+Single worker34036/socket57046->29000 and empty queue verified with fresh echo.
+Do not start another worker. Temporary engine_no_focus_sleep0 (original20),
+m_yaw/m_pitch0 (original.022) still need restoration/readback at closeout.
 
 1. Resolve Pit/Suicide reverse classification and test S01-S04 special traversal.
 2. Complete structural endpoints, room/cover

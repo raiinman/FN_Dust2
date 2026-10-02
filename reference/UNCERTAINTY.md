@@ -35,3 +35,12 @@ verification. Walking observations do not establish physical scale;
 SCALE_CALIBRATION.json records the separate current-build rangefinder evidence.
 
 Pit recovery: four clean reviewed frames now show actual ramp/floor context. A collision walk passed in both directions between source(1400,350) and(1400,950), reduced speed80 and arrival20. Direct Side Pit-to-Pit ground attempt stopped at the parapet; two grounded approach/jump/drop passes are accepted in TRAVERSAL_PROBES; one reverse jump did not cross. Local floor-to-lip rise454.0758cm and terrace-to-lip rise59.8424cm are sampled, not global impossibility proof. Opposing concrete retaining-wall faces at source y350/z-90 repeat exactly at x1272 and1592, yielding812.8cm. Ramp sample stationsy350/y700 rise309.6768cm across889cm horizontal; these are sample endpoints, not total ramp endpoints. Physical-scale evidence in SCALE_CALIBRATION.json supersedes the earlier unresolved lookup, while render/collision and coverage limitations remain.
+
+Native overhead camera is now empirically calibrated in MAP_CAMERA_CALIBRATION:
+eight fit anchors and sixteen independent checks, max0.7518px holdout error.
+Allow1.5px localization, requiring known surface Z. This bounds camera/pixel
+localization only; roofed/interior edges, continuous footprint selection and
+render/collision offsets remain unresolved. Tested Z=-100..1000; Pit floor
+-159.14 remains below validated range. MAP_CAMERA_PLAN marks measured floor
+points/player paths without claiming wall boundaries. Capture004 preceding-frame
+markers rejected; delayed005 independently validates near-floor projection.

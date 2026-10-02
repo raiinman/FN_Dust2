@@ -2970,6 +2970,337 @@
       "jpeg_sha256": "02962ec18493abc877872468d64565be85dbec1917351354b1a6d53110f6bb73",
       "fov_cs_debug_parameter": 90,
       "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_MAP_CAMERA_002_MARKED",
+      "timestamp_utc": "2026-10-02T00:45:13.221330+00:00",
+      "engine_capture_basename": "d2_5c3da5c9e0",
+      "pose_command": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -300,
+        1200,
+        4500,
+        89,
+        90
+      ],
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "tga_sha256": "ecbb9a692b216aa7df8c55d142d8c2b60e18f1e07d1917a5c4566dac2a590a62",
+      "png_sha256": "5e3fac112f3981e28a649e1d296439fab506b08306ec2e1b9a506f65a042c476",
+      "anchors": [
+        {
+          "id": "HIGH_SW",
+          "point": [
+            -2000,
+            0,
+            1000
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "HIGH_SE",
+          "point": [
+            1400,
+            0,
+            1000
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "HIGH_NW",
+          "point": [
+            -2000,
+            3000,
+            1000
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "HIGH_NE",
+          "point": [
+            1400,
+            3000,
+            1000
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "LOW_SPAWN",
+          "point": [
+            -500,
+            -900,
+            300
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "LOW_OUTLONG",
+          "point": [
+            300,
+            0,
+            300
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "LOW_B",
+          "point": [
+            -1800,
+            2500,
+            300
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "LOW_A",
+          "point": [
+            1100,
+            2500,
+            300
+          ],
+          "half_size": 80
+        }
+      ],
+      "status": "visually inspected; usable stated-direction reference",
+      "area": "Whole map",
+      "review": "Native authored drawline crosses at known source positions; axis intersections individually inspected. Debug annotations are calibration evidence, not map geometry.",
+      "repository_image_path": "reference/images/whole_map/QA_MAP_CAMERA_002_MARKED.jpg",
+      "jpeg_sha256": "b9acaa08569a62b84f4c66258fb3d90c69d1dc205483a0f60d7307adb6f6c893",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_MAP_CAMERA_002_CLEAN",
+      "timestamp_utc": "2026-10-02T00:45:18.191567+00:00",
+      "engine_capture_basename": "d2_a0b224464c",
+      "pose_command": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -300,
+        1200,
+        4500,
+        89,
+        90
+      ],
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "tga_sha256": "ff1328ca508ecf2c77c082ccea914b293e573d2fd28c8e80c116a405d85bef56",
+      "png_sha256": "d1873c2140b81c3842586af31e6b6f02806380580ee4ed76bce41d04db43fccb",
+      "anchors": [],
+      "status": "visually inspected; usable stated-direction reference",
+      "area": "Whole map",
+      "review": "Native overhead context; full playable layout fits, roofs obscure covered floors and walls. No continuous architectural boundary is certified.",
+      "repository_image_path": "reference/images/whole_map/QA_MAP_CAMERA_002_CLEAN.jpg",
+      "jpeg_sha256": "22b9bab43b17061ef81e54ee1885e12f6a70d905714b9322b057f11cc6b3f733",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_MAP_CAMERA_003_MARKED",
+      "timestamp_utc": "2026-10-02T00:54:28.310157+00:00",
+      "engine_capture_basename": "d2_8d03717347",
+      "pose_command": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -300,
+        1200,
+        4500,
+        89,
+        90
+      ],
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "tga_sha256": "d9219ef28f3610549f2dff604f7a014eb746d5c7a62b18044116e460f063777f",
+      "png_sha256": "e5487a16815cfb0b54e77263943f092b920994d25805ef7f63236be7e6000cad",
+      "anchors": [
+        {
+          "id": "HOLDOUT_1",
+          "point": [
+            -1600,
+            -600,
+            600
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "HOLDOUT_2",
+          "point": [
+            -1900,
+            800,
+            600
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "HOLDOUT_3",
+          "point": [
+            -700,
+            2300,
+            600
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "HOLDOUT_4",
+          "point": [
+            500,
+            2900,
+            600
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "HOLDOUT_5",
+          "point": [
+            1600,
+            1800,
+            600
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "HOLDOUT_6",
+          "point": [
+            1300,
+            600,
+            600
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "HOLDOUT_7",
+          "point": [
+            -500,
+            200,
+            600
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "HOLDOUT_8",
+          "point": [
+            -1200,
+            1600,
+            600
+          ],
+          "half_size": 80
+        }
+      ],
+      "status": "visually inspected; usable stated-direction reference",
+      "area": "Whole map",
+      "review": "Native authored drawline crosses at known source positions; axis intersections individually inspected. Debug annotations are calibration evidence, not map geometry.",
+      "repository_image_path": "reference/images/whole_map/QA_MAP_CAMERA_003_MARKED.jpg",
+      "jpeg_sha256": "b7312b79d0702c86adeb2f137742f60f5703519f71ba5e7d06562b289758c4e6",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_MAP_CAMERA_005_MARKED",
+      "timestamp_utc": "2026-10-02T01:10:04.580802+00:00",
+      "engine_capture_basename": "d2_830ab98940",
+      "pose_command": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -300,
+        1200,
+        4500,
+        89,
+        90
+      ],
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "tga_sha256": "3db9f98633d6eeabc3972b570f77c855ef7eb615a977944f313e3fbc7426fb96",
+      "png_sha256": "88b69b6f06c7e6853fceb4d656d903e3d7f2af26496f531f21607acea82c018a",
+      "anchors": [
+        {
+          "id": "LOW_CHECK_1",
+          "point": [
+            -500,
+            1400,
+            -50
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "LOW_CHECK_2",
+          "point": [
+            -850,
+            2050,
+            -50
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "LOW_CHECK_3",
+          "point": [
+            1400,
+            350,
+            -100
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "LOW_CHECK_4",
+          "point": [
+            1500,
+            1700,
+            50
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "LOW_CHECK_5",
+          "point": [
+            900,
+            2750,
+            150
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "LOW_CHECK_6",
+          "point": [
+            -2150,
+            2800,
+            80
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "LOW_CHECK_7",
+          "point": [
+            -900,
+            -900,
+            150
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "LOW_CHECK_8",
+          "point": [
+            300,
+            -600,
+            80
+          ],
+          "half_size": 80
+        }
+      ],
+      "status": "visually inspected; usable stated-direction reference",
+      "area": "Whole map",
+      "review": "Native authored drawline crosses at known source positions; axis intersections individually inspected. Debug annotations are calibration evidence, not map geometry.",
+      "repository_image_path": "reference/images/whole_map/QA_MAP_CAMERA_005_MARKED.jpg",
+      "jpeg_sha256": "d493f83eae43d7d3a5a05f644ec5216fc3990c0fd1ece63cd22d01b8622b9764",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
     }
   ],
   "rejected_attempts": [

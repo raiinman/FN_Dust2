@@ -1,0 +1,835 @@
+{
+  "source_build": "25640462",
+  "source_map": "de_dust2",
+  "camera_pose": [
+    -300,
+    1200,
+    4500,
+    89,
+    90
+  ],
+  "image_size": [
+    1280,
+    720
+  ],
+  "pixel_convention": "Integer pixel centers, origin top left; x right, y down.",
+  "status": "accepted empirical camera projection; architectural footprint incomplete",
+  "method": "Eight inspected native cross intersections fit a projective camera; sixteen independent intersections validate it at third and near-floor elevations. White and red native trace segments are authored markers. Coordinates are independent console drawline arguments, not inferred from pixel locations. Approximate camera assumptions locate search windows only.",
+  "captures": [
+    {
+      "id": "QA_MAP_CAMERA_002_MARKED",
+      "timestamp_utc": "2026-10-02T00:45:13.221330+00:00",
+      "engine_capture_basename": "d2_5c3da5c9e0",
+      "pose_command": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -300,
+        1200,
+        4500,
+        89,
+        90
+      ],
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "tga_sha256": "ecbb9a692b216aa7df8c55d142d8c2b60e18f1e07d1917a5c4566dac2a590a62",
+      "png_sha256": "5e3fac112f3981e28a649e1d296439fab506b08306ec2e1b9a506f65a042c476",
+      "anchors": [
+        {
+          "id": "HIGH_SW",
+          "point": [
+            -2000,
+            0,
+            1000
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "HIGH_SE",
+          "point": [
+            1400,
+            0,
+            1000
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "HIGH_NW",
+          "point": [
+            -2000,
+            3000,
+            1000
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "HIGH_NE",
+          "point": [
+            1400,
+            3000,
+            1000
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "LOW_SPAWN",
+          "point": [
+            -500,
+            -900,
+            300
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "LOW_OUTLONG",
+          "point": [
+            300,
+            0,
+            300
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "LOW_B",
+          "point": [
+            -1800,
+            2500,
+            300
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "LOW_A",
+          "point": [
+            1100,
+            2500,
+            300
+          ],
+          "half_size": 80
+        }
+      ],
+      "status": "captured; requires native image and projection review",
+      "repository_image_path": "reference/images/whole_map/QA_MAP_CAMERA_002_MARKED.jpg",
+      "jpeg_sha256": "b9acaa08569a62b84f4c66258fb3d90c69d1dc205483a0f60d7307adb6f6c893"
+    },
+    {
+      "id": "QA_MAP_CAMERA_002_CLEAN",
+      "timestamp_utc": "2026-10-02T00:45:18.191567+00:00",
+      "engine_capture_basename": "d2_a0b224464c",
+      "pose_command": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -300,
+        1200,
+        4500,
+        89,
+        90
+      ],
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "tga_sha256": "ff1328ca508ecf2c77c082ccea914b293e573d2fd28c8e80c116a405d85bef56",
+      "png_sha256": "d1873c2140b81c3842586af31e6b6f02806380580ee4ed76bce41d04db43fccb",
+      "anchors": [],
+      "status": "captured; requires native image and projection review",
+      "repository_image_path": "reference/images/whole_map/QA_MAP_CAMERA_002_CLEAN.jpg",
+      "jpeg_sha256": "22b9bab43b17061ef81e54ee1885e12f6a70d905714b9322b057f11cc6b3f733"
+    },
+    {
+      "id": "QA_MAP_CAMERA_003_MARKED",
+      "timestamp_utc": "2026-10-02T00:54:28.310157+00:00",
+      "engine_capture_basename": "d2_8d03717347",
+      "pose_command": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -300,
+        1200,
+        4500,
+        89,
+        90
+      ],
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "tga_sha256": "d9219ef28f3610549f2dff604f7a014eb746d5c7a62b18044116e460f063777f",
+      "png_sha256": "e5487a16815cfb0b54e77263943f092b920994d25805ef7f63236be7e6000cad",
+      "anchors": [
+        {
+          "id": "HOLDOUT_1",
+          "point": [
+            -1600,
+            -600,
+            600
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "HOLDOUT_2",
+          "point": [
+            -1900,
+            800,
+            600
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "HOLDOUT_3",
+          "point": [
+            -700,
+            2300,
+            600
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "HOLDOUT_4",
+          "point": [
+            500,
+            2900,
+            600
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "HOLDOUT_5",
+          "point": [
+            1600,
+            1800,
+            600
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "HOLDOUT_6",
+          "point": [
+            1300,
+            600,
+            600
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "HOLDOUT_7",
+          "point": [
+            -500,
+            200,
+            600
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "HOLDOUT_8",
+          "point": [
+            -1200,
+            1600,
+            600
+          ],
+          "half_size": 80
+        }
+      ],
+      "status": "captured; requires native image and projection review",
+      "repository_image_path": "reference/images/whole_map/QA_MAP_CAMERA_003_MARKED.jpg",
+      "jpeg_sha256": "b7312b79d0702c86adeb2f137742f60f5703519f71ba5e7d06562b289758c4e6"
+    },
+    {
+      "id": "QA_MAP_CAMERA_005_MARKED",
+      "timestamp_utc": "2026-10-02T01:10:04.580802+00:00",
+      "engine_capture_basename": "d2_830ab98940",
+      "pose_command": "setpos_exact -300.000000 1200.000000 4500.000000;setang_exact 88.999908 90.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -300,
+        1200,
+        4500,
+        89,
+        90
+      ],
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "tga_sha256": "3db9f98633d6eeabc3972b570f77c855ef7eb615a977944f313e3fbc7426fb96",
+      "png_sha256": "88b69b6f06c7e6853fceb4d656d903e3d7f2af26496f531f21607acea82c018a",
+      "anchors": [
+        {
+          "id": "LOW_CHECK_1",
+          "point": [
+            -500,
+            1400,
+            -50
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "LOW_CHECK_2",
+          "point": [
+            -850,
+            2050,
+            -50
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "LOW_CHECK_3",
+          "point": [
+            1400,
+            350,
+            -100
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "LOW_CHECK_4",
+          "point": [
+            1500,
+            1700,
+            50
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "LOW_CHECK_5",
+          "point": [
+            900,
+            2750,
+            150
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "LOW_CHECK_6",
+          "point": [
+            -2150,
+            2800,
+            80
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "LOW_CHECK_7",
+          "point": [
+            -900,
+            -900,
+            150
+          ],
+          "half_size": 80
+        },
+        {
+          "id": "LOW_CHECK_8",
+          "point": [
+            300,
+            -600,
+            80
+          ],
+          "half_size": 80
+        }
+      ],
+      "status": "captured; requires native image and projection review",
+      "repository_image_path": "reference/images/whole_map/QA_MAP_CAMERA_005_MARKED.jpg",
+      "jpeg_sha256": "d493f83eae43d7d3a5a05f644ec5216fc3990c0fd1ece63cd22d01b8622b9764"
+    }
+  ],
+  "groups": [
+    {
+      "capture_id": "QA_MAP_CAMERA_002_MARKED",
+      "role": "fit",
+      "anchors": [
+        {
+          "id": "HIGH_SW",
+          "world": [
+            -2000,
+            0,
+            1000
+          ],
+          "pixel": [
+            405.0,
+            542.0
+          ],
+          "projected_pixel": [
+            404.9377647883608,
+            542.1158566580497
+          ],
+          "residual_px": 0.13151420752987186
+        },
+        {
+          "id": "HIGH_SE",
+          "world": [
+            1400,
+            0,
+            1000
+          ],
+          "pixel": [
+            874.0,
+            542.0
+          ],
+          "projected_pixel": [
+            873.884565278898,
+            542.1595801741119
+          ],
+          "residual_px": 0.1969543266990346
+        },
+        {
+          "id": "HIGH_NW",
+          "world": [
+            -2000,
+            3000,
+            1000
+          ],
+          "pixel": [
+            408.0,
+            132.0
+          ],
+          "projected_pixel": [
+            408.30111157205164,
+            131.89015604571614
+          ],
+          "residual_px": 0.3205212522066579
+        },
+        {
+          "id": "HIGH_NE",
+          "world": [
+            1400,
+            3000,
+            1000
+          ],
+          "pixel": [
+            871.0,
+            132.0
+          ],
+          "projected_pixel": [
+            870.8740878158267,
+            131.83814986414453
+          ],
+          "residual_px": 0.20505936847589773
+        },
+        {
+          "id": "LOW_SPAWN",
+          "world": [
+            -500,
+            -900,
+            300
+          ],
+          "pixel": [
+            616.5,
+            617.5
+          ],
+          "projected_pixel": [
+            616.3180446143497,
+            617.2834534896125
+          ],
+          "residual_px": 0.28284298387650264
+        },
+        {
+          "id": "LOW_OUTLONG",
+          "world": [
+            300,
+            0,
+            300
+          ],
+          "pixel": [
+            708.0,
+            513.0
+          ],
+          "projected_pixel": [
+            708.4243446687681,
+            513.017972607905
+          ],
+          "residual_px": 0.42472510232713007
+        },
+        {
+          "id": "LOW_B",
+          "world": [
+            -1800,
+            2500,
+            300
+          ],
+          "pixel": [
+            469.0,
+            227.0
+          ],
+          "projected_pixel": [
+            468.7478808581293,
+            227.10865854995544
+          ],
+          "residual_px": 0.27453732383054946
+        },
+        {
+          "id": "LOW_A",
+          "world": [
+            1100,
+            2500,
+            300
+          ],
+          "pixel": [
+            799.0,
+            227.0
+          ],
+          "projected_pixel": [
+            799.011446056023,
+            227.08729427917947
+          ],
+          "residual_px": 0.0880414866750124
+        }
+      ],
+      "maximum_residual_px": 0.42472510232713007
+    },
+    {
+      "capture_id": "QA_MAP_CAMERA_003_MARKED",
+      "role": "independent holdout",
+      "anchors": [
+        {
+          "id": "HOLDOUT_1",
+          "world": [
+            -1600,
+            -600,
+            600
+          ],
+          "pixel": [
+            478.0,
+            599.0
+          ],
+          "projected_pixel": [
+            478.05342753283304,
+            599.0060456906228
+          ],
+          "residual_px": 0.05376850044154823
+        },
+        {
+          "id": "HOLDOUT_2",
+          "world": [
+            -1900,
+            800,
+            600
+          ],
+          "pixel": [
+            442.0,
+            425.0
+          ],
+          "projected_pixel": [
+            442.0440869941946,
+            425.03848575623687
+          ],
+          "residual_px": 0.05852193170287311
+        },
+        {
+          "id": "HOLDOUT_3",
+          "world": [
+            -700,
+            2300,
+            600
+          ],
+          "pixel": [
+            590.5,
+            241.0
+          ],
+          "projected_pixel": [
+            590.483571172735,
+            240.8483518684973
+          ],
+          "residual_px": 0.15253544556450924
+        },
+        {
+          "id": "HOLDOUT_4",
+          "world": [
+            500,
+            2900,
+            600
+          ],
+          "pixel": [
+            737.0,
+            168.0
+          ],
+          "projected_pixel": [
+            737.4477525326321,
+            167.78673253272245
+          ],
+          "residual_px": 0.49594893192487205
+        },
+        {
+          "id": "HOLDOUT_5",
+          "world": [
+            1600,
+            1800,
+            600
+          ],
+          "pixel": [
+            873.0,
+            302.0
+          ],
+          "projected_pixel": [
+            873.0339208980836,
+            301.98783350654594
+          ],
+          "residual_px": 0.03603679910541811
+        },
+        {
+          "id": "HOLDOUT_6",
+          "world": [
+            1300,
+            600,
+            600
+          ],
+          "pixel": [
+            837.0,
+            450.0
+          ],
+          "projected_pixel": [
+            837.0653209434452,
+            449.78626151615566
+          ],
+          "residual_px": 0.2234971255489474
+        },
+        {
+          "id": "HOLDOUT_7",
+          "world": [
+            -500,
+            200,
+            600
+          ],
+          "pixel": [
+            615.0,
+            499.5
+          ],
+          "projected_pixel": [
+            614.6872158903693,
+            499.3608270242435
+          ],
+          "residual_px": 0.34234926087020184
+        },
+        {
+          "id": "HOLDOUT_8",
+          "world": [
+            -1200,
+            1600,
+            600
+          ],
+          "pixel": [
+            529.0,
+            326.4594594594595
+          ],
+          "projected_pixel": [
+            528.8147388898926,
+            326.52540388723986
+          ],
+          "residual_px": 0.19664777261260585
+        }
+      ],
+      "maximum_residual_px": 0.49594893192487205
+    },
+    {
+      "capture_id": "QA_MAP_CAMERA_005_MARKED",
+      "role": "independent near-floor holdout",
+      "anchors": [
+        {
+          "id": "LOW_CHECK_1",
+          "world": [
+            -500,
+            1400,
+            -50
+          ],
+          "pixel": [
+            618.5,
+            353.5
+          ],
+          "projected_pixel": [
+            618.3975831797567,
+            353.36655276950825
+          ],
+          "residual_px": 0.1682182165958012
+        },
+        {
+          "id": "LOW_CHECK_2",
+          "world": [
+            -850,
+            2050,
+            -50
+          ],
+          "pixel": [
+            582.0,
+            285.0
+          ],
+          "projected_pixel": [
+            581.593650285694,
+            284.9462464009995
+          ],
+          "residual_px": 0.40988966774249824
+        },
+        {
+          "id": "LOW_CHECK_3",
+          "world": [
+            1400,
+            350,
+            -100
+          ],
+          "pixel": [
+            817.5,
+            463.5
+          ],
+          "projected_pixel": [
+            817.7596328704071,
+            463.5114464911142
+          ],
+          "residual_px": 0.2598850698956635
+        },
+        {
+          "id": "LOW_CHECK_4",
+          "world": [
+            1500,
+            1700,
+            50
+          ],
+          "pixel": [
+            833.0,
+            321.0
+          ],
+          "projected_pixel": [
+            833.7028262969812,
+            320.73316025010416
+          ],
+          "residual_px": 0.7517767327157974
+        },
+        {
+          "id": "LOW_CHECK_5",
+          "world": [
+            900,
+            2750,
+            150
+          ],
+          "pixel": [
+            771.0,
+            205.0
+          ],
+          "projected_pixel": [
+            771.4643334827817,
+            204.53025241680015
+          ],
+          "residual_px": 0.6605061507316323
+        },
+        {
+          "id": "LOW_CHECK_6",
+          "world": [
+            -2150,
+            2800,
+            80
+          ],
+          "pixel": [
+            440.0,
+            202.0
+          ],
+          "projected_pixel": [
+            439.50750006284613,
+            201.7252596074913
+          ],
+          "residual_px": 0.5639489971375061
+        },
+        {
+          "id": "LOW_CHECK_7",
+          "world": [
+            -900,
+            -900,
+            150
+          ],
+          "pixel": [
+            573.0,
+            609.0
+          ],
+          "projected_pixel": [
+            572.573196681291,
+            608.6356976006128
+          ],
+          "residual_px": 0.5611392973765175
+        },
+        {
+          "id": "LOW_CHECK_8",
+          "world": [
+            300,
+            -600,
+            80
+          ],
+          "pixel": [
+            705.0,
+            572.0
+          ],
+          "projected_pixel": [
+            705.1240883743611,
+            571.7300788184226
+          ],
+          "residual_px": 0.2970780518916185
+        }
+      ],
+      "maximum_residual_px": 0.7517767327157974
+    }
+  ],
+  "pixel_localization_allowance": 1.5,
+  "calibrated_world_z_range": [
+    -100,
+    1000
+  ],
+  "limits": [
+    "Roofed/occluded surfaces cannot be measured from the overhead frame.",
+    "Projection needs the true surface elevation; guessing a floor or roof plane changes inferred XY.",
+    "1.5 pixels is a conservative localization allowance covering native axis rasterization and observed holdout residuals; it does not bound architectural edge selection.",
+    "Outside tested Z range, projection is extrapolation. Pit datum -159.14 lies below tested range.",
+    "Rendered visible edges are not automatically collision or playable boundaries."
+  ],
+  "rejected_attempts": [
+    {
+      "id": "QA_MAP_CAMERA_001_CLEAN",
+      "reason": "Debug primitives remained visible; clean frame rejected."
+    },
+    {
+      "id": "QA_MAP_CAMERA_004_MARKED",
+      "reason": "Screenshot captured preceding overlay frame; new near-floor crosses absent. Preserved privately. Helper now separates marker submission and screenshot by a settled tick."
+    }
+  ],
+  "projection_matrix": [
+    [
+      0.10728852220321486,
+      0.002331717813963893,
+      -0.1419466868713696,
+      671.6518485650887
+    ],
+    [
+      -1.916037852962038e-05,
+      -0.10594305082499304,
+      -0.08145872307932964,
+      503.3023904088199
+    ],
+    [
+      -5.3799835040856114e-08,
+      3.5739562167192186e-06,
+      -0.00022189389699903085,
+      1
+    ]
+  ],
+  "fit_algorithm": "Normalized-world linear least squares, P[2][3]=1; sixteen holdouts excluded from fitting.",
+  "sampled_pixel_localization_bounds": [
+    {
+      "source_z": -100,
+      "maximum_axis_1_5_pixel_displacement_cm": 36.86864634673808
+    },
+    {
+      "source_z": 0,
+      "maximum_axis_1_5_pixel_displacement_cm": 36.08041775305882
+    },
+    {
+      "source_z": 100,
+      "maximum_axis_1_5_pixel_displacement_cm": 35.29219096718696
+    },
+    {
+      "source_z": 300,
+      "maximum_axis_1_5_pixel_displacement_cm": 33.71574333207375
+    },
+    {
+      "source_z": 600,
+      "maximum_axis_1_5_pixel_displacement_cm": 31.35108898857748
+    },
+    {
+      "source_z": 1000,
+      "maximum_axis_1_5_pixel_displacement_cm": 28.198256617007484
+    }
+  ]
+}

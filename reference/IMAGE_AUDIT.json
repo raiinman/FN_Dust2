@@ -1,7 +1,7 @@
 {
   "review_date": "2026-10-01",
   "source_build": "25640462",
-  "registered_images": 189,
+  "registered_images": 193,
   "coverage_excluded": 8,
   "complete_areas": 16,
   "complete_subareas": 11,
@@ -2183,6 +2183,38 @@
       "sha256": "02962ec18493abc877872468d64565be85dbec1917351354b1a6d53110f6bb73",
       "coverage_status": "PARTIAL",
       "review": "Complete Xbox south-side crate/pallet bases and cloth-covered top, with Catwalk parapet and Mid door context. Shows side approach overlooked by direct front jump; no traversal accepted from image alone."
+    },
+    {
+      "id": "QA_MAP_CAMERA_002_MARKED",
+      "area": "Whole map",
+      "image": "reference/images/whole_map/QA_MAP_CAMERA_002_MARKED.jpg",
+      "sha256": "b9acaa08569a62b84f4c66258fb3d90c69d1dc205483a0f60d7307adb6f6c893",
+      "coverage_status": "PARTIAL",
+      "review": "Native authored drawline crosses at known source positions; axis intersections individually inspected. Debug annotations are calibration evidence, not map geometry."
+    },
+    {
+      "id": "QA_MAP_CAMERA_002_CLEAN",
+      "area": "Whole map",
+      "image": "reference/images/whole_map/QA_MAP_CAMERA_002_CLEAN.jpg",
+      "sha256": "22b9bab43b17061ef81e54ee1885e12f6a70d905714b9322b057f11cc6b3f733",
+      "coverage_status": "PARTIAL",
+      "review": "Native overhead context; full playable layout fits, roofs obscure covered floors and walls. No continuous architectural boundary is certified."
+    },
+    {
+      "id": "QA_MAP_CAMERA_003_MARKED",
+      "area": "Whole map",
+      "image": "reference/images/whole_map/QA_MAP_CAMERA_003_MARKED.jpg",
+      "sha256": "b7312b79d0702c86adeb2f137742f60f5703519f71ba5e7d06562b289758c4e6",
+      "coverage_status": "PARTIAL",
+      "review": "Native authored drawline crosses at known source positions; axis intersections individually inspected. Debug annotations are calibration evidence, not map geometry."
+    },
+    {
+      "id": "QA_MAP_CAMERA_005_MARKED",
+      "area": "Whole map",
+      "image": "reference/images/whole_map/QA_MAP_CAMERA_005_MARKED.jpg",
+      "sha256": "d493f83eae43d7d3a5a05f644ec5216fc3990c0fd1ece63cd22d01b8622b9764",
+      "coverage_status": "PARTIAL",
+      "review": "Native authored drawline crosses at known source positions; axis intersections individually inspected. Debug annotations are calibration evidence, not map geometry."
     }
   ]
 }

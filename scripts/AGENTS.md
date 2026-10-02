@@ -108,6 +108,14 @@ Blender Python, Unreal automation, validation scripts, manifest processors, and 
   is connectivity evidence, never default-speed timing or special traversal.
   Inspect blocked routes before changing the waypoint plan; preserve attempts.
 - Scripts must be deterministic where inputs are unchanged.
+- `cs2_capture_calibration.py` captures original debug cross markers and a clean
+  frame at one verified native pose. Drawline and screenshot share a request;
+  exact echoes, screenshot paths and hashes are checked. Caller must observe
+  visible debug marks and declare debug_overlay_initially_visible=true in plan.
+  Entity overlay clears do not remove drawline primitives: helper hides them
+  for the clean frame with debugoverlay_toggle, then restores visible state.
+  It creates no entities and extracts no assets. Independent pixel/geometry review
+  must accept a calibration; roof silhouettes never certify hidden floor bounds.
 - `build_connector_profile.py` validates repeated corrected floor-ray points
   and mandatory reviewed surface semantics before producing calibrated samples.
   The physical register consumes only explicit accepted_pairs; distinguish
@@ -129,6 +137,18 @@ Blender Python, Unreal automation, validation scripts, manifest processors, and 
 - Review console logs for account/network identifiers before committing excerpts.
 
 ## Work Guidance
+
+- `cs2_capture_calibration.py` captures native authored drawline markers and a
+  clean companion frame. Observe overlays visible before use; it hides them
+  for the clean capture and restores visibility in cleanup. Draw primitives
+  must settle before a separate screenshot request: same-request capture can
+  return the preceding overlay frame. Entity-overlay clears do not clear
+  these primitives. All frames require independent visual/pixel review.
+- `build_map_camera.py` rebuilds the projective camera from eight inspected
+  3D-to-pixel anchors using standard-library least squares; sixteen withheld
+  anchors must remain below one pixel. Hash checks and fixed-Z inverse checks
+  precede annotated context generation. Never infer hidden wall boundaries or
+  promote that context to a completed architectural truth map.
 
 Prefer small composable tools with clear command usage and dry-run/validation modes where practical.
 
