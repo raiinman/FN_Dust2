@@ -7,7 +7,7 @@ no model override, new chat or agent delegation requested. Criteria unchanged.
 
 ## Authority and preserved work
 
-GitHub main authoritative. Latest checkpoint: Pit low closingboundary/floor/leaf evidence; previous pushedd97c312;
+GitHub main authoritative. Latest checkpoint: Pit lowreturn and upperheight comparison; previous pushededf2a33;
 latest Git commit pins this checkpoint. Crash baseline35eaa642, dirty work
 preserved4c7df48, mergedab4e484. Active checkout:
 C:/Users/mikea/Documents/Codex/2026-09-30/new-chat/FN_Dust2
@@ -25,8 +25,8 @@ evidence/CRASH_RECOVERY_20261001.md. Inspect dirty work and current main first.
 - Scale2.54cm/native from repeated inch-rangefinder anchors; UE=(2.54x,-2.54y,
   2.54z), inverse/native-right/length checks PASS. Phase2 exporter/editor roundtrip
   remains unverified. Unsaved Hammer128 cube is calibration, not production.
-- 399 bounded physical feature measurements;13 floor datums;54 Short/117 Tunnel
-  stair floor samples;459 connector points;130 local architectural chords.
+- 404 bounded physical feature measurements;13 floor datums;54 Short/117 Tunnel
+  stair floor samples;459 connector points;135 local architectural chords.
   MEASUREMENTS.csv and profile registers retain confidence and explicit limits.
   Local sections/point pairs are not entire room rectangles or route clearances.
 - Listed topology PASS:34 edges/four specials;24 ground paths both directions,
@@ -90,7 +90,7 @@ now extend projection range throughZ290. Whole cap/body still separate. Every co
 
 ## Desktop and current source controller
 
-Pit southlow001 completed12obs/all0restore; twoY originsagree, sides concreteY175.93/176.03 and centralWoodY170.93 atZ-160. Southground002 completed3columns/all0restore, sandMeshZ-187.43/-187.29/-187.25, each2native before correspondingface. Threepoints/two samplednearback-to-street pairs registered:459 connectors/398 measurements. PIT_BOUNDARY_EVIDENCE JSON/SVG rendered/inspected. Southleaf003 complete80obs/all0restore; twoYorigins agree lowerWood limitsX[1312.375,1312.46875]/[1535.2109375,1535.296875]. PIT_LOW_LEAF_REVIEW registered; physical399, updated SVG rendered/inspected. ONE active source controller: southsections004 four low opposite-side return sectionsY180/190/200/220. Inspect material/pose/restoration before acceptance; no fullPolygon inferred. B nearstrip022 completes24 observations/all0restore: independentX-1680/
+Pit southlow001 completed12obs/all0restore; twoY originsagree, sides concreteY175.93/176.03 and centralWoodY170.93 atZ-160. Southground002 completed3columns/all0restore, sandMeshZ-187.43/-187.29/-187.25, each2native before correspondingface. Threepoints/two samplednearback-to-street pairs registered:459 connectors/398 measurements. PIT_BOUNDARY_EVIDENCE JSON/SVG rendered/inspected. Southleaf003 complete80obs/all0restore; twoYorigins agree lowerWood limitsX[1312.375,1312.46875]/[1535.2109375,1535.296875]. PIT_LOW_LEAF_REVIEW registered; physical399, updated SVG rendered/inspected. Southsections004 completed16obs/all0restore, four acceptedlocal masonrysections: Y180 curvedHull width734.2886cm;Y190/200/220 MeshplanesX1272/1592 width812.8cm. Physical403/architectural134chords; updatedPit/sectionSVGs rendered/inspected. UpperSides005 complete16obs/all0restore: westfarMesh already750, eastlocalMesh750 thenfarMesh800/sandTerrain850/900. High64 rays do not locate lowwallends. UpperLow006 complete16obs/all0restore; bothlocalMesh X1272/1592 atY750, farbarrel/masonry at800, farhouse/sand at850/900. High64 misses westwall750 whilelow20 hitsit. Fixed007 completed16obs/all0restore; twoXorigins agree localMesh750 andoffwestSandMeshX1253.77/eastConcreteHullX1751.41 at800/Z0. Original serial08/09 stopped on west008 unexpected WoodHullX1266.21 atY775/Z0, preserving6 observations; worker driver and probe restore errors all0. East009 was never executed. Fresh exact FN_RESUME_SAME_CHAT_20261002_PIT echo verifies B-mouth pose. East009 failed6obs on remoteConcreteMeshX1758.29/Y775; restore errors all0. Both originalfailures preserved. Narrow west010 failed8obs at intermediateSandMeshX1253.21/Y768.75; exactrestore all0. Serial10/11 driver stopped beforeeast. East011 failed8obs at nearconcreteHullX1613.97/Y768.75; exactrestore all0. Both010/011 failures preserved. ONE sourcecontroller now: serial run_pit_upper_ends_12_13.py with newlyobserved762.5..768.75 westSandMesh/eastconcreteHull; unchangedlocal normalbands. Inspect final reports/restores before input. B nearstrip022 completes24 observations/all0restore: independentX-1680/
 -1660 agree firstWood/Dirt interfaceY[2426.34765625,2426.40625] atZ40.
 WoodX-1718.49; DirtX-1723.15, neither automatic fullbodycorner nor topend.
 B_TIMBER_LOCAL_SECTIONS updated/rendered/inspected. Failed019 own-originRock

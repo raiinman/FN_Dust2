@@ -72,7 +72,18 @@ def build(root):
         assert hashlib.sha256((root/capture['repository_image_path']).read_bytes()).hexdigest()==capture['jpeg_sha256']
         component_captures.append({k:capture[k] for k in ['id','repository_image_path','jpeg_sha256','pose_command']})
     leaf=leaf_section(ref) if (ref/'PIT_LOW_LEAF_REVIEW.json').exists() else None
-    result=dict(source_build='25640462',south_sections=rows,lower_closed_leaf=leaf,side_wall_checks=walls,near_back_to_street=dict(first=first,last=last,horizontal_interval_cm=interval,rise_cm=rise),reviewed_component_captures=component_captures,scope='Closed southern timber leaf and flanking masonry identified in reviewed ground views. Wall checks coincide with visible opposite plaster retaining walls, but only checked points are accepted. Roof/cap hides southern floor in calibrated overhead. No straight south wall, full terminal/curved corner, full Pit polygon or entire graded floor inferred.',gate1='FAIL')
+    return_report=next((r for r in arch['reports'] if r['id']=='PIT_LOW_SOUTH_RETURN_SECTIONS_004'),None)
+    return_points=[]
+    if return_report:
+        assert return_report['status'].startswith('complete;') and max(return_report['restore_numeric_errors'])<=.01
+        for station in return_report['config']['stations']:
+            for yaw in [0,180]:
+                pair=[o for o in return_report['observations'] if o['station_id']==station['id'] and o['yaw']==yaw]
+                assert len(pair)==2 and pair[0]['hit']==pair[1]['hit'] and pair[0]['surface']==pair[1]['surface']
+                p=pair[1]['hit'];assert p[2]==-160 and 'surfaceprop concrete,' in str(pair[1]['surface'])
+                assert abs(float(pair[1]['rangefinder_reply'].split()[1])-math.dist(pair[1]['eye_origin'],p))<=.02
+                return_points.append(dict(station=station['id'],yaw=yaw,point=p,surface=pair[1]['surface']))
+    result=dict(source_build='25640462',south_sections=rows,lower_closed_leaf=leaf,lower_return_points=return_points,side_wall_checks=walls,near_back_to_street=dict(first=first,last=last,horizontal_interval_cm=interval,rise_cm=rise),reviewed_component_captures=component_captures,scope='Closed southern timber leaf and flanking masonry identified in reviewed ground views. Wall checks coincide with visible opposite plaster retaining walls, but only checked points are accepted. Roof/cap hides southern floor in calibrated overhead. No straight south wall, full terminal/curved corner, full Pit polygon or entire graded floor inferred.',gate1='FAIL')
     (ref/'PIT_BOUNDARY_EVIDENCE.json').write_text(json.dumps(result,indent=2)+'\n')
     svg=['<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1100">','<rect width="1400" height="1100" fill="#14202e"/><g font-family="Arial" fill="white"><text x="30" y="40" font-size="25">Pit / measured closing boundary and side-wall evidence</text><text x="30" y="75" font-size="17">Native XY point plan. Opposite walls atX1272/1592; back timber recess and side masonry stay separate. Gate1 FAIL.</text>']
     sx=lambda x:140+(x-1250)*1.6;sy=lambda y:840-(y-160)*1.1
@@ -91,6 +102,9 @@ def build(root):
         for samples in leaf['points'].values():
             for p in samples:svg.append(f'<circle cx="{sx(p[0])}" cy="{sy(p[1])}" r="4" fill="#f9f9f9" stroke="#14202e"/>')
         low,high=leaf['width_interval_cm'];svg.append(f'<text x="790" y="818" font-size="17">White: low closedWood width[{low:.3f},{high:.3f}]cm.</text>')
+    for r in return_points:
+        p=r['point'];svg.append(f'<circle cx="{sx(p[0])}" cy="{sy(p[1])}" r="4" fill="#ff926e" stroke="#14202e"/>')
+    if return_points:svg.append('<text x="790" y="851" font-size="16">Coral: low returns atY180/190/200/220, curved vsMesh.</text>')
     for p,color in [(first,'#49f6e0'),(last,'#49f6e0')]:svg.append(f'<circle cx="{sx(p[0])}" cy="{sy(p[1])}" r="6" fill="{color}"/>')
     svg.extend(['<text x="790" y="175" font-size="20">Amber: two-origin low faceZ-160</text>','<text x="790" y="208" font-size="17">X1306 masonryY175.93</text>','<text x="790" y="241" font-size="17">X1400 closedWoodY170.93</text>','<text x="790" y="274" font-size="17">X1542 masonryY176.03</text>','<text x="790" y="327" font-size="20">Cyan: nearby sand floor points</text>'])
     for n,row in enumerate(rows):svg.append(f'<text x="790" y="{365+n*33}" font-size="17">X{row["x"]}: Z{row["adjacent_floor"][2]:.2f} / {row["floor_z_cm"]:.4f}cm</text>')

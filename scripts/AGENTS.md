@@ -462,3 +462,12 @@ selection and .01native perend allowance. build_pit_boundary_evidence validates
 twoorigin normalbands, native southray pose/rangefinder/repeats and material
 identity, derives localwidth and feeds physicalregister. Rebuild/render/inspect
 updated JSON/SVG; fullarchedleaf/body and traversalclearance remain separate.
+
+PIT_UPPER_SIDE_CHECKS JSON/CSV/SVG, owned by build_pit_upper_side_checks.py,
+compares complete005/006/007 native first hits at floor+64/+20/fixedZ0.
+Validate repeats, settledpose, rangefinder, corrected original floor endpoints
+and exact source restores. Rebuild/render/inspect. Dashed localnormal references
+are not continuouswalls; highmisses, distant components and unlike surfaces
+never define bodyends, routewidths or a closed architectural footprint.
+Optional lower004 returnpoints in PIT_BOUNDARY_EVIDENCE preserve Mesh versus
+curved Hull at lowZ-160, separate from fullfloor/contact/terminal bounds.

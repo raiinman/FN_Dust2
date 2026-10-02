@@ -6,7 +6,7 @@ Baseline: CS2 build 25640462, 2026-10-01 UTC.
 | ID | Unknown | Present bound | Required resolution |
 | --- | --- | --- | --- |
 | U01 | Capture continuity | Old workers did not survive. New single-owner worker verified after VConsole disconnect; 260 reference frames reviewed, eight excluded; four native radar crops inspected separately | Keep exact echo checks and rendered-area/pose checks; extend usable route-oriented coverage |
-| U02 | Critical lengths/widths | 399 calibrated collision-feature measurements;13 floor datums,54 Short and117 Tunnel stair points and459 connector surface points. Long/B/Mid local openings, Short flight, Xbox/CT crate/elevator point-pair rises accepted; full architectural bounds incomplete | Structural aperture endpoints, room lengths and remaining route/cover dimensions |
+| U02 | Critical lengths/widths | 404 calibrated collision-feature measurements;13 floor datums,54 Short and117 Tunnel stair points and459 connector surface points. Long/B/Mid local openings, Short flight, Xbox/CT crate/elevator point-pair rises accepted; full architectural bounds incomplete | Structural aperture endpoints, room lengths and remaining route/cover dimensions |
 | U03 | Elevations/slopes/stairs | 13 repeated native floor datums with calibrated conversion; CT floor/overhead separation 167.69 native units; 54 repeated Short floor samples plus12 repeated center riser faces; Short count/rise/run and Tunnel18 count,18 rises/16 axial intervals,16 local widths accepted; full Tunnel sides/terminal edges and remaining slopes unresolved | Floor endpoints, stair counts and rise/run readings |
 | U04 | Map scale and axes | Native rangefinder anchors accept factor2.54cm/source unit; native right-axis tests and Epic documentation fix UE=(2.54x,-2.54y,2.54z), reversible math checks pass | Phase 2 exporter/editor round-trip must preserve convention exactly once; no import accepted yet |
 | U05 | Per-area directional coverage | 260 current-build reference captures, eight exclusions; sixteen critical-area view sets and eleven subarea sets accepted; all required directional sets accepted; individual image limitations retained | Preserve complementary view coverage; resolve full structural metric evidence |
@@ -52,7 +52,7 @@ Passage survey:11 additional local wall/cover sections and8 repeated floor/first
 Wood overhead columns registered. Lower local concrete widths219.3/224native,
 Upper narrow passage128native atY1500/1600/1700. B approach sections atY1900/2000
 are separate from roofed passage. ARCHITECTURAL_SURVEY_PLAN is a rendered,
-inspected130-chord layered section plan with13 floor datums; it remains separate
+inspected135-chord layered section plan with13 floor datums; it remains separate
 from continuous architectural footprint acceptance.
 
 Xbox visible face survey: two outside-origin same-height body-depth spans
@@ -459,3 +459,5 @@ bounded lowerclosedWood facingwidth[565.71435625,566.2723625]cm, including
 166 architecturalreports/20rejected. UpdatedPit JSON/SVG rendered/inspected.
 This decorativeclosedleaf is not traversalclearance/fullarchedbody. Curved
 returns, exactcontacts/fullfloor and continuouswholemap footprint remain open.
+
+Pit low/upper side checkpoint:004 adds four lowreturn sections;006 adds localY750 floor+20 masonry width812.8cm.404 physicalfeatures/135 localchords/459 connectorpoints.005 high64 rays miss westlowwall at750;007 twoXorigins confirm bothlocalMesh atfixedZ0/750 and unlikefirsthits at800. PIT_UPPER_SIDE_CHECKS JSON/CSV/SVG validates repeatednative/pose/rangefinder and originalcorrectedflooranchors; diagram rendered/inspected. Original008/009/010/011 failures retain intermediateWood/Sand/remoteMesh/nearHull and all0 exactrestores.174 architecturalreports/24 rejected. Fullarchitecturalends, continuousgrade/layeredfootprint and renderedbody bounds remain open; Gate1 FAIL.
