@@ -40,7 +40,7 @@ round-trip remains a Phase2 validation. Source repeatability is separate from
 rendered-surface accuracy and implementation tolerance.
 
 MEASUREMENTS has199 calibrated local feature rows;13 PHYSICAL_FLOOR_DATUMS,
-54 SHORT_STAIR_SAMPLES,54 TUNNEL_STAIR_SAMPLES and162 connector points are
+54 SHORT_STAIR_SAMPLES,54 TUNNEL_STAIR_SAMPLES and223 connector points are
 repeated point evidence. Short12 measured/rendered risers,359.6132cm sampled
 run and234.3912cm rise; Tunnel18 measured/rendered risers,18 rises/16 axial
 intervals,16 local widths and365.7854cm sampled rise. Full Tunnel curved run,
@@ -113,3 +113,10 @@ Long road:13 additional repeated wall/frontage/cover sections accepted;
 7 cross-area/rock/wood first-hit stations retain diagnostics. Calibrated
 architectural plan73 chords rendered/inspected. A entrance section figure
 rendered/inspected; measurements199 rows. Critical full footprint remains FAIL.
+
+Pit floor refinement:61 additional lateral/cap/independent-midpoint observations
+registered; one sharp rock/floor boundary failure preserved. Two raised-edge
+hits excluded from floor interpolation. Initial48-anchor strip has27 independent
+checks; max14.3972cm crossfall residual, so continuous floor remains unaccepted.
+Initial diagnostic preserved; denser grid/fresh holdouts underway. End probes
+are height-specific cover/terrace diagnostics, not full retaining ends.

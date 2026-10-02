@@ -223,3 +223,9 @@ build_a_entry_stairs.py validates repeated floor points, rangefinder distances,
 concrete face positions at two lateral stations and rendered principal count.
 It derives individual and total principal rise/run for build_physical_register.
 Lower pavement lip, upper landing slope and full flight width stay separate.
+
+build_pit_floor_survey.py requires explicit reviewed anchor_rows/holdout_reports
+in PIT_FLOOR_SURVEY and repeated points in CONNECTOR_SURFACE_PROFILES. It checks
+build, excluded hits, monotone equal-length multicolumn rows, barycentric containment and
+independent holdout errors. Its output is a diagnostic; universal unseen-floor,
+rendered offset, wall ends and whole-map acceptance need separate review.

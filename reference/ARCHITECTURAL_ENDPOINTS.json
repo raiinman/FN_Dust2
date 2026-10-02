@@ -16825,6 +16825,139 @@
           "notes": "Measured32 native above local centerline floor; native Long direction views and A ramp detail/plan supply complementary surface context. Y950 spans adjoining Long Corner/SidePit spaces;Y2800 is above low A curb and crosses entrance landing. Named cover/panel gaps remain distinct from wall-to-wall spans. No minimum whole-body clearance, continuous wall/road outline, crossfall or rendered offset certification."
         }
       ]
+    },
+    {
+      "id": "PIT_RETAINING_NORTH_ENDS_001",
+      "source_build": "25640462",
+      "area": "Pit retaining walls / Long Corner transition",
+      "source_map": "de_dust2",
+      "timestamp_utc": "2026-10-02T05:26:00.506094+00:00",
+      "unit": "source_units",
+      "config": {
+        "id": "PIT_RETAINING_NORTH_ENDS_001",
+        "build": "25640462",
+        "area": "Pit retaining walls / Long Corner transition",
+        "stations": [
+          {
+            "id": "WEST_RETAINING_END_EYE10",
+            "pose": [
+              1260,
+              800,
+              -54
+            ],
+            "yaws": [
+              -90
+            ]
+          },
+          {
+            "id": "EAST_RETAINING_END_EYE64",
+            "pose": [
+              1600,
+              800,
+              0
+            ],
+            "yaws": [
+              -90
+            ]
+          }
+        ],
+        "scope": "Probe north end cap faces from beyond retaining walls. Safe start still needs exact native hit review; no-hit/own-origin rejects. Different heights retained; no automatic full wall continuity."
+      },
+      "observations": [
+        {
+          "station_id": "WEST_RETAINING_END_EYE10",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact 1260.000000 800.000000 -54.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            1260,
+            800,
+            10
+          ],
+          "hit": [
+            1260.0,
+            784.02,
+            10.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  15.98 inches (  1.33 feet)"
+        },
+        {
+          "station_id": "WEST_RETAINING_END_EYE10",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact 1260.000000 800.000000 -54.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            1260,
+            800,
+            10
+          ],
+          "hit": [
+            1260.0,
+            784.02,
+            10.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop Wood, contents 400004c1, shape type: Hull, face: -1"
+          ],
+          "rangefinder_reply": "DISTANCE:  15.98 inches (  1.33 feet)"
+        },
+        {
+          "station_id": "EAST_RETAINING_END_EYE64",
+          "yaw": -90,
+          "repeat": 1,
+          "pose": "setpos_exact 1600.000000 800.000000 0.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            1600,
+            800,
+            64
+          ],
+          "hit": [
+            1600.0,
+            707.0,
+            64.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 87474"
+          ],
+          "rangefinder_reply": "DISTANCE:  93.00 inches (  7.75 feet)"
+        },
+        {
+          "station_id": "EAST_RETAINING_END_EYE64",
+          "yaw": -90,
+          "repeat": 2,
+          "pose": "setpos_exact 1600.000000 800.000000 0.000000;setang_exact 0.000000 -90.000000 0.000000",
+          "eye_origin": [
+            1600,
+            800,
+            64
+          ],
+          "hit": [
+            1600.0,
+            707.0,
+            64.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 87474"
+          ],
+          "rangefinder_reply": "DISTANCE:  93.00 inches (  7.75 feet)"
+        }
+      ],
+      "status": "complete; architectural interpretation pending",
+      "original_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "private_raw_path": "../reference_cache/crash_recovery_survey/pit_retaining_ends_01/PIT_RETAINING_NORTH_ENDS_001.json",
+      "review": "WestX1260 eye10 hits Wood HullY784.02, not retaining concrete end. EastX1600 eye64 hits concreteY707 but may be higher SidePit cap/terrace transition while lower wall continues; not full wall end acceptance. Four repeated observations retained as height-specific diagnostic only. Native Pit plan view shows caps/terraces/steps and continuous ramp into road; surface interpretation depends height."
     }
   ],
   "rejected_attempts": [

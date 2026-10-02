@@ -30,7 +30,7 @@ preserve all raw captures, failed attempts and existing work/ directories.
   Phase 2 exporter/editor round-trip remains unverified. Unsaved Hammer128-unit
   cube is an agent-authored calibration fixture, not production or source geometry.
 - 13 repeated floor datums,54 Short floor samples,54 Tunnel stair floor samples,
-  162 connector floor/cover/cap points,199 calibrated feature measurements.
+  223 connector floor/cover/cap points,199 calibrated feature measurements.
   No continuous floors, room outlines or cover bounds inferred from point counts.
 - Short:12 rendered/native risers, individual nonuniform section spacing;
   sampled rise234.3912cm/run359.6132cm. SHORT_STAIR_* preserve endpoint limits.
@@ -130,9 +130,21 @@ A_ENTRY_STAIR_PROFILE.svg rendered/inspected, rise/run labels separated.
 Long width batch ended80 observations:13 wall/frontage/cover sections accepted,
 7 cross-area/rock/wood diagnostics retained. None implies road minimum clearance.
 
-Active serial probe_pit_floor_grid_01.py in private pit_floor_grid_01,
-47 near-side/center-midpoint floor columns. Original plan preserved. Inspect
-process/partial reports before another pose/input controller; grid still private.
+Pit initial grid stopped atX1274/Y600 boundary oscillation.24 completed
+points registered (one raised west edge excluded floor); failed report preserved
+in CONNECTOR_SURFACE_PROFILES.rejected_attempts. Source camera explicitly
+restored/read back640,-100,150p0y90 after controller ended.
+Corrected grid/followup ended:25 points (eastY750 raised edge excluded; inward
+X1568 floor recovered),12 independent crossfall holdouts. Two height-specific
+retaining-end rays hit west WoodY784.02/east concreteY707; no full wall ends accepted.
+48-anchor three-column strip has27 independent checks, max14.3972cm; diagnostic
+FAIL for faithful floor interpolation. Initial JSON retained separately; initial
+15-center-check SVG rendered/inspected. Latest27-check SVG needs fresh render.
+
+Active serial probe_pit_adaptive_grid_01.py, private pit_adaptive_grid_01,
+26 new lateral anchors plus8 fresh independent holdouts. Six earlier same-row
+holdouts will be explicitly promoted to anchors; preserve initial failed diagnostic.
+No revised floor accepted yet. Inspect process/partial files before any controller.
 
 Next: remaining structural apertures/room spans/cover bounds and ramp profiles;
 full Tunnel side/terminal footprint; bounded other launch/partner scope;

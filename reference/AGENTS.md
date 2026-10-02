@@ -170,3 +170,12 @@ A_ENTRY_STAIR_PROFILE.json selects three principal risers from reviewed floor
 samples and repeated two-position horizontal faces. A_ENTRY_STAIR_FLIGHT.csv
 records each rise/run; shallow lower lip and sloping upper landing are separate.
 Rendered three-step count is corroboration, not numeric pixel calibration.
+
+PIT_FLOOR_SURVEY.json owns reviewed lateral grid IDs, excluded raised-edge hits,
+failed sharp-boundary attempts and explicit anchor/holdout selections.
+PIT_FLOOR_INTERPOLATION.json is an empirical checked-point diagnostic only;
+its triangle definitions are reference interpolation, not production meshes.
+Neither residuals nor sample bounds silently certify a full continuous floor.
+PIT_FLOOR_INTERPOLATION_INITIAL.json preserves the original three-column
+diagnostic and its27 independent checks (max14.3972cm). Explicitly reclassify
+promoted holdouts when refining anchors; fresh holdouts must remain independent.
