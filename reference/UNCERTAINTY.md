@@ -164,17 +164,17 @@ Horizontal-section survey expanded to eight surveyed areas:256 distinct directio
 Resumed checkpoint:17 horizontal sections/544 repeated directions preserved;
 six local stone intrados columns accepted,263 physical measurements and323
 connector first-surface points. B exitY1816 lower first hit is diagnostic,
-excluded from flight interpretation pending offset probes. Two TSpawn east
+excluded from flight interpretation; later offset probes reviewed separately. Two TSpawn east
 no-hit attempts retain exact miss/echo and restoration; no endpoint inferred.
-Point-only layered map rendered/inspected. Fresh B Site midpoint checks active;
-other planned midpoint/floor/detail batches unexecuted. Complete footprint and
+Point-only layered map rendered/inspected. Subsequent midpoint, floor and
+detail evidence is reviewed below. Complete footprint and
 critical dimensional/uncertainty acceptance remain FAIL; Phase2 not started.
 
 
 18 horizontal-section reports preserve574 repeated first-hit directions and2 repeated native no-hit directions; no closed outline accepted.96 fresh midpoint checks reject74 candidate chords; every failure remains explicit. Three clean arch JPEGs individually inspected/registered bring226 images, all hashes/native dates PASS.266 calibrated feature measurements and329 connector points; three B exit inter-tread rises20.32cm each, four center faces independently match two lateral positions. Failed east side own-origin dirt hit rejected/restored; west concrete side point retained without full-width claim. Lower ground/full sides/terminal extent still pending; Gate1 FAIL.
 
 
-85 independently repeated route floor points across13 accepted paths completed/restored and registered. Native floor Z replaces feet as origin-independent evidence; TopMid metal Hull support retained separately.26 sampled endpoint elevation/chord measures bring297 physical measurements/418 connector points. Thirteen elevation charts rebuilt/rendered/inspected; dashed sample links grant no continuous floor or actual walking length. Fresh lower-body transverse sections active serially; no full route minimum or continuous architectural footprint accepted. Gate1 FAIL.
+85 independently repeated route floor points across13 accepted paths completed/restored and registered. Native floor Z replaces feet as origin-independent evidence; TopMid metal Hull support retained separately.26 sampled endpoint elevation/chord measures bring297 physical measurements/418 connector points. Thirteen elevation charts rebuilt/rendered/inspected; dashed sample links grant no continuous floor or actual walking length. Later lower-body transverse sections are reviewed separately; no full route minimum or continuous architectural footprint accepted. Gate1 FAIL.
 
 
 Latest portal/route checkpoint:317 calibrated physical feature measurements,
@@ -260,7 +260,7 @@ B outside camera uses six inspected original marker intersections and ten fresh
 three-depth holdouts; constrained model maximum held.71188px.232 image hashes/
 native capture dates PASS. Opposing normal preflight finds different southern
 return/northern facade faces and Wood_Dense within gate region. Parallel native
-material-transition refinement active; no structural opening, shared wall body,
+material-transition refinement is reviewed in later B frame sections; no structural opening, shared wall body,
 minimum leaf gap or continuous footprint acceptance from preflight. Gate1 FAIL.
 
 B frame local material sections: opposed transitions and independentZ40/140
@@ -385,12 +385,29 @@ Local sampled width256.3368cm/depth261.6200cm; lowerZ60 width256.9464cm.
 Lower northY2457.43 versus upper bodyY2425.09 is adjoining retaining component,
 excluded from covered depth.387 physical rows; no complete box, hidden base,
 ground-contact height or uniform cloth top accepted. Separate top/surround plan
-is active in STATE; review source components before accepting additional heights.
+completed as003; reviewed components and comparisons are below.
 
 B covered-top003:7 corrected repeated points/all0 restore, four Wood_Plank Hull
 upper pointsZ102.35..102.98 and three adjacent concrete Mesh groundZ1.33..4.71.
 Three explicit different-XY top-to-ground elevation comparisons registered;
 390 bounded measurements/450 connector points. Ground contact/hidden base and
 full top envelope remain unmeasured. A separately named fresh exterior plane
-check is active in STATE; passing points would only support declared estimated
-continuation, not direct hidden-floor measurement. Keep original three fits fixed.
+check completed as004 and rejected this plane; original three fits retained.
+No estimated flat continuation or direct hidden-floor measurement accepted.
+
+B cover ground004:four actual repeated concrete Mesh points/all0 restore,454
+connector samples. Original3-point plane retained without refit:1 PASS/3 REJECT
+against predeclared1native threshold; max3.968570native=10.080168cm. Nearby
+ground is graded beyond that model; no planar/hidden floor accepted. Current
+source ground atX-1750 isZ3.79/Y2340 andZ8.44/Y2400, used only to choose safe
+outside low-face ray eyes in separately named005, completed/reviewed below.
+
+B cover lower005 completed16/all0 restore; source ground-firstZ4/Y2340 and
+Z9/Y2400 precede covered Wood-firstZ5/Z10. Serial006 completed48 observations/
+all0 restore; independentX-1750/-1740 agree local visibility intervals
+Z[4.5625,4.625] and[9.5625,9.625]. Selected sameY top points atX-1780/-1780.01
+give bounded different-X comparisons[249.7709,250.03125]cm and
+[235.4707,235.73105]cm, including.01native allowance each end.392 physical rows.
+Ground occludes timber below; no hidden base, exact cloth contact, whole roof or
+flat floor accepted. Contact sections and failed ground-model SVGs rebuilt/
+rendered/inspected. B cover/platform perimeters and whole-map critical extents open.

@@ -2,10 +2,21 @@
 
 **FAIL. Phase 1 remains active. Phase 2 production is prohibited.**
 
+B cover contacts006:48 repeated observations/all0 restore, matching independent
+origins at twoY. B_COVER_CONTACT_SECTIONS has bounded selected top minus local
+ground/first-Wood visibility differences[249.7709,250.03125]cm and
+[235.4707,235.73105]cm;392 physical rows. Explicit differentX, hidden-base and
+full roof/body limits retained. Contact and rejected ground-model SVGs inspected;
+critical perimeters/whole-map extents remain incomplete, Gate1 FAIL.
+
+B cover ground004 preserves four repeated concrete points (454 connector points)
+and unchanged original plane:1 independent PASS/3 REJECT, max10.080168cm.
+No flat or occluded under-cover floor accepted; critical extents remain open.
+
 Covered-top003 adds7 corrected repeated points (4 cover tops/3 adjoining ground)
 and3 explicit different-XY elevation comparisons:390 measurements/450 connector
 points. No exact hidden-base/contact or full highest-envelope acceptance. Fresh
-ground-model checks are pending; current critical extents criteria remain FAIL.
+ground-model checks below reject the plane; critical extents criteria remain FAIL.
 
 Covered-mass002 adds three repeated local outside-face sections: Z80 width/
 depth256.3368/261.6200cm, Z60 width256.9464cm. EachZ80 face checked from two
@@ -30,7 +41,7 @@ Source: installed CS2 build25640462, de_dust2. GitHub main is durable authority.
 | Physical scale and coordinate convention | SCALE_CALIBRATION.json; COORDINATE_TRANSFORM.json | PASS for current-build factor2.54 and reversible UE=(2.54x,-2.54y,2.54z); Phase2 exporter/import validation pending |
 | Every critical area forward/reverse/side/elevation coverage | 256 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | PASS: sixteen critical-area sets and eleven subarea sets accepted; structural metric and traversal remain separate |
 | Unambiguous validated topology | ROUTE_GRAPH.md; TOPOLOGY.json; WALK_PROBES.json; TRAVERSAL_PROBES.json; TOPOLOGY_AUDIT.json | PASS for listed surveyed connections:24 ground paths both directions; B Window both; S01 both, S02/S03 reciprocal routes, S04 partner forward/reverse. E11/E27 direct forward twice, unsupported reverse at surveyed crossing blocked twice, indirect walking returns both. Alternative launches/partners and geometric bounds remain separate |
-| Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; TUNNEL_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 390 calibrated feature measurements;54 Short and117 Tunnel floor samples; full critical register incomplete |
+| Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; TUNNEL_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 392 calibrated feature measurements;54 Short and117 Tunnel floor samples; full critical register incomplete |
 | Calibrated annotated whole-map truth | RADAR_CALIBRATION.json; MAP_CAMERA_CALIBRATION.json; RADAR_PLAN.svg; MAP_CAMERA_PLAN.svg | FAIL: calibrated native camera, physical grid, floors and paths; continuous architectural boundaries and overlapping elevation layers incomplete |
 | Bounded remaining uncertainty | UNCERTAINTY.md; SURVEY_TASKS.csv | FAIL: unresolved critical extents, full apertures/cover dimensions, stairs and render/collision bounds |
 
@@ -66,8 +77,8 @@ The coordinate convention is mathematically reversible; exporter/editor
 round-trip remains a Phase2 validation. Source repeatability is separate from
 rendered-surface accuracy and implementation tolerance.
 
-MEASUREMENTS has390 calibrated local feature rows;13 PHYSICAL_FLOOR_DATUMS,
-54 SHORT_STAIR_SAMPLES,117 TUNNEL_STAIR_SAMPLES and450 connector points are
+MEASUREMENTS has392 calibrated local feature rows;13 PHYSICAL_FLOOR_DATUMS,
+54 SHORT_STAIR_SAMPLES,117 TUNNEL_STAIR_SAMPLES and454 connector points are
 repeated point evidence. Short12 measured/rendered risers,359.6132cm sampled
 run and234.3912cm rise; Tunnel18 measured/rendered risers,18 rises/16 axial
 intervals,16 local widths and365.7854cm sampled rise. Full Tunnel curved run,
@@ -233,10 +244,10 @@ Horizontal-section survey expanded to eight surveyed areas:256 distinct directio
 Resumed checkpoint:17 horizontal sections/544 repeated directions preserved;
 six local stone intrados columns accepted,263 physical measurements and323
 connector first-surface points. B exitY1816 lower first hit is diagnostic,
-excluded from flight interpretation pending offset probes. Two TSpawn east
+excluded from flight interpretation; later offset probes reviewed separately. Two TSpawn east
 no-hit attempts retain exact miss/echo and restoration; no endpoint inferred.
-Point-only layered map rendered/inspected. Fresh B Site midpoint checks active;
-other planned midpoint/floor/detail batches unexecuted. Complete footprint and
+Point-only layered map rendered/inspected. Subsequent midpoint, floor and
+detail evidence is reviewed below. Complete footprint and
 critical dimensional/uncertainty acceptance remain FAIL; Phase2 not started.
 
 
@@ -257,10 +268,10 @@ Three independently checked inter-face intervals30.48cm,total91.44cm.
 CSV/SVG rebuilt/rendered/inspected;271 feature measurements/333 connector
 points. Ground sample.17native before face, full curved sides/terminal/
 upper landing separate. Failed east side dirt own-origin hit preserved and
-restored.85 route floors active serially; not accepted yet. Gate1 FAIL.
+restored.85 route floors subsequently completed and reviewed below. Gate1 FAIL.
 
 
-85 independently repeated route floor points across13 accepted paths completed/restored and registered. Native floor Z replaces feet as origin-independent evidence; TopMid metal Hull support retained separately.26 sampled endpoint elevation/chord measures bring297 physical measurements/418 connector points. Thirteen elevation charts rebuilt/rendered/inspected; dashed sample links grant no continuous floor or actual walking length. Fresh lower-body transverse sections active serially; no full route minimum or continuous architectural footprint accepted. Gate1 FAIL.
+85 independently repeated route floor points across13 accepted paths completed/restored and registered. Native floor Z replaces feet as origin-independent evidence; TopMid metal Hull support retained separately.26 sampled endpoint elevation/chord measures bring297 physical measurements/418 connector points. Thirteen elevation charts rebuilt/rendered/inspected; dashed sample links grant no continuous floor or actual walking length. Later lower-body transverse sections are reviewed separately; no full route minimum or continuous architectural footprint accepted. Gate1 FAIL.
 
 
 Latest portal/route checkpoint:317 calibrated physical feature measurements,
@@ -346,7 +357,7 @@ B outside camera uses six inspected original marker intersections and ten fresh
 three-depth holdouts; constrained model maximum held.71188px.232 image hashes/
 native capture dates PASS. Opposing normal preflight finds different southern
 return/northern facade faces and Wood_Dense within gate region. Parallel native
-material-transition refinement active; no structural opening, shared wall body,
+material-transition refinement is reviewed in later B frame sections; no structural opening, shared wall body,
 minimum leaf gap or continuous footprint acceptance from preflight. Gate1 FAIL.
 
 B frame local material sections: opposed transitions and independentZ40/140

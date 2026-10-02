@@ -420,3 +420,16 @@ reviewed connector b_platform_column_review cases. Rebuild/render/inspect.
 Keep Wood_Plank cover top separate from concrete/gravel ground; show native XY
 and sourceZ0 elevations, never infer full perimeter, uniform floor or exact
 cover/retaining height from different XY points. Context image is not calibration.
+
+build_b_cover_ground_checks.py derives B_COVER_GROUND_CHECKS JSON/CSV/SVG from
+original b_cover_ground_plane_checks fit/plan and independent observed points.
+Rebuild/render/inspect. Validate unchanged coefficients against original fits;
+do not promote held points or widen1native threshold. Preserve1 PASS/3 REJECT,
+while retaining actual graded ground samples; no flat or occluded floor accepted.
+
+build_b_cover_contacts.py derives B_COVER_CONTACT_SECTIONS JSON/CSV/SVG from
+B_COVER_CONTACT_REVIEW, two independent-origin concrete-ground/first-Wood
+height brackets and selected corrected top points. Rebuild/render/inspect;
+measurement_rows feeds physical register. Top and contact have explicit differentX
+at sameY; preserve .01native numerical allowance per end, nearer ground occlusion
+and hidden-body/rendered-cloth limits. No entire cover height or flat floor inferred.

@@ -205,6 +205,9 @@ def build(root):
     if (ref / 'B_REAR_HEIGHT_CHECKS.json').exists():
         from build_b_rear_height_checks import measurement_rows
         measurements.extend(measurement_rows(ref))
+    if (ref / 'B_COVER_CONTACT_REVIEW.json').exists():
+        from build_b_cover_contacts import measurement_rows
+        measurements.extend(measurement_rows(ref))
     if tunnel_path.exists():
         profile=json.loads(tunnel_path.read_text())
         if profile.get('accepted_terminal_pairs'):

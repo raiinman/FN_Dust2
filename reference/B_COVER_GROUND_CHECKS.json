@@ -1,0 +1,67 @@
+{
+  "source_build": "25640462",
+  "original_fit_points_native": [
+    [
+      -1879.99,
+      2370.0,
+      4.71
+    ],
+    [
+      -1810.0,
+      2300.0,
+      1.33
+    ],
+    [
+      -1740.0,
+      2370.0,
+      4.58
+    ]
+  ],
+  "unchanged_plane_coefficients_native": [
+    -0.0009286377598399878,
+    0.047357209188411416,
+    -109.27241547865663
+  ],
+  "declared_error_limit_cm": 2.54,
+  "checks": [
+    {
+      "id": "B_COVER_GROUND_HOLD_X1870_Y2340_004",
+      "native_x": -1869.99,
+      "native_y": 2340.0,
+      "actual_native_z": 1.88,
+      "predicted_native_z": 3.279997346749269,
+      "signed_error_cm": -3.555993260743144,
+      "result": "REJECT plane prediction"
+    },
+    {
+      "id": "B_COVER_GROUND_HOLD_X1870_Y2400_004",
+      "native_x": -1869.99,
+      "native_y": 2400.0,
+      "actual_native_z": 10.09,
+      "predicted_native_z": 6.121429898053961,
+      "signed_error_cm": 10.080168058942938,
+      "result": "REJECT plane prediction"
+    },
+    {
+      "id": "B_COVER_GROUND_HOLD_X1750_Y2340_004",
+      "native_x": -1750.0,
+      "native_y": 2340.0,
+      "actual_native_z": 3.79,
+      "predicted_native_z": 3.1685701019460595,
+      "signed_error_cm": 1.5784319410570091,
+      "result": "PASS point check"
+    },
+    {
+      "id": "B_COVER_GROUND_HOLD_X1750_Y2400_004",
+      "native_x": -1750.01,
+      "native_y": 2400.0,
+      "actual_native_z": 8.44,
+      "predicted_native_z": 6.010011939628356,
+      "signed_error_cm": 6.172169673343975,
+      "result": "REJECT plane prediction"
+    }
+  ],
+  "status": "REJECT nearby flat-plane model: three of four independent checks exceed declared limit",
+  "scope": "Original three-point plane retained unchanged, no fit promotion or tolerance widening. Three of four fresh predictions reject. No flat nearby or hidden under-body floor accepted. Actual ground points remain reviewed evidence.",
+  "gate1": "FAIL"
+}

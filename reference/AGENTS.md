@@ -407,3 +407,15 @@ explicit different XY elevations, not exact cover height/contact. Fresh ground
 models must retain original fit points/coefficients, predeclared tolerance and
 independent checks without refitting. Passing outside points never measure an
 occluded under-body floor; any continuation remains an explicit estimate.
+
+B_COVER_GROUND_CHECKS JSON/CSV/SVG derives four prospective plane predictions:
+original fit retained,1 PASS/3 REJECT. Actual ground samples remain reviewed;
+no planar or occluded floor acceptance. Lower-face005 source diagnostics separate
+ground-first from covered Wood_Plank Hull at twoY. Local first-Wood visibility
+interface is separate from full hidden body base or exact rendered cloth contact.
+
+B_COVER_CONTACT_REVIEW selects two local ground/first-Wood visibility interfaces
+atY2340/2400 and explicit nearby sameY top points. B_COVER_CONTACT_SECTIONS
+JSON/CSV/SVG bounds their differentX height comparisons; physical rows retain
+that scope. Ground occludes lower timber. Matching independent origins do not
+grant full underside, highest top, rendered seam or entire covered-body envelope.

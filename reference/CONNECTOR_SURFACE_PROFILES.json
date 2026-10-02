@@ -33854,6 +33854,310 @@
       "source_requested_area": "B Site covered mass adjoining first-down surface",
       "surface_semantics": "Repeated adjoining concrete Mesh ground point outside covered mass; no hidden under-body floor inference.",
       "private_filename": "..\\reference_cache\\crash_recovery_survey\\b_covered_top_surround_03\\B_COVER_SURROUND_X1740_Y2370_003.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T16:38:40.923821+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Site",
+      "unit": "source_units",
+      "target_xy": [
+        -1870.0,
+        2340.0
+      ],
+      "probe_player_z": 180.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1933.990234 2340.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1866.88,
+            2340.0,
+            2.41
+          ],
+          "xy_error": 3.119999999999891,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 97901"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1937.110229 2340.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1869.99,
+            2340.0,
+            1.88
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 97901"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1937.110229 2340.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1869.99,
+            2340.0,
+            1.88
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 97901"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1869.99,
+          2340.0,
+          1.88
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_COVER_GROUND_HOLD_X1870_Y2340_004",
+      "source_requested_area": "B Site adjoining cover ground prospective plane check",
+      "surface_semantics": "Repeated concrete Mesh adjoining ground; unchanged plane prediction tested separately. A rejected plane does not reject the actual floor point.",
+      "private_filename": "..\\reference_cache\\crash_recovery_survey\\b_cover_ground_holds_04\\B_COVER_GROUND_HOLD_X1870_Y2340_004.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T16:38:50.364007+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Site",
+      "unit": "source_units",
+      "target_xy": [
+        -1870.0,
+        2400.0
+      ],
+      "probe_player_z": 180.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1933.990234 2400.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1867.02,
+            2400.0,
+            10.23
+          ],
+          "xy_error": 2.980000000000018,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 98290"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1936.970215 2400.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1869.99,
+            2400.0,
+            10.09
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 98290"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1936.970215 2400.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1869.99,
+            2400.0,
+            10.09
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 98290"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1869.99,
+          2400.0,
+          10.09
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_COVER_GROUND_HOLD_X1870_Y2400_004",
+      "source_requested_area": "B Site adjoining cover ground prospective plane check",
+      "surface_semantics": "Repeated concrete Mesh adjoining ground; unchanged plane prediction tested separately. A rejected plane does not reject the actual floor point.",
+      "private_filename": "..\\reference_cache\\crash_recovery_survey\\b_cover_ground_holds_04\\B_COVER_GROUND_HOLD_X1870_Y2400_004.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T16:39:00.007696+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Site",
+      "unit": "source_units",
+      "target_xy": [
+        -1750.0,
+        2340.0
+      ],
+      "probe_player_z": 180.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1813.990234 2340.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1746.9,
+            2340.0,
+            3.5
+          ],
+          "xy_error": 3.099999999999909,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 97935"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1817.090210 2340.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1750.0,
+            2340.0,
+            3.79
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 97935"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1817.090210 2340.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1750.0,
+            2340.0,
+            3.79
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 97935"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1750.0,
+          2340.0,
+          3.79
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_COVER_GROUND_HOLD_X1750_Y2340_004",
+      "source_requested_area": "B Site adjoining cover ground prospective plane check",
+      "surface_semantics": "Repeated concrete Mesh adjoining ground; unchanged plane prediction tested separately. A rejected plane does not reject the actual floor point.",
+      "private_filename": "..\\reference_cache\\crash_recovery_survey\\b_cover_ground_holds_04\\B_COVER_GROUND_HOLD_X1750_Y2340_004.json"
+    },
+    {
+      "timestamp_utc": "2026-10-02T16:39:09.254878+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B Site",
+      "unit": "source_units",
+      "target_xy": [
+        -1750.0,
+        2400.0
+      ],
+      "probe_player_z": 180.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1813.990234 2400.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1746.98,
+            2400.0,
+            8.24
+          ],
+          "xy_error": 3.019999999999982,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 98475"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1817.010254 2400.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1750.01,
+            2400.0,
+            8.44
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 98473"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1817.010254 2400.000000 180.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1750.01,
+            2400.0,
+            8.44
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 98473"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1750.01,
+          2400.0,
+          8.44
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_COVER_GROUND_HOLD_X1750_Y2400_004",
+      "source_requested_area": "B Site adjoining cover ground prospective plane check",
+      "surface_semantics": "Repeated concrete Mesh adjoining ground; unchanged plane prediction tested separately. A rejected plane does not reject the actual floor point.",
+      "private_filename": "..\\reference_cache\\crash_recovery_survey\\b_cover_ground_holds_04\\B_COVER_GROUND_HOLD_X1750_Y2400_004.json"
     }
   ],
   "accepted_pairs": [
@@ -34835,5 +35139,189 @@
     },
     "context_image_id": "QA_B_PLATFORM_OVERHEAD_CONTEXT_001",
     "scope": "Four independent corrected top points safely inside higher covered-face X[-1859.43,-1758.51] andY[2322.09,2425.09] sections, plus three adjacent outside first-down surfaces. Do not assume one flat top, exact underside/ground contact or that every surround ray is ground. Existing north lower first-Wood component excluded because retaining strip intervenes. Component/rendered context review mandatory; preserve failures."
+  },
+  "b_cover_ground_plane_checks": {
+    "plan": {
+      "build": "25640462",
+      "cases": [
+        {
+          "id": "B_COVER_GROUND_HOLD_X1870_Y2340_004",
+          "xy": [
+            -1870,
+            2340
+          ],
+          "z": 180,
+          "area": "B Site adjoining cover ground prospective plane check",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ],
+          "expected_floor_z_native": 3.2800066331268596,
+          "expected_materials": [
+            "concrete",
+            "gravel"
+          ],
+          "expected_shape": "Mesh"
+        },
+        {
+          "id": "B_COVER_GROUND_HOLD_X1870_Y2400_004",
+          "xy": [
+            -1870,
+            2400
+          ],
+          "z": 180,
+          "area": "B Site adjoining cover ground prospective plane check",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ],
+          "expected_floor_z_native": 6.121439184431551,
+          "expected_materials": [
+            "concrete",
+            "gravel"
+          ],
+          "expected_shape": "Mesh"
+        },
+        {
+          "id": "B_COVER_GROUND_HOLD_X1750_Y2340_004",
+          "xy": [
+            -1750,
+            2340
+          ],
+          "z": 180,
+          "area": "B Site adjoining cover ground prospective plane check",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ],
+          "expected_floor_z_native": 3.1685701019460595,
+          "expected_materials": [
+            "concrete",
+            "gravel"
+          ],
+          "expected_shape": "Mesh"
+        },
+        {
+          "id": "B_COVER_GROUND_HOLD_X1750_Y2400_004",
+          "xy": [
+            -1750,
+            2400
+          ],
+          "z": 180,
+          "area": "B Site adjoining cover ground prospective plane check",
+          "yaw": 0,
+          "features": [
+            "floor"
+          ],
+          "expected_floor_z_native": 6.010002653250751,
+          "expected_materials": [
+            "concrete",
+            "gravel"
+          ],
+          "expected_shape": "Mesh"
+        }
+      ],
+      "fit_reports": [
+        "B_COVER_SURROUND_X1880_Y2370_003",
+        "B_COVER_SURROUND_X1810_Y2300_003",
+        "B_COVER_SURROUND_X1740_Y2370_003"
+      ],
+      "original_fit_points_native": [
+        [
+          -1879.99,
+          2370.0,
+          4.71
+        ],
+        [
+          -1810.0,
+          2300.0,
+          1.33
+        ],
+        [
+          -1740.0,
+          2370.0,
+          4.58
+        ]
+      ],
+      "unchanged_plane_coefficients_native": [
+        -0.0009286377598399878,
+        0.047357209188411416,
+        -109.27241547865663
+      ],
+      "diagnostic_maximum_error_native": 1,
+      "fit_register_sha256": "644100441bfae06feeae147c2ba955830252d689d72d3f3f82426d854a78c55b",
+      "scope": "Fresh outside-ground checks against fixed three-point neighboring ground plane, no refit or threshold changes. Point tolerance1native; concrete/gravel Mesh are declared courtyard material alternatives. Cover hidden underside/contact is still occluded; passing exterior model can only support explicitly estimated local ground continuation, never measured under-body floor or whole-platform plane. Preserve all observed failures."
+    },
+    "driver_recovery": {
+      "timestamp_utc": "2026-10-02T16:38:40.151458+00:00",
+      "original_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "status": "completed serial columns; semantic review pending",
+      "completed": [
+        "B_COVER_GROUND_HOLD_X1870_Y2340_004",
+        "B_COVER_GROUND_HOLD_X1870_Y2400_004",
+        "B_COVER_GROUND_HOLD_X1750_Y2340_004",
+        "B_COVER_GROUND_HOLD_X1750_Y2400_004"
+      ],
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "checks": [
+      {
+        "report": "B_COVER_GROUND_HOLD_X1870_Y2340_004",
+        "actual": [
+          -1869.99,
+          2340.0,
+          1.88
+        ],
+        "expected_at_actual_xy": 3.279997346749269,
+        "error_native": 1.3999973467492692,
+        "error_cm": 3.555993260743144,
+        "result": "REJECT plane prediction"
+      },
+      {
+        "report": "B_COVER_GROUND_HOLD_X1870_Y2400_004",
+        "actual": [
+          -1869.99,
+          2400.0,
+          10.09
+        ],
+        "expected_at_actual_xy": 6.121429898053961,
+        "error_native": 3.968570101946039,
+        "error_cm": 10.080168058942938,
+        "result": "REJECT plane prediction"
+      },
+      {
+        "report": "B_COVER_GROUND_HOLD_X1750_Y2340_004",
+        "actual": [
+          -1750.0,
+          2340.0,
+          3.79
+        ],
+        "expected_at_actual_xy": 3.1685701019460595,
+        "error_native": 0.6214298980539406,
+        "error_cm": 1.5784319410570091,
+        "result": "PASS point check"
+      },
+      {
+        "report": "B_COVER_GROUND_HOLD_X1750_Y2400_004",
+        "actual": [
+          -1750.01,
+          2400.0,
+          8.44
+        ],
+        "expected_at_actual_xy": 6.010011939628356,
+        "error_native": 2.4299880603716435,
+        "error_cm": 6.172169673343975,
+        "result": "REJECT plane prediction"
+      }
+    ],
+    "scope": "Original three-point plane retained unchanged, no fit promotion or tolerance widening. Three of four fresh predictions reject. No flat nearby or hidden under-body floor accepted. Actual ground points remain reviewed evidence."
   }
 }
