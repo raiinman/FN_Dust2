@@ -202,6 +202,12 @@ def build(root):
     if (ref / 'B_POST_CAP_SECTIONS.json').exists():
         from build_b_post_caps import measurement_rows
         measurements.extend(measurement_rows(ref))
+    if tunnel_path.exists():
+        profile=json.loads(tunnel_path.read_text())
+        if profile.get('accepted_terminal_pairs'):
+            from build_tunnel_terminal_checks import terminal_rows
+            for row in terminal_rows(profile,factor):
+                measurements.append(dict(id=row['id'],area='Tunnel Stairs',feature='Close sampled '+row['terminal']+' terminal point-pair rise',value=row['sampled_rise_cm'],unit='cm',method='independently repeated corrected floor points across surveyed terminal face; SCALE_CALIBRATION',source_id='TUNNEL_STAIR_PROFILE/'+row['before_report']+';'+row['after_report'],confidence='confirmed sampled collision floor point-pair difference',tolerance='.0508 cm output rounding; .20native offsets each side; ground crossfall/render offsets separate',notes=row['limits']))
     with (ref / 'MEASUREMENTS.csv').open('w', newline='') as f:
         w = csv.DictWriter(f,fieldnames=measurements[0].keys())
         w.writeheader(); w.writerows(measurements)

@@ -37,9 +37,9 @@ def build(root):
     (ref/'TUNNEL_WINDER_FLOOR_CHECKS.json').write_text(json.dumps(dict(source_build=profile['source_build'],plan_sha256=register['plan_sha256'],checks=rows,maximum_observed_residual_native=max(abs(r['observed_residual_native']) for r in rows),gate1='FAIL',limits=__doc__),indent=2)+'\n')
     with (ref/'TUNNEL_WINDER_FLOOR_CHECKS.csv').open('w',newline='') as f:
         w=csv.DictWriter(f,fieldnames=rows[0].keys());w.writeheader();w.writerows(rows)
-    camera=next(c for c in json.loads((ref/'LOCAL_CAMERA_CALIBRATIONS.json').read_text())['cameras'] if c['id']=='TUNNEL_STAIR_OVERHEAD_001')
+    camera=next(c for c in json.loads((ref/'LOCAL_CAMERA_CALIBRATIONS.json').read_text())['cameras'] if c['id']=='TUNNEL_STAIR_OVERHEAD_002')
     assert max(g['maximum_residual_px'] for g in camera['groups'][1:])<1
-    capture=next(c for c in camera['captures'] if c['id']=='QA_TUNSTAIR_CAMERA_FIT_001_CLEAN')
+    capture=next(c for c in camera['captures'] if c['id']=='QA_TUNSTAIR_CAMERA_FIT_002_CLEAN')
     image=root/capture['repository_image_path'];assert hashlib.sha256(image.read_bytes()).hexdigest()==capture['jpeg_sha256']
     data=base64.b64encode(image.read_bytes()).decode()
     colors={'INNER':'#39e5cd','OUTER':'#ffb45e','ANGLE_LOW':'#eac5ff','ANGLE_HIGH':'#70df77'}
@@ -52,9 +52,9 @@ def build(root):
         z=group[0]['predicted_z_native'];assert all(r['predicted_z_native']==z for r in group)
         col=(sector-1)//4;line=(sector-1)%4
         svg.append(f'<text x="{25+col*420}" y="{850+line*26}" font-size="16">S{sector:02} / nativeZ{z:+.2f} /4pts / max delta0.00</text>')
-    svg.extend(['<text x="25" y="985" font-size="16">102 total stair floor points. Printed native heights repeat; no unseen flat-plane or complete side/terminal acceptance.</text>','<text x="25" y="1015" font-size="16">Checked camera max.4324px. Native collision point projection does not grant rendered offsets or full footprint. Gate1 FAIL.</text></g></svg>'])
+    svg.extend([f'<text x="25" y="985" font-size="16">{len(actual)} total stair floor points. Printed native heights repeat; no unseen flat-plane or complete side/terminal acceptance.</text>','<text x="25" y="1015" font-size="16">Wider checked camera max.3444px. Point projection does not grant rendered offsets or full footprint. Gate1 FAIL.</text></g></svg>'])
     (ref/'TUNNEL_WINDER_FLOOR_CHECKS.svg').write_text('\n'.join(svg)+'\n')
-    print('48 prospective floor checks pass;102 stair points; no continuous floor acceptance')
+    print(f'48 prospective floor checks pass;{len(actual)} stair points; no continuous floor acceptance')
 
 
 if __name__=='__main__':build(Path(__file__).resolve().parent.parent)

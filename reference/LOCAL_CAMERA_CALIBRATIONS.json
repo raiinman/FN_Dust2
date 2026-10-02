@@ -2993,6 +2993,530 @@
           "maximum_axis_1_5_pixel_displacement_cm": 1.057654907922113
         }
       ]
+    },
+    {
+      "id": "TUNNEL_STAIR_OVERHEAD_002",
+      "camera_pose": [
+        -1152,
+        1088,
+        250,
+        89,
+        90
+      ],
+      "observed_pose": [
+        -1152,
+        1088,
+        250,
+        88.999908,
+        90,
+        0
+      ],
+      "image_size": [
+        1280,
+        720
+      ],
+      "status": "accepted wider local overhead projection; full side/end component bounds and rendered offsets separate",
+      "model": "constrained native pose",
+      "normal_axis": 2,
+      "bound_planes_native": [
+        -111.82,
+        -55.97,
+        32.03
+      ],
+      "method": "Eight visually inspected known-world fit crosses; ten different tangent/depth markers withheld. Four native frames and18 crop centers inspected; approximate480 projection only selects ROIs.",
+      "excluded_markers": [],
+      "unexecuted_rejected_layout": {
+        "private_path": "C:\\Users\\mikea\\Documents\\Codex\\2026-09-30\\new-chat\\reference_cache\\crash_recovery_survey\\tunnel_stair_camera_02",
+        "reason": "Initial first-marker positions revised before capture to avoid persistent old-cross overlap. Initial plans retained unexecuted."
+      },
+      "tested_marker_z_range": [
+        -110,
+        50
+      ],
+      "limits": "Exact pose/settings only. FloorZ-111.82 extrapolates1.82native below lowest synthetic marker; all checked riser/side pointsZ-108..28 inside validated marker range. Known-Z inverse requires independent floor/surface elevation. Crates occlude platform; room edges clip. Camera localization does not certify architectural edge selection, render/collision offsets or closed footprint.",
+      "captures": [
+        {
+          "id": "QA_TUNSTAIR_CAMERA_FIT_002_MARKED",
+          "repository_image_path": "reference/images/tunnel_stairs/QA_TUNSTAIR_CAMERA_FIT_002_MARKED.jpg",
+          "jpeg_sha256": "108aae1748c09f3858102a8c32bab7db60b1961b77ed2b7610afe8eb98bbbe44",
+          "png_sha256": "2e35b0ebfdd400840ae86764a080491cabb0e73029204f1b6fa94bfa7ccc3da5"
+        },
+        {
+          "id": "QA_TUNSTAIR_CAMERA_FIT_002_CLEAN",
+          "repository_image_path": "reference/images/tunnel_stairs/QA_TUNSTAIR_CAMERA_FIT_002_CLEAN.jpg",
+          "jpeg_sha256": "b4089f0e951e7bebdd05c52c60a658b0f2f1ccabe0c4222e06232ae1408af1ed",
+          "png_sha256": "f2dd9c2348eb590b8ac95f2de83b558b3ff01ac53e7143536e4d5ab1dd01222e"
+        },
+        {
+          "id": "QA_TUNSTAIR_CAMERA_HOLD_002_MARKED",
+          "repository_image_path": "reference/images/tunnel_stairs/QA_TUNSTAIR_CAMERA_HOLD_002_MARKED.jpg",
+          "jpeg_sha256": "6a02ef77552c5e8e75802d165cdd40fa07f4f4827b5ce2793d169b17ae43b81b",
+          "png_sha256": "b82da905d2cc4705e9bc51a924ba154dd5fb4da917aaf85100f1830933e31bb4"
+        },
+        {
+          "id": "QA_TUNSTAIR_CAMERA_HOLD_002_CLEAN",
+          "repository_image_path": "reference/images/tunnel_stairs/QA_TUNSTAIR_CAMERA_HOLD_002_CLEAN.jpg",
+          "jpeg_sha256": "46d72b54a8012eb8fa08239dce5c638a87ff05451f414709035b3084e52617a6",
+          "png_sha256": "b366d51b22cefe0b466d46dfc26b7ee064cb1a72b00384d764b6b576404d0667"
+        }
+      ],
+      "groups": [
+        {
+          "role": "fit",
+          "anchors": [
+            {
+              "id": "FIT_01",
+              "world": [
+                -1040,
+                1290,
+                -110
+              ],
+              "pixel": [
+                787.5094339622641,
+                185.50943396226415
+              ],
+              "search_guess": [
+                787.9074413588853,
+                186.09469849882174
+              ],
+              "analytic_model_residual_px": 0.1329380770823897,
+              "projected_pixel": [
+                787.4736825956662,
+                185.6141231709973
+              ],
+              "residual_px": 0.11062545203878575
+            },
+            {
+              "id": "FIT_02",
+              "world": [
+                -1090,
+                1220,
+                -79.97
+              ],
+              "pixel": [
+                729.0,
+                269.5
+              ],
+              "search_guess": [
+                729.57826113436,
+                270.10225480639195
+              ],
+              "analytic_model_residual_px": 0.12876665166714807,
+              "projected_pixel": [
+                729.1539168929388,
+                269.62915091195
+              ],
+              "residual_px": 0.20092378651978454
+            },
+            {
+              "id": "FIT_03",
+              "world": [
+                -1130,
+                1190,
+                -59.97
+              ],
+              "pixel": [
+                673.5079365079365,
+                309.48387096774195
+              ],
+              "search_guess": [
+                673.8784104879858,
+                309.8372501197492
+              ],
+              "analytic_model_residual_px": 0.19563911395828296,
+              "projected_pixel": [
+                673.4630242685151,
+                309.367695445424
+              ],
+              "residual_px": 0.1245546516020017
+            },
+            {
+              "id": "FIT_04",
+              "world": [
+                -1080,
+                1150,
+                -39.97
+              ],
+              "pixel": [
+                758.4923076923077,
+                371.4923076923077
+              ],
+              "search_guess": [
+                758.7596685114486,
+                371.6617329778628
+              ],
+              "analytic_model_residual_px": 0.4042284382637009,
+              "projected_pixel": [
+                758.3306682573935,
+                371.1977184908319
+              ],
+              "residual_px": 0.33602098825148974
+            },
+            {
+              "id": "FIT_05",
+              "world": [
+                -1110,
+                1090,
+                -10
+              ],
+              "pixel": [
+                717.0,
+                482.5
+              ],
+              "search_guess": [
+                717.539861564342,
+                482.8414738797903
+              ],
+              "analytic_model_residual_px": 0.16346092836064233,
+              "projected_pixel": [
+                717.1175011056176,
+                482.38747944034753
+              ],
+              "residual_px": 0.16268800252591087
+            },
+            {
+              "id": "FIT_06",
+              "world": [
+                -1190,
+                1080,
+                10
+              ],
+              "pixel": [
+                563.5,
+                512.0
+              ],
+              "search_guess": [
+                563.9441710876018,
+                512.4866513018032
+              ],
+              "analytic_model_residual_px": 0.057402571398069056,
+              "projected_pixel": [
+                563.5464012933371,
+                512.0353376548082
+              ],
+              "residual_px": 0.05832520784963764
+            },
+            {
+              "id": "FIT_07",
+              "world": [
+                -1270,
+                1100,
+                42
+              ],
+              "pixel": [
+                367.5,
+                487.5
+              ],
+              "search_guess": [
+                367.92481355831455,
+                488.2717562400892
+              ],
+              "analytic_model_residual_px": 0.2819653436873618,
+              "projected_pixel": [
+                367.5584596888435,
+                487.81824072500854
+              ],
+              "residual_px": 0.3235655950091739
+            },
+            {
+              "id": "FIT_08",
+              "world": [
+                -1230,
+                1120,
+                28
+              ],
+              "pixel": [
+                471.5,
+                437.0
+              ],
+              "search_guess": [
+                471.7489886150042,
+                437.3939725142812
+              ],
+              "analytic_model_residual_px": 0.27248585857870267,
+              "projected_pixel": [
+                471.366024060199,
+                436.93586678294764
+              ],
+              "residual_px": 0.14853491836955746
+            }
+          ],
+          "maximum_residual_px": 0.33602098825148974
+        },
+        {
+          "role": "independent check",
+          "anchors": [
+            {
+              "id": "HOLD_01",
+              "world": [
+                -1110,
+                1320,
+                -109
+              ],
+              "pixel": [
+                695.0,
+                145.5
+              ],
+              "search_guess": [
+                695.5380650971621,
+                146.17943932170712
+              ],
+              "analytic_model_residual_px": 0.18343233574446507,
+              "projected_pixel": [
+                695.1191715338813,
+                145.69533178867397
+              ],
+              "residual_px": 0.22881512658517617
+            },
+            {
+              "id": "HOLD_02",
+              "world": [
+                -1060,
+                1220,
+                -65
+              ],
+              "pixel": [
+                778.5,
+                265.0
+              ],
+              "search_guess": [
+                779.1936983518457,
+                265.46571053917114
+              ],
+              "analytic_model_residual_px": 0.19670998610052248,
+              "projected_pixel": [
+                778.7613738310878,
+                264.99219468524285
+              ],
+              "residual_px": 0.26149034880079586
+            },
+            {
+              "id": "HOLD_03",
+              "world": [
+                -1070,
+                1180,
+                -45
+              ],
+              "pixel": [
+                772.4923076923077,
+                322.5
+              ],
+              "search_guess": [
+                772.7215680735699,
+                323.036188604446
+              ],
+              "analytic_model_residual_px": 0.2731474990660731,
+              "projected_pixel": [
+                772.2903067523722,
+                322.56781524086165
+              ],
+              "residual_px": 0.213080469841663
+            },
+            {
+              "id": "HOLD_04",
+              "world": [
+                -1140,
+                1160,
+                -45
+              ],
+              "pixel": [
+                659.0,
+                355.0
+              ],
+              "search_guess": [
+                659.4455556680907,
+                355.3969547660715
+              ],
+              "analytic_model_residual_px": 0.11654400676325058,
+              "projected_pixel": [
+                659.0324906524426,
+                354.9314805689633
+              ],
+              "residual_px": 0.0758324134241762
+            },
+            {
+              "id": "HOLD_05",
+              "world": [
+                -1110,
+                1120,
+                -20
+              ],
+              "pixel": [
+                714.0,
+                424.5
+              ],
+              "search_guess": [
+                714.5238693557753,
+                425.1498729030925
+              ],
+              "analytic_model_residual_px": 0.1517617647054206,
+              "projected_pixel": [
+                714.1019786211588,
+                424.690669445026
+              ],
+              "residual_px": 0.21622783456337644
+            },
+            {
+              "id": "HOLD_06",
+              "world": [
+                -1140,
+                1070,
+                5
+              ],
+              "pixel": [
+                663.0,
+                528.5
+              ],
+              "search_guess": [
+                663.5439784474994,
+                529.2676635023979
+              ],
+              "analytic_model_residual_px": 0.27125238129899004,
+              "projected_pixel": [
+                663.1302675623074,
+                528.8178736993569
+              ],
+              "residual_px": 0.3435306777165206
+            },
+            {
+              "id": "HOLD_07",
+              "world": [
+                -1180,
+                1110,
+                10
+              ],
+              "pixel": [
+                583.5,
+                451.5
+              ],
+              "search_guess": [
+                584.0809427838642,
+                452.25032424356016
+              ],
+              "analytic_model_residual_px": 0.2630854636304564,
+              "projected_pixel": [
+                583.6799609771307,
+                451.79356142017406
+              ],
+              "residual_px": 0.34433161444230265
+            },
+            {
+              "id": "HOLD_08",
+              "world": [
+                -1220,
+                1085,
+                30
+              ],
+              "pixel": [
+                491.0,
+                514.0
+              ],
+              "search_guess": [
+                491.5784358569557,
+                514.6183226932441
+              ],
+              "analytic_model_residual_px": 0.1419593018893297,
+              "projected_pixel": [
+                491.1922541049983,
+                514.1671963332719
+              ],
+              "residual_px": 0.25478668479392896
+            },
+            {
+              "id": "HOLD_09",
+              "world": [
+                -1280,
+                1100,
+                50
+              ],
+              "pixel": [
+                332.5,
+                492.5
+              ],
+              "search_guess": [
+                333.0746489407628,
+                493.0624719078889
+              ],
+              "analytic_model_residual_px": 0.09734065765284389,
+              "projected_pixel": [
+                332.71387964913686,
+                492.6093871125899
+              ],
+              "residual_px": 0.24022915042862794
+            },
+            {
+              "id": "HOLD_10",
+              "world": [
+                -1190,
+                1160,
+                45
+              ],
+              "pixel": [
+                551.0,
+                349.5
+              ],
+              "search_guess": [
+                551.5530659453473,
+                349.7324963043358
+              ],
+              "analytic_model_residual_px": 0.2727163760201997,
+              "projected_pixel": [
+                551.1573338748976,
+                349.2665156855845
+              ],
+              "residual_px": 0.281547284249678
+            }
+          ],
+          "maximum_residual_px": 0.34433161444230265
+        }
+      ],
+      "clean_control_companion": {
+        "id": "QA_TUNSTAIR_CAMERA_HOLD_002_CLEAN",
+        "png_sha256": "b366d51b22cefe0b466d46dfc26b7ee064cb1a72b00384d764b6b576404d0667",
+        "fit_clean_png_sha256": "f2dd9c2348eb590b8ac95f2de83b558b3ff01ac53e7143536e4d5ab1dd01222e",
+        "review": "Both native clean frames inspected separately; hashes differ, so both registered. Same exact pose; no duplicate-hash assumption."
+      },
+      "intrinsics": {
+        "fx": 479.92312882801076,
+        "fy": 480.0432357539602,
+        "cx": 639.5900562010829,
+        "cy": 359.5341679451891
+      },
+      "fit_algorithm": "Native zero-roll pose +64 camera_up; only fx/fy/cx/cy fit from fit-group pixels. Independent groups excluded. Explicit native holdouts required at this exact pose.",
+      "projection_matrix": [
+        [
+          479.92312882801076,
+          11.163412449251705,
+          -639.4926256133,
+          700598.8080684076
+        ],
+        [
+          -2.900544076920172e-14,
+          -473.6947957467646,
+          -367.8580794214021,
+          638067.2247160838
+        ],
+        [
+          1.0687499900123295e-18,
+          0.017454011895616513,
+          -0.9998476671317225,
+          230.97195184049983
+        ]
+      ],
+      "sampled_pixel_localization_bounds": [
+        {
+          "source_z": -111.82,
+          "maximum_axis_1_5_pixel_displacement_cm": 2.92657195489745
+        },
+        {
+          "source_z": -55.97,
+          "maximum_axis_1_5_pixel_displacement_cm": 2.483448655193646
+        },
+        {
+          "source_z": 32.03,
+          "maximum_axis_1_5_pixel_displacement_cm": 1.7852783384168538
+        }
+      ]
     }
   ]
 }

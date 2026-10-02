@@ -1,0 +1,73 @@
+{
+  "source_build": "25640462",
+  "rows": [
+    {
+      "id": "TUNNEL_CLOSE_LOWER_RISE_X1130",
+      "terminal": "lower",
+      "before_report": "TUN_ENTRY_X1130_BEFORE_FLOOR_005",
+      "after_report": "TUN_ENTRY_X1130_AFTER_FLOOR_005",
+      "before_z_native": -111.54,
+      "after_z_native": -103.97,
+      "sampled_rise_cm": 19.2278,
+      "xy_sample_separation_cm": 1.0163,
+      "limits": "Close point-pair rise across first riser; targetY1248.23/1247.83 is.20native each side of measured face. Sloped sand and concrete kept separate; not exact coincident wall-contact rise."
+    },
+    {
+      "id": "TUNNEL_CLOSE_LOWER_RISE_X1100",
+      "terminal": "lower",
+      "before_report": "TUN_ENTRY_X1100_BEFORE_FLOOR_005",
+      "after_report": "TUN_ENTRY_X1100_AFTER_FLOOR_005",
+      "before_z_native": -111.82,
+      "after_z_native": -103.97,
+      "sampled_rise_cm": 19.939,
+      "xy_sample_separation_cm": 1.016,
+      "limits": "Close point-pair rise across first riser; targetY1248.23/1247.83 is.20native each side of measured face. Sloped sand and concrete kept separate; not exact coincident wall-contact rise."
+    },
+    {
+      "id": "TUNNEL_CLOSE_LOWER_RISE_X1040",
+      "terminal": "lower",
+      "before_report": "TUN_ENTRY_X1040_BEFORE_FLOOR_005",
+      "after_report": "TUN_ENTRY_X1040_AFTER_FLOOR_005",
+      "before_z_native": -111.41,
+      "after_z_native": -103.97,
+      "sampled_rise_cm": 18.8976,
+      "xy_sample_separation_cm": 1.016,
+      "limits": "Close point-pair rise across first riser; targetY1248.23/1247.83 is.20native each side of measured face. Sloped sand and concrete kept separate; not exact coincident wall-contact rise."
+    },
+    {
+      "id": "TUNNEL_CLOSE_UPPER_RISE_Y1040",
+      "terminal": "upper",
+      "before_report": "TUN_TOP_Y1040_BEFORE_FLOOR_005",
+      "after_report": "TUN_TOP_Y1040_AFTER_FLOOR_005",
+      "before_z_native": 24.03,
+      "after_z_native": 32.03,
+      "sampled_rise_cm": 20.32,
+      "xy_sample_separation_cm": 1.0163,
+      "limits": "Close point-pair rise across last riser; targetX-1263.77/-1264.17 is.20native each side of measured face. Not entire upper landing footprint."
+    },
+    {
+      "id": "TUNNEL_CLOSE_UPPER_RISE_Y1080",
+      "terminal": "upper",
+      "before_report": "TUN_TOP_Y1080_BEFORE_FLOOR_005",
+      "after_report": "TUN_TOP_Y1080_AFTER_FLOOR_005",
+      "before_z_native": 24.03,
+      "after_z_native": 32.03,
+      "sampled_rise_cm": 20.32,
+      "xy_sample_separation_cm": 1.0163,
+      "limits": "Close point-pair rise across last riser; targetX-1263.77/-1264.17 is.20native each side of measured face. Not entire upper landing footprint."
+    },
+    {
+      "id": "TUNNEL_CLOSE_UPPER_RISE_Y1130",
+      "terminal": "upper",
+      "before_report": "TUN_TOP_Y1130_BEFORE_FLOOR_005",
+      "after_report": "TUN_TOP_Y1130_AFTER_FLOOR_005",
+      "before_z_native": 24.03,
+      "after_z_native": 32.03,
+      "sampled_rise_cm": 20.32,
+      "xy_sample_separation_cm": 1.0163,
+      "limits": "Close point-pair rise across last riser; targetX-1263.77/-1264.17 is.20native each side of measured face. Not entire upper landing footprint."
+    }
+  ],
+  "scope": "Rebuild close terminal floor point-pair rises, not exact contact/landing bounds.\n\nInput: TUNNEL_STAIR_PROFILE terminal_floor_checks and accepted_terminal_pairs.\nOutputs: TUNNEL_TERMINAL_CHECKS JSON/CSV/SVG. Physical register consumes six\nexplicit terminal_rows. Run, render and inspect. Sand crossfall and.20native\nselection offsets each side of first/last faces remain explicit.\n",
+  "gate1": "FAIL"
+}

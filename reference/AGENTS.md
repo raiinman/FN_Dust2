@@ -326,3 +326,13 @@ TUNNEL_RISER_LATERAL_CHECKS JSON/CSV/SVG derives36 fresh near-side checks from
 ARCHITECTURAL_ENDPOINTS against original local face planes. Preserve sampled
 chords, exact heights, off-frame points and original prediction thresholds;
 tested point agreement is separate from full-width endpoints/terminal bounds.
+
+TUNNEL_TERMINAL_CHECKS JSON/CSV/SVG owns15 close lower/upper terminal floor
+points and six sampled point-pair rises in TUNNEL_STAIR_PROFILE. Sand landing
+crossfall and.20native source offsets each side remain explicit; no exact
+contact/full landing perimeter is granted. LOCAL_CAMERA_CALIBRATIONS camera
+TUNNEL_STAIR_OVERHEAD_002 is a wider8fit/10held model at its exact pose; lowest
+ground1.82native depth extrapolation remains explicit. Four inspected native
+derivative images are registered; different clean-frame hashes cannot be called
+duplicates. New Tunnel annotations use this wider camera without discarding
+old camera reports or source points formerly outside its image frame.

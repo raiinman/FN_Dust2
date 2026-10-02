@@ -378,3 +378,10 @@ build_tunnel_riser_checks.py validates36 fresh near-side concrete Hull rays
 against unchanged local32native-strip face planes and predeclared predictions.
 Rebuild/render/inspect TUNNEL_RISER_LATERAL_CHECKS JSON/CSV/SVG; sampled chords
 do not certify entire riser endpoints/widths or unseen plane continuation.
+
+build_tunnel_terminal_checks.py validates15 close floor points and six explicit
+terminal point-pair rises, consumed by build_physical_register.py. Rebuild/
+render/inspect JSON/CSV/SVG; retain sloped sand versus concrete and.20native
+offsets each side, without claiming exact contact or full landing boundaries.
+Tunnel fresh floor/side/riser/terminal annotations use the wider independently
+checked TUNNEL_STAIR_OVERHEAD_002 camera; older raw/native evidence is preserved.

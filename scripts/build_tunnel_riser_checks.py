@@ -39,9 +39,9 @@ def build(root):
     (ref/'TUNNEL_RISER_LATERAL_CHECKS.json').write_text(json.dumps(result,indent=2)+'\n')
     with (ref/'TUNNEL_RISER_LATERAL_CHECKS.csv').open('w',newline='') as f:
         writer=csv.DictWriter(f,fieldnames=rows[0].keys());writer.writeheader();writer.writerows(rows)
-    camera=next(c for c in json.loads((ref/'LOCAL_CAMERA_CALIBRATIONS.json').read_text())['cameras'] if c['id']=='TUNNEL_STAIR_OVERHEAD_001')
+    camera=next(c for c in json.loads((ref/'LOCAL_CAMERA_CALIBRATIONS.json').read_text())['cameras'] if c['id']=='TUNNEL_STAIR_OVERHEAD_002')
     assert max(g['maximum_residual_px'] for g in camera['groups'][1:])<1
-    capture=next(c for c in camera['captures'] if c['id']=='QA_TUNSTAIR_CAMERA_FIT_001_CLEAN')
+    capture=next(c for c in camera['captures'] if c['id']=='QA_TUNSTAIR_CAMERA_FIT_002_CLEAN')
     image=root/capture['repository_image_path'];assert hashlib.sha256(image.read_bytes()).hexdigest()==capture['jpeg_sha256']
     data=base64.b64encode(image.read_bytes()).decode()
     svg=['<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="960">','<rect width="1280" height="960" fill="#14202e"/>','<defs><clipPath id="frame"><rect x="0" y="100" width="1280" height="720"/></clipPath></defs>',f'<image x="0" y="100" width="1280" height="720" href="data:image/jpeg;base64,{data}"/>','<g font-family="sans-serif" fill="white"><text x="25" y="32" font-size="23">Tunnel stairs /36 fresh near-side riser-plane checks</text>','<text x="25" y="66" font-size="17">Green=inner / orange=outer; dashed lines join tested points only. Full-width endpoint bounds remain separate.</text>','<g clip-path="url(#frame)">']

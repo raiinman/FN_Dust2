@@ -5419,6 +5419,286 @@
       "jpeg_sha256": "03c3a6d6bae07c87eedbf8e5302ffe12b057bf0995955c250434887c9e1a5e06",
       "fov_cs_debug_parameter": 90,
       "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_TUNSTAIR_CAMERA_FIT_002_MARKED",
+      "timestamp_utc": "2026-10-02T14:13:53.694539+00:00",
+      "engine_capture_basename": "d2_afc9d2eeed",
+      "pose_command": "setpos_exact -1152.000000 1088.000000 250.000000;setang_exact 88.999908 90.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -1152,
+        1088,
+        250,
+        89,
+        90
+      ],
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "tga_sha256": "5f97d7f5e9b7e40308395df67eff0ab473c0b242b078925b3093913ad658987a",
+      "png_sha256": "2e35b0ebfdd400840ae86764a080491cabb0e73029204f1b6fa94bfa7ccc3da5",
+      "anchors": [
+        {
+          "id": "FIT_01",
+          "point": [
+            -1040,
+            1290,
+            -110
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "FIT_02",
+          "point": [
+            -1090,
+            1220,
+            -79.97
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "FIT_03",
+          "point": [
+            -1130,
+            1190,
+            -59.97
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "FIT_04",
+          "point": [
+            -1080,
+            1150,
+            -39.97
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "FIT_05",
+          "point": [
+            -1110,
+            1090,
+            -10
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "FIT_06",
+          "point": [
+            -1190,
+            1080,
+            10
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "FIT_07",
+          "point": [
+            -1270,
+            1100,
+            42
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "FIT_08",
+          "point": [
+            -1230,
+            1120,
+            28
+          ],
+          "half_size": 10
+        }
+      ],
+      "status": "visually inspected; usable stated-direction reference",
+      "marker_plane": "XY",
+      "area": "Tunnel Stairs",
+      "review": "Native original and JPEG individually inspected. Entire eighteen-riser flight and adjacent lower/upper terminal regions framed; crates occlude part of inner platform, surrounding room boundaries clip. Checked synthetic cross positions calibrate projection only, never become architectural endpoints. All18 marker centers individually inspected; FIT07 neighboring old stroke excluded from cross-center selection. Clean companion suppresses all debug overlays.",
+      "repository_image_path": "reference/images/tunnel_stairs/QA_TUNSTAIR_CAMERA_FIT_002_MARKED.jpg",
+      "jpeg_sha256": "108aae1748c09f3858102a8c32bab7db60b1961b77ed2b7610afe8eb98bbbe44",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_TUNSTAIR_CAMERA_FIT_002_CLEAN",
+      "timestamp_utc": "2026-10-02T14:14:00.506924+00:00",
+      "engine_capture_basename": "d2_bd466a5047",
+      "pose_command": "setpos_exact -1152.000000 1088.000000 250.000000;setang_exact 88.999908 90.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -1152,
+        1088,
+        250,
+        89,
+        90
+      ],
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "tga_sha256": "770f1f4b01f9bdf8ebafae58f2cd3d930afa7243fcf4df6f6c4f636a59e368cb",
+      "png_sha256": "f2dd9c2348eb590b8ac95f2de83b558b3ff01ac53e7143536e4d5ab1dd01222e",
+      "anchors": [],
+      "status": "visually inspected; usable stated-direction reference",
+      "marker_plane": "XY",
+      "area": "Tunnel Stairs",
+      "review": "Native original and JPEG individually inspected. Entire eighteen-riser flight and adjacent lower/upper terminal regions framed; crates occlude part of inner platform, surrounding room boundaries clip. Checked synthetic cross positions calibrate projection only, never become architectural endpoints. All18 marker centers individually inspected; FIT07 neighboring old stroke excluded from cross-center selection. Clean companion suppresses all debug overlays.",
+      "repository_image_path": "reference/images/tunnel_stairs/QA_TUNSTAIR_CAMERA_FIT_002_CLEAN.jpg",
+      "jpeg_sha256": "b4089f0e951e7bebdd05c52c60a658b0f2f1ccabe0c4222e06232ae1408af1ed",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_TUNSTAIR_CAMERA_HOLD_002_MARKED",
+      "timestamp_utc": "2026-10-02T14:14:08.634026+00:00",
+      "engine_capture_basename": "d2_fb2a12895c",
+      "pose_command": "setpos_exact -1152.000000 1088.000000 250.000000;setang_exact 88.999908 90.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -1152,
+        1088,
+        250,
+        89,
+        90
+      ],
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "tga_sha256": "443dc250b65fa2b2771ada194e19d170e15d9d12f9cf4eb81f0e052ee58899ce",
+      "png_sha256": "b82da905d2cc4705e9bc51a924ba154dd5fb4da917aaf85100f1830933e31bb4",
+      "anchors": [
+        {
+          "id": "HOLD_01",
+          "point": [
+            -1110,
+            1320,
+            -109
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "HOLD_02",
+          "point": [
+            -1060,
+            1220,
+            -65
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "HOLD_03",
+          "point": [
+            -1070,
+            1180,
+            -45
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "HOLD_04",
+          "point": [
+            -1140,
+            1160,
+            -45
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "HOLD_05",
+          "point": [
+            -1110,
+            1120,
+            -20
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "HOLD_06",
+          "point": [
+            -1140,
+            1070,
+            5
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "HOLD_07",
+          "point": [
+            -1180,
+            1110,
+            10
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "HOLD_08",
+          "point": [
+            -1220,
+            1085,
+            30
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "HOLD_09",
+          "point": [
+            -1280,
+            1100,
+            50
+          ],
+          "half_size": 10
+        },
+        {
+          "id": "HOLD_10",
+          "point": [
+            -1190,
+            1160,
+            45
+          ],
+          "half_size": 10
+        }
+      ],
+      "status": "visually inspected; usable stated-direction reference",
+      "marker_plane": "XY",
+      "area": "Tunnel Stairs",
+      "review": "Native original and JPEG individually inspected. Entire eighteen-riser flight and adjacent lower/upper terminal regions framed; crates occlude part of inner platform, surrounding room boundaries clip. Checked synthetic cross positions calibrate projection only, never become architectural endpoints. All18 marker centers individually inspected; FIT07 neighboring old stroke excluded from cross-center selection. Clean companion suppresses all debug overlays.",
+      "repository_image_path": "reference/images/tunnel_stairs/QA_TUNSTAIR_CAMERA_HOLD_002_MARKED.jpg",
+      "jpeg_sha256": "6a02ef77552c5e8e75802d165cdd40fa07f4f4827b5ce2793d169b17ae43b81b",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
+    },
+    {
+      "id": "QA_TUNSTAIR_CAMERA_HOLD_002_CLEAN",
+      "timestamp_utc": "2026-10-02T14:14:15.344081+00:00",
+      "engine_capture_basename": "d2_6e5ea6ccb6",
+      "pose_command": "setpos_exact -1152.000000 1088.000000 250.000000;setang_exact 88.999908 90.000000 0.000000",
+      "pose_unit": "source_units",
+      "width": 1280,
+      "height": 720,
+      "requested_pose": [
+        -1152,
+        1088,
+        250,
+        89,
+        90
+      ],
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "tga_sha256": "d5731a927b3623331f5ecc8a886311878e51a0814b4a9169b5c3785b1770a395",
+      "png_sha256": "b366d51b22cefe0b466d46dfc26b7ee064cb1a72b00384d764b6b576404d0667",
+      "anchors": [],
+      "status": "visually inspected; usable stated-direction reference",
+      "marker_plane": "XY",
+      "area": "Tunnel Stairs",
+      "review": "Native original and JPEG individually inspected. Entire eighteen-riser flight and adjacent lower/upper terminal regions framed; crates occlude part of inner platform, surrounding room boundaries clip. Checked synthetic cross positions calibrate projection only, never become architectural endpoints. All18 marker centers individually inspected; FIT07 neighboring old stroke excluded from cross-center selection. Clean companion suppresses all debug overlays.",
+      "repository_image_path": "reference/images/tunnel_stairs/QA_TUNSTAIR_CAMERA_HOLD_002_CLEAN.jpg",
+      "jpeg_sha256": "46d72b54a8012eb8fa08239dce5c638a87ff05451f414709035b3084e52617a6",
+      "fov_cs_debug_parameter": 90,
+      "aspect_ratio": "16:9"
     }
   ],
   "rejected_attempts": [

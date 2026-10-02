@@ -3,7 +3,7 @@
   "source_map": "de_dust2",
   "unit": "source_units",
   "area": "Tunnel Stairs",
-  "status": "reviewed102 floor points and18 collision/rendered risers;48 fresh floor checks and72 independent curved-side point checks; full side/terminal geometry review pending",
+  "status": "reviewed117 floor points and18 collision/rendered risers; fresh floor/side/near-side-riser and close terminal samples; full side/terminal geometry review pending",
   "reports": [
     {
       "timestamp_utc": "2026-10-02T02:41:04.385637+00:00",
@@ -7798,6 +7798,1146 @@
       "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\tunnel_floor_side_holds_01\\TUN_WINDER_12_ANGLE_HIGH_FLOOR_001.json",
       "surface_semantics": "Native first-downward concrete Hull tread floor at fresh lateral/angular position; repeated exact endpoints and corrected XY. Predicted tread height independently checked; local floor point only, no continuous flat plane or whole tread boundary granted.",
       "branch": "winder independent checks"
+    },
+    {
+      "timestamp_utc": "2026-10-02T14:10:08.217851+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs lower terminal close floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1130.0,
+        1248.23
+      ],
+      "probe_player_z": -70.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1193.990234 1248.229980 -70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1129.25,
+            1248.23,
+            -111.57
+          ],
+          "xy_error": 0.75,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 99182"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1194.740234 1248.229980 -70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1130.01,
+            1248.23,
+            -111.54
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 99182"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1194.740234 1248.229980 -70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1130.01,
+            1248.23,
+            -111.54
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 99182"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1130.01,
+          1248.23,
+          -111.54
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_ENTRY_X1130_BEFORE_FLOOR_005",
+      "branch": "independent terminal checks",
+      "private_filename": "C:\\Users\\mikea\\Documents\\Codex\\2026-09-30\\new-chat\\reference_cache\\crash_recovery_survey\\tunnel_terminal_floor_checks_05\\TUN_ENTRY_X1130_BEFORE_FLOOR_005.json",
+      "surface_semantics": "Sloped sand Mesh lower entry landing before first riser; exact close sampled elevation, not uniform stair ground."
+    },
+    {
+      "timestamp_utc": "2026-10-02T14:10:17.473592+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs lower terminal close floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1130.0,
+        1247.83
+      ],
+      "probe_player_z": -70.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1193.990234 1247.829956 -70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1129.39,
+            1247.83,
+            -103.97
+          ],
+          "xy_error": 0.6099999999999,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1194.600220 1247.829956 -70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1130.0,
+            1247.83,
+            -103.97
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1194.600220 1247.829956 -70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1130.0,
+            1247.83,
+            -103.97
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1130.0,
+          1247.83,
+          -103.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_ENTRY_X1130_AFTER_FLOOR_005",
+      "branch": "independent terminal checks",
+      "private_filename": "C:\\Users\\mikea\\Documents\\Codex\\2026-09-30\\new-chat\\reference_cache\\crash_recovery_survey\\tunnel_terminal_floor_checks_05\\TUN_ENTRY_X1130_AFTER_FLOOR_005.json",
+      "surface_semantics": "Concrete Hull first/last tread or adjacent upper landing; exact close repeated floor point, not unseen floor continuity."
+    },
+    {
+      "timestamp_utc": "2026-10-02T14:10:26.635857+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs lower terminal close floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1100.0,
+        1248.23
+      ],
+      "probe_player_z": -70.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1163.990234 1248.229980 -70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1099.25,
+            1248.23,
+            -111.82
+          ],
+          "xy_error": 0.75,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 99188"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1164.740234 1248.229980 -70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1100.0,
+            1248.23,
+            -111.82
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 99188"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1164.740234 1248.229980 -70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1100.0,
+            1248.23,
+            -111.82
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 99188"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1100.0,
+          1248.23,
+          -111.82
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_ENTRY_X1100_BEFORE_FLOOR_005",
+      "branch": "independent terminal checks",
+      "private_filename": "C:\\Users\\mikea\\Documents\\Codex\\2026-09-30\\new-chat\\reference_cache\\crash_recovery_survey\\tunnel_terminal_floor_checks_05\\TUN_ENTRY_X1100_BEFORE_FLOOR_005.json",
+      "surface_semantics": "Sloped sand Mesh lower entry landing before first riser; exact close sampled elevation, not uniform stair ground."
+    },
+    {
+      "timestamp_utc": "2026-10-02T14:10:35.997641+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs lower terminal close floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1100.0,
+        1247.83
+      ],
+      "probe_player_z": -70.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1163.990234 1247.829956 -70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1099.39,
+            1247.83,
+            -103.97
+          ],
+          "xy_error": 0.6099999999999,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1164.600220 1247.829956 -70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1100.0,
+            1247.83,
+            -103.97
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1164.600220 1247.829956 -70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1100.0,
+            1247.83,
+            -103.97
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1100.0,
+          1247.83,
+          -103.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_ENTRY_X1100_AFTER_FLOOR_005",
+      "branch": "independent terminal checks",
+      "private_filename": "C:\\Users\\mikea\\Documents\\Codex\\2026-09-30\\new-chat\\reference_cache\\crash_recovery_survey\\tunnel_terminal_floor_checks_05\\TUN_ENTRY_X1100_AFTER_FLOOR_005.json",
+      "surface_semantics": "Concrete Hull first/last tread or adjacent upper landing; exact close repeated floor point, not unseen floor continuity."
+    },
+    {
+      "timestamp_utc": "2026-10-02T14:10:45.211483+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs lower terminal close floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1040.0,
+        1248.23
+      ],
+      "probe_player_z": -70.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1103.990234 1248.229980 -70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1039.26,
+            1248.23,
+            -111.38
+          ],
+          "xy_error": 0.7400000000000091,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 99200"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1104.730225 1248.229980 -70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1040.0,
+            1248.23,
+            -111.41
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 99200"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1104.730225 1248.229980 -70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1040.0,
+            1248.23,
+            -111.41
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 99200"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1040.0,
+          1248.23,
+          -111.41
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_ENTRY_X1040_BEFORE_FLOOR_005",
+      "branch": "independent terminal checks",
+      "private_filename": "C:\\Users\\mikea\\Documents\\Codex\\2026-09-30\\new-chat\\reference_cache\\crash_recovery_survey\\tunnel_terminal_floor_checks_05\\TUN_ENTRY_X1040_BEFORE_FLOOR_005.json",
+      "surface_semantics": "Sloped sand Mesh lower entry landing before first riser; exact close sampled elevation, not uniform stair ground."
+    },
+    {
+      "timestamp_utc": "2026-10-02T14:10:54.154740+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs lower terminal close floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1040.0,
+        1247.83
+      ],
+      "probe_player_z": -70.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1103.990234 1247.829956 -70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1039.39,
+            1247.83,
+            -103.97
+          ],
+          "xy_error": 0.6099999999999,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1104.600220 1247.829956 -70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1040.0,
+            1247.83,
+            -103.97
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1104.600220 1247.829956 -70.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1040.0,
+            1247.83,
+            -103.97
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1040.0,
+          1247.83,
+          -103.97
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_ENTRY_X1040_AFTER_FLOOR_005",
+      "branch": "independent terminal checks",
+      "private_filename": "C:\\Users\\mikea\\Documents\\Codex\\2026-09-30\\new-chat\\reference_cache\\crash_recovery_survey\\tunnel_terminal_floor_checks_05\\TUN_ENTRY_X1040_AFTER_FLOOR_005.json",
+      "surface_semantics": "Concrete Hull first/last tread or adjacent upper landing; exact close repeated floor point, not unseen floor continuity."
+    },
+    {
+      "timestamp_utc": "2026-10-02T14:11:02.907071+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs upper terminal close floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1263.77,
+        1040.0
+      ],
+      "probe_player_z": 65.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1263.770020 976.009766 65.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1263.77,
+            1040.73,
+            24.03
+          ],
+          "xy_error": 0.7300000000000182,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1263.770020 975.279724 65.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1263.77,
+            1040.0,
+            24.03
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1263.770020 975.279724 65.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1263.77,
+            1040.0,
+            24.03
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1263.77,
+          1040.0,
+          24.03
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_TOP_Y1040_BEFORE_FLOOR_005",
+      "branch": "independent terminal checks",
+      "private_filename": "C:\\Users\\mikea\\Documents\\Codex\\2026-09-30\\new-chat\\reference_cache\\crash_recovery_survey\\tunnel_terminal_floor_checks_05\\TUN_TOP_Y1040_BEFORE_FLOOR_005.json",
+      "surface_semantics": "Concrete Hull first/last tread or adjacent upper landing; exact close repeated floor point, not unseen floor continuity."
+    },
+    {
+      "timestamp_utc": "2026-10-02T14:11:12.356562+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs upper terminal close floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1264.17,
+        1040.0
+      ],
+      "probe_player_z": 65.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1264.170044 976.009766 65.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1264.17,
+            1040.59,
+            32.03
+          ],
+          "xy_error": 0.5899999999999181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1264.170044 975.419739 65.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1264.17,
+            1040.01,
+            32.03
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1264.170044 975.419739 65.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1264.17,
+            1040.01,
+            32.03
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1264.17,
+          1040.01,
+          32.03
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_TOP_Y1040_AFTER_FLOOR_005",
+      "branch": "independent terminal checks",
+      "private_filename": "C:\\Users\\mikea\\Documents\\Codex\\2026-09-30\\new-chat\\reference_cache\\crash_recovery_survey\\tunnel_terminal_floor_checks_05\\TUN_TOP_Y1040_AFTER_FLOOR_005.json",
+      "surface_semantics": "Concrete Hull first/last tread or adjacent upper landing; exact close repeated floor point, not unseen floor continuity."
+    },
+    {
+      "timestamp_utc": "2026-10-02T14:11:21.409935+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs upper terminal close floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1272.0,
+        1040.0
+      ],
+      "probe_player_z": 65.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1272.000000 976.009766 65.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1272.0,
+            1040.59,
+            32.03
+          ],
+          "xy_error": 0.5899999999999181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1272.000000 975.419739 65.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1272.0,
+            1040.01,
+            32.03
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1272.000000 975.419739 65.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1272.0,
+            1040.01,
+            32.03
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1272.0,
+          1040.01,
+          32.03
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_TOP_Y1040_LANDING_FLOOR_005",
+      "branch": "independent terminal checks",
+      "private_filename": "C:\\Users\\mikea\\Documents\\Codex\\2026-09-30\\new-chat\\reference_cache\\crash_recovery_survey\\tunnel_terminal_floor_checks_05\\TUN_TOP_Y1040_LANDING_FLOOR_005.json",
+      "surface_semantics": "Concrete Hull first/last tread or adjacent upper landing; exact close repeated floor point, not unseen floor continuity."
+    },
+    {
+      "timestamp_utc": "2026-10-02T14:11:31.063410+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs upper terminal close floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1263.77,
+        1080.0
+      ],
+      "probe_player_z": 65.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1263.770020 1016.009766 65.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1263.77,
+            1080.73,
+            24.03
+          ],
+          "xy_error": 0.7300000000000182,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1263.770020 1015.279724 65.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1263.77,
+            1080.0,
+            24.03
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1263.770020 1015.279724 65.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1263.77,
+            1080.0,
+            24.03
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1263.77,
+          1080.0,
+          24.03
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_TOP_Y1080_BEFORE_FLOOR_005",
+      "branch": "independent terminal checks",
+      "private_filename": "C:\\Users\\mikea\\Documents\\Codex\\2026-09-30\\new-chat\\reference_cache\\crash_recovery_survey\\tunnel_terminal_floor_checks_05\\TUN_TOP_Y1080_BEFORE_FLOOR_005.json",
+      "surface_semantics": "Concrete Hull first/last tread or adjacent upper landing; exact close repeated floor point, not unseen floor continuity."
+    },
+    {
+      "timestamp_utc": "2026-10-02T14:11:40.114517+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs upper terminal close floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1264.17,
+        1080.0
+      ],
+      "probe_player_z": 65.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1264.170044 1016.009766 65.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1264.17,
+            1080.59,
+            32.03
+          ],
+          "xy_error": 0.5899999999999181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1264.170044 1015.419739 65.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1264.17,
+            1080.01,
+            32.03
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1264.170044 1015.419739 65.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1264.17,
+            1080.01,
+            32.03
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1264.17,
+          1080.01,
+          32.03
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_TOP_Y1080_AFTER_FLOOR_005",
+      "branch": "independent terminal checks",
+      "private_filename": "C:\\Users\\mikea\\Documents\\Codex\\2026-09-30\\new-chat\\reference_cache\\crash_recovery_survey\\tunnel_terminal_floor_checks_05\\TUN_TOP_Y1080_AFTER_FLOOR_005.json",
+      "surface_semantics": "Concrete Hull first/last tread or adjacent upper landing; exact close repeated floor point, not unseen floor continuity."
+    },
+    {
+      "timestamp_utc": "2026-10-02T14:11:49.662667+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs upper terminal close floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1272.0,
+        1080.0
+      ],
+      "probe_player_z": 65.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1272.000000 1016.009766 65.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1272.0,
+            1080.59,
+            32.03
+          ],
+          "xy_error": 0.5899999999999181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1272.000000 1015.419739 65.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1272.0,
+            1080.01,
+            32.03
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1272.000000 1015.419739 65.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1272.0,
+            1080.01,
+            32.03
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1272.0,
+          1080.01,
+          32.03
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_TOP_Y1080_LANDING_FLOOR_005",
+      "branch": "independent terminal checks",
+      "private_filename": "C:\\Users\\mikea\\Documents\\Codex\\2026-09-30\\new-chat\\reference_cache\\crash_recovery_survey\\tunnel_terminal_floor_checks_05\\TUN_TOP_Y1080_LANDING_FLOOR_005.json",
+      "surface_semantics": "Concrete Hull first/last tread or adjacent upper landing; exact close repeated floor point, not unseen floor continuity."
+    },
+    {
+      "timestamp_utc": "2026-10-02T14:11:58.912243+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs upper terminal close floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1263.77,
+        1130.0
+      ],
+      "probe_player_z": 65.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1263.770020 1066.009766 65.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1263.77,
+            1130.73,
+            24.03
+          ],
+          "xy_error": 0.7300000000000182,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1263.770020 1065.279785 65.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1263.77,
+            1130.0,
+            24.03
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1263.770020 1065.279785 65.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1263.77,
+            1130.0,
+            24.03
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1263.77,
+          1130.0,
+          24.03
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_TOP_Y1130_BEFORE_FLOOR_005",
+      "branch": "independent terminal checks",
+      "private_filename": "C:\\Users\\mikea\\Documents\\Codex\\2026-09-30\\new-chat\\reference_cache\\crash_recovery_survey\\tunnel_terminal_floor_checks_05\\TUN_TOP_Y1130_BEFORE_FLOOR_005.json",
+      "surface_semantics": "Concrete Hull first/last tread or adjacent upper landing; exact close repeated floor point, not unseen floor continuity."
+    },
+    {
+      "timestamp_utc": "2026-10-02T14:12:08.364007+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs upper terminal close floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1264.17,
+        1130.0
+      ],
+      "probe_player_z": 65.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1264.170044 1066.009766 65.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1264.17,
+            1130.59,
+            32.03
+          ],
+          "xy_error": 0.5899999999999181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1264.170044 1065.419800 65.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1264.17,
+            1130.01,
+            32.03
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1264.170044 1065.419800 65.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1264.17,
+            1130.01,
+            32.03
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1264.17,
+          1130.01,
+          32.03
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_TOP_Y1130_AFTER_FLOOR_005",
+      "branch": "independent terminal checks",
+      "private_filename": "C:\\Users\\mikea\\Documents\\Codex\\2026-09-30\\new-chat\\reference_cache\\crash_recovery_survey\\tunnel_terminal_floor_checks_05\\TUN_TOP_Y1130_AFTER_FLOOR_005.json",
+      "surface_semantics": "Concrete Hull first/last tread or adjacent upper landing; exact close repeated floor point, not unseen floor continuity."
+    },
+    {
+      "timestamp_utc": "2026-10-02T14:12:18.114016+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "Tunnel Stairs upper terminal close floor check",
+      "unit": "source_units",
+      "target_xy": [
+        -1272.0,
+        1130.0
+      ],
+      "probe_player_z": 65.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -1272.000000 1066.009766 65.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1272.0,
+            1130.59,
+            32.03
+          ],
+          "xy_error": 0.5899999999999181,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -1272.000000 1065.419800 65.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1272.0,
+            1130.01,
+            32.03
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -1272.000000 1065.419800 65.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            -1272.0,
+            1130.01,
+            32.03
+          ],
+          "xy_error": 0.009999999999990905,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1272.0,
+          1130.01,
+          32.03
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "TUN_TOP_Y1130_LANDING_FLOOR_005",
+      "branch": "independent terminal checks",
+      "private_filename": "C:\\Users\\mikea\\Documents\\Codex\\2026-09-30\\new-chat\\reference_cache\\crash_recovery_survey\\tunnel_terminal_floor_checks_05\\TUN_TOP_Y1130_LANDING_FLOOR_005.json",
+      "surface_semantics": "Concrete Hull first/last tread or adjacent upper landing; exact close repeated floor point, not unseen floor continuity."
     }
   ],
   "rejected_attempts": [
@@ -14347,5 +15487,341 @@
       ]
     },
     "review": "All48 fresh floor cases match predeclared native tread heights exactly at printed resolution, and repeat concrete Hull endpoints. Four checked points per12treads spanning lateral/angle directions. Source selection pivot/radii never accepted as measured wall geometry; unseen interpolation and full side/terminal bounds separate."
-  }
+  },
+  "terminal_floor_checks": {
+    "cases": [
+      {
+        "id": "TUN_ENTRY_X1130_BEFORE_FLOOR_005",
+        "xy": [
+          -1130,
+          1248.23
+        ],
+        "z": -70,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs lower terminal close floor check",
+        "terminal": "lower",
+        "side": "BEFORE",
+        "expected_floor_z_native": null,
+        "scope": "Outside sand landing remains sloped; actual corrected repeated endpoint determines floor height. Source XY is.20native from existing riser-plane normal."
+      },
+      {
+        "id": "TUN_ENTRY_X1130_AFTER_FLOOR_005",
+        "xy": [
+          -1130,
+          1247.83
+        ],
+        "z": -70,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs lower terminal close floor check",
+        "terminal": "lower",
+        "side": "AFTER",
+        "expected_floor_z_native": -103.97,
+        "scope": "Outside sand landing remains sloped; actual corrected repeated endpoint determines floor height. Source XY is.20native from existing riser-plane normal."
+      },
+      {
+        "id": "TUN_ENTRY_X1100_BEFORE_FLOOR_005",
+        "xy": [
+          -1100,
+          1248.23
+        ],
+        "z": -70,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs lower terminal close floor check",
+        "terminal": "lower",
+        "side": "BEFORE",
+        "expected_floor_z_native": null,
+        "scope": "Outside sand landing remains sloped; actual corrected repeated endpoint determines floor height. Source XY is.20native from existing riser-plane normal."
+      },
+      {
+        "id": "TUN_ENTRY_X1100_AFTER_FLOOR_005",
+        "xy": [
+          -1100,
+          1247.83
+        ],
+        "z": -70,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs lower terminal close floor check",
+        "terminal": "lower",
+        "side": "AFTER",
+        "expected_floor_z_native": -103.97,
+        "scope": "Outside sand landing remains sloped; actual corrected repeated endpoint determines floor height. Source XY is.20native from existing riser-plane normal."
+      },
+      {
+        "id": "TUN_ENTRY_X1040_BEFORE_FLOOR_005",
+        "xy": [
+          -1040,
+          1248.23
+        ],
+        "z": -70,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs lower terminal close floor check",
+        "terminal": "lower",
+        "side": "BEFORE",
+        "expected_floor_z_native": null,
+        "scope": "Outside sand landing remains sloped; actual corrected repeated endpoint determines floor height. Source XY is.20native from existing riser-plane normal."
+      },
+      {
+        "id": "TUN_ENTRY_X1040_AFTER_FLOOR_005",
+        "xy": [
+          -1040,
+          1247.83
+        ],
+        "z": -70,
+        "yaw": 0,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs lower terminal close floor check",
+        "terminal": "lower",
+        "side": "AFTER",
+        "expected_floor_z_native": -103.97,
+        "scope": "Outside sand landing remains sloped; actual corrected repeated endpoint determines floor height. Source XY is.20native from existing riser-plane normal."
+      },
+      {
+        "id": "TUN_TOP_Y1040_BEFORE_FLOOR_005",
+        "xy": [
+          -1263.77,
+          1040
+        ],
+        "z": 65,
+        "yaw": 90,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs upper terminal close floor check",
+        "terminal": "upper",
+        "side": "BEFORE",
+        "expected_floor_z_native": 24.03,
+        "scope": "Close repeated floor points at independently observed terminal face plane; no full landing footprint or unseen floor continuity."
+      },
+      {
+        "id": "TUN_TOP_Y1040_AFTER_FLOOR_005",
+        "xy": [
+          -1264.17,
+          1040
+        ],
+        "z": 65,
+        "yaw": 90,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs upper terminal close floor check",
+        "terminal": "upper",
+        "side": "AFTER",
+        "expected_floor_z_native": 32.03,
+        "scope": "Close repeated floor points at independently observed terminal face plane; no full landing footprint or unseen floor continuity."
+      },
+      {
+        "id": "TUN_TOP_Y1040_LANDING_FLOOR_005",
+        "xy": [
+          -1272,
+          1040
+        ],
+        "z": 65,
+        "yaw": 90,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs upper terminal close floor check",
+        "terminal": "upper",
+        "side": "LANDING",
+        "expected_floor_z_native": 32.03,
+        "scope": "Close repeated floor points at independently observed terminal face plane; no full landing footprint or unseen floor continuity."
+      },
+      {
+        "id": "TUN_TOP_Y1080_BEFORE_FLOOR_005",
+        "xy": [
+          -1263.77,
+          1080
+        ],
+        "z": 65,
+        "yaw": 90,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs upper terminal close floor check",
+        "terminal": "upper",
+        "side": "BEFORE",
+        "expected_floor_z_native": 24.03,
+        "scope": "Close repeated floor points at independently observed terminal face plane; no full landing footprint or unseen floor continuity."
+      },
+      {
+        "id": "TUN_TOP_Y1080_AFTER_FLOOR_005",
+        "xy": [
+          -1264.17,
+          1080
+        ],
+        "z": 65,
+        "yaw": 90,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs upper terminal close floor check",
+        "terminal": "upper",
+        "side": "AFTER",
+        "expected_floor_z_native": 32.03,
+        "scope": "Close repeated floor points at independently observed terminal face plane; no full landing footprint or unseen floor continuity."
+      },
+      {
+        "id": "TUN_TOP_Y1080_LANDING_FLOOR_005",
+        "xy": [
+          -1272,
+          1080
+        ],
+        "z": 65,
+        "yaw": 90,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs upper terminal close floor check",
+        "terminal": "upper",
+        "side": "LANDING",
+        "expected_floor_z_native": 32.03,
+        "scope": "Close repeated floor points at independently observed terminal face plane; no full landing footprint or unseen floor continuity."
+      },
+      {
+        "id": "TUN_TOP_Y1130_BEFORE_FLOOR_005",
+        "xy": [
+          -1263.77,
+          1130
+        ],
+        "z": 65,
+        "yaw": 90,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs upper terminal close floor check",
+        "terminal": "upper",
+        "side": "BEFORE",
+        "expected_floor_z_native": 24.03,
+        "scope": "Close repeated floor points at independently observed terminal face plane; no full landing footprint or unseen floor continuity."
+      },
+      {
+        "id": "TUN_TOP_Y1130_AFTER_FLOOR_005",
+        "xy": [
+          -1264.17,
+          1130
+        ],
+        "z": 65,
+        "yaw": 90,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs upper terminal close floor check",
+        "terminal": "upper",
+        "side": "AFTER",
+        "expected_floor_z_native": 32.03,
+        "scope": "Close repeated floor points at independently observed terminal face plane; no full landing footprint or unseen floor continuity."
+      },
+      {
+        "id": "TUN_TOP_Y1130_LANDING_FLOOR_005",
+        "xy": [
+          -1272,
+          1130
+        ],
+        "z": 65,
+        "yaw": 90,
+        "features": [
+          "floor"
+        ],
+        "area": "Tunnel Stairs upper terminal close floor check",
+        "terminal": "upper",
+        "side": "LANDING",
+        "expected_floor_z_native": 32.03,
+        "scope": "Close repeated floor points at independently observed terminal face plane; no full landing footprint or unseen floor continuity."
+      }
+    ],
+    "plan_sha256": "0f12c136441eae4fdaf21fc84065ba0f4f1ecbed25a45f1029876ea28dcae497",
+    "driver_recovery": {
+      "timestamp_utc": "2026-10-02T14:10:07.431196+00:00",
+      "original_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "status": "completed serial columns; semantic review pending",
+      "completed": [
+        "TUN_ENTRY_X1130_BEFORE_FLOOR_005",
+        "TUN_ENTRY_X1130_AFTER_FLOOR_005",
+        "TUN_ENTRY_X1100_BEFORE_FLOOR_005",
+        "TUN_ENTRY_X1100_AFTER_FLOOR_005",
+        "TUN_ENTRY_X1040_BEFORE_FLOOR_005",
+        "TUN_ENTRY_X1040_AFTER_FLOOR_005",
+        "TUN_TOP_Y1040_BEFORE_FLOOR_005",
+        "TUN_TOP_Y1040_AFTER_FLOOR_005",
+        "TUN_TOP_Y1040_LANDING_FLOOR_005",
+        "TUN_TOP_Y1080_BEFORE_FLOOR_005",
+        "TUN_TOP_Y1080_AFTER_FLOOR_005",
+        "TUN_TOP_Y1080_LANDING_FLOOR_005",
+        "TUN_TOP_Y1130_BEFORE_FLOOR_005",
+        "TUN_TOP_Y1130_AFTER_FLOOR_005",
+        "TUN_TOP_Y1130_LANDING_FLOOR_005"
+      ],
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "restore_numeric_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "scope": "Close lateral floor pairs at lower/upper terminal; source plane/component and rendered review remain separate."
+  },
+  "accepted_terminal_pairs": [
+    {
+      "id": "TUNNEL_CLOSE_LOWER_RISE_X1130",
+      "terminal": "lower",
+      "before_report": "TUN_ENTRY_X1130_BEFORE_FLOOR_005",
+      "after_report": "TUN_ENTRY_X1130_AFTER_FLOOR_005",
+      "scope": "Close point-pair rise across first riser; targetY1248.23/1247.83 is.20native each side of measured face. Sloped sand and concrete kept separate; not exact coincident wall-contact rise."
+    },
+    {
+      "id": "TUNNEL_CLOSE_LOWER_RISE_X1100",
+      "terminal": "lower",
+      "before_report": "TUN_ENTRY_X1100_BEFORE_FLOOR_005",
+      "after_report": "TUN_ENTRY_X1100_AFTER_FLOOR_005",
+      "scope": "Close point-pair rise across first riser; targetY1248.23/1247.83 is.20native each side of measured face. Sloped sand and concrete kept separate; not exact coincident wall-contact rise."
+    },
+    {
+      "id": "TUNNEL_CLOSE_LOWER_RISE_X1040",
+      "terminal": "lower",
+      "before_report": "TUN_ENTRY_X1040_BEFORE_FLOOR_005",
+      "after_report": "TUN_ENTRY_X1040_AFTER_FLOOR_005",
+      "scope": "Close point-pair rise across first riser; targetY1248.23/1247.83 is.20native each side of measured face. Sloped sand and concrete kept separate; not exact coincident wall-contact rise."
+    },
+    {
+      "id": "TUNNEL_CLOSE_UPPER_RISE_Y1040",
+      "terminal": "upper",
+      "before_report": "TUN_TOP_Y1040_BEFORE_FLOOR_005",
+      "after_report": "TUN_TOP_Y1040_AFTER_FLOOR_005",
+      "scope": "Close point-pair rise across last riser; targetX-1263.77/-1264.17 is.20native each side of measured face. Not entire upper landing footprint."
+    },
+    {
+      "id": "TUNNEL_CLOSE_UPPER_RISE_Y1080",
+      "terminal": "upper",
+      "before_report": "TUN_TOP_Y1080_BEFORE_FLOOR_005",
+      "after_report": "TUN_TOP_Y1080_AFTER_FLOOR_005",
+      "scope": "Close point-pair rise across last riser; targetX-1263.77/-1264.17 is.20native each side of measured face. Not entire upper landing footprint."
+    },
+    {
+      "id": "TUNNEL_CLOSE_UPPER_RISE_Y1130",
+      "terminal": "upper",
+      "before_report": "TUN_TOP_Y1130_BEFORE_FLOOR_005",
+      "after_report": "TUN_TOP_Y1130_AFTER_FLOOR_005",
+      "scope": "Close point-pair rise across last riser; targetX-1263.77/-1264.17 is.20native each side of measured face. Not entire upper landing footprint."
+    }
+  ]
 }
