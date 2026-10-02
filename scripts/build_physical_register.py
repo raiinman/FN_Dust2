@@ -187,6 +187,9 @@ def build(root):
     if (ref / 'A_ENTRY_STAIR_PROFILE.json').exists():
         from build_a_entry_stairs import measurement_rows
         measurements.extend(measurement_rows(ref))
+    if (ref / 'B_EXIT_STAIR_PROFILE.json').exists():
+        from build_b_exit_stairs import measurement_rows
+        measurements.extend(measurement_rows(ref))
     with (ref / 'MEASUREMENTS.csv').open('w', newline='') as f:
         w = csv.DictWriter(f,fieldnames=measurements[0].keys())
         w.writeheader(); w.writerows(measurements)

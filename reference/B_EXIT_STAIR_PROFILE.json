@@ -1,0 +1,43 @@
+{
+  "source_build": "25640462",
+  "area": "B tunnel exit entrance steps",
+  "status": "accepted sampled center rise and three inter-face intervals; full sides/terminal bounds pending",
+  "center_face_report": "B_EXIT_RISER_FACES_002",
+  "lateral_face_report": "B_EXIT_LATERAL_FACE_CHECKS_003",
+  "center_x": -1984,
+  "lateral_x": [
+    -2008,
+    -1960
+  ],
+  "eye_levels": [
+    4,
+    12,
+    20,
+    28
+  ],
+  "tread_reports": [
+    "B_TUNNEL_EXIT_FLOOR_Y1832_001",
+    "B_TUNNEL_EXIT_FLOOR_Y1824_001",
+    "B_TUNNEL_EXIT_FLOOR_Y1808_001",
+    "B_TUNNEL_EXIT_FLOOR_Y1800_001"
+  ],
+  "lower_ground_report": "B_EXIT_GROUND_Y1840p2_003",
+  "ground_checks": [
+    "B_EXIT_GROUND_Y1840p5_003",
+    "B_EXIT_GROUND_Y1841_003",
+    "B_EXIT_GROUND_Y1842_003"
+  ],
+  "excluded_tread_reports": [
+    "B_TUNNEL_EXIT_FLOOR_Y1816_001",
+    "B_EXIT_EDGE_X1982_Y1816_002",
+    "B_EXIT_EDGE_X1986_Y1816_002"
+  ],
+  "rendered_review": {
+    "image_id": "QA_B_TUNNEL_MOUTH_OUTSIDE_001",
+    "image_path": "reference/images/b_tunnel_exit/QA_B_TUNNEL_MOUTH_OUTSIDE_001.jpg",
+    "sha256": "5e65ebcfef889e774aec9803053d2cfbd834685f2feee603663a4976a1cbc68c",
+    "count": 4,
+    "review": "Full outside arch and four visible principal steps individually inspected. Interior clean full arch separately reviewed; optical dimensions not inferred."
+  },
+  "limits": "Sampled center section and48native lateral face band. First lower ground sampled.17native before face; exact unsampled face contact/whole ground interpolation, curved full step sides, upper landing and rendered/collision offsets remain separate. Diagnostic lower Mesh atY1816 excluded, never smoothed into tread heights."
+}

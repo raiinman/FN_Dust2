@@ -213,3 +213,10 @@ PLAN_SECTION_OPEN_RAYS.csv separately preserves explicitly configured repeated
 native no-hit directions. Open rays have no endpoint or measured distance and
 must never enter PLAN_SECTION_POINTS or a fitted boundary. Their native miss
 does not establish floor extent, absent player collision or a rendered edge.
+
+B_EXIT_STAIR_PROFILE.json selects four concrete riser faces independently
+repeated at three lateral positions, reviewed tread/adjacent-ground points and
+full outside rendered count. Its CSV/SVG are sampled center-section evidence.
+Diagnostic Y1816 Mesh points are explicitly excluded from tread levels; native
+side own-origin rejection remains in ARCHITECTURAL_ENDPOINTS. Full curved sides,
+exact terminal contacts/upper landing and rendered offsets remain separate.

@@ -24749,6 +24749,306 @@
       "id": "B_EXIT_EDGE_X1986_Y1816_002",
       "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\b_exit_checks_02\\B_EXIT_EDGE_X1986_Y1816_002.json",
       "surface_semantics": "Diagnostic lower Mesh first hit at Y1816 at two lateral offsets. Horizontal upper tread front isY1816.03; no ground/tread surface inferred along this .03native outside-front line; retain but exclude from flight levels."
+    },
+    {
+      "timestamp_utc": "2026-10-02T09:28:49.692891+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B exit lower adjacent ground",
+      "unit": "source_units",
+      "target_xy": [
+        -1984.0,
+        1840.2
+      ],
+      "probe_player_z": 50.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -2047.990234 1840.199951 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1983.11,
+            1840.2,
+            0.18
+          ],
+          "xy_error": 0.8900000000001,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 94535"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -2048.880371 1840.199951 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1840.2,
+            0.18
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 94535"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -2048.880371 1840.199951 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1840.2,
+            0.18
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 94535"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1984.0,
+          1840.2,
+          0.18
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_EXIT_GROUND_Y1840p2_003",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\b_exit_structure_03\\B_EXIT_GROUND_Y1840p2_003.json",
+      "surface_semantics": "Repeated concrete Mesh ground immediately before first riserY1840.03: sampledY1840.2..1842,Z.18.. .22. Slight adjacent ground slope is separate from flat concrete Hull treads. No uniform8native first rise; exact ground at unsampled face line remains separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T09:28:58.682268+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B exit lower adjacent ground",
+      "unit": "source_units",
+      "target_xy": [
+        -1984.0,
+        1840.5
+      ],
+      "probe_player_z": 50.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -2047.990234 1840.500000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1983.11,
+            1840.5,
+            0.19
+          ],
+          "xy_error": 0.8900000000001,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 94535"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -2048.880371 1840.500000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1840.5,
+            0.19
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 94535"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -2048.880371 1840.500000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1840.5,
+            0.19
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 94535"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1984.0,
+          1840.5,
+          0.19
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_EXIT_GROUND_Y1840p5_003",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\b_exit_structure_03\\B_EXIT_GROUND_Y1840p5_003.json",
+      "surface_semantics": "Repeated concrete Mesh ground immediately before first riserY1840.03: sampledY1840.2..1842,Z.18.. .22. Slight adjacent ground slope is separate from flat concrete Hull treads. No uniform8native first rise; exact ground at unsampled face line remains separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T09:29:08.133724+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B exit lower adjacent ground",
+      "unit": "source_units",
+      "target_xy": [
+        -1984.0,
+        1841.0
+      ],
+      "probe_player_z": 50.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -2047.990234 1841.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1983.11,
+            1841.0,
+            0.2
+          ],
+          "xy_error": 0.8900000000001,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 94535"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -2048.880371 1841.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1841.0,
+            0.2
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 94535"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -2048.880371 1841.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1841.0,
+            0.2
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 94535"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1984.0,
+          1841.0,
+          0.2
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_EXIT_GROUND_Y1841_003",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\b_exit_structure_03\\B_EXIT_GROUND_Y1841_003.json",
+      "surface_semantics": "Repeated concrete Mesh ground immediately before first riserY1840.03: sampledY1840.2..1842,Z.18.. .22. Slight adjacent ground slope is separate from flat concrete Hull treads. No uniform8native first rise; exact ground at unsampled face line remains separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T09:29:17.382366+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "B exit lower adjacent ground",
+      "unit": "source_units",
+      "target_xy": [
+        -1984.0,
+        1842.0
+      ],
+      "probe_player_z": 50.0,
+      "initial_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "probe_yaw": 0.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact -2047.990234 1842.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1983.11,
+            1842.0,
+            0.22
+          ],
+          "xy_error": 0.8900000000001,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 94535"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact -2048.880371 1842.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1842.0,
+            0.22
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 94535"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact -2048.880371 1842.000000 50.000000;setang_exact 88.999908 0.000000 0.000000",
+          "hit": [
+            -1984.0,
+            1842.0,
+            0.22
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 94535"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          -1984.0,
+          1842.0,
+          0.22
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact -1984.000000 2100.000000 50.000000;setang_exact 0.000000 -90.000000 0.000000",
+      "id": "B_EXIT_GROUND_Y1842_003",
+      "private_raw_path": "..\\reference_cache\\crash_recovery_survey\\b_exit_structure_03\\B_EXIT_GROUND_Y1842_003.json",
+      "surface_semantics": "Repeated concrete Mesh ground immediately before first riserY1840.03: sampledY1840.2..1842,Z.18.. .22. Slight adjacent ground slope is separate from flat concrete Hull treads. No uniform8native first rise; exact ground at unsampled face line remains separate."
     }
   ],
   "accepted_pairs": [
@@ -25021,6 +25321,24 @@
       "dimension": "rise",
       "feature": "Local concrete inter-tread rise 3",
       "notes": "Two repeated concrete Hull floor points, independent horizontal riser faces and full outside four-step view. Each measured difference8native; lower ground transition, side continuity and full terminal extent remain separate. DiagnosticY1816 Mesh excluded."
+    },
+    {
+      "id": "B_EXIT_LOWER_GROUND_TO_FIRST_TREAD_RISE",
+      "area": "B Tunnel Exit",
+      "from_report": "B_EXIT_GROUND_Y1840p2_003",
+      "to_report": "B_TUNNEL_EXIT_FLOOR_Y1832_001",
+      "dimension": "rise",
+      "feature": "B EXIT LOWER GROUND TO FIRST TREAD RISE",
+      "notes": "Sampled lower groundY1840.2Z.18 is.17native before first repeated faceY1840.03; first treadY1832Z8.03. Local sampled rise7.85native; do not replace with uniform8."
+    },
+    {
+      "id": "B_EXIT_SAMPLED_TOTAL_RISE",
+      "area": "B Tunnel Exit",
+      "from_report": "B_EXIT_GROUND_Y1840p2_003",
+      "to_report": "B_TUNNEL_EXIT_FLOOR_Y1800_001",
+      "dimension": "rise",
+      "feature": "B EXIT SAMPLED TOTAL RISE",
+      "notes": "Sampled adjacent lower concrete groundY1840.2Z.18 to upper flat treadY1800Z32.03:31.85native. All four center/lateral face positions and rendered four-step count corroborate; full sides/ends and exact unsampled face ground separate."
     }
   ],
   "rejected_attempts": [

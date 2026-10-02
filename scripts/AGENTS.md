@@ -270,3 +270,10 @@ audit_reference_images.py also requires matching manifest local image paths and
 original native timestamp_utc access dates. It reports checked date count;
 review dates remain distinct. Hash/date integrity checks never grant visual,
 geometric, or whole-map acceptance.
+
+build_b_exit_stairs.py validates four center/lateral repeated concrete riser
+faces, corrected tread/adjacent-ground points and hash-pinned rendered count.
+It derives sampled rise/run CSV/SVG and three physical inter-face intervals.
+Rebuild/render/inspect after selections change. The first ground sample is
+.17native before the face; do not assume uniform rise or certify unsampled
+ground contact, full curved sides, terminal extent or rendered offsets.
