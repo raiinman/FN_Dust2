@@ -9960,6 +9960,2270 @@
       "id": "LONG_A_CENTER_X950_Y2750_001",
       "private_raw_path": "../reference_cache/crash_recovery_survey/long_pit_floor_profiles_01/LONG_A_CENTER_X950_Y2750_001.json",
       "surface_semantics": "Repeated sand/concrete collision pavement point on Long road / uphill A approach; X950 point is A platform"
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:57:13.179665+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A entry grid",
+      "unit": "source_units",
+      "target_xy": [
+        1100.0,
+        2680.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1100.000000 2616.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2682.75,
+            93.86
+          ],
+          "xy_error": 2.75,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 163023"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1100.000000 2613.259766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2680.0,
+            93.84
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 163023"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1100.000000 2613.259766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2680.0,
+            93.84
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 163023"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1100.0,
+          2680.0,
+          93.84
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "A_ENTRY_X1100_Y2680_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/a_entry_grid_01/A_ENTRY_X1100_Y2680_001.json",
+      "surface_semantics": "A-platform pavement collision sample; repeated native rays and QA_A_ENTRY_DETAIL/PLAN_DETAIL_001 corroborate. Player hull support is separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:57:22.197628+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A entry grid",
+      "unit": "source_units",
+      "target_xy": [
+        1100.0,
+        2720.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1100.000000 2656.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2722.72,
+            95.24
+          ],
+          "xy_error": 2.7199999999998,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 163049"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1100.000000 2653.289795 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2720.0,
+            95.03
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 163049"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1100.000000 2653.289795 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2720.0,
+            95.03
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 163049"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1100.0,
+          2720.0,
+          95.03
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "A_ENTRY_X1100_Y2720_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/a_entry_grid_01/A_ENTRY_X1100_Y2720_001.json",
+      "surface_semantics": "A-platform pavement collision sample; repeated native rays and QA_A_ENTRY_DETAIL/PLAN_DETAIL_001 corroborate. Player hull support is separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:57:31.024181+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A entry grid",
+      "unit": "source_units",
+      "target_xy": [
+        1100.0,
+        2760.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1100.000000 2696.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2762.68,
+            97.39
+          ],
+          "xy_error": 2.6799999999998363,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 163054"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1100.000000 2693.329834 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2760.0,
+            97.43
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 163054"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1100.000000 2693.329834 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2760.0,
+            97.43
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 163054"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1100.0,
+          2760.0,
+          97.43
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "A_ENTRY_X1100_Y2760_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/a_entry_grid_01/A_ENTRY_X1100_Y2760_001.json",
+      "surface_semantics": "A-platform pavement collision sample; repeated native rays and QA_A_ENTRY_DETAIL/PLAN_DETAIL_001 corroborate. Player hull support is separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:57:39.937756+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A entry grid",
+      "unit": "source_units",
+      "target_xy": [
+        1100.0,
+        2800.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1100.000000 2736.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2802.35,
+            116.28
+          ],
+          "xy_error": 2.349999999999909,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1100.000000 2733.659668 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2800.0,
+            116.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1100.000000 2733.659668 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2800.0,
+            116.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1100.0,
+          2800.0,
+          116.28
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "A_ENTRY_X1100_Y2800_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/a_entry_grid_01/A_ENTRY_X1100_Y2800_001.json",
+      "surface_semantics": "Entrance third tread collision sample; repeated native rays and QA_A_ENTRY_DETAIL/PLAN_DETAIL_001 corroborate. Player hull support is separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:57:48.667189+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A entry grid",
+      "unit": "source_units",
+      "target_xy": [
+        1100.0,
+        2840.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1100.000000 2776.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2842.19,
+            125.8
+          ],
+          "xy_error": 2.1900000000000546,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163116"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1100.000000 2773.819824 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2840.0,
+            125.68
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163116"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1100.000000 2773.819824 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2840.0,
+            125.68
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163116"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1100.0,
+          2840.0,
+          125.68
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "A_ENTRY_X1100_Y2840_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/a_entry_grid_01/A_ENTRY_X1100_Y2840_001.json",
+      "surface_semantics": "Upper landing nonuniform pavement collision sample; repeated native rays and QA_A_ENTRY_DETAIL/PLAN_DETAIL_001 corroborate. Player hull support is separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:57:57.694293+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A entry grid",
+      "unit": "source_units",
+      "target_xy": [
+        1200.0,
+        2680.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1200.000000 2616.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1200.0,
+            2682.72,
+            95.19
+          ],
+          "xy_error": 2.7199999999998,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163031"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1200.000000 2613.289795 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1200.0,
+            2680.0,
+            95.17
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163031"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1200.000000 2613.289795 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1200.0,
+            2680.0,
+            95.17
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163031"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1200.0,
+          2680.0,
+          95.17
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "A_ENTRY_X1200_Y2680_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/a_entry_grid_01/A_ENTRY_X1200_Y2680_001.json",
+      "surface_semantics": "A-platform pavement collision sample; repeated native rays and QA_A_ENTRY_DETAIL/PLAN_DETAIL_001 corroborate. Player hull support is separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:58:06.506444+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A entry grid",
+      "unit": "source_units",
+      "target_xy": [
+        1200.0,
+        2720.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1200.000000 2656.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1200.0,
+            2722.7,
+            96.18
+          ],
+          "xy_error": 2.699999999999818,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163063"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1200.000000 2653.309814 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1200.0,
+            2720.01,
+            96.06
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163063"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1200.000000 2653.309814 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1200.0,
+            2720.01,
+            96.06
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163063"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1200.0,
+          2720.01,
+          96.06
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "A_ENTRY_X1200_Y2720_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/a_entry_grid_01/A_ENTRY_X1200_Y2720_001.json",
+      "surface_semantics": "A-platform pavement collision sample; repeated native rays and QA_A_ENTRY_DETAIL/PLAN_DETAIL_001 corroborate. Player hull support is separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:58:15.534156+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A entry grid",
+      "unit": "source_units",
+      "target_xy": [
+        1200.0,
+        2760.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1200.000000 2696.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1200.0,
+            2762.68,
+            97.55
+          ],
+          "xy_error": 2.6799999999998363,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163073"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1200.000000 2693.329834 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1200.0,
+            2760.0,
+            97.6
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163072"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1200.000000 2693.329834 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1200.0,
+            2760.0,
+            97.6
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163072"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1200.0,
+          2760.0,
+          97.6
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "A_ENTRY_X1200_Y2760_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/a_entry_grid_01/A_ENTRY_X1200_Y2760_001.json",
+      "surface_semantics": "A-platform pavement collision sample; repeated native rays and QA_A_ENTRY_DETAIL/PLAN_DETAIL_001 corroborate. Player hull support is separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:58:24.451294+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A entry grid",
+      "unit": "source_units",
+      "target_xy": [
+        1200.0,
+        2800.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1200.000000 2736.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1200.0,
+            2802.35,
+            116.28
+          ],
+          "xy_error": 2.349999999999909,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1200.000000 2733.659668 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1200.0,
+            2800.0,
+            116.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1200.000000 2733.659668 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1200.0,
+            2800.0,
+            116.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1200.0,
+          2800.0,
+          116.28
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "A_ENTRY_X1200_Y2800_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/a_entry_grid_01/A_ENTRY_X1200_Y2800_001.json",
+      "surface_semantics": "Entrance third tread collision sample; repeated native rays and QA_A_ENTRY_DETAIL/PLAN_DETAIL_001 corroborate. Player hull support is separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:58:33.241414+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A entry grid",
+      "unit": "source_units",
+      "target_xy": [
+        1200.0,
+        2840.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1200.000000 2776.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1200.0,
+            2842.18,
+            126.06
+          ],
+          "xy_error": 2.1799999999998363,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163127"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1200.000000 2773.829834 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1200.0,
+            2840.01,
+            125.91
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163128"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1200.000000 2773.829834 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1200.0,
+            2840.01,
+            125.91
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163128"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1200.0,
+          2840.01,
+          125.91
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "A_ENTRY_X1200_Y2840_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/a_entry_grid_01/A_ENTRY_X1200_Y2840_001.json",
+      "surface_semantics": "Upper landing nonuniform pavement collision sample; repeated native rays and QA_A_ENTRY_DETAIL/PLAN_DETAIL_001 corroborate. Player hull support is separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:59:13.234345+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A entry fine collision profile",
+      "unit": "source_units",
+      "target_xy": [
+        1100.0,
+        2765.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1100.000000 2701.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2767.69,
+            97.3
+          ],
+          "xy_error": 2.6900000000000546,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 163054"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1100.000000 2698.319824 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2764.99,
+            97.35
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 163054"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1100.000000 2698.319824 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2764.99,
+            97.35
+          ],
+          "xy_error": 0.010000000000218279,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 163054"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1100.0,
+          2764.99,
+          97.35
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "A_ENTRY_FINE_X1100_Y2765_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/a_entry_fine_01/A_ENTRY_FINE_X1100_Y2765_001.json",
+      "surface_semantics": "A-platform pavement collision sample; repeated native rays and QA_A_ENTRY_DETAIL/PLAN_DETAIL_001 corroborate. Player hull support is separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:59:22.256899+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A entry fine collision profile",
+      "unit": "source_units",
+      "target_xy": [
+        1100.0,
+        2770.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1100.000000 2706.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2772.63,
+            100.28
+          ],
+          "xy_error": 2.630000000000109,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1100.000000 2703.379639 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2770.0,
+            100.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1100.000000 2703.379639 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2770.0,
+            100.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1100.0,
+          2770.0,
+          100.28
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "A_ENTRY_FINE_X1100_Y2770_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/a_entry_fine_01/A_ENTRY_FINE_X1100_Y2770_001.json",
+      "surface_semantics": "Entrance first tread collision sample; repeated native rays and QA_A_ENTRY_DETAIL/PLAN_DETAIL_001 corroborate. Player hull support is separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:59:31.126341+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A entry fine collision profile",
+      "unit": "source_units",
+      "target_xy": [
+        1100.0,
+        2775.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1100.000000 2711.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2777.63,
+            100.28
+          ],
+          "xy_error": 2.630000000000109,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1100.000000 2708.379639 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2775.0,
+            100.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1100.000000 2708.379639 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2775.0,
+            100.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1100.0,
+          2775.0,
+          100.28
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "A_ENTRY_FINE_X1100_Y2775_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/a_entry_fine_01/A_ENTRY_FINE_X1100_Y2775_001.json",
+      "surface_semantics": "Entrance first tread collision sample; repeated native rays and QA_A_ENTRY_DETAIL/PLAN_DETAIL_001 corroborate. Player hull support is separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:59:40.144038+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A entry fine collision profile",
+      "unit": "source_units",
+      "target_xy": [
+        1100.0,
+        2780.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1100.000000 2716.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2782.49,
+            108.28
+          ],
+          "xy_error": 2.4899999999997817,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1100.000000 2713.519775 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2780.14,
+            100.28
+          ],
+          "xy_error": 0.13999999999987267,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1100.000000 2713.379639 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2780.0,
+            100.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 4,
+          "observed_pose": "setpos_exact 1100.000000 2713.379639 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2780.0,
+            100.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1100.0,
+          2780.0,
+          100.28
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "A_ENTRY_FINE_X1100_Y2780_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/a_entry_fine_01/A_ENTRY_FINE_X1100_Y2780_001.json",
+      "surface_semantics": "Entrance first tread collision sample; repeated native rays and QA_A_ENTRY_DETAIL/PLAN_DETAIL_001 corroborate. Player hull support is separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T04:59:51.307476+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A entry fine collision profile",
+      "unit": "source_units",
+      "target_xy": [
+        1100.0,
+        2785.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1100.000000 2721.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2787.49,
+            108.28
+          ],
+          "xy_error": 2.4899999999997817,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1100.000000 2718.519775 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2785.0,
+            108.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1100.000000 2718.519775 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2785.0,
+            108.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1100.0,
+          2785.0,
+          108.28
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "A_ENTRY_FINE_X1100_Y2785_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/a_entry_fine_01/A_ENTRY_FINE_X1100_Y2785_001.json",
+      "surface_semantics": "Entrance second tread collision sample; repeated native rays and QA_A_ENTRY_DETAIL/PLAN_DETAIL_001 corroborate. Player hull support is separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T05:00:00.331388+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A entry fine collision profile",
+      "unit": "source_units",
+      "target_xy": [
+        1100.0,
+        2790.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1100.000000 2726.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2792.49,
+            108.28
+          ],
+          "xy_error": 2.4899999999997817,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1100.000000 2723.519775 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2790.0,
+            108.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1100.000000 2723.519775 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2790.0,
+            108.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1100.0,
+          2790.0,
+          108.28
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "A_ENTRY_FINE_X1100_Y2790_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/a_entry_fine_01/A_ENTRY_FINE_X1100_Y2790_001.json",
+      "surface_semantics": "Entrance second tread collision sample; repeated native rays and QA_A_ENTRY_DETAIL/PLAN_DETAIL_001 corroborate. Player hull support is separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T05:00:09.463628+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A entry fine collision profile",
+      "unit": "source_units",
+      "target_xy": [
+        1100.0,
+        2795.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1100.000000 2731.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2797.35,
+            116.28
+          ],
+          "xy_error": 2.349999999999909,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1100.000000 2728.659668 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2795.0,
+            116.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1100.000000 2728.659668 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2795.0,
+            116.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1100.0,
+          2795.0,
+          116.28
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "A_ENTRY_FINE_X1100_Y2795_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/a_entry_fine_01/A_ENTRY_FINE_X1100_Y2795_001.json",
+      "surface_semantics": "Entrance third tread collision sample; repeated native rays and QA_A_ENTRY_DETAIL/PLAN_DETAIL_001 corroborate. Player hull support is separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T05:00:18.481417+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A entry fine collision profile",
+      "unit": "source_units",
+      "target_xy": [
+        1100.0,
+        2800.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1100.000000 2736.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2802.35,
+            116.28
+          ],
+          "xy_error": 2.349999999999909,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1100.000000 2733.659668 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2800.0,
+            116.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1100.000000 2733.659668 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2800.0,
+            116.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1100.0,
+          2800.0,
+          116.28
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "A_ENTRY_FINE_X1100_Y2800_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/a_entry_fine_01/A_ENTRY_FINE_X1100_Y2800_001.json",
+      "surface_semantics": "Entrance third tread collision sample; repeated native rays and QA_A_ENTRY_DETAIL/PLAN_DETAIL_001 corroborate. Player hull support is separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T05:00:27.271569+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A entry fine collision profile",
+      "unit": "source_units",
+      "target_xy": [
+        1100.0,
+        2805.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1100.000000 2741.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2807.21,
+            124.28
+          ],
+          "xy_error": 2.2100000000000364,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1100.000000 2738.799805 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2805.0,
+            124.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1100.000000 2738.799805 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2805.0,
+            124.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1100.0,
+          2805.0,
+          124.28
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "A_ENTRY_FINE_X1100_Y2805_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/a_entry_fine_01/A_ENTRY_FINE_X1100_Y2805_001.json",
+      "surface_semantics": "Entrance top tread collision sample; repeated native rays and QA_A_ENTRY_DETAIL/PLAN_DETAIL_001 corroborate. Player hull support is separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T05:00:36.292308+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A entry fine collision profile",
+      "unit": "source_units",
+      "target_xy": [
+        1100.0,
+        2810.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1100.000000 2746.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2812.21,
+            124.28
+          ],
+          "xy_error": 2.2100000000000364,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1100.000000 2743.799805 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2810.0,
+            124.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1100.000000 2743.799805 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2810.0,
+            124.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1100.0,
+          2810.0,
+          124.28
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "A_ENTRY_FINE_X1100_Y2810_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/a_entry_fine_01/A_ENTRY_FINE_X1100_Y2810_001.json",
+      "surface_semantics": "Entrance top tread collision sample; repeated native rays and QA_A_ENTRY_DETAIL/PLAN_DETAIL_001 corroborate. Player hull support is separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T05:00:45.311510+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A entry fine collision profile",
+      "unit": "source_units",
+      "target_xy": [
+        1100.0,
+        2815.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1100.000000 2751.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2817.21,
+            124.4
+          ],
+          "xy_error": 2.2100000000000364,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163116"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1100.000000 2748.799805 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2815.0,
+            124.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1100.000000 2748.799805 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2815.0,
+            124.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1100.0,
+          2815.0,
+          124.28
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "A_ENTRY_FINE_X1100_Y2815_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/a_entry_fine_01/A_ENTRY_FINE_X1100_Y2815_001.json",
+      "surface_semantics": "Entrance top tread collision sample; repeated native rays and QA_A_ENTRY_DETAIL/PLAN_DETAIL_001 corroborate. Player hull support is separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T05:00:53.938395+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A entry fine collision profile",
+      "unit": "source_units",
+      "target_xy": [
+        1100.0,
+        2820.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1100.000000 2756.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2822.21,
+            124.68
+          ],
+          "xy_error": 2.2100000000000364,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163116"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1100.000000 2753.799805 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2820.0,
+            124.56
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163116"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1100.000000 2753.799805 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2820.0,
+            124.56
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163116"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1100.0,
+          2820.0,
+          124.56
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "A_ENTRY_FINE_X1100_Y2820_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/a_entry_fine_01/A_ENTRY_FINE_X1100_Y2820_001.json",
+      "surface_semantics": "Upper landing nonuniform pavement collision sample; repeated native rays and QA_A_ENTRY_DETAIL/PLAN_DETAIL_001 corroborate. Player hull support is separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T05:01:02.861769+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A entry fine collision profile",
+      "unit": "source_units",
+      "target_xy": [
+        1100.0,
+        2825.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1100.000000 2761.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2827.2,
+            124.96
+          ],
+          "xy_error": 2.199999999999818,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163116"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1100.000000 2758.809814 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2825.0,
+            124.84
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163116"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1100.000000 2758.809814 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2825.0,
+            124.84
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163116"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1100.0,
+          2825.0,
+          124.84
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "A_ENTRY_FINE_X1100_Y2825_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/a_entry_fine_01/A_ENTRY_FINE_X1100_Y2825_001.json",
+      "surface_semantics": "Upper landing nonuniform pavement collision sample; repeated native rays and QA_A_ENTRY_DETAIL/PLAN_DETAIL_001 corroborate. Player hull support is separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T05:01:11.889495+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A entry fine collision profile",
+      "unit": "source_units",
+      "target_xy": [
+        1100.0,
+        2830.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1100.000000 2766.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2832.2,
+            125.24
+          ],
+          "xy_error": 2.199999999999818,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163116"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1100.000000 2763.809814 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2830.0,
+            125.12
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163116"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1100.000000 2763.809814 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2830.0,
+            125.12
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163116"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1100.0,
+          2830.0,
+          125.12
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "A_ENTRY_FINE_X1100_Y2830_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/a_entry_fine_01/A_ENTRY_FINE_X1100_Y2830_001.json",
+      "surface_semantics": "Upper landing nonuniform pavement collision sample; repeated native rays and QA_A_ENTRY_DETAIL/PLAN_DETAIL_001 corroborate. Player hull support is separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T05:01:20.925811+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A entry fine collision profile",
+      "unit": "source_units",
+      "target_xy": [
+        1100.0,
+        2835.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1100.000000 2771.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2837.19,
+            125.52
+          ],
+          "xy_error": 2.1900000000000546,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163116"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1100.000000 2768.819824 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2835.0,
+            125.4
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163116"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1100.000000 2768.819824 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1100.0,
+            2835.0,
+            125.4
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163116"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1100.0,
+          2835.0,
+          125.4
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "A_ENTRY_FINE_X1100_Y2835_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/a_entry_fine_01/A_ENTRY_FINE_X1100_Y2835_001.json",
+      "surface_semantics": "Upper landing nonuniform pavement collision sample; repeated native rays and QA_A_ENTRY_DETAIL/PLAN_DETAIL_001 corroborate. Player hull support is separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T05:01:29.751643+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A entry fine collision profile",
+      "unit": "source_units",
+      "target_xy": [
+        1200.0,
+        2775.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1200.000000 2711.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1200.0,
+            2777.63,
+            100.28
+          ],
+          "xy_error": 2.630000000000109,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1200.000000 2708.379639 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1200.0,
+            2775.0,
+            100.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1200.000000 2708.379639 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1200.0,
+            2775.0,
+            100.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1200.0,
+          2775.0,
+          100.28
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "A_ENTRY_FINE_X1200_Y2775_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/a_entry_fine_01/A_ENTRY_FINE_X1200_Y2775_001.json",
+      "surface_semantics": "Entrance first tread collision sample; repeated native rays and QA_A_ENTRY_DETAIL/PLAN_DETAIL_001 corroborate. Player hull support is separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T05:01:38.585305+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A entry fine collision profile",
+      "unit": "source_units",
+      "target_xy": [
+        1200.0,
+        2790.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1200.000000 2726.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1200.0,
+            2792.49,
+            108.28
+          ],
+          "xy_error": 2.4899999999997817,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1200.000000 2723.519775 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1200.0,
+            2790.0,
+            108.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1200.000000 2723.519775 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1200.0,
+            2790.0,
+            108.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1200.0,
+          2790.0,
+          108.28
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "A_ENTRY_FINE_X1200_Y2790_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/a_entry_fine_01/A_ENTRY_FINE_X1200_Y2790_001.json",
+      "surface_semantics": "Entrance second tread collision sample; repeated native rays and QA_A_ENTRY_DETAIL/PLAN_DETAIL_001 corroborate. Player hull support is separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T05:01:47.596082+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A entry fine collision profile",
+      "unit": "source_units",
+      "target_xy": [
+        1200.0,
+        2805.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1200.000000 2741.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1200.0,
+            2807.21,
+            124.28
+          ],
+          "xy_error": 2.2100000000000364,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1200.000000 2738.799805 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1200.0,
+            2805.0,
+            124.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1200.000000 2738.799805 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1200.0,
+            2805.0,
+            124.28
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1200.0,
+          2805.0,
+          124.28
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "A_ENTRY_FINE_X1200_Y2805_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/a_entry_fine_01/A_ENTRY_FINE_X1200_Y2805_001.json",
+      "surface_semantics": "Entrance top tread collision sample; repeated native rays and QA_A_ENTRY_DETAIL/PLAN_DETAIL_001 corroborate. Player hull support is separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T05:01:56.515867+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A entry fine collision profile",
+      "unit": "source_units",
+      "target_xy": [
+        1200.0,
+        2820.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1200.000000 2756.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1200.0,
+            2822.21,
+            124.69
+          ],
+          "xy_error": 2.2100000000000364,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163128"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1200.000000 2753.799805 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1200.0,
+            2820.0,
+            124.53
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163128"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1200.000000 2753.799805 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1200.0,
+            2820.0,
+            124.53
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163128"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1200.0,
+          2820.0,
+          124.53
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "A_ENTRY_FINE_X1200_Y2820_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/a_entry_fine_01/A_ENTRY_FINE_X1200_Y2820_001.json",
+      "surface_semantics": "Upper landing nonuniform pavement collision sample; repeated native rays and QA_A_ENTRY_DETAIL/PLAN_DETAIL_001 corroborate. Player hull support is separate."
+    },
+    {
+      "timestamp_utc": "2026-10-02T05:02:05.443028+00:00",
+      "source_build": "25640462",
+      "source_map": "de_dust2",
+      "area": "A entry fine collision profile",
+      "unit": "source_units",
+      "target_xy": [
+        1200.0,
+        2835.0
+      ],
+      "probe_player_z": 250.0,
+      "initial_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "probe_yaw": 90.0,
+      "model": "getpos + 64 * camera_up, zero roll; TRACE_ORIGIN.md",
+      "xy_tolerance": 0.02,
+      "observations": [
+        {
+          "feature": "floor",
+          "iteration": 1,
+          "observed_pose": "setpos_exact 1200.000000 2771.009766 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1200.0,
+            2837.19,
+            125.71
+          ],
+          "xy_error": 2.1900000000000546,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163128"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 2,
+          "observed_pose": "setpos_exact 1200.000000 2768.819824 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1200.0,
+            2835.0,
+            125.56
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163128"
+          ]
+        },
+        {
+          "feature": "floor",
+          "iteration": 3,
+          "observed_pose": "setpos_exact 1200.000000 2768.819824 250.000000;setang_exact 88.999908 90.000000 0.000000",
+          "hit": [
+            1200.0,
+            2835.0,
+            125.56
+          ],
+          "xy_error": 0.0,
+          "hit_description": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 163128"
+          ]
+        }
+      ],
+      "accepted_for_production": false,
+      "status": "complete; collision column only; inspect surface semantics",
+      "endpoints": {
+        "floor": [
+          1200.0,
+          2835.0,
+          125.56
+        ]
+      },
+      "endpoint_xy_separation": null,
+      "native_vertical_separation": null,
+      "restored_pose": "setpos_exact 640.000000 -100.000000 150.000000;setang_exact 0.000000 90.000000 0.000000",
+      "id": "A_ENTRY_FINE_X1200_Y2835_001",
+      "private_raw_path": "../reference_cache/crash_recovery_survey/a_entry_fine_01/A_ENTRY_FINE_X1200_Y2835_001.json",
+      "surface_semantics": "Upper landing nonuniform pavement collision sample; repeated native rays and QA_A_ENTRY_DETAIL/PLAN_DETAIL_001 corroborate. Player hull support is separate."
     }
   ],
   "accepted_pairs": [

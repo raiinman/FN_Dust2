@@ -1,0 +1,69 @@
+{
+  "source_build": "25640462",
+  "area": "A Site Long entrance steps",
+  "floor_reports": [
+    "A_ENTRY_X1100_Y2680_001",
+    "A_ENTRY_X1100_Y2720_001",
+    "A_ENTRY_X1100_Y2760_001",
+    "A_ENTRY_X1100_Y2800_001",
+    "A_ENTRY_X1100_Y2840_001",
+    "A_ENTRY_X1200_Y2680_001",
+    "A_ENTRY_X1200_Y2720_001",
+    "A_ENTRY_X1200_Y2760_001",
+    "A_ENTRY_X1200_Y2800_001",
+    "A_ENTRY_X1200_Y2840_001",
+    "A_ENTRY_FINE_X1100_Y2765_001",
+    "A_ENTRY_FINE_X1100_Y2770_001",
+    "A_ENTRY_FINE_X1100_Y2775_001",
+    "A_ENTRY_FINE_X1100_Y2780_001",
+    "A_ENTRY_FINE_X1100_Y2785_001",
+    "A_ENTRY_FINE_X1100_Y2790_001",
+    "A_ENTRY_FINE_X1100_Y2795_001",
+    "A_ENTRY_FINE_X1100_Y2800_001",
+    "A_ENTRY_FINE_X1100_Y2805_001",
+    "A_ENTRY_FINE_X1100_Y2810_001",
+    "A_ENTRY_FINE_X1100_Y2815_001",
+    "A_ENTRY_FINE_X1100_Y2820_001",
+    "A_ENTRY_FINE_X1100_Y2825_001",
+    "A_ENTRY_FINE_X1100_Y2830_001",
+    "A_ENTRY_FINE_X1100_Y2835_001",
+    "A_ENTRY_FINE_X1200_Y2775_001",
+    "A_ENTRY_FINE_X1200_Y2790_001",
+    "A_ENTRY_FINE_X1200_Y2805_001",
+    "A_ENTRY_FINE_X1200_Y2820_001",
+    "A_ENTRY_FINE_X1200_Y2835_001"
+  ],
+  "face_report": "A_ENTRY_RISER_FACES_001",
+  "principal_risers": [
+    {
+      "id": "A_ENTRY_RISER_1",
+      "lower_report": "A_ENTRY_FINE_X1100_Y2775_001",
+      "upper_report": "A_ENTRY_FINE_X1100_Y2790_001",
+      "start_face_eye": 98,
+      "end_face_eye": 104
+    },
+    {
+      "id": "A_ENTRY_RISER_2",
+      "lower_report": "A_ENTRY_FINE_X1100_Y2790_001",
+      "upper_report": "A_ENTRY_X1100_Y2800_001",
+      "start_face_eye": 104,
+      "end_face_eye": 112
+    },
+    {
+      "id": "A_ENTRY_RISER_3",
+      "lower_report": "A_ENTRY_X1100_Y2800_001",
+      "upper_report": "A_ENTRY_FINE_X1100_Y2805_001",
+      "start_face_eye": 112,
+      "end_face_eye": 120
+    }
+  ],
+  "rendered_review": {
+    "image_ids": [
+      "QA_A_ENTRY_DETAIL_001",
+      "QA_A_ENTRY_PLAN_DETAIL_001"
+    ],
+    "count": 3,
+    "review": "Three principal steps visible; shallow lower pavement/first-tread lip separately measured but not part of principal count. Full flight target unobstructed in both views."
+  },
+  "limits": "Center section principal flight only. Full width, side continuation, exact adjacent pavement height and render/collision offset not yet accepted. No uniformity assumption; repeated endpoint values happen to agree."
+}

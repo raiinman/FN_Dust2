@@ -218,3 +218,8 @@ do not rename independent stations into a fictitious single station or infer
 hidden cover bounds from a combined native entity bbox.
 
 build_ramp_profile.py validates group build/ordered repeated points through build_connector_profile and writes calibrated sample intervals plus SVG. Rebuild, render and inspect. Dashed connectors denote sample order only; no interpolation or complete ramp acceptance.
+
+build_a_entry_stairs.py validates repeated floor points, rangefinder distances,
+concrete face positions at two lateral stations and rendered principal count.
+It derives individual and total principal rise/run for build_physical_register.
+Lower pavement lip, upper landing slope and full flight width stay separate.

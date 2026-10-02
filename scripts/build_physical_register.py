@@ -184,6 +184,9 @@ def build(root):
                     measurements.append(dict(id=row['id']+'_'+('RISE' if dimension=='rise' else 'RUN'),area='Tunnel Stairs',feature='Surveyed '+row['branch']+' section riser '+str(row['riser'])+' '+dimension,value=row[key],unit='cm',method='repeated vertical concrete face and adjacent corrected floor points; SCALE_CALIBRATION',source_id='TUNNEL_STAIR_PROFILE/'+row['id'],confidence='confirmed repeated collision section',tolerance='.0508 cm endpoint rounding; sampled axial section; rendered offsets separate',notes=row['limits']))
             measurements.append(dict(id='TUNNEL_SAMPLED_FLIGHT_RISE',area='Tunnel Stairs',feature='Full sampled stair collision rise between first lower adjacent floor and upper top tread',value=round(sum(r['rise_cm'] for r in flight),4),unit='cm',method='eighteen reviewed floor point-pair rises; SCALE_CALIBRATION',source_id='TUNNEL_STAIR_PROFILE/accepted_center_sections',confidence='confirmed sampled collision stair rise',tolerance='.0508 cm outer endpoint rounding; adjacent floor point identities explicit',notes='Lower sampleY1252 is just before first face1248.03; upper sampleX-1268 behind final face-1263.97. Curved stair run and side surfaces remain separate.'))
         measurements.extend(width_rows(profile,factor))
+    if (ref / 'A_ENTRY_STAIR_PROFILE.json').exists():
+        from build_a_entry_stairs import measurement_rows
+        measurements.extend(measurement_rows(ref))
     with (ref / 'MEASUREMENTS.csv').open('w', newline='') as f:
         w = csv.DictWriter(f,fieldnames=measurements[0].keys())
         w.writeheader(); w.writerows(measurements)

@@ -165,3 +165,8 @@ repeated native endpoint and rangefinder crosscheck. A sampled face-to-face body
 extent never becomes a full bbox, hidden joint/base or uniform rectangular prop.
 
 RAMP_PROFILE_GROUPS.json selects measured centerline samples from CONNECTOR_SURFACE_PROFILES. RAMP_SEGMENTS.csv and RAMP_PROFILE.svg show discrete sample intervals/order, never fitted floors, full ramp ends or uniform slopes. A-entry hull and player support remain separate.
+
+A_ENTRY_STAIR_PROFILE.json selects three principal risers from reviewed floor
+samples and repeated two-position horizontal faces. A_ENTRY_STAIR_FLIGHT.csv
+records each rise/run; shallow lower lip and sloping upper landing are separate.
+Rendered three-step count is corroboration, not numeric pixel calibration.

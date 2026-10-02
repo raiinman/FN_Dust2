@@ -30,7 +30,7 @@ preserve all raw captures, failed attempts and existing work/ directories.
   Phase 2 exporter/editor round-trip remains unverified. Unsaved Hammer128-unit
   cube is an agent-authored calibration fixture, not production or source geometry.
 - 13 repeated floor datums,54 Short floor samples,54 Tunnel stair floor samples,
-  132 connector floor/cover/cap points,161 calibrated feature measurements.
+  162 connector floor/cover/cap points,199 calibrated feature measurements.
   No continuous floors, room outlines or cover bounds inferred from point counts.
 - Short:12 rendered/native risers, individual nonuniform section spacing;
   sampled rise234.3912cm/run359.6132cm. SHORT_STAIR_* preserve endpoint limits.
@@ -97,7 +97,7 @@ LOWER_PASSAGE_WALL_SECTIONS_001 and UPPER_B_PASSAGE_WALL_SECTIONS_001:
 registered in ARCHITECTURAL_ENDPOINTS. LowerX1100 hits stair riser; X800 cover;
 UpperY1400/1800/2100/2200 cover/open-portal diagnostics retained. No full arch
 height, minimum clearance or hidden wall interpolation inferred.
-ARCHITECTURAL_SECTIONS.csv and ARCHITECTURAL_SURVEY_PLAN.svg derive43 reviewed
+ARCHITECTURAL_SECTIONS.csv and ARCHITECTURAL_SURVEY_PLAN.svg derive73 reviewed
 horizontal chords,13 floor datums and column locations in two ray-height panels.
 Rendered/inspected: labels/grid clear, no lines certified as boundary walls.
 
@@ -115,11 +115,24 @@ Four inspected local A ramp/entry JPEGs registered. Three visible entry steps
 require native endpoint measurement. Long/Pit-upper north rays corrected to
 rising road floor, not far walls.
 
-Entry grid probe_a_entry_grid_01.py ended, private a_entry_grid_01 folder,
-ten floor columns atX1100/1200,Y2680..2840. Inspect process/partial reports
-before another pose/input controller. Grid samples still private. Active serial
-probe_a_entry_fine_01.py in a_entry_fine_01 samples15 center and5 lateral points.
-Inspect its process/reports; no concurrent controller.
+Entry grid/fine batches ended;30 floor samples and16 face observations
+registered. Three principal risers20.32cm each, runs30.48cm each; full
+principal rise60.96cm/run91.44cm. Lower shallow lip/upper sloping landing
+separate; full flight width/rendered offset remains unaccepted. One repeated
+second-tread concrete wall/curb section accepted; other3 diagnostic sections.
+A_ENTRY_STAIR_PROFILE/FLIGHT derive confirmed center sections.
+
+Pit width batch ended80 observations:16 retaining sections accepted,
+4 upper cross-area/cover stations diagnostic. Native retaining facesX1272/1592
+atY200..750, rounded corners atY180; no continuity/minimum/crossfall inferred.
+Architectural plan derives73 local chords; latest rendered/inspected.
+A_ENTRY_STAIR_PROFILE.svg rendered/inspected, rise/run labels separated.
+Long width batch ended80 observations:13 wall/frontage/cover sections accepted,
+7 cross-area/rock/wood diagnostics retained. None implies road minimum clearance.
+
+Active serial probe_pit_floor_grid_01.py in private pit_floor_grid_01,
+47 near-side/center-midpoint floor columns. Original plan preserved. Inspect
+process/partial reports before another pose/input controller; grid still private.
 
 Next: remaining structural apertures/room spans/cover bounds and ramp profiles;
 full Tunnel side/terminal footprint; bounded other launch/partner scope;
@@ -136,6 +149,6 @@ policy; do not bypass/change it. Native PNG-to-reviewed-JPEG uses private PIL.
 
 Verification:34-edge/four-special topology evidence audit PASS for listed
 current-build connections,210-image hash audit,16 critical/11 subarea reviews, physical
-register161 rows, overhead/local calibration checks, Tunnel repeated-point,
+register199 rows, overhead/local calibration checks, Tunnel repeated-point,
 floor/face, opposite-ray/rangefinder and withheld-plane checks pass. Derived
 Short/Long/Tunnel/radar/overhead/architectural-section SVGs rendered and inspected. Gate1 still FAIL.

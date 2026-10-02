@@ -9,7 +9,7 @@ Source: installed CS2 build25640462, de_dust2. GitHub main is durable authority.
 | Physical scale and coordinate convention | SCALE_CALIBRATION.json; COORDINATE_TRANSFORM.json | PASS for current-build factor2.54 and reversible UE=(2.54x,-2.54y,2.54z); Phase2 exporter/import validation pending |
 | Every critical area forward/reverse/side/elevation coverage | 210 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | PASS: sixteen critical-area sets and eleven subarea sets accepted; structural metric and traversal remain separate |
 | Unambiguous validated topology | ROUTE_GRAPH.md; TOPOLOGY.json; WALK_PROBES.json; TRAVERSAL_PROBES.json; TOPOLOGY_AUDIT.json | PASS for listed surveyed connections:24 ground paths both directions; B Window both; S01 both, S02/S03 reciprocal routes, S04 partner forward/reverse. E11/E27 direct forward twice, unsupported reverse at surveyed crossing blocked twice, indirect walking returns both. Alternative launches/partners and geometric bounds remain separate |
-| Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; TUNNEL_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 161 calibrated feature measurements;54 Short and54 Tunnel floor samples; full critical register incomplete |
+| Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; TUNNEL_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 199 calibrated feature measurements;54 Short and54 Tunnel floor samples; full critical register incomplete |
 | Calibrated annotated whole-map truth | RADAR_CALIBRATION.json; MAP_CAMERA_CALIBRATION.json; RADAR_PLAN.svg; MAP_CAMERA_PLAN.svg | FAIL: calibrated native camera, physical grid, floors and paths; continuous architectural boundaries and overlapping elevation layers incomplete |
 | Bounded remaining uncertainty | UNCERTAINTY.md; SURVEY_TASKS.csv | FAIL: unresolved critical extents, full apertures/cover dimensions, stairs and render/collision bounds |
 
@@ -39,8 +39,8 @@ The coordinate convention is mathematically reversible; exporter/editor
 round-trip remains a Phase2 validation. Source repeatability is separate from
 rendered-surface accuracy and implementation tolerance.
 
-MEASUREMENTS has161 calibrated local feature rows;13 PHYSICAL_FLOOR_DATUMS,
-54 SHORT_STAIR_SAMPLES,54 TUNNEL_STAIR_SAMPLES and132 connector points are
+MEASUREMENTS has199 calibrated local feature rows;13 PHYSICAL_FLOOR_DATUMS,
+54 SHORT_STAIR_SAMPLES,54 TUNNEL_STAIR_SAMPLES and162 connector points are
 repeated point evidence. Short12 measured/rendered risers,359.6132cm sampled
 run and234.3912cm rise; Tunnel18 measured/rendered risers,18 rises/16 axial
 intervals,16 local widths and365.7854cm sampled rise. Full Tunnel curved run,
@@ -101,3 +101,15 @@ nonuniform centerlines are not continuous fitted surfaces or complete ramp
 ends. Four clean local ramp/three-step entry views reviewed; step dimensions
 and full lateral/terminal bounds remain open. Long/Pit-upper north rays hit
 rising road floor, not longitudinal walls. Gate1 remains FAIL.
+
+A entrance:30 new floor samples,16 repeated two-position face observations.
+Three principal risers20.32cm each/runs30.48cm each; total60.96/91.44cm.
+Shallow lower lip, upper pavement slope and full lateral flight remain separate.
+Sixteen Pit retaining sections and one A second-tread wall/curb section accepted;
+open-top/cover hits retained as diagnostics. Architectural plan now60 chords,
+not a continuous footprint. Gate1 remains FAIL.
+
+Long road:13 additional repeated wall/frontage/cover sections accepted;
+7 cross-area/rock/wood first-hit stations retain diagnostics. Calibrated
+architectural plan73 chords rendered/inspected. A entrance section figure
+rendered/inspected; measurements199 rows. Critical full footprint remains FAIL.
