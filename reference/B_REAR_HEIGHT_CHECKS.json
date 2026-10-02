@@ -315,10 +315,72 @@
       },
       "source_report": "B_REAR_EAST_UPPER_INTERFACES_009",
       "limits": "Local first-hit concrete face upper termination only; absolute sourceZ0 elevation, not floor-to-roof height, full wall or hidden body. Independent source origins agree; numerical bound includes.01native allowance."
+    },
+    {
+      "id": "B_REAR_FRONT_UPPER_X1800",
+      "source_x": -1800,
+      "source_y": 2880,
+      "elevation_interval_native": [
+        239.911875,
+        240.01
+      ],
+      "elevation_interval_cm": [
+        609.3761625000001,
+        609.6254
+      ],
+      "native_point": [
+        -1800,
+        2880,
+        239.9609375
+      ],
+      "render_review": {
+        "status": "PASS local cap-band corroboration; exact rendered component seam unresolved",
+        "camera_id": "B_REAR_FRONTAL_001",
+        "image_path": "reference/images/b_site/QA_B_REAR_CAMERA_FIT_001_CLEAN.jpg",
+        "pixel": [
+          537,
+          126.5
+        ],
+        "pixel_radius": 3,
+        "review": "Native clean frame and40x33 original-pixel crop inspected; projected front-concrete termination lies in visible rough wall-cap band. Fresh six high markers validate native projection; rough gravel/plaster rendered seam and highest cap remain separate."
+      },
+      "source_report": "B_REAR_FRONT_UPPER_INTERFACE_011",
+      "limits": "Local first-hit concrete face upper termination only; absolute sourceZ0 elevation, not floor-to-roof height, full wall or hidden body. Independent source origins agree; numerical bound includes.01native allowance."
+    },
+    {
+      "id": "B_REAR_FRONT_UPPER_X1600",
+      "source_x": -1600,
+      "source_y": 2880,
+      "elevation_interval_native": [
+        239.99,
+        240.088125
+      ],
+      "elevation_interval_cm": [
+        609.5746,
+        609.8238375
+      ],
+      "native_point": [
+        -1600,
+        2880,
+        240.0390625
+      ],
+      "render_review": {
+        "status": "PASS local cap-band corroboration; exact rendered component seam unresolved",
+        "camera_id": "B_REAR_FRONTAL_001",
+        "image_path": "reference/images/b_site/QA_B_REAR_CAMERA_FIT_001_CLEAN.jpg",
+        "pixel": [
+          880,
+          126.5
+        ],
+        "pixel_radius": 3,
+        "review": "Native clean frame and40x33 original-pixel crop inspected; projected front-concrete termination lies in visible rough wall-cap band. Fresh six high markers validate native projection; rough gravel/plaster rendered seam and highest cap remain separate."
+      },
+      "source_report": "B_REAR_FRONT_UPPER_INTERFACE_013",
+      "limits": "Local first-hit concrete face upper termination only; absolute sourceZ0 elevation, not floor-to-roof height, full wall or hidden body. Independent source origins agree; numerical bound includes.01native allowance."
     }
   ],
   "passed": 12,
   "rejected": 4,
   "gate1": "FAIL",
-  "scope": "Validate unchanged B rear height predictions and derive diagnostic artifacts.\n\nInputs: ARCHITECTURAL_ENDPOINTS reports008/009 and checked B_REAR_FRONTAL_001 camera.\nOutputs: B_REAR_HEIGHT_CHECKS JSON/CSV/SVG. Rebuild, render and inspect. Retain\nfailed prospective predictions, remote first hits and exact restoration. A\npassing sampled prediction never certifies unseen wall extrusion or full body.\n"
+  "scope": "Validate unchanged B rear height predictions and derive diagnostic artifacts.\n\nInputs: ARCHITECTURAL_ENDPOINTS reports008/009/011/013 and checked B_REAR_FRONTAL_001 camera.\nOutputs: B_REAR_HEIGHT_CHECKS JSON/CSV/SVG. Rebuild, render and inspect. Retain\nfailed prospective predictions, remote first hits and exact restoration. A\npassing sampled prediction never certifies unseen wall extrusion or full body.\n"
 }

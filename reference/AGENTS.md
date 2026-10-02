@@ -346,7 +346,8 @@ and checked rendered correspondence before structural corner acceptance.
 
 B_REAR_FACADE_POINTS JSON/CSV/SVG owns43 explicitly selected repeated Mesh
 points and12 excluded selections. B_REAR_FRONTAL_001 is an8fit/10held/6fresh
-depth camera, exact pose only, checkedY2800..2950/Z60..230. Six inspected
+depth camera, exact pose only, checkedY2800..2950/Z60..290 after six high003
+holdouts pass unchanged fit. Eight inspected
 marked/clean JPEGs retain individual hashes. Camera-origin diagnostic007 finds
 one agreeing front control and four nearer intervening Mesh hits; projected
 return points are not visible-corner evidence. No full rear boundary accepted.
@@ -359,3 +360,9 @@ Two local upper-interface rows from report009 retain96 repeated observations,
 identical brackets from independent source origins and.01native numerical
 allowance. They are sourceZ0 elevations only. Rendered cap correspondence passes
 locally atX-1456; palm overlap atX-1496 remains unresolved. No full body/roof.
+Reports011/013 add two same-origin-pair front concrete/gravel upper terminations
+nearZ240; failed012 intermediate-gravel interpretation preserved. Six fresh high
+markers in two inspected003 JPEGs validate higher projection without refitting.
+Front rendered cap-band corroboration is distinct from the unresolved exact
+rough gravel/plaster seam or highest cap. Four absolute local elevations feed
+MEASUREMENTS; do not infer full wall heights, uniform roof or hidden body.

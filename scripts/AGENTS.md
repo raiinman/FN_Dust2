@@ -401,3 +401,8 @@ Report009 adds two explicitly selected local upper-interface bounds, each
 checked from two independent origins. measurement_rows feeds physical register
 as absolute sourceZ0 elevations, not floor-to-top heights. Keep palm overlap
 unresolved and verify separately selected unobstructed rendered correspondence.
+Reports011/013 extend selected rows to four local upper bounds; preserve failed
+012. Validate each on/off material/shape, independent source origins and actual
+recessed depth at final bracket, not an earlier coarse ray. High003 independent
+camera checks must pass before projecting above original markerZ230. Front
+cap-band corroboration does not certify exact rough rendered component seam.

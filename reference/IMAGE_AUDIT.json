@@ -1,8 +1,8 @@
 {
   "review_date": "2026-10-02",
   "source_build": "25640462",
-  "registered_images": 245,
-  "native_timestamp_dates_checked": 245,
+  "registered_images": 247,
+  "native_timestamp_dates_checked": 247,
   "coverage_excluded": 8,
   "complete_areas": 16,
   "complete_subareas": 11,
@@ -2632,6 +2632,22 @@
       "sha256": "46450b34c3d11109c95d2e1885606940f02587df0ef205dd4e3023ad20405f69",
       "coverage_status": "PARTIAL",
       "review": "Native1280x720 frame and JPEG individually inspected. Rear main facade and west recess/eastern angled return framed; barrels/scaffold/cover partly obscure low ground, roofs and surrounding rooms remain separate. White/red authored crosses calibrate projection only, never become geometry endpoints. All24 selected cross centers independently inspected, including six fresh Y2800..2950 depth markers; marked frames retain incidental unused crosses. Clean frames suppress debug overlays."
+    },
+    {
+      "id": "QA_B_REAR_CAMERA_HIGH_003_MARKED",
+      "area": "B Site",
+      "image": "reference/images/b_site/QA_B_REAR_CAMERA_HIGH_003_MARKED.jpg",
+      "sha256": "f3e8aae36e0f9531196e293dc41f31d0e150b9275a152c5fdb5e64416faca1e7",
+      "coverage_status": "PARTIAL",
+      "review": "Native1280x720 frame and JPEG individually inspected. Six independent high cross centers inspected in isolated crops; no clipping/ambiguity. All fresh knownZ245..290 markers withheld from original8-anchor fit. Marked frame retains unused historical/preview crosses; clean suppresses overlays. Low foreground, surrounding roofs and palm overlap remain separate from architectural endpoint acceptance."
+    },
+    {
+      "id": "QA_B_REAR_CAMERA_HIGH_003_CLEAN",
+      "area": "B Site",
+      "image": "reference/images/b_site/QA_B_REAR_CAMERA_HIGH_003_CLEAN.jpg",
+      "sha256": "a81a53910550b4968e56106c8ab09c9f8e35942090c0b7a9db04bc1cc44b459d",
+      "coverage_status": "PARTIAL",
+      "review": "Native1280x720 frame and JPEG individually inspected. Six independent high cross centers inspected in isolated crops; no clipping/ambiguity. All fresh knownZ245..290 markers withheld from original8-anchor fit. Marked frame retains unused historical/preview crosses; clean suppresses overlays. Low foreground, surrounding roofs and palm overlap remain separate from architectural endpoint acceptance."
     }
   ]
 }

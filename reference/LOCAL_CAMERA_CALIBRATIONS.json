@@ -3547,21 +3547,22 @@
         2885,
         2910.82
       ],
-      "method": "Eight selected known-world XZ fit crosses; ten tangent/near-depth and six fresh depth checks withheld. Six native originals and24 cross crops individually inspected. Approximate480 model selects ROIs only; fresh depth coverage contains sampled returnY.",
+      "method": "Eight selected known-world XZ fit crosses; ten tangent/near-depth and six fresh depth checks withheld. Six native originals and24 cross crops individually inspected. Approximate480 model selects ROIs only; fresh depth coverage contains sampled returnY. Six fresh highZ245..290 markers independently checked against unchanged original fit; originals/all six centers individually inspected.",
       "tested_marker_y_range": [
         2800,
         2950
       ],
       "tested_marker_z_range": [
         60,
-        230
+        290
       ],
       "clean_control_companions": {
-        "review": "Three separately inspected clean-frame hashes differ; all registered, no duplicate-hash claim.",
+        "review": "Four individually inspected clean-frame hashes differ; all registered, no duplicate-hash claim.",
         "png_hashes": [
           "cf605e894224b7369d011a1e15d8b766453786c3c551fa70105d33f7c1e6f371",
           "5ef650609e7872aec36266cdc6d87b007e72c0ca9aacd0a6d58580fbd313f5dc",
-          "d2a63c97eda98accf41c935487d35154e23f67ff8665141c93fb01b99bd956b9"
+          "d2a63c97eda98accf41c935487d35154e23f67ff8665141c93fb01b99bd956b9",
+          "6bae529f03b5c5668ed208c581b982080dd92b1a14f10b743bf9bbd6b483ecf5"
         ]
       },
       "excluded_markers": [],
@@ -3602,6 +3603,18 @@
           "repository_image_path": "reference/images/b_site/QA_B_REAR_CAMERA_DEPTH_001_CLEAN.jpg",
           "jpeg_sha256": "46450b34c3d11109c95d2e1885606940f02587df0ef205dd4e3023ad20405f69",
           "png_sha256": "d2a63c97eda98accf41c935487d35154e23f67ff8665141c93fb01b99bd956b9"
+        },
+        {
+          "id": "QA_B_REAR_CAMERA_HIGH_003_MARKED",
+          "repository_image_path": "reference/images/b_site/QA_B_REAR_CAMERA_HIGH_003_MARKED.jpg",
+          "jpeg_sha256": "f3e8aae36e0f9531196e293dc41f31d0e150b9275a152c5fdb5e64416faca1e7",
+          "png_sha256": "8ec4420b99fa8fcc338fd8c40de1506829f8a37214b0219a3e6eba383f99782e"
+        },
+        {
+          "id": "QA_B_REAR_CAMERA_HIGH_003_CLEAN",
+          "repository_image_path": "reference/images/b_site/QA_B_REAR_CAMERA_HIGH_003_CLEAN.jpg",
+          "jpeg_sha256": "a81a53910550b4968e56106c8ab09c9f8e35942090c0b7a9db04bc1cc44b459d",
+          "png_sha256": "6bae529f03b5c5668ed208c581b982080dd92b1a14f10b743bf9bbd6b483ecf5"
         }
       ],
       "groups": [
@@ -4150,6 +4163,144 @@
             }
           ],
           "maximum_residual_px": 0.2366477735692318
+        },
+        {
+          "role": "independent high003",
+          "anchors": [
+            {
+              "id": "HIGH_01",
+              "world": [
+                -1830,
+                2880,
+                250
+              ],
+              "pixel": [
+                485.5,
+                109.5
+              ],
+              "search_guess": [
+                485.71428571428567,
+                109.71428571428572
+              ],
+              "analytic_model_residual_px": 0.404061017820913,
+              "projected_pixel": [
+                485.3137129255878,
+                109.23850116244243
+              ],
+              "residual_px": 0.3210677749899661
+            },
+            {
+              "id": "HIGH_02",
+              "world": [
+                -1770,
+                2890,
+                280
+              ],
+              "pixel": [
+                589.5076923076923,
+                68.5
+              ],
+              "search_guess": [
+                590.3448275862069,
+                68.68965517241378
+              ],
+              "analytic_model_residual_px": 0.4582293181678857,
+              "projected_pixel": [
+                589.963799222802,
+                68.24349160118607
+              ],
+              "residual_px": 0.5232877570447736
+            },
+            {
+              "id": "HIGH_03",
+              "world": [
+                -1660,
+                2880,
+                245
+              ],
+              "pixel": [
+                776.5,
+                117.5
+              ],
+              "search_guess": [
+                777.1428571428571,
+                118.28571428571428
+              ],
+              "analytic_model_residual_px": 0.31943828249994816,
+              "projected_pixel": [
+                776.7967216517274,
+                117.80374091227256
+              ],
+              "residual_px": 0.4246201601337069
+            },
+            {
+              "id": "HIGH_04",
+              "world": [
+                -1600,
+                2920,
+                275
+              ],
+              "pixel": [
+                849.5,
+                103.0
+              ],
+              "search_guess": [
+                850.0,
+                103.5
+              ],
+              "analytic_model_residual_px": 0.0,
+              "projected_pixel": [
+                849.6674738332622,
+                103.02870234381552
+              ],
+              "residual_px": 0.16991559483472177
+            },
+            {
+              "id": "HIGH_05",
+              "world": [
+                -1880,
+                2950,
+                260
+              ],
+              "pixel": [
+                447.5,
+                145.5
+              ],
+              "search_guess": [
+                448.0,
+                146.05714285714285
+              ],
+              "analytic_model_residual_px": 0.057142857142849834,
+              "projected_pixel": [
+                447.59238238455794,
+                145.55511770172245
+              ],
+              "residual_px": 0.10757539690735796
+            },
+            {
+              "id": "HIGH_06",
+              "world": [
+                -1720,
+                2940,
+                290
+              ],
+              "pixel": [
+                667.5,
+                97.0
+              ],
+              "search_guess": [
+                668.2352941176471,
+                97.41176470588238
+              ],
+              "analytic_model_residual_px": 0.2512942278034611,
+              "projected_pixel": [
+                667.8688152765602,
+                96.9448629332744
+              ],
+              "residual_px": 0.37291393692283764
+            }
+          ],
+          "maximum_residual_px": 0.5232877570447736
         }
       ],
       "intrinsics": {
@@ -4182,16 +4333,19 @@
       "sampled_pixel_localization_bounds": [
         {
           "source_y": 2880,
-          "maximum_axis_1_5_pixel_displacement_cm": 2.224105869352374
+          "maximum_axis_1_5_pixel_displacement_cm": 2.224105869351941
         },
         {
           "source_y": 2885,
-          "maximum_axis_1_5_pixel_displacement_cm": 2.2638220455905604
+          "maximum_axis_1_5_pixel_displacement_cm": 2.2638220455907048
         },
         {
           "source_y": 2910.82,
-          "maximum_axis_1_5_pixel_displacement_cm": 2.468916379685572
+          "maximum_axis_1_5_pixel_displacement_cm": 2.4689163796858065
         }
+      ],
+      "capture_recovery_notes": [
+        "High002 half_size8 failed pre-capture validation; exact B-mouth restored, no frames created. Separate003 uses required10native half-size; failed private plan/driver preserved."
       ]
     }
   ]

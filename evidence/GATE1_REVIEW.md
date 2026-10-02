@@ -7,15 +7,15 @@ Source: installed CS2 build25640462, de_dust2. GitHub main is durable authority.
 | --- | --- | --- |
 | Provenance and current revision | REFERENCE_MANIFEST.csv; native poses/hashes and build25640462 | PASS for reviewed captured batches |
 | Physical scale and coordinate convention | SCALE_CALIBRATION.json; COORDINATE_TRANSFORM.json | PASS for current-build factor2.54 and reversible UE=(2.54x,-2.54y,2.54z); Phase2 exporter/import validation pending |
-| Every critical area forward/reverse/side/elevation coverage | 245 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | PASS: sixteen critical-area sets and eleven subarea sets accepted; structural metric and traversal remain separate |
+| Every critical area forward/reverse/side/elevation coverage | 247 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | PASS: sixteen critical-area sets and eleven subarea sets accepted; structural metric and traversal remain separate |
 | Unambiguous validated topology | ROUTE_GRAPH.md; TOPOLOGY.json; WALK_PROBES.json; TRAVERSAL_PROBES.json; TOPOLOGY_AUDIT.json | PASS for listed surveyed connections:24 ground paths both directions; B Window both; S01 both, S02/S03 reciprocal routes, S04 partner forward/reverse. E11/E27 direct forward twice, unsupported reverse at surveyed crossing blocked twice, indirect walking returns both. Alternative launches/partners and geometric bounds remain separate |
-| Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; TUNNEL_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 376 calibrated feature measurements;54 Short and117 Tunnel floor samples; full critical register incomplete |
+| Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; TUNNEL_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 378 calibrated feature measurements;54 Short and117 Tunnel floor samples; full critical register incomplete |
 | Calibrated annotated whole-map truth | RADAR_CALIBRATION.json; MAP_CAMERA_CALIBRATION.json; RADAR_PLAN.svg; MAP_CAMERA_PLAN.svg | FAIL: calibrated native camera, physical grid, floors and paths; continuous architectural boundaries and overlapping elevation layers incomplete |
 | Bounded remaining uncertainty | UNCERTAINTY.md; SURVEY_TASKS.csv | FAIL: unresolved critical extents, full apertures/cover dimensions, stairs and render/collision bounds |
 
 ## Reference review
 
-IMAGE_REVIEW.json and IMAGE_AUDIT.json verify all245 registered JPEG hashes and
+IMAGE_REVIEW.json and IMAGE_AUDIT.json verify all247 registered JPEG hashes and
 preserve eight excluded historical frames. Original24 and recovered55 images
 were re-inspected, with subsequent CT/Pit/door/site/Short/Catwalk additions
 inspected individually. Clipped, stale or obstructed attempts retain their
@@ -39,7 +39,7 @@ The coordinate convention is mathematically reversible; exporter/editor
 round-trip remains a Phase2 validation. Source repeatability is separate from
 rendered-surface accuracy and implementation tolerance.
 
-MEASUREMENTS has376 calibrated local feature rows;13 PHYSICAL_FLOOR_DATUMS,
+MEASUREMENTS has378 calibrated local feature rows;13 PHYSICAL_FLOOR_DATUMS,
 54 SHORT_STAIR_SAMPLES,117 TUNNEL_STAIR_SAMPLES and434 connector points are
 repeated point evidence. Short12 measured/rendered risers,359.6132cm sampled
 run and234.3912cm rise; Tunnel18 measured/rendered risers,18 rises/16 axial
@@ -398,3 +398,12 @@ passes atX-1456, palm overlap atX-1496 unresolved. Front010 confirms nonuniform
 upper components: westZ240 gravel behind face, eastZ240 still front concrete;
 higher samples meet remote Hull and exceed current camera markerZ230. Full rear
 height/body and continuous footprint remain unresolved; Gate1 FAIL.
+
+B rear high/front checkpoint: two new inspected003 JPEGs and six withheldZ245..290
+markers pass unchanged original8-fit camera (max.523288px); tested range nowZ60..290.
+Front011/013 independent-origin brackets place local concrete face terminations
+nearZ240, adding two absolute sourceZ0 elevation rows (378 total measurements).
+Final off gravel pointsY2892/2895.55 stay separate from coarseY2924.85 atZ241.25.
+Failed012 intermediate-gravel classification and pre-capture002 marker-size failure
+are preserved. Native front limits align with visible rough cap bands within3px;
+exact rendered component seam/highest cap/full body remain unresolved. Gate1 FAIL.

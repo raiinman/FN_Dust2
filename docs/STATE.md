@@ -7,7 +7,7 @@ no model override, new chat or agent delegation requested. Criteria unchanged.
 
 ## Authority and preserved work
 
-GitHub main authoritative. Latest pushed checkpoint6d125a6 before this update;
+GitHub main authoritative. Latest pushed checkpoint223bfc8 before this update;
 latest Git commit pins this checkpoint. Crash baseline35eaa642, dirty work
 preserved4c7df48, mergedab4e484. Active checkout:
 C:/Users/mikea/Documents/Codex/2026-09-30/new-chat/FN_Dust2
@@ -18,14 +18,14 @@ evidence/CRASH_RECOVERY_20261001.md. Inspect dirty work and current main first.
 
 ## Accepted evidence and limits
 
-- 245 individually reviewed JPEGs; eight historical exclusions. Original24 and
-  recovered55 re-inspected. IMAGE_AUDIT245 hashes/native UTC dates PASS. Sixteen
+- 247 individually reviewed JPEGs; eight historical exclusions. Original24 and
+  recovered55 re-inspected. IMAGE_AUDIT247 hashes/native UTC dates PASS. Sixteen
   critical/eleven subarea required view sets PASS; image coverage grants no metric
   acceptance. Native originals, failed/clipped attempts and all metadata retained.
 - Scale2.54cm/native from repeated inch-rangefinder anchors; UE=(2.54x,-2.54y,
   2.54z), inverse/native-right/length checks PASS. Phase2 exporter/editor roundtrip
   remains unverified. Unsaved Hammer128 cube is calibration, not production.
-- 376 bounded physical feature measurements;13 floor datums;54 Short/117 Tunnel
+- 378 bounded physical feature measurements;13 floor datums;54 Short/117 Tunnel
   stair floor samples;434 connector points;126 local architectural chords.
   MEASUREMENTS.csv and profile registers retain confidence and explicit limits.
   Local sections/point pairs are not entire room rectangles or route clearances.
@@ -64,7 +64,7 @@ evidence/CRASH_RECOVERY_20261001.md. Inspect dirty work and current main first.
 ## Latest B rear checkpoint
 
 B_REAR_FRONTAL_001: exact[-1740,2600,40,p0,y90],8fit/10held/6fresh depth checks,
-held max.650143px; checkedY2800..2950/Z60..230. Six inspected native JPEGs with
+held max.650143px; checkedY2800..2950/Z60..290. Eight inspected native JPEGs with
 distinct marked/clean hashes. B_REAR_FACADE_POINTS43 selected repeated Mesh points
 and12 exclusions distinguish front, eastern angle and western wrap. Reports003/
 005 normal guards failed on return relief; failed02 own-origin Dirt excluded.
@@ -80,17 +80,31 @@ Y2890 samples differ1.26/1.39native from oldZ104 relief. No upward extrusion.
 Upper009 completed96 observations/four identical independent-origin brackets:
 X-1496 local upper intervalZ[191.9921875,192.05078125]; X-1456
 [192.28515625,192.34375]. B_REAR_HEIGHT_CHECKS derives numerical elevations with
-.01native allowance and two MEASUREMENTS rows, relative sourceZ0, not floor-to-
+.01native allowance and two original MEASUREMENTS rows, relative sourceZ0, not floor-to-
 roof heights. Calibrated rendered correspondence passes locally atX-1456;
 palm overlap atX-1496 unresolved. Updated SVG rebuilt/rendered/inspected.
 Front010 completed12 observations: atZ240 westX-1800 hits gravelMeshY2892,
 eastX-1600 still concreteMeshY2880; bothZ260/300 hit distant concreteHull.
-Front upper profile nonuniform; these samples exceed markerZ230, so no automatic
-calibrated render acceptance. Every completed B controller restores B-mouth exactly.
+Initial samples exceed old markerZ230; six subsequent high003 independent checks
+now extend projection range throughZ290. Whole cap/body still separate. Every completed B controller restores B-mouth exactly.
 
 ## Desktop and current source controller
 
-No active source controller. Do not rerun completed008/009/010 or any existing
+No active source controller. Front011 completed40 observations/exact restore,
+two origins agreeZ[239.921875,240] atX-1800. Failed012 intermediate gravel before
+far Hull preserved in rejected_attempts; separately named013 completed24/exact
+restore, two origins agreeZ[240,240.078125] atX-1600. Do not rerun011/012/013.
+High002 half_size8 failed pre-capture validation/no frames; private plan/driver
+preserved, exact restore. Separate003 captured marked/clean PNG/JPEG and six
+independentZ245..290 markers; every original/JPEG/cross inspected. Unchanged8-fit
+camera passes high holds max.523288px, now testedZ60..290; two new native JPEGs,
+247 image hashes/native dates PASS. driver_high_recovery_003 exact B-mouth restore.
+Front upper native bounds corroborated within visible rough cap bands, radius3px;
+exact gravel/plaster rendered seam/highest cap unresolved. B_REAR_HEIGHT_CHECKS
+now derives four absolute local elevations;378 total measurements. Updated SVG
+rebuilt/rendered/inspected. Local front-face limits are adjacent nearZ240;
+recessed gravel depths vary, so no shared highest-cap/full-roof extrusion.
+Do not rerun completed008/009/010 or any existing
 output. Private b_rear_height_checks_08, b_rear_east_top_09 and
 b_rear_front_upper_preflight_10 contain original configs/reports/crops. B rear
 camera wrappers completed/restored; private b_rear_camera_01 holds original PNGs,
@@ -123,8 +137,9 @@ partial report/status/finally restoration before any further input after failure
 
 1. Inspect latest pushed checkpoint, dirty files, current desktop/worker and exact
    echo. Resume first incomplete action; preserve all raw/failed evidence.
-2. Bracket central B rear upper profile with component-aware preflights, independent
-   origins and fresh high-elevation camera checks before calibrated correspondence.
+2. Continue B courtyard floor/platform/cover and longitudinal boundary extents,
+   using existing cameras, native observed origins and component-aware checks.
+   Rear local upper profiles/high camera checks are complete; do not repeat them.
    Never widen normal guards to force a flat facade or use Mesh/Hull end as corner.
 3. Complete structural critical dimensions in SURVEY_TASKS.csv: full apertures,
    room/route spans, cover bounds, stair/ramp ends and continuous layered whole-map
