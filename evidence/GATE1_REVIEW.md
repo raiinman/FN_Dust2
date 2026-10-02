@@ -39,7 +39,7 @@ Source: installed CS2 build25640462, de_dust2. GitHub main is durable authority.
 | --- | --- | --- |
 | Provenance and current revision | REFERENCE_MANIFEST.csv; native poses/hashes and build25640462 | PASS for reviewed captured batches |
 | Physical scale and coordinate convention | SCALE_CALIBRATION.json; COORDINATE_TRANSFORM.json | PASS for current-build factor2.54 and reversible UE=(2.54x,-2.54y,2.54z); Phase2 exporter/import validation pending |
-| Every critical area forward/reverse/side/elevation coverage | 260 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | PASS: sixteen critical-area sets and eleven subarea sets accepted; structural metric and traversal remain separate |
+| Every critical area forward/reverse/side/elevation coverage | 265 reviewed JPEGs, eight exclusions; AREA_VIEW_REVIEW.json; COVERAGE_MATRIX.csv | PASS: sixteen critical-area sets and eleven subarea sets accepted; structural metric and traversal remain separate |
 | Unambiguous validated topology | ROUTE_GRAPH.md; TOPOLOGY.json; WALK_PROBES.json; TRAVERSAL_PROBES.json; TOPOLOGY_AUDIT.json | PASS for listed surveyed connections:24 ground paths both directions; B Window both; S01 both, S02/S03 reciprocal routes, S04 partner forward/reverse. E11/E27 direct forward twice, unsupported reverse at surveyed crossing blocked twice, indirect walking returns both. Alternative launches/partners and geometric bounds remain separate |
 | Critical physical dimensions with confidence | MEASUREMENTS.csv; ARCHITECTURAL_ENDPOINTS.json; 13 floor datums; SHORT_STAIR_PROFILE.json; TUNNEL_STAIR_PROFILE.json; CONNECTOR_SURFACE_PROFILES.json | FAIL: 404 calibrated feature measurements;54 Short and117 Tunnel floor samples; full critical register incomplete |
 | Calibrated annotated whole-map truth | RADAR_CALIBRATION.json; MAP_CAMERA_CALIBRATION.json; RADAR_PLAN.svg; MAP_CAMERA_PLAN.svg | FAIL: calibrated native camera, physical grid, floors and paths; continuous architectural boundaries and overlapping elevation layers incomplete |
@@ -53,7 +53,7 @@ camera transfer, entire slab/cover body or critical footprint completion.
 
 ## Reference review
 
-IMAGE_REVIEW.json and IMAGE_AUDIT.json verify all260 registered JPEG hashes and
+IMAGE_REVIEW.json and IMAGE_AUDIT.json verify all265 registered JPEG hashes and
 preserve eight excluded historical frames. Original24 and recovered55 images
 were re-inspected, with subsequent CT/Pit/door/site/Short/Catwalk additions
 inspected individually. Clipped, stale or obstructed attempts retain their
@@ -450,7 +450,7 @@ B courtyard checkpoint: four inspected clean south-facing context JPEGs corrobor
 four structural longitudinal sections atX-1800/-1700,Z160/220. NativeY2450/2500
 origins agree at both ends. Main-portal-facade spans2763.52/2763.5708cm; recessed
 southern plaster spans3251.2cm at both heights. Count382 bounded measurements/
-130 architectural chords/260 reviewed JPEGs, hash/native-date audit PASS. Low
+130 architectural chords/265 reviewed JPEGs, hash/native-date audit PASS. Low
 cover/scaffold ground occlusion retained; no rectangular courtyard, entire ground
 footprint or minimum walking clearance accepted. Platform/cover and continuous
 whole-map architectural bounds still unresolved; Gate1 FAIL.
@@ -504,3 +504,15 @@ This decorativeclosedleaf is not traversalclearance/fullarchedbody. Curved
 returns, exactcontacts/fullfloor and continuouswholemap footprint remain open.
 
 Pit low/upper side checkpoint:004 adds four lowreturn sections;006 adds localY750 floor+20 masonry width812.8cm.404 physicalfeatures/135 localchords/459 connectorpoints.005 high64 rays miss westlowwall at750;007 twoXorigins confirm bothlocalMesh atfixedZ0/750 and unlikefirsthits at800. PIT_UPPER_SIDE_CHECKS JSON/CSV/SVG validates repeatednative/pose/rangefinder and originalcorrectedflooranchors; diagram rendered/inspected. Original008/009/010/011 failures retain intermediateWood/Sand/remoteMesh/nearHull and all0 exactrestores.174 architecturalreports/24 rejected. Fullarchitecturalends, continuousgrade/layeredfootprint and renderedbody bounds remain open; Gate1 FAIL.
+
+
+Pit012/013 completed32 repeated observations each with all0 restore. TwoX
+origins per side agree native Y[767.96875,768.06640625] atZ0. Explicit west
+SandMesh/east concreteHull off-components; first-facing limits remain separate
+from full-height wall/body/floor ends. Five context014/015 native originals and
+JPEGs individually inspected/registered; utilitypole still overlaps exactwest
+corner.265 imagehash/nativeUTCdate audit PASS.176 architecturalreports/24
+rejected;404 physicalfeatures/135localchords/459connectorpoints. Updated
+PIT_UPPER_SIDE_CHECKS validates bracket components, poses, repeats, distances,
+matching independent origins and five image hashes. Diagram rendered/inspected.
+Full critical extents/layered architectural footprint remain open; Gate1 FAIL.

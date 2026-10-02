@@ -314,6 +314,174 @@
       "material_shape": "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 83785"
     }
   ],
+  "facing_limits": [
+    {
+      "side": "WEST",
+      "report": "PIT_WEST_Z0_FIRST_MESH_LIMIT_012",
+      "native_y_interval": [
+        767.96875,
+        768.06640625
+      ],
+      "source_y_cm_interval": [
+        1950.640625,
+        1950.888671875
+      ],
+      "height_native": 0,
+      "points": [
+        {
+          "origin": "X1400",
+          "component": "on",
+          "hit": [
+            1272.0,
+            767.97,
+            0.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 83293"
+          ]
+        },
+        {
+          "origin": "X1400",
+          "component": "off",
+          "hit": [
+            1253.2,
+            768.07,
+            0.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 83785"
+          ]
+        },
+        {
+          "origin": "X1424",
+          "component": "on",
+          "hit": [
+            1272.0,
+            767.97,
+            0.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 83293"
+          ]
+        },
+        {
+          "origin": "X1424",
+          "component": "off",
+          "hit": [
+            1253.2,
+            768.07,
+            0.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop sand, contents 400004c1, shape type: Mesh, face: 83785"
+          ]
+        }
+      ],
+      "scope": "Repeated fixed-Z first-facing visibility/material limit, not full-height structural end or ground outline."
+    },
+    {
+      "side": "EAST",
+      "report": "PIT_EAST_Z0_FIRST_MESH_LIMIT_013",
+      "native_y_interval": [
+        767.96875,
+        768.06640625
+      ],
+      "source_y_cm_interval": [
+        1950.640625,
+        1950.888671875
+      ],
+      "height_native": 0,
+      "points": [
+        {
+          "origin": "X1400",
+          "component": "on",
+          "hit": [
+            1592.0,
+            767.97,
+            0.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 83589"
+          ]
+        },
+        {
+          "origin": "X1400",
+          "component": "off",
+          "hit": [
+            1613.97,
+            768.07,
+            0.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        },
+        {
+          "origin": "X1424",
+          "component": "on",
+          "hit": [
+            1592.0,
+            767.97,
+            0.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Mesh, face: 83589"
+          ]
+        },
+        {
+          "origin": "X1424",
+          "component": "off",
+          "hit": [
+            1613.97,
+            768.07,
+            0.0
+          ],
+          "surface": [
+            "Hit: hitbox 0, hitgroup -1, bone -1, solid 1, surfaceprop concrete, contents 400004c1, shape type: Hull, face: -1"
+          ]
+        }
+      ],
+      "scope": "Repeated fixed-Z first-facing visibility/material limit, not full-height structural end or ground outline."
+    }
+  ],
+  "reviewed_component_contexts": [
+    {
+      "id": "QA_PIT_UPPER_ENDS_CONTEXT_014",
+      "repository_image_path": "reference/images/pit/QA_PIT_UPPER_ENDS_CONTEXT_014.jpg",
+      "jpeg_sha256": "d36bb1ee9a7da0b476df355fe32c7391872492e6a577f4f6e49a4a307dce2d12",
+      "pose_command": "setpos_exact 1400.000000 1000.000000 0.000000;setang_exact 12.000153 -90.000000 0.000000",
+      "review": "Native original individually inspected. Clean current-build upper Pit ramp/retaining-end context; source X decreases toward utility-pole side, X increases toward signed stair side. Broad ramp, both stepped masonry ends and closed back leaf visible; exact low face/floor contact partly hidden by curb and perspective."
+    },
+    {
+      "id": "QA_PIT_WEST_UPPER_END_CONTEXT_014",
+      "repository_image_path": "reference/images/pit/QA_PIT_WEST_UPPER_END_CONTEXT_014.jpg",
+      "jpeg_sha256": "1b956be2715a50c88b74ab125feb31023e6c38f7e49db90a422dccf2984912b2",
+      "pose_command": "setpos_exact 1400.000000 850.000000 0.000000;setang_exact 9.999969 -144.999969 0.000000",
+      "review": "Native original individually inspected. Clean current-build upper Pit ramp/retaining-end context; source X decreases toward utility-pole side, X increases toward signed stair side. Utility-pole side close context; pole overlaps terminal masonry edge and cap, so this is complementary side coverage, not an unobstructed numeric corner."
+    },
+    {
+      "id": "QA_PIT_EAST_UPPER_END_CONTEXT_014",
+      "repository_image_path": "reference/images/pit/QA_PIT_EAST_UPPER_END_CONTEXT_014.jpg",
+      "jpeg_sha256": "4b001a33e40f6744d0588f2580b0fb531ec1f5700da43e016b412271e1d8b446",
+      "pose_command": "setpos_exact 1400.000000 850.000000 0.000000;setang_exact 9.999969 -25.000076 0.000000",
+      "review": "Native original individually inspected. Clean current-build upper Pit ramp/retaining-end context; source X decreases toward utility-pole side, X increases toward signed stair side. Signed-stair side close context; bevelled terminal body and adjoining stair/curb visible. No image-only dimensions or new camera calibration accepted."
+    },
+    {
+      "id": "QA_PIT_WEST_END_INTERIOR_015",
+      "repository_image_path": "reference/images/pit/QA_PIT_WEST_END_INTERIOR_015.jpg",
+      "jpeg_sha256": "0e0da1648e8fc8504d7513028b13152b9498b1b0843282e751b59e07dcf7d4f4",
+      "pose_command": "setpos_exact 1400.000000 700.000000 -20.000000;setang_exact -5.000153 150.000122 0.000000",
+      "review": "Native original individually inspected. Complementary insidePit retainingterminal view; western inner plaster and curb clear; utilitypole overlaps exact terminal/cap corner, so no precise unobstructed numeric corner acceptance."
+    },
+    {
+      "id": "QA_PIT_EAST_END_INTERIOR_015",
+      "repository_image_path": "reference/images/pit/QA_PIT_EAST_END_INTERIOR_015.jpg",
+      "jpeg_sha256": "0d2b7832757d02ea72822f65fd98f090a4e95dcf52dda99283b084d72c026c6b",
+      "pose_command": "setpos_exact 1400.000000 700.000000 -20.000000;setang_exact -5.000153 19.999924 0.000000",
+      "review": "Native original individually inspected. Complementary insidePit retainingterminal view; eastern signed lowterminal masonry and adjoining curb clear; higherstep/cap and hidden stairside remain separate."
+    }
+  ],
+  "context_limits": "Ground images corroborate retaining-body/cap/curb association. Utility pole overlaps precise west terminal. New context poses have no camera calibration; no metric image inversion accepted.",
   "scope": "At Y750 high64 west misses lowMesh while low20 and fixedZ0 see it. Other upper stations reach separate terrain/barrel/remote masonry. Same ray height is required for longitudinal facing-limit comparison. No far-hit width, continuous wall, actual body end or closed footprint inferred.",
   "gate1": "FAIL"
 }

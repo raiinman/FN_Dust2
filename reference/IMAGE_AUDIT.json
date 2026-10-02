@@ -1,8 +1,8 @@
 {
   "review_date": "2026-10-02",
   "source_build": "25640462",
-  "registered_images": 260,
-  "native_timestamp_dates_checked": 260,
+  "registered_images": 265,
+  "native_timestamp_dates_checked": 265,
   "coverage_excluded": 8,
   "complete_areas": 16,
   "complete_subareas": 11,
@@ -2752,6 +2752,46 @@
       "sha256": "64745f1ceb370bff853664dd7ee1236d2e023d6cbed4f07d26e215e02fc0811c",
       "coverage_status": "PARTIAL",
       "review": "Native image and every marker crop individually inspected. JPEG individually inspected and accepted for stated reference/calibration purpose. Central raised ground, retaining timber strips and green covered mass visible. Outer courtyard and roofs partly outside frame; covered ground hidden. Eight fit and ten independent varied-height markers calibrate this exact observed pitch89 pose only."
+    },
+    {
+      "id": "QA_PIT_UPPER_ENDS_CONTEXT_014",
+      "area": "Pit",
+      "image": "reference/images/pit/QA_PIT_UPPER_ENDS_CONTEXT_014.jpg",
+      "sha256": "d36bb1ee9a7da0b476df355fe32c7391872492e6a577f4f6e49a4a307dce2d12",
+      "coverage_status": "PARTIAL",
+      "review": "Native original individually inspected. Clean current-build upper Pit ramp/retaining-end context; source X decreases toward utility-pole side, X increases toward signed stair side. Broad ramp, both stepped masonry ends and closed back leaf visible; exact low face/floor contact partly hidden by curb and perspective."
+    },
+    {
+      "id": "QA_PIT_WEST_UPPER_END_CONTEXT_014",
+      "area": "Pit",
+      "image": "reference/images/pit/QA_PIT_WEST_UPPER_END_CONTEXT_014.jpg",
+      "sha256": "1b956be2715a50c88b74ab125feb31023e6c38f7e49db90a422dccf2984912b2",
+      "coverage_status": "PARTIAL",
+      "review": "Native original individually inspected. Clean current-build upper Pit ramp/retaining-end context; source X decreases toward utility-pole side, X increases toward signed stair side. Utility-pole side close context; pole overlaps terminal masonry edge and cap, so this is complementary side coverage, not an unobstructed numeric corner."
+    },
+    {
+      "id": "QA_PIT_EAST_UPPER_END_CONTEXT_014",
+      "area": "Pit",
+      "image": "reference/images/pit/QA_PIT_EAST_UPPER_END_CONTEXT_014.jpg",
+      "sha256": "4b001a33e40f6744d0588f2580b0fb531ec1f5700da43e016b412271e1d8b446",
+      "coverage_status": "PARTIAL",
+      "review": "Native original individually inspected. Clean current-build upper Pit ramp/retaining-end context; source X decreases toward utility-pole side, X increases toward signed stair side. Signed-stair side close context; bevelled terminal body and adjoining stair/curb visible. No image-only dimensions or new camera calibration accepted."
+    },
+    {
+      "id": "QA_PIT_WEST_END_INTERIOR_015",
+      "area": "Pit",
+      "image": "reference/images/pit/QA_PIT_WEST_END_INTERIOR_015.jpg",
+      "sha256": "0e0da1648e8fc8504d7513028b13152b9498b1b0843282e751b59e07dcf7d4f4",
+      "coverage_status": "PARTIAL",
+      "review": "Native original individually inspected. Complementary insidePit retainingterminal view; western inner plaster and curb clear; utilitypole overlaps exact terminal/cap corner, so no precise unobstructed numeric corner acceptance."
+    },
+    {
+      "id": "QA_PIT_EAST_END_INTERIOR_015",
+      "area": "Pit",
+      "image": "reference/images/pit/QA_PIT_EAST_END_INTERIOR_015.jpg",
+      "sha256": "0d2b7832757d02ea72822f65fd98f090a4e95dcf52dda99283b084d72c026c6b",
+      "coverage_status": "PARTIAL",
+      "review": "Native original individually inspected. Complementary insidePit retainingterminal view; eastern signed lowterminal masonry and adjoining curb clear; higherstep/cap and hidden stairside remain separate."
     }
   ]
 }

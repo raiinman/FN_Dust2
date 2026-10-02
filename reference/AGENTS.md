@@ -456,3 +456,9 @@ are not continuouswalls; highmisses, distant components and unlike surfaces
 never define bodyends, routewidths or a closed architectural footprint.
 Optional lower004 returnpoints in PIT_BOUNDARY_EVIDENCE preserve Mesh versus
 curved Hull at lowZ-160, separate from fullfloor/contact/terminal bounds.
+
+PIT_UPPER_SIDE_CHECKS optionally validates012/013 matching two-origin firstMesh
+visibility intervals atfixedZ0 and hash-pinned014/015 clean componentcontexts.
+Keep westSandMesh/eastconcreteHull offhits and utilitypole cornerocclusion
+explicit; contextposes are uncalibrated. Rebuild/render/inspect JSON/SVG.
+Facingvisibility bounds never automatically grant fullheight body/floor ends.
