@@ -125,3 +125,8 @@ Default section order:
 - `qa/AGENTS.md` â€” fixed-camera manifests and visual/metric QA.
 - `scripts/AGENTS.md` â€” automation and reproducibility tooling.
 - `evidence/AGENTS.md` â€” gate evidence packages and acceptance records.
+
+
+## README presentation
+
+The root owns `README.md`, its generated decorative `readme-banner.png`, and the generation brief in `readme-banner-prompt.txt`. Preserve the project prose and attribution. Use compact logo badges with Shields.io `label-message-color` URLs; live public GitHub metrics may use Shields.io or Badgen. Artwork is illustrative, and badges do not establish implementation, gate, device, or release acceptance.

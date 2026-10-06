@@ -1,17 +1,17 @@
 # FN_Dust2
 
 <!-- project-header:start -->
-![FN_Dust2 — Reference + Metric Truth](https://capsule-render.vercel.app/api?type=slice&color=0%3AA16207%2C100%3A78350F&height=170&section=header&text=FN_Dust2&fontSize=44&fontColor=FFFFFF&fontAlignY=40&desc=Reference%20%2B%20Metric%20Truth&descSize=17&descAlignY=70)
+![FN_Dust2 — original generated project artwork](readme-banner.png)
 <!-- project-header:end -->
 
 <!-- project-badges:start -->
-[![engine: Unreal Engine](https://img.shields.io/static/v1?label=engine&message=Unreal%20Engine&color=A16207&labelColor=18181B&style=for-the-badge&logo=unrealengine&logoColor=white)](https://github.com/raiinman/FN_Dust2)
-[![target: UEFN](https://img.shields.io/static/v1?label=target&message=UEFN&color=B45309&labelColor=18181B&style=for-the-badge)](https://github.com/raiinman/FN_Dust2)
-[![focus: reference + metrics](https://img.shields.io/static/v1?label=focus&message=reference%20%2B%20metrics&color=64748B&labelColor=18181B&style=for-the-badge)](https://github.com/raiinman/FN_Dust2)
+[![engine: Unreal Engine](https://img.shields.io/badge/engine-Unreal_Engine-A16207?labelColor=333333&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiI%2BPHBhdGggZD0iTTIgMTVWN2E2IDYgMCAwIDEgMTIgMHY4aC0zVjdhMyAzIDAgMCAwLTYgMHY4SDJ6IiBmaWxsPSJ3aGl0ZSIvPjwvc3ZnPg%3D%3D&logoColor=white)](https://github.com/raiinman/FN_Dust2)
+[![target: UEFN](https://img.shields.io/badge/target-UEFN-B45309?labelColor=333333&logo=unrealengine&logoColor=white)](https://github.com/raiinman/FN_Dust2)
+[![focus: reference + metrics](https://img.shields.io/badge/focus-reference_%2B_metrics-64748B?labelColor=333333)](https://github.com/raiinman/FN_Dust2)
 <!-- project-badges:end -->
 
 <!-- project-live-badges:start -->
-[![last commit](https://img.shields.io/github/last-commit/raiinman/FN_Dust2/main?style=flat&labelColor=18181B&color=A16207&logo=github&logoColor=white&label=updated)](https://github.com/raiinman/FN_Dust2/commits/main) [![open issues](https://img.shields.io/github/issues/raiinman/FN_Dust2?style=flat&labelColor=18181B&color=A16207&logo=github&logoColor=white&label=issues)](https://github.com/raiinman/FN_Dust2/issues) [![stars](https://img.shields.io/github/stars/raiinman/FN_Dust2?style=flat&labelColor=18181B&color=A16207&logo=github&logoColor=white&label=stars)](https://github.com/raiinman/FN_Dust2/stargazers)
+[![last commit](https://img.shields.io/github/last-commit/raiinman/FN_Dust2/main?labelColor=333333&color=A16207&logo=github&logoColor=white&label=updated)](https://github.com/raiinman/FN_Dust2/commits/main) [![open issues](https://img.shields.io/github/issues/raiinman/FN_Dust2?labelColor=333333&color=A16207&logo=github&logoColor=white&label=issues)](https://github.com/raiinman/FN_Dust2/issues) [![stars](https://badgen.net/github/stars/raiinman/FN_Dust2?icon=github&color=A16207&labelColor=333333&label=stars)](https://github.com/raiinman/FN_Dust2/stargazers)
 <!-- project-live-badges:end -->
 
 A production benchmark for building a high-fidelity, documented 1:1 Dust II environment in **Unreal Engine**, then converting the result into a **UEFN-compatible** project.

@@ -184,4 +184,4 @@ stay runtime-only; game-native study originals can be reviewed privately.
 
 ## README presentation
 
-The README includes a Capsule Render header, linked identity badges for Unreal Engine, the UEFN target, and the reference/metrics focus, plus live Shields.io badges for main-branch activity, open issues, and stars. These describe the project; Phase 1 and Gate 1 acceptance remain governed by the evidence above.
+The README uses an original generated decorative architectural-study banner, compact logo badges with Shields.io label-message-color URLs, and live public GitHub metrics from Shields.io and Badgen. The prompt is preserved in readme-banner-prompt.txt. The artwork is not surveyed geometry, a project render, or gate evidence; Phase 1 and Gate 1 acceptance remain governed by the evidence above.
