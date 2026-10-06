@@ -181,3 +181,7 @@ stay runtime-only; game-native study originals can be reviewed privately.
 4. Update uncertainty/review against actual criteria. Keep Gate1 FAIL until all
    required evidence passes durably. Commit/push meaningful checkpoints/update
    nearest DOX; root/docs/evidence criteria unchanged. No production yet.
+
+## README presentation
+
+The README includes linked Shields.io badges for Unreal Engine, the UEFN target, and the reference/metrics focus. These describe the project; Phase 1 and Gate 1 acceptance remain governed by the evidence above.
