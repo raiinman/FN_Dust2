@@ -1,5 +1,11 @@
 # FN_Dust2
 
+<!-- project-badges:start -->
+[![engine: Unreal Engine](https://img.shields.io/static/v1?label=engine&message=Unreal%20Engine&color=A16207&labelColor=18181B&style=for-the-badge&logo=unrealengine&logoColor=white)](https://github.com/raiinman/FN_Dust2)
+[![target: UEFN](https://img.shields.io/static/v1?label=target&message=UEFN&color=B45309&labelColor=18181B&style=for-the-badge)](https://github.com/raiinman/FN_Dust2)
+[![focus: reference + metrics](https://img.shields.io/static/v1?label=focus&message=reference%20%2B%20metrics&color=64748B&labelColor=18181B&style=for-the-badge)](https://github.com/raiinman/FN_Dust2)
+<!-- project-badges:end -->
+
 A production benchmark for building a high-fidelity, documented 1:1 Dust II environment in **Unreal Engine**, then converting the result into a **UEFN-compatible** project.
 
 This repository is not a dump of Counter-Strike assets. The benchmark studies the map's spatial relationships, architecture, material language, lighting, and player-readable composition, then rebuilds those elements with original or properly licensed content.
